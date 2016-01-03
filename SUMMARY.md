@@ -7,7 +7,7 @@
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
        * [FAQs](faqs.md)
-       * Grundsätzliche Funktionsweise/Ausblick
+       * [Grundsätzliche Funktionsweise/Ausblick](grundsatzliche_funktionsweiseausblick.md)
    * [CGM](cgm.md)
    * [xdrip](xdrip.md)
 
