@@ -10,6 +10,11 @@ Ein Datenblatt (engl. data sheet) wird vom Hersteller eines Produkts herausgegeb
 Hersteller geben die gesammelten Datenblätter zu einer ganzen Produktfamilie oft in Form von Datenbüchern heraus.
 Konkrete Empfehlungen zum Einsatz des Produkts geben die Hersteller entweder als Unterkapitel im Datenblatt oder als separate Applikationsschrift (eng. application note), im letzteren Fall meistens tief ins Detail gehend. Im Elektronikbereich wird hier beispielsweise erläutert, wie mit einem Steuerschaltkreis ein komplettes geregeltes Netzteil oder mit einem anderen ein Analog-Digital-Umsetzer aufgebaut werden kann.
 
+## DIY
+
+Do-It-Yourself (engl.) selbstgemacht. 
+DIY-Projekt bedeutet in unseren Fall, dass es keine Firma gibt, von der man ein fertiges, funktionierendes System kaufen kann. Die Elemente des Systems sind von Teilnehmern des Projektes entwickelt und zusammengesetzt und werden dir kostenlos zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen Teil dazu beitragen musst, dass das System für dich funktioniert. Wir hoffen, dass DIY dich so sehr begeistern wird, wie uns - sodass du irgendwann einen kleinen Teil dazu beitragen kannst, dass das System für alle besser wird.
+
 ## Nightscout
 
 Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt auf der man seine CGM-Daten üder das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen.
