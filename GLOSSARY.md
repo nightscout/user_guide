@@ -1,11 +1,17 @@
 # Glossary
 
-##BT
+## BT
 
 
 ## CGM
 
-Kontinuierlich messende Glucosesensoren messen die Blutglucose- oder Gewebsglucosekonzentration im Körper. Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Sie können einerseits die Glucose zusammen mit dem zeitlichen Gradienten (Trend) auf einem Display anzeigen und alle Werte speichern, was derzeit in kommerziellen System mit Nadelsensoren angewandt wird. Sie sind ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
+ Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Im Gegensatz zur herkömmlichen Blutzuckermessung wird nicht der Glucosegehalt in einem dafür gewonnenen  Blutstropfen gemessen, sondern im Gewebe es Körpers. Veränderungen treten dort meist mit einer kurzen zeitlichen Verzögerung auf. 
+ Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor,einem Transmitter (Übertragung) und einem Empfangsgerät, das alle Werte speichert und auf dem der Gewebeglukosewert zusammen mit einem Trend auf dem Display angezeigt werden kann. 
+ 
+
+
+## APS
+CGM ist ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
 
 ## Datenblatt
 
