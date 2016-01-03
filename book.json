@@ -2,5 +2,9 @@
     "plugins": [
         "atoc"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"}
+}
 }
