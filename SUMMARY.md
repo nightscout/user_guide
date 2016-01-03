@@ -8,6 +8,7 @@
        * [Grundsätzliche Funktionsweise/Ausblick](grundsatzliche_funktionsweiseausblick.md)
        * [finanzielles / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
    * [CGM](cgm.md)
+       * Dexcom
    * [xdrip](xdrip.md)
        * [Bausatz](bausatz.md)
        * [xdrip App](xdrip_app.md)
