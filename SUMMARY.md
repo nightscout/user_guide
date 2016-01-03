@@ -4,5 +4,5 @@
 * [First Chapter](chapter1.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
-   * sample latex
+   * [sample latex](sample_latex.md)
 
