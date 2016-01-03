@@ -2,6 +2,8 @@
 
 
 ---
+Häufig gestellte Fragen
+
 |Nightscout | *Nacht Kundschafter* | Was ist das NS Projekt? NS (CGM in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt auf der man seine CGM-Daten üder das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen. |
 | -- | -- | -- |
 
