@@ -4,7 +4,7 @@
 ---
 Häufig gestellte Fragen
 
-|  |  |   |
+| test | test | test  |
 | -- | -- | -- |
 | **Nightscout** | *Nacht Kundschafter* | Was ist das Projekt?  ( in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt auf der man seine -Daten üder das Internet sehen kann. Es ermöglicht es seine -Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen. |
 | **#.we.are.not.waiting** | *wie werden nicht warten* | Ausdruck der Enttäuschung über die Pharmaindustrie die die aktuellen technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen. |
