@@ -26,5 +26,5 @@
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
 * [Die Nightscout Website](die_nightscout_website.md)
-   * Haupt Seite
+   * [Haupt Seite](haupt_seite.md)
 
