@@ -28,7 +28,7 @@
    * [Android Wear](android_wear.md)
    * [Pebble](pebble.md)
    * [Apple Watch](apple_watch.md)
+* Ressourcen
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
-* Ressourcen
 
