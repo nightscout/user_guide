@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+   * Abkürzingen/Begriffe, die immer wieder auftauchen
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
