@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
-       * [Haftungsausschluss DIY/Disclaimer](diydisclaimer.md)
+       * [Haftungsausschluss - DIY/Disclaimer](diydisclaimer.md)
        * [FAQs](faqs.md)
        * [Grundsätzliche Funktionsweise/Ausblick](grundsatzliche_funktionsweiseausblick.md)
        * [finanzielles / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
