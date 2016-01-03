@@ -12,7 +12,7 @@
        * [Enlite](enlite.md)
    * [Xdrip](xdrip.md)
        * [Bausatz](bausatz.md)
-       * [xdrip App](xdrip_app.md)
+       * [Xdrip App](xdrip_app.md)
 * [Nightscout einrichten](nightscout_einrichten.md)
    * [Datenblatt](datenblatt.md)
    * [Mongo DB](mongo_db.md)
