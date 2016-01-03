@@ -22,6 +22,7 @@
 * [Nightwatch App](nightwatch_app.md)
    * [Watchface / Smartwatch](watchface__smartwatch.md)
 * [Smartwatch Integration](smartwatch_integration.md)
+   * Pebble
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
 
