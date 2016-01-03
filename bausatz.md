@@ -29,8 +29,8 @@
 | Adafruit Mini Lipo w/Mini-B USB Jack - USB LiIon/LiPoly charger | 1:5 | 2:5 | 3:5 | 4:5 | 5:5 |
 |Seeed Studio Bluetooth V4.0 HM-11 BLE Module | 1:6 | 2:6 | 3:6 | 4:6 | 5:6 |
 |  Handgehäuse Minitec El, 78x48x20, Lava/Grün | 1:7 | 2:7 | 3:7 | 4:7 | 5:7 |
-| 0:8 | 1:8 | 2:8 | 3:8 | 4:8 | 5:8 |
-| 0:9 | 1:9 | 2:9 | 3:9 | 4:9 | 5:9 |
+| Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set | 1:8 | 2:8 | 3:8 | 4:8 | 5:8 |
+| Lipo Akku 1100 mAh 3,7V Einzelzelle  | 1:9 | 2:9 | 3:9 | 4:9 | 5:9 |
 | 0:10 | 1:10 | 2:10 | 3:10 | 4:10 | 5:10 |
 | 0:11 | 1:11 | 2:11 | 3:11 | 4:11 | 5:11 |
 | 0:12 | 1:12 | 2:12 | 3:12 | 4:12 | 5:12 |
