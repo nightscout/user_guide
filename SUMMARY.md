@@ -7,10 +7,10 @@
        * [FAQs](faqs.md)
        * [Grundsätzliche Funktionsweise/Ausblick](grundsatzliche_funktionsweiseausblick.md)
        * [finanzielles / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
+   * [CGM](cgm.md)
    * [xdrip](xdrip.md)
        * [Bausatz](bausatz.md)
        * [xdrip App](xdrip_app.md)
-   * [CGM](cgm.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
 
