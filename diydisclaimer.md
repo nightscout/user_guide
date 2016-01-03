@@ -1,2 +1,6 @@
-# DIY/Disclaimer
+# DIY/Disclaimer (Haftungsausschluss)
+
+HAFTUNGSAUSSCHLUSS
+
+
 
