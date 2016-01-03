@@ -35,6 +35,7 @@ Siehe Nightscout
 ## #WeAreNotWaiting
 
 Ausdruck der Enttäuschung über die Pharmaindustrie die die aktuellen technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen.
+Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
 
 ## 5,5 
 5,5 mmol ist die Entsprechung von 100mg/dl (ein gerne gefeierter Zielwert)
