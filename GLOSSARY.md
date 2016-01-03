@@ -1,5 +1,8 @@
 # Glossary
 
+##BT
+
+
 ## CGM
 
 Kontinuierlich messende Glucosesensoren messen die Blutglucose- oder Gewebsglucosekonzentration im Körper. Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Sie können einerseits die Glucose zusammen mit dem zeitlichen Gradienten (Trend) auf einem Display anzeigen und alle Werte speichern, was derzeit in kommerziellen System mit Nadelsensoren angewandt wird. Sie sind ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
@@ -18,7 +21,7 @@ DIY-Projekt bedeutet in unseren Fall, dass es keine Firma gibt, von der man ein 
 
 ## Nightscout
 
-Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt auf der man seine CGM-Daten üder das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen.
+Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt, auf der man seine CGM-Daten über das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen.
 
 ## NS
 
@@ -27,3 +30,6 @@ Siehe Nightscout
 ## #WeAreNotWaiting
 
 Ausdruck der Enttäuschung über die Pharmaindustrie die die aktuellen technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen.
+
+## 5,5 
+5,5 mmol ist die Entsprechung von 100mg/dl (ein gerne gefeierter Zielwert)
