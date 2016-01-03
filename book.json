@@ -2,7 +2,7 @@
     "plugins": ["atoc"],
     "pluginsConfig": {
         "atoc": {
-            "addClass": false,
+            "addClass": true,
             "className": "atoc"
         }
     }
