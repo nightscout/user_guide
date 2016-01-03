@@ -19,7 +19,7 @@
    * [Nightwatch App](nightwatch_app.md)
        * [Watchface / Smartwatch](watchface__smartwatch.md)
    * [FAQ](nsfaq.md)
+* [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
-* [Glossar](GLOSSARY.md)
 
