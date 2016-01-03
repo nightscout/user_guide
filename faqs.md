@@ -2,7 +2,7 @@
 
 
 ---
-| **Nightscout** | 1:0 | Test  |
+| **Nightscout** | 1:0 | Was ist das Nighscout Projekt?   |
 | -- | -- | -- |
 | **# we are not waiting** | *wie werden nicht warten* | Ausdruck der Enttäuschung über die Pharmaindustrie die die technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen. |
 | **CGM** | *kontinuierliche Glucosemessung* | Kontinuierlich messende Glucosesensoren messen die Blutglucose- oder Gewebsglucosekonzentration im Körper. Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Sie können einerseits die Glucose zusammen mit dem zeitlichen Gradienten (Trend) auf einem Display anzeigen und alle Werte speichern, was derzeit in kommerziellen System mit Nadelsensoren angewandt wird |
