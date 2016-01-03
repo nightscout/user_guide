@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-   * Abkürzingen/Begriffe, die immer wieder auftauchen
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
@@ -20,6 +19,7 @@
    * [Nightwatch App](nightwatch_app.md)
        * [Watchface / Smartwatch](watchface__smartwatch.md)
    * [FAQ](nsfaq.md)
+* Abkürzingen/Begriffe, die immer wieder auftauchen
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
 
