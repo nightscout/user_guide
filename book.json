@@ -1,9 +1,9 @@
 {
     "plugins": [
-        "mathjax"
+        "-mathjax"
     ],
     "pluginsConfig": {
-        "mathjax": {
+        "-mathjax": {
             "forceSVG": false
         }
     }
