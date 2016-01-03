@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "atoc"
+        "-atoc"
     ],
     "pluginsConfig": {}
 }
