@@ -12,7 +12,7 @@ Konkrete Empfehlungen zum Einsatz des Produkts geben die Hersteller entweder als
 
 ## Nightscout
 
-a cloud-based visualization and remote-monitoring tool.
+Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt auf der man seine CGM-Daten üder das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen.
 
 ## NS
 
