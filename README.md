@@ -2,8 +2,6 @@
 Deutsch
 =======
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-1. 
 
 
 
@@ -13,7 +11,7 @@ This file file serves as your book's preface, a great place to describe your boo
 	
 
 
-## 1.1 Wissenswertes
+##    1.1 Wissenswertes
 
 
 
@@ -58,14 +56,30 @@ Kreditkarte
 # 2 Nightscout einrichten
 
 
-2.1	Datenblatt
 
-2.2	Mongo DB
+## 2.1	Datenblatt
+
+
+
+![](Meine persönlichen Benutzerkonto Information.pdf)
+*wie kommt hier ein pdf rein?*
+
+*und wie kommentiere ich sowas hier am geschicktesten?*
+
+
+## 2.2	Mongo DB
+
+
 2.3	GitHub
+
 2.4	Azure
+
 2.5	Nightwatch App
+
 2.6	Watchface/Smartwatch
+
 2.7	FAQ
+
 3	A
 
 
