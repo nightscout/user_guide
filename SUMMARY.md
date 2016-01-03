@@ -15,6 +15,7 @@
    * [Datenblatt](datenblatt.md)
    * [Mongo DB](mongo_db.md)
    * GitHub
+   * Azure
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
 
