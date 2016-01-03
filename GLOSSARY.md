@@ -10,10 +10,10 @@ Ein Datenblatt (engl. data sheet) wird vom Hersteller eines Produkts herausgegeb
 Hersteller geben die gesammelten Datenblätter zu einer ganzen Produktfamilie oft in Form von Datenbüchern heraus.
 Konkrete Empfehlungen zum Einsatz des Produkts geben die Hersteller entweder als Unterkapitel im Datenblatt oder als separate Applikationsschrift (eng. application note), im letzteren Fall meistens tief ins Detail gehend. Im Elektronikbereich wird hier beispielsweise erläutert, wie mit einem Steuerschaltkreis ein komplettes geregeltes Netzteil oder mit einem anderen ein Analog-Digital-Umsetzer aufgebaut werden kann.
 
-## NS
-
-a cloud-based visualization and remote-monitoring tool.
-
 ## Nightscout
 
 a cloud-based visualization and remote-monitoring tool.
+
+## NS
+
+Siehe Nightscout
