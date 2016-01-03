@@ -17,7 +17,7 @@
    * [GitHub](github.md)
    * [Azure](azure.md)
    * [Nightwatch App](nightwatch_app.md)
-       * Watchface / Smartwatch
+       * [Watchface / Smartwatch](watchface__smartwatch.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
 
