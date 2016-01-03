@@ -9,7 +9,7 @@
 
 *HINWEIS: Es gibt keine Unterstützung oder eine Gewährleistung in irgendeiner Art. Die Qualität und Leistungsfähigkeit dieses Projektes hängt von Ihnen selbst ab, wenn Sie sich entscheiden es zu nutzen. Dies ist ein Projekt das ausschließlich von Freiwilligen erstellt und unterstützt wird.*
 
-Alle Informationen, Gedanken des hier beschriebenen Programmcodes sind ausschließlich zu Informationszwecken und für pädagogische Zwecke bestimmt. Die Verwendung von Programmcode aus **github.com** ist ohne jede Garantie oder Unterstützung jeglicher Art.
+Alle Informationen, Gedanken des hier beschriebenen Programmcodes sind ausschließlich zu Informationszwecken und für pädagogische Zwecke bestimmt. Die Verwendung von Programmcode aus **github.com** ist ohne jede Garantie oder Unterstützung jeglicher Art.Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System unbrauchbar werden kann.
 
 
 ## Inhalt des Onlineangebotes
