@@ -2,6 +2,8 @@
 
 
 ---
+
+
 | **Nightscout** | *Nacht Kundschafter* | Was ist das Nighscout Projekt?Nightscout (CGM in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt auf derman seine CGM-Daten üder das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen. |
 | -- | -- | -- |
 | **#.we.are.not.waiting** | *wie werden nicht warten* | Ausdruck der Enttäuschung über die Pharmaindustrie die die aktuellen technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen. |
