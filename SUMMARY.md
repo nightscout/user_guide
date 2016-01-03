@@ -22,4 +22,5 @@
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
 * [Glossar](GLOSSARY.md)
+* tableofcontent
 
