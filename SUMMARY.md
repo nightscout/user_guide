@@ -22,5 +22,5 @@
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
-* [Inhaltsverzeichnis2](inhaltsverzeichnis.md)
+* [Inhaltsverzeichnis](inhaltsverzeichnis.md)
 
