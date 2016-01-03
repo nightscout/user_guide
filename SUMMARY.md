@@ -11,5 +11,5 @@
        * [finanzielles / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
    * [CGM](cgm.md)
    * [xdrip](xdrip.md)
-       * Bausatz
+       * [Bausatz](bausatz.md)
 
