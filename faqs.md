@@ -4,7 +4,7 @@
 ---
 
 
-| **Nightscout** | *Nacht Kundschafter* | Was ist das Nighscout Projekt?Nightscout (CGM in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt auf derman seine CGM-Daten üder das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen. |
+| Nightscout | *Nacht Kundschafter* | Was ist das Nighscout Projekt?Nightscout (CGM in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt auf derman seine CGM-Daten üder das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen. |
 | -- | -- | -- |
 | **#.we.are.not.waiting** | *wie werden nicht warten* | Ausdruck der Enttäuschung über die Pharmaindustrie die die aktuellen technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen. |
 | **CGM** | *kontinuierliche Glucosemessung* | Kontinuierlich messende Glucosesensoren messen die Blutglucose- oder Gewebsglucosekonzentration im Körper. Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Sie können einerseits die Glucose zusammen mit dem zeitlichen Gradienten (Trend) auf einem Display anzeigen und alle Werte speichern, was derzeit in kommerziellen System mit Nadelsensoren angewandt wird |
