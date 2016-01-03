@@ -7,4 +7,5 @@
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
    * [FAQs](faqs.md)
+   * CGM
 
