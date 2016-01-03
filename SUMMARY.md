@@ -23,6 +23,7 @@
    * [Haupt Seite](haupt_seite.md)
    * [Care Portal](care_portal.md)
    * [Nightscout Plugins](nightscout_plugins.md)
+   * Repoerts
 * [Smartwatch Integration](smartwatch_integration.md)
    * [Android Wear](android_wear.md)
    * [Pebble](pebble.md)
