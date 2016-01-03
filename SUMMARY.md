@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Inhaltsverzeichnis](inhaltsverzeichnis.md)
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
@@ -22,5 +23,4 @@
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
-* [Inhaltsverzeichnis](inhaltsverzeichnis.md)
 
