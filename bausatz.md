@@ -24,7 +24,7 @@
 | Bauteil: | Vertrieb: |Preis: | Artikelnummer: | Hersteller-Nr.: | EAN: |
 | -- | -- | -- | -- | -- | -- |
 | IC Lithium-Polymer Akku-Schutzschaltung | Voelkner |2,96 € | Q33939 | S-8261ABJMD-G3J2G |2050000662089 |
-| 0:3 | 1:3 | 2:3 | 3:3 | 4:3 | 5:3 |
+| Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-G3J2G | Conrad | 2,96 € | 155151 - VQ | S-8261ABJMD-G3J2G | 2050000662089 |
 | 0:4 | 1:4 | 2:4 | 3:4 | 4:4 | 5:4 |
 | 0:5 | 1:5 | 2:5 | 3:5 | 4:5 | 5:5 |
 | 0:6 | 1:6 | 2:6 | 3:6 | 4:6 | 5:6 |
