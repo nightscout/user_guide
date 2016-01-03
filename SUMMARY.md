@@ -2,6 +2,9 @@
 
 * [Introduction](README.md)
 * Smartwatch Integration
+* [Nightwatch App](nightwatch_app.md)
+   * [Watchface / Smartwatch](watchface__smartwatch.md)
+   * Smartwatch Integration
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
@@ -20,9 +23,6 @@
    * [GitHub](github.md)
    * [Azure](azure.md)
    * [Nightscout FAQs](nsfaqs.md)
-* [Nightwatch App](nightwatch_app.md)
-   * [Watchface / Smartwatch](watchface__smartwatch.md)
-   * Smartwatch Integration
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
 
