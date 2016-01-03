@@ -20,7 +20,7 @@
    * [Azure](azure.md)
    * [Nightscout FAQs](nsfaqs.md)
 * [Smartwatch Integration](smartwatch_integration.md)
-   * Android Wear
+   * [Android Wear](android_wear.md)
    * [Pebble](pebble.md)
    * Apple Watch
 * [Glossar](GLOSSARY.md)
