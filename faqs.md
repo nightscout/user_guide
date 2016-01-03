@@ -1,2 +1,5 @@
-# FAQs
+# **Frequently Asked Questions**
+
+
+---
 
