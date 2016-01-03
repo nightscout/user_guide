@@ -29,4 +29,4 @@ Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Proje
 
 ## NS
 
-Siehe Nightscout.
+Siehe Nightscout
