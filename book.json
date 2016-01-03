@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "atoc"
+        "atoc",
+        "gtoc"
     ],
     "pluginsConfig": {
         "atoc": {
