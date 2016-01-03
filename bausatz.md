@@ -23,10 +23,10 @@
 
 | Bauteil: | Vertrieb: |Preis: | Artikelnummer: | Hersteller-Nr.: | EAN: |
 | -- | -- | -- | -- | -- | -- |
-| IC Lithium-Polymer Akku-Schutzschaltung | Voelkner |2,96 € | Q33939 | S-8261ABJMD-G3J2G |2050000662089 |
-| Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-G3J2G | Conrad | 2,96 € | 155151 - VQ | S-8261ABJMD-G3J2G | 2050000662089 |
-| Pololu Wixel Programmable USB Wireless Module| EXP TECH | 18,60 € | EXP-R25-070 | Pololu  1337 |  |
-| Adafruit Mini Lipo w/Mini-B USB Jack - USB LiIon/LiPoly charger | EXP TECH | 7,65 € | EXP-R15-446 | Adafruit  1905 |  |
+| [IC Lithium-Polymer Akku-Schutzschaltung](http://www.voelkner.de/products/128243/IC-Lithium-Polymer-Akku-Schutzschaltung.html) | Voelkner |2,96 € | Q33939 | S-8261ABJMD-G3J2G |2050000662089 |
+| [Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-G3J2G](https://www.conrad.de/de/schutzmodul-fuer-lithium-polymer-akkumulator-s-8261abjmd-g3j2g-gehaeuseart-aufgebaute-platine-ausfuehrung-schutzmodul-fuer-lithium-polymer-akkumulator-155151.html?ref=searchDetail) | Conrad | 2,96 € | 155151 - VQ | S-8261ABJMD-G3J2G | 2050000662089 |
+| [Pololu Wixel Programmable USB Wireless Module](http://www.exp-tech.de/pololu-wixel-programmable-usb-wireless-module)| EXP TECH | 18,60 € | EXP-R25-070 | Pololu  1337 |  |
+| [Adafruit Mini Lipo w/Mini-B USB Jack - USB LiIon/LiPoly charger](http://www.exp-tech.de/adafruit-mini-lipo-w-mini-b-usb-jack-usb-liion-lipoly-charger) | EXP TECH | 7,65 € | EXP-R15-446 | Adafruit  1905 |  |
 |Seeed Studio Bluetooth V4.0 HM-11 BLE Module | EXP TECH | 12,28 € | EXP-R02-308 | Seeed Studio  210005001 |  |
 |  Handgehäuse Minitec El, 78x48x20, Lava/Grün | Voelkner | 12,38 € | S23261 | D9006178 | 2050001140593 |
 | Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set | Conrad | 13,57 € | 535384 - 62 | D9006178 | 2050001140593 |
