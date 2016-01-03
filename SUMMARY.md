@@ -21,5 +21,5 @@
    * [FAQ](nsfaq.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
-* Glossar
+* [Glossar](GLOSSARY.md)
 
