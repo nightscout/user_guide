@@ -1,5 +1,5 @@
 # Summary
-
+![](wearnotwating.png)
 * [Inhaltsverzeichnis](README.md)
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
