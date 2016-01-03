@@ -6,7 +6,7 @@
        * [Haftungsausschluss - DIY/Disclaimer](diydisclaimer.md)
        * [FAQs](faqs.md)
        * [Grundsätzliche Funktionsweise/Ausblick](grundsatzliche_funktionsweiseausblick.md)
-       * [finanzielles / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
+       * [finanzielle / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
    * [CGM](cgm.md)
        * [Dexcom](dexcom.md)
        * [Enlite](enlite.md)
