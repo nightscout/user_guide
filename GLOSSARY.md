@@ -21,7 +21,7 @@ DIY-Projekt bedeutet in unseren Fall, dass es keine Firma gibt, von der man ein 
 
 ## Nightscout
 
-Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt, auf der man seine CGM-Daten über das Internet sehen kann. Es ermöglicht es seine CGM-Daten auf seinem Smartphone, einer Smartwatch oder jedem Internet-Browser anzuzeigen. Dazu gehören Apps und Widgets die dies ermöglichen.
+Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt, auf der man seine CGM-Daten über das Internet sehen kann. Entwickelt wurde es ürspünglich von Eltern, die die Werte ihrer Kinder aus der Ferne beobachten wollen, aber mittlerweile nutzen es Erwachsene um die Daten weiter zu verwerten. Die Daten können nicht nur in einem Internetbrowser, sondern auch über Apps und Widges auf dem Smartphone und auf Smartwatches angezeigt werden.   
 
 ## NS
 
