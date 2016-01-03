@@ -8,7 +8,9 @@
 
 ---
 
-**HINWEIS:** *Es gibt keine Unterstützung oder eine Gewährleistung in irgendeiner Art. Die Qualität und Leistungsfähigkeit dieses Projektes hängt von Ihnen selbst ab, wenn Sie sich entscheiden es zu nutzen. Dies ist ein Projekt das ausschließlich von Freiwilligen erstellt und unterstützt wird.*
+**HINWEIS:** *Es gibt keine Unterstützung oder eine Gewährleistung in irgendeiner Art. Die Qualität und Leistungsfähigkeit dieses Projektes hängt von Ihnen selbst ab, wenn Sie sich entscheiden es zu nutzen.* 
+
+*Dies ist ein Projekt das ausschließlich von Freiwilligen erstellt und unterstützt wird.*
 
 ---
 
