@@ -1,14 +1,4 @@
 {
-    "plugins": [
-        "insert-md"
-    ],
-   
-
-
-"pluginsConfig": {
-  "insert-md": {
-    "md": "#Hello world\n##Hello world again"
-  }
-}
-
+    "plugins": [],
+    "pluginsConfig": {}
 }
