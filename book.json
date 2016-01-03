@@ -1,4 +1,6 @@
 {
-    "plugins": [],
+    "plugins": [
+        "insert-md"
+    ],
     "pluginsConfig": {}
 }
