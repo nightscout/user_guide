@@ -5,5 +5,5 @@
    * [testtte](testtte.md)
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
-       * DIY/Disclaimer
+       * [DIY/Disclaimer](diydisclaimer.md)
 
