@@ -4,25 +4,29 @@
 
 ---
 
-**Verwenden Sie niemals Nightscout Informationen oder Programmcode, um medizinische Entscheidungen zu treffen.**
+**Verwende die Informationen aus Nightscout oder den Programmcode niemals, um medizinische Entscheidungen zu treffen.**
 
 ---
 
-**HINWEIS:** *Es gibt keine Unterstützung oder eine Gewährleistung in irgendeiner Art. Die Qualität und Leistungsfähigkeit dieses Projektes hängt von Ihnen selbst ab, wenn Sie sich entscheiden es zu nutzen.* 
+**HINWEIS:** 
 
-*Dies ist ein Projekt das ausschließlich von Freiwilligen erstellt und unterstützt wird.*
+*Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und unterstützt wird.*
+
+*Es gibt in diesem Projekt keine Gewährleistung oder garantierte Unterstützung in irgendeiner Art. Wenn Du dich entscheidest es zu nutzen, hängt die Qualität und Leistungsfähigkeit dieses Projektes von dir selbst ab.* 
+
+
 
 ---
 
-Alle Informationen, Gedanken des hier beschriebenen Programmcodes sind ausschließlich zu Informationszwecken und für pädagogische Zwecke bestimmt. Die Verwendung von Programmcode aus **github.com** ist ohne jede Garantie oder Unterstützung jeglicher Art.
+Alle Informationen und Gedanken des hier beschriebenen Programmcodes sind ausschließlich zu Informationszwecken und für pädagogische Zwecke bestimmt. Die Verwendung von Programmcode aus **github.com** ist ohne jede Garantie oder Unterstützung jeglicher Art.
 
 Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System unbrauchbar werden kann!
 
-Es gibt keine Passwort geschützte Privatsphäre oder irgendeine Sicherheit von den Tools die hier zur Verfügung gestellt werden. Alle Daten die Sie hochladen können, sind für jeden im Internet zu lesen, wenn sie Ihre spezifische URL (Internetadresse) freigeben oder weitergeben.
+Es gibt keine Passwort geschützte Privatsphäre oder irgendeine Sicherheit der Tools, die hier zur Verfügung gestellt werden. Alle Daten die du hochlädst, sind für jeden im Internet zu lesen, wenn du ihre spezifische URL (Internetadresse) freigibst oder weitergibst.
 
 
 Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat keine Verbindung mit der Firma **Dexcom** oder zu einem anderen Unternehmen, Dienstleistungen oder Produkten das auf dieser Website erwähnt wird.
-Alle anderen hier erwähnten Produkt- und Firmennamen sind Marken der jeweiligen Eigentümer bzw Hersteller.
+Alle hier erwähnten Produkt- und Firmennamen sind Marken der jeweiligen Eigentümer bzw. Hersteller.
 
 ---
 
