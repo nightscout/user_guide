@@ -10,18 +10,30 @@
 
 cxxcxc
 
+* 
+* 
+* 
 
 
-```CODE CODE
+``CODE CODE
 sdsdsdsdsd
 dsdsdsdsd
 dsdsdsds
 DSsdsds
 dssd
 dssdsdd
-```
+``
 
-| 0:0 | 1:0 |
+Victoria kann Farben zaubern!
+
+
+``teach me!``
+
+´´geht auch grün´?´´
+
+
+
+| Bayern gegen München 0:0 | Werder gegen Bremen 1:0 |
 | -- | -- |
 | 0:2 | 1:2 |
 
@@ -30,3 +42,8 @@ xcxc
 xcxc
 xcxc
 cxcxc
+
+
+| 0:0 | 1:0 |
+| -- | -- |
+| 0:2 | 1:2 |
