@@ -14,6 +14,6 @@ Konkrete Empfehlungen zum Einsatz des Produkts geben die Hersteller entweder als
 
 a cloud-based visualization and remote-monitoring tool.
 
-## Nightscout
+## Nightscout or NS
 
 a cloud-based visualization and remote-monitoring tool.
