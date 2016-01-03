@@ -13,5 +13,5 @@
        * [xdrip App](xdrip_app.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
-* Nightscout einrichten
+* [Nightscout einrichten](nightscout_einrichten.md)
 
