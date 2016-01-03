@@ -33,7 +33,7 @@
 | [Lipo Akku 1100 mAh 3,7V Einzelzelle](http://shop.lipopower.de/1100-mAh-37V-Einzelzelle-1C-34mm-breit)  | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  |
 | Metallschichtwiderstand 10k |  |  |  |  |  |
 | Metallschichtwiderstand 27k |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| Farbige flexible Leitungen (dünn) |  |  |  |  |  |
+| Lötzinn |  |  |  |  |  |
+| Schrumpfschlauch |  |  |  |  |  |
+| Epoxid Trennschicht |  |  |  |  |  |
