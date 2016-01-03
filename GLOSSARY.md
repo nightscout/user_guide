@@ -16,7 +16,6 @@ Konkrete Empfehlungen zum Einsatz des Produkts geben die Hersteller entweder als
 ## DIY
 
 Do-It-Yourself (engl.) selbstgemacht. 
-
 DIY-Projekt bedeutet in unseren Fall, dass es keine Firma gibt, von der man ein fertiges, funktionierendes System kaufen kann. Die Elemente des Systems sind von Teilnehmern des Projektes entwickelt und zusammengesetzt und werden dir kostenlos zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen Teil dazu beitragen musst, dass das System für dich funktioniert. Wir hoffen, dass DIY dich so sehr begeistern wird, wie uns - sodass du irgendwann einen kleinen Teil dazu beitragen kannst, dass das System für alle besser wird.
 
 ## Nightscout
