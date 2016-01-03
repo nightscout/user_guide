@@ -1,8 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [testbereich](testbereich.md)
-   * [testtte](testtte.md)
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [xdrip](xdrip.md)
        * [Bausatz](bausatz.md)
@@ -13,5 +11,6 @@
        * [Grundsätzliche Funktionsweise/Ausblick](grundsatzliche_funktionsweiseausblick.md)
        * [finanzielles / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
    * [CGM](cgm.md)
-       * 
+* [testbereich](testbereich.md)
+   * [testtte](testtte.md)
 
