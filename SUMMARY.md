@@ -19,7 +19,7 @@
    * [Azure](azure.md)
    * [Nightwatch App](nightwatch_app.md)
        * [Watchface / Smartwatch](watchface__smartwatch.md)
-   * [FAQ](nsfaq.md)
+   * [FAQs](nsfaqs.md)
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
