@@ -23,11 +23,11 @@
    * [Haupt Seite](haupt_seite.md)
    * [Nightscout Plugins](nightscout_plugins.md)
    * [Care Portal](care_portal.md)
-   * [Reports](reports.md)
 * [Smartwatch Integration](smartwatch_integration.md)
    * [Android Wear](android_wear.md)
    * [Pebble](pebble.md)
    * [Apple Watch](apple_watch.md)
 * [Glossar](GLOSSARY.md)
+* [Reports](reports.md)
 * [testbereich](testbereich.md)
 
