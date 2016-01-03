@@ -6,5 +6,5 @@
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
-   * FAQs
+   * [FAQs](faqs.md)
 
