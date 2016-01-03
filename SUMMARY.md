@@ -10,7 +10,7 @@
    * [CGM](cgm.md)
        * [Dexcom](dexcom.md)
        * [Enlite](enlite.md)
-   * [xdrip](xdrip.md)
+   * [Xdrip](xdrip.md)
        * [Bausatz](bausatz.md)
        * [xdrip App](xdrip_app.md)
 * [Nightscout einrichten](nightscout_einrichten.md)
