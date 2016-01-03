@@ -17,3 +17,7 @@ Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Proje
 ## NS
 
 Siehe Nightscout
+
+## #WeAreNotWaiting
+
+Ausdruck der Enttäuschung über die Pharmaindustrie die die aktuellen technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen.
