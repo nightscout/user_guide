@@ -8,7 +8,7 @@
 
 ---
 
-![](xdrip schaltbild-V3 usb.png)
+![](687474703a2f2f692e696d6775722e636f6d2f4549476b6935522e706e67.png)
 
 
 ---
@@ -37,3 +37,8 @@
 | Lötzinn |  |  |  |  |  |
 | Schrumpfschlauch |  |  |  |  |  |
 | Epoxid Trennschicht |  |  |  |  |  |
+
+
+---
+
+![](xdrip schaltbild-V3 usb.png)
