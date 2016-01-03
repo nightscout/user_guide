@@ -1,6 +1,6 @@
 ![](wearnotwating.png)
-# Introduction 
-* [Introduction](README.md)
+# Einführung 
+* [Einführung](README.md)
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [Haftungsausschluss - DIY/Disclaimer](diydisclaimer.md)
