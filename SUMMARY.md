@@ -6,7 +6,7 @@
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [xdrip](xdrip.md)
        * [Bausatz](bausatz.md)
-       * xdrip App
+       * [xdrip App](xdrip_app.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
        * [FAQs](faqs.md)
