@@ -1,6 +1,4 @@
 {
-    "plugins": [
-        "toc"
-    ],
+    "plugins": [],
     "pluginsConfig": {}
 }
