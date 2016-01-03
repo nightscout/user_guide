@@ -22,7 +22,7 @@
 * [Smartwatch Integration](smartwatch_integration.md)
    * [Android Wear](android_wear.md)
    * [Pebble](pebble.md)
-   * Apple Watch
+   * [Apple Watch](apple_watch.md)
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
 
