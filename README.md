@@ -1,8 +1,8 @@
 ![](wearnotwating.png)
 # Introduction 
 
+
 * [Introduction](README.md)
-* [Inhaltsverzeichnis](SUMMARY.md)
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
@@ -18,9 +18,9 @@
    * [Mongo DB](mongo_db.md)
    * [GitHub](github.md)
    * [Azure](azure.md)
-   * [Nightwatch App](nightwatch_app.md)
-       * [Watchface / Smartwatch](watchface__smartwatch.md)
    * [Nightscout FAQs](nsfaqs.md)
+* [Nightwatch App](nightwatch_app.md)
+   * [Watchface / Smartwatch](watchface__smartwatch.md)
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
