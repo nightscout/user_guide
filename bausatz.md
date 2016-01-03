@@ -30,7 +30,7 @@
 |Seeed Studio Bluetooth V4.0 HM-11 BLE Module | EXP TECH | 12,28 € | EXP-R02-308 | Seeed Studio  210005001 |  |
 |  Handgehäuse Minitec El, 78x48x20, Lava/Grün | Voelkner | 12,38 € | S23261 | D9006178 | 2050001140593 |
 | Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set | Conrad | 13,57 € | 535384 - 62 | D9006178 | 2050001140593 |
-| Lipo Akku 1100 mAh 3,7V Einzelzelle  | 1:9 | 2:9 | 3:9 | 4:9 | 5:9 |
+| Lipo Akku 1100 mAh 3,7V Einzelzelle  | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  |
 | 0:10 | 1:10 | 2:10 | 3:10 | 4:10 | 5:10 |
 | 0:11 | 1:11 | 2:11 | 3:11 | 4:11 | 5:11 |
 | 0:12 | 1:12 | 2:12 | 3:12 | 4:12 | 5:12 |
