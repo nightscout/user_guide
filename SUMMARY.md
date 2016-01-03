@@ -9,7 +9,7 @@
        * [finanzielles / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
    * [CGM](cgm.md)
        * [Dexcom](dexcom.md)
-       * Enlite
+       * [Enlite](enlite.md)
    * [xdrip](xdrip.md)
        * [Bausatz](bausatz.md)
        * [xdrip App](xdrip_app.md)
