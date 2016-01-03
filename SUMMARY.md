@@ -19,7 +19,6 @@
    * [Nightwatch App](nightwatch_app.md)
        * [Watchface / Smartwatch](watchface__smartwatch.md)
    * [FAQ](nsfaq.md)
-* [Abkürzingen/Begriffe, die immer wieder auftauchen](GLOSSARY.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
 
