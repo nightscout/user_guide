@@ -6,7 +6,7 @@
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
-       * [FAQ](faq.md)
+       * [FAQs](faqs.md)
        * [Grundsätzliche Funktionsweise/Ausblick](grundsatzliche_funktionsweiseausblick.md)
        * [finanzielles / technische Voraussetzungen](finanzielles__technische_voraussetzungen.md)
    * [CGM](cgm.md)
@@ -20,7 +20,8 @@
    * [Azure](azure.md)
    * [Nightwatch App](nightwatch_app.md)
        * [Watchface / Smartwatch](watchface__smartwatch.md)
-   * [FAQ](nsfaq.md)
+   * [Nightscout FAQs](nsfaqs.md)
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
+
