@@ -2,5 +2,13 @@
     "plugins": [
         "insert-md"
     ],
-    "pluginsConfig": {}
+   
+
+
+"pluginsConfig": {
+  "insert-md": {
+    "md": "#Hello world\n##Hello world again"
+  }
+}
+
 }
