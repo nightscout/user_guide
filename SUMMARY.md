@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Inhaltsverzeichnis](summary.md)
+* [Inhaltsverzeichnis](SUMMARY.md)
 * [Grundvoraussetzungen](grundvoraussetzungen.md)
    * [Wissenswertes](wissenswertes.md)
        * [DIY/Disclaimer](diydisclaimer.md)
