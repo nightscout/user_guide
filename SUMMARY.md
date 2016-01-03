@@ -25,6 +25,6 @@
    * [Apple Watch](apple_watch.md)
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
-* Die Nightscout Website
+* [Die Nightscout Website](die_nightscout_website.md)
    * Haupt Seite
 
