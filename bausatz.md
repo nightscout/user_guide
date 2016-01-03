@@ -31,9 +31,9 @@
 | [ Handgehäuse Minitec El, 78x48x20, Lava/Grün](http://www.voelkner.de/products/213275/Minitec-El-78x48x20-Lava-Gruen.html) | Voelkner | 12,38 € | S23261 | D9006178 | 2050001140593 |
 | [Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set](https://www.conrad.de/de/hand-gehaeuse-78-x-48-x-20-kunststoff-lava-gruen-okw-minitec-d9006178-1-set-535384.html?ref=searchDetail) | Conrad | 13,57 € | 535384 - 62 | D9006178 | 2050001140593 |
 | [Lipo Akku 1100 mAh 3,7V Einzelzelle](http://shop.lipopower.de/1100-mAh-37V-Einzelzelle-1C-34mm-breit)  | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  |
-| Metallschichtwiderstand 10k | 1:10 | 2:10 | 3:10 | 4:10 | 5:10 |
-| Metallschichtwiderstand 27k | 1:11 | 2:11 | 3:11 | 4:11 | 5:11 |
-| 0:12 | 1:12 | 2:12 | 3:12 | 4:12 | 5:12 |
-| 0:13 | 1:13 | 2:13 | 3:13 | 4:13 | 5:13 |
-| 0:14 | 1:14 | 2:14 | 3:14 | 4:14 | 5:14 |
-| 0:15 | 1:15 | 2:15 | 3:15 | 4:15 | 5:15 |
+| Metallschichtwiderstand 10k |  |  |  |  |  |
+| Metallschichtwiderstand 27k |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
