@@ -21,7 +21,6 @@
    * [Nightscout FAQs](nsfaqs.md)
 * [Smartwatch Integration](smartwatch_integration.md)
    * [Nightwatch App](nightwatch_app.md)
-       * [Watchface / Smartwatch](watchface__smartwatch.md)
    * Pebble
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
