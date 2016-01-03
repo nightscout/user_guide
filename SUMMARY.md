@@ -20,7 +20,7 @@
    * [Azure](azure.md)
    * [Nightscout FAQs](nsfaqs.md)
 * [Smartwatch Integration](smartwatch_integration.md)
-   * Pebble
+   * [Pebble](pebble.md)
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
 
