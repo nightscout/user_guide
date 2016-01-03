@@ -1,17 +1,22 @@
 # Glossary
 
-## BT
+## #WeAreNotWaiting
 
+Ausdruck der Enttäuschung über die Pharmaindustrie die die aktuellen technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen.
+Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
+
+## 5,5
+
+5,5 mmol ist die Entsprechung von 100mg/dl (ein gerne gefeierter Zielwert)
+
+## APS
+
+CGM ist ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
 
 ## CGM
 
  Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Im Gegensatz zur herkömmlichen Blutzuckermessung wird nicht der Glucosegehalt in einem dafür gewonnenen  Blutstropfen gemessen, sondern im Gewebe es Körpers. Veränderungen treten dort meist mit einer kurzen zeitlichen Verzögerung auf. 
  Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem Transmitter (Übertragung) und einem Empfangsgerät, das alle Werte speichert und auf dem der Gewebeglukosewert zusammen mit einem Trend auf dem Display angezeigt werden kann. 
- 
-
-
-## APS
-CGM ist ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
 
 ## Datenblatt
 
@@ -30,12 +35,4 @@ Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open Source, DIY-Proje
 
 ## NS
 
-Siehe Nightscout
-
-## #WeAreNotWaiting
-
-Ausdruck der Enttäuschung über die Pharmaindustrie die die aktuellen technischen Möglichkeiten nicht ausschöpft um Betroffenen Typ 1. Diabetikern zu helfen.
-Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
-
-## 5,5 
-5,5 mmol ist die Entsprechung von 100mg/dl (ein gerne gefeierter Zielwert)
+Siehe Nightscout.
