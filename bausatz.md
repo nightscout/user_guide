@@ -16,7 +16,7 @@
 
 ## 
 
-** Stückliste**
+** Stückliste - xDrip V3usb (Stand: September 2015)**
 
 
 ---
