@@ -1,5 +1,8 @@
 {
-    "plugins": ["atoc"],
+    "plugins": [
+        "atoc",
+        "gtoc"
+    ],
     "pluginsConfig": {
         "atoc": {
             "addClass": true,
