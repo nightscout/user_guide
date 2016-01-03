@@ -4,6 +4,3 @@ xcxcxc
 cxc
 
 cxc
-
-
-<!-- toc -->
