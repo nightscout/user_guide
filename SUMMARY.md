@@ -22,7 +22,7 @@
    * [GitHub](github.md)
    * [Azure](azure.md)
    * [Nightscout FAQs](nsfaqs.md)
-* Smartwatch Integration
+* [Smartwatch Integration](smartwatch_integration.md)
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
 
