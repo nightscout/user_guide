@@ -12,7 +12,7 @@
        * [Bausatz](bausatz.md)
        * [xdrip App](xdrip_app.md)
 * [Nightscout einrichten](nightscout_einrichten.md)
-   * Datenblatt
+   * [Datenblatt](datenblatt.md)
    * [Mongo DB](mongo_db.md)
 * [testbereich](testbereich.md)
    * [testtte](testtte.md)
