@@ -25,7 +25,7 @@
    * [Care Portal](care_portal.md)
    * [Reports](reports.md)
 * [Smartwatch Integration](smartwatch/smartwatch_integration.md)
-   * [Android Wear](android_wear.md)
+   * [Android Wear](smartwatch/android_wear.md)
    * [Pebble](pebble.md)
    * [Apple Watch](apple_watch.md)
 * [Ressourcen](ressourcen.md)
