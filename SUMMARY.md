@@ -30,5 +30,4 @@
    * [Apple Watch](apple_watch.md)
 * [Ressourcen](ressourcen.md)
 * [Glossar](GLOSSARY.md)
-* [testbereich](testbereich.md)
 
