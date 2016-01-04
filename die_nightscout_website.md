@@ -1,2 +1,0 @@
-# Die Nightscout Website
-
