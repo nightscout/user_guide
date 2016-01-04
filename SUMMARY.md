@@ -31,5 +31,5 @@
 * [Ressourcen](ressourcen.md)
 * [Glossar](GLOSSARY.md)
 * [testbereich](testbereich.md)
-* test
+* [test](test/test.md)
 
