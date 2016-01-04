@@ -19,7 +19,7 @@
    * [GitHub](github.md)
    * [Azure](azure.md)
    * [Nightscout FAQs](nsfaqs.md)
-* [Die Nightscout Website](die_nightscout_website.md)
+* [Die Nightscout Website](nightscout/die_nightscout_website.md)
    * [Haupt Seite](haupt_seite.md)
    * [Nightscout Plugins](nightscout_plugins.md)
    * [Care Portal](care_portal.md)
