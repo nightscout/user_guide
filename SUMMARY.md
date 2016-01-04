@@ -24,7 +24,7 @@
    * [Nightscout Plugins](nightscout/nightscout_plugins.md)
    * [Care Portal](care_portal.md)
    * [Reports](reports.md)
-* [Smartwatch Integration](smartwatch_integration.md)
+* [Smartwatch Integration](smartwatch/smartwatch_integration.md)
    * [Android Wear](android_wear.md)
    * [Pebble](pebble.md)
    * [Apple Watch](apple_watch.md)
