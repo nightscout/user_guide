@@ -20,6 +20,10 @@ Mit **Edit Profile** kann man sich seine Einstellungen ansehen.
  
  ![github_search](../images/github/github_search.jpg)
  
+ **nightscout/cgm-remote-monitor** ist der **master Branch**, den man in sein eigenes Repository (gitaccountname) kopiert über den **Fork** Button:
+ 
+ ![github_branch_master](../images/github/github_branch_master.jpg)
+ 
  
  
  After creating your account and are logged in, open the master repository by clicking here -> cgm-remote-monitor
