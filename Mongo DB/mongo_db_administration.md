@@ -9,23 +9,24 @@ Der 3T MongoChef :http://3t.io/mongochef ist für den Privatgebrauch kostenlos.
 Unter : http://3t.io/mongochef/download muss man sich registrieren und kann dann die Software für das jeweilige Betriebssystem herunterladen.
 
 **Mit dieser Admin GUI  ist folgendes möglich:* **
-1. Kopieren von Datenbanken und Collections
+ 
+* **Kopieren von Datenbanken und Collections**
 
--> Dieses ist hilfreich, wenn man die mongodb umziehen möchte, z.B. von einem Standort   aus den USA zu einem Standort nach Europa. Man kann es auch als Backup Möglichkeit nutzen
+Dieses ist hilfreich, wenn man die mongodb umziehen möchte, z.B. von einem Standort   aus den USA zu einem Standort nach Europa. Man kann es auch als Backup Möglichkeit nutzen
 
-2. Im- und Export von Dokumenten
+ * **Im- und Export von Dokumenten**
 
--> Man kann sowohl csv-, als auch json - Dokumente im- bzw. exportieren. Die Daten aus der Cloud können lokal auf einen Rechner gespeichert werden, als Backup - Möglichkeit, oder zur Weiterverarbeitung im csv - Format
+Man kann sowohl csv-, als auch json - Dokumente im- bzw. exportieren. Die Daten aus der Cloud können lokal auf einen Rechner gespeichert werden, als Backup - Möglichkeit, oder zur Weiterverarbeitung im csv - Format
 
-3. Erstellung von JSON Queries um BZ und andere Daten auszuwerten
+* **Erstellung von JSON Queries um BZ und andere Daten auszuwerten**
 
--> Für weitergehende Reporting Abfragen, welche nicht über die Nightscout - Reporting Seite zur Verfügung gestellt werden, können JSON - queries gebildet werden. Die Ergbnisse können wiederum im json- oder csv Format abgespeicht werden, um sie z.B. dem Doktor zukommen zu lassen.
+Für weitergehende Reporting Abfragen, welche nicht über die Nightscout - Reporting Seite zur Verfügung gestellt werden, können JSON - queries gebildet werden. Die Ergbnisse können wiederum im json- oder csv Format abgespeicht werden, um sie z.B. dem Doktor zukommen zu lassen.
 
 
 
 Die **Installation** z.B. unter Windows ist eine Standard - Installation ohne speziell benötigte Parameter.
 
-Beim Aufruf wird man aufgefordert, eine Connection = Verbindung zur Mongo DB zu konfigurieren. Dieses ist die URI aus vorhergehendem Kapitel.
+Beim Aufruf wird man aufgefordert, eine **Connection** = Verbindung zur Mongo DB zu konfigurieren. Dieses ist die URI aus vorhergehendem Kapitel.
 
 **Connection:**
 Klicke **Connect**, dann öffnet sich folgendes Fenster:
