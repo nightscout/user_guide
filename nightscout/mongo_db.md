@@ -65,16 +65,21 @@ um auf die Daten zugreifen zu können.
 
 **Die URI Syntax:**
 
-Zum besseren Verständnis ausführlich erklärt.
+Zum besseren Verständnis ausführlich erklärt:
 
 **mongodb://dbuser:<dbpassword>@ds040888.mongolab.com:40888/nscgmdatabase**
 
 **dbuser:** ist der vorher eingerichtete Datenbankbenutzer
+
 **dbpassword:** ist das eingerichtete Passwort für den Datenbankbenutzer
+
 **@:** ist ein Verbindungszeichen, muss angegeben werden
+
 **ds040888.mongolab.com:** ist ein einzigartiger Name, über den die mongodb angesprochen wird
 **:**ist ein Verbindungszeichen, muss angegeben werden
+
 **40888:** ist ein sogenannter [Kommunikationsport](https://de.wikipedia.org/wiki/Port_%28Protokoll%29) für den Zugriff benötigt wird
+
 **nscgmdatabase:** Name der mongodb
 
 Diese Daten bitte unbedingt im Datenblatt notieren. Bei evtl. Verbindungsproblemen ist eine der häufigsten Ursachen ein falsche URI, es kommt hier auf Details, auf jedes Zeichen an!
