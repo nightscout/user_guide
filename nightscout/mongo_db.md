@@ -50,7 +50,7 @@ um auf die mongodb zuzugreifen:
 
 Datenbankbenutzer Anlegen:
 
-
+![mongodb_create_dbuser](../images/mongodb/mongodb_createdbuser.jpg)
 
 
 
