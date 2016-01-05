@@ -4,6 +4,8 @@
 
 **[Insulin Club Forum](http://www.insulinclub.de/)**
 
+**[Nightscout Deutschland Facebook-Gruppe](https://www.facebook.com/groups/nightscoutDE/)**
+
 
 ##Flyer
 [Dexcom / Nightscout Flyer vorderseite](https://raw.githubusercontent.com/LadyViktoria/nightscout_handbuch/master/images/sonstiges/Folie1.JPG)
