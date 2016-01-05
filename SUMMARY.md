@@ -10,7 +10,7 @@
    * [CGM](grundlagen/cgm.md)
        * [Dexcom](grundlagen/dexcom.md)
        * [Enlite](grundlagen/enlite.md)
-       * Freestyle Libre
+       * [Freestyle Libre](grundlagen/freestyle_libre.md)
    * [Xdrip](grundlagen/xdrip.md)
        * [Bausatz](grundlagen/bausatz.md)
        * [Xdrip App](grundlagen/xdrip_app.md)
