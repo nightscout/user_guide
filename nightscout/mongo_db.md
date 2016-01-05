@@ -3,7 +3,7 @@
 
 
 
-Die Mongo DB Datenbank ist eine Dokumentations DB und ist das Daten - Backend der Nightscout Website. Es handelt sich um eine Cloud - Datenbank in Rechenzentren der USA. 
+Die [Mongo DB Datenbank](https://en.wikipedia.org/wiki/MongoLab) ist eine Dokumentations - DB und ist das Daten - Backend der Nightscout Website. Es handelt sich um eine Cloud - Datenbank in Rechenzentren der USA und Europa. 
 Mongo DB gibt es als **kostenlose** Sandbox - Variante.
 
 Bevor man mit der Konfiguration loslegen kann, ist es wichtig, das Datenblat auszudrucken
@@ -19,7 +19,7 @@ Wir starten mit der Einrichtung der Benutzer - Konten auf der mongolab - Startse
 **SIGN UP:**
 ![mongodb sign up](../images/mongodb/mongodb_sign_up.jpg)
 
-Weiter gehts mit dem **Anlegen** des **Benutzerkontos:**
+Weiter gehts mit dem **Anlegen** der benötigten **Konten:** zur Verwaltung 
 ![mongo db create account](../images/mongodb/mongo_db_create_account.jpg)
 
 **Passwörter**
