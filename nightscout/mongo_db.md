@@ -79,7 +79,7 @@ Zum besseren Verständnis ausführlich erklärt:
 
 **:** ist ein Verbindungszeichen, muss angegeben werden
 
-**40888:** ist ein sogenannter [Kommunikationsport](https://de.wikipedia.org/wiki/Port_%28Protokoll%29) für den Zugriff benötigt wird
+**40888:** ist ein sogenannter [Kommunikationsport](https://de.wikipedia.org/wiki/Port_%28Protokoll%29), der für den Zugriff benötigt wird
 
 **nscgmdatabase:** Name der mongodb
 
