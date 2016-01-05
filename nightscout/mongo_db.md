@@ -77,7 +77,7 @@ Zum besseren Verständnis ausführlich erklärt:
 
 **ds040888.mongolab.com:** ist ein einzigartiger Name, über den die mongodb angesprochen wird
 
-**:**ist ein Verbindungszeichen, muss angegeben werden
+**:** ist ein Verbindungszeichen, muss angegeben werden
 
 **40888:** ist ein sogenannter [Kommunikationsport](https://de.wikipedia.org/wiki/Port_%28Protokoll%29) für den Zugriff benötigt wird
 
