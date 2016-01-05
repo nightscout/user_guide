@@ -85,6 +85,8 @@ Zum besseren Verständnis ausführlich erklärt:
 
 Diese Daten bitte unbedingt im Datenblatt notieren. Bei evtl. Verbindungsproblemen ist eine der häufigsten Ursachen ein falsche URI, es kommt hier auf Details, auf jedes Zeichen an!
 
+Es gibt optionale Komponenten zum Management der DB im nächsten Kapitel, diese sind nicht Bestandteil der Implementierung.
+
 
 
 
