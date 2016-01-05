@@ -48,7 +48,7 @@ Nachdem der Button **Create new MongoDB deployment** geklickt wurde, erscheint e
 Durch Doppelklick auf den Namen, hier: ds040888/nscgmdatabase richtet man u.a. den Datenbankbenutzer ein. Das ist derjenige, welcher in Azure oder xdrip konfiguriert wird,
 um auf die mongodb zuzugreifen:
 
-Datenbankbenutzer Anlegen:
+**Datenbankbenutzer Anlegen:**
 
 ![mongodb_create_dbuser](../images/mongodb/mongodb_createdbuser.jpg)
 
