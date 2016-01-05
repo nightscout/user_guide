@@ -15,6 +15,13 @@ Beim Aufruf wird man aufgefordert, eine Connection = Verbindung zur Mongo DB zu 
 **Connection:**
 Klicke **Connect**, dann öffnet sich folgendes Fenster:
 
+![mongochef_create_connection](../images/mongodb/mongochef_create_connection.JPG)
+
+
+
+
+
+![mongochef_connection_server](../images/mongodb/mongochef_connection_server.JPG)
 
 
 
