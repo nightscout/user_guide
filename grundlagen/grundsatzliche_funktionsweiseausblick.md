@@ -10,4 +10,4 @@ Du kannst Nightscout auf verschiedene Weisen nutzen:
  
 * als Monitoring System für ein APS.
 
-* als "Eingang in den Hasenbau", um diese Daten weiter zu verwerten.
+* als "Eingang in den Hasenbau", um diese Daten weiter zu verwerten
