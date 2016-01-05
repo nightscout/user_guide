@@ -19,17 +19,11 @@ Unter : http://3t.io/mongochef/download muss man sich registrieren und kann dann
 
 3. Erstellung von JSON Queries um BZ und andere Daten auszuwerten
 
-
-
-  
-
- 
+-> Für weitergehende Reporting Abfragen, welche nicht über die Nightscout - Reporting Seite zur Verfügung gestellt werden, können JSON - queries gebildet werden. Die Ergbnisse können wiederum im json- oder csv Format abgespeicht werden, um sie z.B. dem Doktor zukommen zu lassen.
 
 
 
-
-
-Die Installation z.B. unter Windows ist eine Standard - Installation ohne speziell benötigte Parameter.
+Die **Installation** z.B. unter Windows ist eine Standard - Installation ohne speziell benötigte Parameter.
 
 Beim Aufruf wird man aufgefordert, eine Connection = Verbindung zur Mongo DB zu konfigurieren. Dieses ist die URI aus vorhergehendem Kapitel.
 
