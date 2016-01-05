@@ -6,7 +6,7 @@ Wir starten mit dem **Sign Up** auf der [GitHub Site](https://github.com/):
 
 ![github sign up](../images/github/github_sign_up.jpg)
 
-Wichtig ist auch hier, Benutzername und Passwort in das Datenblatt einzutragen.
+**Wichtig** ist auch hier, Benutzername und Passwort in das Datenblatt einzutragen.
 
 Mit **Edit Profile** kann man sich seine Einstellungen ansehen. 
 
@@ -20,17 +20,15 @@ Mit **Edit Profile** kann man sich seine Einstellungen ansehen.
  
  ![github_search](../images/github/github_search.jpg)
  
- **nightscout/cgm-remote-monitor** ist der **master Branch**, den man in sein eigenes Repository (gitaccountname) kopiert über den **Fork** Button:
+ **nightscout/cgm-remote-monitor** ist der **master Branch**, den man in sein eigenes Repository (heisst wie der gitaccountname) kopiert über den **Fork** Button:
  
  ![github_branch_master](../images/github/github_branch_master.jpg)
  
+ Im eigenen Repository hat man jetzt die **Fork** vom **master**.
  
  
- After creating your account and are logged in, open the master repository by clicking here -> cgm-remote-monitor
-Make a copy (“Fork”) of the nightscout/cgm-remote-monitor to your own repository by clicking on the ‘Fork‘ button on top right
-OR – just click here -> fork the cgm-remote-monitor
-When prompted with ‘Where should we fork this repository?‘, select your @<gitaccountname>, and it will Fork to your repository.
-At the top of the page, you will now see <gitaccountname>/cgm-remote-monitor indicating you have your own copy forked from Nightscout.
+ 
+ 
  
  
 
