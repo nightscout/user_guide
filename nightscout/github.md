@@ -4,4 +4,6 @@
 
 Wir starten mit dem **Sign Up** auf der [GitHub Site](https://github.com/):
 
+![github sign up](../images/github/github_sign_up.jpg)
+
 
