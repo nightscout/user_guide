@@ -1,6 +1,0 @@
-# Grundvoraussetzungen
-
-xcxcxc
-cxc
-
-cxcmmm
