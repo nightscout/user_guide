@@ -16,13 +16,14 @@ ACHTUNG - Alle Angaben zu diesem Produkt sind ausschließlich vom Hersteller [DE
 | Link zur deutschen Bedienungsanleitung | [Dexcom G4 PLATINUM (mg/dl)](http://www.dexcom.com/sites/dexcom.com/files/international/user_guides/LBL-011912_Rev03-UG-G4-PLATINUM-OUS-mgdL_DE.pdf) |
 | Link zum deutschen Quick Start Guide | [Dexcom G4 PLATINUM (mg/dl)](http://www.dexcom.com/sites/dexcom.com/files/international/quick_start/LBL-011913_QuickStartGuide_G4PLATINUM_German_mgdL.pdf) |
 
+---
 
 Fünf Möglichkeiten mit Dexcom-Sensoren:
-1. G4-Receiver mit Kabelverbindung
-2. G4-Receiver "with Share" (VS-Import) mit Share2NS-Bridge
-3. G4-Receiver "with Share" (VS-Import) mit xDrip-App
-4. G5-Receiver mit Share2NS-Bridge
-5. xDrip
+1. G4-Empfänger mit Kabelverbindung
+2. G4-Empfänger "with Share" (VS-Import) mit Share2NS-Bridge
+3. G4-Empfänger "with Share" (VS-Import) mit xDrip-App
+4. G5 mit Share2NS-Bridge
+5. G4 mit selbstgebautem Empfänger h
 
 
 
