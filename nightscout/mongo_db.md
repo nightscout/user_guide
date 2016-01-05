@@ -52,6 +52,12 @@ um auf die mongodb zuzugreifen:
 
 ![mongodb_create_dbuser](../images/mongodb/mongodb_createdbuser.jpg)
 
+..und die vorher notierten Daten eingeben:
+
+
+![mongodb_dbuser_details](../images/mongodb/mongodb_dbuser_details.jpg)
+
+
 
 
 
