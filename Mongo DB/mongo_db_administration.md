@@ -8,6 +8,23 @@ Ein Anbieter ist z.B. [3T Software Labs](http://3t.io/about-us) aus Berlin.
 Der 3T MongoChef :http://3t.io/mongochef ist für den Privatgebrauch kostenlos.
 Unter : http://3t.io/mongochef/download muss man sich registrieren und kann dann die Software für das jeweilige Betriebssystem herunterladen.
 
+Mit dieser Admin GUI  ist folgendes möglich* 
+1. Kopieren von Datenbanken und Collections
+
+2. Im- und Export von Dokumenten
+
+3. Erstellung von JSON Queries um BZ und andere Daten auszuwerten
+
+
+
+  -> Dieses ist hilfreich, wenn man die mongodb umziehen möchte, z.B. von einem Standort   aus den USA zu einem Standort nach Europa
+
+ 
+
+
+
+
+
 Die Installation z.B. unter Windows ist eine Standard - Installation ohne speziell benötigte Parameter.
 
 Beim Aufruf wird man aufgefordert, eine Connection = Verbindung zur Mongo DB zu konfigurieren. Dieses ist die URI aus vorhergehendem Kapitel.
