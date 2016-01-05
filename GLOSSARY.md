@@ -11,7 +11,7 @@ Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
 
 ## APS
 
-CGM ist ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
+(engl.: Artificial Pancreas System, APS) CGM ist ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
 
 ## CGM
 
