@@ -41,6 +41,11 @@ Wir starten mit dem Klick:
 Alle gelb markierten Punkte sind auszufüllen, der Datenbankname ist frei wählbar:
 ![mongodb_details](../images/mongodb/mongodb_details.jpg)
 
+Nachdem der Button **Create new MongoDB deployment** geklickt wurde, erscheint eine Erfolgsmeldung:
+
+![mongodb_create_success](../images/mongodb/mongodb_create_success.jpg)
+
+
 
 
 
