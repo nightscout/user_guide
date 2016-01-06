@@ -7,7 +7,7 @@ Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
 
 ## 5,5
 
-5,5 mmol ist die Entsprechung von 100mg/dl (ein gerne gefeierter Zielwert)
+5,5 mmol/l ist die Entsprechung von 100mg/dl (ein gerne gefeierter Zielwert)
 
 ## APS
 
