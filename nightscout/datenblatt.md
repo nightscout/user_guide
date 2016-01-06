@@ -5,5 +5,7 @@ Bevor du mit der Einrichtung von Nightscout beginnst, drucke dir dieses Datenbla
 
 [Link zum übersetzen Datenblatt](https://raw.githubusercontent.com/LadyViktoria/nightscout_handbuch/master/dokumente/Meine%20pers%C3%B6nlichen%20Benutzerkonto%20Information.pdf)
 
+
+
 [Link zum englischen Original Datenblatt](http://www.nightscout.info/wp-content/uploads/2015/04/Mongo-and-Azure-Account-Information-4-16-15.pdf)
 
