@@ -6,7 +6,9 @@
 
 Den Einstieg in deutscher Sprache findet man hier: [Azure Registrierung](https://account.windowsazure.com/Home/Index)
 
-Amfang ist 
+![azure reg](../images/azure/azure_reg.jpg)
+
+
 
 
 
