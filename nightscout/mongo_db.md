@@ -8,7 +8,7 @@ Mongo DB gibt es als **kostenlose** Sandbox - Variante.
 
 Bevor man mit der Konfiguration loslegen kann, ist es wichtig, das Datenblat auszudrucken
 und auszufüllen:
-[Link zum datenblatt deutsch](https://www.docdroid.net/tG5Zpkh/der-reissverschluss.pdf.html)
+[Link zum übersetzen Datenblatt](https://raw.githubusercontent.com/LadyViktoria/nightscout_handbuch/master/dokumente/Meine%20pers%C3%B6nlichen%20Benutzerkonto%20Information.pdf)
 Es ist für weitere Konfigurationen wichtig, dieses Datenblatt sicher aufzubewahren.
 
 Die URL zum Start gibt es hier: https://mongolab.com
