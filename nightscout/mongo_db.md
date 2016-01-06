@@ -3,7 +3,7 @@
 
 
 
-Die [Mongo DB Datenbank](https://en.wikipedia.org/wiki/MongoLab) ist eine Dokumentations - DB und ist das Daten - Backend der Nightscout Website. Es handelt sich um eine Cloud - Datenbank in Rechenzentren der USA und Europa. 
+Die [Mongo DB Datenbank](https://de.wikipedia.org/wiki/MongoDB) ist eine Dokumentations - DB und ist das Daten - Backend der Nightscout Website. Es handelt sich um eine Cloud - Datenbank in Rechenzentren der USA und Europa. 
 Mongo DB gibt es als **kostenlose** Sandbox - Variante.
 
 Bevor man mit der Konfiguration loslegen kann, ist es wichtig, das Datenblat auszudrucken
