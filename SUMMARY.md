@@ -19,7 +19,7 @@
    * [baembel08_Mongo DB](nightscout/mongo_db.md)
    * [baembel08 Optional: Mongo DB Administration](Mongo DB/mongo_db_administration.md)
    * [baembel08 GitHub](nightscout/github.md)
-   * [Azure](nightscout/azure.md)
+   * [baembel08 Azure](nightscout/azure.md)
    * [Nightscout FAQs](nightscout/nsfaqs.md)
 * [Die Nightscout Website](nightscout/die_nightscout_website.md)
    * [Haupt Seite](nightscout/haupt_seite.md)
