@@ -38,13 +38,13 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
 
  
- Weiter geht es mit der **Konfiguration:**
+ Weiter geht es mit der **Konfiguration der Verbindungszeichenfolgen:**
  
  Wir beginnen mit der **Verbindung zur Mongo DB**:
  
  ![azure_mongodb_connection](../images/azure/azure_mongodb_connection.jpg)
  
- **mongo:** Name der Verbindung
+ **mongo:** Parametername
  
  **mongodb://dbuser:dbpassword@ds040888.mongolab.com:40888/nscgmdatabase**: Verbindungszeichenfolge, diese steht im vorher ausgefüllten Datenblatt
  
@@ -53,7 +53,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  Wir machen auf die gleiche Weise weiter mit der Angabe der **mongodb Collection:**
  
- **mongo_collection**: Parameter für Verbindung
+ **mongo_collection**: Parametername
  
  **entries**: Standard: entries, die Collection, in der die CGM Werte gespeichert werden. GGF. muss der Name angepasst werden.
  
@@ -65,6 +65,20 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  
  Jetzt fehlt noch das **API SECRET**. Eine [API](https://de.wikipedia.org/wiki/Programmierschnittstelle) ist eine Programmierschnittstelle. Dahinter verbirgt sich ein Schlüssel, mit dem z.B. verschiedene Versionen von xDrip Daten mit Nightscout austauschen.
+ Der API SECRET Wert muss als Minimum zwölf Zeichen lang sein und ist frei wählbar:
+ 
+ **API SECRET**:Parametername
+ 
+ **Y3KmrdFA12jmk**: API SECRET Wert
+ 
+ **Benutzerdefiniert**: Attribut
+ 
+ **Speichern** nicht vergessen.
+ 
+ Mit dem Button **Werte der Verbindungszeichenfolge anzeigen** kann man sich die Werte noch einmal anzeigen lassen:
+ 
+ ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
+ 
  
  
 
