@@ -12,7 +12,9 @@ Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangt man zur 
 
 Sollte man schon ein Konto haben, kann man sich einfach anmelden, ansonsten geht es mit der **Registrierung** weiter.
 
-Durch den Klick wird man zur Registrierungsseite weitergeleitet, wo Email und Passwort angegeben werden müssen.
+
+
+
 
 
 
