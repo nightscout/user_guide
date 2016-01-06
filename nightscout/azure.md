@@ -8,7 +8,7 @@ Den Einstieg in deutscher Sprache findet man hier: [Azure ](https://azure.micros
 
 Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangt man zur Registrieungsseite:
 
-
+![azure reg](../images/azure/azure_reg.jpg)
 
 Durch den Klick wird man zur Registrierungsseite weitergeleitet, wo Email und Passwort angegeben werden müssen.
 
