@@ -91,7 +91,13 @@ Wir steigen hier ein, die Verbindung herzustellen:
 
 Jetzt folgt die **GitHub Autorisierung:**
 
-![github_authorize](../images/azure/github_authorize.jpg)
+![github_authorize](../images/azure/github_authorize.jpg).
+
+Nachdem man gitHub Benutzername uns Passwort eingegeben hat, erscheint diese Meldung:
+
+![azure_authorize_github](../images/azure/azure_authorize_github.jpg).
+
+
 
 
 
