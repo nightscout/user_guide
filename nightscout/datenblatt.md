@@ -4,6 +4,7 @@ Bevor du mit der Einrichtung von Nightscout beginnst, drucke dir dieses Datenbla
 
 [Link zum übersetzen Datenblatt](https://www.docdroid.net/tG5Zpkh/der-reissverschluss.pdf.html)
 
+[](https://www.gitbook.com/book/ladyviktoria/nightscout_handbuch/edit#/edit/master/images/sonstiges/Meine%20pers%C3%B6nlichen%20Benutzerkonto%20Information.pdf)
 
 
 [Link zum englischen Original Datenblatt](http://www.nightscout.info/wp-content/uploads/2015/04/Mongo-and-Azure-Account-Information-4-16-15.pdf)
