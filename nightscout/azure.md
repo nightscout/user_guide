@@ -103,9 +103,12 @@ Jetzt wählt man den cgm-remote-monitor aus:
 
 ![azure_crm](../images/azure/azure_crm.jpg)
 
-Mit **OK** bestätigen. Die Web-app wird bereitgestellt. Dieses kann ein wnig dauern.
+Mit **OK** bestätigen. Die Web-app wird bereitgestellt. Dieses kann ein wenig dauern.
 
 Am Ende erscheint in der Zusammenfassung die Einbindung von GitHub hier:
+
+
+Sollte es zu einer Fehlermeldung kommen, bitte die Bereitstellung noch einmal starten.
 
 
 Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann über einen Browser
