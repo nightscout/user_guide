@@ -40,7 +40,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  Weiter geht es mit der **Konfiguration:**
  
- Wir beginnen mit der Verbindung zur Mongo DB:
+ Wir beginnen mit der **Verbindung zur Mongo DB**:
  
  ![azure_mongodb_connection](../images/azure/azure_mongodb_connection.jpg)
  
@@ -51,7 +51,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  **Benutzerdefiniert**: Attribut
  
  
- Wir machen auf die gleiche Weise weiter mit der Angabe der mongodb Collection:
+ Wir machen auf die gleiche Weise weiter mit der Angabe der **mongodb Collection:**
  
  **mongo_collection**: Parameter für Verbindung
  
@@ -59,6 +59,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  **Benutzerdefiniert**: Attribut
  
+ ![azure_save](../images/azure/azure_save.jpg)
  
  
 
