@@ -4,9 +4,13 @@
 
 **Einstieg:**
 
-Den Einstieg in deutscher Sprache findet man hier: [Azure Registrierung](https://account.windowsazure.com/Home/Index)
+Den Einstieg in deutscher Sprache findet man hier: [Azure ](https://azure.microsoft.com/de-de/)
 
-![azure reg](../images/azure/azure_reg.jpg)
+Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangt man zur Registrieungsseite:
+
+
+
+Durch den Klick wird man zur Registrierungsseite weitergeleitet, wo Email und Passwort angegeben werden müssen.
 
 
 
