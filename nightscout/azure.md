@@ -97,6 +97,26 @@ Nachdem man gitHub Benutzername uns Passwort eingegeben hat, erscheint diese Mel
 
 ![azure_authorize_github](../images/azure/azure_authorize_github.jpg).
 
+Mit **OK** bestätigen.
+
+Jetzt wählt man den cgm-remote-monitor aus:
+
+![azure_crm](../images/azure/azure_crm.jpg)
+
+Mit **OK** bestätigen. Die Web-app wird bereitgestellt. Dieses kann ein wnig dauern.
+
+Am Ende erscheint in der Zusammenfassung die Einbindung von GitHub hier:
+
+
+Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann über einen Browser
+mit dem Aufruf http://meinwebsitename.azurewebsites.net aufgerufen werden.
+Die Einrichtung ist fertig.
+
+
+
+
+
+
 
 
 
