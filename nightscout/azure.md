@@ -24,6 +24,11 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  ![azure_config_app](../images/azure/azure_config_app.jpg)
  
+ Mit dem Button **Erstellen** speichert man die Einstellungen. Dieses kann einige Zeit
+ in Anspruch nehmen.
+ 
+ Der Name der Nightscout - Website ist jetzt: nscgmq01.azurewebsites.net. Diesen Namen bitte auch notieren.
+ 
 
 
 
