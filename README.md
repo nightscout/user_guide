@@ -11,7 +11,3 @@ Wir arbeiten zur Zeit an dieser deutschsprachigen Anleitung, um in das Nightscou
 
 
 
-This is a spoiler: {%s%}Hello World.{%ends%}
-
-
-This is a spoiler: {%s%}Hello World.{%ends%}
