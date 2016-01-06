@@ -39,6 +39,8 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  Weiter geht es mit der **Konfiguration:**
  
+ Wir beginnen mit der verbindung
+ 
  
  
  
