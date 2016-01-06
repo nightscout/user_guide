@@ -53,13 +53,14 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  Wir machen auf die gleiche Weise weiter mit der Angabe der mongodb Collection:
  
- **mongo_collection**: Standard: entries, die Collection, in der die CGM Werte gespeichert werden.
+ **mongo_collection**: Parameter für Verbindung
  
- Create a second row by clicking in one of the boxes in the next row.
-Change the type to CUSTOM in the drop down on the far right of the new row.
-Name the second row mongo_collection.
-For this row’s Value, type “entries” (do not use the quote marks).
-It should look like this:
+ **entries**: Standard: entries, die Collection, in der die CGM Werte gespeichert werden. GGF. muss der Name angepasst werden.
+ 
+ **Benutzerdefiniert**: Attribut
+ 
+ 
+ 
 
  
  
