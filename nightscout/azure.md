@@ -89,6 +89,19 @@ Wir steigen hier ein, die Verbindung herzustellen:
 ![azure_choose_github](../images/azure/azure_choose_github.jpg)
 
 
+Jetzt folgt die **GitHub Autorisierung:**
+
+![github_authorize](../images/azure/github_authorize.jpg)
+
+
+
+
+
+
+
+
+
+
 
  
  
