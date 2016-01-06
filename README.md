@@ -1,5 +1,5 @@
 ![](images/wearnotwating.png)
-# Einleitung 
+# Deutsche Anleitung
 
 
 Januar 2016
