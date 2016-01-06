@@ -2,7 +2,7 @@
 
 ## #WeAreNotWaiting
 
-Ausdruck der Empörung über die Medizintechnik, die aktuelle technische Möglichkeiten nicht ausschöpft, um Betroffenen Typ 1 Diabetikern zu unterstützen.
+Ausdruck der Empörung über die Medizintechnik, die aktuelle technische Möglichkeiten nicht ausschöpft, um Betroffene Typ 1 Diabetikern zu unterstützen.
 Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
 
 ## 5,5
