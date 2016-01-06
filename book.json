@@ -1,6 +1,4 @@
 {
-    "plugins": [
-        "spoiler"
-    ],
+    "plugins": [],
     "pluginsConfig": {}
 }
