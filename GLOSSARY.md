@@ -20,7 +20,7 @@ Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
 
 ## DIY
 
-Do-It-Yourself (engl.) selbstgemacht. 
+Do-It-Yourself (engl.) *Mach es selbst.* 
 DIY-Projekt bedeutet in unseren Fall, dass es kein Unternehmen gibt, von der man ein vorfabriziertes System kaufen kann. Die Elemente des Systems sind von Teilnehmern des Projektes entwickelt und zusammengesetzt und werden dir **kostenlos** zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen Teil dazu beitragen musst, damit das System für dich funktioniert. Wir hoffen, dass DIY dich so sehr begeistern wird, wie uns - sodass du wiederum irgendwann einen kleinen Teil dazu beitragen kannst, dass das System für alle besser wird.
 
 ## Nightscout
