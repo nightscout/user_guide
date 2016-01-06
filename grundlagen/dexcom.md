@@ -1,10 +1,6 @@
 # **Dexcom**
 
 
----
-
-@holgi13
-
 
 ---
 ACHTUNG - Alle Angaben zu diesem Produkt sind ausschließlich vom Hersteller [DEXCOM](http://www.dexcom.com/en-US) oder vom deutschen Vertrieb [NINTAMED](https://www.nintamed.eu) und dienen ausschließlich als Information. Es werden hier keine Bewertungen dieses Systems abgegeben oder anderweitige Informationen als die des Herstellers oder des Vertiebs.
