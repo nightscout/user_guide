@@ -35,7 +35,8 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  Die Web-App wird jetzt in Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt,ob die App online ist oder nicht.
  
- **Einstellungen:**
+ 
+
  
  Weiter geht es mit der **Konfiguration:**
  
@@ -43,7 +44,9 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  ![azure_mongodb_connection](../images/azure/azure_mongodb_connection.jpg)
  
+ mongo: Name der Verbindung
  
+ mongodb://dbuser:dbpassword@ds040888.mongolab.com:40888/nscgmdatabase
  
  
  
