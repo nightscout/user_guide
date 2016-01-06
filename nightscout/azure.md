@@ -19,7 +19,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  ![azure_portal](../images/azure/azure_portal.jpg)
  
- Mit dem Button **+ Neu** richten wir eine neue Ressource ein. Die Menüführung ist kaskadiert ,alle gelb markierten Punkte sind auszuwählen:
+ Mit dem Button **+ Neu** richten wir eine neue Ressource ein. Die Menüführung ist kaskadiert ,alle gelb markierten Punkte sind auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:
  
  
  ![azure_config_app](../images/azure/azure_config_app.jpg)
@@ -27,7 +27,23 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  Mit dem Button **Erstellen** speichert man die Einstellungen. Dieses kann einige Zeit
  in Anspruch nehmen.
  
- Der Name der Nightscout - Website ist jetzt: nscgmq01.azurewebsites.net. Diesen Namen bitte auch notieren.
+ Der Name der Nightscout - Website ist jetzt: **nscgmq01.azurewebsites.net**. Diesen Namen bitte auch notieren.
+ 
+ Wenn die Web-App erstellt wurde, erscheint diese Ansicht:
+ 
+ ![azure_app_created](../images/azure/azure_app_created.jpg)
+ 
+ Die Web-App wird jetzt in Irland gehostet.
+ 
+ **Einstellungen:**
+ 
+ Weiter geht es mit der **Konfiguration:**
+ 
+ 
+ 
+ 
+ 
+ 
  
 
 
