@@ -19,7 +19,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  ![azure_portal](../images/azure/azure_portal.jpg)
  
- Mit dem Button **+ Neu** richten wir eine neue Ressource ein. Die Menüführung ist kaskadiert ,alle gelb markierten Punkte sind auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:
+ Mit dem Button **+ Neu** richten wir eine neue **Ressource** ein. Die Menüführung ist kaskadiert ,alle gelb markierten Punkte sind auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:
  
  
  ![azure_config_app](../images/azure/azure_config_app.jpg)
@@ -33,7 +33,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  ![azure_app_created](../images/azure/azure_app_created.jpg)
  
- Die Web-App wird jetzt in Irland gehostet.
+ Die Web-App wird jetzt in Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt,ob die App online ist oder nicht.
  
  **Einstellungen:**
  
