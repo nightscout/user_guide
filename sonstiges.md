@@ -14,3 +14,5 @@
 
 ##Schablonen
 [Dexcom Pflaster Schablone](https://raw.githubusercontent.com/LadyViktoria/nightscout_handbuch/master/images/sonstiges/Pflasterschablone2.jpg)
+
+[Dexcom Pflaster Schablone](https://raw.githubusercontent.com/LadyViktoria/nightscout_handbuch/master/images/sonstiges/Meine%20pers%C3%B6nlichen%20Benutzerkonto%20Information.pdf)
