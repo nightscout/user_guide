@@ -1,6 +1,12 @@
 # Azure
 
+[Azure](https://de.wikipedia.org/wiki/Microsoft_Azure) ist ein Cloud - Computing Dienst, welcher umfangreiche Services  für Anwender zur Verfügung stellt.
 
+**Einstieg:**
+
+Den Einstieg in deutscher Sprache findet man hier: [Azure Registrierung](https://account.windowsazure.com/Home/Index)
+
+Amfang ist 
 
 
 
