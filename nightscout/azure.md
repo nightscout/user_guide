@@ -59,13 +59,21 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  **Benutzerdefiniert**: Attribut
  
+** Speichern **nicht vergessen:
+ 
  ![azure_save](../images/azure/azure_save.jpg)
+ 
+ 
+ Jetzt fehlt noch das **API SECRET**. Eine [API](https://de.wikipedia.org/wiki/Programmierschnittstelle) ist eine Programmierschnittstelle. Dahinter verbirgt sich ein Schlüssel, mit dem z.B. verschiedene Versionen von xDrip Daten mit Nightscout austauschen.
  
  
 
  
  
- 
+ REST API Upload (REST) is currently required for users of the Nightscout uploader app. As part of the configuration of your site, you need to set an API_SECRET that will be used in the API Upload (REST) string. The API_SECRET value must be a minimum 12 characters. To set the API_SECRET, enter API_SECRET in the first box in the next blank row in Connection Strings. Enter your API_SECRET value (the value you choose for this “passphrase”) in the next box. Select “Custom” for the type.
+restapi-secret2
+
+Click SAVE at the bottom of the page and proceed to the next step.
  
  
  
