@@ -67,7 +67,7 @@ um auf die Daten zugreifen zu können.
 
 Zum besseren Verständnis ausführlich erklärt:
 
-**mongodb://dbuser:<dbpassword>@ds040888.mongolab.com:40888/nscgmdatabase**
+**mongodb://dbuser:dbpassword@ds040888.mongolab.com:40888/nscgmdatabase**
 
 **dbuser:** ist der vorher eingerichtete Datenbankbenutzer
 
