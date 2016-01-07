@@ -12,4 +12,4 @@ Dennoch: Remote monitoring - Eltern sind auf gleichem Stand wie das Kind / Lehre
 Beta von Glimp, die NightScout unterstützt: http://bit.ly/glimpNS
 Stabile Version, die bald (ab 6. Jänner?) Nightscout unterstützen wird: https://play.google.com/store/apps/details?id=it.ct.glicemia&hl=de
 
-Um Glimp nutzen zu können muss bei NightScout *Care Portal* eingerichtet sein. Siehe dazu: [Care Portal einrichten](../nightscout/care_portal.md)
+Um Glimp nutzen zu können muss bei NightScout *Care Portal* eingerichtet sein. Siehe dazu: [Care Portal einrichten](/../nightscout/care_portal.md)
