@@ -1,6 +1,6 @@
-# Account-Information
+# Account-Information (Arbeitsblatt)
 
-Bevor du mit der Einrichtung von Nightscout beginnst, drucke dir dieses Datenblatt/Formular aus. Hier wirst du alle wichtigen Benutzernamen,  Passwörter, Zugangsdaten notieren, die du bei der ersten Einrichtung festlegst. Fülle es direkt während der Einrichtung gewissenhaft aus und hefte es ab. So kannst du später darauf zugreifen. 
+Bevor du mit der Einrichtung von Nightscout beginnst, drucke dir dieses Datenblhatt/Formular aus. Hier wirst du alle wichtigen Benutzernamen,  Passwörter, Zugangsdaten notieren, die du bei der ersten Einrichtung festlegst. Fülle es direkt während der Einrichtung gewissenhaft aus und hefte es ab. So kannst du später darauf zugreifen. 
 
 
 [Link zum übersetzen Formular](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Pers%C3%B6nliche%20Benutzerkonto%20Information.pdf)
