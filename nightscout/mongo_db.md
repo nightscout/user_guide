@@ -8,7 +8,7 @@ Mongo DB gibt es als **kostenlose** Sandbox - Variante.
 
 Bevor man mit der Konfiguration loslegen kann, ist es wichtig, das Datenblat auszudrucken
 und auszufüllen:
-[Link zum übersetzen Datenblatt](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Pers%C3%B6nliche%20Benutzerkonto%20Information.pdf)
+[Link zum übersetzen Datenblatt](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/arbeitsblatt.pdf)
 
 Es ist für weitere Konfigurationen wichtig, dieses Datenblatt sicher aufzubewahren.
 
