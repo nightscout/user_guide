@@ -15,7 +15,7 @@
        * [Bausatz](grundlagen/bausatz.md)
        * [Xdrip App](grundlagen/xdrip_app.md)
 * [Nightscout einrichten](nightscout/nightscout_einrichten.md)
-   * [Datenblatt](nightscout/datenblatt.md)
+   * [Account Information](nightscout/datenblatt.md)
    * [baembel08_Mongo DB](nightscout/mongo_db.md)
    * [baembel08 Optional: Mongo DB Administration](Mongo DB/mongo_db_administration.md)
    * [baembel08 GitHub](nightscout/github.md)
