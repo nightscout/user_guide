@@ -9,7 +9,7 @@ Keine Alarme; Benutzer muss aktiv werden; nicht geeignet für APS
 
 Dennoch: Remote monitoring - Eltern sind auf gleichem Stand wie das Kind / Lehrer und sehen ob gemessen wurde.
 
-Beta von Glimp, die NightScout unterstützt: http://bit.ly/glimpNS
-Stabile Version, die bald (ab 6. Jänner?) Nightscout unterstützen wird: https://play.google.com/store/apps/details?id=it.ct.glicemia&hl=de
 
-Um Glimp nutzen zu können muss bei NightScout *Care Portal* eingerichtet sein. Siehe dazu: [Care Portal einrichten](/../nightscout/care_portal.md)
+Stabile Version von Glimp, die Nightscout unterstützen wird findet man im Google Play store: https://play.google.com/store/apps/details?id=it.ct.glicemia&hl=de
+
+Um Glimp nutzen zu können muss bei NightScout das *Care Portal* eingerichtet sein. Siehe dazu: [Care Portal einrichten](/../nightscout/care_portal.md)
