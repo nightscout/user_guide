@@ -6,9 +6,9 @@
 Die [Mongo DB Datenbank](https://de.wikipedia.org/wiki/MongoDB) ist eine Dokumentations - Datenbank. Hier werden die Daten der Nightscout Website gespeichert. Es handelt sich um eine Cloud - Datenbank in Rechenzentren der USA und Europa. 
 Mongo DB gibt es als **kostenlose** Sandbox - Variante.
 
-Bevor man mit der Konfiguration loslegen kann, ist es wichtig, das **Datenblatt** auszudrucken
+Bevor man mit der Konfiguration loslegen kann, ist es wichtig, das **Arbeitsblatt** auszudrucken
 und auszufüllen:
-[Link zum übersetzen Datenblatt](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/arbeitsblatt.pdf)
+[Link zum übersetzen Arbeitsblatt](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/arbeitsblatt.pdf)
 
 Es ist für weitere Konfigurationen wichtig, dieses Datenblatt sicher aufzubewahren.
 
