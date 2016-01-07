@@ -8,3 +8,5 @@ Bevor man mit der Einrichtung von Nightscout beginnt, druckt man dieses Arbeitsb
 
 [Link zum englischen Original Arbeitsblatt](http://www.nightscout.info/wp-content/uploads/2015/04/Mongo-and-Azure-Account-Information-4-16-15.pdf)
 
+
+Jetzt kann es losgehen mit dem Einrichten der Mongo Datenbank.
