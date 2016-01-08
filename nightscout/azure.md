@@ -118,10 +118,18 @@ Die Einrichtung ist fertig.
 
 **Kosten:**
 
-Web-Applikationen sind grundsätzlich kostenfrei. Auf dem Azure - Portal gibt es eine **Preisübersicht:**
+Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure - Portal gibt es eine **Preisübersicht:**
 
 ![azure_prices](../images/azure/azure_prices.jpg)
-
+ Mit dem Button Preisrechner können wir uns weitere Details ansehen. Wir wählen App Service aus un erhalten folgende Übersicht:
+ 
+ ![azure_prices_web](../images/azure/azure_prices_web.jpg)
+ 
+ Jetzt können wir uns unsere eigene  [Nightscout Website](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/die_nightscout_website.html) ansehen und konfigurieren.
+ 
+ 
+ 
+ 
 
 
 
