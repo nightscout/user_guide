@@ -41,7 +41,7 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  
  
- Jetzt geht es weiter mit dem Einrichten der Azure....dings
+ Jetzt geht es weiter mit dem Einrichten von [Azure](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/azure.html).
  
  
  
