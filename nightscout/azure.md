@@ -57,7 +57,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  **Benutzerdefiniert**: Attribut
  
-** Speichern **nicht vergessen:
+** Speichern **nicht vergessen.
  
  ![azure_save](../images/azure/azure_save.jpg)
  
@@ -84,8 +84,11 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  **Eingaben:**
  
  
- EN
+ **ENABLE**: Parametername
  
+ **iob cob bwp basal careportla maker** .... Name der Plugins.
+ 
+ ** Speichern **nicht vergessen.
  
  
  
