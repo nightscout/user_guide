@@ -37,6 +37,9 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  **Aktualisierung des cgm-remote-monitors**
  
+ Die Nightscout Website wird ständig weiterentwickelt. Diese Weiterentwicklung hat als Kennzahl die **Version**. Stand Januar 2016 hat der cgm-remote-monitor die Version 0.8.4.
+ Diese ist hinterher auch auf der Nightscoute 
+ 
  
  
  
