@@ -35,11 +35,24 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  
  
+ 
  **Aktualisierung des cgm-remote-monitors**
  
  Die Nightscout Website wird ständig weiterentwickelt. Diese Weiterentwicklung hat als Kennzahl die **Version**. Stand Januar 2016 hat der cgm-remote-monitor die Version 0.8.4.
- Diese ist hinterher auch auf der Nightscoute 
+ Diese ist hinterher auch auf der [Nightscout Website](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/haupt_seite.html) hier zu sehen:
  
+ Bild einfügen !!!!!!!!!!
+ 
+ Der Progammcode muss dafür synchronisiert werden. nightscout/cgm-remote-monitor enthält aktuellere Daten als die im eigenen Verzeichnis (Branch). 
+ 
+Wir setzen dieses mit einem **New pull request** um werden hierhin weitergeleitet:
+
+![github_cr_pull_request](../images/github/github_cr_pull_request.jpg)
+
+ Jetzt einen Namen eingeben und nochmals mit **Create pull request** bestätigen.
+ 
+ GitHub vergleicht jetzt den Inhalt und die File - Versionen und aktualisiert im eigenen
+ Verzeichnis ältere Versionen.
  
  
  
