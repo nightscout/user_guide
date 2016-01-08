@@ -13,7 +13,7 @@ Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangt man zur 
 Sollte man schon ein Konto haben, kann man sich einfach anmelden, ansonsten geht es mit der **Registrierung** weiter.
 Man wird aufgefordert, seine Kreditkarten einzugeben, die Karte wird nicht belastet.
 Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal anmelden.
- Über den Klick auf **Portal** befindet man sich jetzt im Azure Portal and die Web - Applikation konfigurieren.
+ Über den Klick auf **Portal** befindet man sich jetzt im Azure Portal und kann die Web - Applikation konfigurieren.
  
  **Azure Portal Startseite:**
  
