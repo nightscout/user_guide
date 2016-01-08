@@ -28,6 +28,10 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  ![github_branch_master](../images/github/github_branch_master.jpg)
  
+ Das Ergebnis mit unserem eigenen **master** Branch:
+ 
+ ![github_fork](../images/github/github_fork.jpg)
+ 
  
  
  
