@@ -78,7 +78,8 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
  
  
- Weiter geht es mit dem Konfigurieren der Plugins. Wir gehen zu den **App-Einstellungen**:
+ Weiter geht es mit dem Konfigurieren der [Plugins](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/nightscout_plugins.html). Wir gehen zu den **App-Einstellungen**:
+ 
  ![azure_enable_plugins](../images/azure/azure_enable_plugins.jpg)
  
  **Eingaben:**
