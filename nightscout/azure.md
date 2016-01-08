@@ -33,9 +33,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  ![azure_app_created](../images/azure/azure_app_created.jpg)
  
- Die Web-App wird jetzt in Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt,ob die App online ist oder nicht.
- 
- 
+ Die Web-App wird jetzt in Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt,ob die App **online** oder **not running** ist.
 
  
  Weiter geht es mit der **Konfiguration der Verbindungszeichenfolgen:**
@@ -78,6 +76,16 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  Mit dem Button **Werte der Verbindungszeichenfolge anzeigen** kann man sich die Werte noch einmal anzeigen lassen:
  
  ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
+ 
+ 
+ Weiter geht es mit dem Konfigurieren der Plugins. Wir gehen zu den **App-Einstellungen**:
+ ![azure_enable_plugins](../images/azure/azure_enable_plugins.jpg)
+ 
+ **Eingaben:**
+ 
+ 
+ EN
+ 
  
  
  
