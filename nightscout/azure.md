@@ -116,8 +116,11 @@ mit dem Aufruf http://meinwebsitename.azurewebsites.net aufgerufen werden.
 Die Einrichtung ist fertig.
 
 
+**Kosten:**
 
+Web-Applikationen sind grundsätzlich kostenfrei. Auf dem Azure - Portal gibt es eine **Preisübersicht:**
 
+![azure_prices](../images/azure/azure_prices.jpg)
 
 
 
