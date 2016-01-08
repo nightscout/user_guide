@@ -87,7 +87,7 @@ Diese Daten bitte unbedingt im Datenblatt notieren. Bei evtl. Verbindungsproblem
 
 Es gibt optionale Komponenten zum Management der DB im nächsten Kapitel, diese sind nicht Bestandteil der Implementierung.
 
-Ansonsten geht es jetzt weiter mit der Einrichtung von [GitHub](nightscout/github.md)
+Ansonsten geht es jetzt weiter mit der Einrichtung von 
 
 
 
