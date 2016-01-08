@@ -1,6 +1,8 @@
 # GitHub
 
-[GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierter Filehosting-Dienst für Software-Entwicklungsprojekte. Der eigentliche Quellcode liegt hier und kann von mehreren Nutzern bearbeitet werden. Die Verwaltung der Zusammenarbeit übernimmt GitHub.
+[GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierter Filehosting-Dienst für Software-Entwicklungsprojekte. Software besteht aus vielen Files, die in einer Verzeichnisstruktur liegen. Diese Files enthalten den eigentlichen Programmiercode. 
+Stellt ein Software - Entwickler etwas zur Verfügung, steht es für andere als **master**
+zur Verfügung, wie z.B. der nightscout/cgm-remote-monitor. Diees Files kopiert man sich in sein eigenes Verzeichnis (Fork). Der cgm-remote-monitor enthält den Programmcode zum Aufbeu der Nightscout Website.
 
 Wir starten mit dem **Sign Up** auf der [GitHub Site](https://github.com/):
 
@@ -8,7 +10,7 @@ Wir starten mit dem **Sign Up** auf der [GitHub Site](https://github.com/):
 
 **Wichtig** ist auch hier, Benutzername und Passwort in das Datenblatt einzutragen.
 
-Mit **Edit Profile** kann man sich seine Einstellungen ansehen. 
+Mit **Edit Profile** können wir uns unsere Einstellungen ansehen. 
 
 **Billing:**
 
@@ -16,15 +18,17 @@ Mit **Edit Profile** kann man sich seine Einstellungen ansehen.
  
  ![github_billing](../images/github/github_billing.jpg)
  
+ Wir suchen jetzt den **Programmcode**:
+ 
   Über die Suchfunktion jetzt cgm-remote-monitor eingeben:
  
  ![github_search](../images/github/github_search.jpg)
  
- **nightscout/cgm-remote-monitor** ist der **master Branch**, den man in sein eigenes Repository (heisst wie der gitaccountname) kopiert über den **Fork** Button:
+ Und mit **Fork** kopieren wir den Code in unser eigenes Verzeichnis:
  
  ![github_branch_master](../images/github/github_branch_master.jpg)
  
- Im eigenen Repository hat man jetzt die **Fork** vom **master**.
+ 
  
  
  **Aktualisierung des cgm-remote-monitors**
