@@ -6,14 +6,14 @@
 
 Den Einstieg in deutscher Sprache findet man hier: [Azure ](https://azure.microsoft.com/de-de/)
 
-Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangt man zur Registrieungsseite:
+Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangen wir zur Registrieungsseite:
 
 ![azure_reg](../images/azure/azure_reg.jpg)
 
 Sollte man schon ein Konto haben, kann man sich einfach anmelden, ansonsten geht es mit der **Registrierung** weiter.
-Man wird aufgefordert, seine Kreditkarten einzugeben, die Karte wird nicht belastet.
-Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal anmelden.
- Über den Klick auf **Portal** befindet man sich jetzt im Azure Portal und kann die Web - Applikation konfigurieren.
+Wir werden aufgefordert, die Kreditkarten Daten einzugeben, die Karte wird nicht belastet.
+Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Portal anmelden.
+ Über den Klick auf **Portal** befinden wir uns jetzt im Azure Portal und können die Web - Applikation konfigurieren.
  
  **Azure Portal Startseite:**
  
@@ -24,7 +24,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, kann man sich im Azure Portal
  
  ![azure_config_app](../images/azure/azure_config_app.jpg)
  
- Mit dem Button **Erstellen** speichert man die Einstellungen. Dieses kann einige Zeit
+ Mit dem Button **Erstellen** speichern wir die Einstellungen. Dieses kann einige Zeit
  in Anspruch nehmen.
  
  Der Name der Nightscout - Website ist jetzt: **nscgmq01.azurewebsites.net**. Diesen Namen bitte auch notieren.
