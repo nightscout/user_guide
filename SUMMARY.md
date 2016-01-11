@@ -14,6 +14,7 @@
            * [Guardian 2 Link Transmitter](grundlagen/guardian_2_link_transmitter.md)
        * [Freestyle Libre](grundlagen/cgm/freestyle_libre.md)
    * [MMCommander](grundlagen/cgm/mmcommander.md)
+       * Bauanleitung
    * [Xdrip](grundlagen/xdrip/xdrip.md)
        * [Bausatz](grundlagen/xdrip/bausatz.md)
        * [Xdrip App](grundlagen/xdrip/xdrip_app.md)
