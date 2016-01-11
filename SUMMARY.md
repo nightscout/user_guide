@@ -11,9 +11,6 @@
        * [Dexcom](grundlagen/cgm/dexcom.md)
        * [Freestyle Libre](grundlagen/cgm/freestyle_libre.md)
        * Enlite
-   * [Medtronic Sensoren mit Nightscout verbinden](grundlagen/enlite.md)
-       * [MiniLink Transmitter](grundlagen/minilink_transmitter.md)
-       * [Guardian 2 Link Transmitter](grundlagen/guardian_2_link_transmitter.md)
    * [Xdrip](grundlagen/xdrip/xdrip.md)
        * [Bausatz](grundlagen/xdrip/bausatz.md)
        * [Xdrip App](grundlagen/xdrip/xdrip_app.md)
