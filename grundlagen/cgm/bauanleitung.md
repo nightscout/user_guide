@@ -1,8 +1,8 @@
-# Bauanleitung
+# Hardwarevoraussetzungen
 
 Um den MMCommander zu bauen wird folgende Hardware benötigt:
 
-ein "geeignetes" **Android Smartphone** mit USB OTG Unterstützung. Ob ein bereits vorhandenes Smartphone geeignet ist, lässt sich leider nicht sicher vorhersagen. Als Orientierung kann man sich auf www.nightscout.info eine Liste mit bestätigten Smartphones ansehen: ([Liste](http://www.nightscout.info/wp-content/uploads/2015/02/Nightscout-OTG-Database_CGMitC.xlsx.pdf)). Auch funktionieren laut Nightscout.info diese Smartphones nicht:
+ein "geeignetes" **Android Smartphone** mit USB OTG Unterstützung. Ob ein bereits vorhandenes Smartphone geeignet ist, lässt sich leider nicht sicher vorhersagen. Als Orientierung kann man sich auf www.nightscout.info eine Liste mit bestätigten Smartphones ansehen: ([Liste](http://www.nightscout.info/wp-content/uploads/2015/02/Nightscout-OTG-Database_CGMitC.xlsx.pdf)). Zusätzlich gibt es eine Liste mit Smartphones, die laut Nightscout.info nicht funktionieren:
 
  
 * 
@@ -30,7 +30,7 @@ Droid Razr Maxx
 * 
 Droid Razr
 
-zusätzlich zu den Infos der Nightscout-Seite habe ich versucht ein HTC One (M7) mit Android 5 "Lollipop" ausprobiert. Dieses schien zunächst zu funktionieren, leider empfing der MMCommander mit diesem Smartphone immer nach unterschiedlich langen Zeiten keine Daten der Pumpe mehr, so dass diese Konfiguration leider nicht funktionierte. Erfolgreich läuft der MMCommander derzeit mit meinem Sony Xperia Z3  
+zusätzlich zu den Infos der Nightscout-Seite habe ein HTC One (M7) mit Android 5.1 "Lollipop" ausprobiert. Dieses schien zunächst zu funktionieren, leider empfing der MMCommander mit diesem Smartphone immer nach unterschiedlich langen Zeiten keine Daten der Pumpe mehr, so dass diese Konfiguration leider nicht funktionierte. Erfolgreich läuft der MMCommander derzeit mit meinem Sony Xperia Z3 - ebenfalls mit Android 5.1 "Lollipop". Dieses Smartphone hat den Vorteil, dass man es über einen weiteren magnetischen Anschluss laden kann, während die Micro USB Buchse durch den MMCommander blockiert ist.  
 
 
 ein **USB-OTG Kabel** (Micro-USB Stecker  auf normale USB  Buchse) - zumeist empfiehlt es sich einen gewinkelten USB-Stecker zu nehmen, wobei die Richtung vom verwendeten Smartphone abhängt. Man findet eine relativ große Auswahl bei Ebay oder Amazon. Die Kosten betragen etwa 5 €.
