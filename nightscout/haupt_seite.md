@@ -1,10 +1,13 @@
 # Haupt Seite
 
 
-ccccc
+In der Abbildung ist die Web Site mit Elementen abgebildet:
 
 **Hauptseite:**
 ![nightscout_base_site](../images/nightscout/nightscout_base_site.jpg)
+
+
+Nach dem erstmaligem Aufruf rufen wir die **Einstellungen** auf. 
 
 
 
