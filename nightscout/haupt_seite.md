@@ -35,7 +35,7 @@ Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**
 
 ![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
 
-Die Nightscout Plugins werden jetzt näher beschrieben.
+Die Nightscout [Plugins](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/nightscout_plugins.html) werden jetzt näher beschrieben.
 
 
 
