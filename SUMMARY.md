@@ -7,7 +7,7 @@
        * [finanzielles / technische Voraussetzungen](grundlagen/finanzielles__technische_voraussetzungen.md)
        * [DIY/Disclaimer](grundlagen/diydisclaimer.md)
        * [FAQs](grundlagen/faqs.md)
-   * [CGM](grundlagen/cgm.md)
+   * [CGM](grundlagen/cgm/cgm.md)
        * [Dexcom](grundlagen/dexcom.md)
        * [Enlite](grundlagen/enlite.md)
            * [MiniLink Transmitter](grundlagen/minilink_transmitter.md)
