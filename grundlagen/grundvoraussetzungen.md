@@ -1,12 +1,12 @@
 # Grundvoraussetzungen
 
-es werden ein cgm benötigt. dexcom funktioniert langsam kommt aber auch das enlite dazu
+Es wird ein CGM benötigt. Dexcom funktioniert. Langsam kommt aber auch das Enlite dazu.
 
-ein internetfähiges smartfon zb netzclub sim
+Ein internetfähiges Smartphone z.B. netzclub sim
 
-ein stück hardware um die verbindung transmitter -> smartfon herzustellen
+Ein Stück Hardware um die Verbindung Transmitter -> Smartphone herzustellen
 
-die einrichtung der datenbank wo alle cgm werte gespeichert werden und die einrichtung der nightscout seite selbst
+Die Einrichtung der Datenbank wo alle CGM Werte gespeichert werden und die Einrichtung der Nightscout Seite selbst.
 
-optional eine smartwatch
+Optional kann eine Smartwatch angebunden werden.
 
