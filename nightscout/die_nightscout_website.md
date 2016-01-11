@@ -5,7 +5,10 @@ Das Reporting bietet die Möglichkeit, die Daten auszuwerten und für andere zur
 
 Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die Einstellungen zum Übertragen der Daten in der [Xdrip - App](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip_app.html) erforderlich.
 
-Grafik Kommunikation !!
+**Kommunikation:**
+
+
+
 
 
 Wir starten mit der [Haupt Seite](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/haupt_seite.html):
