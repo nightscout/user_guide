@@ -18,7 +18,7 @@ CGM (durch die Krankenkasse oder privat finanziert)
 
 
 * 
-x-drip (..ca. ...€)
+xDrip (ca. 50 bis 60€)
 
 * 
 ein Smartphone (...) + Datenvertrag (z.B. 0 € bei Netzclub mit 100mb Freivolumen danach gedrosseltes Internet.)
