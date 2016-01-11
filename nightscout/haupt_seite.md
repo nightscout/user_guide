@@ -13,5 +13,23 @@ ccccc
 ![nightscout_einstellungen](../images/nightscout/nightscout_einstellungen.jpg)
 
 
+**Profil-Einstellungen:**
+
+
+![nightscout_profile_editor](../images/nightscout/nightscout_profile_editor.jpg)
+
+
+
+**Dateneingabe:**
+
+![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
+
+
+
+
+
+
+
+
 
 
