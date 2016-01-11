@@ -15,6 +15,7 @@
        * [Freestyle Libre](grundlagen/cgm/freestyle_libre.md)
    * [MMCommander](grundlagen/cgm/mmcommander.md)
        * Bauanleitung
+       * Medtronic Uploader
    * [Xdrip](grundlagen/xdrip/xdrip.md)
        * [Bausatz](grundlagen/xdrip/bausatz.md)
        * [Xdrip App](grundlagen/xdrip/xdrip_app.md)
