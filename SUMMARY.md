@@ -11,7 +11,7 @@
        * [Dexcom](grundlagen/dexcom.md)
        * [Enlite](grundlagen/enlite.md)
            * [MiniLink Transmitter](grundlagen/minilink_transmitter.md)
-           * Guardian 2 Link Transmitter
+           * [Guardian 2 Link Transmitter](grundlagen/guardian_2_link_transmitter.md)
        * [Freestyle Libre](grundlagen/freestyle_libre.md)
    * [Xdrip](grundlagen/xdrip.md)
        * [Bausatz](grundlagen/bausatz.md)
