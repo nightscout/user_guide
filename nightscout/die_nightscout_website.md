@@ -5,8 +5,11 @@ Das Reporting bietet die Möglichkeit, die Daten auszuwerten und für andere zur
 
 Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die Einstellungen zum Übertragen der Daten in der [Xdrip - App](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip_app.html) erforderlich.
 
+Ein Beispiel für eine mögliche Anbindung eines Dexcom CGM Systems:
+
 **Kommunikation:**
 
+![nightscout_principle](../images/nightscout/nightscout_principle.jpg)
 
 
 
