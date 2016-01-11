@@ -14,7 +14,7 @@
            * [Guardian 2 Link Transmitter](grundlagen/guardian_2_link_transmitter.md)
        * [Freestyle Libre](grundlagen/freestyle_libre.md)
    * [Xdrip](grundlagen/xdrip/xdrip.md)
-       * [Bausatz](grundlagen/bausatz.md)
+       * [Bausatz](grundlagen/xdrip/bausatz.md)
        * [Xdrip App](grundlagen/xdrip_app.md)
 * [Nightscout einrichten](nightscout/nightscout_einrichten.md)
    * [Account-Information](nightscout/datenblatt.md)
