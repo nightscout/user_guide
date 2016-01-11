@@ -16,9 +16,9 @@
    * [MMCommander](grundlagen/cgm/mmcommander.md)
        * [Hardware](grundlagen/cgm/bauanleitung.md)
        * Medtronic Uploader
-   * [Xdrip](grundlagen/xdrip/xdrip.md)
+   * [xDrip](grundlagen/xdrip/xdrip.md)
        * [Bausatz](grundlagen/xdrip/bausatz.md)
-       * [Xdrip App](grundlagen/xdrip/xdrip_app.md)
+       * [xDrip App](grundlagen/xdrip/xdrip_app.md)
 * [Nightscout einrichten](nightscout/nightscout_einrichten.md)
    * [Account-Information](nightscout/datenblatt.md)
    * [baembel08_Mongo DB](nightscout/mongo_db.md)
