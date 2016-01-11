@@ -29,11 +29,13 @@ Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu
 
 ![nightscout_profile_editor](../images/nightscout/nightscout_profile_editor.jpg)
 
-Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**- und **Werte**- Felder. Mit Eingabe senden
+Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**- und **Werte**- Felder. Mit **Eingabe senden** erscheint noch ein Bestätigungsbutton, klickt man diesen, werden die Werte gespeichert.
 
 **Dateneingabe:**
 
 ![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
+
+Die Nightscout Plugins werden jetzt näher beschrieben.
 
 
 
