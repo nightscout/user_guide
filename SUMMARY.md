@@ -8,7 +8,7 @@
        * [DIY/Disclaimer](grundlagen/diydisclaimer.md)
        * [FAQs](grundlagen/faqs.md)
    * [CGM](grundlagen/cgm/cgm.md)
-       * [Dexcom](grundlagen/dexcom.md)
+       * [Dexcom](grundlagen/cgm/dexcom.md)
        * [Enlite](grundlagen/enlite.md)
            * [MiniLink Transmitter](grundlagen/minilink_transmitter.md)
            * [Guardian 2 Link Transmitter](grundlagen/guardian_2_link_transmitter.md)
