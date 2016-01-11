@@ -1,3 +1,3 @@
 # Guardian 2 Link Transmitter
 
-Offiziell wird die 
+Offiziell wird der Guardian 2 Link Transmitter und dadurch die 
