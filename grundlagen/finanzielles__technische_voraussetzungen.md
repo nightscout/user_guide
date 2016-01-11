@@ -18,10 +18,12 @@ CGM (durch die Krankenkasse oder privat finanziert)
 
 
 * 
-xDrip (ca. 50 bis 60€)
+[xDrip](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html) (ca. 50 bis 60€)
+
 
 * 
 ein Smartphone (...) + Datenvertrag (z.B. 0 € bei Netzclub mit 100mb Freivolumen danach gedrosseltes Internet.)
+
 * 
 Internet (.....€)
 
