@@ -10,6 +10,7 @@
    * [CGM](grundlagen/cgm.md)
        * [Dexcom](grundlagen/dexcom.md)
        * [Enlite](grundlagen/enlite.md)
+           * MiniLink Transmitter
        * [Freestyle Libre](grundlagen/freestyle_libre.md)
    * [Xdrip](grundlagen/xdrip.md)
        * [Bausatz](grundlagen/bausatz.md)
