@@ -19,7 +19,7 @@ Fünf Möglichkeiten mit Dexcom-Sensoren:
 2. G4-Empfänger "with Share" (VS-Import) mit Share2NS-Bridge
 3. G4-Empfänger "with Share" (VS-Import) mit xDrip-App
 4. G5 mit Share2NS-Bridge
-5. G4 mit selbstgebautem Empfänger ([siehe Kapitel XDrip](xdrip.md))
+5. G4 mit selbstgebautem Empfänger ([siehe Kapitel XDrip](../xdrip/xdrip.html))
 
 
 
