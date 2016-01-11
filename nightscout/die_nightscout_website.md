@@ -8,7 +8,7 @@ Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die Einstellungen 
 Grafik Kommunikation !!
 
 
-Wir starten mit der Haupt Seite
+Wir starten mit der [Haupt Seite](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/haupt_seite.html):
 
 
 
