@@ -1,3 +1,3 @@
 # MMCommander
 
-Anleitung von Jesus folgt ;-)
+Der MMCommander stellt die Schnittstelle zwischen der Medtronic 
