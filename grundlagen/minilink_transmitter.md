@@ -4,4 +4,4 @@ Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es eine von
 
 ![](MedtronicUebersicht.jpg)
 
-Danach stehen einem die in den Kapiteln 3 Die Nightscout Webseite und 4 Smartwatch Integration genannten Möglichkeiten zur Verfügung.
+Danach stehen einem die in den Kapiteln 3 [Die Nightscout Webseite](Die Nightscout Webseite)Die Nightscout Webseite und 4 Smartwatch Integration genannten Möglichkeiten zur Verfügung.
