@@ -22,7 +22,7 @@
    * [baembel08 Azure](nightscout/azure.md)
    * [Nightscout FAQs](nightscout/nsfaqs.md)
 * [Die Nightscout Website](nightscout/die_nightscout_website.md)
-   * [Haupt Seite](nightscout/haupt_seite.md)
+   * [baembel Haupt Seite](nightscout/haupt_seite.md)
    * [Nightscout Plugins](nightscout/nightscout_plugins.md)
    * [Care Portal](nightscout/care_portal.md)
    * [Reports](nightscout/reports.md)
