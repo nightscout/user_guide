@@ -7,7 +7,7 @@
 
 
 ---
-![xDrip Schaltbild](../images/xdrip/schaltbild.png)
+![xDrip Schaltbild](../../images/xdrip/schaltbild.png)
 
 
 ---
@@ -40,4 +40,4 @@
 
 ---
 
-![xDrip V3usb Schaltbild](../images/xdrip/xdrip schaltbild-V3 usb.png)
+![xDrip V3usb Schaltbild](../../images/xdrip/xdrip schaltbild-V3 usb.png)
