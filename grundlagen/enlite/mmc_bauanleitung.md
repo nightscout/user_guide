@@ -1,4 +1,4 @@
-# Hardwarevoraussetzungen
+# Hardware
 
 Um den MMCommander zu bauen wird folgende Hardware benötigt:
 
