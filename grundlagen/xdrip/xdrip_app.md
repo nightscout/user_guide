@@ -55,9 +55,8 @@ Die xDrip-App hat folgende Funktionen:
 	
 
 Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der Download für eine lauffähige Version (*.apk-File) findet sich hier: 
-* Die "aktuelle" Version zum Download: [Link](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/Download-Current-Version)
-* Eine weiter entwickelte Beta-Version findet sich hier: [Link](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta)
 
-Beim Schreiben dieser Zeilen habe ich das Gefühl, dass die Beta-Version weiter verbreitet und sehr zuverlässig ist. Im Zweifel rate ich dazu, die Beta-Version zu verweden.
+* [Link zur Beta-Version](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta)
+
 
 Wer hinreichende technische Kenntnisse hat, kann sich aus den Sourcen selbst die apk kompilieren. Die oben verlinken Versionen sind so erstellt, dass man eine ältere Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu verlieren.
