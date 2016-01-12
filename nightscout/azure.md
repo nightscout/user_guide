@@ -112,7 +112,7 @@ Nachdem man gitHub Benutzername uns Passwort eingegeben hat, erscheint diese Mel
 
 Mit **OK** bestätigen.
 
-Jetzt wählt man den `cgm-remote-monitor aus`:
+Jetzt wählt man den `cgm-remote-monitor` aus:
 
 ![azure_crm](../images/azure/azure_crm.jpg)
 
