@@ -10,31 +10,31 @@ Vorraussetzungen:
 3. xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur VSA)
 
 ## Grund-Funktionalität:
-  ### Download & Installation
-  ### Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
-  ### Starten des Sensors
-  ### Kalibrieren
-  ### Alarme
-	#### BG-Level-Alerts
-	#### BG-Alert-Settings
-		##### Profil: High, Ascending, ...
-		##### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
-	#### Rise-Fall-Alerts
-	#### Calibration Alerts
+### Download & Installation
+### Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
+### Starten des Sensors
+### Kalibrieren
+### Alarme
+#### BG-Level-Alerts
+#### BG-Alert-Settings
+##### Profil: High, Ascending, ...
+##### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
+#### Rise-Fall-Alerts
+#### Calibration Alerts
 
 ## Upload zu NightScout:
 
 ## Verbinden mit einer Smartwatch:
-  ### Android Wear
-  ### Pebble
+### Android Wear
+### Pebble
 
 ## Weiteres:
-  ### Widgets
-  ### Werte vorlesen lassen
-  ### Statistik
-  ### Transmitter-Batterie-Info
-  ### xBridge-Batterie-Info
-  ### Interne Daten (Datatables + Calibration Graph)
+### Widgets
+### Werte vorlesen lassen
+### Statistik
+### Transmitter-Batterie-Info
+### xBridge-Batterie-Info
+### Interne Daten (Datatables + Calibration Graph)
 
 
 
