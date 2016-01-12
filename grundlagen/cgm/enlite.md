@@ -2,17 +2,17 @@
 
 Eine generelle Beschreibung des Enlite Sensors bietet der Hersteller Medtronic an: [Link Enlite Glukosesensor](https://www.medtronic-diabetes.de/minimed-produkte/kontinuierliche-glukosemessung/enlite-glukosesensor). Auch gibt Medtronic eine [Infobroschüre](https://www.medtronic-diabetes.at/sites/austria/medtronic-diabetes.at/files/cgm_broschuere_052012.pdf) zu diesem Thema heraus, die allerdings von 2012 ist und sich daher nur mit dem Enlite Sensor in Verbindung mit der VEO Insulinpumpe beschäftigt.
 
-Grundsätzlich gibt es zwei verschiedene Transmitter von Medtronic, mit denen der aktuelle Enlite Sensor verbunden werden kann:
+Grundsätzlich gibt es aktuell zwei verschiedene Transmitter von Medtronic, mit denen der aktuelle Enlite Sensor verbunden werden kann:
 1.  
 der MiniLink Transmitter, kompatibel mit dem MiniMed Veo System und dem Guardian REAL-Time System und den
 2. 
 Guardian 2 Link Transmitter, der nur mit der MiniMed 640G Insulinpumpe kompatibel ist.
 
-Da sich die Wege zum erfolgreichen Nightscout-Betrieb gravierend unterscheiden, werden diese in den folgenden Unterkapiteln getrennt betrachtet.
+Da sich die Wege zum erfolgreichen Nightscout-Betrieb gravierend unterscheiden, werden diese im Folgenden getrennt betrachtet.
 
 
  
-## 1.2.2.2 MiniLink Transmitter
+## MiniLink Transmitter
 Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es eine von Nightscout veröffenlichte Möglichkeit die Daten zur Nightscout Webseite zu bekommen.
 
 ###Übersichtsgrafik
@@ -22,7 +22,7 @@ Danach stehen einem die in den Kapiteln 3 [Die Nightscout Hauptseite](../../nigh
 
 Um das zu Realisieren muss man den MMCommander bauen und mit der entsprechenden Software bespielen. Zusätzlich muss noch auf einem kompatiblen Android Smartphone die Medtronic Uploader App installiert und konfiguriert werden. Beides ist im Kapitel 1.3 [MMCommander](../grundlagen/cgm/mmcommander.html) beschrieben.
 
-## 1.2.2.3 Guardian 2 Link Transmitter
+## Guardian 2 Link Transmitter
 
 Offiziell wird der Guardian 2 Link Transmitter und dadurch die Minimed 640G Insulinpumpe noch nicht von NightScout unterstützt [(s. englische Nightscout Übersicht)](http://www.nightscout.info/wiki/faqs-2/how-do-you-get-your-cgm-in-the-cloud). 
 
