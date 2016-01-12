@@ -2,7 +2,7 @@
 
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierter Filehosting-Dienst für Software-Entwicklungsprojekte. Software besteht aus vielen Files, die in einer Verzeichnisstruktur liegen. Diese Files enthalten den eigentlichen Programmiercode. 
 Stellt ein Software - Entwickler etwas zur Verfügung, steht es für andere als **master**
-zur Verfügung, wie z.B. der `nightscout/cgm-remote-monitor`. Diees Files kopiert man sich in sein eigenes Verzeichnis (Fork). Das `cgm-remote-monitor` repository enthält den Programmcode zum Aufbeu der Nightscout Website.
+zur Verfügung, wie z.B. der `nightscout/cgm-remote-monitor`. Diees Files kopiert man sich in sein eigenes Verzeichnis (Fork). Das `cgm-remote-monitor` repository enthält den Programmcode zum Aufbau der Nightscout Website.
 
 Wir starten mit dem **Sign Up** auf der [GitHub Site](https://github.com/):
 
@@ -57,7 +57,7 @@ Wir setzen dieses mit einem **New pull request** um werden hierhin weitergeleite
  
  
  
- Jetzt geht es weiter mit dem Einrichten von [Azure](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/azure.html).
+ Jetzt geht es weiter mit dem Einrichten von [Azure](../nightscout/azure.md).
  
  
  
