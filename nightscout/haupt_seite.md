@@ -33,6 +33,8 @@ Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**
 
 **Dateneingabe:**
 
+Für die Dateneingabe muss das Plugin careportal innerhalb der Website konfiguriert sein.
+
 ![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
 
 Die Nightscout [Plugins](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/nightscout_plugins.html) werden jetzt näher beschrieben.
