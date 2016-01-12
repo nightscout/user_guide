@@ -20,7 +20,7 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  Wir suchen jetzt den **Programmcode**:
  
-  Über die Suchfunktion jetzt cgm-remote-monitor eingeben:
+  Über die Suchfunktion jetzt `cgm-remote-monitor` eingeben:
  
  ![github_search](../images/github/github_search.jpg)
  
@@ -36,14 +36,14 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  
  
- **Aktualisierung des cgm-remote-monitors**
+ **Aktualisierung des `cgm-remote-monitors`**
  
- Die Nightscout Website wird ständig weiterentwickelt. Diese Weiterentwicklung hat als Kennzahl die **Version**. Stand Januar 2016 hat der cgm-remote-monitor die Version 0.8.4.
+ Die Nightscout Website wird ständig weiterentwickelt. Diese Weiterentwicklung hat als Kennzahl die **Version**. Stand Januar 2016 hat der `cgm-remote-monitor` die Version 0.8.4.
  Diese ist hinterher auch auf der [Nightscout Website](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/haupt_seite.html) hier zu sehen:
  
  Bild einfügen !!!!!!!!!!
  
- Der Progammcode muss dafür synchronisiert werden. nightscout/cgm-remote-monitor enthält aktuellere Daten als die im eigenen Verzeichnis (Branch). 
+ Der Progammcode muss dafür synchronisiert werden. `nightscout/cgm-remote-monitor` enthält aktuellere Daten als die im eigenen Verzeichnis (Branch). 
  
 Wir setzen dieses mit einem **New pull request** um werden hierhin weitergeleitet:
 
