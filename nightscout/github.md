@@ -2,7 +2,7 @@
 
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierter Filehosting-Dienst für Software-Entwicklungsprojekte. Software besteht aus vielen Files, die in einer Verzeichnisstruktur liegen. Diese Files enthalten den eigentlichen Programmiercode. 
 Stellt ein Software - Entwickler etwas zur Verfügung, steht es für andere als **master**
-zur Verfügung, wie z.B. der `nightscout/cgm-remote-monitor`. Diees Files kopiert man sich in sein eigenes Verzeichnis (Fork). Der `cgm-remote-monitor` enthält den Programmcode zum Aufbeu der Nightscout Website.
+zur Verfügung, wie z.B. der `nightscout/cgm-remote-monitor`. Diees Files kopiert man sich in sein eigenes Verzeichnis (Fork). Das `cgm-remote-monitor` repository enthält den Programmcode zum Aufbeu der Nightscout Website.
 
 Wir starten mit dem **Sign Up** auf der [GitHub Site](https://github.com/):
 
@@ -36,7 +36,7 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  
  
- **Aktualisierung des `cgm-remote-monitors`**
+ **Aktualisierung des `cgm-remote-monitors` repositories**
  
  Die Nightscout Website wird ständig weiterentwickelt. Diese Weiterentwicklung hat als Kennzahl die **Version**. Stand Januar 2016 hat der `cgm-remote-monitor` die Version 0.8.4.
  Diese ist hinterher auch auf der [Nightscout Website](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/haupt_seite.html) hier zu sehen:
