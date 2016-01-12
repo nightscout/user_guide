@@ -14,7 +14,7 @@
            * [Guardian 2 Link Transmitter](grundlagen/guardian_2_link_transmitter.md)
        * [Freestyle Libre](grundlagen/cgm/freestyle_libre.md)
    * [MMCommander](grundlagen/enlite/mmcommander.md)
-       * [Hardware](grundlagen/enlte/mmc_bauanleitung.md)
+       * [Hardware](grundlagen/enlite/mmc_bauanleitung.md)
        * Medtronic Uploader
    * [xDrip](grundlagen/xdrip/xdrip.md)
        * [Bausatz](grundlagen/xdrip/bausatz.md)
