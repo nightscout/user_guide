@@ -5,6 +5,7 @@
 
 **Schaltbild**
 
+Hinweis: Es gibt verschiedene Möglichkeiten, die Platinen zu verschalten.
 
 ---
 ![xDrip Schaltbild](../../images/xdrip/schaltbild.png)
