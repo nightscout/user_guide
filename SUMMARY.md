@@ -21,7 +21,7 @@
        * [xDrip App](grundlagen/xdrip/xdrip_app.md)
 * [Nightscout einrichten](nightscout/nightscout_einrichten.md)
    * [Account-Information](nightscout/datenblatt.md)
-   * [baembel08_Mongo DB](nightscout/mongo_db.md)
+   * [Mongo DB](nightscout/mongo_db.md)
    * [baembel08 Optional: Mongo DB Administration](nightscout/mongo_db_administration.md)
    * [baembel08 GitHub](nightscout/github.md)
    * [baembel08 Azure](nightscout/azure.md)
