@@ -96,7 +96,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
 **Einbindung des GitHub Source Codes**
 
-Zu Bereitstellung der Nightscout -Website fehlt uns noch der cgm-remote-monitor, den wir über GitHub laden.
+Zu Bereitstellung der Nightscout -Website fehlt uns noch der `cgm-remote-monitor`, den wir über GitHub laden.
 Wir steigen hier ein, die Verbindung herzustellen:
 
 ![azure_choose_github](../images/azure/azure_choose_github.jpg)
@@ -112,7 +112,7 @@ Nachdem man gitHub Benutzername uns Passwort eingegeben hat, erscheint diese Mel
 
 Mit **OK** bestätigen.
 
-Jetzt wählt man den cgm-remote-monitor aus:
+Jetzt wählt man den `cgm-remote-monitor aus`:
 
 ![azure_crm](../images/azure/azure_crm.jpg)
 
@@ -138,44 +138,8 @@ Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure - Portal gib
  
  ![azure_prices_web](../images/azure/azure_prices_web.jpg)
  
- Jetzt können wir uns unsere eigene  [Nightscout Website](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/die_nightscout_website.html) ansehen und konfigurieren.
+ Jetzt können wir uns unsere eigene  [Nightscout Website](../nightscout/die_nightscout_website.md) ansehen und konfigurieren.
  
  
  
  
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
- 
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
