@@ -9,32 +9,32 @@ Vorraussetzungen:
 2. Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab Bluetooth 4.0 vorhanden.
 3. xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur VSA)
 
-Grund-Funktionalität:
-  Download & Installation
-  Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
-  Starten des Sensors
-  Kalibrieren
-  Alarme
-	BG-Level-Alerts
-	BG-Alert-Settings
-		Profil: High, Ascending, ...
-		Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
-	Rise-Fall-Alerts
-	Calibration Alerts
+##Grund-Funktionalität:
+  ###Download & Installation
+  ###Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
+  ###Starten des Sensors
+  ###Kalibrieren
+  ###Alarme
+	####BG-Level-Alerts
+	####BG-Alert-Settings
+		#####Profil: High, Ascending, ...
+		#####Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
+	####Rise-Fall-Alerts
+	####Calibration Alerts
 
-Upload zu NightScout:
+##Upload zu NightScout:
 
-Verbinden mit einer Smartwatch:
-  Android Wear
-  Pebble
+##Verbinden mit einer Smartwatch:
+  ###Android Wear
+  ###Pebble
 
-Weiteres:
-  Widgets
-  Werte vorlesen lassen
-  Statistik
-  Transmitter-Batterie-Info
-  xBridge-Batterie-Info
-  Interne Daten (Datatables + Calibration Graph)
+##Weiteres:
+  ###Widgets
+  ###Werte vorlesen lassen
+  ###Statistik
+  ###Transmitter-Batterie-Info
+  ###xBridge-Batterie-Info
+  ###Interne Daten (Datatables + Calibration Graph)
 
 
 
