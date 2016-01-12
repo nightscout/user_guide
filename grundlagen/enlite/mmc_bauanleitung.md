@@ -45,7 +45,7 @@ zumindest einmalig zum Programmieren des CC1111 USB Dongles einen **CC Debugger*
 
 ![ccdebugger](../../images/enlite/debugger.jpg)
 
-nicht zwingend notwendig, aber durchaus sinnvoll ist ein Schutzgehäuse für den CC1111. Es gibt bereits ein Plastikgehäuse, welches man [hier](http://www.shapeways.com/product/PGQ26J9UG/ti-cc1111-rf-transceiver-protective-case?li=shop-results&optionId=40496519) für knapp 20 € erwerben kann. Da der Anbieter mit dem Gehäuse kein Geld verdienen, sondern nur andere Nutzer unterstützen möchte, bietet er auch alternativ die Pläne [hier](https://www.tinkercad.com/things/2TzPZp0T0p1-cc1111-stick-usb-cable-protector) umsonst an, so dass man diese auch bei einem 3D Druck Service nach Wahl realisieren kann.
+nicht zwingend notwendig, aber durchaus sinnvoll ist ein **Schutzgehäuse** für den CC1111. Es gibt bereits ein Plastikgehäuse, welches man [hier](http://www.shapeways.com/product/PGQ26J9UG/ti-cc1111-rf-transceiver-protective-case?li=shop-results&optionId=40496519) für knapp 20 € erwerben kann. Da der Anbieter mit dem Gehäuse kein Geld verdienen, sondern nur andere Nutzer unterstützen möchte, bietet er auch alternativ die Pläne [hier](https://www.tinkercad.com/things/2TzPZp0T0p1-cc1111-stick-usb-cable-protector) umsonst an, so dass man diese auch bei einem 3D Druck Service nach Wahl realisieren kann.
 Eine weitere Möglichkeit ist einfach die Benutzung einer Tic-Tac Dose.
 
 ![tictac](../../images/enlite/tictac.jpg)
