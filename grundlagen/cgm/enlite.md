@@ -12,7 +12,7 @@ Da sich die Wege zum erfolgreichen Nightscout-Betrieb gravierend unterscheiden, 
 
 
  
-## 1. MiniLink Transmitter
+## 1.2.2.2 MiniLink Transmitter
 Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es eine von Nightscout veröffenlichte Möglichkeit die Daten zur Nightscout Webseite zu bekommen.
 
 ![](../../images/enlite/MedtronicUebersichtklein.jpg)
@@ -21,7 +21,7 @@ Danach stehen einem die in den Kapiteln 3 [Die Nightscout Hauptseite](../../nigh
 
 Um das zu Realisieren muss man den MMCommander bauen und mit der entsprechenden Software bespielen. Zusätzlich muss noch auf einem kompatiblen Android Smartphone die Medtronic Uploader App installiert und konfiguriert werden. Beides ist im Kapitel 1.3 [MMCommander](../grundlagen/cgm/mmcommander.html) beschrieben.
 
-## 2. Guardian 2 Link Transmitter
+## 1.2.2.3 Guardian 2 Link Transmitter
 
 Offiziell wird der Guardian 2 Link Transmitter und dadurch die Minimed 640G Insulinpumpe noch nicht von NightScout unterstützt [(s. englische Nightscout Übersicht)](http://www.nightscout.info/wiki/faqs-2/how-do-you-get-your-cgm-in-the-cloud). 
 
