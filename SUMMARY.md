@@ -14,8 +14,8 @@
    * [MMCommander](grundlagen/enlite/mmcommander.md)
        * [Hardware](grundlagen/enlite/mmc_bauanleitung.md)
        * [Software](grundlagen/enlite/software.md)
-       * [CC1111 Programmierung](grundlagen/enlite/cc1111_programmierung.md)
        * CC1111 Anschließen
+       * [CC1111 Programmierung](grundlagen/enlite/cc1111_programmierung.md)
    * [xDrip](grundlagen/xdrip/xdrip.md)
        * [Bausatz](grundlagen/xdrip/bausatz.md)
        * [xDrip App](grundlagen/xdrip/xdrip_app.md)
