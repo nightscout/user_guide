@@ -14,7 +14,7 @@ Ein Beispiel für eine mögliche Anbindung eines Dexcom CGM Systems an Nightscou
 
 
 
-Wir starten mit der [Haupt Seite](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/haupt_seite.html):
+Wir starten mit der [Haupt Seite](../nightscout/haupt_seite.md):
 
 
 
