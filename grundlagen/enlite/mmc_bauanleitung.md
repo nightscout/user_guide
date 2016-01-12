@@ -30,19 +30,18 @@ Geräte mit **Blackberry** Betriebssystem
 * 
 Geräte mit **iOS** Betriebssystem (Apple - Geräte)
 
-zusätzlich zu den Infos der Nightscout-Seite habe ein HTC One (M7) mit Android 5.1 "Lollipop" ausprobiert. Dieses schien zunächst zu funktionieren, leider empfing der MMCommander mit diesem Smartphone nach unterschiedlich langen Zeiten keine Daten der Pumpe mehr, so dass diese Konfiguration leider nicht funktionierte. Erfolgreich läuft der MMCommander derzeit mit meinem Sony Xperia Z3 - ebenfalls mit Android 5.1 "Lollipop". Dieses Smartphone hat den Vorteil, dass man es über einen weiteren magnetischen Anschluss laden kann, während die Micro USB Buchse durch den MMCommander blockiert ist. Im Internet scheinen sich übrigens viele Nightscout-Benutzer für das kostengünstige Motorola Moto G entschieden zu haben.  
+zusätzlich zu den Infos der Nightscout-Seite habe ich ein HTC One (M7) mit Android 5.1 "Lollipop" ausprobiert. Dieses schien zunächst zu funktionieren, leider empfing der MMCommander mit diesem Smartphone nach unterschiedlich langen Zeiten keine Daten der Pumpe mehr, so dass diese Konfiguration leider nicht funktionierte. Erfolgreich läuft der MMCommander derzeit mit meinem Sony Xperia Z3 - ebenfalls mit Android 5.1 "Lollipop". Dieses Smartphone hat den Vorteil, dass man es über einen weiteren magnetischen Anschluss laden kann, während die Micro USB Buchse durch den MMCommander blockiert ist. Im Internet scheinen sich übrigens viele Nightscout-Benutzer für das kostengünstige Motorola Moto G entschieden zu haben.  
 
 
 ein **USB-OTG Kabel** (Micro-USB Stecker  auf normale USB  Buchse) - zumeist empfiehlt es sich einen gewinkelten USB-Stecker zu nehmen, wobei die sinnvolle Richtung vom verwendeten Smartphone abhängt. Man findet eine relativ große Auswahl bei Ebay oder Amazon. Die Kosten betragen etwa 5 €.
 
 ![usb_otgklein](../../images/enlite/usb-otgklein.jpg)
 
-einen **CC1111 USB Dongle**, diesen Funk-Sender-Empfänger kann man z.B. für etwa 75 $ hier bestellen: http://www.ti.com/tool/cc1111emk868-915 oder für 67 € hier:
-http://de.farnell.com/texas-instruments/cc1111emk868-915/cc1111-rf-transceiver-eval-module/dp/2334589.
+einen **CC1111 USB Dongle**, diesen Funk-Sender-Empfänger kann man z.B.  für 67 € bei [Farnell](http://de.farnell.com/texas-instruments/cc1111emk868-915/cc1111-rf-transceiver-eval-module/dp/2334589) oder [Digi-Key](http://www.digikey.de/product-detail/de/CC1111EMK868-915/296-22732-ND/1739551) bestellen.
 
 ![cc1111_dogle](../../images/enlite/CC1111.jpg)
 
-zumindest einmalig zum Programmieren des CC1111 USB Dongles einen **CC Debugger**. Dieser kann für rund 49 $ z.B. unter http://www.ti.com/tool/CC-DEBUGGER bestellt werden oder für 44 € hier: http://de.farnell.com/texas-instruments/cc-debugger/prog-debugger-f-rf-soc/dp/1752232?MER=baynote-1752232-pr.
+zumindest einmalig zum Programmieren des CC1111 USB Dongles einen **CC Debugger**. Dieser kann für rund 44 € z.B. ebenfalls bei [Farnell](http://de.farnell.com/texas-instruments/cc-debugger/prog-debugger-f-rf-soc/dp/1752232?MER=baynote-1752232-pr) oder [Digi-Key](http://www.digikey.de/product-detail/de/CC-DEBUGGER/296-30207-ND/2231678) bestellt werden.
 
 ![ccdebugger](../../images/enlite/debugger.jpg)
 
