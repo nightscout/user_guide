@@ -13,7 +13,7 @@
            * [MiniLink Transmitter](grundlagen/minilink_transmitter.md)
            * [Guardian 2 Link Transmitter](grundlagen/guardian_2_link_transmitter.md)
        * [Freestyle Libre](grundlagen/cgm/freestyle_libre.md)
-   * [MMCommander](grundlagen/cgm/mmcommander.md)
+   * [MMCommander](grundlagen/enlite/mmcommander.md)
        * [Hardware](grundlagen/cgm/bauanleitung.md)
        * Medtronic Uploader
    * [xDrip](grundlagen/xdrip/xdrip.md)
