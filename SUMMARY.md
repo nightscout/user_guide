@@ -23,7 +23,7 @@
    * [Account-Information](nightscout/datenblatt.md)
    * [Mongo DB](nightscout/mongo_db.md)
    * [Optional: Mongo DB Administration](nightscout/mongo_db_administration.md)
-   * [baembel08 GitHub](nightscout/github.md)
+   * [GitHub](nightscout/github.md)
    * [baembel08 Azure](nightscout/azure.md)
    * [Nightscout FAQs](nightscout/nsfaqs.md)
 * [Die Nightscout Website](nightscout/die_nightscout_website.md)
