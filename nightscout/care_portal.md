@@ -6,17 +6,18 @@ Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit dem Klic
 wählen wir jetzt einen **Mahlzeiten Bolus** aus, um Insulinmenge und KH hinzuzufügen.
 
 
-Ereignis-Typ:
+**Ereignis-Typ:**
 
 ![nightscout_careportal](../images/nightscout/nightscout_careportal.jpg)
 
 
-Auswahlfelder werden entsprechend der Auswahl angepasst.
+Die Auswahlfelder werden entsprechend der Auswahl angepasst.
 
-eingabe KH und Insulin
+Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch die Eingabe der
+korrrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese zusammen mit den CGM - Werten grafisch dargestellt werden.
 
 
-Datum und Uhrzeit.
+
 
 Speichern.
 
