@@ -1,7 +1,7 @@
 # Haupt Seite
 baembel08
 
-In der Abbildung ist die Web Site mit Elementen zu sehen.
+In der Abbildung ist die Web Site mit Elementen zu sehen. Mit dem Klick auf das Ausschnittsfenster kann an die Ansicht von aktuellen Live Daten zu RETRO - Daten aus der Vergangenheit ändern.
 
 **Hauptseite:**
 ![nightscout_base_site](../images/nightscout/nightscout_base_site.jpg)
@@ -12,7 +12,6 @@ weiter zu **Berichte**, **Profil-Einstellungen**, **Admin Tools** gelangen.
 Über die Auswahlfelder konfiguriert man das Erscheinungsbild, die Sprache, Alarme
 und Plugins. Bei Änderungen **Speichern** nicht vergessen.
 
-****
 
 **Einstellungen:**
 
