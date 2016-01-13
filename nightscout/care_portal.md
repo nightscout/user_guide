@@ -14,13 +14,16 @@ wählen wir jetzt einen **Mahlzeiten Bolus** aus, um Insulinmenge und KH hinzuzu
 Die Auswahlfelder werden entsprechend der Auswahl angepasst.
 
 Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch die Eingabe der
-korrrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese zusammen mit den CGM - Werten grafisch dargestellt werden.
+korrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese zusammen mit den CGM - Werten grafisch dargestellt werden.
+
+
+Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die eingaben zu bestätigen. Mit **OK** ist alles gespeichert.
 
 
 
 
-Speichern.
+Nun können wir alles grafisch ansehen:
 
-Visualisierung.
+Visualisierung pic
 
-Weiter gehts mit den Reports.
+Weiter gehts mit der  Auswertung der Daten über die Reports.
