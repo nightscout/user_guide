@@ -1,7 +1,7 @@
 # xDrip App
 
-Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy läuft. Sie dient dazu CGM-Werte auf dem Mobiltelefon und einer Smart-Watch anzuzeigen, auszuwerten und bei Bedaft zu NightScout hochzuladen.
-Um die Werte zu erhalten benötigt man entweder ein Dexcom G4 *with Share" oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz.
+Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy läuft. Sie dient dazu CGM-Werte auf dem Mobiltelefon und einer Smart-Watch anzuzeigen, auszuwerten und bei Bedarf zu NightScout hochzuladen.
+Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share" oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz.
 
 
 Vorraussetzungen:
@@ -22,11 +22,16 @@ Vorraussetzungen:
 #### Rise-Fall-Alerts
 #### Calibration Alerts
 
-## Upload zu NightScout:
 
 ## Verbinden mit einer Smartwatch:
+An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden. Damit kann man die Installationsschritte in "Nightscout einrichten" umgehen. Damit wiederherum umgeht man aber auch die Möglichkeit, die Daten weiter zu nutzen. (Als Überwachungsfunktion, als Tagebuch oder für das APS)
 ### Android Wear
 ### Pebble
+
+
+## Upload zu NightScout:
+
+
 
 ## Weiteres:
 ### Widgets
