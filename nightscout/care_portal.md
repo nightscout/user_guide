@@ -23,4 +23,4 @@ Speichern.
 
 Visualisierung.
 
-Weiter gehts imit den Reports.
+Weiter gehts mit den Reports.
