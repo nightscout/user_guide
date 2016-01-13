@@ -1,8 +1,12 @@
 # Care Portal
 
 baembel
-Mit dem
-Wir starten mit dem Klick auf das + - Symbol auf 
+
+Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit dem Klick auf das **+** - Symbol. Der Ereignis-Typ ist ein DropDown - Menü mit Auswahlwerten. Bespielhaft
+wählen wir jetzt einen **Mahlzeiten Bolus** aus, um Insulinmenge und KH hinzuzufügen.
+
+
+Ereignis-Typ:
 
 ![nightscout_careportal](../images/nightscout/nightscout_careportal.jpg)
 
