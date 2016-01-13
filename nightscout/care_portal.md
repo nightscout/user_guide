@@ -1,13 +1,13 @@
 # Care Portal
 
 baembel
-
-
+Mit dem
+Wir starten mit dem Klick auf das + - Symbol auf 
 
 ![nightscout_careportal](../images/nightscout/nightscout_careportal.jpg)
 
 
-Auswahlfelder werden aentsprchend der Auswahl angepasst.
+Auswahlfelder werden entsprechend der Auswahl angepasst.
 
 eingabe KH und Insulin
 
