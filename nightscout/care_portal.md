@@ -22,7 +22,7 @@ Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die eingaben z
 
 
 
-Nun können wir alles grafisch ansehen:
+Nun können wir uns  alles grafisch ansehen:
 
 Visualisierung pic
 
