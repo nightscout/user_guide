@@ -53,8 +53,8 @@ Position im Prozessablauf:
 
 Die xDrip-App hat folgende Funktionen:
 * 	Empfang von BZ-Messwerten
-*	Anzeige (ggf. ansagen) von BZ-Werten 
-*	Weiterleiten der Werte an nachgelagerte Systeme (Pebble-Watch, Nightscout)
+*	Anzeige (ggf. Ansage) von BZ-Werten 
+*	Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, Nightscout)
 *	Alarm bei (zuvor individuell definierten) meldewürdigen Werten / Verlauf
 *	Export der Werte zur Auswertung in anderen Systemen (zB. SiDiary, Excel)
 	
