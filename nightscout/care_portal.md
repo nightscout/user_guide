@@ -26,4 +26,4 @@ Nun können wir alles grafisch ansehen:
 
 Visualisierung pic
 
-Weiter gehts mit der  Auswertung der Daten über die Reports.
+Weiter gehts mit der  Auswertung der Daten über die [Reports](../nightscout/reports.md).
