@@ -32,7 +32,7 @@ Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**
 
 **Dateneingabe:**
 
-Für die Dateneingabe muss das Plugin **careportal** innerhalb der Website konfiguriert sein.
+Für die Dateneingabe muss das Plugin **careportal** mit ENABLE über [Azure](../nightscout/azure.md) konfiguriert sein.
 
 ![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
 
