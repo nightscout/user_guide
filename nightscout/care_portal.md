@@ -24,6 +24,6 @@ Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die eingaben z
 
 Nun können wir uns  alles grafisch ansehen:
 
-Visualisierung pic
+![nightscout_cp_entries](../images/nightscout/nightscout_cp_entries.jpg)
 
 Weiter gehts mit der  Auswertung der Daten über die [Reports](../nightscout/reports.md).
