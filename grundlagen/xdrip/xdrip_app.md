@@ -11,6 +11,11 @@ Vorraussetzungen:
 
 ## Grund-Funktionalität:
 ### Download & Installation
+Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der Download für eine lauffähige Version (*.apk-File) findet sich hier: [Link zur Beta-Version](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta)
+
+Die hier verlinkten Versionen sind so erstellt, dass man eine ältere Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu verlieren.
+Wer hinreichende technische Kenntnisse hat, kann sich aus den Sourcen selbst die apk kompilieren. 
+
 ### Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
 ### Starten des Sensors
 ### Kalibrieren
@@ -59,9 +64,7 @@ Die xDrip-App hat folgende Funktionen:
 *	Export der Werte zur Auswertung in anderen Systemen (zB. SiDiary, Excel)
 	
 
-Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der Download für eine lauffähige Version (*.apk-File) findet sich hier: 
-
-* [Link zur Beta-Version](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta)
 
 
-Wer hinreichende technische Kenntnisse hat, kann sich aus den Sourcen selbst die apk kompilieren. Die oben verlinken Versionen sind so erstellt, dass man eine ältere Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu verlieren.
+
+
