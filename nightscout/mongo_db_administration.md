@@ -38,7 +38,7 @@ Klicke **Connect**, dann öffnet sich folgendes Fenster:
 
 
 
-![mongochef_connecti_user](../images/mongodb/mongochef_connect_user.JPG)
+![mongochef_connect_user](../images/mongodb/mongodb_connect_user.jpg)
 
 
 
