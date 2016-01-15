@@ -1,6 +1,6 @@
 # Grundsätzliche Funktionsweise/Ausblick
 
-Du kannst Nightscout auf verschiedene Weisen nutzen:
+Man kann Nightscout auf verschiedene Weisen nutzen:
 
 * als Kontroll- und Alarmsystem für Angehörige von Diabetes betroffenen, insbesondere für Kinder oder ältere Menschen mit Diabetes.
 
