@@ -4,5 +4,9 @@ Um den CC1111 USB Dongle zu programmieren, muss der SmartRF Flash Programmer ent
 
 ![](../../images/enlite/config.png)
 
+Anschließend nur noch auf "Perform actions" klicken und kurz warten. Hat alles geklappt, sollte es so aussehen:
+
+![](../../images/enlite/action.png)
+
 
 
