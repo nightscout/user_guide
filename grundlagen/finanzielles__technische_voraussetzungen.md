@@ -22,10 +22,14 @@ CGM (durch die Krankenkasse oder privat finanziert)
 
 
 * 
-ein Smartphone (...) + Datenvertrag (z.B. 0 € bei Netzclub mit 100mb Freivolumen danach gedrosseltes Internet.)
-
+Smartphone (Android-Telefon)
+ * 
+mit Betriebssystem-Version 4.3 (besser 4.4 oder höher) und
+ *  Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab Bluetooth 4.0 vorhanden. 
 * 
-Internet (.....€)
+Datenvertrag (z.B. 0 € bei Netzclub mit 100mb Freivolumen danach gedrosseltes Internet.)
+
+
 
 * 
 eine Kreditkarte (wird nicht belastet)
