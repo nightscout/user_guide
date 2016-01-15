@@ -30,7 +30,11 @@ Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu
 
 Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**- und **Werte**- Felder. Mit **Eingabe senden** erscheint noch ein Bestätigungsbutton, klickt man diesen, werden die Werte gespeichert.
 
-Admin Tools
+**Admin Tools**
+
+![nightscout_admin_tools](../images/nightscout/nightscout_admin_tools.jpg)
+
+Mit den Admin Tools ist es möglich, Daten zu löschen. Dieses betrifft im wesentlichen Nutzer der Nightscout Uploader App, welche Daten vom Dexcom Receiver via USB Kabel an das Android Smartphone übertragen.
 
 
 **Dateneingabe:**
