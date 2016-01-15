@@ -9,4 +9,7 @@ Anschließend nur noch auf "Perform actions" klicken und kurz warten. Hat alles 
 ![](../../images/enlite/action.png)
 
 
+Danach sollte Windows eine neues Gerät namens "MMCommander" finden. 
+
+
 
