@@ -1,5 +1,5 @@
 # CC1111 Programmierung
 
-Um den CC1111 
+Um den CC1111 USB Dongle zu programmieren, muss der SmartRF Flash Programmer entsprechend konfiguriert werden. Im "System-on-Chip" Fenster sollte nun der CC1111 erscheinen. Im "Flash image" Fenster auf den Button mit den drei Punkten drücken und den
 
 
