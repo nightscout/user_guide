@@ -1,10 +1,10 @@
 # finanzielles / technische Voraussetzungen
 
-Für den Anfang benötigst Du:
+Für den Anfang benötigt man:
 * 
 Neugierde
 * 
-Interesse daran, etwas für dich /deine Gesundheit .. zu tun
+Interesse daran, etwas für die eigene Gesundheit (bzw. die der Angehörigen) zu tun
 * 
 technisches Interesse, aber nicht wirklich Vorkenntnisse! 
 * 
