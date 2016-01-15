@@ -39,7 +39,7 @@ ein **USB-OTG Kabel** (Micro-USB Stecker  auf normale USB  Buchse) - zumeist emp
 
 einen **CC1111 USB Dongle**, diesen Funk-Sender-Empfänger kann man z.B.  für 67 € bei [Farnell](http://de.farnell.com/texas-instruments/cc1111emk868-915/cc1111-rf-transceiver-eval-module/dp/2334589) oder [Digi-Key](http://www.digikey.de/product-detail/de/CC1111EMK868-915/296-22732-ND/1739551) bestellen.
 
-![cc1111_dogle](../../images/enlite/CC1111.jpg)
+![cc1111_dongle](../../images/enlite/CC1111.jpg)
 
 zumindest einmalig zum Programmieren des CC1111 USB Dongles einen **CC Debugger**. Dieser kann für rund 44 € z.B. ebenfalls bei [Farnell](http://de.farnell.com/texas-instruments/cc-debugger/prog-debugger-f-rf-soc/dp/1752232?MER=baynote-1752232-pr) oder [Digi-Key](http://www.digikey.de/product-detail/de/CC-DEBUGGER/296-30207-ND/2231678) bestellt werden.
 
