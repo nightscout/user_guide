@@ -89,7 +89,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  **ENABLE**: Parametername
  
- **iob cob bwp basal careportla maker** .... Name der Plugins.
+ **iob cob bwp basal careportal maker** .... Name der Plugins.
  
  ** Speichern **nicht vergessen.
  
