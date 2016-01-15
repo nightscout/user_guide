@@ -30,6 +30,9 @@ Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu
 
 Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**- und **Werte**- Felder. Mit **Eingabe senden** erscheint noch ein Bestätigungsbutton, klickt man diesen, werden die Werte gespeichert.
 
+Admin Tools
+
+
 **Dateneingabe:**
 
 Für die Dateneingabe muss das Plugin **careportal** mit ENABLE über [Azure](../nightscout/azure.md) konfiguriert sein.
