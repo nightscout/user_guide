@@ -25,4 +25,4 @@ pic Bearbeitung einfügen!!!!!!!
 
 
 
-Weiter gehts mit der Anbindung von  [Smartwatches](../smartwatch/reports.md).
+Weiter gehts mit der Anbindung von  [Smartwatches](../smartwatch/smartwatch_integration.md).
