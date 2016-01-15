@@ -2,7 +2,6 @@
 ##Links
 **[Gitter Chat Gruppe](https://gitter.im/LadyViktoria/germanLOOP)**
 
-**[Insulin Club Forum](http://www.insulinclub.de/)**
 
 **[Nightscout Deutschland Facebook-Gruppe](https://www.facebook.com/groups/nightscoutDE/)**
 
