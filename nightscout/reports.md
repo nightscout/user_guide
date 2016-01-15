@@ -2,7 +2,7 @@
 
 baembel
 
-Wir starten das Reporting mit dem Klick auf **Berichte** und erhalten diese Ansicht: 
+Wir starten das **Reporting** mit dem Klick auf **Berichte** und erhalten diese Ansicht: 
 
 ![nightscout_reporting_config](../images/nightscout/nightscout_reporting_config.jpg)
 
