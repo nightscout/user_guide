@@ -4,6 +4,8 @@ Zunächst muss der CC1111 USB Dongle mit dem CC Debugger verbunden werden. Dabei
 
 ![Kabelverbindung](..\..\images\enlite\cabel.jpg)
 
+Wenn alles richtig angeschlossen ist, sollte die LED am CC Debugger nun grün leuchten.
+
 
 
 
