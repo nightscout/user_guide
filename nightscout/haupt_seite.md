@@ -34,7 +34,7 @@ Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**
 
 ![nightscout_admin_tools](../images/nightscout/nightscout_admin_tools.jpg)
 
-Mit den Admin Tools ist es möglich, Daten zu löschen. Dieses betrifft im wesentlichen Nutzer der Nightscout Uploader App, welche Daten vom Dexcom Receiver via USB Kabel an das Android Smartphone übertragen.
+Mit den Admin Tools ist es möglich, Daten zu löschen. Dieses betrifft im wesentlichen Nutzer der Nightscout Uploader App, welche Daten vom Dexcom Receiver via USB Kabel an das Android Smartphone übertragen. Bevor hier etwas geklickt wird, bitte genau überlegen, ob dieses wirklich nötig ist.
 
 
 **Dateneingabe:**
@@ -43,7 +43,7 @@ Für die Dateneingabe muss das Plugin **careportal** mit ENABLE über [Azure](..
 
 ![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
 
-Die Nightscout [Plugins](../nightscout/plugins.md) werden jetzt näher beschrieben.
+Die Nightscout [Plugins](../nightscout/nightscout_plugins.md) werden jetzt näher beschrieben.
 
 
 
