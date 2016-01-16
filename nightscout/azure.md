@@ -73,6 +73,14 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  **Benutzerdefiniert**: Attribut
  
+ An dieser Stelle noch ganz wichtig den 
+ 
+ Parametername : **TREATMENTS_AUTH** 
+ 
+ mit dem Wert: **ON**
+ 
+ Attribut **Benutzerdefiniert** Hinzufügen sonst kann auch **jeder** der die Website kennt auch **ohne den geheimen** Wert vom API Secret werte in eurer Datenbank **hinzufügen** oder **verändern**.
+ 
  **Speichern** nicht vergessen.
  
  Mit dem Button **Werte der Verbindungszeichenfolge anzeigen** kann man sich die Werte noch einmal anzeigen lassen:
