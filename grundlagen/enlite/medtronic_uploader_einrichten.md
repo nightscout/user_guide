@@ -27,7 +27,7 @@ Glucose Value Source -> "Medtronic Sensor" auswählen.
 * 
 API Upload (REST) -> aktivieren
 * 
-API Base URL -> ```APISECRET```@https:// ```WEBSEITENNAME```.azurewebsites.net/api/v1 eintragen. Sowohl das API secret, als auch den Webseitennamen findet man auf der letzten Seite des Arbeitsblattes aus Kapitel 2.1. - vorausgesetzt man hat das Arbeitsblatt ausgefüllt. Mit den Besispielen aus Kapitel 2.5. [Azure](..\..\nightscout_einrichten\azure.html).
+API Base URL -> ```APISECRET```@https:// ```WEBSEITENNAME```.azurewebsites.net/api/v1 eintragen. Sowohl das API secret, als auch den Webseitennamen findet man auf der letzten Seite des Arbeitsblattes aus Kapitel 2.1. - vorausgesetzt man hat das Arbeitsblatt ausgefüllt. Mit den Besispielen aus Kapitel 2.5. [Azure](..\..\nightscout\azure.html).
 
 
 
