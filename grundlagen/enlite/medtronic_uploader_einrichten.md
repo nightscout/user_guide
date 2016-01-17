@@ -29,7 +29,13 @@ API Upload (REST) -> aktivieren
 * 
 API Base URL -> ```APISECRET```@https:// ```WEBSEITENNAME```.azurewebsites.net/api/v1 eintragen. Sowohl das API secret, als auch den Webseitennamen findet man auf der letzten Seite des Arbeitsblattes aus Kapitel 2.1. - vorausgesetzt man hat das Arbeitsblatt ausgefüllt. Mit den Beispielen aus Kapitel 2.5. [Azure](..\..\nightscout\azure.html) ergäbe sich dann: Y3KmrdFA12jmk@https://nscgm01.azurewebsites.net/api/v1.
 * 
-
+MongoDB Upload -> deaktivieren
+* 
+Wifi Hack -> deaktivieren
+* 
+2 Days at Startup -> aktivieren
+* 
+I UNDERSTAND -> hier steht ganz klar, dasss Nightscout nicht genutzt werden darf, um medizinische Entscheidungen zu fällen
 
 
 
