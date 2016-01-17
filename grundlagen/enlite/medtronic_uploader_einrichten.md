@@ -27,7 +27,7 @@ Glucose Value Source -> "Medtronic Sensor" auswählen.
 * 
 API Upload (REST) -> aktivieren
 * 
-API Base URL -> (API secret)@(persönliche Webseitenname)/api/v1 eintragen. Sowohl das Api secret,a ls auch den persönlichen Web
+API Base URL -> ```APISECRET```@https:// ```WEBSEITENNAME```.azurewebsites.net/api/v1 eintragen. Sowohl das Api secret, als auch den persönlichen Webseitennamen findet man auf der letzten Seite des Arbeitsblattes aus Kapitel 2.1..
 
 
 
