@@ -35,7 +35,9 @@ Wifi Hack -> deaktivieren
 * 
 2 Days at Startup -> aktivieren
 * 
-I UNDERSTAND -> hier steht ganz klar, dasss Nightscout nicht genutzt werden darf, um medizinische Entscheidungen zu fällen
+I UNDERSTAND -> hier steht ganz klar, dass Nightscout nicht genutzt werden darf, um medizinische Entscheidungen zu fällen. Es gibt weder Unterstützung noch irgendwelche Garantien. Die Qualität und Leistung dieses Projektes hängt einzig von Dir ab. Dieses Projekt wurde von Freiwilligen gestartet und unterstützt. Dies muss man akzeptieren. -> aktivieren
+
+Nun geht man raus aus den Einstellungen. Man sollte Striche sehen, einen grünen Text "CGM Service Started" und einen weiteren Text "Uncalibrated".
 
 
 
