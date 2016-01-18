@@ -17,7 +17,7 @@
        * [CC1111 anschließen](grundlagen/enlite/cc1111_anschliessen.md)
        * [CC1111 Programmierung](grundlagen/enlite/cc1111_programmierung.md)
        * [Medtronic Uploader einrichten](grundlagen/enlite/medtronic_uploader_einrichten.md)
-       * Fehlerbehebung
+       * [Fehlerbehebung](grundlagen/enlite/fehlerbehebung.md)
    * [xDrip](grundlagen/xdrip/xdrip.md)
        * [Bausatz](grundlagen/xdrip/bausatz.md)
        * [xDrip App](grundlagen/xdrip/xdrip_app.md)
