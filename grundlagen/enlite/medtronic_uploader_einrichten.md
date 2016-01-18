@@ -2,9 +2,9 @@
 
 Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert werden kann, muss man die Schritte des Kapitels 2. [Nightscout einrichten](../../nightscout/nightscout_einrichten.html) , außer denen des Unterkapitels 2.3, vollzogen haben.
 
-Nun installiert man die Datei "NightScout.apk" auf dem Smartphone. Eventuell muss man dazu unter Einstellungen - Sicherheit - Unbekannte Herkunft, die Installation von APps aus unbekannten Quellen zulassen, da diese Appnicht aus dem Play Store stammt. Dort gibt es nur den Nightscout Uploader, der für Dexcom Empfänger gedacht ist.
+Nun installiert man die Datei "NightScout.apk" auf dem Smartphone. Eventuell muss man dazu unter Einstellungen - Sicherheit - Unbekannte Herkunft, die Installation von APps aus unbekannten Quellen zulassen, da diese Appnicht aus dem Play Store stammt. Dort gibt es nur den "Nightscout Uploader", welcher für Dexcom Empfänger gedacht ist.
 
-Die Account-Information, die man auf dem Arbeitsblatt aus Kapitel 2.1 eingetragen hat, werden nun zum Konfigurieren der Medtronic Uploader App benötigt.
+Die Account-Information, die man auf dem Arbeitsblatt aus Kapitel 2.1. eingetragen hat, werden nun zum Konfigurieren der Medtronic Uploader App benötigt.
 
 Zuerst muss die Medtronic Uploader App geschlossen werden, falls diese bereits läuft. Nun den MMCommander über das USB OTG Kabel an das Smartphone anschließen. Es sollte sich automatisch ein Fenster öffnen, welches fragt, was getan werden soll. Dort die Nightscout App auswählen ind diese sollte danach automatisch starten.
 
@@ -27,7 +27,7 @@ Glucose Value Source -> "Medtronic Sensor" auswählen.
 * 
 API Upload (REST) -> aktivieren
 * 
-API Base URL -> ```APISECRET```@https:// ```WEBSEITENNAME```.azurewebsites.net/api/v1 eintragen. Sowohl das API secret, als auch den Webseitennamen findet man auf der letzten Seite des Arbeitsblattes aus Kapitel 2.1. - vorausgesetzt man hat das Arbeitsblatt ausgefüllt. Mit den Beispielen aus Kapitel 2.5. [Azure](..\..\nightscout\azure.html) ergäbe sich dann: Y3KmrdFA12jmk@https://nscgm01.azurewebsites.net/api/v1.
+API Base URL -> ```APISECRET```@https:// ```WEBSEITENNAME```.azurewebsites.net/api/v1 eintragen. Sowohl das "API secret", als auch den "Webseitennamen" findet man auf der letzten Seite des Arbeitsblattes aus Kapitel 2.1. - vorausgesetzt man hat das Arbeitsblatt ausgefüllt. Mit den Beispielen aus Kapitel 2.5. [Azure](..\..\nightscout\azure.html) ergäbe sich dann: Y3KmrdFA12jmk@https://nscgm01.azurewebsites.net/api/v1.
 * 
 MongoDB Upload -> deaktivieren
 * 
@@ -41,7 +41,7 @@ Nun geht man raus aus den Einstellungen. Man sollte Striche sehen, einen grünen
 
 Jedes Mal, wenn der Uploader Daten vom Sensor empfängt, erscheint folgender Text im unteren Teil des Bildschirms: "Medtronic CGM Message: sensor data value received". Sobald man den ersten Wert empfangen hat, klickt man wieder rechts oben auf die drei Punkte. Diesmal wählt man "Instant Calibration" und gibt den Wert ein, den man gerade auf der Pumpe abliest.
 
-Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine Viertelstunde, bis die ersten Werte über die persönliche Internetseite im Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Kapitel 1.3.6. [Fehlerbehebung](..\fehlerbehebung.html).
+Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine Viertelstunde, bis die ersten Werte über die persönliche Internetseite im Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Unterkapitel 1.3.6. [Fehlerbehebung](..\fehlerbehebung.html).
 
 
 
