@@ -19,7 +19,8 @@ Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:
 
 Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf **Bearbeitung** zu **Korrigieren** oder zu **Löschen**:
 
-pic Bearbeitung einfügen!!!!!!!
+![nightscout_change_treatments](../images/nightscout/nightscout_change_treatments.jpg)
+
 
 
 
