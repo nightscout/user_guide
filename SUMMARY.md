@@ -30,7 +30,7 @@
 * [Die Nightscout Website](nightscout/die_nightscout_website.md)
    * [Haupt Seite](nightscout/haupt_seite.md)
    * [Nightscout Plugins](nightscout/nightscout_plugins.md)
-   * [baembel Care Portal](nightscout/care_portal.md)
+   * [Care Portal](nightscout/care_portal.md)
    * [Reports](nightscout/reports.md)
 * [Smartwatch Integration](smartwatch/smartwatch_integration.md)
    * [Android Wear](smartwatch/android_wear.md)
