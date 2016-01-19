@@ -20,5 +20,12 @@ Anschließend sollte man eine aktualisierte "EB firmware rev" und "... update OK
 
 ## Probleme mit dem CC Debugger
 
-Wenn die CC Debugger LED rot leuchtet, dann sollte man die Verkablung überprüfen und prüfen, dass sowohl der CC111, als auch der CC Debugger an USB Ports angeschlossen sind. 
+Wenn die CC Debugger LED rot leuchtet, dann sollte man die Verkablung überprüfen und prüfen, dass sowohl der CC111, als auch der CC Debugger an USB Ports angeschlossen sind. Eventuell auch nochmal den Reset Knopf des Debuggers drücken.
+
+Wenn die LED des CC Debuggers rot blinkt, dann hat der Debugger selbst einen Fehler und man sollte im englischen [TI's CC Debugger User Guide](http://www.ti.com/lit/pdf/swru197) nach Rat suchen.
+
+
+## Grundsätzlich
+
+Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann empfiehlt sich ein Blick in die englische Originaldatei [install.pdf](http://github.com/jberian/mmcommander/install.pdf), die der Autor 
 
