@@ -3,7 +3,7 @@
 
 ## Probleme beim Verbinden des CC Debuggers mit dem CC1111
 
-Wenn die Verbindung zwischen den beiden Geräten nicht funktioniert, versucht man am besten, dass Kabel auf dem CC1111 anders ehrum zu stecken. Dabei kann nichts kaputt gehen. Wenn auch diese Maßnahme nichts bringen sollte, dann könnte im Ausnahmefall das Kabel selbst das Problem sein. Als letzten Versuch, könnte man versuchen, die Nase des einen Steckers vorsichtig mit einem Messer zu entfernen und auch den Stecker im CC Debugger zu drehen.
+Wenn die Verbindung zwischen den beiden Geräten nicht funktioniert, versucht man am besten, dass Kabel auf dem CC1111 anders herum zu stecken. Dabei kann nichts kaputt gehen. Wenn auch diese Maßnahme nichts bringen sollte, dann könnte im Ausnahmefall das Kabel selbst das Problem sein. Als letzten Versuch, könnte man versuchen, die Nase des einen Steckers vorsichtig mit einem Messer zu entfernen und auch den Stecker im CC Debugger zu drehen.
 
 
 ## Probleme mit der Firmware des Debuggers
@@ -27,5 +27,5 @@ Wenn die LED des CC Debuggers rot blinkt, dann hat der Debugger selbst einen Feh
 
 ## Grundsätzlich
 
-Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann empfiehlt sich ein Blick in die englische Originaldatei [install.pdf](http://github.com/jberian/mmcommander/install.pdf), die der Autor 
+Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann empfiehlt sich ein Blick in die englische Originaldatei [install.pdf](https://github.com/jberian/mmcommander/blob/master/INSTALL.pdf), die der Autor geschrieben hat. 
 
