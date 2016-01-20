@@ -30,7 +30,7 @@ Geräte mit **Blackberry** Betriebssystem
 * 
 Geräte mit **iOS** Betriebssystem (Apple - Geräte)
 
-zusätzlich zu den Infos der Nightscout-Seite habe ich ein HTC One (M7) mit Android 5.1 "Lollipop" ausprobiert. Dieses schien zunächst zu funktionieren, leider empfing der MMCommander mit diesem Smartphone nach unterschiedlich langen Zeiten keine Daten der Pumpe mehr, so dass diese Konfiguration leider nicht funktionierte. Erfolgreich läuft der MMCommander derzeit mit meinem Sony Xperia Z3 - ebenfalls mit Android 5.1 "Lollipop". Dieses Smartphone hat den Vorteil, dass man es über einen weiteren magnetischen Anschluss laden kann, während die Micro USB Buchse durch den MMCommander blockiert ist. Im Internet scheinen sich übrigens viele Nightscout-Benutzer für das kostengünstige Motorola Moto G entschieden zu haben.  
+zusätzlich zu den Infos der Nightscout-Seite gibt es einen Bericht, bei dem ein HTC One (M7) mit Android 5.1 "Lollipop" nicht stabil funktionierte. Erfolgreich läuft der MMCommander mit einem Sony Xperia Z3 - ebenfalls mit Android 5.1 "Lollipop". Dieses Smartphone hat den Vorteil, dass man es über einen weiteren magnetischen Anschluss laden kann, während die Micro USB Buchse durch den MMCommander blockiert ist. Im Internet scheinen sich übrigens viele Nightscout-Benutzer für das kostengünstige Motorola Moto G entschieden zu haben.  
 
 
 ein **USB-OTG Kabel** (Micro-USB Stecker  auf normale USB  Buchse) - zumeist empfiehlt es sich einen gewinkelten USB-Stecker zu nehmen, wobei die sinnvolle Richtung vom verwendeten Smartphone abhängt. Man findet eine relativ große Auswahl bei Ebay oder Amazon. Die Kosten betragen etwa 5 €.
