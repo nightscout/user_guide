@@ -33,7 +33,7 @@ The following features can be enabled in Funnel Cake (and must be enabled via EN
 
 | Plugin | Funktion | Hinweise |
 | rawbg | Rohdaten | benötigt Upload über xDrip oder Nightscout Uploder App |
-| 0:2 | 1:2 | 2:2 |
+| iob | nsulin on board | benötigt Profil- und Careportal -Eingaben |
 | 0:3 | 1:3 | 2:3 |
 | 0:4 | 1:4 | 2:4 |
 | 0:5 | 1:5 | 2:5 |
