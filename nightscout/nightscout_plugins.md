@@ -33,11 +33,11 @@ The following features can be enabled in Funnel Cake (and must be enabled via EN
 
 | Plugin | Funktion | Typ | Hinweise |
 | -- | -- |-- |
-| rawbg | Rohdaten | benötigt Upload über xDrip oder Nightscout Uploder App |
-| iob | insulin on board | benötigt Profil- und Careportal -Eingaben |
-| 0:3 | 1:3 | 2:3 |
-| 0:4 | 1:4 | 2:4 |
-| 0:5 | 1:5 | 2:5 |
+| rawbg | Rohdaten | A |benötigt Upload über xDrip oder Nightscout Uploder App |
+| iob | insulin on board | A|benötigt Profil- und Careportal -Eingaben |
+| cob | carbs on board | A|benötigt Careportal Eingaben |
+| bwp | bolus wizard preview | A| benötigt Profil- und Careportal -Eingaben für iob|
+| cage | 1:5 | 2:5 |
 | 0:6 | 1:6 | 2:6 |
 | 0:7 | 1:7 | 2:7 |
 | 0:8 | 1:8 | 2:8 |
