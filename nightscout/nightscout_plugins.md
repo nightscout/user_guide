@@ -37,7 +37,7 @@ The following features can be enabled in Funnel Cake (and must be enabled via EN
 | iob | insulin on board |benötigt Profil- und Careportal -Eingaben |
 | cob | carbs on board |benötigt Careportal Eingaben |
 | bwp | bolus wizard preview |benötigt Profil- und Careportal -Eingaben für iob|
-| cage | 1:5 | 2:5 |
+| cage | cannula age |benötigt Careportal Eingaben |
 | 0:6 | 1:6 | 2:6 |
 | 0:7 | 1:7 | 2:7 |
 | 0:8 | 1:8 | 2:8 |
