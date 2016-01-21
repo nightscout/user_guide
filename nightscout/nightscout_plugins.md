@@ -1,58 +1,8 @@
 # Nightscout Plugins
 
 
+Die Nightscout Zusatzmodule bieten eine Reihe von Zusatzfunktionen, welche beliebig konfigurierbar sind.
 
-ar2
-
-basalprofile
-
-boluscalc
-
-boluswizardpreview
-
-bridge
-
-cannulaage
-
-careportal
-
-cob
-
-delta
-
-direction
-
-errorcodes
-
-index
-
-insulinage
-
-iob
-
-maker
-
-mmconnect
-
-openaps
-
-pluginbase
-
-profile
-
-pushover
-
-rawbg
-
-sensorage
-
-simplealarms
-
-timeago
-
-treatmentnotify
-
-upbat
 
 The Funnel Cake (0.8+) update to the Nightscout site represents the most substantial update to date and introduces a number of new features to bring increased management and monitoring capabilities to Nightscout.
 Updating Your Site to Funnel Cake
