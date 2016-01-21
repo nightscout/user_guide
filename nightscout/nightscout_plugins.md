@@ -5,7 +5,7 @@ Die Nightscout Zusatzmodule bieten eine Reihe von Zusatzfunktionen, welche belie
 
 
 The Funnel Cake (0.8+) update to the Nightscout site represents the most substantial update to date and introduces a number of new features to bring increased management and monitoring capabilities to Nightscout.
-Updating Your Site to Funnel Cake
+
 
 IMPORTANT: Before you can use Funnel Cake features, you must update your fork and ensure that your website updates to the current version. To update your site code to Funnel Cake, please follow the steps outlined here.
 
@@ -30,6 +30,28 @@ In text form, an enable string might appear as follows, all in the same box:
     careportal rawbg iob maker bridge cob bwp cage basal
 
 The following features can be enabled in Funnel Cake (and must be enabled via ENABLE in your site settings using the word shown here in bold). (Clicking any of these features will let you access additional information regarding the features and/or related settings.)
+
+| Plugin | Funktion | Hinweise |
+| rawbg | Rohdaten | benötigt Upload über xDrip oder Nightscout Uploder App |
+| 0:2 | 1:2 | 2:2 |
+| 0:3 | 1:3 | 2:3 |
+| 0:4 | 1:4 | 2:4 |
+| 0:5 | 1:5 | 2:5 |
+| 0:6 | 1:6 | 2:6 |
+| 0:7 | 1:7 | 2:7 |
+| 0:8 | 1:8 | 2:8 |
+| 0:9 | 1:9 | 2:9 |
+| 0:10 | 1:10 | 2:10 |
+| 0:11 | 1:11 | 2:11 |
+| 0:12 | 1:12 | 2:12 |
+| 0:13 | 1:13 | 2:13 |
+| 0:14 | 1:14 | 2:14 |
+| 0:15 | 1:15 | 2:15 |
+| 0:16 | 1:16 | 2:16 |
+| 0:17 | 1:17 | 2:17 |
+| 0:18 | 1:18 | 2:18 |
+| 0:19 | 1:19 | 2:19 |
+| 0:20 | 1:20 | 2:20 |
 
     rawbg (raw data; requires upload from xDrip or Nightscout uploader app)
     iob (Insulin-on-Board; requires Profile and Care Portal entries)
