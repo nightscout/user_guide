@@ -33,11 +33,16 @@ The following features can be enabled in Funnel Cake (and must be enabled via EN
 
 | Plugin | Funktion | Hinweise |
 | -- | -- |
-| rawbg | Rohdaten | benötigt Upload über xDrip oder Nightscout Uploder App |
+| ```rawbg``` | Rohdaten | benötigt Upload über xDrip oder Nightscout Uploder App |
 | iob | insulin on board |benötigt Profil- und Careportal -Eingaben |
 | cob | carbs on board |benötigt Careportal Eingaben |
 | bwp | bolus wizard preview |benötigt Profil- und Careportal -Eingaben für iob|
 | cage | cannula age |benötigt Careportal Eingaben |
+|treatmentnotify |Treatment Notifications|
+|basal |Basal Profile—pillbox visualization|
+|bridge |built-in support for the Share2Nightscout bridge|
+|pushover |support for Pushover notifications|
+|maker |support for IFTTT notifications|
 | 0:6 | 1:6 | 2:6 |
 | 0:7 | 1:7 | 2:7 |
 | 0:8 | 1:8 | 2:8 |
