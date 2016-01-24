@@ -32,14 +32,12 @@ Zum Aufspielen der Software auf das Wixel:
 
 
 ---
-
-
 ## 
-
-** Stückliste - xDrip V3usb** ( Stand: September 2015 )
-
-
 ---
+** Stückliste - "xDrip V3 USB"** ( Stand: September 2015 )
+
+
+
 
 |Nr.| Bemerkung| Bauteil: | Vertrieb: | Verkaufspreis: | Artikelnummer: | Hersteller-Nr.: | EAN: |
 | -- | -- | -- | -- | -- | -- |
@@ -59,7 +57,6 @@ Zum Aufspielen der Software auf das Wixel:
 |14| optional | Epoxid Trennschicht |  |  |  |  |  |
 
 
----
-## Eine weiter Variante, um einen xDrip zu bauen
+**Schaltbild für "xDrip USB V3"**
 
 ![xDrip V3usb Schaltbild](../../images/xdrip/xdrip schaltbild-V3 usb.png)
