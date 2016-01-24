@@ -55,8 +55,8 @@ Zum Aufspielen der Software auf das Wixel:
 |10| optional, für Batterieanzeige| Metallschichtwiderstand 27k |  |  |  |  |  |
 |11| notwendig |Farbige flexible Leitungen (dünn) |  |  |  |  |  |
 |12| notwendig| Lötzinn, Lötkolben |  |  |  |  |  |
-|13| otional, aber emfpehlenswert| Schrumpfschlauch |  |  |  |  |  |
-|14| otional | Epoxid Trennschicht |  |  |  |  |  |
+|13| optional, aber emfpehlenswert| Schrumpfschlauch |  |  |  |  |  |
+|14| optional | Epoxid Trennschicht |  |  |  |  |  |
 
 
 ---
