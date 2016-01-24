@@ -4,3 +4,4 @@ Um den CC1111 USB Dongle mit der entsprechenden Software zu beschreiben, braucht
 Am besten man installiert bereits jetzt SmartRF Flash Programmer, damit Windows später den CC Debugger erkennt.
 
 Später braucht man noch den Medtronic Uploader, der auf dem Android Smartphone die empfangenen Daten weiter transportiert. Dieser Link steht hier [https://github.com/arbox0/MedtronicUploader/releases/download/MEDTRONICUPLOADER_R1_V7/NightScout.apk](https://github.com/arbox0/MedtronicUploader/releases/download/MEDTRONICUPLOADER_R1_V7/NightScout.apk) ausgeschrieben, da es sinnvoll sein kann, das Android Programm direkt vom Smartphone runter zu laden.
+
