@@ -7,6 +7,11 @@
 
 
 ##Flyer
+
+[Verlängerung der Tragezeit des Sensors (PDF)](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Verlängerung der Tragezeit.pdf)
+
+
+
 [](verlängerung der tragezeit)
 
 ##Schablonen
