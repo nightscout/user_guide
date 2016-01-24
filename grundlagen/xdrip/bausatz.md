@@ -7,8 +7,12 @@ Die Varianten haben unter schiedliche Eigenschaften, letztlich aber die selbe Au
 Solange man keine vollständige Übersicht über die Komponenten und deren Funktion hat, empfehle ich, sich eine der verfügbaren Anleitungen zu nehmen und dieser zu folgen. 
 
 ## 
-Mein Rat an Einsteiger: xDrip in der "klassischen Verschaltung" mit xBridge2.wxl auf dem Wixel. Es entfallen die beiden Widerstände, dafür fehlt später in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten.
-
+Tipps und Rat für Einsteiger: 
+* Baut zunächst einen xDrip in der "klassischen Verschaltung" mit xBridge2.wxl auf dem Wixel. Es entfallen die beiden Widerstände, dafür fehlt später in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten.
+* Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein, dass ein großer Akku den Empfang der Antennen verschlechtert.
+* Die Brücke "for faster charging with large batteries" habe kann man auch für einen kleinen 230mAh-Akku schließen. Mein Rat lautet also: Die Brücke schließen, also die Kontakte mit Zinn verbinden.
+* Die Kabel können sehr dünn sein - das erhöht die Flexibilität. Verschiedene Farben machen es leichter, die Übersicht zu behalten, solange der xDrip noch im Bau ist. 
+* * Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und Ausschalten. Das könnte am kleinen Akku gelegen haben. Evtl. war es aber Pech oder fehlerhaft verlötet - das will ich nicht ausschließen. (Im Prinzip ist das sicher sehr sinnvoll. Es geht aber auch ohne, wenn man zu häufige Tiefentladung anders vermeidet.)
 
 **Schaltbild für xDrip in der "klassischen Verschaltung"**
 
@@ -54,7 +58,8 @@ Zum Aufspielen der Software auf das Wixel:
 |11| notwendig |Farbige flexible Leitungen (dünn) |  |  |  |  |  |
 |12| notwendig| Lötzinn, Lötkolben |  |  |  |  |  |
 |13| optional, aber emfpehlenswert| Schrumpfschlauch |  |  |  |  |  |
-|14| optional | Epoxid Trennschicht |  |  |  |  |  |
+|14| optional, aber emfpehlenswert| "dritte Hand" ein Beispiel: [Link](http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand) |  |  |  |  |  |
+|15| optional | Epoxid Trennschicht |  |  |  |  |  |
 
 
 **Schaltbild für "xDrip USB V3"**
