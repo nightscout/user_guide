@@ -6,6 +6,13 @@ Bevor wir mit der Einrichtung von Nightscout beginnen, ist es  sinnvoll, das  Ar
 [Link zum übersetzen Arbeitsblatt](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/arbeitsblatt.pdf)
 
 
+[Link zu Julzas Arbeitsblatt (PDF)](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Verlängerung der Tragezeit.pdf)
+
+[Link zum Docx](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Verlängerung der Tragezeit.docx)
+
+
+
+
 [Link zum englischen Original Arbeitsblatt](http://www.nightscout.info/wp-content/uploads/2015/04/Mongo-and-Azure-Account-Information-4-16-15.pdf)
 
 
