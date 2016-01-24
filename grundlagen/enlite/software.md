@@ -6,5 +6,8 @@ Am besten man installiert bereits jetzt SmartRF Flash Programmer, damit Windows 
 Später braucht man noch den Medtronic Uploader, der auf dem Android Smartphone die empfangenen Daten weiter transportiert. Dieser Link steht hier [https://github.com/arbox0/MedtronicUploader/releases/download/MEDTRONICUPLOADER_R1_V7/NightScout.apk](https://github.com/arbox0/MedtronicUploader/releases/download/MEDTRONICUPLOADER_R1_V7/NightScout.apk) ausgeschrieben, da es sinnvoll sein kann, das Android Programm direkt vom Smartphone runter zu laden.
 
 
-[Link zu Julzas Arbeitsblatt](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Verlängerung der Tragezeit.pdf)
+[Link zu Julzas Arbeitsblatt (PDF)](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Verlängerung der Tragezeit.pdf)
+
+[Link zum Docx](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Verlängerung der Tragezeit.docx)
+
 
