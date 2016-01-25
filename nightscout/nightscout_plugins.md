@@ -31,7 +31,7 @@ In text form, an enable string might appear as follows, all in the same box:
 
 The following features can be enabled in Funnel Cake (and must be enabled via ENABLE in your site settings using the word shown here in bold). (Clicking any of these features will let you access additional information regarding the features and/or related settings.)
 
-| Plugin | Funktion | Hinweise |
+| Plugin | Beschreibung | Hinweise |
 | -- | -- |
 | ```careportal``` | Pflegeportal | für Eingabe von Therapie - Daten  |
 | ```rawbg``` | BZ - Rohdaten | benötigt Daten über xDrip oder Nightscout Uploder App |
