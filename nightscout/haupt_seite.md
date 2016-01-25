@@ -18,7 +18,7 @@ und Plugins. Bei Änderungen **Speichern** nicht vergessen.
 ![nightscout_einstellungen](../images/nightscout/nightscout_einstellungen.jpg)
 
 Wir machen weiter mit den **Profil-Einstellungen**. Neben allgemeinen Einstellungen
- werden hier auch die Plugins konfiguriert.
+ wird hier auch eingestellt, ob die Plugins angezeigt werden sollen, oder nicht.
 Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu ist das 
 [API SECRET](../nightscout/azure.md) einzugeben. Am Ende machen wir ein **Update record**.
 
@@ -28,7 +28,7 @@ Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu
 
 ![nightscout_profile_editor](../images/nightscout/nightscout_profile_editor.jpg)
 
-Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**- und **Werte**- Felder. Mit **Eingabe senden** erscheint noch ein Bestätigungsbutton, klickt man diesen, werden die Werte gespeichert.
+Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**- und **Werte**- Felder. Einige Plugins, wie bwp, benötigen hier Eingaben, damit sie Werte berechnen können. Mit **Eingabe senden** erscheint noch ein Bestätigungsbutton, klickt man diesen, werden die Werte gespeichert.
 
 **Admin Tools**
 
@@ -39,11 +39,11 @@ Mit den Admin Tools ist es möglich, Daten zu löschen. Dieses betrifft im wesen
 
 **Dateneingabe:**
 
-Für die Dateneingabe muss das Plugin **careportal** mit ENABLE über [Azure](../nightscout/azure.md) konfiguriert sein.
+Für die Dateneingabe muss das Plugin **careportal** mit **ENABLE** über [Azure](../nightscout/azure.md) konfiguriert sein.
 
 ![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
 
-Die Nightscout [Plugins](../nightscout/nightscout_plugins.md) werden jetzt näher beschrieben.
+Die  [Plugins](../nightscout/nightscout_plugins.md) werden jetzt näher beschrieben.
 
 
 
