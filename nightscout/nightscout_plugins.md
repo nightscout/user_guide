@@ -44,6 +44,7 @@ The following features can be enabled in Funnel Cake (and must be enabled via EN
 |pushover |support for Pushover notifications|
 |maker |support for IFTTT notifications|
 
+careportal rawbg iob cob bwp cage treatmentnotify basal bridge mmconnect
 
     rawbg (raw data; requires upload from xDrip or Nightscout uploader app)
     iob (Insulin-on-Board; requires Profile and Care Portal entries)
