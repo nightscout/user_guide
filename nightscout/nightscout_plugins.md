@@ -43,10 +43,14 @@ The following featured are “on” by default as part of your Nightscout site a
     ar2 (generates alarms based on forecasted values)
     simplealarms (uses BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW thresholds to generate alarms)
 
+
+Einstellungen:
 Controlling Your Nightscout Site from the Browser Settings Panel
 
 Once plugins are enabled, some of them have pillbox visualizations which can appear as part of your site. In your browser, you can choose which plugins you wish to view by checking the boxes next to the ones you want to see and clicking save. For example, if you enable Carbs-on-Board and choose to display it (in the browser settings panel), you will see a pillbox for COB. At any point, you can open the browser settings panel and turn the visibility of specific plugins on or off.
 
+
+Treatment Profile Editor
 f-showplugins
 Additional Features/Plugins Information
 Treatment Profile Editor
