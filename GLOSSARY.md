@@ -22,16 +22,15 @@ Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel 
  Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Im Gegensatz zur herkömmlichen Blutzuckermessung wird nicht der Glucosegehalt in einem dafür gewonnenen  Blutstropfen gemessen, sondern im Gewebe des Körpers. Veränderungen treten dort meist mit einer kurzen zeitlichen Verzögerung auf. 
  Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem Transmitter (Übertragung) und einem Empfangsgerät, das alle Werte speichert und auf dem der Gewebeglukosewert zusammen mit einem Trend auf dem Display angezeigt werden kann. 
 
-## DIY
-
-
-Do-It-Yourself (engl.) *Mach es selbst.* 
-DIY-Projekt bedeutet in unseren Fall, dass es kein Unternehmen gibt, von der man ein vorfabriziertes System kaufen kann. Die Elemente des Systems sind von Teilnehmern des Projektes entwickelt und zusammengesetzt und werden dir **kostenlos** zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen Teil dazu beitragen musst, damit das System für dich funktioniert. Wir hoffen, dass DIY dich so sehr begeistern wird, wie uns - sodass du wiederum irgendwann einen kleinen Teil dazu beitragen kannst, dass das System für alle besser wird.
-
 ## iob
 
 Das iob = Insulin an Bord ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper vorhanden ist. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern.
 Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
+
+## iob
+
+Das iob = Insulin an Bord ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper vorhanden ist. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern.
+Die Wirkdauer des Insulins ist den Herstellerangaben zu ennehmen.
 
 ## Nightscout
 
@@ -45,7 +44,7 @@ Siehe Nightscout
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
 
-## iob
+##  iob 
 
 Das iob = Insulin an Bord ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper vorhanden ist. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern.
-Die Wirkdauer des Insulins ist den Herstellerangaben zu ennehmen.
+Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
