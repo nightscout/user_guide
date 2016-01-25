@@ -97,11 +97,11 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  | Plugin | Beschreibung | Hinweise |
 | -- | -- |
-| ```careportal``` | Pflegeportal | für Eingabe von Therapie - Daten  |
-| ```rawbg``` | BZ - Rohdaten | benötigt Daten über xDrip oder Nightscout Uploder App |
-| ```iob``` | insulin on board |benötigt Profil- und Careportal -Eingaben |
-| ```cob``` | carbs on board |benötigt Careportal Eingaben |
-| ```bwp``` | bolus wizard preview |Bolusrechner|
+| careportal | Pflegeportal | für Eingabe von Therapie - Daten  |
+| rawbg | BZ - Rohdaten | benötigt Daten über xDrip oder Nightscout Uploder App |
+| iob | insulin on board |benötigt Profil- und Careportal -Eingaben |
+| cob | carbs on board |benötigt Careportal Eingaben |
+| bwp | bolus wizard preview |Bolusrechner|
 | ```cage ```| cannula age |benötigt Careportal Eingaben |
 |```treatmentnotify``` |Treatment Notifications|Benachrichtigungen über Eingaben|
 |```basal``` |Basal Profile—pillbox visualization|Visualisierung der Basalrate|
