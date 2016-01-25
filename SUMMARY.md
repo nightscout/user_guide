@@ -25,9 +25,9 @@
    * [Account-Information](nightscout/datenblatt.md)
    * [Mongo DB](nightscout/mongo_db.md)
    * [Optional: Mongo DB Administration](nightscout/mongo_db_administration.md)
-   * [GitHub](nightscout/github.md)
    * [Azure](nightscout/azure.md)
        * Plugins
+   * [GitHub](nightscout/github.md)
    * [Nightscout FAQs](nightscout/nsfaqs.md)
 * [Die Nightscout Website](nightscout/die_nightscout_website.md)
    * [Haupt Seite](nightscout/haupt_seite.md)
