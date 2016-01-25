@@ -10,7 +10,7 @@ Solange man keine vollständige Übersicht über die Komponenten und deren Funkt
 Tipps und Rat für Einsteiger: 
 * Baut zunächst einen xDrip in der "klassischen Verschaltung" mit xBridge2.wxl auf dem Wixel. Es entfallen die beiden Widerstände, dafür fehlt später in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten.
 * Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein, dass ein großer Akku den Empfang der Antennen verschlechtert.
-* Die Brücke "for faster charging with large batteries" habe kann man auch für einen kleinen 230mAh-Akku schließen. Mein Rat lautet also: Die Brücke schließen, also die Kontakte mit Zinn verbinden.
+* Die Brücke "for faster charging with large batteries" kann man auch für einen kleinen 230mAh-Akku schließen. Mein Rat lautet also: Die Brücke schließen, also die Kontakte mit Zinn verbinden. (Vielleicht weiß jemand anders, welche Gründe dafür sprechen, die Verbindung nicht zu schließen?)
 * Die Kabel können sehr dünn sein - das erhöht die Flexibilität. Verschiedene Farben machen es leichter, die Übersicht zu behalten, solange der xDrip noch im Bau ist. 
 * Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und Ausschalten. Das könnte am kleinen Akku gelegen haben. Evtl. war es aber Pech oder fehlerhaft verlötet - das will ich nicht ausschließen. (Im Prinzip ist das sicher sehr sinnvoll. Es geht aber auch ohne, wenn man zu häufige Tiefentladung anders vermeidet.)
 
