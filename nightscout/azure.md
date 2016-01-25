@@ -91,7 +91,24 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
  
  
- Weiter geht es mit dem Konfigurieren der [Plugins](../nightscout/nightscout_plugins.md). Wir gehen zu den **App-Einstellungen**:
+ Weiter geht es mit dem Konfigurieren der [Plugins](../nightscout/nightscout_plugins.md).
+ 
+ Azure - Plugin Übersicht:
+ 
+ | Plugin | Beschreibung | Hinweise |
+| -- | -- |
+| ```careportal``` | Pflegeportal | für Eingabe von Therapie - Daten  |
+| ```rawbg``` | BZ - Rohdaten | benötigt Daten über xDrip oder Nightscout Uploder App |
+| ```iob``` | insulin on board |benötigt Profil- und Careportal -Eingaben |
+| ```cob``` | carbs on board |benötigt Careportal Eingaben |
+| ```bwp``` | bolus wizard preview |Bolusrechner|
+| ```cage ```| cannula age |benötigt Careportal Eingaben |
+|```treatmentnotify``` |Treatment Notifications|Benachrichtigungen über Eingaben|
+|```basal``` |Basal Profile—pillbox visualization|Visualisierung der Basalrate|
+|```bridge``` |built-in support for the Share2Nightscout bridge|Anbindungsmöglichkeit Share/G5
+|```mmconnect``` |Minimed Connect|medtronic Insulinpumpenanbindung|
+ 
+ Wir gehen zu den **App-Einstellungen**:
  
  ![azure_enable_plugins](../images/azure/azure_enable_plugins.jpg)
  
@@ -100,7 +117,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  **ENABLE**: Parametername
  
- **iob cob bwp basal careportal maker** .... Name der Plugins.
+ **** 
  
  ** Speichern **nicht vergessen.
  
