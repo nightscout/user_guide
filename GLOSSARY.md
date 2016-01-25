@@ -27,8 +27,6 @@ Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel 
 Das iob = Insulin an Bord ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper vorhanden ist. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern.
 Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
 
-
-
 ## Nightscout
 
 Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt, auf der man seine CGM-Daten über das Internet sehen und auswerten kann. Entwickelt wurde es ürspünglich von Eltern, die die Werte ihrer Kinder aus der Ferne beobachten wollen. Nightscout (frei übersetzt Nachtwache - wie die wachsame Eule, die über dich wacht, auch während du schläfst).  Mittlerweile nutzen es auch Erwachsene, um die Daten weiter zu nutzen. Die Daten können nicht nur in einem Internetbrowser angezeigt werden, sondern von dort aus auch über Apps und Widgets auf dem Smartphone, Tablets und auf Smartwatches. 
@@ -40,4 +38,10 @@ Siehe Nightscout
 ## Plugins
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
+
+## cob
+
+cob = Kohlenhydrate an Bord ist die Menge an Kohlenhydraten aus vorangegangenen Mahlzeiten, Snacks und Kohlenhydrat - Korrekturen vorhanden ist und noch verdaut wird. Die Zeitdauer, wie lange Kohlenhydrate aktiv sind, wird beeinflusst durch die Menge an Kohlenhydraten, die gegessen wurden und jede einzelne Aufnahme - Rate (Kohlenhydrate in Schwarzbrot wird langsamer aufgenommen als
+Kohlenhydrate in Cola).  
+
 
