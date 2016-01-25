@@ -102,11 +102,11 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 | iob | insulin on board |benötigt Profil- und Careportal -Eingaben |
 | cob | carbs on board |benötigt Careportal Eingaben |
 | bwp | bolus wizard preview |Bolusrechner|
-| ```cage ```| cannula age |benötigt Careportal Eingaben |
-|```treatmentnotify``` |Treatment Notifications|Benachrichtigungen über Eingaben|
-|```basal``` |Basal Profile—pillbox visualization|Visualisierung der Basalrate|
-|```bridge``` |built-in support for the Share2Nightscout bridge|Anbindungsmöglichkeit Share/G5
-|```mmconnect``` |Minimed Connect|medtronic CGM System - Anbindung|
+| cage| cannula age |benötigt Careportal Eingaben |
+|treatmentnotify |Treatment Notifications|Benachrichtigungen über Eingaben|
+|basal|Basal Profile—pillbox visualization|Visualisierung der Basalrate|
+|bridge |built-in support for the Share2Nightscout bridge|Anbindungsmöglichkeit Share/G5
+|mmconnect |Minimed Connect|medtronic CGM System - Anbindung|
  
  Wir gehen zu den **App-Einstellungen**:
  
