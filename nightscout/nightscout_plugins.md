@@ -37,12 +37,12 @@ The following features can be enabled in Funnel Cake (and must be enabled via EN
 | ```rawbg``` | BZ - Rohdaten | benötigt Daten über xDrip oder Nightscout Uploder App |
 | ```iob``` | insulin on board |benötigt Profil- und Careportal -Eingaben |
 | ```cob``` | carbs on board |benötigt Careportal Eingaben |
-| ```bwp``` | bolus wizard preview |benötigt Profil- und Careportal -Eingaben für iob|
+| ```bwp``` | bolus wizard preview |Bolusrechner|
 | ```cage ```| cannula age |benötigt Careportal Eingaben |
 |```treatmentnotify``` |Treatment Notifications|Benachrichtigungen über Eingaben|
 |```basal``` |Basal Profile—pillbox visualization|Visualisierung der Basalrate|
 |```bridge``` |built-in support for the Share2Nightscout bridge|Anbindungsmöglichkeit Share/G5
-|```mmconnect``` |support for Pushover notifications|
+|```mmconnect``` |Minimed Connect|medtronic Insulinpumpenanbindung|
 
 
 careportal rawbg iob cob bwp cage treatmentnotify basal bridge mmconnect
