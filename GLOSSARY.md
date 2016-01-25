@@ -9,6 +9,10 @@ Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
 
 5,5 mmol/l ist die Entsprechung von 100mg/dl (ein gerne gefeierter Zielwert)
 
+## API SECRET
+
+Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel zur sicheren Übertragung von Daten über das Internet. Es besteht aus numerischen und alphanumerischen Zeichen und identiziert den Absender. Näheres siehe: ()
+
 ## APS
 
 (engl.: Artificial Pancreas System, APS) CGM ist ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
@@ -31,6 +35,6 @@ Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-DIY-Projek
 
 Siehe Nightscout
 
-## API SECRET
+## Plugins
 
-Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel zur sicheren Übertragung von Daten über das Internet. Es besteht aus numerischen und alphanumerischen Zeichen und identiziert den Absender. Näheres siehe: ()
+Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
