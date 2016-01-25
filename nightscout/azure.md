@@ -117,7 +117,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  **ENABLE**: Parametername
  
- **** 
+ **careportal rawbg iob cob bwp cage treatmentnotify basal bridge mmconnect** 
  
  ** Speichern **nicht vergessen.
  
