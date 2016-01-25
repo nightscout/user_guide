@@ -30,3 +30,7 @@ Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-DIY-Projek
 ## NS
 
 Siehe Nightscout
+
+## API SECRET
+
+Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel zur sicheren Übertragung von Daten über das Internet. Es besteht aus numerischen und alphanumerischen Zeichen und identiziert den Absender. Näheres siehe: ()
