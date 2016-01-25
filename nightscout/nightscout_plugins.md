@@ -1,7 +1,7 @@
 # Nightscout Plugins
 
 
-Die Nightscout Zusatzmodule bieten eine Reihe von Zusatzfunktionen, welche beliebig konfigurierbar sind.
+Die Nightscout Plugins bieten eine Reihe von Zusatzfunktionen, welche beliebig konfigurierbar sind.
 
 
 The Funnel Cake (0.8+) update to the Nightscout site represents the most substantial update to date and introduces a number of new features to bring increased management and monitoring capabilities to Nightscout.
@@ -25,27 +25,10 @@ f-enable-azure
 In Heroku:
 f-enable-heroku
 
-In text form, an enable string might appear as follows, all in the same box:
 
-    careportal rawbg iob maker bridge cob bwp cage basal
 
 The following features can be enabled in Funnel Cake (and must be enabled via ENABLE in your site settings using the word shown here in bold). (Clicking any of these features will let you access additional information regarding the features and/or related settings.)
 
-| Plugin | Beschreibung | Hinweise |
-| -- | -- |
-| ```careportal``` | Pflegeportal | für Eingabe von Therapie - Daten  |
-| ```rawbg``` | BZ - Rohdaten | benötigt Daten über xDrip oder Nightscout Uploder App |
-| ```iob``` | insulin on board |benötigt Profil- und Careportal -Eingaben |
-| ```cob``` | carbs on board |benötigt Careportal Eingaben |
-| ```bwp``` | bolus wizard preview |Bolusrechner|
-| ```cage ```| cannula age |benötigt Careportal Eingaben |
-|```treatmentnotify``` |Treatment Notifications|Benachrichtigungen über Eingaben|
-|```basal``` |Basal Profile—pillbox visualization|Visualisierung der Basalrate|
-|```bridge``` |built-in support for the Share2Nightscout bridge|Anbindungsmöglichkeit Share/G5
-|```mmconnect``` |Minimed Connect|medtronic Insulinpumpenanbindung|
-
-
-careportal rawbg iob cob bwp cage treatmentnotify basal bridge mmconnect
 
     
 
