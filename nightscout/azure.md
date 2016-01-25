@@ -106,7 +106,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 |```treatmentnotify``` |Treatment Notifications|Benachrichtigungen über Eingaben|
 |```basal``` |Basal Profile—pillbox visualization|Visualisierung der Basalrate|
 |```bridge``` |built-in support for the Share2Nightscout bridge|Anbindungsmöglichkeit Share/G5
-|```mmconnect``` |Minimed Connect|medtronic Insulinpumpenanbindung|
+|```mmconnect``` |Minimed Connect|medtronic CGM System - Anbindung|
  
  Wir gehen zu den **App-Einstellungen**:
  
