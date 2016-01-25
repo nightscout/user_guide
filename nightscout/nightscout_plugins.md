@@ -33,37 +33,21 @@ The following features can be enabled in Funnel Cake (and must be enabled via EN
 
 | Plugin | Funktion | Hinweise |
 | -- | -- |
-| ```careportal``` | Pflegeportal | für Eingabe von Behandlungsdaten  |
-| ```rawbg``` | Rohdaten | benötigt Upload über xDrip oder Nightscout Uploder App |
+| ```careportal``` | Pflegeportal | für Eingabe von Therapie - Daten  |
+| ```rawbg``` | BZ - Rohdaten | benötigt Daten über xDrip oder Nightscout Uploder App |
 | ```iob``` | insulin on board |benötigt Profil- und Careportal -Eingaben |
 | ```cob``` | carbs on board |benötigt Careportal Eingaben |
 | ```bwp``` | bolus wizard preview |benötigt Profil- und Careportal -Eingaben für iob|
 | ```cage ```| cannula age |benötigt Careportal Eingaben |
-|```treatmentnotify``` |Treatment Notifications|
-|```basal``` |Basal Profile—pillbox visualization|
-|```bridge``` |built-in support for the Share2Nightscout bridge|
+|```treatmentnotify``` |Treatment Notifications|Benachrichtigungen über Eingaben|
+|```basal``` |Basal Profile—pillbox visualization|Visualisierung der Basalrate|
+|```bridge``` |built-in support for the Share2Nightscout bridge|Anbindungsmöglichkeit Share/G5
 |```mmconnect``` |support for Pushover notifications|
 
 
 careportal rawbg iob cob bwp cage treatmentnotify basal bridge mmconnect
 
-    rawbg (raw data; requires upload from xDrip or Nightscout uploader app)
-    iob (Insulin-on-Board; requires Profile and Care Portal entries)
-    cob (Carbs-on-Board; requires Care Portal entries)
-    bwp (Bolus Wizard Preview; requires Profile and Care Portal entries for current IOB)
-    cage (Cannula Age; requires Care Portal entries)
-    treatmentnotify (Treatment Notifications)
-    basal (Basal Profile—pillbox visualization)
-    basal visualization on the graph
-    bridge (built-in support for the Share2Nightscout bridge)
-    pushover (support for Pushover notifications)
-    maker (support for IFTTT notifications)
-    temp basal visualization
-    exercise entry visualization
-    new scaling options (linear and logarithmic (dynamic))
-    reports
-    admin tools (including removal of future data)
-    MiniMed Connect and Nightscout
+    
 
 Using “Disable” to Deactivate Funnel Cake Features/Plugins
 
