@@ -18,7 +18,7 @@ und Plugins. Bei Änderungen **Speichern** nicht vergessen.
 ![nightscout_einstellungen](../images/nightscout/nightscout_einstellungen.jpg)
 
 Wir machen weiter mit den **Profil-Einstellungen**. Neben allgemeinen Einstellungen
-Einstellungen werden hier auch die Plugins konfiguriert.
+ werden hier auch die Plugins konfiguriert.
 Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu ist das 
 [API SECRET](../nightscout/azure.md) einzugeben. Am Ende machen wir ein **Update record**.
 
