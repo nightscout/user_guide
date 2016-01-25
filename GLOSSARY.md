@@ -27,10 +27,7 @@ Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel 
 Das iob = Insulin an Bord ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper vorhanden ist. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern.
 Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
 
-## iob
 
-Das iob = Insulin an Bord ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper vorhanden ist. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern.
-Die Wirkdauer des Insulins ist den Herstellerangaben zu ennehmen.
 
 ## Nightscout
 
@@ -44,7 +41,3 @@ Siehe Nightscout
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
 
-##  iob 
-
-Das iob = Insulin an Bord ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper vorhanden ist. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern.
-Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
