@@ -20,7 +20,7 @@ und Plugins. Bei Änderungen **Speichern** nicht vergessen.
 Wir machen weiter mit den **Profil-Einstellungen**. Neben allgemeinen Einstellungen
 Einstellungen werden hier auch die Plugins konfiguriert.
 Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu ist das 
-[API SECRET](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/nightscout/azure.html) einzugeben. Am Ende machen wir ein **Update record**.
+[API SECRET](../nightscout/azure.md) einzugeben. Am Ende machen wir ein **Update record**.
 
 
 **Profil-Einstellungen:**
