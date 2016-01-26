@@ -42,7 +42,7 @@ Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-DIY-Projek
 
 Siehe Nightscout
 
-## Plugins
+## Plugin
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
 
