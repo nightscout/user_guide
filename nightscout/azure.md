@@ -101,7 +101,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 |BRIDGE_PASSWORD |Erforderlich: Passwort des Dexcom Share AccountsShare Accounts|
 |BRIDGE_INTERVAL |Optional: Wartezeit zwischen jedem  Update. Der Standardwert ist 150000 – 2.5 minutes.
 |BRIDGE_MAX_COUNT |Optional: Die maximale Anzahl der Datensätze zum Upload. Der Standardwert ist 1.|
-|BRIDGE_FIRST_FETCH_COUNT |Optional: Maximum number of records to fetch during the very first update only. The default is 3.|
+|BRIDGE_FIRST_FETCH_COUNT |Optional: Maximale Anzahl der Datensätze während des ersten Uploads. Der Standardwert ist 3.|
 |BRIDGE_MAX_FAILURES |Optional: How many failures happen trying to retrieve data before giving up. The default is 3.|
 |BRIDGE_MINUTES |Optional: The time window to search for new data per update. The default is one day in minutes – 1400|.
  
