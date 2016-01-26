@@ -107,7 +107,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  
  
- Weiter geht es mit dem Konfigurieren der Plugin:
+ Weiter geht es mit dem Konfigurieren der Plugin Module:
  
  
  
