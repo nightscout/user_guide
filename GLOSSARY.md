@@ -26,6 +26,10 @@ Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel 
 
 Kohlenhydrate an Bord (engl.: Carbs On Board cob)  ist die Menge an Kohlenhydraten aus vorangegangenen Mahlzeiten, Snacks und Kohlenhydrat - Korrekturen, welche noch verdaut wird. Die Zeitdauer, wie lange aufgenommene Kohlenhydrate aktiv sind, wird beeinflusst durch die Menge an Kohlenhydraten, die gegessen wurden und die Kohlenhydrat Art Kohlenhydrate in Schwarzbrot werden langsamer aufgenommen als Kohlenhydrate in Cola, wirken dafür aber länger).  
 
+## DIY
+
+Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unseren Fall, dass es keine Firma gibt, von der man ein fertiges, funktionierendes System kaufen kann. Die Elemente des Systems sind von Teilnehmern des Projektes entwickelt und zusammengesetzt und werden dir kostenlos zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen Teil dazu beitragen musst, damit das System für dich funktioniert. Wir hoffen, dass DIY dich so sehr begeistern wird, wie uns - sodass du wiederum irgendwann einen kleinen Teil dazu beitragen kannst, dass das System für alle besser wird.
+
 ## iob
 
 Insulin an Bord (engl.: Insulin On Board iob) ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper wirkt. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern. Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
@@ -42,6 +46,6 @@ Siehe Nightscout
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
 
-## DIY
+## cage
 
-Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unseren Fall, dass es keine Firma gibt, von der man ein fertiges, funktionierendes System kaufen kann. Die Elemente des Systems sind von Teilnehmern des Projektes entwickelt und zusammengesetzt und werden dir kostenlos zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen Teil dazu beitragen musst, damit das System für dich funktioniert. Wir hoffen, dass DIY dich so sehr begeistern wird, wie uns - sodass du wiederum irgendwann einen kleinen Teil dazu beitragen kannst, dass das System für alle besser wird.
+Insulinpumpen Katheter Setzzeit ( engl.: Cannula Age Cage) . Beschreibt die Dauer seit des letzten Infusionssets - Setzens oder Wechselns.
