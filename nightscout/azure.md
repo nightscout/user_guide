@@ -114,7 +114,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  | Plugin |  Hinweise |
 | -- | -- |
-| careportal |  für Eingabe von Therapie - Daten  |
+| careportal | Basismodul für Eingabe von Therapie - Daten  |
 | rawbg |  benötigt Daten über xDrip oder Nightscout Uploder App |
 | iob | benötigt Profil- und careportal -Eingaben |
 | cob | benötigt careportal Eingaben |
