@@ -27,21 +27,6 @@ f-enable-heroku
 
 
 
-The following features can be enabled in Funnel Cake (and must be enabled via ENABLE in your site settings using the word shown here in bold). (Clicking any of these features will let you access additional information regarding the features and/or related settings.)
-
-
-    
-
-Using “Disable” to Deactivate Funnel Cake Features/Plugins
-
-The following featured are “on” by default as part of your Nightscout site and can be disabled in Funnel Cake by setting a DISABLE variable with a space-delimited list of values:
-
-    delta (calculates and displays the change between the last 2 BG values)
-    direction (displays BG trend direction)
-    upbat (displays the most recent battery status from the uploader phone)
-    errorcodes (generates alarms for CGM error codes like hourglass and ???)
-    ar2 (generates alarms based on forecasted values)
-    simplealarms (uses BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW thresholds to generate alarms)
 
 
 Einstellungen:
