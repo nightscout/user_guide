@@ -102,8 +102,8 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 |BRIDGE_INTERVAL |Optional: Wartezeit zwischen jedem  Update. Der Standardwert ist 150000 – 2.5 minutes.
 |BRIDGE_MAX_COUNT |Optional: Die maximale Anzahl der Datensätze zum Upload. Der Standardwert ist 1.|
 |BRIDGE_FIRST_FETCH_COUNT |Optional: Maximale Anzahl der Datensätze während des ersten Uploads. Der Standardwert ist 3.|
-|BRIDGE_MAX_FAILURES |Optional: How many failures happen trying to retrieve data before giving up. The default is 3.|
-|BRIDGE_MINUTES |Optional: The time window to search for new data per update. The default is one day in minutes – 1400|.
+|BRIDGE_MAX_FAILURES |Optional: Maximale Anzahl der Fehler beim Empfang.  Der Standardwert ist 3.|
+|BRIDGE_MINUTES |Optional: Das Zeitfenster für die Suche nach neuen Daten pro Update. Der Standardwert ist Zeit in Minuten – 1400|.
  
  
  
