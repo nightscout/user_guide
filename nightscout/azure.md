@@ -91,6 +91,21 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
  
  
+ Optional: Anbindung der Share2Bridge Funktionalität
+ 
+ Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
+|Parameter |  Beschreibung |
+| -- | -- |
+ |BRIDGE_USER_NAME |Required: the user name associated with the Share account|
+|BRIDGE_PASSWORD |Required: the password associated with the Share account|
+|BRIDGE_INTERVAL |Optional: the time to wait between each update. The default is 150000 – 2.5 minutes.
+|BRIDGE_MAX_COUNT |Optional: The maximum number of records to fetch per update. The default is 1.|
+|BRIDGE_FIRST_FETCH_COUNT |Optional: Maximum number of records to fetch during the very first update only. The default is 3.|
+|BRIDGE_MAX_FAILURES |Optional: How many failures happen trying to retrieve data before giving up. The default is 3.|
+|BRIDGE_MINUTES |Optional: The time window to search for new data per update. The default is one day in minutes – 1400|.
+ 
+ 
+ 
  Weiter geht es mit dem Konfigurieren der [Plugins](../nightscout/nightscout_plugins.md).
  
  Azure - Plugin Übersicht:
