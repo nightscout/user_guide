@@ -125,7 +125,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 |bridge-enable |Anbindungsmöglichkeit Dexcom Share mit iOS |
 |mmconnect |medtronic CGM System - Anbindung|
  
- Wir gehen zu den **App-Einstellungen**:
+ Wir gehen zu den **App-Einstellungen** und konfigurieren den Wert **ENABLE**:
  
  ![azure_enable_plugins](../images/azure/azure_enable_plugins.jpg)
  
@@ -134,9 +134,12 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  **ENABLE**: Parametername
  
- **careportal rawbg iob cob bwp cage treatmentnotify basal bridge mmconnect** 
+ **Plugins**: careportal rawbg iob cob bwp cage treatmentnotify basal bridge mmconnect
  
  ** Speichern **nicht vergessen.
+ 
+ Wir können die Ansicht der Nightscout Haupt Seite auf eigene Wünsche anpassen, dieses über 
+ Deaktivierung:
  
  
  
