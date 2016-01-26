@@ -63,7 +63,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  ![azure_save](../images/azure/azure_save.jpg)
  
  
- Jetzt fehlt noch das **API SECRET**. Eine [API](https://de.wikipedia.org/wiki/Programmierschnittstelle) ist eine Programmierschnittstelle, mit der Daten zwischen Internetseiten ausgetauscht werden können. Um sich beim Austausch zu identifizieren, ist ein API SECRET - ein Schlüssel erforderlich.
+ Jetzt fehlt noch das **API SECRET**. 
  Ältere Versionen von xDrip senden z.B. Daten an die Nightscout Website mit dem API SECRET.
  Das API SECRET Wert muss als Minimum zwölf Zeichen lang sein und ist frei wählbar:
  
