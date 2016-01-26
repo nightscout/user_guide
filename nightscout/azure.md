@@ -105,7 +105,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 | cage| benötigt Careportal Eingaben |
 |treatmentnotify |Benachrichtigungen über Eingaben|
 |basal|Visualisierung der Basalrate|
-|bridge |Anbindungsmöglichkeit Share/G5 |
+|bridge |Anbindungsmöglichkeit Dexcom Share mit iOS |
 |mmconnect |medtronic CGM System - Anbindung|
  
  Wir gehen zu den **App-Einstellungen**:
