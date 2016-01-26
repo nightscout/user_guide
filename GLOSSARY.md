@@ -28,8 +28,7 @@ Kohlenhydrate an Bord (engl.: Carbs On Board cob)  ist die Menge an Kohlenhydrat
 
 ## iob
 
-Das iob = Insulin an Bord ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper vorhanden ist. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern.
-Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
+Insulin an Bord (engl.: Insulin On Board iob) ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper wirkt. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern. Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
 
 ## Nightscout
 
