@@ -24,8 +24,7 @@ Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel 
 
 ## cob
 
-cob = Kohlenhydrate an Bord ist die Menge an Kohlenhydraten aus vorangegangenen Mahlzeiten, Snacks und Kohlenhydrat - Korrekturen vorhanden ist und noch verdaut wird. Die Zeitdauer, wie lange Kohlenhydrate aktiv sind, wird beeinflusst durch die Menge an Kohlenhydraten, die gegessen wurden und jede einzelne Aufnahme - Rate (Kohlenhydrate in Schwarzbrot wird langsamer aufgenommen als
-Kohlenhydrate in Cola).  
+Kohlenhydrate an Bord (engl.: Carbs On Board cob)  ist die Menge an Kohlenhydraten aus vorangegangenen Mahlzeiten, Snacks und Kohlenhydrat - Korrekturen, welche noch verdaut wird. Die Zeitdauer, wie lange aufgenommene Kohlenhydrate aktiv sind, wird beeinflusst durch die Menge an Kohlenhydraten, die gegessen wurden und die Kohlenhydrat Art Kohlenhydrate in Schwarzbrot werden langsamer aufgenommen als Kohlenhydrate in Cola, wirken dafür aber länger).  
 
 ## iob
 
