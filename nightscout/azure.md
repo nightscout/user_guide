@@ -91,9 +91,10 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
  
  
- Optional: Anbindung der Share2Bridge Funktionalität
+ **Optional:** Anbindung der Share2Bridge Funktionalität
  
  Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
+ 
 |Parameter |  Beschreibung |
 | -- | -- |
  |BRIDGE_USER_NAME |Required: the user name associated with the Share account|
@@ -106,9 +107,9 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  
  
- Weiter geht es mit dem Konfigurieren der [Plugins](../nightscout/nightscout_plugins.md).
+ Weiter geht es mit dem Konfigurieren der Plugin:
  
- Azure - Plugin Übersicht:
+ 
  
  | Plugin |  Hinweise |
 | -- | -- |
