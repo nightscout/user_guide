@@ -11,7 +11,7 @@ Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst.
 
 ## API SECRET
 
-Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel zur sicheren Übertragung von Daten über das Internet. Es besteht aus numerischen und alphanumerischen Zeichen und identiziert den Absender. Näheres siehe: ()
+Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel zur sicheren Übertragung von Daten über das Internet. Es besteht aus numerischen und alphanumerischen Zeichen und identiziert den Absender. Näheres siehe:(https://de.wikipedia.org/wiki/Programmierschnittstelle) 
 
 ## APS
 
