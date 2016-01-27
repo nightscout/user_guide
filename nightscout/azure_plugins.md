@@ -26,6 +26,16 @@ Anbindung der Share2Bridge Funktionalität
  
  Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
  
+ 
+ Integrated Share2Nightscout Bridge
+
+Users who are uploading Dexcom Share data using an iOS device paired with the Share receiver can now configure the Nightscout site to use the Share data without running a separate bridge app. (A site running Funnel Cake can configure the integrated Share variables in the site settings for an Azure site for free.)
+
+NOTE: For full directions to set up a Nightscout Bridge site (e.g., you do not yet have a Nightscout site at all), see: Nightscout with iOS and Dexcom Share (Bridge).
+
+The following information is for someone who is updating an existing Nightscout site (with or without bridge) and wants to enable bridge variables.
+To configure Share, you must ENABLE bridge (see detail above). In addition, the following variables are used in your Azure or Heroku settings to configure the Share2Nightscout Bridge integration:
+ 
 |Parameter |  Beschreibung |
 | -- | -- |
  |BRIDGE_USER_NAME |Erforderlich: Benutzername des Dexcom Share Accounts|
