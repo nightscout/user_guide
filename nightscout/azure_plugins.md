@@ -33,3 +33,16 @@ Optionale Einstellungen können wir hier machen
 |BRIDGE_MAX_FAILURES |Optional: Maximale Anzahl der Fehler beim Empfang.  Der Standardwert ist 3.|
 |BRIDGE_MINUTES |Optional: Das Zeitfenster für die Suche nach neuen Daten pro Update. Der Standardwert ist Zeit in Minuten – 1400|.
  
+ 
+ 
+Wir können die Ansicht der Nightscout Haupt Seite auf eigene Wünsche anpassen, dieses über 
+Deaktivierung von default Plugin. Dieses mit dem **DISABLE** Parameter :
+ 
+| Plugin |  Hinweise |
+| -- | -- |
+|delta | berechnet und zeigt die Veränderung zwischen den letzten beiden BZ - Werten an|
+|direction |zeigt den Blutzuckertrend an|
+|upbat |zeigt den aktuellsten Batterieladezustand des Uploader - Smartphones an|
+|errorcodes |erzeugt Alarme für CGM Fehlermeldungen |
+|ar2 | erzeugt Alarme basierend auf prognostizierten Werten|
+|simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um alarme zu erzeugen|
