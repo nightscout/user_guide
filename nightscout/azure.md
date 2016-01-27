@@ -124,17 +124,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  ** Speichern **nicht vergessen.
  
- Wir können die Ansicht der Nightscout Haupt Seite auf eigene Wünsche anpassen, dieses über 
- Deaktivierung von default Plugin. Dieses mit dem **DISABLE** Parameter :
  
-| Plugin |  Hinweise |
-| -- | -- |
-|delta | berechnet und zeigt die Veränderung zwischen den letzten beiden BZ - Werten an|
-|direction |zeigt den Blutzuckertrend an|
-|upbat |zeigt den aktuellsten Batterieladezustand des Uploader - Smartphones an|
-|errorcodes |erzeugt Alarme für CGM Fehlermeldungen |
-|ar2 | erzeugt Alarme basierend auf prognostizierten Werten|
-|simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um alarme zu erzeugen|
  
 **Einbindung des GitHub Source Codes**
 
