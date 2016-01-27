@@ -3,7 +3,7 @@ baembel08
 
 [Azure](https://de.wikipedia.org/wiki/Microsoft_Azure) ist ein Cloud - Computing Dienst, welcher umfangreiche Services  für Anwender zur Verfügung stellt.
 
-**Einstieg:**
+#Einstieg:
 
 Den Einstieg in deutscher Sprache findet man hier: [Azure ](https://azure.microsoft.com/de-de/)
 
@@ -37,7 +37,8 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  Die Web-App wird jetzt in Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt,ob die App **online** oder **not running** ist.
 
  
- Weiter geht es mit der **Konfiguration der Verbindungszeichenfolgen:**
+ Weiter geht es mit der
+ #Konfiguration der Verbindungszeichenfolgen:
  
  Wir beginnen mit der **Verbindung zur Mongo DB**:
  
@@ -74,9 +75,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  **Benutzerdefiniert**: Attribut
  
  
-###  An dieser Stelle noch ganz wichtig den 
-
-
+ An dieser Stelle noch ganz wichtig den 
  
  Parametername : **TREATMENTS_AUTH** 
  
@@ -95,6 +94,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  
  Weiter geht es mit dem Konfigurieren der Plugin Module:
+ #App Einstellungen 
  
  
  
@@ -126,7 +126,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  
  
-**Einbindung des GitHub Source Codes**
+#Einbindung des GitHub Source Codes
 
 Zu Bereitstellung der Nightscout -Website fehlt uns noch der `cgm-remote-monitor`, den wir über GitHub laden.
 Wir steigen hier ein, die Verbindung herzustellen:
@@ -161,7 +161,7 @@ mit dem Aufruf http://meinwebsitename.azurewebsites.net aufgerufen werden.
 Die Einrichtung ist fertig.
 
 
-**Kosten:**
+#Kosten:
 
 Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure - Portal gibt es eine **Preisübersicht:**
 
