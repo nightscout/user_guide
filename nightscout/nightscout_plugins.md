@@ -118,27 +118,7 @@ Funnel Cake supports users around the world with translations of site content in
 
 
 
-Predefined Variables to Customize Browser Settings (Optional)
 
-Setting the following optional variables in your site settings makes your custom settings the default for any instance of Nightscout. The settings panel of the website allows users to override some settings on an individual basis. For each variable below that you wish to set, enter the variable shown in bold in a blank box in your site app settings (or Heroku/configuration variables) and then enter your chosen value in the box to the right of it.
-
-    TIME_FORMAT (12)- possible values 12 or 24
-    NIGHT_MODE (off) – possible values on or off
-    SHOW_RAWBG (never) – possible values always, never or noise
-    CUSTOM_TITLE (Nightscout) – Usually name of T1
-    THEME (default) – possible values default or colors
-    ALARM_URGENT_HIGH (on) – possible values on or off
-    ALARM_HIGH (on) – possible values on or off
-    ALARM_LOW (on) – possible values on or off
-    ALARM_URGENT_LOW (on) – possible values on or off
-    ALARM_TIMEAGO_WARN (on) – possible values on or off
-    ALARM_TIMEAGO_WARN_MINS (15) – minutes since the last reading to trigger a warning
-    ALARM_TIMEAGO_URGENT (on) – possible values on or off
-    ALARM_TIMEAGO_URGENT_MINS (30) – minutes since the last reading to trigger a urgent alarm
-    SHOW_PLUGINS – enabled plugins that should have their visualizations shown, defaults to all enabled. To have certain plugins appear visible by default, specify them by the same name used in the ENABLE box. Example:
-
-    f-showplugins2
-    LANGUAGE (en) – language of Nighscout. If the language specified is not available English is used. Funnel Cakehas translations available for languages.
     
     
     
