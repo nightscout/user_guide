@@ -92,20 +92,6 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
  
  
- **Optional:** Anbindung der Share2Bridge Funktionalität
- 
- Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
- 
-|Parameter |  Beschreibung |
-| -- | -- |
- |BRIDGE_USER_NAME |Erforderlich: Benutzername des Dexcom Share Accounts|
-|BRIDGE_PASSWORD |Erforderlich: Passwort des Dexcom Share AccountsShare Accounts|
-|BRIDGE_INTERVAL |Optional: Wartezeit zwischen jedem  Update. Der Standardwert ist 150000 – 2.5 minutes.
-|BRIDGE_MAX_COUNT |Optional: Die maximale Anzahl der Datensätze zum Upload. Der Standardwert ist 1.|
-|BRIDGE_FIRST_FETCH_COUNT |Optional: Maximale Anzahl der Datensätze während des ersten Uploads. Der Standardwert ist 3.|
-|BRIDGE_MAX_FAILURES |Optional: Maximale Anzahl der Fehler beim Empfang.  Der Standardwert ist 3.|
-|BRIDGE_MINUTES |Optional: Das Zeitfenster für die Suche nach neuen Daten pro Update. Der Standardwert ist Zeit in Minuten – 1400|.
- 
  
  
  Weiter geht es mit dem Konfigurieren der Plugin Module:
