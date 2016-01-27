@@ -9,9 +9,7 @@ The Funnel Cake (0.8+) update to the Nightscout site represents the most substan
 
 IMPORTANT: Before you can use Funnel Cake features, you must update your fork and ensure that your website updates to the current version. To update your site code to Funnel Cake, please follow the steps outlined here.
 
-Using “Enable” to Activate Funnel Cake Features/Plugins
 
-Funnel Cake introduces a number of exciting new site features and plugins. Many of these features have to be turned on (enabled) in your site settings before they can be used and before they will be displayed on your Nightscout site. To use features like Care Portal, Insulin-on-Board (IOB), Carbs-on-Board (COB), Cannula Age (CAGE), Raw Data, and the Share2Nightscout Bridge, you must first “ENABLE” them in your site settings (Azure or Heroku).
 
 If you have previously set an “ENABLE” value (if you use Care Portal or raw data, for example), you will modify the existing value for ENABLE to add any additional features you wish to use. If you do not have an ENABLE variable set, add ENABLE in the next blank left-hand box (under Configure/App Settings in Azure or in Settings/Config Variables in Heroku) and place selected features from the list below in the value box to its right. You can use chose to enable as many or as few of the plugins as you wish. After you are done, be sure to click “save” to save the settings. Note: you can only have a single ENABLE variable set. All desired features go in the same box as a space delimited list (see examples below).
 
@@ -118,18 +116,7 @@ Language Support
 
 Funnel Cake supports users around the world with translations of site content in 14 languages.
 
-Other Nightscout Site Variables
 
-In addition to the variables and plugins defined above, the following variables can be set to further customize your Nightscout site. For each variable below, enter the variable shown in bold in a blank box in your site app settings (or Heroku/configuration variables) and then enter your chosen value in the box to the right of it. Be sure and save after setting or changing variables. The default value for each variable is shown in ().
-Site Variables
-
-    API_SECRET – A secret passphrase that must be at least 12 characters long. An API_SECRET is required for using Care Portal, Pushover, and REST API upload.
-    BG_HIGH (260) – This value must be set using mg/dl units; the high BG outside the target range that is considered urgent.
-    BG_TARGET_TOP (180) – This must be set using mg/dl units; the top of the target range, also used to draw the line on the chart.
-    BG_TARGET_BOTTOM (80) – This must be set using mg/dl units; the bottom of the target range, also used to draw the line on the chart.
-    BG_LOW (55) – This must be set using mg/dl units; the low BG outside the target range that is considered urgent.
-    ALARM_TYPES (simple if any BG_* ENV’s are set, otherwise predict) – Currently 2 alarm types are supported, and can be used independently or combined. The simple alarm type only compares the current BG to BG_ thresholds above, the predict alarm type uses highly tuned formula that forecasts where the BG is going based on it’s trend. predict DOES NOT currently use any of the BG_* ENV’s.
-    BASE_URL – Used for building links to your sites api, ie pushover callbacks, usually the URL of your Nightscout site you may want https:// instead of http://.
 
 Predefined Variables to Customize Browser Settings (Optional)
 
