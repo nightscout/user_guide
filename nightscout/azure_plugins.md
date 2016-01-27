@@ -52,6 +52,23 @@ To configure Share, you must ENABLE bridge (see detail above). In addition, the 
 In addition to the variables and plugins defined above, the following variables can be set to further customize your Nightscout site. For each variable below, enter the variable shown in bold in a blank box in your site app settings (or Heroku/configuration variables) and then enter your chosen value in the box to the right of it. Be sure and save after setting or changing variables. The default value for each variable is shown in ().
 Site Variables
 
+|Parameter |  Wert |Beschreibung|
+| -- | -- |-- |
+|TIME_FORMAT |24| mögliche Werte 12 oder 24|
+|NIGHT_MODE |off|  mögliche Werte on oder off|
+|SHOW_RAWBG |never|  mögliche Werte: always, never oder noise|
+|CUSTOM_TITLE |My NS|  Individueller Name der Website|
+|THEME |default|  mögliche Werte: default oder colours|
+|ALARM_URGENT_HIGH |on|  mögliche Werte: on oder off|
+|ALARM_HIGH |on|  mögliche Werte: on oder off|
+|ALARM_LOW |on|  mögliche Werte: on oder off|
+|ALARM_URGENT_LOW |on|  mögliche Werte: on oder off|
+|ALARM_TIMEAGO_WARN |on|  mögliche Werte: on oder off|
+|ALARM_TIMEAGO_WARN_MINS |15|  Minuten seit des letzen Lesens um eine Warnung auszugeben|
+|ALARM_TIMEAGO_URGENT |on|  mögliche Werte: on oder off|
+|ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit des letzen Lesens um eine alarmierende Warnung auszugeben|
+|SHOW_PLUGINS|  enabled |Zeigt an, welche Plugins in der Grafik angezeigt werden sollen. Diese müssen vorher mit ENABLE bei den Azure App.-Settings konfiguriert sein|
+
     API_SECRET – A secret passphrase that must be at least 12 characters long. An API_SECRET is required for using Care Portal, Pushover, and REST API upload.
     BG_HIGH (260) – This value must be set using mg/dl units; the high BG outside the target range that is considered urgent.
     BG_TARGET_TOP (180) – This must be set using mg/dl units; the top of the target range, also used to draw the line on the chart.
