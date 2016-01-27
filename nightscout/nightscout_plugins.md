@@ -41,31 +41,9 @@ Funnel Cake introduces a new Treatment Profile Editor that makes it easy to crea
 
 f-editreatmentprofile
 
-Integrated Share2Nightscout Bridge
 
-Users who are uploading Dexcom Share data using an iOS device paired with the Share receiver can now configure the Nightscout site to use the Share data without running a separate bridge app. (A site running Funnel Cake can configure the integrated Share variables in the site settings for an Azure site for free.)
 
-NOTE: For full directions to set up a Nightscout Bridge site (e.g., you do not yet have a Nightscout site at all), see: Nightscout with iOS and Dexcom Share (Bridge).
 
-The following information is for someone who is updating an existing Nightscout site (with or without bridge) and wants to enable bridge variables.
-To configure Share, you must ENABLE bridge (see detail above). In addition, the following variables are used in your Azure or Heroku settings to configure the Share2Nightscout Bridge integration:
-
-    BRIDGE_USER_NAME (Required: the user name associated with the Share account)
-    BRIDGE_PASSWORD (Required: the password associated with the Share account)
-    BRIDGE_INTERVAL (Optional: the time to wait between each update. The default is 150000 – 2.5 minutes.
-    BRIDGE_MAX_COUNT (Optional: The maximum number of records to fetch per update. The default is 1.)
-    BRIDGE_FIRST_FETCH_COUNT (Optional: Maximum number of records to fetch during the very first update only. The default is 3.)
-    BRIDGE_MAX_FAILURES (Optional: How many failures happen trying to retrieve data before giving up. The default is 3.)
-    BRIDGE_MINUTES (Optional: The time window to search for new data per update. The default is one day in minutes – 1400).
-
-At the very minimum, the following variables must be set to use Share2Nightscout Bridge:
-
-In App Settings (Azure):
-bridge-enable
-
-In Connection Strings (Azure):
-
-bridge-vars
 
 NOTE: If you experience a problem using the integrated Share in Azure, you may need to use an external free service like Uptime Robot. This service will visit your site every five minutes and help keep it from stopping when you are not viewing the data. (Update: Setting up Uptime Robot is recommended for all bridge users. Instructions for setting up can be found in the Nightscout with iOS and Dexcom Share (Bridge) resource.)
 
@@ -85,11 +63,7 @@ Treatment Notifications
 
 When treatment notifications are enabled, your site will generate notifications when a treatment has been entered via Care Portal and will snooze site alarms shortly after. The default snooze duration is 10 minutes. This can be modified by changing the duration using the TREATMENTNOTIFY_SNOOZE_MINS variable in the site settings.
 
-Cannula Age (CAGE)
 
-Required: ENABLE cage
-
-Funnel Cake introduces tracking of Cannula Age (CAGE) with pillbox visualization on the site that displays the age of the cannula based on Care Portal entry of a site change. Additional variables allow customization of warnings associated with the CAGE.  See Cage
 
 Basal
 
@@ -108,7 +82,7 @@ AR2 generates alarms based on forecasted values. AR2 is enabled by default if no
 To learn more about AR2, see Forecasting Using AR2 Algorithm.
 Simple Alarms
 
-Simple alarms are enabled by default if 1 of the alarm thresholds is set or if the ALARM_TYPES variable includes simple. To learn more about customizing alarms, see Customizing the Alarm Levels.
+
 
 Bolus Wizard Preview (BWP)
 
