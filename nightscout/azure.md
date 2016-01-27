@@ -65,10 +65,11 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  
  Jetzt fehlt noch das **API SECRET**. 
- Ältere Versionen von xDrip senden z.B. Daten an die Nightscout Website mit dem API SECRET.
- Das API SECRET Wert muss als Minimum zwölf Zeichen lang sein und ist frei wählbar:
+
+ Der API_SECRET Wert muss als Minimum zwölf Zeichen lang sein und ist frei wählbar.
+ Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
  
- **API SECRET**:Parametername
+ **API_SECRET**:Parametername
  
  **Y3KmrdFA12jmk**: API SECRET Wert
  
