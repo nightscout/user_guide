@@ -19,9 +19,13 @@ Pump ID -> die ID von der Pumpenrückseite eintragen. Dies sind die sechs Ziffer
 
 ![Pumpe](../../images/enlite/pumpe.jpg)
 * 
-Glucometer ID -> die ID des Blutzuckermessgerätes eintragen.
+Glucometer ID -> die ID des Blutzuckermessgerätes eintragen (rotes Rechteck).
+
+![Messgerät](../../images/enlite/messgeraet.jpg)
 * 
-Sensor ID -> die ID von der Rückseite des Minimed Transmitters eintragen.
+Sensor ID -> die ID von der Rückseite des Minimed Transmitters eintragen (rotes Rechteck).
+
+![Transmitter](../../images/enlite/transmitter.jpg)
 * 
 Calibration Type -> "Manual" auswählen.
 * 
