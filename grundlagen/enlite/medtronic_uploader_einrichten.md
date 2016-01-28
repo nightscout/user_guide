@@ -30,12 +30,13 @@ API Upload (REST) -> aktivieren
 API Base URL -> ```APISECRET```@https:// ```WEBSEITENNAME```.azurewebsites.net/api/v1 eintragen. Sowohl das "API secret", als auch den "Webseitennamen" findet man auf der letzten Seite des Arbeitsblattes aus Kapitel 2.1. - vorausgesetzt man hat das Arbeitsblatt ausgefüllt. Mit den Beispielen aus Kapitel 2.5. [Azure](../../nightscout/azure.md) ergäbe sich dann: Y3KmrdFA12jmk@https://nscgm01.azurewebsites.net/api/v1.
 * 
 MongoDB Upload -> deaktivieren
+
 * 
 Wifi Hack -> deaktivieren
 * 
 2 Days at Startup -> aktivieren
 * 
-I UNDERSTAND -> hier steht ganz klar, dass Nightscout nicht genutzt werden darf, um medizinische Entscheidungen zu fällen. Es gibt weder Unterstützung noch irgendwelche Garantien. Die Qualität und Leistung dieses Projektes hängt einzig von Dir ab. Dieses Projekt wurde von Freiwilligen gestartet und unterstützt. Dies muss man akzeptieren. -> aktivieren
+I UNDERSTAND -> hier steht ganz klar, dass Nightscout nicht genutzt werden darf, um medizinische Entscheidungen zu fällen. Es gibt weder Unterstützung noch irgendwelche Garantien. Die Qualität und Leistung dieses Projektes hängt einzig von Dir ab. Dieses Projekt wurde von Freiwilligen erstellt und weiter entwickelt. Dies muss man akzeptieren. -> aktivieren
 
 Nun geht man raus aus den Einstellungen. Man sollte Striche sehen, einen grünen Text "CGM Service Started" und einen weiteren Text "Uncalibrated".
 
