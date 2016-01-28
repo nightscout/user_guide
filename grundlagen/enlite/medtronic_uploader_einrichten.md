@@ -15,7 +15,9 @@ mmol/L -> hier kann man wählen, ob man lieber mit mmol/L oder mg/dl arbeitet.
 * 
 Type -> "Medtronic CGM" auswählen.
 * 
-Pump ID -> die ID von der Pumpenrückseite eintragen.
+Pump ID -> die ID von der Pumpenrückseite eintragen. Dies sind die sechs Ziffern, die auf dem folgenden Bild im Bereich des roten Rechteckes liegen.
+
+![Pumpe](../../images/enlite/pumpe.jpg)
 * 
 Glucometer ID -> die ID des Blutzuckermessgerätes eintragen.
 * 
