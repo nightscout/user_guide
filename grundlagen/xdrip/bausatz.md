@@ -1,10 +1,14 @@
 # Bausatz
-Es gibt verschiedene Möglichkeiten, um die Hardware für einen xDrip zu bauen. (Verschiedene Hardware und verschiedene Varianten, die selbe Hardware miteinander zu verlöten.) Ein Bauteil, das bei jeder HW-Variante benötigt wird, ist eine Platine, die "Wixel" genannt wird. Für diese Platine gibt es unterschiedliche Software. 
-Das ist der Grund dafür, warum es unterschiedliche Anleitungen und verschiedene Namen für sehr ähnliche Dinge gibt.
+Es gibt verschiedene Varianten, um einen xDrip zu bauen. Das berifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) 
+Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen für ähnliche Dinge.
 Die Varianten haben unter schiedliche Eigenschaften, letztlich aber die selbe Aufgabe: Daten vom Transmitter empfangen und an ein Bluetooth-Handy übertragen.
 
+Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten Bauformen zu beschreiben. 
 
-Solange man keine vollständige Übersicht über die Komponenten und deren Funktion hat, empfehle ich, sich eine der verfügbaren Anleitungen zu nehmen und dieser zu folgen. 
+Für die einfachste Bauform hat sich der Name der "xDrip classic" etabliert. Es gibt im wesentlichen zwei wichtige Erweiterungen bzw. Änderungen dieser Bauform:
+* Der Spanungsteiler, der eine Akkuanzeige in der App ermöglicht.
+* Eine alternative Spannungsversorgung des Bluetooth-Moduls, wodurch die Laufzeit des Akkus erhöht werden kann.
+
 
 ## 
 Tipps und Rat für Einsteiger: 
