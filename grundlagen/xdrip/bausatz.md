@@ -34,7 +34,7 @@ Anleitung zum Löten:
 * https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be
 
 Zum Aufspielen der Software auf das Wixel:
-* ["xBridge2.wxl" - Datei](https://github.com/jstevensog/wixel-.../apps/xBridge2)
+* ["xBridge2.wxl" - Datei](https://github.com/jstevensog/wixel-.../apps/xBridge2) (Auch geeignet bei Verlötung nach "xDrip classic".)
 * [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
  
 
