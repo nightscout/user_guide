@@ -1,6 +1,5 @@
 # Summary
 
-* [Deutsche Anleitung](README.md)
 * [Grundvoraussetzungen](grundlagen/grundvoraussetzungen.md)
    * [Wissenswertes](grundlagen/wissenswertes.md)
        * [Grundsätzliche Funktionsweise/Ausblick](grundlagen/grundsatzliche_funktionsweiseausblick.md)
