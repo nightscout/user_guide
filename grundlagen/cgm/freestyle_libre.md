@@ -1,8 +1,6 @@
 # Freestyle Libre
 
 
-Adrian (kann gerne von anderen erweitert oder ausformuliert werden):
-
 Das Freestyle-Lesegerät ist nicht nightscout-fähig, jedoch eine Android-App, die die Sensoren auch auslesen kann.
 Z.T. andere Werte als das Lesegerät.
 Keine Alarme; Benutzer muss aktiv werden; nicht geeignet für APS
