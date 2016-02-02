@@ -37,7 +37,13 @@ Zum Aufspielen der Software auf das Wixel:
 * ["xBridge2.wxl" - Datei](https://github.com/jstevensog/wixel-.../apps/xBridge2) (Auch geeignet bei Verlötung nach "xDrip classic".)
 * [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
  
+---
+Zwischenspeicher für Wissen, um es später schick in diese Doku aufzunehmen:
 
+Die xBridge2.wxl kann auf verschiedener HW arbeiten
+* "xDrip classic" (ohne Spannungsteiler)
+* "xDrip classic zzgl. Spannungsteiler" Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2.2k) ODER (10k und 22k). Gibt es eine Empfehlung?
+* "xBridge" (incl. Spannungsteiler) Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfohlen wird (10k und 27k) 
 
 
 
