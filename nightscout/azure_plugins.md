@@ -19,7 +19,7 @@ Wir können einige Standard Plugins **deaktivieren**, die standardmäßig aktiv 
 |simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um alarme zu erzeugen|
 
 
-Wir können Browsereinstellungen zentral in den Azure App. Einstellungen speichern. Dieses hat den Vorteil, das man egal von welchem Browser oder Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden diese nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
+Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Dieses hat den Vorteil, das man egal von welchem Browser oder Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden diese nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
 
 
 |Parameter |  Wert |Beschreibung|
@@ -38,6 +38,10 @@ Wir können Browsereinstellungen zentral in den Azure App. Einstellungen speiche
 |ALARM_TIMEAGO_URGENT |on|  mögliche Werte: on oder off|
 |ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit des letzen Lesens um eine alarmierende Warnung auszugeben|
 |SHOW_PLUGINS|  enabled |Zeigt an, welche Plugins in der Grafik angezeigt werden sollen. Diese müssen vorher mit ENABLE bei den Azure App.-Settings konfiguriert sein|
+
+
+
+Nach Eingabe der Daten das **Speichern** nicht vergessen.
 
 
 
@@ -67,27 +71,7 @@ To configure Share, you must ENABLE bridge (see detail above). In addition, the 
 |BRIDGE_MINUTES |Optional: Das Zeitfenster für die Suche nach neuen Daten pro Update. Der Standardwert ist Zeit in Minuten – 1400|
  
  
- Other Nightscout Site Variables
-
-In addition to the variables and plugins defined above, the following variables can be set to further customize your Nightscout site. For each variable below, enter the variable shown in bold in a blank box in your site app settings (or Heroku/configuration variables) and then enter your chosen value in the box to the right of it. Be sure and save after setting or changing variables. The default value for each variable is shown in ().
-Site Variables
-
-|Parameter |  Wert |Beschreibung|
-| -- | -- |-- |
-|TIME_FORMAT |24| mögliche Werte 12 oder 24|
-|NIGHT_MODE |off|  mögliche Werte on oder off|
-|SHOW_RAWBG |never|  mögliche Werte: always, never oder noise|
-|CUSTOM_TITLE |My NS|  Individueller Name der Website|
-|THEME |default|  mögliche Werte: default oder colours|
-|ALARM_URGENT_HIGH |on|  mögliche Werte: on oder off|
-|ALARM_HIGH |on|  mögliche Werte: on oder off|
-|ALARM_LOW |on|  mögliche Werte: on oder off|
-|ALARM_URGENT_LOW |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_WARN |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_WARN_MINS |15|  Minuten seit des letzen Lesens um eine Warnung auszugeben|
-|ALARM_TIMEAGO_URGENT |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit des letzen Lesens um eine alarmierende Warnung auszugeben|
-|SHOW_PLUGINS|  enabled |Zeigt an, welche Plugins in der Grafik angezeigt werden sollen. Diese müssen vorher mit ENABLE bei den Azure App.-Settings konfiguriert sein|
+ 
 
     API_SECRET – A secret passphrase that must be at least 12 characters long. An API_SECRET is required for using Care Portal, Pushover, and REST API upload.
     BG_HIGH (260) – This value must be set using mg/dl units; the high BG outside the target range that is considered urgent.
@@ -98,24 +82,7 @@ Site Variables
     BASE_URL – Used for building links to your sites api, ie pushover callbacks, usually the URL of your Nightscout site you may want https:// instead of http://.
     
     
-    Predefined Variables to Customize Browser Settings (Optional)
-
-Setting the following optional variables in your site settings makes your custom settings the default for any instance of Nightscout. The settings panel of the website allows users to override some settings on an individual basis. For each variable below that you wish to set, enter the variable shown in bold in a blank box in your site app settings (or Heroku/configuration variables) and then enter your chosen value in the box to the right of it.
-
-    TIME_FORMAT (12)- possible values 12 or 24
-    NIGHT_MODE (off) – possible values on or off
-    SHOW_RAWBG (never) – possible values always, never or noise
-    CUSTOM_TITLE (Nightscout) – Usually name of T1
-    THEME (default) – possible values default or colors
-    ALARM_URGENT_HIGH (on) – possible values on or off
-    ALARM_HIGH (on) – possible values on or off
-    ALARM_LOW (on) – possible values on or off
-    ALARM_URGENT_LOW (on) – possible values on or off
-    ALARM_TIMEAGO_WARN (on) – possible values on or off
-    ALARM_TIMEAGO_WARN_MINS (15) – minutes since the last reading to trigger a warning
-    ALARM_TIMEAGO_URGENT (on) – possible values on or off
-    ALARM_TIMEAGO_URGENT_MINS (30) – minutes since the last reading to trigger a urgent alarm
-    SHOW_PLUGINS – enabled plugins that should have their visualizations shown, defaults to all enabled. To have certain plugins appear visible by default, specify them by the same name used in the ENABLE box. Example:
+    
 
     f-showplugins2
     LANGUAGE (en) – language of Nighscout. If the language specified is not available English is used. Funnel Cakehas translations available for languages.
