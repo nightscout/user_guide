@@ -19,7 +19,7 @@ Wir können einige Standard Plugins **deaktivieren**, die standardmäßig aktiv 
 |simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um alarme zu erzeugen|
 
 
-Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Dieses hat den Vorteil, das man egal von welchem Browser oder Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden diese nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
+Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Dieses hat den Vorteil, das man egal von welchem Browser oder einer Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden diese nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
 
 
 |Parameter |  Wert |Beschreibung|
