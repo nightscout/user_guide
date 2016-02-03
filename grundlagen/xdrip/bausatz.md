@@ -48,6 +48,7 @@ Die xBridge2.wxl kann auf verschiedener HW arbeiten
 
 
 ---
+Anzeigen der Dioden und deren Bedeutung (mit xBridge2.wxl auf dem Wixel)
 
 | Baustein | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | xBridge|
 | -- | -- | -- | -- | -- | -- |
