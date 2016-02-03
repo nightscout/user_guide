@@ -48,6 +48,18 @@ Die xBridge2.wxl kann auf verschiedener HW arbeiten
 
 
 ---
+
+| Baustein | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | xBridge|
+| -- | -- | -- | -- | -- | -- |
+| HM 10 | grün Dauerleuchten | Regelbetrieb | Regelbetrieb |sollte nicht vorkommen |
+| HM 10 | grün blinkend | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy|
+| HM 10 | grün aus, aber alle 5 Minuten ca. 30 Sek. an | sollte nicht vorkommen | sollte nicht vorkommen | Regelbetrieb|
+| Wixel | orange Dauerblinken | keine Verbindung zum Transmitter | keine Verbindung zum Transmitter | sollte nicht vorkommen |
+| Wixel | orange Dauerleuchten | sollte nicht vorkommen | sollte nicht vorkommen | keine Verbindung zum Transmitter|
+| Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb | sollte nicht vorkommen|
+| Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | sollte nicht vorkommen | sollte nicht vorkommen | Regelbetrieb| 
+
+
 ## 
 ---
 ** Stückliste - "xDrip V3 USB"** ( Stand: September 2015 )
