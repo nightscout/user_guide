@@ -50,9 +50,10 @@ Die xBridge2.wxl kann auf verschiedener HW arbeiten
 ---
 Anzeigen der Dioden (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf dem Wixel)
 
-| Baustein | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | xBridge|
+
+| Baustein | Anzeige | xDrip classic (Angaben noch nicht verifiziert) | xDrip classic mit Spannungsteiler (Angaben noch nicht verifiziert) | xBridge|
 | -- | -- | -- | -- | -- | -- |
-| HM 11 | keine Anzeige vorgesehen||||
+| HM 11 | Klärung nötig ||||
 | HM 10 | grün Dauerleuchten | Regelbetrieb | Regelbetrieb |sollte nicht vorkommen |
 | HM 10 | grün blinkend | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy|
 | HM 10 | grün aus, aber alle 5 Minuten ca. 30 Sek. an | sollte nicht vorkommen | sollte nicht vorkommen | Regelbetrieb|
