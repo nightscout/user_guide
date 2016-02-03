@@ -59,7 +59,9 @@ Anzeigen der Dioden und deren Bedeutung (mit xBridge2.wxl auf dem Wixel)
 | Wixel | orange Dauerleuchten | sollte nicht vorkommen | sollte nicht vorkommen | keine Verbindung zum Transmitter|
 | Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb | sollte nicht vorkommen|
 | Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | sollte nicht vorkommen | sollte nicht vorkommen | Regelbetrieb| 
-
+| App Statusanzeige | "not connected" dauerhaft | keine Verbindung zum BT-Modul | keine Verbindung zum BT-Modul |keine Verbindung zum BT-Modul |
+| App Statusanzeige | "not connected", aber alle 5 Minuten für ca. 30 Sek "connected" | sollte nicht vorkommen | sollte nicht vorkommen | Regelbetrieb (!) |
+| App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb |sollte nicht vorkommen |
 
 ## 
 ---
