@@ -1,5 +1,5 @@
 # Azure
-baembel08
+
 
 [Azure](https://de.wikipedia.org/wiki/Microsoft_Azure) ist ein Cloud - Computing Dienst, welcher umfangreiche Services  für Anwender zur Verfügung stellt.
 
