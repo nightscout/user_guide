@@ -1,6 +1,6 @@
 
 # 
-baembel08
+
 
 
 Die [Mongo DB Datenbank](https://de.wikipedia.org/wiki/MongoDB) ist eine Dokumentations - Datenbank. Hier werden die Daten der Nightscout Website gespeichert. Es handelt sich um eine Cloud - Datenbank in Rechenzentren der USA und Europa. 
