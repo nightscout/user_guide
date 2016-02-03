@@ -1,13 +1,13 @@
 # Plugins
 
-Das Erscheinungsbild der Nightscout Website kann weiter konfiguriert werden. Die hier beschriebenen Einstellungen werden über die Azure - **App. Einstellungen** konfiguriert.
+Das Erscheinungsbild und der Funktionsumfang der Nightscout Website können weiter konfiguriert werden. 
 
 
-**Deaktivierung** von Standard - default Plugins:
+Konfiguration des **Erscheinungsbildes**:
+
+Wir können einige Standard Plugins **deaktivieren**, die standardmäßig aktiv sind. Dieses erfolgt über den DISABLE Parameter in den Azure App. Einstellungen:
 
 
-Wir können die Ansicht der Nightscout Haupt Seite auf eigene Wünsche anpassen, dieses über 
-Deaktivierung von default Plugin. Dieses mit dem **DISABLE** Parameter :
  
 | Plugin |  Hinweise |
 | -- | -- |
@@ -17,6 +17,10 @@ Deaktivierung von default Plugin. Dieses mit dem **DISABLE** Parameter :
 |errorcodes |erzeugt Alarme für CGM Fehlermeldungen |
 |ar2 | erzeugt Alarme basierend auf prognostizierten Werten|
 |simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um alarme zu erzeugen|
+
+
+
+
 
 
 
