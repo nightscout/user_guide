@@ -1,23 +1,23 @@
 # Bausatz (Abschnitt ist noch in Arbeit)
-Es gibt verschiedene Varianten, um einen xDrip zu bauen. Das berifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) 
+Es gibt verschiedene Varianten, um einen xDrip zu bauen. Das betrifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) 
 Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen für ähnliche Dinge.
 Die Varianten haben unter schiedliche Eigenschaften, letztlich aber die selbe Aufgabe: Daten vom Transmitter empfangen und an ein Bluetooth-Handy übertragen.
 
 Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten Bauformen zu beschreiben. 
 
-Für die einfachste Bauform hat sich der Name der "xDrip classic" etabliert. Es gibt im wesentlichen zwei wichtige Erweiterungen bzw. Änderungen dieser Bauform:
+Für die einfachste Bauform hat sich der Name der "xDrip classic" etabliert. Es gibt im Wesentlichen zwei wichtige Erweiterungen bzw. Änderungen dieser Bauform:
 * Der Spanungsteiler, der eine Akkuanzeige in der App ermöglicht.
 * Eine alternative Spannungsversorgung des Bluetooth-Moduls, wodurch die Laufzeit des Akkus erhöht werden kann.
 
 
 ## 
 Tipps und Rat für Einsteiger: 
-* Baut zunächst einen xDrip in der "klassischen Verschaltung" mit xBridge2.wxl auf dem Wixel. Es entfallen die beiden Widerstände, dafür fehlt später in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten.
+* Baut zunächst einen xDrip in der "klassischen Verschaltung" mit xBridge2.wxl auf dem Wixel. Es entfallen die beiden Widerstände, dafür fehlt später in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten (und die Spanungsversorgung für Bluetooth-Modul ggf. ändern).
 * Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein, dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen alle LiPo-Akkus mit 3,7V in Frage. Erfahrungswerte sind: 200 mAh sind die untere Grenze, 500 mAh ist ein guter Kompromiss, 1100 mAh und mehr bieten mehrere Tage Laufzeit.
 * Die Brücke "for faster charging with large batteries" beeinflusst den Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen, fließen 500 mA. Ein kleinerer Ladestrom schont den Akku - aber die Ladezeit erhöht sich. Der Hersteller empfiehlt die Brücke für Akkus ab 500 mAh zu schließen. Zur Info: LiPo Akkus können sich beim Laden erhitzen. Laut Wikipedia kann das eine ernste Brandgefahr mit sich bringen.
 * Die Kabel können sehr dünn sein - das erhöht die Flexibilität. Verschiedene Farben machen es leichter, die Übersicht zu behalten, solange der xDrip noch im Bau ist. 
 * Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und Ausschalten. Das könnte am kleinen Akku gelegen haben. Evtl. war es aber Pech oder fehlerhaft verlötet - das will ich nicht ausschließen. (Im Prinzip ist das sicher sehr sinnvoll. Es geht aber auch ohne, wenn man zu häufige Tiefentladung anders vermeidet.)
-* In den Schaltbildern sind keine Schalter eingetragen. Ich nutze einen Schalter für folgende Anwendungen: Ich habe stets einen zweiten (geladenen, aber abgeschalteten) xDrip als Ersatz dabei. Wenn ich z.B. schwimmen gehen, schalte ich den xDrip ab.
+* In den Schaltbildern sind keine Schalter eingetragen. Ich nutze einen Schalter für folgende Anwendungen: Ich habe stets einen zweiten (geladenen, aber abgeschalteten) xDrip als Ersatz dabei. Wenn ich z.B. schwimmen gehe, schalte ich den xDrip ab.
 
 **Schaltbild für xDrip in der "klassischen Verschaltung"**
 
