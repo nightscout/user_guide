@@ -12,17 +12,8 @@ IMPORTANT: Before you can use Funnel Cake features, you must update your fork an
 
 
 
-If you have previously set an “ENABLE” value (if you use Care Portal or raw data, for example), you will modify the existing value for ENABLE to add any additional features you wish to use. If you do not have an ENABLE variable set, add ENABLE in the next blank left-hand box (under Configure/App Settings in Azure or in Settings/Config Variables in Heroku) and place selected features from the list below in the value box to its right. You can use chose to enable as many or as few of the plugins as you wish. After you are done, be sure to click “save” to save the settings. Note: you can only have a single ENABLE variable set. All desired features go in the same box as a space delimited list (see examples below).
 
-(**It is recommended that ENABLE be set in the “App Settings” of Azure. If you had ENABLE already in your “Connection Strings,” please remove it and add it, instead, to the “App Settings.”)
 
-The following example shows multiple plugins set with ENABLE.
-
-In Azure:
-f-enable-azure
-
-In Heroku:
-f-enable-heroku
 
 
 
