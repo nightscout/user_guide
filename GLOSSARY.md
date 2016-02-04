@@ -17,6 +17,10 @@ Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel 
 
 (engl.: Artificial Pancreas System, APS) CGM ist ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
 
+## cage
+
+Insulinpumpen Katheter Setzzeit ( engl.: Cannula Age Cage) . Beschreibt die Dauer seit des letzten Infusionssets - Setzens oder Wechselns.
+
 ## CGM
 
  Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Im Gegensatz zur herkömmlichen Blutzuckermessung wird nicht der Glucosegehalt in einem dafür gewonnenen  Blutstropfen gemessen, sondern im Gewebe des Körpers. Veränderungen treten dort meist mit einer kurzen zeitlichen Verzögerung auf. 
@@ -45,7 +49,3 @@ Siehe Nightscout
 ## Plugin
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
-
-## cage
-
-Insulinpumpen Katheter Setzzeit ( engl.: Cannula Age Cage) . Beschreibt die Dauer seit des letzten Infusionssets - Setzens oder Wechselns.
