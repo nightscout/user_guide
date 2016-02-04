@@ -77,7 +77,8 @@ Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABL
  
  
  
-
+Wir können weitere Werte individuell konfigurieren, wenn uns danach ist.
+Die umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
     
     BG_HIGH (260) – This value must be set using mg/dl units; the high BG outside the target range that is considered urgent.
     BG_TARGET_TOP (180) – This must be set using mg/dl units; the top of the target range, also used to draw the line on the chart.
