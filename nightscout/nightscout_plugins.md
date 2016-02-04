@@ -12,7 +12,7 @@ IMPORTANT: Before you can use Funnel Cake features, you must update your fork an
 
 
 
-
+http://www.nightscout.info/wiki/welcome/website-features/funnel-cake-0-8-features/bwp-bolus-wizard-preview
 
 
 
