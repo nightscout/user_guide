@@ -30,6 +30,7 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
 |SHOW_RAWBG |never|  mögliche Werte: always, never oder noise|
 |CUSTOM_TITLE |My NS|  Individueller Name der Website|
 |THEME |default|  mögliche Werte: default oder colors|
+|BASAL_RENDER|default|mögliche Werte: default, icicle|
 |ALARM_URGENT_HIGH |on|  mögliche Werte: on oder off|
 |ALARM_HIGH |on|  mögliche Werte: on oder off|
 |ALARM_LOW |on|  mögliche Werte: on oder off|
@@ -39,6 +40,7 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
 |ALARM_TIMEAGO_URGENT |on|  mögliche Werte: on oder off|
 |ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit des letzen Lesens um eine alarmierende Warnung auszugeben|
 |SHOW_PLUGINS|  enabled |Zeigt an, welche Plugins in der Grafik angezeigt werden sollen. Diese müssen vorher mit ENABLE bei den Azure App.-Settings konfiguriert sein|
+
 
 
 
@@ -53,7 +55,10 @@ Die Einstellungen sehen dann so aus:
 
 
 
-Anbindung der Share2Bridge Funktionalität
+Anbindung der Share2Nightscout Bridge Funktionalität
+
+Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird in Zukunft hierüber konfiguriert.
+Um die Bridge Funktionalität nutzen zu können, müssen wir bridge
  
  Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
  
@@ -91,7 +96,6 @@ To configure Share, you must ENABLE bridge (see detail above). In addition, the 
     
     
 
-    f-showplugins2
-    LANGUAGE (en) – language of Nighscout. If the language specified is not available English is used. Funnel Cakehas translations available for languages.
+    
     
     
