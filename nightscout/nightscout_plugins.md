@@ -1,7 +1,8 @@
 # Profil - Editor
 
 
-Die Nightscout Plugins bieten eine Reihe von Zusatzfunktionen, welche beliebig konfigurierbar sind.
+Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugins iob, cob, bwp.
+
 
 
 The Funnel Cake (0.8+) update to the Nightscout site represents the most substantial update to date and introduces a number of new features to bring increased management and monitoring capabilities to Nightscout.
