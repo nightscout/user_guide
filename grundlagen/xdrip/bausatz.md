@@ -60,7 +60,7 @@ Erklärung zur folgenden Tabelle:
 | HM11 | Klärung nötig ||||
 | HM10 | ~~grün~~ Dauerleuchten | Regelbetrieb | Regelbetrieb |n.A. |
 | HM10 | ~~grün~~ blinkend | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy|
-| HM10 | ~~grün~~ aus, aber alle 5 Minuten ca. 30 Sek. an | n.A. | n.A. | Regelbetrieb|
+| HM10 | ~~grün~~ aus, aber alle 5 Minuten kurzes Blinken, dann ca. 30 Sek. an | n.A. | n.A. | Regelbetrieb|
 | Wixel | orange Dauerblinken | keine Verbindung zum Transmitter | keine Verbindung zum Transmitter | n.A. |
 | Wixel | orange Dauerleuchten | n.A. | n.A. | keine Verbindung zum Transmitter|
 | Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb | n.A.|
