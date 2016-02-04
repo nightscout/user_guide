@@ -48,22 +48,26 @@ Die xBridge2.wxl kann auf verschiedener HW arbeiten
 
 
 ---
-Anzeigen der Dioden (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf dem Wixel)
+Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf dem Wixel)
 
+Erklärung zur folgenden Tabelle:
+* **Die Inhalte sind noch nicht abgesichert. **
+* "~~grün~~" bedeutet: Es gibt verschiedene Bauformen für die Bluetooth-Module (HM10 und HM11), die Farbe der LED kann eine andere sein.
+* "n.A." bedeutet: Diese Anzeige sollte nicht vorkommen.
 
-| Baustein | Anzeige | xDrip classic (Angaben noch nicht verifiziert) | xDrip classic mit Spannungsteiler (Angaben noch nicht verifiziert) | xBridge|
+| Bauteil | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | xBridge|
 | -- | -- | -- | -- | -- | -- |
-| HM 11 | Klärung nötig ||||
-| HM 10 | grün Dauerleuchten | Regelbetrieb | Regelbetrieb |sollte nicht vorkommen |
-| HM 10 | grün blinkend | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy|
-| HM 10 | grün aus, aber alle 5 Minuten ca. 30 Sek. an | sollte nicht vorkommen | sollte nicht vorkommen | Regelbetrieb|
-| Wixel | orange Dauerblinken | keine Verbindung zum Transmitter | keine Verbindung zum Transmitter | sollte nicht vorkommen |
-| Wixel | orange Dauerleuchten | sollte nicht vorkommen | sollte nicht vorkommen | keine Verbindung zum Transmitter|
-| Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb | sollte nicht vorkommen|
-| Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | sollte nicht vorkommen | sollte nicht vorkommen | Regelbetrieb| 
+| HM11 | Klärung nötig ||||
+| HM10 | ~~grün~~ Dauerleuchten | Regelbetrieb | Regelbetrieb |n.A. |
+| HM10 | ~~grün~~ blinkend | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy | keine BT-Verbinung zum Handy|
+| HM10 | ~~grün~~ aus, aber alle 5 Minuten ca. 30 Sek. an | n.A. | n.A. | Regelbetrieb|
+| Wixel | orange Dauerblinken | keine Verbindung zum Transmitter | keine Verbindung zum Transmitter | n.A. |
+| Wixel | orange Dauerleuchten | n.A. | n.A. | keine Verbindung zum Transmitter|
+| Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb | n.A.|
+| Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | n.A. | n.A. | Regelbetrieb| 
 | App Statusanzeige | "not connected" dauerhaft | keine Verbindung zum BT-Modul | keine Verbindung zum BT-Modul |keine Verbindung zum BT-Modul |
-| App Statusanzeige | "not connected", aber alle 5 Minuten für ca. 30 Sek "connected" | sollte nicht vorkommen | sollte nicht vorkommen | Regelbetrieb (!) |
-| App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb |sollte nicht vorkommen |
+| App Statusanzeige | "not connected", aber alle 5 Minuten für ca. 30 Sek "connected" | n.A. | n.A. | Regelbetrieb (!) |
+| App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb |n.A. |
 
 ## 
 ---
