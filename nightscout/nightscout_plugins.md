@@ -1,4 +1,4 @@
-# Nightscout Plugins
+# Profil - Editor
 
 
 Die Nightscout Plugins bieten eine Reihe von Zusatzfunktionen, welche beliebig konfigurierbar sind.
