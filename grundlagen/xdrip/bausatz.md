@@ -29,6 +29,9 @@ Empfohlene Links:
 * http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/
 * https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
 * http://stephenblackwasalreadytaken.github.io/xDrip/
+* 
+
+
 
 Anleitung zum Löten:
 * https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be
