@@ -45,8 +45,9 @@ Nach Eingabe der Daten das **Speichern** nicht vergessen.
 
 Die Einstellungen sehen dann so aus:
 
+![azure_app_entries](../images/azure/azure_app_entries.jpg)
 
-App-Einstellungen
+
 
 
 
