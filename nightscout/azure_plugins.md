@@ -25,6 +25,7 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
 |Parameter |  Wert |Beschreibung|
 | -- | -- |-- |
 |TIME_FORMAT |24| mögliche Werte 12 oder 24|
+|LANGUAGE |de| Begriffe in deutscher Sprache|
 |NIGHT_MODE |off|  mögliche Werte on oder off|
 |SHOW_RAWBG |never|  mögliche Werte: always, never oder noise|
 |CUSTOM_TITLE |My NS|  Individueller Name der Website|
