@@ -28,7 +28,7 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
 |NIGHT_MODE |off|  mögliche Werte on oder off|
 |SHOW_RAWBG |never|  mögliche Werte: always, never oder noise|
 |CUSTOM_TITLE |My NS|  Individueller Name der Website|
-|THEME |default|  mögliche Werte: default oder colours|
+|THEME |default|  mögliche Werte: default oder colors|
 |ALARM_URGENT_HIGH |on|  mögliche Werte: on oder off|
 |ALARM_HIGH |on|  mögliche Werte: on oder off|
 |ALARM_LOW |on|  mögliche Werte: on oder off|
@@ -42,6 +42,11 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
 
 
 Nach Eingabe der Daten das **Speichern** nicht vergessen.
+
+Die Einstellungen sehen dann so aus:
+
+
+App-Einstellungen
 
 
 
