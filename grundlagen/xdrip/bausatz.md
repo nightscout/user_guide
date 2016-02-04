@@ -29,9 +29,12 @@ Empfohlene Links:
 * http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/
 * https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
 * http://stephenblackwasalreadytaken.github.io/xDrip/
-* 
 
 
+Schaltbilder zum Löten:
+* Wenn ihr ein anderes Bluetooth-Modul habt, als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel um Bluetooth-Modul. (Beschriftung der Pins in der Abbildung.)
+* für xDrip classic - siehe Bild oben [Quelle](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
+* für xBridge (hier: https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf). 
 
 Anleitung zum Löten:
 * https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be
