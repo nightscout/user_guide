@@ -1,7 +1,7 @@
 # Profil - Editor
 
 
-Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugins iob, cob, bwp.
+Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugin iob, cob, bwp.
 
 
 
