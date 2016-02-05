@@ -58,10 +58,3 @@ Siehe Nightscout
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
 
-## bwp
-
-(engl.: Bolus Wizard Preview =  Bolus Vorschau Assistent bwp) Der Bolus Vorschau Assistent kann anhand von Wirkungszeit des Insulins (iob) und Zeitpunkt der Injektion oder Abgabe von Insulin durch die Pumpe eine Vorschau berechnen. Diese kann dafür genutzt werden, um Entscheidungen über mögliche Korrekturen zu erleichtern. 
-Dieses können Bolus - Korrekturen bei erhöhten BZ Werten oder Kohlenhydrat - Korrekturen bei zu niedrigen Werten sein.
-Voraussetzung hierfür sind die genaue Dokumentation von Insulininjektionen und, Wirkdauer über Careportal und den Nightscout Profil Editor.
-Weitere Erläuterungen in englischer Sprache  findet man hier: 
-http://www.nightscout.info/wiki/welcome/website-features/funnel-cake-0-8-features/bwp-bolus-wizard-preview
