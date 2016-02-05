@@ -8,6 +8,9 @@ Nightscout ist eine Open Source Software.
  
  Webservices
  
+ powershell
+ 
+ 
  programmabilty
  
  IFTTT
