@@ -1,6 +1,6 @@
 # Profil - Editor
 
-Der Behandlungs Profil Editor 
+Der Behandlungs Profil Editor speichert angepasste Werte für die Persönliche Therapie.
 Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugin iob, cob, bwp.
 
 
