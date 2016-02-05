@@ -1,21 +1,19 @@
 # Profil - Editor
 
-Der Behandlungs Profil Editor speichert angepasste Werte für die Persönliche Therapie.
-Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugin iob, cob, bwp.
+Der Behandlungs Profil Editor speichert angepasste Werte für die persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugin iob, cob, bwp und Basalraten.
+
+**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine verwendbaren Werte angezeigt.
 
 
 
-
-
-
-
-
-Funnel Cake introduces a new Treatment Profile Editor that makes it easy to create or edit your custom profile. Features like IOB, COB, and BPW rely on individual values set in the Treatment Profile. Funnel Cake adds new support for time-based I:C ratios and basal settings. To access the Treatment Profile Editor, click the Site Settings Panel, and click “Edit Treatment Profile” to launch the editor. Additional information regarding the treatment profile editor are here.
-
-f-editreatmentprofile
+**Profil Editor:**
 
 
 ![nightscout_profile_editor_plugins](../images/nightscout/nightscout_profile_editor_plugins.jpg)
+
+Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer des Bolus - Insulins.
+
+Mit Insulin to carb ratio 
 
 
 NOTE: If you experience a problem using the integrated Share in Azure, you may need to use an external free service like Uptime Robot. This service will visit your site every five minutes and help keep it from stopping when you are not viewing the data. (Update: Setting up Uptime Robot is recommended for all bridge users. Instructions for setting up can be found in the Nightscout with iOS and Dexcom Share (Bridge) resource.)
@@ -37,6 +35,19 @@ Treatment Notifications
 When treatment notifications are enabled, your site will generate notifications when a treatment has been entered via Care Portal and will snooze site alarms shortly after. The default snooze duration is 10 minutes. This can be modified by changing the duration using the TREATMENTNOTIFY_SNOOZE_MINS variable in the site settings.
 
 
+
+Nach Aufruf des Editors über die Hauptseite
+
+
+
+
+
+
+
+
+Funnel Cake introduces a new Treatment Profile Editor that makes it easy to create or edit your custom profile. Features like IOB, COB, and BPW rely on individual values set in the Treatment Profile. Funnel Cake adds new support for time-based I:C ratios and basal settings. To access the Treatment Profile Editor, click the Site Settings Panel, and click “Edit Treatment Profile” to launch the editor. Additional information regarding the treatment profile editor are here.
+
+f-editreatmentprofile
 
 Basal
 
