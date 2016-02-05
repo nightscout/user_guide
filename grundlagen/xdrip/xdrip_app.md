@@ -39,6 +39,15 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 
 
 ## Weiteres:
+### Settings
+|Name|Bedeutung|Empfehlung für Einsteiger|
+|--|--|--|
+|Bg Untis| "mg/dl" oder "mmol"| -|
+| High Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu hoch" gewertet wird. | -|
+| Low Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu tief" gewertet wird. | -|
+|...|
+| Display Brdige Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eiene Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
+| Run Collectoin Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
 ### Widgets
 ### Werte vorlesen lassen
 ### Statistik
