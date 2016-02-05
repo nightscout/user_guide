@@ -13,7 +13,7 @@ Der Behandlungs Profil Editor speichert angepasste Werte für die persönliche T
 
 Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer des Bolus - Insulins.
 
-Mit Insulin to carb ratio 
+Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden müssen.
 
 
 NOTE: If you experience a problem using the integrated Share in Azure, you may need to use an external free service like Uptime Robot. This service will visit your site every five minutes and help keep it from stopping when you are not viewing the data. (Update: Setting up Uptime Robot is recommended for all bridge users. Instructions for setting up can be found in the Nightscout with iOS and Dexcom Share (Bridge) resource.)
