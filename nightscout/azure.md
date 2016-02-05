@@ -34,7 +34,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  ![azure_app_created](../images/azure/azure_app_created.jpg)
  
- Die Web-App wird jetzt in Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt,ob die App **online** oder **not running** ist.
+ Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt,ob die App **online** oder **Stopped** ist.
 
  
  Weiter geht es mit der
@@ -170,6 +170,8 @@ Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure - Portal gib
  Mit dem Button Preisrechner können wir uns weitere Details ansehen. Wir wählen App Service aus un erhalten folgende Übersicht:
  
  ![azure_prices_web](../images/azure/azure_prices_web.jpg)
+ 
+ **WICHTIG: **Die Tarife unterscheiden sich nach Region, es ist wichtig Nordeuropa oder die USA auszuwählen, für andere Regionen entstehen ansonsten Kosten, die nicht nötig sind.
  
  Jetzt können wir uns unsere eigene  [Nightscout Website](../nightscout/die_nightscout_website.md) ansehen und konfigurieren.
  
