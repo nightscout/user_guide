@@ -9,47 +9,26 @@ Der Behandlungs Profil Editor speichert angepasste Werte für die persönliche T
 **Profil Editor:**
 
 
+
 ![nightscout_profile_editor_plugins](../images/nightscout/nightscout_profile_editor_plugins.jpg)
 
-Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer des Bolus - Insulins.
+Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden **Erklärungstexte** in englischer Sprache angezeigt.
 
-Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden müssen.
+Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer des Bolus - Insulins. Die Plugins iob, bwp  benötigen diese Eingaben.
 
-Mit Insulin Sensitivity Factor (ISF) können wir den Korrekturfaktor 
+Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden müssen. Die Plugins iob und cob benötigen diese Eingaben.
+
+Mit dem **Insulin Sensitivity Factor (ISF)** können wir den Korrekturfaktor in mg/dl oder mmol/L angeben. Mit mehrfachen Eingaben können unterschiedliche Faktoren bestimmt werden. 
+
+Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, wieviel Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das Plugin cob benötigt diese Eingaben.
 
 
-NOTE: If you experience a problem using the integrated Share in Azure, you may need to use an external free service like Uptime Robot. This service will visit your site every five minutes and help keep it from stopping when you are not viewing the data. (Update: Setting up Uptime Robot is recommended for all bridge users. Instructions for setting up can be found in the Nightscout with iOS and Dexcom Share (Bridge) resource.)
-
-Raw Data
-
-Required: ENABLE rawbg
-
-To learn more about raw data, see: Interpreting Raw Dexcom Data.
-
-IOB and COB
-
-Required: ENABLE iob cob (either or both, depending on which you plan to use)
-
-For more information regarding information from the treatment profile that is used to calculate IOB and COB, see the explanatory information in this resource. Note: features like IOB and COB rely on Care Portal entries that provide the Nightscout site with information regarding carb intake and insulin given.
 
 Treatment Notifications
 
 When treatment notifications are enabled, your site will generate notifications when a treatment has been entered via Care Portal and will snooze site alarms shortly after. The default snooze duration is 10 minutes. This can be modified by changing the duration using the TREATMENTNOTIFY_SNOOZE_MINS variable in the site settings.
 
 
-
-Nach Aufruf des Editors über die Hauptseite
-
-
-
-
-
-
-
-
-Funnel Cake introduces a new Treatment Profile Editor that makes it easy to create or edit your custom profile. Features like IOB, COB, and BPW rely on individual values set in the Treatment Profile. Funnel Cake adds new support for time-based I:C ratios and basal settings. To access the Treatment Profile Editor, click the Site Settings Panel, and click “Edit Treatment Profile” to launch the editor. Additional information regarding the treatment profile editor are here.
-
-f-editreatmentprofile
 
 Basal
 
@@ -70,11 +49,7 @@ Simple Alarms
 
 
 
-Bolus Wizard Preview (BWP)
 
-Required: ENABLE bwp
-
-The Basal Wizard Preview tool can help you evaluate the relationship between current bg, IOB, and carbs on board. Learn more about BWP.
 
 Pushover
 
