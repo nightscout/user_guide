@@ -5,20 +5,6 @@ Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugin iob, c
 
 
 
-The Funnel Cake (0.8+) update to the Nightscout site represents the most substantial update to date and introduces a number of new features to bring increased management and monitoring capabilities to Nightscout.
-
-
-IMPORTANT: Before you can use Funnel Cake features, you must update your fork and ensure that your website updates to the current version. To update your site code to Funnel Cake, please follow the steps outlined here.
-
-
-
-http://www.nightscout.info/wiki/welcome/website-features/funnel-cake-0-8-features/bwp-bolus-wizard-preview
-
-
-
-
-
-
 
 
 
@@ -84,29 +70,6 @@ Pushover
 
 See Pushover information for use with Funnel Cake.
 
-IFTTT
-
-Required: ENABLE maker
-
-For information about using IFTTT with Funnel Cake, see this lab.
-
-Care Portal
-
-Required: ENABLE careportal (and set an API_SECRET)
-
-Many features of Funnel Cake involve making Care Portal entries. If you have not enabled Care Portal in the past and wish to do so now, see CGM Remote Monitor + Care Portal to get started.
-
-Exercise Visualization
-
-See: Recording and Visualizing Exercise
-
-Linear and Logarithmic Scale Options
-
-See: Linear and Logarithmic Display
-
-Language Support
-
-Funnel Cake supports users around the world with translations of site content in 14 languages.
 
 
 
