@@ -15,7 +15,7 @@ Funnel Cake introduces a new Treatment Profile Editor that makes it easy to crea
 f-editreatmentprofile
 
 
-![nightscout_plugin_config](../images/nightscout/nightscout_plugin_config.jpg)
+![nightscout_profile_editor_plugins](../images/nightscout/nightscout_profile_editor_plugins.jpg)
 
 
 NOTE: If you experience a problem using the integrated Share in Azure, you may need to use an external free service like Uptime Robot. This service will visit your site every five minutes and help keep it from stopping when you are not viewing the data. (Update: Setting up Uptime Robot is recommended for all bridge users. Instructions for setting up can be found in the Nightscout with iOS and Dexcom Share (Bridge) resource.)
