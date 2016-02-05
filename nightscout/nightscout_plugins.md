@@ -1,6 +1,6 @@
 # Profil - Editor
 
-
+Der Behandlungs Profil Editor 
 Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugin iob, cob, bwp.
 
 
@@ -8,10 +8,7 @@ Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugin iob, c
 
 
 
-Treatment Profile Editor
-f-showplugins
-Additional Features/Plugins Information
-Treatment Profile Editor
+
 
 Funnel Cake introduces a new Treatment Profile Editor that makes it easy to create or edit your custom profile. Features like IOB, COB, and BPW rely on individual values set in the Treatment Profile. Funnel Cake adds new support for time-based I:C ratios and basal settings. To access the Treatment Profile Editor, click the Site Settings Panel, and click “Edit Treatment Profile” to launch the editor. Additional information regarding the treatment profile editor are here.
 
