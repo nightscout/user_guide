@@ -34,7 +34,7 @@
    * [Profil - Editor](nightscout/nightscout_plugins.md)
    * [Care Portal](nightscout/care_portal.md)
    * [Reports](nightscout/reports.md)
-   * [Schnittstellen](nightscout/schnittstellen.md)
+   * [Programmierbarkeit](nightscout/schnittstellen.md)
 * [Smartwatch Integration](smartwatch/smartwatch_integration.md)
    * [Android Wear](smartwatch/android_wear.md)
    * [Pebble](smartwatch/pebble.md)
