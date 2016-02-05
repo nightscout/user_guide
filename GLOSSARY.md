@@ -54,10 +54,11 @@ Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-DIY-Projek
 
 Siehe Nightscout
 
+## Open Source Software
+
+Open Source Software wird als Begriff für Software verwendet, deren Quelltext offenliegt und frei verfügbar ist. Die Open Source Bewegung entstand bereits in der 60/70ger Jahren des letzten Jahrhunderts. Eine sehr hilfreiche Erklärung findet man hier: https://de.wikipedia.org/wiki/Open_Source
+
 ## Plugin
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
 
-## Open Source Software
-
-Open Source Software wird als Begriff für Software verwendet, deren Quelltext offenliegt und frei verfügbar ist. Die Open Source Bewegung entstand bereits in der 60/70ger Jahren des letzten Jahrhunderts. Eine sehr hilfreiche Erklärung findet man hier: https://de.wikipedia.org/wiki/Open_Source
