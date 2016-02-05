@@ -17,6 +17,14 @@ Das API SECRET - Application Programming Interface - SECRECT ist ein Schlüssel 
 
 (engl.: Artificial Pancreas System, APS) CGM ist ferner integraler Bestandteil einer dauerhaft funktionierenden künstlichen Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus einem kontinuierlich messenden Glucosesensor und einem Regler, der eine Insulinpumpe steuert.
 
+## bwp
+
+(engl.: Bolus Wizard Preview =  Bolus Vorschau Assistent bwp) Der Bolus Vorschau Assistent kann anhand von Wirkungszeit des Insulins (iob) und Zeitpunkt der Injektion oder Abgabe von Insulin durch die Pumpe eine Vorschau berechnen. Diese kann dafür genutzt werden, um Entscheidungen über mögliche Korrekturen zu erleichtern. 
+Dieses können Bolus - Korrekturen bei erhöhten BZ Werten oder Kohlenhydrat - Korrekturen bei zu niedrigen Werten sein.
+Voraussetzung hierfür sind die genaue Dokumentation von Insulininjektionen und, Wirkdauer über Careportal und den Nightscout Profil Editor.
+Weitere Erläuterungen in englischer Sprache  findet man hier: 
+http://www.nightscout.info/wiki/welcome/website-features/funnel-cake-0-8-features/bwp-bolus-wizard-preview
+
 ## cage
 
 Insulinpumpen Katheter Setzzeit ( engl.: Cannula Age Cage) . Beschreibt die Dauer seit des letzten Infusionssets - Setzens oder Wechselns.
