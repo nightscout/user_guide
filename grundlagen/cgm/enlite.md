@@ -28,6 +28,6 @@ Offiziell wird der Guardian 2 Link Transmitter und dadurch die Minimed 640G Insu
 
 Ganz die Hoffnung aufgeben muss man mit der Minimed 640G aber dennoch nicht, da es mittlerweile ein recht vielversprechendes Projekt gibt, das die 640G erfolgreich in Nightscout eingebindet. Für alle Interessierten, die der englischen Sprache mächtig sind, bietet sich ein Blick auf [Matt's Little D Blog an.](http://littlet1d.blogspot.co.uk/)
 
-Speziell im [Beitrag vom 29.12.15](http://littlet1d.blogspot.com/2015/12/nightscout-on-640g-on-go_29.html) geht Matt auf den aktuellen Stand des Projektes ein und dieser Beitrag enthält auch Verweise auf seine früheren Beiträge, die zum Verständnis erforderlich sind.
+Speziell im [Beitrag vom 18.01.16](http://littlet1d.blogspot.co.uk/2016/01/nightscout-on-640g-step-by-step-into.html) geht Matt auf die einzelnen, erforderlichen Schritte ein.
 
 
