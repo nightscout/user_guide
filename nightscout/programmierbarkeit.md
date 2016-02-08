@@ -1,6 +1,6 @@
 # Programmierbarkeit
 
-Nightscout ist eine Open Source Software.
+Nightscout ist eine Open Source Software. Der Software Code ist frei im Internet über gitHub [link] einsehbar. 
 
  API
  
