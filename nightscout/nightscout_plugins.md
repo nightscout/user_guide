@@ -23,7 +23,7 @@ Mit dem **Insulin Sensitivity Factor (ISF)** können wir den Korrekturfaktor in 
 Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, wieviel Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das Plugin cob benötigt diese Eingaben.
 
 
-
+Weiter gehts mit der  Eingabe von Daten über das [Careportal](../nightscout/care_portal.md).
 
 
 
