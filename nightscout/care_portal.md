@@ -27,8 +27,12 @@ Nun können wir uns  alles grafisch ansehen:
 ![nightscout_cp_entries](../images/nightscout/nightscout_cp_entries.jpg)
 
 
-Treatment Notifications
 
-When treatment notifications are enabled, your site will generate notifications when a treatment has been entered via Care Portal and will snooze site alarms shortly after. The default snooze duration is 10 minutes. This can be modified by changing the duration using the TREATMENTNOTIFY_SNOOZE_MINS variable in the site settings.
+Benachrichtigungen über Therapie - Behandlungsdaten
+
+Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht wurde. Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die Standard - Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über Azure App.-Einstellungen geändert werden, in dem man die TREATMENTNOTIFY_SNOOZE_MINS
+Variable ändert.
+
+
 
 Weiter gehts mit der  Auswertung der Daten über die [Reports](../nightscout/reports.md).
