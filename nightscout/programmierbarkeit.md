@@ -12,13 +12,13 @@ https://meinwebsitename.azurewebsites.net/api-docs.html#/ aufrufen:
 
 ![nightscout_swagger](../images/nightscout/nightscout_swagger.jpg)
 
-https://meinwebsitename.azurewebsites.net/swagger.yaml
+Sollten die Details nicht automatisch dargestellt werden, so bitte den Wert
+
+https://meinwebsitename.azurewebsites.net/swagger.yaml eintragen und den Button Explore klicken.
 
 
 
- API
  
- Swagger
  
  Webservices
  
