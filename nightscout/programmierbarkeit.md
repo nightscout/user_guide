@@ -10,7 +10,7 @@ https://meinwebsitename.azurewebsites.net/api-docs.html#/ aufrufen:
 
 **Nightscout API:**
 
-
+![nightscout_swagger](../images/nightscout/nightscout_swagger.jpg)
 
 https://meinwebsitename.azurewebsites.net/swagger.yaml
 
