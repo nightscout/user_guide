@@ -28,7 +28,7 @@ Nun können wir uns  alles grafisch ansehen:
 
 
 
-Benachrichtigungen über Therapie - Behandlungsdaten
+**Benachrichtigungen** über Therapie - Behandlungsdaten
 
 Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht wurde. Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die Standard - Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über Azure App.-Einstellungen geändert werden, in dem man die TREATMENTNOTIFY_SNOOZE_MINS
 Variable ändert.
