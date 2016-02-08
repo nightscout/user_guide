@@ -51,6 +51,8 @@ Funnel Cake introduces display of current basal rate with pillbox visualization 
 
 Funnel Cake 0.8.2 introduces basal visualization on the graph, as well as visualization of temp basal settings. See: Basal and Temp Basal in Nightscout.
 
+
+
 AR2
 
 AR2 generates alarms based on forecasted values. AR2 is enabled by default if no alarm thresholds are set or if the ALARM_TYPES variable includes predict. You can adjust AR2 behavior with the following extended settings variables:
