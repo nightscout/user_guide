@@ -26,4 +26,9 @@ Nun können wir uns  alles grafisch ansehen:
 
 ![nightscout_cp_entries](../images/nightscout/nightscout_cp_entries.jpg)
 
+
+Treatment Notifications
+
+When treatment notifications are enabled, your site will generate notifications when a treatment has been entered via Care Portal and will snooze site alarms shortly after. The default snooze duration is 10 minutes. This can be modified by changing the duration using the TREATMENTNOTIFY_SNOOZE_MINS variable in the site settings.
+
 Weiter gehts mit der  Auswertung der Daten über die [Reports](../nightscout/reports.md).
