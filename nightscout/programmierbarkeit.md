@@ -6,7 +6,13 @@ Nightscout ist eine Open Source Software. Der Software Code ist frei im Internet
 Das [API]((https://de.wikipedia.org/wiki/Programmierschnittstelle) ) ist mit [Swagger](http://swagger.io/) dokumentiert. Swagger ist ein API Dokumentationswerkzeugt, welches auf die [Open API Initiative](https://openapis.org/) aufbaut.
 
 Wir können das  Nightscout API mit der Adresse:
-https://meinwebsitename.azurewebsites.net/api-docs.html aufrufen:
+https://meinwebsitename.azurewebsites.net/api-docs.html#/ aufrufen:
+
+**Nightscout API:**
+
+
+
+https://meinwebsitename.azurewebsites.net/swagger.yaml
 
 
 
