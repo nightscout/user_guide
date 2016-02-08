@@ -44,12 +44,13 @@ Für die Dateneingabe muss das Plugin **careportal** mit **ENABLE** über [Azure
 ![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
 
 
-Basal
+**Grafische Darstellungen**
 
-Required: ENABLE basal
-Funnel Cake introduces display of current basal rate with pillbox visualization on the site.See Basal.
+Grafik wird alle 60 Sekunden aktualisiert ?. Neben dem reinen CGM - Verlauf
+werden auch Careportal Eingaben dargestellt. Die **Basalraten Visualisierung**
+zeigt, sofern über die Azure App.-Einstellungen (basal) eingetragen und über den Profil Editor konfiguriert, den Verlauf an. Dieses ist geade für temporäre Basalraten interessant.
 
-Funnel Cake 0.8.2 introduces basal visualization on the graph, as well as visualization of temp basal settings. See: Basal and Temp Basal in Nightscout.
+Temp Basal
 
 
 
