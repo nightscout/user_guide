@@ -1,6 +1,9 @@
 # Programmierbarkeit
 
+Nightscout besteht aus einer Applikations- und einer Datenbankschicht
+
 Nightscout ist eine Open Source Software. Der Software Code ist frei im Internet über [GitHub](https://github.com/nightscout/cgm-remote-monitor) einsehbar. Jeder, der Interesse hat und sich zutraut am Programmcode mitzuentwickeln kann dieses tun. Die Kommunikation verläuft über [Gitter Chat](https://gitter.im/) in englischer Sprache.
+
 
 
 Das [API]((https://de.wikipedia.org/wiki/Programmierschnittstelle) ) ist mit [Swagger](http://swagger.io/) dokumentiert. Swagger ist ein API Dokumentationswerkzeugt, welches auf die [Open API Initiative](https://openapis.org/) aufbaut.
