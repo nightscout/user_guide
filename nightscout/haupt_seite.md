@@ -73,7 +73,7 @@ Pushover
 See Pushover information for use with Funnel Cake.
 
 
-Die  [Plugins](../nightscout/nightscout_plugins.md) werden jetzt näher beschrieben.
+Wir sehen uns den   [Profil Editor](../nightscout/nightscout_plugins.md) jetzt näher an.
 
 
 
