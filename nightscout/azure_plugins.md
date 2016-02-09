@@ -1,4 +1,4 @@
-# Plugins
+# Optionale Einstellungen
 
 Das Erscheinungsbild und der Funktionsumfang der Nightscout Website können weiter konfiguriert werden. 
 
@@ -81,9 +81,11 @@ Follow all the steps in the Nightscout with iOS and Dexcom Share Bridge setup gu
 
 **Azure - Connection String Werte:**
 
-    ENABLE – the value should be "mmconnect", type should be "Custom"
-    MMCONNECT_USER_NAME – the value should be the username you use to log in to CareLink, type should be "Custom"
-    MMCONNECT_PASSWORD – the value should be the password you use to log in to CareLink, type should be "Custom"
+|Parameter |  Beschreibung |
+| -- | -- |
+|MMCONNECT_USER_NAME | Der Wert repräsentiert den "Benutzernamen", welcher im Carelink angegeben wird, der Typ ist "Benutzerdefiniert" |
+|MMCONNECT_PASSWORD | Der Wert repräsentiert das "Benutzerpasswort", welches im Carelink angegeben wird, der Typ ist "Benutzerdefiniert"|    
+   
 
 Your connection strings section should look like this (sensitive information redacted
 
