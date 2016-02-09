@@ -22,16 +22,10 @@ Sollten die Details nicht automatisch dargestellt werden, so bitte den Wert
 
 https://meinwebsitename.azurewebsites.net/swagger.yaml eintragen und den Button Explore klicken.
 
-
+**IFTTT**
 Der Internet - Event Dienst IFTTT ([If This Than That](https://de.wikipedia.org/wiki/IFTTT)) verknüpft verschiedene Webanwendungen, um Daten auszutauschen. So können Benachrichtigungen, welche über Nightscout erzeugt werden, z.B. als Email weitergeleitet werden.
  
- 
- 
- 
- powershell
- 
- 
- programmabilty
+Daneben gibt es weitere Möglichkeiten, z.B. über Azure Webjobs  Daten zwischen Nighscout und anderen Tagebüchern, wie Sport- oder Ernährungstagebüchern zu synchronisieren.
  
  
  
