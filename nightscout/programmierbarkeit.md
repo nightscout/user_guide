@@ -32,3 +32,4 @@ Daneben gibt es weitere Möglichkeiten, z.B. über Azure Webjobs  Daten zwischen
  
  # Datenbankschicht
  
+ Als Nutzer der mongodb hat man Vollzugriff auf seine Daten. Über Tools, 
