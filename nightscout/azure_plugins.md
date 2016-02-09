@@ -55,7 +55,7 @@ Die Einstellungen sehen dann so aus:
 
 Anbindung der **Share2Nightscout Bridge** Funktionalität
 
-Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird in Zukunft hierüber konfiguriert.
+Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird über diesen Weg konfiguriert.
 Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABLE ind den App-Einstellungen hinzufügen.
  
  Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
