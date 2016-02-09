@@ -46,6 +46,10 @@ Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unseren Fall, dass
 
 Insulin an Bord (engl.: Insulin On Board iob) ist das aktive, schnellwirksame Bolus  Insulin , welches nach einer Injektion oder Abgabe durch eine Insulinpumpe noch im Körper wirkt. Es hilft, zu entscheiden, ob mehr Insulin oder mehr Kohlenhydrate benötigt werden, um Blutzuckerspitzen oder Hypoglykämien zu verhindern. Die Wirkdauer des Insulins ist den Herstellerangaben zu entnehmen.
 
+## json
+
+(engl.:  =  Java Script Object Notation) ist ein einfaches Datenformat zum Austausch und zur Speicherung von Daten. Das Datenformat wird u.a. bei Abfragen über Webservices und Speicherung  von Daten in Dokumentendatenbanken wie mongodb eingesetzt. Näheres siehe hier: https://de.wikipedia.org/wiki/JavaScript_Object_Notation
+
 ## Nightscout
 
 Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website erstellt, auf der man seine CGM-Daten über das Internet sehen und auswerten kann. Entwickelt wurde es ürspünglich von Eltern, die die Werte ihrer Kinder aus der Ferne beobachten wollen. Nightscout (frei übersetzt Nachtwache - wie die wachsame Eule, die über dich wacht, auch während du schläfst).  Mittlerweile nutzen es auch Erwachsene, um die Daten weiter zu nutzen. Die Daten können nicht nur in einem Internetbrowser angezeigt werden, sondern von dort aus auch über Apps und Widgets auf dem Smartphone, Tablets und auf Smartwatches. 
@@ -62,6 +66,4 @@ Open Source Software wird als Begriff für Software verwendet, deren Quelltext o
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
 
-## json
 
-Java Script Object Notation
