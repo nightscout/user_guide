@@ -33,3 +33,6 @@ Daneben gibt es weitere Möglichkeiten, z.B. über Azure Webjobs  Daten zwischen
  # Datenbankschicht
  
  Als Nutzer der mongodb hat man Vollzugriff auf seine Daten. Über Tools, wie in Kapitel 2.5 beschrieben, kann man sich die CGM- und Behandlungsdaten sichern (im json- und csv Format). Es sind auch Uploads über die json und csv Formate möglich.
+ 
+ 
+ Weiter gehts mit der Anbindung von  [Smartwatches](../smartwatch/smartwatch_integration.md).
