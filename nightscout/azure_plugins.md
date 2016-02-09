@@ -51,7 +51,29 @@ Die Einstellungen sehen dann so aus:
 ![azure_app_entries](../images/azure/azure_app_entries.jpg)
 
 
-***** minimed connect Anbindung
+
+
+Anbindung der **Share2Nightscout Bridge** Funktionalität
+
+Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird in Zukunft hierüber konfiguriert.
+Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABLE ind den App-Einstellungen hinzufügen.
+ 
+ Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
+ 
+ **Share2Nightscout Bridge Parameter:**
+ 
+ 
+|Parameter |  Beschreibung |
+| -- | -- |
+|BRIDGE_USER_NAME |Erforderlich: Benutzername des Dexcom Share Accounts|
+|BRIDGE_PASSWORD |Erforderlich: Passwort des Dexcom Share AccountsShare Accounts|
+|BRIDGE_INTERVAL |Optional: Wartezeit zwischen jedem  Update. Der Standardwert ist 150000 – 2.5 minutes.
+|BRIDGE_MAX_COUNT |Optional: Die maximale Anzahl der Datensätze zum Upload. Der Standardwert ist 1.|
+|BRIDGE_FIRST_FETCH_COUNT |Optional: Maximale Anzahl der Datensätze während des ersten Uploads. Der Standardwert ist 3|
+|BRIDGE_MAX_FAILURES |Optional: Maximale Anzahl der Fehler beim Empfang.  Der Standardwert ist 3|
+|BRIDGE_MINUTES |Optional: Das Zeitfenster für die Suche nach neuen Daten pro Update. Der Standardwert ist Zeit in Minuten – 1400|
+ 
+ **Minimed Connect Anbindung**
 
 Follow all the steps in the Nightscout with iOS and Dexcom Share Bridge setup guide except step 4. Set aside a decent amount of time to get through it. We can use this guide because the MiniMed Connect plugin works very similarly to the Dexcom Share Bridge plugin, except instead of reading data sent to Dexcom's servers by the Dexcom Share app, it reads data sent to Medtronic's servers by the MiniMed Connect app.
 
@@ -69,30 +91,11 @@ Note: If this is not your first time setting up Nightscout, there is a possibili
 
 2c. Triple-check the connection strings. Go to the CareLink website and log in by copying and pasting the values directly from your Azure dashboard into the login form. Confirm that (a) you are able to log in successfully, and (b) when you go to "CareLink Connect", you can see the real-time values from the Connect.
 
-2d. At the bottom of the Azure dashboard, click "Save", then "Reload".
+2d. At the bottom of the Azure dashboard, click "Save", then "
 
 
-Anbindung der **Share2Nightscout Bridge** Funktionalität
 
-Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird in Zukunft hierüber konfiguriert.
-Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABLE ind den App-Einstellungen hinzufügen.
- 
- Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
- 
- Share2Nightscout Bridge Parameter:
- 
- 
-|Parameter |  Beschreibung |
-| -- | -- |
-|BRIDGE_USER_NAME |Erforderlich: Benutzername des Dexcom Share Accounts|
-|BRIDGE_PASSWORD |Erforderlich: Passwort des Dexcom Share AccountsShare Accounts|
-|BRIDGE_INTERVAL |Optional: Wartezeit zwischen jedem  Update. Der Standardwert ist 150000 – 2.5 minutes.
-|BRIDGE_MAX_COUNT |Optional: Die maximale Anzahl der Datensätze zum Upload. Der Standardwert ist 1.|
-|BRIDGE_FIRST_FETCH_COUNT |Optional: Maximale Anzahl der Datensätze während des ersten Uploads. Der Standardwert ist 3|
-|BRIDGE_MAX_FAILURES |Optional: Maximale Anzahl der Fehler beim Empfang.  Der Standardwert ist 3|
-|BRIDGE_MINUTES |Optional: Das Zeitfenster für die Suche nach neuen Daten pro Update. Der Standardwert ist Zeit in Minuten – 1400|
- 
- 
+
  
 Wir können weitere Werte individuell konfigurieren, wenn wir es wollen.
 Die umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
