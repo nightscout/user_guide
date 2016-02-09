@@ -51,7 +51,19 @@ Die Einstellungen sehen dann so aus:
 ![azure_app_entries](../images/azure/azure_app_entries.jpg)
 
 
+***** minimed connect Anbindung
 
+Follow all the steps in the Nightscout with iOS and Dexcom Share Bridge setup guide except step 4. Set aside a decent amount of time to get through it. We can use this guide because the MiniMed Connect plugin works very similarly to the Dexcom Share Bridge plugin, except instead of reading data sent to Dexcom's servers by the Dexcom Share app, it reads data sent to Medtronic's servers by the MiniMed Connect app.
+
+2a. In your Azure dashboard, go to "Configure", and scroll down to "Connection Strings". (This is the same place you just configured your Mongo database and API_SECRET in step 1.)
+
+2b. Add these new connection strings:
+
+    ENABLE – the value should be "mmconnect", type should be "Custom"
+    MMCONNECT_USER_NAME – the value should be the username you use to log in to CareLink, type should be "Custom"
+    MMCONNECT_PASSWORD – the value should be the password you use to log in to CareLink, type should be "Custom"
+
+Your connection strings section should look like this (sensitive information redacted
 
 
 
