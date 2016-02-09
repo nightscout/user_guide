@@ -26,4 +26,4 @@ Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf **Bearbeitu
 
 
 
-Weiter gehts mit den Programmiermöglichkeiten  [Programmierbarkeit](../nightscout/programmierbarkeit.md).
+Weiter gehts mit der  [Programmierbarkeit](../nightscout/programmierbarkeit.md).
