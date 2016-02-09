@@ -79,7 +79,7 @@ Follow all the steps in the Nightscout with iOS and Dexcom Share Bridge setup gu
 
 2a. In your Azure dashboard, go to "Configure", and scroll down to "Connection Strings". (This is the same place you just configured your Mongo database and API_SECRET in step 1.)
 
-2b. Add these new connection strings:
+**Azure - Connection String Werte:**
 
     ENABLE – the value should be "mmconnect", type should be "Custom"
     MMCONNECT_USER_NAME – the value should be the username you use to log in to CareLink, type should be "Custom"
