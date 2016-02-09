@@ -65,6 +65,11 @@ Follow all the steps in the Nightscout with iOS and Dexcom Share Bridge setup gu
 
 Your connection strings section should look like this (sensitive information redacted
 
+Note: If this is not your first time setting up Nightscout, there is a possibility that you already have an ENABLE connection string. That’s fine. Just add a space and "mmconnect" to the end. For example, if ENABLE already had the value bridge, change it to bridge mmconnect.
+
+2c. Triple-check the connection strings. Go to the CareLink website and log in by copying and pasting the values directly from your Azure dashboard into the login form. Confirm that (a) you are able to log in successfully, and (b) when you go to "CareLink Connect", you can see the real-time values from the Connect.
+
+2d. At the bottom of the Azure dashboard, click "Save", then "Reload".
 
 
 Anbindung der **Share2Nightscout Bridge** Funktionalität
