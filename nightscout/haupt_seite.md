@@ -50,6 +50,10 @@ Grafik wird alle 60 Sekunden aktualisiert ?. Neben dem reinen CGM - Verlauf
 werden auch Careportal Eingaben dargestellt. Die **Basalraten Visualisierung**
 zeigt, sofern über die Azure App.-Einstellungen (basal) eingetragen und über den Profil Editor konfiguriert, den Verlauf an. Dieses ist geade für temporäre Basalraten interessant.
 
+
+
+*****************************
+
 Temp Basal
 
 
