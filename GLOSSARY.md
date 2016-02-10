@@ -66,4 +66,7 @@ Open Source Software wird als Begriff für Software verwendet, deren Quelltext o
 
 Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen man den Funktionsumfang einer Software - wie hier die Nightscout Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es hier: https://de.wikipedia.org/wiki/Plug-in
 
+## AR2
 
+(engl.: Auto Regression = AR2 
+https://en.wikipedia.org/wiki/Autoregressive_model#AR.282.29
