@@ -68,5 +68,5 @@ Plugins sind Software - Erweiterungen oder auch Software - Module, mit welchen m
 
 ## AR2
 
-(engl.: Auto Regression = AR2 
+(engl.: Auto Regression = AR2 ) ein mathematisches Modell zur Vorausberechnung von Werten unter Berücksichtigung des bisherigen Verlaufs. Näheres siehe:
 https://en.wikipedia.org/wiki/Autoregressive_model#AR.282.29
