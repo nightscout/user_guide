@@ -16,7 +16,7 @@ Die Auswahlfelder werden entsprechend der Auswahl angepasst.
 Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch die Eingabe der
 korrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese zusammen mit den CGM - Werten grafisch dargestellt werden.
 
-
+In dieser Maske können wir auch temporäre Basalraten mit Temp Basal Start/End eingegeben. Diese werden anschließend grafisch dargestellt.
 Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die eingaben zu bestätigen. Mit **OK** ist alles gespeichert.
 
 
