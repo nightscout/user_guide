@@ -108,11 +108,13 @@ Die umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
     
 **AR2**
 
-AR2 generiert Alarme basierend auf vorhergesagten Werten. Es ist standardmäßig aktiviert, wenn keine Alarmschwellwerte gesetzt sind oder wenn die ALARM_TYPES Variable predict enthält.Wir können das 
+AR2 generiert Alarme basierend auf extrapolierten Werten. Es ist standardmäßig aktiviert, wenn keine Alarmschwellwerte gesetzt sind oder wenn die ALARM_TYPES Variable predict enthält.Wir können das AR2 Verhalten mit folgenden erweiterten Einstellungsvariablen steuern:
 
-AR2 generates alarms based on forecasted values. AR2 is enabled by default if no alarm thresholds are set or if the ALARM_TYPES variable includes predict. You can adjust AR2 behavior with the following extended settings variables:
 
-    AR2_USE_RAW (to forecast using rawbg values when standard values don’t trigger an alarm; default is false)
+|Parameter |  Beschreibung |
+| -- | -- |
+|AR2_USE_RAW| (
+to forecast using rawbg values when standard values don’t trigger an alarm; default is false)|
     AR2_CONE_FACTOR (to adjust size of cone, use 0 for a single line; default is 2)
 
 To learn more about AR2, see Forecasting Using AR2 Algorithm.
