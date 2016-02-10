@@ -114,12 +114,11 @@ AR2 generiert Alarme basierend auf prognostizierten Werten. Es ist standardmäß
 |Parameter |  Beschreibung |
 | -- | -- |
 |AR2_USE_RAW| Prognose von rawbg Werten, wenn Standardwerte keine Alarm auslösen, die Standardeinstellung ist false|
-|AR2_CONE_FACTOR 
-(to adjust size of cone, use 0 for a single line; default is 2)
+|AR2_CONE_FACTOR |Um die Größe des Trichters zu justieren, wird 0 für eine Einzelinie gewählt, der Standardwert ist 2|
 
-To learn more about AR2, see Forecasting Using AR2 Algorithm.
-Simple Alarms
-    
+Die Funktionsweise ist in dem Artikel:[ Prognosen mit Nutzung des AR2 Algorithmus](https://github.com/nightscout/nightscout.github.io/wiki/Forecasting) näher beschrieben.
+
+
     
 
     
