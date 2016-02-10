@@ -77,7 +77,12 @@ Erklärung zur folgenden Tabelle:
 | App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb |n.A. |
 
 ## 
----
+
+###Schaltbilder für xBridge:
+Weitere Infos zu xBridge befinden sich in diesem [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument, oder in diesm repository https://github.com/jstevensog/wixel-sdk
+
+xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl)) bzw. https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.wxl
+
 ** Stückliste - "xDrip V3 USB"** ( Stand: September 2015 )
 
 
@@ -103,5 +108,13 @@ Erklärung zur folgenden Tabelle:
 
 
 **Schaltbild für "xDrip USB V3"**
-
 ![xDrip V3usb Schaltbild](../../images/xdrip/xdrip schaltbild-V3 usb.png)
+
+**Schaltbild für xBridge mit HM-10**
+![HM10_xbridge_Wiring_Diagram](../../images/xdrip/HM10_xbridge_Wiring_Diagram.png)
+
+**Schaltbild für xBridge mit HM-10 auf Breakout Board**
+![HM10 + Breakout Board_xbridge_Wiring_Diagram](../../images/xdrip/HM10_Breakout_Board_xbridge_Wiring_Diagram.png)
+
+**Schaltbild für xBridge mit HM-11**
+![HM11_xbridge_Wiring_Diagram](../../images/xdrip/HM11_xbridge_Wiring_Diagram.png)
