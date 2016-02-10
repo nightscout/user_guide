@@ -54,7 +54,7 @@ zeigt, sofern über die Azure App.-Einstellungen (basal) eingetragen und über d
 
 *****************************
 
-Temp Basal
+
 
 
 
