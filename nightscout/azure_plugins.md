@@ -106,7 +106,9 @@ Die umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
 |BASE_URL | Genutzt für Links . APIs, pushover, callbacks nutzen diesen Wert. Normalerweise ist es die URL - Adresse, der Typ kann von http auf https geändert werden|
     
     
-AR2
+**AR2**
+
+AR2 generiert Alarme basierend auf vorhergesagten Werten. Es ist standardmäßig aktiviert, wenn keine Alarmschwellwerte gesetzt sind oder wenn die ALARM_TYPES Variable predict enthält.Wir können das 
 
 AR2 generates alarms based on forecasted values. AR2 is enabled by default if no alarm thresholds are set or if the ALARM_TYPES variable includes predict. You can adjust AR2 behavior with the following extended settings variables:
 
