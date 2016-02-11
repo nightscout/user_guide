@@ -120,6 +120,21 @@ Die Funktionsweise ist in dem Artikel:[ Prognosen mit Nutzung des AR2 Algorithmu
 
 
     
+**Pushover** - Benachrichtigungen.
+
+Der [Pushover](https://pushover.net/) Internetdienst bietet die Möglichkeit, sich Nachrichten, welche Nightscout erzeugen kann, auf einem Android oder Apple Iphone mit einer entspr. App anzeigen zu lassen. Nach Registrierung auf der Website erhält man einen Benutzer Key - Schlüssel, den man sich notiert. Nightscout konfiguriert man dort als eine Anwendung.
+In den App.-Einstellungen ist der Wert **pushover** hinzuzufügen. 
+Als Minimum ist der **API_TOKEN_KEY**, welcher über die Pushover Website generiert wurde, abzuspeichern.Jetzt können wir Alarme definieren, welche über die App auf dem Smartphone ausgegeben werden.
+Eine detaiilierte Beschreibung findet man hier: [Pushover in Funnel Cake](http://www.nightscout.info/wiki/labs/pushover-in-funnel-cake).
+
+
+
+
+
+
+
+
+
 
     
     
