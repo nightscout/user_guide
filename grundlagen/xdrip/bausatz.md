@@ -34,12 +34,10 @@ Tipps und Rat für Einsteiger:
 
 Hinweise zum Löten:
 * Wenn ihr ein anderes Bluetooth-Modul habt, als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel um Bluetooth-Modul. (Beschriftung der Pins in der Abbildung.)
-
-
 * [Anleitung zum Löten (Film)](https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be)
 
 Zum Aufspielen der Software auf das Wixel:
-* ["xBridge2.wxl" - Datei](https://github.com/jstevensog/wixel-.../apps/xBridge2) (Auch geeignet bei Verlötung nach "xDrip classic".)
+* ["xBridge2.wxl" - Datei](https://github.com/jstevensog/wixel-.../apps/xBridge2) (Auch empfohlen bei Verlötung nach "xDrip classic".)
 * [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
  
 ---
