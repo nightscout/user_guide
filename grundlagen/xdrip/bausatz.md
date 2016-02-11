@@ -1,7 +1,7 @@
 # Bausatz (Abschnitt ist noch in Arbeit)
 Es gibt verschiedene Varianten, um einen xDrip zu bauen. Das betrifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) 
 Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen für ähnliche Dinge.
-Die Varianten haben unter schiedliche Eigenschaften, letztlich aber die selbe Aufgabe: Daten vom Transmitter empfangen und an ein Bluetooth-Handy übertragen.
+Die Varianten haben unter schiedliche Eigenschaften, letztlich aber die selbe Aufgabe: CGM-Daten vom Transmitter empfangen und an ein Bluetooth-Handy übertragen.
 
 Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten Bauformen zu beschreiben. 
 
@@ -19,16 +19,17 @@ Tipps und Rat für Einsteiger:
 * Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und Ausschalten. Das könnte am kleinen Akku gelegen haben. Evtl. war es aber Pech oder fehlerhaft verlötet - das will ich nicht ausschließen. (Im Prinzip ist das sicher sehr sinnvoll. Es geht aber auch ohne, wenn man zu häufige Tiefentladung anders vermeidet.)
 * In den Schaltbildern sind keine Schalter eingetragen. Ich nutze einen Schalter für folgende Anwendungen: Ich habe stets einen zweiten (geladenen, aber abgeschalteten) xDrip als Ersatz dabei. Wenn ich z.B. schwimmen gehe, schalte ich den xDrip ab.
 
-**Schaltbild für xDrip in der "klassischen Verschaltung"**
+
+
+## 
+
+**Schaltbild für xDrip in der "klassischen Verschaltung" (Empfehlung für Einsteiger)**
 
 (ohne Widerstände für Batterieanzeige)
 ![xDrip Schaltbild](../../images/xdrip/schaltbild.png)
 
 
-Empfohlene Links:
-* http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/
-* https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
-* http://stephenblackwasalreadytaken.github.io/xDrip/
+
 
 
 Schaltbilder zum Löten:
@@ -100,15 +101,17 @@ xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/mas
 |8| notwendig, oder ein anderer 3,7v LiPo-Akku | [Lipo Akku 1100 mAh 3,7V Einzelzelle](http://shop.lipopower.de/1100-mAh-37V-Einzelzelle-1C-34mm-breit)  | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  |
 |9| optional, für Batterieanzeige| Metallschichtwiderstand 10k |  |  |  |  |  |
 |10| optional, für Batterieanzeige| Metallschichtwiderstand 27k |  |  |  |  |  |
-|11| notwendig |Farbige flexible Leitungen (dünn) |  |  |  |  |  |
+|11| notwendig |[Farbige flexible Leitungen (dünn)](http://www.exp-tech.de/silicone-cover-stranded-core-wire-30awg-black) | exp-tech.de | 0,80 €  | EXP-R15-686 | Adafruit |  |
 |12| notwendig| Lötzinn, Lötkolben |  |  |  |  |  |
 |13| optional, aber emfpehlenswert| Schrumpfschlauch |  |  |  |  |  |
 |14| optional, aber emfpehlenswert| "dritte Hand" ein Beispiel: [Link](http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand) |  |  |  |  |  |
 |15| optional | Epoxid Trennschicht |  |  |  |  |  |
 
 
-**Schaltbild für "xDrip USB V3"**
-![xDrip V3usb Schaltbild](../../images/xdrip/xdrip schaltbild-V3 usb.png)
+---
+**weiterführende Infos:**
+
+Alternative Schaltbilder / Varianten (Wenn die Einsteiger-Variante "xDrip-classic" nicht gewünscht ist.)
 
 **Schaltbild für xBridge mit HM-10**
 ![HM10_xbridge_Wiring_Diagram](../../images/xdrip/HM10_xbridge_Wiring_Diagram.png)
@@ -118,3 +121,14 @@ xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/mas
 
 **Schaltbild für xBridge mit HM-11**
 ![HM11_xbridge_Wiring_Diagram](../../images/xdrip/HM11_xbridge_Wiring_Diagram.png)
+
+**Schaltbild für "xDrip USB V3"**
+![xDrip V3usb Schaltbild](../../images/xdrip/xdrip schaltbild-V3 usb.png)
+
+
+
+
+Empfohlene Links:
+* http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/
+* https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
+* http://stephenblackwasalreadytaken.github.io/xDrip/
