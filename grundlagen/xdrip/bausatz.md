@@ -32,13 +32,11 @@ Tipps und Rat für Einsteiger:
 
 
 
-Schaltbilder zum Löten:
+Hinweise zum Löten:
 * Wenn ihr ein anderes Bluetooth-Modul habt, als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel um Bluetooth-Modul. (Beschriftung der Pins in der Abbildung.)
-* für xDrip classic - siehe Bild oben [Quelle](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
-* für xBridge (hier: https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf). 
 
-Anleitung zum Löten:
-* https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be
+
+* [Anleitung zum Löten (Film)](https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be)
 
 Zum Aufspielen der Software auf das Wixel:
 * ["xBridge2.wxl" - Datei](https://github.com/jstevensog/wixel-.../apps/xBridge2) (Auch geeignet bei Verlötung nach "xDrip classic".)
@@ -79,9 +77,6 @@ Erklärung zur folgenden Tabelle:
 
 ## 
 
-###Schaltbilder für xBridge:
-Weitere Infos zu xBridge befinden sich in diesem [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument, oder in diesm repository https://github.com/jstevensog/wixel-sdk
-
 xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl)) bzw. https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.wxl
 
 ** Stückliste - "xDrip V3 USB"** ( Stand: September 2015 )
@@ -109,7 +104,14 @@ xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/mas
 
 
 ---
-**weiterführende Infos:**
+###weiterführende Infos:
+
+* für xDrip classic - siehe Bild oben [Quelle](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
+* für xBridge (hier: https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf). 
+
+**Schaltbilder für xBridge:**
+
+Weitere Infos zu xBridge befinden sich in diesem [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument, oder in diesm repository https://github.com/jstevensog/wixel-sdk
 
 Alternative Schaltbilder / Varianten (Wenn die Einsteiger-Variante "xDrip-classic" nicht gewünscht ist.)
 
