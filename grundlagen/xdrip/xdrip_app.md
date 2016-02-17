@@ -11,15 +11,11 @@ Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder
 
 ---
 ##Screenshots:
-Hauptansicht - alle 5 Minuten ein Wert 
 ![xDrip_Screenshot_Hauptansicht.png](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png) 
-![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png)
 
-![xDrip_Screenshot_statistic_2.png](../../images/xdrip/xDrip_Screenshot_statistic_2.png)
+![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png) ![xDrip_Screenshot_statistic_2.png](../../images/xdrip/xDrip_Screenshot_statistic_2.png)
 
-![xDrip_Screenshot_alerts.png](../../images/xdrip/xDrip_Screenshot_alerts.png)
-
-![xDrip_Screenshot_widget.png](../../images/xdrip/xDrip_Screenshot_widget.png)
+![xDrip_Screenshot_alerts.png](../../images/xdrip/xDrip_Screenshot_alerts.png) ![xDrip_Screenshot_widget.png](../../images/xdrip/xDrip_Screenshot_widget.png)
 ---
 
 ## Grund-Funktionalität:
