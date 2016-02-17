@@ -12,7 +12,8 @@ Für die einfachste Bauform hat sich der Name der "xDrip classic" etabliert. Es 
 
 ## 
 Tipps und Rat für Einsteiger: 
-* Baut zunächst einen xDrip in der "klassischen Verschaltung" mit xBridge2.wxl auf dem Wixel. Es entfallen die beiden Widerstände, dafür fehlt später in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten (und die Spanungsversorgung für Bluetooth-Modul ggf. ändern).
+* Baut zunächst einen xDrip in der "klassischen Verschaltung". Es entfallen die beiden Widerstände, dafür fehlt in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten (und die Spanungsversorgung für Bluetooth-Modul ggf. ändern).
+* Verwendet für das Wixel die "xBridge2.wxl"-Software. Für alle hier gezeigten Schaltkreise ist diese Software geeignet.
 * Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein, dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen alle LiPo-Akkus mit 3,7V in Frage. Empfehlung aus Erfahrungswerten: für xDrip classic mindestens 500 mAh, große Akkus mit 1100 mAh und mehr bieten auch für xDrip classic mehrere Tage Laufzeit. Für xBridge sollten mindestens 200 mAh vorgesehen werden. 
 * Die Brücke "for faster charging with large batteries" beeinflusst den Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen, fließen 500 mA. Ein kleinerer Ladestrom schont den Akku - aber die Ladezeit erhöht sich. Der Hersteller empfiehlt die Brücke für Akkus ab 500 mAh zu schließen. Zur Info: LiPo Akkus können sich beim Laden erhitzen. Laut Wikipedia kann das eine ernste Brandgefahr mit sich bringen.
 * Die Kabel können sehr dünn sein - das erhöht die Flexibilität. Verschiedene Farben machen es leichter, die Übersicht zu behalten, solange der xDrip noch im Bau ist. 
