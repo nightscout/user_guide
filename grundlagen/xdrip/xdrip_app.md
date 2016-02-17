@@ -4,10 +4,17 @@ Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy läuft.
 Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz.
 
 
-Vorraussetzungen:
+##Voraussetzungen:
 1. Android-Telefon mit Betriebssystem-Version 4.3 (besser 4.4 oder höher)
 2. Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab Bluetooth 4.0 vorhanden.
 3. xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur USA)
+
+---
+##Screenshots:
+Hauptansicht - alle 5 Minuten ein Wert 
+![xDrip Schaltbild](../../images/xdrip/xDrip_Screenshot_Hautansicht.png)
+
+---
 
 ## Grund-Funktionalität:
 ### Download & Installation
