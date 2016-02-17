@@ -3,14 +3,6 @@
 
 ---
 
-
-@holgi13
-
-
-
----
-
-
 ##**Kontinuierlich messender Glucosesensor**
 
 Kontinuierlich messende Glucosesensoren messen die Blutglucose- oder Gewebsglucosekonzentration im Körper. Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die Therapie besser steuern zu können. Sie können einerseits die Glucose zusammen mit dem zeitlichen Gradienten (Trend) auf einem Display anzeigen und alle Werte speichern, was derzeit in kommerziellen System mit Nadelsensoren angewandt wird. 
