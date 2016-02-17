@@ -12,7 +12,7 @@ Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder
 ---
 ##Screenshots:
 Hauptansicht - alle 5 Minuten ein Wert 
-![xDrip Schaltbild](../../images/xdrip/xDrip_Screenshot_Hautansicht.png)
+![xDrip Schaltbild](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
 
 ---
 
