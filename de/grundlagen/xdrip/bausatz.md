@@ -29,7 +29,7 @@ Der Hersteller empfiehlt die Brücke für Akkus ab 500 mAh zu schließen. Zur In
 **Schaltbild für xDrip in der "klassischen Verschaltung" (Empfehlung für Einsteiger)**
 
 (ohne Widerstände für Batterieanzeige)
-![xDrip Schaltbild](../../images/xdrip/schaltbild.png)
+![xDrip Schaltbild](../../images/xdrip/xDrip_schaltbild_classic.png)
 
 
 
