@@ -33,26 +33,20 @@ Tipps und Rat für Einsteiger:
 
 
 
-Hinweise zum Löten:
+** Hinweise zum Löten: **
 * Wenn ihr ein anderes Bluetooth-Modul habt, als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel um Bluetooth-Modul. (Beschriftung der Pins in der , evtl. helfen auch die Abbildungen weiter unten zu den xBridge-Schaltungen.)
-* [Anleitung zum Löten (Film)](https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be)
+* Anleitung zum Löten: [Film](https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be)
 
-Zur Software auf dem Wixcel:
+** Zur Software auf dem Wixel: **
 * xBridge Firmware: [xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl) (Auch empfohlen bei Verlötung nach "xDrip classic".)
 * Software zum Aufspielen der wxl-Datei auf das Wixel [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
 *  Weitere Infos: siehe [hier](https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.wxl) 
 
----
-Zwischenspeicher für Wissen, um es später schick in diese Doku aufzunehmen:
-
-Die xBridge2.wxl kann auf verschiedener HW arbeiten
+** Info zu den Widerständen: ** (für Batterie-Anzeige) 
 * "xDrip classic" (ohne Spannungsteiler)
-* "xDrip classic zzgl. Spannungsteiler" Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2.2k) ODER (10k und 22k). Gibt es eine Empfehlung?
-* "xBridge" (incl. Spannungsteiler) Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfohlen wird (10k und 27k) 
+* "xDrip classic zzgl. Spannungsteiler" Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2,2k) ODER (10k und 22k).
+* "xBridge" (incl. Spannungsteiler) Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfehlung: (10k und 27k) 
 * Wenn Widerstände neu eingebaut wurden, oder wenn die eingebauten Widerstände verändert wurden, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte für Battery-Level in der xDrip-App sind falsch. 
-
-
-
 
 ---
 Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf dem Wixel)
@@ -60,26 +54,26 @@ Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf dem W
 Erklärung zur folgenden Tabelle:
 * **Die Inhalte sind noch nicht abgesichert. **
 * "~~grün~~" bedeutet: Es gibt verschiedene Bauformen für die Bluetooth-Module (HM10 und HM11), die Farbe der LED kann eine andere sein.
-* "n.A." bedeutet: Diese Anzeige sollte nicht vorkommen.
+* "-" bedeutet: Diese Anzeige sollte nicht vorkommen.
 
 | Bauteil | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | xBridge|
 | -- | -- | -- | -- | -- | -- |
 | HM11 | Klärung nötig ||||
-| HM10 | ~~grün~~ Dauerleuchten | Regelbetrieb | Regelbetrieb |n.A. |
+| HM10 | ~~grün~~ Dauerleuchten | Regelbetrieb | Regelbetrieb | -  |
 | HM10 | ~~grün~~ blinkend | keine BT-Verbindung zum Handy | keine BT-Verbindung zum Handy | keine BT-Verbindung zum Handy|
-| HM10 | ~~grün~~ aus, aber alle 5 Minuten kurzes Blinken, dann ca. 30 Sek. an | n.A. | n.A. | Regelbetrieb|
-| Wixel | orange Dauerblinken | keine Verbindung zum Transmitter | keine Verbindung zum Transmitter | n.A. |
-| Wixel | orange Dauerleuchten | n.A. | n.A. | keine Verbindung zum Transmitter|
-| Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb | n.A.|
-| Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | n.A. | n.A. | Regelbetrieb| 
+| HM10 | ~~grün~~ aus, aber alle 5 Minuten kurzes Blinken, dann ca. 30 Sek. an |  -  |  -  | Regelbetrieb|
+| Wixel | orange Dauerblinken | keine Verbindung zum Transmitter | keine Verbindung zum Transmitter |  -  |
+| Wixel | orange Dauerleuchten |  -  |  -  | keine Verbindung zum Transmitter|
+| Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb |  - |
+| Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | - | - | Regelbetrieb| 
 | App Statusanzeige | "not connected" dauerhaft | keine Verbindung zum BT-Modul | keine Verbindung zum BT-Modul |keine Verbindung zum BT-Modul |
-| App Statusanzeige | "not connected", aber alle 5 Minuten für ca. 30 Sek "connected" | n.A. | n.A. | Regelbetrieb (!) |
-| App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb |n.A. |
+| App Statusanzeige | "not connected", aber alle 5 Minuten für ca. 30 Sek "connected" | - | - | Regelbetrieb (!) |
+| App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb | - |
 
 ## 
 
 
-** Stückliste ( Stand: September 2015 )
+** Stückliste ** ( Stand: September 2015 )
 
 
 |Nr.| Bemerkung| Bauteil: | Vertrieb: | Verkaufspreis: | Artikelnummer: | Hersteller-Nr.: | EAN: |
@@ -92,8 +86,8 @@ Erklärung zur folgenden Tabelle:
 |6| optional|[ Handgehäuse Minitec El, 78x48x20, Lava/Grün](http://www.voelkner.de/products/213275/Minitec-El-78x48x20-Lava-Gruen.html) | Voelkner | 12,38 € | S23261 | D9006178 | 2050001140593 |
 |7| optional, Alternative zu 6 |[Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set](https://www.conrad.de/de/hand-gehaeuse-78-x-48-x-20-kunststoff-lava-gruen-okw-minitec-d9006178-1-set-535384.html?ref=searchDetail) | Conrad | 13,57 € | 535384 - 62 | D9006178 | 2050001140593 |
 |8| notwendig, oder ein anderer 3,7v LiPo-Akku | [Lipo Akku 1100 mAh 3,7V Einzelzelle](http://shop.lipopower.de/1100-mAh-37V-Einzelzelle-1C-34mm-breit)  | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  |
-|9| optional, für Batterieanzeige bei xBridge-Schaltung| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.)|  |  |  |  |  |
-|10| optional, für Batterieanzeige bei xDrip-Schaltung| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.) |  |  |  |  |  |
+|9| optional (für Batterieanzeige bei **xBridge**-Schaltung)| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.)|  |  |  |  |  |
+|10| optional (für Batterieanzeige bei **xDrip**-Schaltung)| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.) |  |  |  |  |  |
 |11| notwendig |flexible Leitungen (dünn) [Beispiel](http://www.exp-tech.de/silicone-cover-stranded-core-wire-30awg-black) | exp-tech.de | 0,80 €  | EXP-R15-686 | Adafruit |  |
 |12| notwendig| Lötzinn, Lötkolben |  |  |  |  |  |
 |13| optional, aber empfehlenswert| Schrumpfschlauch |  |  |  |  |  |
