@@ -93,6 +93,9 @@ Erklärung zur folgenden Tabelle:
 |13| optional, aber empfehlenswert| Schrumpfschlauch |  |  |  |  |  |
 |14| optional, aber empfehlenswert| "dritte Hand" ein Beispiel: [Link](http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand) |  |  |  |  |  |
 |15| optional | Epoxid Trennschicht |  |  |  |  |  |
+|16| notwendig | Kabel mit Mini-USB-Stecker um das Wixel zu bespielen | Beispiel: [Link](http://www.amazon.de/dp/B00NH11N5A)  |  |  |  |  |
+
+
 
 
 ---
