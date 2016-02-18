@@ -18,11 +18,10 @@ xDrip besteht aus zwei Komponenten:
 Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe [Bausatz](../bausatz.md)) miteinander verlötet.
 
 1. 
-Die [xDrip App](../xdrip_app.md), die auf ein Android-Handy aufgespielt und mit einigen Handgriffen individuell konfiguriert wird. Die [xDrip App](../xdrip_app.md) hat folgende Funktionen:
-
-
-* Empfang von BZ-Messwerten
-*	Anzeige (ggf. Ansage) von BZ-Werten 
-*	Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, Nightscout)
-*	Alarm bei (zuvor individuell definierten) meldewürdigen Werten / Verlauf
-*	Export der Werte zur Auswertung in anderen Systemen (zB. SiDiary, Excel)
+Die [xDrip App](../xdrip_app.md), die auf ein Android-Handy aufgespielt und mit einigen Handgriffen individuell konfiguriert wird.Die [xDrip App](../xdrip_app.md) hat folgende Funktionen:   
+ 
+ * Empfang von BZ-Messwerten
+ *	Anzeige (ggf. Ansage) von BZ-Werten 
+ *	Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, Nightscout)
+ *	Alarm bei (zuvor individuell definierten) meldewürdigen Werten / Verlauf
+ *	Export der Werte zur Auswertung in anderen Systemen (zB. SiDiary, Excel)
