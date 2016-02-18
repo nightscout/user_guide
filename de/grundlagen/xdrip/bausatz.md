@@ -123,6 +123,6 @@ Es gibt verschiedene Bluetooth-Module: HM10 oder HM11. Und es gibt verschiedene 
 
 
 ** Weitere Infos / empfohlene Links: ** (englische Seiten) 
-* zu xBridge2: Ein [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument finddet sich in deisem [Repository](https://github.com/jstevensog/wixel-sdk)
+* zu xBridge2: Ein [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument findet sich in diesem [Repository](https://github.com/jstevensog/wixel-sdk)
 * Eine weitere Seite mit Anleitungen findet sich [hier](http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/)
 * Wichtige Quellen zu xDrip finden sich [hier](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip) und [hier](http://stephenblackwasalreadytaken.github.io/xDrip/) und [hier](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
