@@ -103,16 +103,10 @@ xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/mas
 
 
 ---
-###weiterführende Infos:
-
-* für xDrip classic - siehe Bild oben [Quelle](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
-* für xBridge (hier: https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf). 
-
-**Schaltbilder für xBridge:**
-
-Weitere Infos zu xBridge befinden sich in diesem [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument, oder in diesm repository https://github.com/jstevensog/wixel-sdk
+###weiterführende Infos / Schaltbilder für xBridge
 
 Alternative Schaltbilder / Varianten (Wenn die Einsteiger-Variante "xDrip-classic" nicht gewünscht ist.)
+Es gibt verschiedene Bluetooth-Module: HM10 oder HM11. Und es gibt verschiedene Bauformen für diese Module. Deswegen hier mehrere Bilder zur Verschaltung. Sucht euch das Bild raus, das zu eurem konkreten HM Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus den folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen.
 
 **Schaltbild für xBridge mit HM-10**
 ![HM10_xbridge_Wiring_Diagram](../../images/xdrip/HM10_xbridge_Wiring_Diagram.png)
@@ -126,10 +120,12 @@ Alternative Schaltbilder / Varianten (Wenn die Einsteiger-Variante "xDrip-classi
 **Schaltbild für "xDrip USB V3"**
 ![xDrip V3usb Schaltbild](../../images/xdrip/xdrip schaltbild-V3 usb.png)
 
+Weitere Infos zu xBridge befinden sich in diesem [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument, oder in diesm repository https://github.com/jstevensog/wixel-sdk
 
 
-
-Empfohlene Links:
+Empfohlene Links (englische Seiten):
 * http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/
 * https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
 * http://stephenblackwasalreadytaken.github.io/xDrip/
+* für xDrip classic - siehe Bild oben [Quelle](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
+* für xBridge (hier: https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf). 
