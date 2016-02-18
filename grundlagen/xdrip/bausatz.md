@@ -91,11 +91,11 @@ xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/mas
 |4| notwendig| [Adafruit Mini Lipo w/Mini-B USB Jack - USB LiIon/LiPoly charger](http://www.exp-tech.de/adafruit-mini-lipo-w-mini-b-usb-jack-usb-liion-lipoly-charger) | EXP TECH | 7,65 € | EXP-R15-446 | Adafruit  1905 |  |
 |5| notwendig, alternativ auch HM10 möglich |[Seeed Studio Bluetooth V4.0 HM-11 BLE Module](http://www.exp-tech.de/seeed-studio-bluetooth-v4-0-hm-11-ble-module) | EXP TECH | 12,28 € | EXP-R02-308 | Seeed Studio  210005001 |  |
 |6| optional|[ Handgehäuse Minitec El, 78x48x20, Lava/Grün](http://www.voelkner.de/products/213275/Minitec-El-78x48x20-Lava-Gruen.html) | Voelkner | 12,38 € | S23261 | D9006178 | 2050001140593 |
-|7| optional |[Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set](https://www.conrad.de/de/hand-gehaeuse-78-x-48-x-20-kunststoff-lava-gruen-okw-minitec-d9006178-1-set-535384.html?ref=searchDetail) | Conrad | 13,57 € | 535384 - 62 | D9006178 | 2050001140593 |
+|7| optional, Alternative zu 6 |[Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set](https://www.conrad.de/de/hand-gehaeuse-78-x-48-x-20-kunststoff-lava-gruen-okw-minitec-d9006178-1-set-535384.html?ref=searchDetail) | Conrad | 13,57 € | 535384 - 62 | D9006178 | 2050001140593 |
 |8| notwendig, oder ein anderer 3,7v LiPo-Akku | [Lipo Akku 1100 mAh 3,7V Einzelzelle](http://shop.lipopower.de/1100-mAh-37V-Einzelzelle-1C-34mm-breit)  | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  |
-|9| optional, für Batterieanzeige| Metallschichtwiderstand 10k |  |  |  |  |  |
-|10| optional, für Batterieanzeige| Metallschichtwiderstand 27k |  |  |  |  |  |
-|11| notwendig |[Farbige flexible Leitungen (dünn)](http://www.exp-tech.de/silicone-cover-stranded-core-wire-30awg-black) | exp-tech.de | 0,80 €  | EXP-R15-686 | Adafruit |  |
+|9| optional, für Batterieanzeige bei xBridge-Schaltung| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.)|  |  |  |  |  |
+|10| optional, für Batterieanzeige bei xDrip-Schaltung| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.) |  |  |  |  |  |
+|11| notwendig |flexible Leitungen (dünn) [Beispiel](http://www.exp-tech.de/silicone-cover-stranded-core-wire-30awg-black) | exp-tech.de | 0,80 €  | EXP-R15-686 | Adafruit |  |
 |12| notwendig| Lötzinn, Lötkolben |  |  |  |  |  |
 |13| optional, aber emfpehlenswert| Schrumpfschlauch |  |  |  |  |  |
 |14| optional, aber emfpehlenswert| "dritte Hand" ein Beispiel: [Link](http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand) |  |  |  |  |  |
