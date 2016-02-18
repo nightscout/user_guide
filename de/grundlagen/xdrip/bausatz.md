@@ -119,7 +119,7 @@ Es gibt verschiedene Bluetooth-Module: HM10 oder HM11. Und es gibt verschiedene 
 ![HM11_xbridge_Wiring_Diagram](../../images/xdrip/HM11_xbridge_Wiring_Diagram.png)
 
 **Schaltbild für "xDrip USB V3"**
-![xDrip V3usb Schaltbild](../../images/xdrip/xdrip schaltbild-V3 usb.png)
+![xDrip V3usb Schaltbild](../../images/xdrip/xDrip_schaltbild-v3_usb.png)
 
 
 ** Weitere Infos / empfohlene Links: ** (englische Seiten) 
