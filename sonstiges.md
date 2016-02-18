@@ -8,13 +8,13 @@
 
 ##Flyer
 
-[Verlängerung der Tragezeit des Sensors (PDF)](https://github.com/LadyViktoria/nightscout_handbuch/raw/master/dokumente/Verlängerung der Tragezeit.pdf)
+[Verlängerung der Tragezeit des Sensors (PDF)](https://github.com/nightscout/nightscout_handbuch/raw/master/dokumente/Verlängerung der Tragezeit.pdf)
 
 
 
 [](verlängerung der tragezeit)
 
 ##Schablonen
-[Dexcom Pflaster Schablone](https://raw.githubusercontent.com/LadyViktoria/nightscout_handbuch/master/images/sonstiges/Pflasterschablone2.jpg)
+[Dexcom Pflaster Schablone](https://raw.githubusercontent.com/nightscout/nightscout_handbuch/master/images/sonstiges/Pflasterschablone2.jpg)
 
 https://oshpark.com/shared_projects/XrUwQSdh
