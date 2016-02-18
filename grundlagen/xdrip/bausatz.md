@@ -34,13 +34,14 @@ Tipps und Rat für Einsteiger:
 
 
 Hinweise zum Löten:
-* Wenn ihr ein anderes Bluetooth-Modul habt, als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel um Bluetooth-Modul. (Beschriftung der Pins in der Abbildung.)
+* Wenn ihr ein anderes Bluetooth-Modul habt, als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel um Bluetooth-Modul. (Beschriftung der Pins in der , evtl. helfen auch die Abbildungen weiter unten zu den xBridge-Schaltungen.)
 * [Anleitung zum Löten (Film)](https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be)
 
-Zum Aufspielen der Software auf das Wixel:
-* ["xBridge2.wxl" - Datei](https://github.com/jstevensog/wixel-.../apps/xBridge2) (Auch empfohlen bei Verlötung nach "xDrip classic".)
-* [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
- 
+Zur Software auf dem Wixcel:
+* xBridge Firmware: [xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl) (Auch empfohlen bei Verlötung nach "xDrip classic".)
+* Software zum Aufspielen der wxl-Datei auf das Wixel [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
+*  Weitere Infos: siehe [hier](https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.wxl) 
+
 ---
 Zwischenspeicher für Wissen, um es später schick in diese Doku aufzunehmen:
 
@@ -48,7 +49,8 @@ Die xBridge2.wxl kann auf verschiedener HW arbeiten
 * "xDrip classic" (ohne Spannungsteiler)
 * "xDrip classic zzgl. Spannungsteiler" Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2.2k) ODER (10k und 22k). Gibt es eine Empfehlung?
 * "xBridge" (incl. Spannungsteiler) Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfohlen wird (10k und 27k) 
-* Wenn Widerstände neu eingebaut wurden, oder wenn die eingebauten Widerstände verändert wurden, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte für Battery-Level in der xDrip-App stimmen nicht. 
+* Wenn Widerstände neu eingebaut wurden, oder wenn die eingebauten Widerstände verändert wurden, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte für Battery-Level in der xDrip-App sind falsch. 
+
 
 
 
@@ -64,7 +66,7 @@ Erklärung zur folgenden Tabelle:
 | -- | -- | -- | -- | -- | -- |
 | HM11 | Klärung nötig ||||
 | HM10 | ~~grün~~ Dauerleuchten | Regelbetrieb | Regelbetrieb |n.A. |
-| HM10 | ~~grün~~ blinkend | keine BT-Verbindung zum Handy | keine BT-Verbinung zum Handy | keine BT-Verbindung zum Handy|
+| HM10 | ~~grün~~ blinkend | keine BT-Verbindung zum Handy | keine BT-Verbindung zum Handy | keine BT-Verbindung zum Handy|
 | HM10 | ~~grün~~ aus, aber alle 5 Minuten kurzes Blinken, dann ca. 30 Sek. an | n.A. | n.A. | Regelbetrieb|
 | Wixel | orange Dauerblinken | keine Verbindung zum Transmitter | keine Verbindung zum Transmitter | n.A. |
 | Wixel | orange Dauerleuchten | n.A. | n.A. | keine Verbindung zum Transmitter|
@@ -76,11 +78,8 @@ Erklärung zur folgenden Tabelle:
 
 ## 
 
-xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl)) bzw. https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.wxl
 
-** Stückliste - "xDrip V3 USB"** ( Stand: September 2015 )
-
-
+** Stückliste ( Stand: September 2015 )
 
 
 |Nr.| Bemerkung| Bauteil: | Vertrieb: | Verkaufspreis: | Artikelnummer: | Hersteller-Nr.: | EAN: |
@@ -97,8 +96,8 @@ xBridge Firmware [(xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/mas
 |10| optional, für Batterieanzeige bei xDrip-Schaltung| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.) |  |  |  |  |  |
 |11| notwendig |flexible Leitungen (dünn) [Beispiel](http://www.exp-tech.de/silicone-cover-stranded-core-wire-30awg-black) | exp-tech.de | 0,80 €  | EXP-R15-686 | Adafruit |  |
 |12| notwendig| Lötzinn, Lötkolben |  |  |  |  |  |
-|13| optional, aber emfpehlenswert| Schrumpfschlauch |  |  |  |  |  |
-|14| optional, aber emfpehlenswert| "dritte Hand" ein Beispiel: [Link](http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand) |  |  |  |  |  |
+|13| optional, aber empfehlenswert| Schrumpfschlauch |  |  |  |  |  |
+|14| optional, aber empfehlenswert| "dritte Hand" ein Beispiel: [Link](http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand) |  |  |  |  |  |
 |15| optional | Epoxid Trennschicht |  |  |  |  |  |
 
 
