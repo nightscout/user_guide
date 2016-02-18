@@ -51,6 +51,7 @@ Es gibt zwei Möglichkeiten: Warten, bis das Wixel (alle 5 Minuten) aufwacht, di
 * "xDrip classic zzgl. Spannungsteiler" Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2,2k) ODER (10k und 22k).
 * "xBridge" (incl. Spannungsteiler) Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfehlung: (10k und 27k) 
 * Wenn Widerstände neu eingebaut wurden, oder wenn die eingebauten Widerstände verändert wurden, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte für Battery-Level in der xDrip-App sind falsch. 
+* Metallschicht-Widerstände sind etwas grüßer und damit leichter zu handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man etwas Platz sparen, aber man braucht wirklich eine ruhige Hand beim Löten.
 
 ---
 Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf dem Wixel)
@@ -90,8 +91,8 @@ Erklärung zur folgenden Tabelle:
 |6| optional|[ Handgehäuse Minitec El, 78x48x20, Lava/Grün](http://www.voelkner.de/products/213275/Minitec-El-78x48x20-Lava-Gruen.html) | Voelkner | 12,38 € | S23261 | D9006178 | 2050001140593 |
 |7| optional, Alternative zu 6 |[Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set](https://www.conrad.de/de/hand-gehaeuse-78-x-48-x-20-kunststoff-lava-gruen-okw-minitec-d9006178-1-set-535384.html?ref=searchDetail) | Conrad | 13,57 € | 535384 - 62 | D9006178 | 2050001140593 |
 |8| notwendig, oder ein anderer 3,7v LiPo-Akku | [Lipo Akku 1100 mAh 3,7V Einzelzelle](http://shop.lipopower.de/1100-mAh-37V-Einzelzelle-1C-34mm-breit)  | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  |
-|9| optional (für Batterieanzeige bei **xBridge**-Schaltung)| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.)|  |  |  |  |  |
-|10| optional (für Batterieanzeige bei **xDrip**-Schaltung)| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k (Alternativ CMD-Widerstände, sparen Platz, sind fummeliger beim Löten.) |  |  |  |  |  |
+|9| optional (für Batterieanzeige bei **xBridge**-Schaltung)| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k |  |  |  |  |  |
+|10| optional (für Batterieanzeige bei **xDrip**-Schaltung)| Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k |  |  |  |  |  |
 |11| notwendig |flexible Leitungen (dünn) [Beispiel](http://www.exp-tech.de/silicone-cover-stranded-core-wire-30awg-black) | exp-tech.de | 0,80 €  | EXP-R15-686 | Adafruit |  |
 |12| notwendig| Lötzinn, Lötkolben |  |  |  |  |  |
 |13| optional, aber empfehlenswert| Schrumpfschlauch |  |  |  |  |  |
@@ -120,12 +121,8 @@ Es gibt verschiedene Bluetooth-Module: HM10 oder HM11. Und es gibt verschiedene 
 **Schaltbild für "xDrip USB V3"**
 ![xDrip V3usb Schaltbild](../../images/xdrip/xdrip schaltbild-V3 usb.png)
 
-Weitere Infos zu xBridge befinden sich in diesem [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument, oder in diesm repository https://github.com/jstevensog/wixel-sdk
 
-
-Empfohlene Links (englische Seiten):
-* http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/
-* https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
-* http://stephenblackwasalreadytaken.github.io/xDrip/
-* für xDrip classic - siehe Bild oben [Quelle](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
-* für xBridge (hier: https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf). 
+** Weitere Infos / empfohlene Links: ** (englische Seiten) 
+* zu xBridge2: Ein [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument finddet sich in deisem [Repository](https://github.com/jstevensog/wixel-sdk)
+* Eine weitere Seite mit Anletungen findet sich [hier](http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/)
+* Wichtige Quellen zu xDrip finden sich [hier](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip) und [hier](http://stephenblackwasalreadytaken.github.io/xDrip/) und [hier](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
