@@ -12,10 +12,12 @@ Für die einfachste Bauform hat sich der Name der "xDrip classic" etabliert. Es 
 
 ## 
 Tipps und Rat für Einsteiger: 
-* Baut zunächst einen xDrip in der "klassischen Verschaltung". Es entfallen die beiden Widerstände, dafür fehlt in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten (und die Spanungsversorgung für Bluetooth-Modul ggf. ändern).
+* Baut zunächst einen xDrip in der "klassischen Verschaltung".  
+Es entfallen die beiden Widerstände, dafür fehlt in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten (und die Spanungsversorgung für Bluetooth-Modul ggf. ändern).
 * Verwendet für das Wixel die "xBridge2.wxl"-Software. Für alle hier gezeigten Schaltkreise ist diese Software geeignet.
 * Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein, dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen alle LiPo-Akkus mit 3,7V in Frage. Empfehlung aus Erfahrungswerten: für xDrip classic mindestens 500 mAh. Große Akkus mit 1100 mAh und mehr bieten auch für xDrip classic mehrere Tage Laufzeit. Für "xBridge"-Schaltkreise  können schon Akkus ab 200 mAh über 24 Stunden Laufzeit erreichen.
-* Die Brücke "for faster charging with large batteries" beeinflusst den Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen, fließen 500 mA. Ein kleinerer Ladestrom schont den Akku - aber die Ladezeit erhöht sich. Der Hersteller empfiehlt die Brücke für Akkus ab 500 mAh zu schließen. Zur Info: LiPo Akkus können sich beim Laden erhitzen. Laut Wikipedia kann das eine ernste Brandgefahr mit sich bringen.
+* Die Brücke "for faster charging with large batteries" beeinflusst den Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen, fließen 500 mA. Ein kleinerer Ladestrom schont den Akku - aber die Ladezeit erhöht sich.  
+Der Hersteller empfiehlt die Brücke für Akkus ab 500 mAh zu schließen. Zur Info: LiPo Akkus können sich beim Laden erhitzen. Laut Wikipedia kann das eine ernste Brandgefahr mit sich bringen.
 * Die Kabel können sehr dünn sein - das erhöht die Flexibilität. Verschiedene Farben machen es leichter, die Übersicht zu behalten, solange der xDrip noch im Bau ist. 
 * Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und Ausschalten. Das könnte am kleinen Akku gelegen haben. Evtl. war es aber Pech oder fehlerhaft verlötet. Im Prinzip ist ein Schutz vor Tiefentladung sicher sehr sinnvoll. Die Schaltkreise funktionieren aber auch ohne dieses Modul.
 * In den Schaltbildern sind keine Schalter eingetragen. Ein Schalter kann sinnvoll sein, um  einen zweiten (geladenen, aber abgeschalteten) xDrip als Ersatz dabei haben zu können. Ggf. kann der xDrip abgeschaltet werden, wenn absehbar ist, dass für eine Zeit keine Daten empfangen werden können. (CGM vorübergehend abgelegt, während dem Schwimmen gehen,...).
@@ -40,7 +42,9 @@ Tipps und Rat für Einsteiger:
 ** Zur Software auf dem Wixel: **
 * xBridge Firmware: [xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl) (Auch empfohlen bei Verlötung nach "xDrip classic".)
 * Software zum Aufspielen der wxl-Datei auf das Wixel [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
-*  Weitere Infos: siehe [hier](https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.wxl) 
+*  Weitere Infos: siehe [hier](https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf) 
+*  Tipp: Wenn auf dem Wixel schon eine xBridge2.wxl Software aufgespielt ist, dann legt die Software das Wixel zyklisch in einen passiven Modus. In dieser Zeit kann sich das Wixel nicht via USB-Kabel mit dem PC verbinden.  
+Es gibt zwei Möglichkeiten: Warten, bis das Wixel (alle 5 Minuten) aufwacht, die Verbindung aufbauen und in dem "Wixel Configuration Utility" die Anwendung auf dem Wixel stoppen. Oder das Wixel kurz von der Spannungsversorghung trennen und dann die Verbindung aufbauen.
 
 ** Info zu den Widerständen: ** (für Batterie-Anzeige) 
 * "xDrip classic" (ohne Spannungsteiler)
