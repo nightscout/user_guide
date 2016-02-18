@@ -1,6 +1,6 @@
 # Sonstiges
 ##Links
-**[Gitter Chat Gruppe](https://gitter.im/LadyViktoria/germanLOOP)**
+**[deutsche Gitter Chat Gruppe zu OpenAPS, DIY, Nightscout, xDrip, CGM, Closed Loop](https://gitter.im/LadyViktoria/germanLOOP)**
 
 
 **[Nightscout Deutschland Facebook-Gruppe](https://www.facebook.com/groups/nightscoutDE/)**
