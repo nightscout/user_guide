@@ -18,7 +18,7 @@ CGM (durch die Krankenkasse oder privat finanziert)
 
 
 * 
-[xDrip](https://ladyviktoria.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html) (ca. 50 bis 60€)
+[xDrip](https://nightscout.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html) (ca. 50 bis 60€)
 
 
 * 
