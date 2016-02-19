@@ -5,8 +5,6 @@
    * [Grundsätzliche Funktionsweise/Ausblick](grundlagen/grundsatzliche_funktionsweiseausblick.md)
    * [finanzielles / technische Voraussetzungen](grundlagen/finanzielles__technische_voraussetzungen.md)
    * [DIY/Disclaimer](grundlagen/diydisclaimer.md)
-   * [Wissenswertes](grundlagen/wissenswertes.md)
-       * [DIY/Disclaimer](grundlagen/diydisclaimer.md)
    * [CGM](grundlagen/cgm/cgm.md)
        * [Dexcom](grundlagen/cgm/dexcom.md)
        * [Enlite](grundlagen/cgm/enlite.md)
