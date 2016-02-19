@@ -3,7 +3,7 @@
 Bevor wir mit der Einrichtung von Nightscout beginnen, ist es  sinnvoll, das  Arbeitsblatt auszudrucken. Wir  notieren alle wichtigen Benutzernamen,  Passwörter und Zugangsdaten, die bei der ersten Einrichtung festgelegt werden. Am besten füllt man es direkt während der Einrichtung gewissenhaft aus und heftet es ab, um später darauf zugreifen zu können. 
 
 
-[Link zum übersetzen Arbeitsblatt](https://github.com/nightscout/nightscout_handbuch/raw/master/dokumente/arbeitsblatt.pdf)
+[Link zum übersetzen Arbeitsblatt](https://github.com/nightscout/user_guide/blob/master/de/dokumente/arbeitsblatt.doc?raw=true)
 
 
 
