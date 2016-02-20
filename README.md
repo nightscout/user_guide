@@ -7,10 +7,4 @@ Nightscout user guide
 * english 0% done
 
 # Links:
-German
-
-https://www.gitbook.com/book/nightscout/user_guide/details/de
-
-English
-
-https://www.gitbook.com/book/nightscout/user_guide/details/en
+[nightscout user guide](https://nightscout.gitbooks.io/user_guide/content/)
