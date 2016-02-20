@@ -3,9 +3,8 @@ Nightscout user guide
 
 
 # Current Stautus:
-german  90% done
-
-english 0% done
+* german  90% done
+* english 0% done
 
 # Links:
 German
