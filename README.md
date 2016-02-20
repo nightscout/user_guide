@@ -2,7 +2,7 @@
 Nightscout user guide
 
 
-# Current Stautus:
+# Current Status:
 * german  90% done
 * english 0% done
 
