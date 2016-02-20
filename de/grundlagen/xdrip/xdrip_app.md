@@ -26,6 +26,18 @@ Die hier verlinkten Versionen sind so erstellt, dass man eine ältere Version mi
 Wer hinreichende technische Kenntnisse hat, kann sich aus den Sourcen selbst die apk kompilieren. 
 
 ### Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
+Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter empfangen und an die xDrip-App übergeben werden.
+* Bluetooth Wixel  
+xDrip in classic - Verlötung. Weitere Infos: siehe Abschnitt [Bausatz](../bausatz.md)
+* xBridge Wixel  
+xDrip in xBridge2-Verlötung. Weitere Infos: siehe Abschnitt [Bausatz](../bausatz.md)
+* Wifi Wixel  
+Weitere Infos, siehe: ?
+* Wifi Wixel + BT Wixel  
+Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, die im ganzen Haus dem Empfang sicherstellen. Außerhalb des WLANs werden die Daten vom BT-Wixel empfangen. Weitere Infos: https://github.com/jamorham/python-usb-wixel-xdrip 
+* DexcomShare  
+DexcomShare ist zZt. in Europa nicht verfügbar. Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
+
 ### Starten des Sensors
 ### Kalibrieren
 ### Alarme
