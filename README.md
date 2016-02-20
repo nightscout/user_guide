@@ -3,7 +3,7 @@ Nightscout user guide
 
 
 # Current Status:
-* german  90% done
+* german  95% done (basic setup finished)
 * english 0% done
 
 # Links:
