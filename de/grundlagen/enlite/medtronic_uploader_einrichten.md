@@ -48,7 +48,7 @@ Nun geht man raus aus den Einstellungen. Man sollte Striche sehen, einen grünen
 
 Jedes Mal, wenn der Uploader Daten vom Sensor empfängt, erscheint folgender Text im unteren Teil des Bildschirms: "Medtronic CGM Message: sensor data value received". Sobald man den ersten Wert empfangen hat, klickt man wieder rechts oben auf die drei Punkte. Diesmal wählt man "Instant Calibration" und gibt den Wert ein, den man gerade auf der Pumpe abliest.
 
-Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine Viertelstunde, bis die ersten Werte über die persönliche Internetseite im Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Unterkapitel 1.3.6. [Fehlerbehebung](fehlerbehebung.md).
+Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine Viertelstunde, bis die ersten Werte über die persönliche Internetseite im Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Unterkapitel 1.3.6. [Fehlerbehebung](fehlerbehebung.md) und auch in die ausführlichere, englische [Originalanleitung](https://github.com/arbox0/MedtronicUploader/blob/master/Medtronic_NigthScout_Manual.pdf).
 
 
 
