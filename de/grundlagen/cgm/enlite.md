@@ -22,6 +22,8 @@ Danach stehen einem die in den Kapiteln 3. [Die Nightscout Hauptseite](../../nig
 
 Um das zu Realisieren muss man den MMCommander bauen und mit der entsprechenden Software bespielen. Zusätzlich muss noch auf einem kompatiblen Android Smartphone die Medtronic Uploader App installiert und konfiguriert werden. Beides ist im Kapitel 1.3. [MMCommander](../grundlagen/cgm/mmcommander.md) beschrieben.
 
+Im Netz findet man auch Hinweise auf eine Lösung für das Iphone (ab dem 4s und IOS 8.2). Diese Lösung, der **RileyLink**, kontaktiert die Pumpe per Funk und stellt dann über Bluetooth eine Verbindung mit dem Iphone her. Dort läuft dann die RileyLink IOS App und transportiert die Daten zu Nightscout. Dies **funktioniert nicht mit den deutschen Pumpen**, da der RileyLink sich gegenüber der Pumpe als MySentry ausgibt, um von dieser die Daten zu bekommen. MySentry wird, nach derzeitigem Kenntnisstand, aber nur von den amerikanischen Pumpen unterstützt. 
+
 ## Guardian 2 Link Transmitter
 
 Offiziell wird der Guardian 2 Link Transmitter und dadurch die Minimed 640G Insulinpumpe noch nicht von NightScout unterstützt [(s. englische Nightscout Übersicht)](http://www.nightscout.info/wiki/faqs-2/how-do-you-get-your-cgm-in-the-cloud). 
