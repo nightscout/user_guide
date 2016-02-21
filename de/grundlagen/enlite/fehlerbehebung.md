@@ -1,5 +1,6 @@
 # Fehlerbehebung
 
+Da die meisten Informationen in diesem Handbuch zum Thema MMCommander und Medtronic Uploader frei aus der entsprechenden, englischen Intsallationsanleitung übersetzt wurden und dabei auch einige, nicht zwingend notwendige Informationen weggelassen wurden, kann man eventuell [dort](http://github.com/jberian/mmcommander/install.pdf) auch weitere Informationen finden.
 
 ## Probleme beim Verbinden des CC Debuggers mit dem CC1111
 
