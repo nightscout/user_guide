@@ -28,9 +28,10 @@ Wer hinreichende technische Kenntnisse hat, kann sich aus den Sourcen selbst die
 ### Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
 Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter empfangen und an die xDrip-App übergeben werden.
 * Bluetooth Wixel  
-xDrip in classic - Verlötung. Weitere Infos: siehe Abschnitt [Bausatz](../bausatz.md)
+xDrip in classic - xml. Selbst komimpilierte wxl, in die die individuelle Transmitter-ID einkompliliert wurde. Erstellt gemäß dieser [Anleitung](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip)  
+Link: https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
 * xBridge Wixel  
-xDrip in xBridge2-Verlötung. Weitere Infos: siehe Abschnitt [Bausatz](../bausatz.md)
+xDrip in xBridge2 wxl. Aus dieser [Quelle](https://github.com/jstevensog/wixel-sdk)
 * Wifi Wixel  
 Weitere Infos, siehe: ?
 * Wifi Wixel + BT Wixel  
