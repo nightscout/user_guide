@@ -1,6 +1,7 @@
 # Garmin
 
-[**CGM-Watch**](https://apps.garmin.com/en-US/apps/eff8409b-4d52-4813-9c46-e28191e2ea61)
+CGM-Watch
+https://apps.garmin.com/en-US/apps/eff8409b-4d52-4813-9c46-e28191e2ea61
 
 Compatible Devices:
 * ForeAthlete 920XTJ
