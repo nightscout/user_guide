@@ -37,6 +37,7 @@
    * [Android Wear](smartwatch/android_wear.md)
    * [Pebble](smartwatch/pebble.md)
    * [Apple Watch](smartwatch/apple_watch.md)
+   * garmin
 * [sonstiges](sonstiges.md)
 * [Glossar](GLOSSARY.md)
 
