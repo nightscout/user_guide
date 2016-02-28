@@ -38,7 +38,7 @@
    * [Pebble](smartwatch/pebble.md)
    * [Apple Watch](smartwatch/apple_watch.md)
    * [Garmin](smartwatch/garmin.md)
-* Fehlerbehebung
+* [Fehlerbehebung](fehlerbehebung.md)
 * [sonstiges](sonstiges.md)
 * [Glossar](GLOSSARY.md)
 
