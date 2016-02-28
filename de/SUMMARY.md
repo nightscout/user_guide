@@ -40,4 +40,5 @@
    * [Garmin](smartwatch/garmin.md)
 * [sonstiges](sonstiges.md)
 * [Glossar](GLOSSARY.md)
+* Fehlerbehebung
 
