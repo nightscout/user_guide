@@ -39,6 +39,6 @@
    * [Apple Watch](smartwatch/apple_watch.md)
    * [Garmin](smartwatch/garmin.md)
 * [sonstiges](sonstiges.md)
-* [Glossar](GLOSSARY.md)
 * Fehlerbehebung
+* [Glossar](GLOSSARY.md)
 
