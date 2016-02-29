@@ -12,9 +12,9 @@ und auszufüllen.
 
 Es ist für weitere Konfigurationen wichtig, dieses Datenblatt sicher aufzubewahren.
 
-Die URL Adresse zum Start gibt es hier: https://mongolab.com
+Die URL Adresse zum Start gibt es hier: https://mlab.com
 
-Wir starten mit der Einrichtung der Benutzer - Konten auf der mongolab - Startseite:
+Wir starten mit der Einrichtung der Benutzer - Konten auf der mlab - Startseite:
 
 
 **SIGN UP:**
@@ -67,7 +67,7 @@ Am Ende bitte unbedingt die MongoDB [URI](https://de.wikipedia.org/wiki/Uniform_
 
 Zum besseren Verständnis ausführlich erklärt:
 
-**mongodb://dbuser:dbpassword@ds040888.mongolab.com:40888/nscgmdatabase**
+**mongodb://dbuser:dbpassword@ds040888.mlab.com:40888/nscgmdatabase**
 
 **dbuser:** ist der vorher eingerichtete Datenbankbenutzer
 
@@ -75,7 +75,7 @@ Zum besseren Verständnis ausführlich erklärt:
 
 **@:** ist ein Verbindungszeichen, muss angegeben werden
 
-**ds040888.mongolab.com:** ist ein einzigartiger Name, über den die mongodb angesprochen wird
+**ds040888.mlab.com:** ist ein einzigartiger Name, über den die mongodb angesprochen wird
 
 **:** ist ein Verbindungszeichen, muss angegeben werden
 
@@ -88,20 +88,3 @@ Diese Daten bitte unbedingt im Datenblatt notieren. Bei evtl. Verbindungsproblem
 Es gibt **optionale** Komponenten zum Management der MongoDB im nächsten Kapitel, diese sind nicht Bestandteil der Implementierung.
 
 Ansonsten geht es jetzt weiter mit der Einrichtung von [GitHub](../nightscout/github.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
