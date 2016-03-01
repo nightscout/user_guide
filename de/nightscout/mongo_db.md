@@ -20,12 +20,13 @@ Wir starten mit der Einrichtung der Benutzer - Konten auf der mlab - Startseite:
 **SIGN UP:**
 ![mongodb sign up](../images/mongodb/mongodb_sign_up.jpg)
 
-Weiter gehts mit dem **Anlegen** der benötigten **Konten:** zur Verwaltung 
+Weiter gehts mit dem **Anlegen** der benötigten **Konten:** zur Verwaltung
+
 ![mongo db create account](../images/mongodb/mongo_db_create_account.jpg)
 
 **Passwörter**
 
-Der Einfachheit halber kann man den selben Benutzernamen (Account name) für die Verwaltung von mongolab als auch für den Datenbanknutzer (Username) nutzen, muss es aber nicht. Hauptsache: **Alles notieren**. Auch sind eigene Passwörter nur für mongolab und Nightscout sinnvoll, es sollten auf keinen Fall bereits bekannte Passwörter, welche man für andere Anlässe wie Online-Banking nutzt, verwendet werden.
+Der Einfachheit halber kann man denselben Benutzernamen (Account name) für die Verwaltung von mongolab als auch für den Datenbanknutzer (Username) nutzen, muss es aber nicht. Hauptsache: **Alles notieren**. Auch sind eigene Passwörter nur für mlab und Nightscout sinnvoll, es sollten auf keinen Fall bereits bekannte Passwörter, welche man für andere Anlässe wie Online-Banking nutzt, verwendet werden.
 
 **Überprüfung Email:**
 ![verifyemail](../images/mongodb/verifyemail.jpg)
@@ -35,9 +36,11 @@ Nachdem der Benutzer - Account eingerichtet wurde, bitte einmal im Postfach der 
 **Anlegen einer Datenbank:**
 
 Wir starten mit dem Klick:
+
 ![create_db](../images/mongodb/create_db.jpg)
 
 Alle gelb markierten Punkte sind auszufüllen, der Datenbankname ist frei wählbar:
+
 ![mongodb_details](../images/mongodb/mongodb_details.jpg)
 
 
