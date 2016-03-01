@@ -43,6 +43,15 @@ DexcomShare ist zZt. in Europa nicht verfügbar. Weitere Infos: http://www.dexco
 ### Kalibrieren
 ### Alarme
 #### BG-Level-Alerts
+Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- (Hochalarm) oder unterschreitet (Tiefalarm). Der Tiefalarm für Werte unter 55mg/dl ist vom System bereits voreingestellt und kann nicht verändert werden.
+
+Drücke "create low alert", um einen Tiefalarm selbst zu definieren. Unter "Alert Name" gibst du dem Alarm eine von dir ausgewählte Bezeichnung, z.B. zu niedrig 80. Bei "Threshold" tippst du den entsprechenden Wert (hier z.B. 80) ein. Unter "Default Snooze" gibst du die Minuten ein, nach denen sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der Wert aber nach wie vor zu tief ist; unter "Re-raise" die Minuten, nach denen sich der Alarm erneut melden soll, wenn du ihn ignoriert hast, der Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich bei Tiefalarmen einen kürzeren Zeitraum auszuwählen. Unter "Alert Tone" kannst du dir einen entsprechenden Alarmton bestimmen bzw. mit "choose file" aus deinem Smartphonerepertoire aussuchen. 
+Unter "select time for alert" ist "all day" bereits mit Häkchen versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch auf "all day" tippen, um dann mit "tap to change" einen gewissen Zeitraum (z.B. die Nacht) festzulegen. Du kannst den Alarm über "override phone silent mode" auch im Ruhemodus klingen lassen und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an "vibrate on alert". Zuletzt kannst du den Alarm noch testen und vergiss nicht, ihn zu speichern ("save alert"), wenn er dir zusagt!
+
+Entsprechend kannst du über "create high alert" eine Alarmkaskade nach oben schaffen.
+
+Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünschten Alarmes in den Bearbeitungsmodus.
+
 #### BG-Alert-Settings
 ##### Profil: High, Ascending, ...
 ##### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
