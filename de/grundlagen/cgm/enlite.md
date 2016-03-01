@@ -26,9 +26,9 @@ Im Netz findet man auch Hinweise auf eine Lösung für das Iphone (ab dem 4s und
 
 ## Guardian 2 Link Transmitter
 
-Offiziell wird der Guardian 2 Link Transmitter und dadurch die Minimed 640G Insulinpumpe noch nicht von NightScout unterstützt [(s. englische Nightscout Übersicht)](http://www.nightscout.info/wiki/faqs-2/how-do-you-get-your-cgm-in-the-cloud). 
+Seit Ende Februar 2016 wird der Guardian 2 Link Transmitter und dadurch die Minimed 640G Insulinpumpe jetzt auch von NightScout unterstützt [(s. englische Nightscout Seite)](http://www.nightscout.info/wiki/welcome/nightscout-and-medtronic-640g). 
 
-Ganz die Hoffnung aufgeben muss man mit der Minimed 640G aber dennoch nicht, da es mittlerweile ein recht vielversprechendes Projekt gibt, das die 640G erfolgreich in Nightscout einbindet. Für alle Interessierten, die der englischen Sprache mächtig sind, bietet sich ein Blick auf [Matt's Little D Blog an.](http://littlet1d.blogspot.co.uk/)
+Zusätzlich hat der Autor, Matt, noch einen englischen Blog, der sich mit dem Thema beschäftigt [Matt's Little D Blog an.](http://littlet1d.blogspot.co.uk/)
 
 Speziell im [Beitrag vom 18.01.16](http://littlet1d.blogspot.co.uk/2016/01/nightscout-on-640g-step-by-step-into.html) geht Matt auf die erforderlichen Schritte ein.
 
