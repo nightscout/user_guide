@@ -6,13 +6,13 @@ Nun installiert man die Datei "NightScout.apk" auf dem Smartphone. Eventuell mus
 
 Die Account-Information, die man auf dem Arbeitsblatt aus Kapitel 2.1. eingetragen hat, werden nun zum Konfigurieren der Medtronic Uploader App benötigt.
 
-Zuerst muss die Medtronic Uploader App geschlossen werden, falls diese bereits läuft. Nun den MMCommander über das USB OTG Kabel an das Smartphone anschließen. Es sollte sich automatisch ein Fenster öffnen, welches fragt, was getan werden soll. Dort die Nightscout App auswählen ind diese sollte danach automatisch starten.
+Zuerst muss die Medtronic Uploader App geschlossen werden, falls diese bereits läuft. Nun den MMCommander über das USB OTG Kabel an das Smartphone anschließen. Es sollte sich automatisch ein Fenster öffnen, welches fragt, was getan werden soll. Dort die Nightscout App auswählen und diese sollte danach automatisch starten.
 
-Jetzt wo der Uploader läuft, klickt man rechts oben auf die drei Punkte oder, abhängig vom jeweiligen Anroid Smartphone, man benutzt die Einstellungstaste des Gerätes. Es öffnet sich ein Menü und dort wählt man den Punkt "Preferences". Hier werden folgende Einstellungen vorgenommen:
+Wenn jetzt der Uploader läuft, klickt man rechts oben auf die drei Punkte oder, abhängig vom jeweiligen Android Smartphone, man benutzt die Einstellungstaste des Gerätes. Es öffnet sich ein Menü, und dort wählt man den Punkt "Preferences". Hier werden folgende Einstellungen vorgenommen:
 
 ![Einstellungen](../../images/enlite/settings.jpg)
 * 
-mmol/L -> hier kann man wählen, ob man lieber mit mmol/L oder mg/dl arbeitet.
+mmol/L -> hier kann man wählen, ob man lieber mit mmol/l oder mg/dl arbeitet.
 * 
 Type -> "Medtronic CGM" auswählen.
 * 
@@ -44,7 +44,7 @@ Wifi Hack -> deaktivieren
 * 
 2 Days at Startup -> aktivieren
 * 
-I UNDERSTAND -> hier steht ganz klar, dass Nightscout nicht genutzt werden darf, um medizinische Entscheidungen zu fällen. Es gibt weder Unterstützung noch irgendwelche Garantien. Die Qualität und Leistung dieses Projektes hängt einzig von Dir ab. Dieses Projekt wurde von Freiwilligen erstellt und weiter entwickelt. Dies muss man akzeptieren. -> aktivieren
+I UNDERSTAND -> Hier steht ganz klar, dass Nightscout nicht genutzt werden darf, um medizinische Entscheidungen zu fällen. Es gibt weder Unterstützung noch irgendwelche Garantien. Die Qualität und Leistung dieses Projektes hängt einzig von Dir ab. Dieses Projekt wurde von Freiwilligen erstellt und weiterentwickelt. Dies muss man akzeptieren. -> aktivieren
 * 
 Logging Level -> Error
 
