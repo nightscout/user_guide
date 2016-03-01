@@ -25,9 +25,11 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  ![github_search](../images/github/github_search.jpg)
  
+ 
  Und mit **Fork** kopieren wir den Code in unser eigenes Verzeichnis:
  
  ![github_branch_master](../images/github/github_branch_master.jpg)
+ 
  
  Das Ergebnis mit unserem eigenen **master** Branch:
  
