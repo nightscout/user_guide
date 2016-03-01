@@ -2,7 +2,7 @@
 
 Um den MMCommander zu bauen, wird folgende Hardware benötigt:
 
-ein "geeignetes" **Android Smartphone** mit USB OTG Unterstützung. Ob ein bereits vorhandenes Smartphone geeignet ist, lässt sich leider nicht sicher vorhersagen. Als Orientierung kann man sich auf [www.nightscout.info](www.nightscout.info) eine Liste mit bestätigten Smartphones ansehen: ([Liste](http://www.nightscout.info/wp-content/uploads/2015/02/Nightscout-OTG-Database_CGMitC.xlsx.pdf)). Zusätzlich gibt es eine Liste mit Smartphones, die laut Nightscout.info **nicht** funktionieren:
+ein "geeignetes" **Android Smartphone** mit USB OTG Unterstützung. Ob ein bereits vorhandenes Smartphone geeignet ist, lässt sich leider nicht sicher vorhersagen. Als Orientierung kann man sich auf [www.nightscout.info](http://www.nightscout.info) eine Liste mit bestätigten Smartphones ansehen: ([Liste](http://www.nightscout.info/wp-content/uploads/2015/02/Nightscout-OTG-Database_CGMitC.xlsx.pdf)). Zusätzlich gibt es eine Liste mit Smartphones, die laut Nightscout.info **nicht** funktionieren:
 
  
 * 
