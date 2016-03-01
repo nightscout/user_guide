@@ -1,8 +1,8 @@
 # Grundsätzliche Funktionsweise/Ausblick
 
-Man kann Nightscout auf verschiedene Weisen nutzen:
+Man kann Nightscout auf verschiedene Weise nutzen:
 
-* als Kontroll- und Alarmsystem für Angehörige von Diabetes betroffenen, insbesondere für Kinder oder ältere Menschen mit Diabetes.
+* als Kontroll- und Alarmsystem für Angehörige von Diabetes Betroffenen, insbesondere für Kinder oder ältere Menschen mit Diabetes.
 
 * als Visualisierung deiner eigenen CGM-Daten direkt am Handgelenk.
 
