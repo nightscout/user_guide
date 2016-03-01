@@ -1,6 +1,6 @@
 # Fehlerbehebung
 
-Da die meisten Informationen in diesem Handbuch zum Thema MMCommander und Medtronic Uploader frei aus der entsprechenden englischen Installationsanleitung übersetzt wurden und dabei auch einige, nicht zwingend notwendige, Informationen weggelassen wurden, kann man eventuell [dort](https://github.com/jberian/mmcommander/blob/master/INSTALL.pdf) auch weitere Informationen finden.
+Da die meisten Informationen in diesem Handbuch zum Thema MMCommander und Medtronic Uploader frei aus der entsprechenden englischen Installationsanleitung übersetzt wurden und dabei auch einige, nicht zwingend notwendige, Informationen weggelassen wurden, kann man eventuell [dort](http://github.com/jberian/mmcommander/) in der Datei INSTALL.pdf auch weitere Informationen finden.
 
 ## Probleme beim Verbinden des CC Debuggers mit dem CC1111
 
@@ -28,5 +28,5 @@ Wenn die LED des CC Debuggers rot blinkt, dann hat der Debugger selbst einen Feh
 
 ## Grundsätzlich
 
-Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann empfiehlt sich ein Blick in die englische Originaldatei [install.pdf](https://github.com/jberian/mmcommander/blob/master/INSTALL.pdf), die der Autor geschrieben hat. 
+Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann empfiehlt sich ein Blick in die bereits oben erwähnte englische Originaldatei INSTALL.pdf, die der Autor geschrieben hat. 
 
