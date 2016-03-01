@@ -8,6 +8,6 @@ Man kann Nightscout auf verschiedene Weise nutzen:
 
 * als Blutzucker Tagebuch mit umfangreichen Auswertungsmöglichkeiten.
  
-* als Monitoring System für ein APS.
+* als Monitoring System für ein APS. (Artificial Pancreas System - der sogenannte "Closed Loop")
 
-* als "Eingang in den Hasenbau", um diese Daten weiter zu verwerten
+* als "Eingang in den Hasenbau", um diese Daten weiter zu verwerten.
