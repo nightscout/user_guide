@@ -7,12 +7,12 @@
 
 Den Einstieg in deutscher Sprache findet man hier: [Azure ](https://azure.microsoft.com/de-de/)
 
-Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangen wir zur Registrieungsseite:
+Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangen wir zur Registrierungsseite:
 
 ![azure_reg](../images/azure/azure_reg.jpg)
 
 Sollte man schon ein Konto haben, kann man sich einfach anmelden, ansonsten geht es mit der **Registrierung** weiter.
-Wir werden aufgefordert, die Kreditkarten Daten einzugeben, die Karte wird nicht belastet.
+Wir werden aufgefordert, die Kreditkartendaten einzugeben, die Karte wird nicht belastet.
 Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Portal anmelden.
  Über den Klick auf **Portal** befinden wir uns jetzt im Azure Portal und können die Web - Applikation konfigurieren.
  
@@ -20,21 +20,23 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  ![azure_portal](../images/azure/azure_portal.jpg)
  
- Mit dem Button **+ Neu** richten wir eine neue **Ressource** ein. Die Menüführung ist kaskadiert ,alle gelb markierten Punkte sind auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:
+ 
+ Mit dem Button **+ Neu** richten wir eine neue **Ressource** ein. Die Menüführung ist kaskadiert, alle gelb markierten Punkte sind auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:
  
  
  ![azure_config_app](../images/azure/azure_config_app.jpg)
  
+ 
  Mit dem Button **Erstellen** speichern wir die Einstellungen. Dieses kann einige Zeit
  in Anspruch nehmen.
  
- Der Name der Nightscout - Website ist jetzt: **nscgmq01.azurewebsites.net**. Diesen Namen bitte auch notieren.
+ Der Name der Nightscout - Website ist jetzt AppServiceName.azurewebsites.net, hier im Beispiel: **nscgmq01.azurewebsites.net**. Diesen Namen bitte auch notieren.
  
  Wenn die Web-App erstellt wurde, erscheint diese Ansicht:
  
  ![azure_app_created](../images/azure/azure_app_created.jpg)
  
- Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt,ob die App **online** oder **Stopped** ist.
+ Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt, ob die App **online/running** oder **Stopped** ist.
 
  
  Weiter geht es mit der
@@ -44,18 +46,18 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  ![azure_mongodb_connection](../images/azure/azure_mongodb_connection.jpg)
  
- **mongo:** Parametername
+ - **mongo:** Parametername
  
- **mongodb://dbuser:dbpassword@ds040888.mongolab.com:40888/nscgmdatabase**: Verbindungszeichenfolge, diese steht im vorher ausgefüllten Datenblatt
+ **mongodb://dbuser:dbpassword@ds040888.mlab.com:40888/nscgmdatabase**: Verbindungszeichenfolge, diese steht im vorher ausgefüllten Datenblatt
  
  **Benutzerdefiniert**: Attribut
  
  
  Wir machen auf die gleiche Weise weiter mit der Angabe der **mongodb Collection:**
  
- **mongo_collection**: Parametername
+ - **mongo_collection**: Parametername
  
- **entries**: Standard: entries, die Collection, in der die CGM Werte gespeichert werden. GGF. muss der Name angepasst werden.
+ **entries**: Standard: entries, die Collection, in der die CGM Werte gespeichert werden. Ggf. muss der Name angepasst werden.
  
  **Benutzerdefiniert**: Attribut
  
@@ -64,25 +66,25 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  ![azure_save](../images/azure/azure_save.jpg)
  
  
- Jetzt fehlt noch das **API SECRET**. 
+ - Jetzt fehlt noch das **API SECRET**. 
 
- Der API_SECRET Wert muss als **Minimum zwölf Zeichen** lang sein, da sonst die Nightscout Seite einfach weiss bleibt, und ist frei wählbar.
+ Der API_SECRET Wert muss als **Minimum zwölf Zeichen** lang sein, da sonst die Nightscout Seite einfach weiß bleibt, und ist frei wählbar.
  Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
  
- **API_SECRET**:Parametername
+ **API_SECRET**: Parametername
  
- **Y3KmrdFA12jmk**: API SECRET Wert
+ **Y3KmrdFA12jmk**: API SECRET Wert (Beispiel)
  
  **Benutzerdefiniert**: Attribut
  
  
  An dieser Stelle noch ganz wichtig den 
  
- Parametername : **TREATMENTS_AUTH** 
+ - Parametername : **TREATMENTS_AUTH** 
  
  mit dem Wert: **ON**
  
- Attribut **Benutzerdefiniert** Hinzufügen sonst kann auch **jeder** der die Website kennt auch **ohne den geheimen** Wert vom API Secret werte in eurer Datenbank **hinzufügen** oder **verändern**.
+ Attribut **Benutzerdefiniert** hinzuzufügen sonst kann auch **jeder**, der die Website kennt, auch **ohne den geheimen** Wert vom API Secret Werte in eurer Datenbank **hinzufügen** oder **verändern**.
 
  
  **Speichern** nicht vergessen.
@@ -130,7 +132,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 #Einbindung des GitHub Source Codes
 
 Zu Bereitstellung der Nightscout -Website fehlt uns noch der `cgm-remote-monitor`, den wir über GitHub laden.
-Wir steigen hier ein, die Verbindung herzustellen:
+Wir steigen hier ein, um die Verbindung herzustellen:
 
 ![azure_choose_github](../images/azure/azure_choose_github.jpg)
 
@@ -139,7 +141,8 @@ Jetzt folgt die **GitHub Autorisierung:**
 
 ![github_authorize](../images/azure/github_authorize.jpg).
 
-Nachdem man gitHub Benutzername uns Passwort eingegeben hat, erscheint diese Meldung:
+
+Nachdem man gitHub Benutzernamen und Passwort eingegeben hat, erscheint diese Meldung:
 
 ![azure_authorize_github](../images/azure/azure_authorize_github.jpg).
 
@@ -167,11 +170,11 @@ Die Einrichtung ist fertig.
 Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure - Portal gibt es eine **Preisübersicht:**
 
 ![azure_prices](../images/azure/azure_prices.jpg)
- Mit dem Button Preisrechner können wir uns weitere Details ansehen. Wir wählen App Service aus un erhalten folgende Übersicht:
+ Mit dem Button Preisrechner können wir uns weitere Details ansehen. Wir wählen App Service aus und erhalten folgende Übersicht:
  
  ![azure_prices_web](../images/azure/azure_prices_web.jpg)
  
- **WICHTIG: **Die Tarife unterscheiden sich nach Region, es ist wichtig Nordeuropa oder die USA auszuwählen, für andere Regionen entstehen ansonsten Kosten, die nicht nötig sind.
+ **WICHTIG: **Die Tarife unterscheiden sich nach Region, es ist wichtig, Nordeuropa oder die USA auszuwählen, für andere Regionen entstehen ansonsten Kosten, die nicht nötig sind.
  
  Jetzt können wir uns unsere eigene  [Nightscout Website](../nightscout/die_nightscout_website.md) ansehen und konfigurieren.
  
