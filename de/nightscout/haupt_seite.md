@@ -7,7 +7,7 @@ In der Abbildung ist die Web Site mit Elementen zu sehen. Mit dem Klick auf das 
 ![nightscout_base_site](../images/nightscout/nightscout_base_site.jpg)
 
 
-Nach dem erstmaligem Aufruf rufen wir die **Einstellungen** auf. Hier kann man
+Nach dem erstmaligen Aufruf rufen wir die **Einstellungen** auf. Hier kann man
 weiter zu **Berichte**, **Profil-Einstellungen**, **Admin Tools** gelangen.
 Über die Auswahlfelder konfiguriert man das Erscheinungsbild, die Sprache, Alarme
 und Plugins. Bei Änderungen **Speichern** nicht vergessen.
@@ -20,7 +20,7 @@ und Plugins. Bei Änderungen **Speichern** nicht vergessen.
 Wir machen weiter mit den **Profil-Einstellungen**. Neben allgemeinen Einstellungen
  wird hier auch eingestellt, ob die Plugins angezeigt werden sollen, oder nicht.
 Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu ist das 
-[API SECRET](../nightscout/azure.md) einzugeben. Am Ende machen wir ein **Update record**.
+[API SECRET](../nightscout/azure.md) einzugeben. Am Ende machen wir ein **Update record/Speichern**.
 
 
 **Profil-Einstellungen:**
