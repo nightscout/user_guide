@@ -4,9 +4,9 @@ Es wird ein CGM benötigt. Dexcom funktioniert. Langsam kommt aber auch das Enli
 
 Ein internetfähiges Smartphone z.B. netzclub sim
 
-Ein Stück Hardware um die Verbindung Transmitter -> Smartphone herzustellen
+Ein Stück Hardware, um die Verbindung Transmitter -> Smartphone herzustellen
 
-Die Einrichtung der Datenbank wo alle CGM Werte gespeichert werden und die Einrichtung der Nightscout Seite selbst.
+Die Einrichtung der Datenbank, in der alle CGM Werte gespeichert werden, und die Einrichtung der Nightscout Seite selbst.
 
 Optional kann eine Smartwatch angebunden werden.
 
