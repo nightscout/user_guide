@@ -1,4 +1,4 @@
-# finanzielles / technische Voraussetzungen
+# finanzielle / technische Voraussetzungen
 
 Für den Anfang benötigt man:
 * 
