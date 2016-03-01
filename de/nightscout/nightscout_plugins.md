@@ -14,6 +14,8 @@ Der Behandlungs Profil Editor speichert angepasste Werte für die persönliche T
 
 Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden **Erklärungstexte** in englischer Sprache angezeigt.
 
+Bei **Timezone** bitte die gewünschte Zeitzone Einstellen. 
+
 Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer des Bolus - Insulins. Die Plugins iob, bwp  benötigen diese Eingaben.
 
 Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden müssen. Die Plugins iob und cob benötigen diese Eingaben.
