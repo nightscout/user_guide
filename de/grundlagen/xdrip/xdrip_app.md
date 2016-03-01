@@ -1,6 +1,6 @@
 # xDrip App
 
-Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy läuft. Sie dient dazu CGM-Werte auf dem Mobiltelefon und einer Smart-Watch anzuzeigen, auszuwerten und bei Bedarf zu NightScout hochzuladen.
+Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und einer Smart-Watch anzuzeigen, auszuwerten und bei Bedarf zu NightScout hochzuladen.
 Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz.
 
 
@@ -28,14 +28,14 @@ Wer hinreichende technische Kenntnisse hat, kann sich aus den Sourcen selbst die
 ### Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
 Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter empfangen und an die xDrip-App übergeben werden.
 * Bluetooth Wixel  
-xDrip in classic - xml. Selbst komimpilierte wxl, in die die individuelle Transmitter-ID einkompliliert wurde. Erstellt gemäß dieser [Anleitung](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip)  
+xDrip in classic - xml. Selbst kompilierte wxl, in die die individuelle Transmitter-ID einkompliliert wurde. Erstellt gemäß dieser [Anleitung](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip)  
 Link: https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
 * xBridge Wixel  
 xDrip in xBridge2 wxl. Aus dieser [Quelle](https://github.com/jstevensog/wixel-sdk)
 * Wifi Wixel  
 Weitere Infos, siehe: ?
 * Wifi Wixel + BT Wixel  
-Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, die im ganzen Haus dem Empfang sicherstellen. Außerhalb des WLANs werden die Daten vom BT-Wixel empfangen. Weitere Infos: https://github.com/jamorham/python-usb-wixel-xdrip 
+Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, die im ganzen Haus den Empfang sicherstellen. Außerhalb des WLANs werden die Daten vom BT-Wixel empfangen. Weitere Infos: https://github.com/jamorham/python-usb-wixel-xdrip 
 * DexcomShare  
 DexcomShare ist zZt. in Europa nicht verfügbar. Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
 
@@ -64,12 +64,12 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 ### Settings
 |Name|Bedeutung|Empfehlung für Einsteiger|
 |--|--|--|
-|Bg Untis| "mg/dl" oder "mmol"| -|
+|Bg Units| "mg/dl" oder "mmol"| -|
 | High Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu hoch" gewertet wird. | -|
 | Low Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu tief" gewertet wird. | -|
 |...|
-| Display Brdige Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eiene Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
-| Run Collectoin Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
+| Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
+| Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
 ### Widgets
 ### Werte vorlesen lassen
 ### Statistik
@@ -82,7 +82,7 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 1. **Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als "hm-soft", nicht als „xBridge“ oder „xDrip“.  
 Was muss ich tun, damit das neue xDrip (richtig) funktioniert?  
 **Antwort: **  
-Sobald der BT-Chip Strom hat, kann sich das Handy damit verbinden. Das heißt lieder noch nicht, dass die Daten-Leitung Wixel->BT-Chip passt.
+Sobald der BT-Chip Strom hat, kann sich das Handy damit verbinden. Das heißt leider noch nicht, dass die Daten-Leitung Wixel->BT-Chip passt.
 Klicke im System Status auf "forget device", Wixel kurz stromlos machen und danach neu verbinden. 
 Wenn danach der Chip immer noch "hm-soft" heißt, dann stimmt irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht.  
 .1 Verkabelung zwischen Wixel und Bluetooth-Modul prüfen.  
