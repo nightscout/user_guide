@@ -14,8 +14,7 @@ ein bisschen Zeit /Geduld
 
 
 * 
-CGM (durch die Krankenkasse oder privat finanziert)
-
+CGM (durch die Krankenkasse oder privat finanziert). Dexcom G4 Platinum funktioniert sehr gut. Langsam kommt aber auch das Enlite dazu.
 
 * 
 [xDrip](https://nightscout.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html) (ca. 50 bis 60€)
