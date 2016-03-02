@@ -36,9 +36,9 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
 |ALARM_LOW |on|  mögliche Werte: on oder off|
 |ALARM_URGENT_LOW |on|  mögliche Werte: on oder off|
 |ALARM_TIMEAGO_WARN |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_WARN_MINS |15|  Minuten seit dem letzen Lesen, um eine Warnung auszugeben|
+|ALARM_TIMEAGO_WARN_MINS |15|  Minuten seit dem letzten Lesen, um eine Warnung auszugeben|
 |ALARM_TIMEAGO_URGENT |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit dem letzen Lesen, um eine alarmierende Warnung auszugeben|
+|ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit dem letzten Lesen, um eine alarmierende Warnung auszugeben|
 |SHOW_PLUGINS|  enabled |Zeigt an, welche Plugins in der Grafik angezeigt werden sollen. Diese müssen vorher mit ENABLE bei den Azure App.-Settings konfiguriert sein|
 
 
