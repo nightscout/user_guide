@@ -16,10 +16,10 @@ Wir können einige Standard Plugins **deaktivieren**, die standardmäßig aktiv 
 |upbat |zeigt den aktuellsten Batterieladezustand des Uploader - Smartphones an|
 |errorcodes |erzeugt Alarme für CGM Fehlermeldungen |
 |ar2 | erzeugt Alarme basierend auf prognostizierten Werten|
-|simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um alarme zu erzeugen|
+|simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um Alarme zu erzeugen|
 
 
-Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Dieses hat den Vorteil, das man egal von welchem Browser oder einer Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden diese nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
+Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
 
 
 |Parameter |  Wert |Beschreibung|
@@ -36,9 +36,9 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
 |ALARM_LOW |on|  mögliche Werte: on oder off|
 |ALARM_URGENT_LOW |on|  mögliche Werte: on oder off|
 |ALARM_TIMEAGO_WARN |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_WARN_MINS |15|  Minuten seit des letzen Lesens um eine Warnung auszugeben|
+|ALARM_TIMEAGO_WARN_MINS |15|  Minuten seit dem letzen Lesen, um eine Warnung auszugeben|
 |ALARM_TIMEAGO_URGENT |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit des letzen Lesens um eine alarmierende Warnung auszugeben|
+|ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit dem letzen Lesen, um eine alarmierende Warnung auszugeben|
 |SHOW_PLUGINS|  enabled |Zeigt an, welche Plugins in der Grafik angezeigt werden sollen. Diese müssen vorher mit ENABLE bei den Azure App.-Settings konfiguriert sein|
 
 
@@ -46,7 +46,7 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
 
 Nach Eingabe der Daten das **Speichern** nicht vergessen.
 
-Die Einstellungen sehen dann so aus:
+Die Einstellungen sehen dann z.B. so aus:
 
 ![azure_app_entries](../images/azure/azure_app_entries.jpg)
 
@@ -58,7 +58,7 @@ Anbindung der **Share2Nightscout Bridge** Funktionalität
 Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird über diesen Weg konfiguriert.
 Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABLE ind den App-Einstellungen hinzufügen.
  
- Nutzer der Share2bridge Funktionalität können ihr Parameter  in den Connection Strings konfigurieren:
+ Nutzer der Share2bridge Funktionalität können ihre Parameter  in den Connection Strings konfigurieren:
  
  **Share2Nightscout Bridge Parameter:**
  
@@ -75,7 +75,7 @@ Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABL
  
  **Minimed Connect Anbindung**
  
- Wir können Minimed CGM - Systeme einbinden, wenn wir einen [Carelink Benutzeraccount](https://carelink.minimed.com/patient/entry.jsp?bhcp=1) besitzen. Das  Minimed Connect Plugin Plugin lädt sich die Daten von den Medtronic Servern. Diese erhalten die Daten über die Minimed Connect App.
+ Wir können Minimed CGM - Systeme einbinden, wenn wir einen [Carelink Benutzeraccount](https://carelink.minimed.com/patient/entry.jsp?bhcp=1) besitzen. Das  Minimed Connect Plugin lädt sich die Daten von den Medtronic Servern. Diese erhalten die Daten über die Minimed Connect App.
 
 Die Einstellungen erfolgen über die **Connection Strings**:
 
@@ -94,7 +94,7 @@ Nach der Eingabe **Speichern** nicht vergessen.
 
  
 Wir können weitere Werte individuell konfigurieren, wenn wir es wollen.
-Die umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
+Diese umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
 
 |Parameter |  Beschreibung |
 | -- | -- |
