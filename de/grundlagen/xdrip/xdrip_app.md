@@ -40,6 +40,20 @@ Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, di
 DexcomShare ist zZt. in Europa nicht verfügbar. Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
 
 ### Starten des Sensors
+Hier kann man durch Auswahl das Datum und die Uhrzeit im 12-Stunden Format eingeben,
+AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A**m **M**orgen
+PM = post meridiem, auf Deutsch: NACH dem Mittag
+
+Darunter folgt ein Warnhinweis, frei übersetzt: Erst dann auf "Sensor Start" tippen, wenn der Sensor gelegt und der Transmitter (Sender) auf der Sensorplatte befestigt worden ist.
+
+Und weiter:
+Bitte das Datum und die genaue Uhrzeit der Sensorlegezeit auswählen, zumindest so nah dran, wie man sich noch erinnert.
+(Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf dem Smartphone zu speichern, falls man den Sensor später mit diesem Zeitpunkt nochmal neu starten möchte, z.B. um die bisherigen Kalibrierungen zu löschen.)
+
+Wenn also sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man unten auf das Feld "Start Sensor".
+
+Nun erscheint auf dem Hauptbildschirm in roten Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten (rückwärtslaufend) eine Doppelkalibrierung benötigt.
+
 ### Kalibrieren
 ### Alarme
 #### BG-Level-Alerts
