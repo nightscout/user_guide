@@ -5,7 +5,7 @@ Insulinpflichtige Diabetiker müssen zyklisch ihren Blutzucker prüfen. Eine Mö
 Eines der am Markt erhältlichen CGM-Systeme stammt von der Firma Dexcom.
 
 
-Eine kurze Beschreibung zum Prozessablauf:
+**Eine kurze Beschreibung zum Prozessablauf:**
 
 
 * Ein Dexcom-Sensor liegt auf/unter der Haut und misst den Zucker.
@@ -13,7 +13,7 @@ Eine kurze Beschreibung zum Prozessablauf:
 * Im regulären Prozess würde die Meldung des Transmitters vom Dexcom-Receiver empfangen und angezeigt. 
 * Durch den Einsatz von xDrip kann der Dexcom-Receiver entfallen. Die vom Transmitter gesendeten Werte werden dann von einer selbst gebauten Hardware (xDrip) empfangen und via Bluetooth an ein Android-Handy gesendet.  Auf dem Handy wird die xDrip-App installiert.
 
-xDrip besteht aus zwei Komponenten: 
+**xDrip besteht aus zwei Komponenten: **
 1. 
 Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe [Bausatz](../bausatz.md)) miteinander verlötet.
 
@@ -25,3 +25,17 @@ Die [xDrip App](../xdrip_app.md), die auf ein Android-Handy aufgespielt und mit 
  *	Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, Nightscout)
  *	Alarm bei (zuvor individuell definierten) meldewürdigen Werten / Verlauf
  *	Export der Werte zur Auswertung in anderen Systemen (zB. SiDiary, Excel)
+
+
+
+**Abgrenzung**
+
+* xDrip hat keine Freigabe als medizinisches Produkt,
+* xDrip hat keine Garantie, keine Gewährleistung.
+* xDrip ist kein käufliches Produkt.
+* xDrip wird zu 100% in einer Verantwortung genutzt.
+* xDrip kann die Messung von Blutzucker nicht vollständig ersetzen. (Kontrollen und Kalibrierungen sind nötig.)
+* xDrip steuert nicht die Abgabe einer Insulinpumpe.
+* xDrip wird ausschließlich von Freiwilligen und ohne jede Bezahlung entwickelt.
+* xDrip hat keinen zentralen Ansprechpartner, keine Hotline, keinen Verantwortlichen
+* xDrip arbeitet mit den Transmittern „Dexcom G4“ und „Dexcom G5 **Share**“. Der „Dexcom G5 **Share**" ist in Europa zur Zeit nicht erhältlich. (Stand 03/2016)
