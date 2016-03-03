@@ -41,7 +41,7 @@ DexcomShare ist zZt. in Europa nicht verfügbar. Weitere Infos: http://www.dexco
 
 ### Starten des Sensors
 Hier kann man durch Auswahl das Datum und die Uhrzeit im 12-Stunden Format eingeben,
-AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A**m **M**orgen
+AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A**m **M**orgen;
 PM = post meridiem, auf Deutsch: NACH dem Mittag
 
 Darunter folgt ein Warnhinweis, frei übersetzt: Erst dann auf "Sensor Start" tippen, wenn der Sensor gelegt und der Transmitter (Sender) auf der Sensorplatte befestigt worden ist.
