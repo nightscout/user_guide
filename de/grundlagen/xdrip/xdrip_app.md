@@ -11,6 +11,23 @@ Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder
 
 ---
 ##Screenshots:
+**Hauptansicht**
+* aktueller BZ mit Trendpfeil
+* Zeit seit letzter Messung
+* Differenz zur vorletzten Messung
+* Batterie-Stand von xDrip/xBridge (optional)
+* dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“.
+* dünne rote Gerade: Individuell definierte Grenze für „zu tief“.
+* Verlauf der letzten drei Stunden.  
+Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert.  
+ * blau: im Zielbereich  
+ * gelb: zu hoch  
+ * rot: zu tief  
+ * rot/weiß: Kalibrierungen.
+
+* unterer Bereich:  
+Der Verlauf der letzten 24 Stunden. Der unten, rechts markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind.  
+
 ![xDrip_Screenshot_Hauptansicht.png](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png) ![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png)
 
 ![xDrip_Screenshot_statistic_2](../../images/xdrip/xDrip_Screenshot_statistic_2.png) ![xDrip_Screenshot_statistic_3.png](../../images/xdrip/xDrip_Screenshot_statistic_3.png)
