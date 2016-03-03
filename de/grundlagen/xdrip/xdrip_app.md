@@ -177,8 +177,8 @@ Was muss ich tun, damit das neue xDrip (richtig) funktioniert?
 Sobald der BT-Chip Strom hat, kann sich das Handy damit verbinden. Das heißt leider noch nicht, dass die Daten-Leitung Wixel->BT-Chip passt.
 Klicke im System Status auf "forget device", Wixel kurz stromlos machen und danach neu verbinden. 
 Wenn danach der Chip immer noch "hm-soft" heißt, dann stimmt irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht.  
-.1 Verkabelung zwischen Wixel und Bluetooth-Modul prüfen.  
-.2 Baud-Rate prüfen.  Bei einigen HM11-Modulen ist die Baudrate falsch gesetzt. Ggf. also die Baudrate einstellen.
+ * Verkabelung zwischen Wixel und Bluetooth-Modul prüfen.  
+ * Baud-Rate prüfen.  Bei einigen HM11-Modulen ist die Baudrate falsch gesetzt. Ggf. also die Baudrate einstellen.
 
 1. **Frage:** nächster Punkt kommt dann hierher
 
