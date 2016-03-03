@@ -115,6 +115,12 @@ Die xdrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem 
 Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xdrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widget antippen, fertig!
 
 ### Werte vorlesen lassen
+Beim Autofahren oder wenn man aus anderen Gründen die Hände gerade nicht frei hat (z.B. weil man mit den Händen im Spülwasser oder im Kuchenteig steckt) kann man sich die jeweiligen Messwerte laut vorlesen lassen, wenn das Smartphone die sog. "Text-to-speech" Möglichkeit bietet.
+
+Dazu geht man zuerst im xdrip Menü auf Settings (Einstellungen) und verschiebt den Bildschirmtest so lange nach oben, bis man weit unten unter "Other Settings" (Sonstige Einstellungen) den Punkt "**Speak Readings**" findet. Hier setzt man ein Häkchen, woraufhin sich ein Dialogfenster öffnet und fragt, ob man eine passende Text-To-Speech Datei installieren möchte. Bejaht man dies, öffnet sich ein weiteres Fenster, in dem man sich verschiedene Sprachbeispiele (alle mit weiblicher Stimme) anhören (Pfeil antippen) oder gleich die Datei dazu installieren (Download Symbol antippen) kann.
+
+Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man gleich noch ein Häkchen  direkt unter Speak Readings bei "**Speak Readings Shortcut**" setzen. Dadurch ist die Vorlesefunktion in das xdrip Menü (je nach Smartphone drei kleine Punkte oben rechts auf dem Hauptbildschirm der App oder bei geöffneter App die Smartphonefläche unten links) aufgenommen und kann gleich dort mit Häkchen aktiviert oder deaktiviert werden.
+
 ### Statistik
 
 Wenn man im xdrip Menü den Punkt Statistics antippt, gelangt man zu den Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen auswählen kann.
