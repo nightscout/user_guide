@@ -55,6 +55,13 @@ Wenn also sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitz
 Nun erscheint auf dem Hauptbildschirm in roten Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten (rückwärtslaufend) eine Doppelkalibrierung benötigt.
 
 ### Kalibrieren
+Zwei Stunden nach dem Sensorstart müssen die vom Sensor gemessenen Werte mit zwei von einem Blutzuckermessgerät direkt hintereinander ermittelten Werten abgestimmt, kalibriert werden. Hierfür geht man über das xdrip Menü zum Punkt **"Add double calibration"** und tippt jeweils in die Felder mit der blinkenden Schreibmarke (cursor) und gibt über die auf diese Weise aufgerufene Tastatur den durch zwei Blutzuckermessungen ermittelten Wert ein. Danach tippt man auf das Feld "done", auf Deutsch: erledigt. Nach einer kurzen Verzögerung (nicht wundern, das System arbeitet) geht es automatisch zurück zum Hauptbildschirm und die ersten Sensormesswerte sind schon in der Grafik eingetragen.
+
+Für ein paar Minuten erscheint im Auswahlmenü die Möglichkeit **"Override Calibration"**, auf Deutsch: Kalibrierung überschreiben. Damit können falsch eingegebene Werte durch die richtigen Werte ersetzt werden.
+
+Anschließend gibt es im Menü nicht mehr die Doppel-, sondern die einfache Kalibrierung **"Add Calibration"**, die wie die Doppelkalibrierung funktioniert, nur dass lediglich ein einzelner mit dem Blutzuckermessgerät gemessene Wert eingetragen werden muss. Wie oft man (einfach) kalibriert, ist Geschmacksache, es sollte jedenfalls nicht zu häufig sein. Man kann sich daran orientieren, dass der Dexcom Receiver alle zwölf Stunden eine Kalibrierung abfragt. Und man kann bei Zweifeln an der Richtigkeit der vom Sensor gemessenen Werte auch mit einem Messgerät gegenmessen, ohne zu kalibrieren. Unstimmigkeiten müssen nicht zwingend am Sensor liegen, sie können auch darin begründet sein, dass der Gewebezuckerwert im Vergleich zum Blutzuckerwert mehrere Minuten verzögert eine Veränderung aufzeigt. Eine Kalibrierung zu einem solchen Zeitpunkt würde sich ungünstig auf die Messgenauigkeit auswirken. Daher der **Merksatz**: *Eine Kalibrierung zu Zeiten durchführen, in denen der Blutzucker möglichst stabil ist*, also z.B. vor einer Mahlzeit.
+
+
 ### Alarme
 #### BG-Level-Alerts
 Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- (Hochalarm) oder unterschreitet (Tiefalarm). Der Tiefalarm für Werte unter 55mg/dl ist vom System bereits voreingestellt und kann nicht verändert werden.
