@@ -155,7 +155,7 @@ Der Median BG ist der Wert in der Mitte der gemessenen Werte, damit werden Ausre
 
 Der Mean BG ist das arithmetische Mittel der gemessenen Werte (Bsp: 1+3+5+5+9=23/5=4,6).
 
-HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach angetipptem Zeitraum der HbA1c in mmol/l und in mg/dl überschlägig berechnet.
+HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach angetipptem Zeitraum der HbA1c in mmol/mol und in mg/dl überschlägig berechnet.
 
 StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie zeigt die durchschnittliche Abweichung der Werte vom Mittelwert an.
 
