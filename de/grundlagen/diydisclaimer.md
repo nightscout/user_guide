@@ -18,7 +18,7 @@
 
 ---
 
-Alle Informationen und Gedanken des hier beschriebenen Programmcodes sind ausschließlich zu Informationszwecken und für pädagogische Zwecke bestimmt. Die Verwendung von Programmcode aus **github.com** ist ohne jede Garantie oder Unterstützung jeglicher Art.
+Alle Informationen und Gedanken der hier beschriebenen Programmcodes sind ausschließlich zu Informationszwecken und für pädagogische Zwecke bestimmt. Die Verwendung von Programmcodes der Homepage **www.github.com** ist ohne jede Garantie oder Unterstützung jeglicher Art.
 
 Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System unbrauchbar werden kann!
 
