@@ -10,4 +10,4 @@ Man kann Nightscout auf verschiedene Weise nutzen:
  
 * als Monitoring System für ein APS. (Artificial Pancreas System - der sogenannte "Closed Loop")
 
-* als "Eingang in den Hasenbau", um diese Daten weiter zu verwerten.
+* als Schnittstelle, um diese Daten weiter zu verwerten.
