@@ -18,7 +18,7 @@ Wir starten mit der Einrichtung der Benutzer - Konten auf der mlab - Startseite:
 
 
 **SIGN UP:**
-![mongodb signin up](../images/mongodb/mongodb_signin_up.jpg)
+![mongodb signin up](../images/mongodb/mlab_sign_up.jpg)
 
 Weiter gehts mit dem **Anlegen** der benötigten **Konten:** zur Verwaltung
 
