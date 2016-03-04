@@ -157,7 +157,7 @@ Der Mean BG ist das arithmetische Mittel der gemessenen Werte (Bsp: 1+3+5+5+9=23
 
 HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach angetipptem Zeitraum der HbA1c in mmol/mol und in mg/dl überschlägig berechnet.
 
-StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie zeigt die durchschnittliche Abweichung der Werte vom Mittelwert an.
+StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie ist ein Maß für die Streuung der Werte.
 
 
 Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in ihrer Verteilung als Tortengrafik dargestellt. Grün steht für innerhalb der Grenzwerte, gelb für hoch und rot für tief.
