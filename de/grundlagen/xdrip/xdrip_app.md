@@ -71,6 +71,16 @@ Wenn also sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitz
 
 Nun erscheint auf dem Hauptbildschirm in roten Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten (rückwärtslaufend) eine Doppelkalibrierung benötigt.
 
+
+### Stoppen des Sensors
+Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt "Start Sensor" durch den Menüpunkt "**Stop Sensor**" ersetzt. 
+
+Wenn man hier antippt, erscheint ein Warnhinweis, man möge den Sensor nur dann stoppen, wenn man auch vorhat, ihn zu entfernen. Darunter befindet sich das Feld mit der Aufschrift "Stop Sensor". In dieses Feld tippt man, um den Sensor zu stoppen.
+
+Ab diesem Moment wechselt die Anzeige im Menü wieder zu "Sensor start".
+
+
+
 ### Kalibrieren
 Zwei Stunden nach dem Sensorstart müssen die vom Sensor gemessenen Werte mit zwei von einem Blutzuckermessgerät direkt hintereinander ermittelten Werten (aus verschiedenen Fingern) abgestimmt, kalibriert werden. Hierfür geht man über das xdrip Menü zum Punkt **"Add double calibration"** und tippt jeweils in die Felder mit der blinkenden Schreibmarke (cursor) und gibt über die auf diese Weise aufgerufene Tastatur den durch zwei Blutzuckermessungen ermittelten Wert ein. Danach tippt man auf das Feld "done", auf Deutsch: erledigt. Nach einer kurzen Verzögerung (nicht wundern, das System arbeitet) geht es automatisch zurück zum Hauptbildschirm und die ersten Sensormesswerte sind schon in der Grafik eingetragen.
 
@@ -127,7 +137,7 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 | Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
 | Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
 ### Widgets
-Die xdrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glocosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xdrip App.
+Die xdrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glucosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xdrip App.
 
 Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xdrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widget antippen, fertig!
 
