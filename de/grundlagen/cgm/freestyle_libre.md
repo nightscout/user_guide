@@ -2,12 +2,10 @@
 
 
 Das Freestyle-Lesegerät ist nicht nightscout-fähig, jedoch eine Android-App, die die Sensoren auch auslesen kann.
-Z.T. andere Werte als das Lesegerät.
-Keine Alarme; Benutzer muss aktiv werden; nicht geeignet für APS
+Z.T. werden von der Android-App andere Werte ausgelesen als vom Lesegerät. Das Freestyle Libre gibt keine Alarme, der Benutzer muss selbst aktiv werden.  Ausserdem ist das Freestyle Libre derzeit nicht geeignet für APS
 
-Dennoch: Remote monitoring - Eltern sind auf gleichem Stand wie das Kind / Lehrer und sehen ob gemessen wurde.
+Dennoch ist Remote monitoring ist möglich - Eltern sind auf gleichem Stand wie das Kind / Lehrer und sehen, ob gemessen wurde.
 
-
-Stabile Version von Glimp, die Nightscout unterstützen wird, findet man im [Google Play store](https://play.google.com/store/apps/details?id=it.ct.glicemia&hl=de).
+Eine stabile Version von Glimp, die Nightscout unterstützen wird, findet man im [Google Play store](https://play.google.com/store/apps/details?id=it.ct.glicemia&hl=de).
 
 Um Glimp nutzen zu können, muss bei NightScout das *Care Portal* eingerichtet sein. Siehe dazu: [Care Portal einrichten](/../nightscout/care_portal.md)
