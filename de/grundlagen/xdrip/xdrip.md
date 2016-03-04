@@ -38,4 +38,4 @@ Die [xDrip App](../xdrip_app.md), die auf ein Android-Handy aufgespielt und mit 
 * xDrip steuert nicht die Abgabe einer Insulinpumpe.
 * xDrip wird ausschließlich von Freiwilligen und ohne jede Bezahlung entwickelt.
 * xDrip hat keinen zentralen Ansprechpartner, keine Hotline, keinen Verantwortlichen
-* xDrip arbeitet mit den Transmittern „Dexcom G4“ und „Dexcom G5 **Share**“. Der „Dexcom G5 **Share**" ist in Europa zur Zeit nicht erhältlich. (Stand 03/2016)
+* xDrip arbeitet mit dem Transmitter „Dexcom G4“. Es funktioniert nicht mit "Dexcom G5" (Stand 03/2016)
