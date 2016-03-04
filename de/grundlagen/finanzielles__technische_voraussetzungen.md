@@ -29,5 +29,5 @@ eine Kreditkarte (wird nicht belastet)
 Nicht notwendig, aber:
 
 * 
-Du wird sehr bald eine Smartwatch haben wollen! (Android / Pebble)
+Du wirst sehr bald eine Smartwatch haben wollen! (Android / Pebble)
 
