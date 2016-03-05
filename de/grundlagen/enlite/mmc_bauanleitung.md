@@ -2,7 +2,7 @@
 
 Um den MMCommander zu bauen, wird folgende Hardware benötigt:
 
-ein "geeignetes" **Android Smartphone** mit USB OTG Unterstützung. Ob ein bereits vorhandenes Smartphone geeignet ist, lässt sich leider nicht sicher vorhersagen. Als Orientierung kann man sich auf [www.nightscout.info](http://www.nightscout.info) eine Liste mit bestätigten Smartphones ansehen: ([Liste](http://www.nightscout.info/wp-content/uploads/2015/02/Nightscout-OTG-Database_CGMitC.xlsx.pdf)). Zusätzlich gibt es eine Liste mit Smartphones, die laut Nightscout.info **nicht** funktionieren:
+- ein "geeignetes" **Android Smartphone** mit USB OTG Unterstützung. Ob ein bereits vorhandenes Smartphone geeignet ist, lässt sich leider nicht sicher vorhersagen. Als Orientierung kann man sich auf [www.nightscout.info](http://www.nightscout.info) eine Liste mit bestätigten Smartphones ansehen: ([Liste](http://www.nightscout.info/wp-content/uploads/2015/02/Nightscout-OTG-Database_CGMitC.xlsx.pdf)). Zusätzlich gibt es eine Liste mit Smartphones, die laut Nightscout.info **nicht** funktionieren:
 
  
 * 
@@ -33,7 +33,7 @@ Geräte mit **iOS** Betriebssystem (Apple - Geräte)
 Zusätzlich zu den Infos der Nightscout-Seite gibt es einen Bericht, bei dem ein HTC One (M7) mit Android 5.1 "Lollipop" nicht stabil funktionierte. Erfolgreich läuft der MMCommander mit einem Sony Xperia Z3 - ebenfalls mit Android 5.1 "Lollipop". Dieses Smartphone hat den Vorteil, dass man es über einen weiteren magnetischen Anschluss laden kann, während die Micro USB Buchse durch den MMCommander blockiert ist. Im Internet scheinen sich übrigens viele Nightscout-Benutzer für das kostengünstige Motorola Moto G entschieden zu haben.  
 
 
-ein **USB-OTG Kabel** (Micro-USB Stecker  auf normale USB  Buchse) - zumeist empfiehlt es sich, einen gewinkelten USB-Stecker zu nehmen, wobei die sinnvolle Richtung vom verwendeten Smartphone abhängt. Man findet eine relativ große Auswahl bei Ebay oder Amazon. Die Kosten betragen etwa 5 €.
+Ihr benötigt zusätzlich ein **USB-OTG Kabel** (Micro-USB Stecker  auf normale USB  Buchse) - zumeist empfiehlt es sich, einen gewinkelten USB-Stecker zu nehmen, wobei die sinnvolle Richtung vom verwendeten Smartphone abhängt. Man findet eine relativ große Auswahl bei Ebay oder Amazon. Die Kosten betragen etwa 5 €.
 
 ![usb_otgklein](../../images/enlite/usb-otgklein.jpg)
 
