@@ -6,6 +6,6 @@ Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch eine Android
 Dennoch ist Remote Monitoring möglich - Eltern sind auf gleichem Stand wie das Kind / Lehrer und sehen, ob gemessen wurde.
 
 Eine stabile Version von Glimp, die Nightscout unterstützen wird, findet man im [Google Play 
-Store](https://play.google.com/store/apps/details?id=it.ct.glicemia&hl=de).
+Store].
 
 Um Glimp nutzen zu können, muss bei NightScout das *Care Portal* eingerichtet sein. Siehe dazu: [Care Portal einrichten](/../nightscout/care_portal.md)
