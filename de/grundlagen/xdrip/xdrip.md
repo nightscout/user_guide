@@ -16,11 +16,11 @@ Eines der am Markt erhältlichen CGM-Systeme stammt von der Firma Dexcom.
 1. 
 Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe [Bausatz](../bausatz.md)) miteinander verlötet.
 
-1. 
+2. 
 Die [xDrip App](../xdrip_app.md), die auf ein Android-Handy aufgespielt und mit einigen Handgriffen individuell konfiguriert wird.Die [xDrip App](../xdrip_app.md) hat folgende Funktionen:   
  
- *  Empfang von BZ-Messwerten
- *	Anzeige (und ggf. Ansage) von BZ-Werten 
+ *  Empfang von Gewebezucker-Messwerten
+ *	Anzeige (und ggf. Ansage) von GZ-Werten 
  *	Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, Nightscout)
  *	Alarm bei (zuvor individuell definierten) meldewürdigen Werten / Verlauf
  *	Export der Werte zur Auswertung in andere Systeme (zB. SiDiary, Excel)
