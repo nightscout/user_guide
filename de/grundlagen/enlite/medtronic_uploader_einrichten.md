@@ -4,7 +4,7 @@ Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert werden 
 
 Nun installiert man die Datei "NightScout.apk" auf dem Smartphone. Eventuell muss man dazu unter Einstellungen - Sicherheit - Unbekannte Herkunft die Installation von Apps aus unbekannten Quellen zulassen, da diese App nicht aus dem Google Play Store stammt. Dort gibt es nur den für den Dexcom Empfänger gedachten "Nightscout Uploader".
 
-Die Account-Information, die man auf dem Arbeitsblatt aus Kapitel 2.1. eingetragen hat, werden nun zum Konfigurieren der Medtronic Uploader App benötigt.
+Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel 2.1. eingetragen hat, werden nun zum Konfigurieren der Medtronic Uploader App benötigt.
 
 Zuerst muss die Medtronic Uploader App geschlossen werden, falls diese bereits läuft. Nun den MMCommander über das USB OTG Kabel an das Smartphone anschließen. Es sollte sich automatisch ein Fenster öffnen, welches fragt, was getan werden soll. Dort die Nightscout App auswählen und diese sollte danach automatisch starten.
 
