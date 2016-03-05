@@ -17,7 +17,7 @@ Eines der am Markt erhältlichen CGM-Systeme stammt von der Firma Dexcom.
 Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe [Bausatz](../bausatz.md)) miteinander verlötet.
 
 2. 
-Die [xDrip App](../xdrip_app.md), die auf ein Android-Handy aufgespielt und mit einigen Handgriffen individuell konfiguriert wird.Die [xDrip App](../xdrip_app.md) hat folgende Funktionen:   
+Die [xDrip App](../xdrip_app.md) wird auf ein Android-Handy aufgespielt und mit einigen Handgriffen individuell konfiguriert. Sie hat folgende Funktionen:   
  
  *  Empfang von Gewebezucker-Messwerten
  *	Anzeige (und ggf. Ansage) von GZ-Werten 
