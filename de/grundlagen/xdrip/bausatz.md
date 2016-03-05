@@ -36,17 +36,17 @@ Der Akku-Hersteller empfiehlt die Brücke für Akkus ab 500 mAh zu schließen. Z
 
 
 ** Hinweise zum Löten: **
-* Wenn ihr ein anderes Bluetooth-Modul habt als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel zum Bluetooth-Modul. (Beschriftung der Pins in der , evtl. helfen auch die Abbildungen weiter unten zu den xBridge-Schaltungen.)
+* Wenn ihr ein anderes Bluetooth-Modul habt als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel zum Bluetooth-Modul. (Achtet auf die Beschriftung der Pins in der Abbildung).
 * Anleitung zum Löten: [Film](https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be)
 
 ** Zur Software auf dem Wixel: **
 * xBridge Firmware: [xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl) (Auch empfohlen bei Verlötung nach "xDrip classic".)
 * Software zum Aufspielen der wxl-Datei auf das Wixel [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
 *  Weitere Infos: siehe [hier](https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf) 
-*  Tipp: Wenn auf dem Wixel schon eine xBridge2.wxl Software aufgespielt ist, dann legt die Software das Wixel zyklisch in einen passiven Modus. In dieser Zeit kann sich das Wixel nicht via USB-Kabel mit dem PC verbinden.  
+*  Tipp: Wenn auf dem Wixel schon eine xBridge2.wxl Software aufgespielt ist, dann legt die Software das Wixel zyklisch in einen passiven Modus. In dieser Zeit kannst Du das Wixel nicht via USB-Kabel mit dem PC verbinden.  
 Es gibt zwei Möglichkeiten: Warten, bis das Wixel (alle 5 Minuten) aufwacht, die Verbindung aufbauen und in dem "Wixel Configuration Utility" die Anwendung auf dem Wixel stoppen. Oder das Wixel kurz von der Spannungsversorgung trennen und dann die Verbindung aufbauen.
 
-** Info zu den Widerständen: ** (für Batterie-Anzeige) 
+** Info zu den Widerständen: ** (wichtig für die Batterie-Anzeige) 
 * "xDrip classic" (ohne Spannungsteiler)
 * "xDrip classic zzgl. Spannungsteiler" Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2,2k) ODER (10k und 22k).
 * "xBridge" (incl. Spannungsteiler) Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfehlung: (10k und 27k) 
