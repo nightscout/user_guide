@@ -9,8 +9,7 @@ Eines der am Markt erhältlichen CGM-Systeme stammt von der Firma Dexcom.
 
 
 * Ein Dexcom-Sensor liegt auf/unter der Haut und misst den Glucosegehalt im Gewebe.
-* Ein Dexcom G4 Transmitter ist auf dem Sensor eingeklickt und sendet die Glucose-Werte über ein Funk-Protokoll. 
-* Im regulären Prozess würde die Meldung des Transmitters vom Dexcom-Receiver empfangen und angezeigt. 
+* Ein Dexcom G4 Transmitter ist auf dem Sensor eingeklickt und sendet die Glucose-Werte über ein Funk-Protokoll und würde im regulären Fall vom Dexcom-Receiver empfangen und angezeigt. 
 * Durch den Einsatz von xDrip kann der Dexcom-Receiver entfallen. Die vom Transmitter gesendeten Werte werden dann von einer selbst gebauten Hardware (xDrip) empfangen und via Bluetooth an ein Android-Handy gesendet.  Auf dem Handy wird die xDrip-App installiert.
 
 **xDrip besteht aus zwei Komponenten: **
