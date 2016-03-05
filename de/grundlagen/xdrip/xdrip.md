@@ -32,8 +32,8 @@ Die [xDrip App](../xdrip_app.md), die auf ein Android-Handy aufgespielt und mit 
 * xDrip hat keine Freigabe als medizinisches Produkt,
 * xDrip hat keine Garantie, keine Gewährleistung.
 * xDrip ist kein käufliches Produkt.
-* xDrip wird zu 100% in einer Verantwortung genutzt.
-* xDrip kann die Messung von Blutzucker nicht vollständig ersetzen. (Kontrollen und Kalibrierungen sind nötig.)
+* xDrip wird zu 100% in eigener Verantwortung genutzt.
+* xDrip kann die Messung des Blutzuckers nicht vollständig ersetzen. (Kontrollen und            Kalibrierungen sind nötig.)
 * xDrip steuert nicht die Abgabe einer Insulinpumpe.
 * xDrip wird ausschließlich von Freiwilligen und ohne jede Bezahlung entwickelt.
 * xDrip hat keinen zentralen Ansprechpartner, keine Hotline, keinen Verantwortlichen
