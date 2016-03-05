@@ -10,7 +10,7 @@ Wenn die Verbindung zwischen den beiden Geräten nicht funktioniert, versucht ma
 ## Probleme mit der Firmware des Debuggers
 
 Normalerweise sollte es nicht nötig sein, diese Firmware zu aktualisieren, da es auch mit einer älteren Version der Firmware klappen sollte. Wenn es doch nötig sein sollte, weil man zum Beispiel Probleme beim Programmieren des CC1111 hat, dann trennt man zuerst den CC1111 vom CC Debugger. 
-Im Pull-Down Menü des SmartRF Flash Programmers wählt man nun den Punkt "Program Evaluation Board" und klickt danach auf "Update EB Firmware" - dies geht übrigens nur, falls der Debugger eine ältere Version der Software hat. Danach sucht man die Datei mit der neuen Firmware aus z. B. C:\Programme\Texas Instruments\SmartRF Tools\Firmware\CC Debugger\cebal_fw_srf05dbg.hex (Version kann abweichen). Darauf achten, dass man nicht den Bootloader aktualisiert.
+Im Pull-Down Menü des SmartRF Flash Programmers wählt man nun den Punkt "Program Evaluation Board" und klickt danach auf "Update EB Firmware" - dies geht übrigens nur, falls der Debugger eine ältere Version der Software hat. Danach sucht man die Datei mit der neuen Firmware aus z. B. C:\Programme\Texas Instruments\SmartRF Tools\Firmware\CC Debugger\cebal_fw_srf05dbg.hex (Version kann abweichen). Dabei solltet ihr darauf achten, dass ihr nicht den Bootloader aktualisiert.
 
 ![Firmware-Update1](../../images/enlite/firmware1.png)
 
