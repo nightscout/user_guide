@@ -23,7 +23,7 @@ Die [xDrip App](../xdrip_app.md), die auf ein Android-Handy aufgespielt und mit 
  *	Anzeige (und ggf. Ansage) von BZ-Werten 
  *	Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, Nightscout)
  *	Alarm bei (zuvor individuell definierten) meldewürdigen Werten / Verlauf
- *	Export der Werte zur Auswertung in anderen Systemen (zB. SiDiary, Excel)
+ *	Export der Werte zur Auswertung in andere Systeme (zB. SiDiary, Excel)
 
 
 
