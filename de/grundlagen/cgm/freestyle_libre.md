@@ -1,7 +1,7 @@
 # Freestyle Libre
 
 
-Das Freestyle-Lesegerät selbst ist nicht nightscout-fähig, jedoch eine Android-App (Glimp), die die Sensoren auch auslesen kann. Von der Android-App werden z.T. andere Werte ausgelesen als vom Lesegerät. Das Freestyle Libre gibt keine Alarme, der Benutzer muss selbst aktiv werden.  Ausserdem ist das Freestyle Libre derzeit nicht geeignet für APS.
+Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch eine Android-App (Glimp), die die Sensoren auch auslesen kann. Von der Android-App werden z.T. andere Werte ausgelesen als vom Lesegerät. Das Freestyle Libre gibt keine Alarme, der Benutzer muss selbst aktiv werden.  Ausserdem ist das Freestyle Libre derzeit nicht geeignet für APS.
 
 Dennoch ist Remote monitoring möglich - Eltern sind auf gleichem Stand wie das Kind / Lehrer und sehen, ob gemessen wurde.
 
