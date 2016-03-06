@@ -25,7 +25,7 @@ Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System unbrau
 Es gibt keine Passwort geschützte Privatsphäre oder irgendeine Sicherheit der Tools, die hier zur Verfügung gestellt werden. Alle Daten, die du hochlädst, sind für jeden im Internet zu lesen, wenn du die spezifische URL (Internetadresse) freigibst oder weitergibst.
 
 
-Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat keine Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen, Dienstleistungen oder Produkten die auf dieser Website erwähnt werden.
+Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat keine Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen, Dienstleistungen oder Produkten, die auf dieser Website erwähnt werden.
 Alle hier erwähnten Produkt- und Firmennamen sind Marken der jeweiligen Eigentümer bzw. Hersteller.
 
 ---
