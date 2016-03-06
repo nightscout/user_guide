@@ -9,4 +9,4 @@ Interesse daran, etwas für die eigene Gesundheit (bzw. die der Angehörigen) zu
 * 
 technisches Interesse, aber nicht wirklich Vorkenntnisse! 
 * 
-ein bisschen Zeit /Geduld
+ein bisschen Zeit und Geduld
