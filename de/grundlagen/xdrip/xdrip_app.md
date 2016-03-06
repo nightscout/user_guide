@@ -40,7 +40,7 @@ Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt 
 ![xDrip_Screenshot_alerts.png](../../images/xdrip/xDrip_Screenshot_alerts.png) ![xDrip_Screenshot_widget.png](../../images/xdrip/xDrip_Screenshot_widget.png)
 ---
 
-## Grund-Funktionalität:
+## Grund-Funktionalität
 ### Download & Installation
 Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der Download für eine lauffähige Version (*.apk-File) findet sich hier: [Link zur Beta-Version](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta)
 
@@ -62,28 +62,38 @@ Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, di
 DexcomShare ist zZt. in Europa nicht verfügbar. 
 Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
 
+
 ### Starten des Sensors
-Hier kann man durch Auswahl das Datum und die Uhrzeit im 12-Stunden Format eingeben,
-AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A**m **M**orgen;
-PM = post meridiem, auf Deutsch: NACH dem Mittag
 
-Darunter folgt ein Warnhinweis, frei übersetzt: Erst dann auf "Sensor Start" tippen, wenn der Sensor gelegt und der Transmitter (Sender) auf der Sensorplatte befestigt worden ist.
-
-Und weiter:
-Bitte das Datum und die genaue Uhrzeit der Sensorlegezeit auswählen, zumindest so nah dran, wie man sich noch erinnert.
-(Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf dem Smartphone zu speichern, falls man den Sensor später mit diesem Zeitpunkt nochmal neu starten möchte, z.B. um die bisherigen Kalibrierungen zu löschen oder weil man den Transmitter aus welchen Gründen auch immer kurz abgenommen hatte.)
-
-Wenn also sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man unten auf das Feld "Start Sensor".
+Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man auf das Feld "Start Sensor".
 
 Nun erscheint auf dem Hauptbildschirm in roten Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten (rückwärtslaufend) eine Doppelkalibrierung benötigt.
 
+Darunter folgt ein Warnhinweis, frei übersetzt: Erst dann auf "Sensor Start" tippen, wenn der Sensor gelegt und der Transmitter (Sender) auf der Sensorplatte befestigt worden ist.
+
+Bitte das Datum und die genaue Uhrzeit der Sensorlegezeit auswählen, zumindest so nah dran, wie man sich noch erinnert.
+Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf dem Smartphone zu speichern, falls man den Sensor später mit diesem Zeitpunkt nochmal neu starten möchte, z.B. um die bisherigen Kalibrierungen zu löschen oder weil man den Transmitter aus welchen Gründen auch immer kurz abgenommen hatte.
+
+Zur Erklärung der 12-Stunden-Anzeige:
+AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A**m **M**orgen;
+PM = post meridiem, auf Deutsch: NACH dem Mittag
+
+**Alternativen beim Starten des Sensors**
+
+Wenn man keine zwei Stunden verlieren möchte, bis wieder CGM-Werte angezeigt werden (beim Wechsel des Sensors beispielsweise), so kann man bei der Zeit 2 Stunden vor der eigentlichen Uhrzeit eingeben. 
+Beispiel: setzt man den Sensor um 11 Uhr morgens, so wähle man als Start-Uhrzeit des Sensors 9 Uhr und die Messung des Sensors startet sofort.
+Wer bei Start des Sensors vergessen hat, die Uhrzeit um 2 Stunden nach vorne zu verlegen, kann den Sensor in der App problemlos nochmals stoppen und wieder starten. 
+Wer die genaue Zeit beim Sensor-Start eingeben möchte in der App, der kann dies auch tun. Es ist nicht nötig, 2 Stunden mit der Doppelkalibrierung zu warten. Nach ca. 40 Minuten kann man die Doppelkalibrierung durchführen.
+
+Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start des Sensors legt. Dabei wird ein alter Transmitter als Platzhalter auf dem neu gesetzten Sensor verwendet.
+ 
 
 ### Stoppen des Sensors
-Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt "Start Sensor" durch den Menüpunkt "**Stop Sensor**" ersetzt. 
+Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt "Start Sensor" in der App durch den Menüpunkt "**Stop Sensor**" ersetzt. 
 
 Wenn man hier antippt, erscheint ein Warnhinweis, man möge den Sensor nur dann stoppen, wenn man auch vorhat, ihn zu entfernen. Darunter befindet sich das Feld mit der Aufschrift "Stop Sensor". In dieses Feld tippt man, um den Sensor zu stoppen.
 
-Ab diesem Moment wechselt die Anzeige im Menü wieder zu "Sensor start".
+Ab diesem Moment wechselt die Anzeige im Menü wieder zu "Sensor Start".
 
 
 ### System Status
@@ -91,6 +101,11 @@ Hier findet man Informationen über das System, z.B. welche Hardware benutzt wir
 
 Vor allem aber findet man hier unter "Connection Status" die Information, ob das xDrip mit der App verbunden ist. (=connected). 
 Über Antippen von "Forget Device" kann man die Verbindung unterbrechen und über "Restart Collector" neu in Gang setzen.
+
+
+**Transmitter-Batterie-Info**
+**### xBridge-Batterie-Info**
+---> Noch zu beschreiben!
 
 
 ### Kalibrieren
@@ -194,13 +209,11 @@ Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, di
 Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend waagerechten, Bewegung zweier Finger in die Breite ziehen. Wenn man beliebige einzelne Punkte auf der Verlaufskurve antippt, erhält man unten kurz eingeblendet die Information über die Uhrzeit und den gemessenen Wert. Diese Einzelbetrachtung ist übrigens ebenfalls in der aktuellen Verlaufskurve des Hauptbildschirmes möglich.
 
 
-
-### Transmitter-Batterie-Info
-### xBridge-Batterie-Info
 ### Interne Daten (Datatables + Calibration Graph)
 
 
-### Fragen/Probleme und Antworten/Lösungen
+### Fehlerbehebung
+
 1. **Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als "hm-soft", nicht als „xBridge“ oder „xDrip“.  
 Was muss ich tun, damit das neue xDrip (richtig) funktioniert?  
 **Antwort: **  
