@@ -3,7 +3,7 @@
 
 
 ---
-ACHTUNG - Alle Angaben zu diesem Produkt sind ausschließlich vom Hersteller [DEXCOM](http://www.dexcom.com/en-US) oder vom deutschen Vertrieb [NINTAMED](https://www.nintamed.eu) und dienen ausschließlich als Information. Es werden hier keine Bewertungen dieses Systems abgegeben oder anderweitige Informationen als die des Herstellers oder des Vertriebs.
+ACHTUNG - Alle Angaben zu diesem Produkt sind ausschließlich vom Hersteller [DEXCOM](http://www.dexcom.com/en-US) oder vom deutschen Vertrieb [NINTAMED](https://www.nintamed.eu) und dienen ausschließlich als Information. Es werden hier keine Bewertungen dieses Systems abgegeben oder anderweitige Informationen als die des Herstellers oder des Vertriebs zur Verfügung gestellt.
 
 ---
 | Beschreibung | Link |
@@ -16,8 +16,8 @@ ACHTUNG - Alle Angaben zu diesem Produkt sind ausschließlich vom Hersteller [DE
 
 Fünf Möglichkeiten mit Dexcom-Sensoren:
 1. G4-Empfänger mit Kabelverbindung
-2. G4-Empfänger "with Share" (VS-Import) mit Share2NS-Bridge
-3. G4-Empfänger "with Share" (VS-Import) mit xDrip-App
+2. G4-Empfänger "with Share" (Import aus den Vereinigten Staaten von Amerika) mit Share2NS-Bridge
+3. G4-Empfänger "with Share" (Import aus den Vereinigten Staaten von Amerika) mit xDrip-App
 4. G5 mit Share2NS-Bridge
 5. G4 mit selbstgebautem Empfänger ([siehe Kapitel XDrip](../xdrip/xdrip.md))
 
