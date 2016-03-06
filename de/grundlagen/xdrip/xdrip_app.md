@@ -1,6 +1,6 @@
 # xDrip App
 
-Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und einer Smart-Watch anzuzeigen, auszuwerten und bei Bedarf zu NightScout hochzuladen.
+Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und - optional - einer Smart-Watch anzuzeigen, auszuwerten und bei Bedarf zu NightScout hochzuladen.
 Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz.
 
 
@@ -16,17 +16,17 @@ Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder
 * Zeit seit letzter Messung
 * Differenz zur vorletzten Messung
 * Batterie-Stand von xDrip/xBridge (optional)
-* dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“.
-* dünne rote Gerade: Individuell definierte Grenze für „zu tief“.
-* Verlauf der letzten drei Stunden.  
-Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert.  
+* dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“
+* dünne rote Gerade: Individuell definierte Grenze für „zu tief“
+* Verlauf der letzten drei Stunden
+* Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert.  
  * blau: im Zielbereich  
  * gelb: zu hoch  
  * rot: zu tief  
  * rot/weiß: Kalibrierungen.
 
 * unterer Bereich:  
-Der Verlauf der letzten 24 Stunden. Der unten, rechts markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind.  
+Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind.  
 
 ![xDrip_Screenshot_Hauptansicht.png](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png) ![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png)
 
@@ -182,7 +182,7 @@ Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in ihrer V
 Auf der rechten Seite wird für jeden ausgewählten Zeitraum die Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt.
 
 
-### BH History
+### BG History
 Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen kann. Man kann auch vom ausgewählten Datum aus die letzten 1 bis 14 Tage in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen.
 
 Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend waagerechten, Bewegung zweier Finger in die Breite ziehen. Wenn man beliebige einzelne Punkte auf der Verlaufskurve antippt, erhält man unten kurz eingeblendet die Information über die Uhrzeit und den gemessenen Wert. Diese Einzelbetrachtung ist übrigens ebenfalls in der aktuellen Verlaufskurve des Hauptbildschirmes möglich.
