@@ -1,6 +1,6 @@
 # xDrip
 
-Eine Möglichkeit, das Dexcom G4-CGM-System zu nutzen, besteht mit der Alternative xDrip und der xDrip App.
+Eine Möglichkeit, das Dexcom G4-CGM-System zu nutzen, besteht mit der Alternative xDrip und der xDrip App auf einem Android-Smartphone.
 
 
 **Eine kurze Beschreibung zum Prozessablauf:**
@@ -10,7 +10,7 @@ Eine Möglichkeit, das Dexcom G4-CGM-System zu nutzen, besteht mit der Alternati
 * Ein Dexcom G4 Transmitter ist auf dem Sensor eingeklinkt und sendet die Glucose-Werte über ein Funk-Protokoll und würde im regulären Fall vom Dexcom-Receiver empfangen und angezeigt. 
 * Durch den Einsatz von xDrip kann der Dexcom-Receiver entfallen. Die vom Transmitter gesendeten Werte werden dann von einer selbst gebauten Hardware (xDrip) empfangen und via Bluetooth an ein Android-Handy gesendet.  Auf dem Handy wird die xDrip-App installiert.
 
-**xDrip besteht aus zwei Komponenten: **
+**Das System xDrip besteht aus zwei Komponenten: **
 1. 
 Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe [Bausatz](../bausatz.md)) miteinander verlötet.
 
@@ -20,8 +20,8 @@ Die [xDrip App](../xdrip_app.md) wird auf ein Android-Handy aufgespielt und mit 
  *  Empfang von Gewebezucker-Messwerten
  *	Anzeige (und ggf. Ansage) von GZ-Werten 
  *	Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, Nightscout)
- *	Alarm bei (zuvor individuell definierten) meldewürdigen Werten / Verlauf
- *	Export der Werte zur Auswertung in andere Systeme (zB. SiDiary, Excel)
+ *	Alarm bei (zuvor individuell definierten) meldewürdigen GZ-Werten / GZ-Verlauf
+ *	Export der GZ-Werte zur Auswertung in andere Systeme (zB. SiDiary, Excel)
 
 
 
