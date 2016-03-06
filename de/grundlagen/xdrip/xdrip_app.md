@@ -38,7 +38,7 @@ Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt 
 ![xDrip_Screenshot_statistic_2](../../images/xdrip/xDrip_Screenshot_statistic_2.png) ![xDrip_Screenshot_statistic_3.png](../../images/xdrip/xDrip_Screenshot_statistic_3.png)
 
 ![xDrip_Screenshot_alerts.png](../../images/xdrip/xDrip_Screenshot_alerts.png) ![xDrip_Screenshot_widget.png](../../images/xdrip/xDrip_Screenshot_widget.png)
----
+
 
 ## Grund-Funktionalität
 ### Download & Installation
@@ -47,7 +47,10 @@ Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der Download 
 Die hier verlinkten Versionen sind so erstellt, dass man eine ältere Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu verlieren.
 Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen Quellen selbst die apk zusammenstellen. 
 
-### Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
+### Verbinden mit dem Wixel
+
+#### Bluetooth-Scan / Hardware data source
+
 Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter empfangen und an die xDrip-App übergeben werden.
 * Bluetooth Wixel  
 xDrip in classic - xml. Selbst kompilierte wxl, in die die individuelle Transmitter-ID einkompiliert wurde. Erstellt gemäß dieser [Anleitung](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip)  
