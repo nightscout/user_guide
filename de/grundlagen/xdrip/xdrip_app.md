@@ -100,10 +100,13 @@ Ab diesem Moment wechselt die Anzeige im Menü wieder zu "Sensor Start".
 
 
 ### System Status
-Hier findet man Informationen über das System, z.B. welche Hardware benutzt wird, welchen Ladezustand die Batterie des Transmitters hat, wann der Sensor gestartet worden ist und wie viele Tage und Stunden er bereits liegt.
-
-Vor allem aber findet man hier unter "Connection Status" die Information, ob das xDrip mit der App verbunden ist. (=connected). 
-Über Antippen von "Forget Device" kann man die Verbindung unterbrechen und über "Restart Collector" neu in Gang setzen.
+Hier findet man Informationen über das System. 
+* Welche Hardware benutzt wird 
+* welchen Ladezustand die Batterie des Transmitters hat
+* wann der Sensor gestartet worden ist 
+* wie viele Tage und Stunden er bereits liegt
+* Connection Status: ist die Hardware xDrip mit der App verbunden?
+* Über Antippen von "Forget Device" kann man die Verbindung unterbrechen und über "Restart Collector" neu in Gang setzen.
 
 
 **Transmitter-Batterie-Info**
@@ -147,7 +150,7 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 
 ## Verbinden mit einer Smartwatch:
-An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden. Damit könnte man die Installationsschritte in "Nightscout einrichten" umgehen. Damit wiederherum umgeht man aber auch die Möglichkeit, die Daten weiter zu nutzen. (Als Überwachungsfunktion, als Tagebuch oder für das APS).
+An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden. Damit könnte man die Installationsschritte in "Nightscout einrichten" umgehen. Damit wiederherum umgeht man aber auch die Möglichkeit, die Daten weiter zu nutzen. (Als Überwachungsfunktion, als Tagebuch oder für das OpenAPS).
 
 ### Android Wear
 ### Pebble
@@ -167,12 +170,15 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 |...|
 | Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
 | Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
-### Widgets
+
+### Widgets - siehe Screenshot weiter oben
+
 Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glucosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xDrip App.
 
 Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widget antippen, fertig!
 
 ### Werte vorlesen lassen
+
 Beim Autofahren oder wenn man aus anderen Gründen die Hände gerade nicht frei hat (z.B. weil man mit den Händen im Spülwasser oder im Kuchenteig steckt) kann man sich die jeweiligen Messwerte laut vorlesen lassen, wenn das Smartphone die sog. "Text-to-speech" Möglichkeit bietet.
 
 Dazu geht man zuerst im xDrip Menü auf Settings (Einstellungen) und verschiebt den Bildschirmtest so lange nach oben, bis man weit unten unter "Other Settings" (Sonstige Einstellungen) den Punkt "**Speak Readings**" findet. Hier setzt man ein Häkchen, woraufhin sich ein Dialogfenster öffnet und fragt, ob man eine passende Text-To-Speech Datei installieren möchte. Bejaht man dies, öffnet sich ein weiteres Fenster, in dem man sich verschiedene Sprachbeispiele (alle mit weiblicher Stimme) anhören (Pfeil antippen) oder gleich die Datei dazu installieren (Download Symbol antippen) kann.
@@ -182,7 +188,7 @@ Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man glei
 ### Statistik
 
 Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen auswählen kann.
-TD = today, heute YTD = yesterday, gestern 7/30/90d d = Tage
+TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = Tage
 
 Hierzu gibt es drei Seiten, die man durch Wischen nach links bzw. rechts aufrufen kann. Auf welcher der Seiten man sich befindet, erkennt man an der Veränderung der drei kleinen Kreise direkt unter der Leiste mit den Zeiträumen von ungefüllten zu gefüllten Kreisen.
 
@@ -200,9 +206,7 @@ HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach angetipptem Ze
 
 StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie ist ein Maß für die Streuung der Werte.
 
-
 Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in ihrer Verteilung als Tortengrafik dargestellt. Grün steht für innerhalb der Grenzwerte, gelb für hoch und rot für tief.
-
 
 Auf der rechten Seite wird für jeden ausgewählten Zeitraum die Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt.
 
