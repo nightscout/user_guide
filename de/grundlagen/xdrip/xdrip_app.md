@@ -146,7 +146,7 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Alerts - alert when a calibration is requested*: Hier kannst du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche Kalibrierung erinnert werden möchtest. Das bietet sich z.B. für die Doppelkalibrierung an.
 
-* Calibration Request Sound*: Hier kannst du dir durch Antippen einen Signalton aus deinem Smartphonerepertoires auswählen.
+* Calibration Request Sound*: Hier kannst du dir durch Antippen einen Signalton aus deinem Smartphonerepertoire auswählen.
 
 * Override Silent Mode on Calibration Alerts*: Wenn du hier ein Häkchen setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des Smartphones. 
 
