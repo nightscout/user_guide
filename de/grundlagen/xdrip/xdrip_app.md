@@ -85,11 +85,11 @@ PM = post meridiem, auf Deutsch: NACH dem Mittag
 
 **Alternativen beim Starten des Sensors**
 Wenn man keine zwei Stunden verlieren möchte, bis wieder CGM-Werte angezeigt werden (beim Wechsel des Sensors beispielsweise), so kann man bei der Zeit 2 Stunden vor der eigentlichen Uhrzeit eingeben. 
-Beispiel: setzt man den Sensor um 11 Uhr morgens, so wähle man als Start-Uhrzeit des Sensors 9 Uhr und die Messung des Sensors startet sofort.
-Wer bei Start des Sensors vergessen hat, die Uhrzeit um 2 Stunden nach vorne zu verlegen, kann den Sensor in der App problemlos nochmals stoppen und wieder starten. 
-Wer die genaue Zeit beim Sensor-Start eingeben möchte in der App, der kann dies auch tun. Es ist nicht nötig, 2 Stunden mit der Doppelkalibrierung zu warten. Nach ca. 40 Minuten kann man die Doppelkalibrierung durchführen.
+Beispiel: Setzt man den Sensor um 11 Uhr morgens, so wählt man als Start-Uhrzeit des Sensors 9 Uhr, und die Messung des Sensors startet sofort.
+Wer bei Start des Sensors vergessen hat, die Uhrzeit um 2 Stunden vorzuverlegen, kann den Sensor in der App problemlos nochmals stoppen und wieder starten. 
+Wer die genaue Zeit beim Sensor-Start eingeben möchte in der App, der kann dies auch tun. Es ist allerdings nicht nötig, 2 Stunden mit der Doppelkalibrierung zu warten. Nach ca. 40 Minuten kann man die Doppelkalibrierung durchführen.
 
-Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start des Sensors legt. Dabei wird ein alter Transmitter als Platzhalter auf dem neu gesetzten Sensor verwendet.
+Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start dieses Sensors legt, während der alte Sensor noch weiter in Gebrauch ist. Dabei wird bis zum Austausch ein alter Transmitter als Platzhalter auf dem neu gesetzten Sensor verwendet.
  
 
 ### Stoppen des Sensors
@@ -103,7 +103,7 @@ Ab diesem Moment wechselt die Anzeige im Menü wieder zu "Sensor Start".
 ### System Status
 
 Hier findet man Informationen über das System: 
-* Welche Hardware benutzt wird 
+* welche Hardware benutzt wird 
 * welchen Ladezustand die Batterie des Transmitters hat
 * wann der Sensor gestartet worden ist 
 * wie viele Tage und Stunden er bereits liegt
@@ -118,7 +118,7 @@ Hier findet man Informationen über das System:
 
 ### Kalibrieren
 
-Zwei Stunden nach dem Sensor-Start müssen die vom Sensor gemessenen Werte mit zwei von einem Blutzuckermessgerät direkt hintereinander ermittelten Werten (aus verschiedenen Fingern) abgestimmt, kalibriert werden. Hierfür geht man über das xDrip Menü zum Punkt **"Add double calibration"** und tippt jeweils in die Felder mit der blinkenden Schreibmarke (cursor) und gibt über die auf diese Weise aufgerufene Tastatur den durch zwei Blutzuckermessungen ermittelten Wert ein. Danach tippt man auf das Feld "done", auf Deutsch: erledigt. Nach einer kurzen Verzögerung (nicht wundern, das System arbeitet) geht es automatisch zurück zum Hauptbildschirm und die ersten Sensormesswerte sind schon in der Grafik eingetragen.
+Zwei Stunden nach dem Sensor-Start (oder früher, s.o. unter Sensor starten) müssen die vom Sensor gemessenen Werte mit zwei von einem Blutzuckermessgerät direkt hintereinander ermittelten Werten (aus verschiedenen Fingern) abgestimmt, kalibriert werden. Hierfür geht man über das xDrip Menü zum Punkt **"Add double calibration"** und tippt jeweils in die Felder mit der blinkenden Schreibmarke (cursor) und gibt über die auf diese Weise aufgerufene Tastatur den durch zwei Blutzuckermessungen ermittelten Wert ein. Danach tippt man auf das Feld "done", auf Deutsch: erledigt. Nach einer kurzen Verzögerung (nicht wundern, das System arbeitet) geht es automatisch zurück zum Hauptbildschirm und die ersten Sensormesswerte sind schon in der Grafik eingetragen.
 
 Für ein paar Minuten erscheint im Auswahlmenü die Möglichkeit **"Override Calibration"**, auf Deutsch: Kalibrierung überschreiben. Damit können falsch eingegebene Werte durch die richtigen Werte ersetzt werden.
 
@@ -130,10 +130,10 @@ Anschließend gibt es im Menü nicht mehr die Doppel-, sondern die einfache Kali
 
 Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- (Hochalarm) oder unterschreitet (Tiefalarm). Der Tiefalarm für Werte unter 55mg/dl ist vom System bereits voreingestellt und kann nicht verändert werden.
 
-Drücke "create low alert", um einen Tiefalarm selbst zu definieren. Unter "Alert Name" gibst du dem Alarm eine von dir ausgewählte Bezeichnung, z.B. für mg/dl zu niedrig 80. Bei "Threshold" tippst du den entsprechenden Wert (hier z.B. 80) ein. Unter "Default Snooze" gibst du die Minuten ein, nach denen sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der Wert aber nach wie vor zu tief ist; unter "Re-raise" die Minuten, nach denen sich der Alarm erneut melden soll, wenn du ihn ignoriert hast, der Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich bei Tiefalarmen einen kürzeren Zeitraum auszuwählen. Unter "Alert Tone" kannst du dir einen entsprechenden Alarmton bestimmen bzw. mit "choose file" aus deinem Smartphonerepertoire aussuchen. 
-Unter "select time for alert" ist "all day" bereits mit Häkchen versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch auf "all day" tippen, um dann mit "tap to change" einen gewissen Zeitraum (z.B. die Nacht) festzulegen. Du kannst den Alarm über "override phone silent mode" auch im Ruhemodus klingen lassen und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an "vibrate on alert". Zuletzt kannst du den Alarm noch testen und vergiss nicht, ihn zu speichern ("save alert"), wenn er dir zusagt!
+Drücke "****create low alert****", um einen Tiefalarm selbst zu definieren. Unter "***Alert Name***" gibst du dem Alarm eine von dir ausgewählte Bezeichnung, z.B. für mg/dl zu niedrig 80. Bei "***Threshold***" tippst du den entsprechenden Wert (hier z.B. 80) ein. Unter "***Default Snooze***" gibst du die Minuten ein, nach denen sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der Wert aber nach wie vor zu tief ist; unter "***Re-raise***" die Minuten, nach denen sich der Alarm erneut melden soll, wenn du ihn ignoriert hast, der Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich bei Tiefalarmen einen kürzeren Zeitraum auszuwählen. Unter "***Alert Tone***" kannst du dir einen entsprechenden Alarmton bestimmen bzw. mit "choose file" aus deinem Smartphonerepertoire aussuchen. 
+Unter "***select time for alert***" ist "all day" bereits mit Häkchen versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch auf "all day" tippen, um dann mit "tap to change" einen gewissen Zeitraum (z.B. die Nacht) festzulegen. Du kannst den Alarm über "***override phone silent mode***" auch im Ruhemodus klingen lassen und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an "***vibrate on alert***". Zuletzt kannst du den Alarm noch ***testen*** und vergiss nicht, ihn zu speichern ("***save alert***"), wenn er dir zusagt!
 
-Entsprechend kannst du über "create high alert" eine Alarmkaskade nach oben schaffen.
+Entsprechend kannst du über "**create high alert**" eine Alarmkaskade nach oben schaffen.
 
 Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünschten Alarmes in den Bearbeitungsmodus.
 
