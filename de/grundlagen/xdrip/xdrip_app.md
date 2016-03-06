@@ -23,10 +23,15 @@ Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder
  * blau: im Zielbereich  
  * gelb: zu hoch  
  * rot: zu tief  
- * rot/weiß: Kalibrierungen.
+ * rot/weiß: Kalibrierungen
+ * * unterer Bereich:  
+Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
+**Statistik-Ansicht** --> noch zu beschreiben!
+**Alert-List Ansicht**
+* Möglichkeit, verschiedene Alarme für den Niedrig- bzw Hoch-Bereich individuell einzurichten. Der einzige Alarm, der nicht veränderbar ist, der der Alarm bei einem GZ von 55 mg/dl.
+**Smartphone Hauptbildschirm**
+* Man kann sich auf dem Smartphone-Hauptbildschirm ein Widget anlegen, so dass man den derzeitig aktuellen GZ-Wert angezeigt bekommt als auch den GZ-Verlauf der letzten drei Stunden. Auf diese Weise muss man nicht immer die Handy-App öffnen, um den GZ-Verlauf zu sehen.
 
-* unterer Bereich:  
-Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind.  
 
 ![xDrip_Screenshot_Hauptansicht.png](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png) ![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png)
 
@@ -40,7 +45,7 @@ Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt 
 Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der Download für eine lauffähige Version (*.apk-File) findet sich hier: [Link zur Beta-Version](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta)
 
 Die hier verlinkten Versionen sind so erstellt, dass man eine ältere Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu verlieren.
-Wer hinreichende technische Kenntnisse hat, kann sich aus den Sourcen selbst die apk kompilieren. 
+Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen Quellen selbst die apk zusammenstellen. 
 
 ### Verbinden mit dem Wixel: Bluetooth-Scan / Hardware data source
 Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter empfangen und an die xDrip-App übergeben werden.
