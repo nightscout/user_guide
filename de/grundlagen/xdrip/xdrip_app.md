@@ -12,21 +12,24 @@ Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder
 ---
 ##Screenshots:
 **Hauptansicht**
-* aktueller BZ mit Trendpfeil
-* Zeit seit letzter Messung
-* Differenz zur vorletzten Messung
-* Batterie-Stand von xDrip/xBridge (optional)
-* dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“
-* dünne rote Gerade: Individuell definierte Grenze für „zu tief“
-* Verlauf der letzten drei Stunden
-* Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert.  
+* oberer Bereich des Hauptbildschirms
+ * aktueller BZ mit Trendpfeil
+ * Zeit seit letzter Messung
+ * Differenz zur vorletzten Messung
+ * Batterie-Stand von xDrip/xBridge (optional)
+ * dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“
+ * dünne rote Gerade: Individuell definierte Grenze für „zu tief“
+ * Verlauf der letzten drei Stunden
+ * Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert.  
  * blau: im Zielbereich  
  * gelb: zu hoch  
  * rot: zu tief  
- * rot/weiß: Kalibrierungen
- * * unterer Bereich:  
+ * rot/weiß: Kalibrierungen 
+* unterer Bereich des Hauptbildschirms:  
 Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
+
 **Statistik-Ansicht** --> noch zu beschreiben!
+
 **Alert-List Ansicht**
 * Möglichkeit, verschiedene Alarme für den Niedrig- bzw Hoch-Bereich individuell einzurichten. Der einzige Alarm, der nicht veränderbar ist, der der Alarm bei einem GZ von 55 mg/dl.
 **Smartphone Hauptbildschirm**
@@ -43,7 +46,6 @@ Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt 
 ## Grund-Funktionalität
 ### Download & Installation
 Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der Download für eine lauffähige Version (*.apk-File) findet sich hier: [Link zur Beta-Version](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta)
-
 Die hier verlinkten Versionen sind so erstellt, dass man eine ältere Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu verlieren.
 Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen Quellen selbst die apk zusammenstellen. 
 
@@ -59,7 +61,8 @@ xDrip in xBridge2 wxl. Aus dieser [Quelle](https://github.com/jstevensog/wixel-s
 * Wifi Wixel  
 Weitere Infos, siehe: ?
 * Wifi Wixel + BT Wixel  
-Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, die im ganzen Haus den Empfang sicherstellen. Außerhalb des WLANs werden die Daten vom BT-Wixel empfangen. Weitere Infos: https://github.com/jamorham/python-usb-wixel-xdrip 
+Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, die im ganzen Haus den Empfang sicherstellen. Außerhalb des WLANs werden die Daten vom BT-Wixel empfangen. Weitere Infos: 
+https://github.com/jamorham/python-usb-wixel-xdrip 
 * DexcomShare  
 DexcomShare ist zZt. in Europa nicht verfügbar. 
 Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
@@ -81,7 +84,6 @@ AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A*
 PM = post meridiem, auf Deutsch: NACH dem Mittag
 
 **Alternativen beim Starten des Sensors**
-
 Wenn man keine zwei Stunden verlieren möchte, bis wieder CGM-Werte angezeigt werden (beim Wechsel des Sensors beispielsweise), so kann man bei der Zeit 2 Stunden vor der eigentlichen Uhrzeit eingeben. 
 Beispiel: setzt man den Sensor um 11 Uhr morgens, so wähle man als Start-Uhrzeit des Sensors 9 Uhr und die Messung des Sensors startet sofort.
 Wer bei Start des Sensors vergessen hat, die Uhrzeit um 2 Stunden nach vorne zu verlegen, kann den Sensor in der App problemlos nochmals stoppen und wieder starten. 
