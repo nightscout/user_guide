@@ -144,13 +144,13 @@ Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünsc
 #### Calibration Alerts
 Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
-*Calibration Alerts - alert when a calibration is requested*: Hier kannst du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche Kalibrierung erinnert werden möchtest. Das bietet sich z.B. für die Doppelkalibrierung an.
+* Calibration Alerts - alert when a calibration is requested*: Hier kannst du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche Kalibrierung erinnert werden möchtest. Das bietet sich z.B. für die Doppelkalibrierung an.
 
-*Calibration Request Sound*: Hier kannst du dir durch Antippen einen Signalton aus deinem Smartphonerepertoire auswählen.
+* Calibration Request Sound*: Hier kannst du dir durch Antippen einen Signalton aus deinem Smartphonerepertoires auswählen.
 
-*Override Silent Mode on Calibration Alerts*: Wenn du hier ein Häkchen setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des Smartphones. 
+* Override Silent Mode on Calibration Alerts*: Wenn du hier ein Häkchen setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des Smartphones. 
 
-*Calibration Request Snooze*: Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.
+* Calibration Request Snooze*: Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.
 
 ## Verbinden mit einer Smartwatch
 
