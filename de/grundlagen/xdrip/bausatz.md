@@ -1,5 +1,5 @@
 # Bausatz
-Es gibt verschiedene Varianten, um einen xDrip zu bauen. Das betrifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) 
+Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) 
 Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen für ähnliche Dinge.
 Die Varianten haben unterschiedliche Eigenschaften, letztlich aber dieselbe Aufgabe: CGM-Daten vom Transmitter empfangen und an ein Bluetooth-Handy übertragen.
 
