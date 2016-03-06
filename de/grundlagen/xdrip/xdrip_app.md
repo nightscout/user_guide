@@ -194,7 +194,7 @@ TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = Tage
 
 Hierzu gibt es drei Seiten, die man durch Wischen nach links bzw. rechts aufrufen kann. Auf welcher der Seiten man sich befindet, erkennt man an der Veränderung der drei kleinen Kreise direkt unter der Leiste mit den Zeiträumen von ungefüllten zu gefüllten Kreisen.
 
-Die linke der drei Seiten enthält Informationstext:
+Die linke der drei Seiten enthält Informationstext.
 
 Range, auf Deutsch: Spannweite, gibt die Verteilung der gemessenen Werte an, unterteilt nach in/high/low, auf Deutsch: innerhalb der Grenzwerte/höher/tiefer.
 
