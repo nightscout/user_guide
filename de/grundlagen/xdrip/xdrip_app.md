@@ -59,7 +59,8 @@ Weitere Infos, siehe: ?
 * Wifi Wixel + BT Wixel  
 Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, die im ganzen Haus den Empfang sicherstellen. Außerhalb des WLANs werden die Daten vom BT-Wixel empfangen. Weitere Infos: https://github.com/jamorham/python-usb-wixel-xdrip 
 * DexcomShare  
-DexcomShare ist zZt. in Europa nicht verfügbar. Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
+DexcomShare ist zZt. in Europa nicht verfügbar. 
+Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
 
 ### Starten des Sensors
 Hier kann man durch Auswahl das Datum und die Uhrzeit im 12-Stunden Format eingeben,
