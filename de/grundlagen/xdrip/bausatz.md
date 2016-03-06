@@ -49,8 +49,8 @@ Es gibt zwei Möglichkeiten: Warten, bis das Wixel (alle 5 Minuten) aufwacht, di
 
 ** Info zu den Widerständen: ** (wichtig für die Batterie-Anzeige) 
 * "xDrip classic" (ohne Spannungsteiler)
-* "xDrip classic zzgl. Spannungsteiler" Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2,2k) ODER (10k und 22k).
-* "xBridge" (incl. Spannungsteiler) Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfehlung: (10k und 27k) 
+* "xDrip classic zzgl. Spannungsteiler". Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2,2k) ODER (10k und 22k).
+* "xBridge" (incl. Spannungsteiler). Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfohlen werden 10k und 27k.
 * Wenn Widerstände neu eingebaut wurden, oder wenn die eingebauten Widerstände verändert wurden, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte für Battery-Level in der xDrip-App sind falsch. 
 * Metallschicht-Widerstände sind etwas größer und damit leichter zu handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man etwas Platz sparen, aber man braucht wirklich eine ruhige Hand beim Löten.
 
