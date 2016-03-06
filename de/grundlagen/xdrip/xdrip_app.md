@@ -104,7 +104,7 @@ Vor allem aber findet man hier unter "Connection Status" die Information, ob das
 
 
 **Transmitter-Batterie-Info**
-**### xBridge-Batterie-Info**
+**xBridge-Batterie-Info**
 ---> Noch zu beschreiben!
 
 
@@ -144,7 +144,8 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 
 ## Verbinden mit einer Smartwatch:
-An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden. Damit könnte man die Installationsschritte in "Nightscout einrichten" umgehen. Damit wiederherum umgeht man aber auch die Möglichkeit, die Daten weiter zu nutzen. (Als Überwachungsfunktion, als Tagebuch oder für das APS)
+An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden. Damit könnte man die Installationsschritte in "Nightscout einrichten" umgehen. Damit wiederherum umgeht man aber auch die Möglichkeit, die Daten weiter zu nutzen. (Als Überwachungsfunktion, als Tagebuch oder für das APS).
+
 ### Android Wear
 ### Pebble
 
@@ -212,7 +213,7 @@ Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen o
 ### Interne Daten (Datatables + Calibration Graph)
 
 
-### Fehlerbehebung
+# Fehlerbehebung
 
 1. **Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als "hm-soft", nicht als „xBridge“ oder „xDrip“.  
 Was muss ich tun, damit das neue xDrip (richtig) funktioniert?  
