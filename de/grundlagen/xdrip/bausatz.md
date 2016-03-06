@@ -109,7 +109,7 @@ Erklärung zur folgenden Tabelle:
 ###Weiterführende Infos / Schaltbilder für xBridge
 
 Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante "xDrip-classic" nicht gewünscht ist.
-Es gibt verschiedene Bluetooth-Module: HM10 oder HM11. Es gibt verschiedene Bauformen für diese Module. Deswegen hier mehrere Bilder zur Verschaltung. Sucht euch das Bild raus, das zu eurem konkreten HM Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus den folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen.
+Es gibt verschiedene Bluetooth-Module: HM10 oder HM11, für die es verschiedene Bauformen gibt. Deswegen hier mehrere Bilder zur Verschaltung. Sucht euch das Bild raus, das zu eurem konkreten HM Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus den folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen.
 
 **Schaltbild für xBridge mit HM-10**
 ![HM10_xbridge_Wiring_Diagram](../../images/xdrip/HM10_xbridge_Wiring_Diagram.png)
