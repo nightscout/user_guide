@@ -204,7 +204,7 @@ Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen o
 
 ## Weiteres
 
-## Verbinden mit einer Smartwatch
+### Verbinden mit einer Smartwatch
 
 An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden. Damit könnte man die Installationsschritte in "Nightscout einrichten" umgehen. Damit wiederherum umgeht man aber auch die Möglichkeit, die Daten weiter zu nutzen (als Überwachungsfunktion, als Tagebuch oder für das OpenAPS).
 
