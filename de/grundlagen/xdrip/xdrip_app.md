@@ -138,6 +138,7 @@ Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und
 ### Alarme
 #### BG-Level-Alerts
 
+![xDrip_Screenshot_alerts](../../images/xdrip/xDrip_Screenshot_alerts.png)
 
 
 Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- (Hochalarm) oder unterschreitet (Tiefalarm). Der Tiefalarm für Werte unter 55mg/dl ist vom System bereits voreingestellt und kann nicht verändert werden.
