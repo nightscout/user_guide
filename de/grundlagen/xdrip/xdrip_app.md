@@ -219,43 +219,6 @@ Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen o
 
 
 
-### Kalibrieren
-
-Zwei Stunden nach dem Sensor-Start (oder früher, s.o. unter Sensor starten) müssen die vom Sensor gemessenen Werte mit zwei von einem Blutzuckermessgerät direkt hintereinander ermittelten Werten (aus verschiedenen Fingern) abgestimmt, kalibriert werden. Hierfür geht man über das xDrip Menü zum Punkt **"Add double calibration"** und tippt jeweils in die Felder mit der blinkenden Schreibmarke (cursor) und gibt über die auf diese Weise aufgerufene Tastatur den durch zwei Blutzuckermessungen ermittelten Wert ein. Danach tippt man auf das Feld "done", auf Deutsch: erledigt. Nach einer kurzen Verzögerung (nicht wundern, das System arbeitet) geht es automatisch zurück zum Hauptbildschirm und die ersten Sensormesswerte sind schon in der Grafik eingetragen.
-
-Für ein paar Minuten erscheint im Auswahlmenü die Möglichkeit **"Override Calibration"**, auf Deutsch: Kalibrierung überschreiben. Damit können falsch eingegebene Werte durch die richtigen Werte ersetzt werden.
-
-Anschließend gibt es im Menü nicht mehr die Doppel-, sondern die einfache Kalibrierung **"Add Calibration"**, die wie die Doppelkalibrierung funktioniert, nur dass lediglich ein einzelner mit dem Blutzuckermessgerät gemessene Wert eingetragen werden muss. Wie oft man (einfach) kalibriert, ist Geschmacksache, es sollte jedenfalls nicht zu häufig sein. Man kann sich daran orientieren, dass der Dexcom Receiver alle zwölf Stunden eine Kalibrierung abfragt. Und man kann bei Zweifeln an der Richtigkeit der vom Sensor gemessenen Werte auch mit einem Messgerät gegenmessen, ohne zu kalibrieren. Unstimmigkeiten müssen nicht zwingend am Sensor liegen, sie können auch darin begründet sein, dass der Gewebezuckerwert im Vergleich zum Blutzuckerwert mehrere Minuten verzögert eine Veränderung aufzeigt. Eine Kalibrierung zu einem solchen Zeitpunkt würde sich ungünstig auf die Messgenauigkeit auswirken. Daher der **Merksatz**: *Eine Kalibrierung zu Zeiten durchführen, in denen der Blutzucker möglichst stabil ist*, also z.B. vor einer Mahlzeit.
-
-
-### Alarme
-#### BG-Level-Alerts
-
-Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- (Hochalarm) oder unterschreitet (Tiefalarm). Der Tiefalarm für Werte unter 55mg/dl ist vom System bereits voreingestellt und kann nicht verändert werden.
-
-Drücke "****create low alert****", um einen Tiefalarm selbst zu definieren. Unter "***Alert Name***" gibst du dem Alarm eine von dir ausgewählte Bezeichnung, z.B. für mg/dl zu niedrig 80. Bei "***Threshold***" tippst du den entsprechenden Wert (hier z.B. 80) ein. Unter "***Default Snooze***" gibst du die Minuten ein, nach denen sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der Wert aber nach wie vor zu tief ist; unter "***Re-raise***" die Minuten, nach denen sich der Alarm erneut melden soll, wenn du ihn ignoriert hast, der Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich bei Tiefalarmen einen kürzeren Zeitraum auszuwählen. Unter "***Alert Tone***" kannst du dir einen entsprechenden Alarmton bestimmen bzw. mit "choose file" aus deinem Smartphonerepertoire aussuchen. 
-Unter "***select time for alert***" ist "all day" bereits mit Häkchen versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch auf "all day" tippen, um dann mit "tap to change" einen gewissen Zeitraum (z.B. die Nacht) festzulegen. Du kannst den Alarm über "***override phone silent mode***" auch im Ruhemodus klingen lassen und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an "***vibrate on alert***". Zuletzt kannst du den Alarm noch ***testen*** und vergiss nicht, ihn zu speichern ("***save alert***"), wenn er dir zusagt!
-
-Entsprechend kannst du über "**create high alert**" eine Alarmkaskade nach oben schaffen.
-
-Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünschten Alarmes in den Bearbeitungsmodus.
-
-#### BG-Alert-Settings
-##### Profil: High, Ascending, ...
-##### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
-#### Rise-Fall-Alerts
-#### Calibration Alerts
-Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
-
-* Calibration Alerts - alert when a calibration is requested: *Hier kannst du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche Kalibrierung erinnert werden möchtest. Das bietet sich z.B. für die Doppelkalibrierung an.*
-
-* Calibration Request Sound: *Hier kannst du dir durch Antippen einen Signalton aus deinem Smartphonerepertoire auswählen.*
-
-* Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des Smartphones. *
-
-* Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
-
-### Interne Daten (Datatables + Calibration Graph)
 
 ## Weiteres
 
