@@ -54,7 +54,7 @@ Hier findet man Informationen über das System:
 | Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
 | Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
 
-### Starten des Sensors
+## Starten des Sensors
 
 Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man auf das Feld "Start Sensor".
 
@@ -78,7 +78,7 @@ Wer die genaue Zeit beim Sensor-Start eingeben möchte in der App, der kann dies
 Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start dieses Sensors legt, während der alte Sensor noch weiter in Gebrauch ist. Dabei wird bis zum Austausch ein alter Transmitter als Platzhalter auf dem neu gesetzten Sensor verwendet.
  
 
-### Stoppen des Sensors
+## Stoppen des Sensors
 
 Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt "Start Sensor" in der App durch den Menüpunkt "**Stop Sensor**" ersetzt. 
 
