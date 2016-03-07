@@ -14,7 +14,6 @@ Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen Quelle
 2. Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab Bluetooth 4.0 vorhanden und wird häufig mit "Bluetooth Smart" gekennzeichnet.
 3. xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur USA)
 
-
 ## Verbinden mit dem Wixel
 ### Bluetooth-Scan / Hardware data source
 
