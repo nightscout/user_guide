@@ -211,7 +211,7 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 ### Android Wear
 ### Pebble
 
-## Upload zu NightScout
+### Upload zu NightScout
 
 # Fehlerbehebung
 
