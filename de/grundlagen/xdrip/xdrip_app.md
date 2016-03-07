@@ -105,18 +105,7 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
 
-### System Status
-
-Hier findet man Informationen über das System: 
-* welche Hardware benutzt wird 
-* welchen Ladezustand die Batterie des Transmitters hat
-* wann der Sensor gestartet worden ist 
-* wie viele Tage und Stunden er bereits liegt
-* Connection Status: ist die Hardware xDrip mit der App verbunden?
-* Über Antippen von "Forget Device" kann man die Verbindung unterbrechen und über "Restart Collector" neu in Gang setzen.
-
-
-##Screenshot des Hauptbildschirms
+## Screenshot des Hauptbildschirms
 
 ![xDrip_Screenshot_Hauptansicht](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
 
