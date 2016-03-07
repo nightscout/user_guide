@@ -33,7 +33,7 @@ https://github.com/jamorham/python-usb-wixel-xdrip
 DexcomShare ist zZt. in Europa nicht verfügbar. 
 Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
 
-### System Status
+## System Status
 
 Hier findet man Informationen über das System: 
 * welche Hardware benutzt wird 
