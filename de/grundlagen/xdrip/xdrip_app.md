@@ -70,6 +70,7 @@ AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A*
 PM = post meridiem, auf Deutsch: NACH dem Mittag
 
 **Alternativen beim Starten des Sensors**
+
 Wenn man keine zwei Stunden verlieren möchte, bis wieder CGM-Werte angezeigt werden (beim Wechsel des Sensors beispielsweise), so kann man bei der Zeit 2 Stunden vor der eigentlichen Uhrzeit eingeben. 
 Beispiel: Setzt man den Sensor um 11 Uhr morgens, so wählt man als Start-Uhrzeit des Sensors 9 Uhr, und die Messung des Sensors startet sofort.
 Wer bei Start des Sensors vergessen hat, die Uhrzeit um 2 Stunden vorzuverlegen, kann den Sensor in der App problemlos nochmals stoppen und wieder starten. 
