@@ -163,6 +163,9 @@ Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man glei
 
 ### Statistik - siehe Screenshot weiter oben
 
+
+
+
 Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen auswählen kann.
 TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = Tage
 
