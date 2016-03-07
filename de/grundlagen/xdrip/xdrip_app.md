@@ -208,12 +208,11 @@ Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen o
 
 An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden. Damit könnte man die Installationsschritte in "Nightscout einrichten" umgehen. Damit wiederherum umgeht man aber auch die Möglichkeit, die Daten weiter zu nutzen (als Überwachungsfunktion, als Tagebuch oder für das OpenAPS).
 
-### Android Wear
-### Pebble
-
+#### Android Wear
+#### Pebble
 ### Upload zu NightScout
 
-# Fehlerbehebung
+## Fehlerbehebung
 
 1. **Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als "hm-soft", nicht als „xBridge“ oder „xDrip“.  
 Was muss ich tun, damit das neue xDrip (richtig) funktioniert?  
