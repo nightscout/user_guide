@@ -215,37 +215,6 @@ Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen o
 
 
 
-### Starten des Sensors
-
-Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man auf das Feld "Start Sensor".
-
-Nun erscheint auf dem Hauptbildschirm in roten Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten (rückwärtslaufend) eine Doppelkalibrierung benötigt.
-
-Darunter folgt ein Warnhinweis, frei übersetzt: Erst dann auf "Sensor Start" tippen, wenn der Sensor gelegt und der Transmitter (Sender) auf der Sensorplatte befestigt worden ist.
-
-Bitte das Datum und die genaue Uhrzeit der Sensorlegezeit auswählen, zumindest so nah dran, wie man sich noch erinnert.
-Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf dem Smartphone zu speichern, falls man den Sensor später mit diesem Zeitpunkt nochmal neu starten möchte, z.B. um die bisherigen Kalibrierungen zu löschen oder weil man den Transmitter aus welchen Gründen auch immer kurz abgenommen hatte.
-
-Zur Erklärung der 12-Stunden-Anzeige:
-AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A**m **M**orgen;
-PM = post meridiem, auf Deutsch: NACH dem Mittag
-
-**Alternativen beim Starten des Sensors**
-Wenn man keine zwei Stunden verlieren möchte, bis wieder CGM-Werte angezeigt werden (beim Wechsel des Sensors beispielsweise), so kann man bei der Zeit 2 Stunden vor der eigentlichen Uhrzeit eingeben. 
-Beispiel: Setzt man den Sensor um 11 Uhr morgens, so wählt man als Start-Uhrzeit des Sensors 9 Uhr, und die Messung des Sensors startet sofort.
-Wer bei Start des Sensors vergessen hat, die Uhrzeit um 2 Stunden vorzuverlegen, kann den Sensor in der App problemlos nochmals stoppen und wieder starten. 
-Wer die genaue Zeit beim Sensor-Start eingeben möchte in der App, der kann dies auch tun. Es ist allerdings nicht nötig, 2 Stunden mit der Doppelkalibrierung zu warten. Nach ca. 40 Minuten kann man die Doppelkalibrierung durchführen.
-
-Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start dieses Sensors legt, während der alte Sensor noch weiter in Gebrauch ist. Dabei wird bis zum Austausch ein alter Transmitter als Platzhalter auf dem neu gesetzten Sensor verwendet.
- 
-
-### Stoppen des Sensors
-
-Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt "Start Sensor" in der App durch den Menüpunkt "**Stop Sensor**" ersetzt. 
-
-Wenn man hier antippt, erscheint ein Warnhinweis, man möge den Sensor nur dann stoppen, wenn man auch vorhat, ihn zu entfernen. Darunter befindet sich das Feld mit der Aufschrift "Stop Sensor". In dieses Feld tippt man, um den Sensor zu stoppen.
-
-Ab diesem Moment wechselt die Anzeige im Menü wieder zu "Sensor Start".
 
 ### System Status
 
