@@ -164,7 +164,8 @@ Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man glei
 ### Statistik 
 
 
-![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png) 
+![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png)  ![xDrip_Screenshot_statistic_2](../../images/xdrip/xDrip_Screenshot_statistic_2.png)
+
 
 
 Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen auswählen kann.
