@@ -9,6 +9,19 @@ Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder
 2. Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab Bluetooth 4.0 vorhanden und wird häufig mit "Bluetooth Smart" gekennzeichnet.
 3. xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur USA)
 
+
+
+### Settings
+
+|Name|Bedeutung|Empfehlung für Einsteiger|
+|--|--|--|
+|Bg Units| "mg/dl" oder "mmol"| -|
+| High Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu hoch" gewertet wird. | -|
+| Low Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu tief" gewertet wird. | -|
+|...|
+| Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
+| Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
+
 ---
 ##Screenshots:
 **Hauptansicht**
