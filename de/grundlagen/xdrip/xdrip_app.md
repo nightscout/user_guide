@@ -105,7 +105,7 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
 
-## Screenshot des Hauptbildschirms
+### Screenshot des Hauptbildschirms
 
 ![xDrip_Screenshot_Hauptansicht](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
 
@@ -126,7 +126,7 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
 
 
-## Widgets
+### Widgets
 
 ![xdrip_Screenshot_widget](../../images/xdrip/xDrip_Screenshot_widget.png)
 
