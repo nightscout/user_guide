@@ -134,7 +134,7 @@ Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem 
 
 Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
 
-### Alarme
+## Alarme
 #### BG-Level-Alerts
 
 ![xDrip_Screenshot_alerts](../../images/xdrip/xDrip_Screenshot_alerts.png)
@@ -155,7 +155,7 @@ Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünsc
 #### Rise-Fall-Alerts
 
 
-### Werte vorlesen lassen
+## Werte vorlesen lassen
 
 Beim Autofahren oder wenn man aus anderen Gründen die Hände gerade nicht frei hat (z.B. weil man mit den Händen im Spülwasser oder im Kuchenteig steckt) kann man sich die jeweiligen Messwerte laut vorlesen lassen, wenn das Smartphone die sog. "Text-to-speech" Möglichkeit bietet.
 
