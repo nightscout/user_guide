@@ -150,8 +150,8 @@ Entsprechend kannst du über "**create high alert**" eine Alarmkaskade nach oben
 Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünschten Alarmes in den Bearbeitungsmodus.
 
 #### BG-Alert-Settings
-##### Profil: High, Ascending, ...
-##### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
+#### Profil: High, Ascending, ...
+#### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
 #### Rise-Fall-Alerts
 
 
