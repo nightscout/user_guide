@@ -107,8 +107,10 @@ Hier findet man Informationen über das System:
 
 
 ##Screenshot des Hauptbildschirms
-**Hauptansicht**
-* oberer Bereich des Hauptbildschirms
+
+![xDrip_Screenshot_Hauptansicht](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
+
+**oberer Bereich des Hauptbildschirms**
  * aktueller BZ mit Trendpfeil
  * Zeit seit letzter Messung
  * Differenz zur vorletzten Messung
@@ -121,7 +123,7 @@ Hier findet man Informationen über das System:
  * gelb: zu hoch  
  * rot: zu tief  
  * rot/weiß: Kalibrierungen 
-* unterer Bereich des Hauptbildschirms:  
+**unterer Bereich des Hauptbildschirms**  
 Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
 
 
