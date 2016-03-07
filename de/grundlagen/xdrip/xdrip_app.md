@@ -94,7 +94,7 @@ Für ein paar Minuten erscheint im Auswahlmenü die Möglichkeit **"Override Cal
 
 Anschließend gibt es im Menü nicht mehr die Doppel-, sondern die einfache Kalibrierung **"Add Calibration"**, die wie die Doppelkalibrierung funktioniert, nur dass lediglich ein einzelner mit dem Blutzuckermessgerät gemessene Wert eingetragen werden muss. Wie oft man (einfach) kalibriert, ist Geschmacksache, es sollte jedenfalls nicht zu häufig sein. Man kann sich daran orientieren, dass der Dexcom Receiver alle zwölf Stunden eine Kalibrierung abfragt. Und man kann bei Zweifeln an der Richtigkeit der vom Sensor gemessenen Werte auch mit einem Messgerät gegenmessen, ohne zu kalibrieren. Unstimmigkeiten müssen nicht zwingend am Sensor liegen, sie können auch darin begründet sein, dass der Gewebezuckerwert im Vergleich zum Blutzuckerwert mehrere Minuten verzögert eine Veränderung aufzeigt. Eine Kalibrierung zu einem solchen Zeitpunkt würde sich ungünstig auf die Messgenauigkeit auswirken. Daher der **Merksatz**: *Eine Kalibrierung zu Zeiten durchführen, in denen der Blutzucker möglichst stabil ist*, also z.B. vor einer Mahlzeit.
 
-#### Calibration Alerts
+### Calibration Alerts
 Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Alerts - alert when a calibration is requested: *Hier kannst du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche Kalibrierung erinnert werden möchtest. Das bietet sich z.B. für die Doppelkalibrierung an.*
