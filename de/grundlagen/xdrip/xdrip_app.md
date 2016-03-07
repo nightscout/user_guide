@@ -151,16 +151,6 @@ Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünsc
 ##### Profil: High, Ascending, ...
 ##### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
 #### Rise-Fall-Alerts
-#### Calibration Alerts
-Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
-
-* Calibration Alerts - alert when a calibration is requested: *Hier kannst du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche Kalibrierung erinnert werden möchtest. Das bietet sich z.B. für die Doppelkalibrierung an.*
-
-* Calibration Request Sound: *Hier kannst du dir durch Antippen einen Signalton aus deinem Smartphonerepertoire auswählen.*
-
-* Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des Smartphones. *
-
-* Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
 
 
 ### Werte vorlesen lassen
