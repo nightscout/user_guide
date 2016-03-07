@@ -134,6 +134,79 @@ Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt 
 **Smartphone Hauptbildschirm**
 * Man kann sich auf dem Smartphone-Hauptbildschirm ein Widget anlegen, so dass man den derzeitig aktuellen GZ-Wert angezeigt bekommt als auch den GZ-Verlauf der letzten drei Stunden. Auf diese Weise muss man nicht immer die Handy-App öffnen, um den GZ-Verlauf zu sehen.
 
+### Alarme
+#### BG-Level-Alerts
+
+Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- (Hochalarm) oder unterschreitet (Tiefalarm). Der Tiefalarm für Werte unter 55mg/dl ist vom System bereits voreingestellt und kann nicht verändert werden.
+
+Drücke "****create low alert****", um einen Tiefalarm selbst zu definieren. Unter "***Alert Name***" gibst du dem Alarm eine von dir ausgewählte Bezeichnung, z.B. für mg/dl zu niedrig 80. Bei "***Threshold***" tippst du den entsprechenden Wert (hier z.B. 80) ein. Unter "***Default Snooze***" gibst du die Minuten ein, nach denen sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der Wert aber nach wie vor zu tief ist; unter "***Re-raise***" die Minuten, nach denen sich der Alarm erneut melden soll, wenn du ihn ignoriert hast, der Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich bei Tiefalarmen einen kürzeren Zeitraum auszuwählen. Unter "***Alert Tone***" kannst du dir einen entsprechenden Alarmton bestimmen bzw. mit "choose file" aus deinem Smartphonerepertoire aussuchen. 
+Unter "***select time for alert***" ist "all day" bereits mit Häkchen versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch auf "all day" tippen, um dann mit "tap to change" einen gewissen Zeitraum (z.B. die Nacht) festzulegen. Du kannst den Alarm über "***override phone silent mode***" auch im Ruhemodus klingen lassen und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an "***vibrate on alert***". Zuletzt kannst du den Alarm noch ***testen*** und vergiss nicht, ihn zu speichern ("***save alert***"), wenn er dir zusagt!
+
+Entsprechend kannst du über "**create high alert**" eine Alarmkaskade nach oben schaffen.
+
+Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünschten Alarmes in den Bearbeitungsmodus.
+
+#### BG-Alert-Settings
+##### Profil: High, Ascending, ...
+##### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
+#### Rise-Fall-Alerts
+#### Calibration Alerts
+Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
+
+* Calibration Alerts - alert when a calibration is requested: *Hier kannst du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche Kalibrierung erinnert werden möchtest. Das bietet sich z.B. für die Doppelkalibrierung an.*
+
+* Calibration Request Sound: *Hier kannst du dir durch Antippen einen Signalton aus deinem Smartphonerepertoire auswählen.*
+
+* Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des Smartphones. *
+
+* Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
+
+### Widgets - siehe auch Screenshot weiter oben
+
+Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glucosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xDrip App.
+
+Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
+
+### Werte vorlesen lassen
+
+Beim Autofahren oder wenn man aus anderen Gründen die Hände gerade nicht frei hat (z.B. weil man mit den Händen im Spülwasser oder im Kuchenteig steckt) kann man sich die jeweiligen Messwerte laut vorlesen lassen, wenn das Smartphone die sog. "Text-to-speech" Möglichkeit bietet.
+
+Dazu geht man zuerst im xDrip Menü auf Settings (Einstellungen) und verschiebt den Bildschirmtest so lange nach oben, bis man weit unten unter "Other Settings" (Sonstige Einstellungen) den Punkt "**Speak Readings**" findet. Hier setzt man ein Häkchen, woraufhin sich ein Dialogfenster öffnet und fragt, ob man eine passende Text-To-Speech Datei installieren möchte. Bejaht man dies, öffnet sich ein weiteres Fenster, in dem man sich verschiedene Sprachbeispiele (alle mit weiblicher Stimme) anhören (Pfeil antippen) oder gleich die Datei dazu installieren (Download Symbol antippen) kann.
+
+Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man gleich noch ein Häkchen  direkt unter Speak Readings bei "**Speak Readings Shortcut**" setzen. Dadurch ist die Vorlesefunktion in das xDrip Menü (je nach Smartphone drei kleine Punkte oben rechts auf dem Hauptbildschirm der App oder bei geöffneter App die Smartphonefläche unten links) aufgenommen und kann gleich dort mit Häkchen aktiviert oder deaktiviert werden.
+
+### Statistik - siehe Screenshot weiter oben
+
+Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen auswählen kann.
+TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = Tage
+
+Hierzu gibt es drei Seiten, die man durch Wischen nach links bzw. rechts aufrufen kann. Auf welcher der Seiten man sich befindet, erkennt man an der Veränderung der drei kleinen Kreise direkt unter der Leiste mit den Zeiträumen von ungefüllten zu gefüllten Kreisen.
+
+Die linke der drei Seiten enthält Informationstext.
+
+Range, auf Deutsch: Spannweite, gibt die Verteilung der gemessenen Werte an, unterteilt nach in/high/low, auf Deutsch: innerhalb der Grenzwerte/höher/tiefer.
+
+Absolute numbers: Dies sind die absoluten Zahlen der jeweils in den genannten Bereichen gemessenen Werte.
+
+Der Median BG ist der Wert in der Mitte der gemessenen Werte, damit werden Ausreißer nicht berücksichtigt (Bsp: 1,3,5,6,9=5).
+
+Der Mean BG ist das arithmetische Mittel der gemessenen Werte (Bsp: 1+3+5+5+9=23/5=4,6).
+
+HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach angetipptem Zeitraum der HbA1c in mmol/mol und in mg/dl überschlägig berechnet.
+
+StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie ist ein Maß für die Streuung der Werte.
+
+Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in ihrer Verteilung als Tortengrafik dargestellt. Grün steht für innerhalb der Grenzwerte, gelb für hohe und rot für tiefe Werte.
+
+Auf der rechten Seite wird für jeden ausgewählten Zeitraum die Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt.
+
+
+### BG History
+
+Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen kann. Man kann auch vom ausgewählten Datum aus die letzten 1 bis 14 Tage in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen.
+
+Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend waagerechten, Bewegung zweier Finger in die Breite ziehen. Wenn man beliebige einzelne Punkte auf der Verlaufskurve antippt, erhält man unten kurz eingeblendet die Information über die Uhrzeit und den gemessenen Wert. Diese Einzelbetrachtung ist übrigens ebenfalls in der aktuellen Verlaufskurve des Hauptbildschirmes möglich.
+
 
 ![xDrip_Screenshot_Hauptansicht.png](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png) ![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png)
 
