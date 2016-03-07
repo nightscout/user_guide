@@ -105,7 +105,7 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
 
-## Widgets
+## Widget
 
 ![xDrip_Screenshot_widget](../../images/xdrip/xDrip_Screenshot_widget.png)
 
@@ -114,6 +114,7 @@ Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem 
 Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
 
 ## Screenshot des Hauptbildschirms
+
 
 ![xDrip_Screenshot_Hauptansicht](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
 
