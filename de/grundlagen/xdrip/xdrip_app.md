@@ -211,15 +211,6 @@ Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen o
 ![xDrip_Screenshot_alerts.png](../../images/xdrip/xDrip_Screenshot_alerts.png) ![xDrip_Screenshot_widget.png](../../images/xdrip/xDrip_Screenshot_widget.png)
 
 
-
-
-
-
-
-
-
-
-
 ## Weiteres
 
 ## Verbinden mit einer Smartwatch
