@@ -44,17 +44,6 @@ Hier findet man Informationen über das System:
 * Connection Status: ist die Hardware xDrip mit der App verbunden?
 * Über Antippen von "Forget Device" kann man die Verbindung unterbrechen und über "Restart Collector" neu in Gang setzen.
 
-## Settings
-
-|Name|Bedeutung|Empfehlung für Einsteiger|
-|--|--|--|
-|Bg Units| "mg/dl" oder "mmol"| -|
-| High Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu hoch" gewertet wird. | -|
-| Low Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu tief" gewertet wird. | -|
-|...|
-| Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
-| Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
-
 ## Starten des Sensors
 
 Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man auf das Feld "Start Sensor".
