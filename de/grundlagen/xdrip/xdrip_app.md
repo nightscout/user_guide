@@ -33,6 +33,8 @@ https://github.com/jamorham/python-usb-wixel-xdrip
 DexcomShare ist zZt. in Europa nicht verfügbar. 
 Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
 
+
+
 ### Starten des Sensors
 
 Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man auf das Feld "Start Sensor".
