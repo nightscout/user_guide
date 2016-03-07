@@ -125,7 +125,7 @@ Hier findet man Informationen über das System:
 Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
 
 
-### Widgets
+## Widgets
 
 ![xdrip_Screenshot_widget](../../images/xdrip/xDrip_Screenshot_widget.png)
 
