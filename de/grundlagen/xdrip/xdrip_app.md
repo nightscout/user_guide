@@ -104,8 +104,6 @@ Hier findet man Informationen über das System:
 * unterer Bereich des Hauptbildschirms:  
 Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
 
-
-
 **Alert-List Ansicht**
 * Möglichkeit, verschiedene Alarme für den Niedrig- bzw Hoch-Bereich individuell einzurichten. Der einzige Alarm, der nicht veränderbar ist, der der Alarm bei einem GZ von 55 mg/dl.
 **Smartphone Hauptbildschirm**
