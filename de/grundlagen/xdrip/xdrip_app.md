@@ -268,14 +268,6 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 
 ## Upload zu NightScout
 
-
-
-
-
-
-
-
-
 # Fehlerbehebung
 
 1. **Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als "hm-soft", nicht als „xBridge“ oder „xDrip“.  
