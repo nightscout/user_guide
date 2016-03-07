@@ -103,6 +103,14 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
 
+## Widgets
+
+![xDrip_Screenshot_widget](../../images/xdrip/xDrip_Screenshot_widget.png)
+
+Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glucosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xDrip App.
+
+Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
+
 ## Screenshot des Hauptbildschirms
 
 ![xDrip_Screenshot_Hauptansicht](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
@@ -122,15 +130,6 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
  * rot/weiß: Kalibrierungen 
 **unterer Bereich des Hauptbildschirms**  
 Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
-
-
-## Widgets
-
-![xdrip_Screenshot_widget](../../images/xdrip/xDrip_Screenshot_widget.png)
-
-Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glucosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xDrip App.
-
-Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
 
 ## Alarme
 ### BG-Level-Alerts
@@ -193,7 +192,7 @@ Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in ihrer V
 Auf der rechten Seite wird für jeden ausgewählten Zeitraum die Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt.
 
 
-## BG History (nicht in der jetztigen Beta-Version verfügbar)
+## BG History (nicht in der jetzigen Beta-Version verfügbar)
 
 Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen kann. Man kann auch vom ausgewählten Datum aus die letzten 1 bis 14 Tage in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen.
 
