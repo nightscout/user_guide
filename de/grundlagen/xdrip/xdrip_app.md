@@ -11,6 +11,7 @@ Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with Share* oder
 
 ## Grund-Funktionalität
 ### Download & Installation
+
 Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der Download für eine lauffähige Version (*.apk-File) findet sich hier: [Link zur Beta-Version](https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta)
 Die hier verlinkten Versionen sind so erstellt, dass man eine ältere Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu verlieren.
 Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen Quellen selbst die apk zusammenstellen.
