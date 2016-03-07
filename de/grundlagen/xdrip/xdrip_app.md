@@ -44,6 +44,10 @@ Hier findet man Informationen über das System:
 * Connection Status: ist die Hardware xDrip mit der App verbunden?
 * Über Antippen von "Forget Device" kann man die Verbindung unterbrechen und über "Restart Collector" neu in Gang setzen.
 
+### Transmitter Battery Info
+### xDrip Battery Info
+---> ist noch zu beschreiben!
+
 ## Starten des Sensors
 
 Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man auf das Feld "Start Sensor".
@@ -154,7 +158,7 @@ Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des gewünsc
 #### Profil: High, Ascending, ...
 #### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
 #### Rise-Fall-Alerts
-
+----> ist noch zu beschreiben!
 
 ## Werte vorlesen lassen
 
@@ -212,7 +216,7 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 #### Android Wear
 #### Pebble
 ### Upload zu NightScout
-
+----> ist noch zu beschreiben!
 ## Fehlerbehebung
 
 1. **Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als "hm-soft", nicht als „xBridge“ oder „xDrip“.  
@@ -226,7 +230,7 @@ Wenn danach der Chip immer noch "hm-soft" heißt, dann stimmt irgendetwas mit de
 
 2. **Frage:** nächster Punkt kommt dann hierher
 
-
+---> Erweiterbar!
 	
 
 
