@@ -195,7 +195,7 @@ Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in ihrer V
 Auf der rechten Seite wird für jeden ausgewählten Zeitraum die Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt.
 
 
-### BG History (nicht in der jetztigen Beta-Version verfügbar)
+## BG History (nicht in der jetztigen Beta-Version verfügbar)
 
 Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen kann. Man kann auch vom ausgewählten Datum aus die letzten 1 bis 14 Tage in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen.
 
