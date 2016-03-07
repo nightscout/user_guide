@@ -161,9 +161,10 @@ Dazu geht man zuerst im xDrip Menü auf Settings (Einstellungen) und verschiebt 
 
 Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man gleich noch ein Häkchen  direkt unter Speak Readings bei "**Speak Readings Shortcut**" setzen. Dadurch ist die Vorlesefunktion in das xDrip Menü (je nach Smartphone drei kleine Punkte oben rechts auf dem Hauptbildschirm der App oder bei geöffneter App die Smartphonefläche unten links) aufgenommen und kann gleich dort mit Häkchen aktiviert oder deaktiviert werden.
 
-### Statistik - siehe Screenshot weiter oben
+### Statistik 
 
 
+![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png) 
 
 
 Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen auswählen kann.
