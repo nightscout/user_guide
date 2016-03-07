@@ -134,6 +134,12 @@ Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt 
 **Smartphone Hauptbildschirm**
 * Man kann sich auf dem Smartphone-Hauptbildschirm ein Widget anlegen, so dass man den derzeitig aktuellen GZ-Wert angezeigt bekommt als auch den GZ-Verlauf der letzten drei Stunden. Auf diese Weise muss man nicht immer die Handy-App öffnen, um den GZ-Verlauf zu sehen.
 
+### Widgets - siehe auch Screenshot weiter oben
+
+Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glucosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xDrip App.
+
+Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
+
 ### Alarme
 #### BG-Level-Alerts
 
