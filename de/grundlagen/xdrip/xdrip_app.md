@@ -216,20 +216,7 @@ Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen o
 
 
 
-### System Status
 
-Hier findet man Informationen über das System: 
-* welche Hardware benutzt wird 
-* welchen Ladezustand die Batterie des Transmitters hat
-* wann der Sensor gestartet worden ist 
-* wie viele Tage und Stunden er bereits liegt
-* Connection Status: ist die Hardware xDrip mit der App verbunden?
-* Über Antippen von "Forget Device" kann man die Verbindung unterbrechen und über "Restart Collector" neu in Gang setzen.
-
-
-**Transmitter-Batterie-Info**
-**xBridge-Batterie-Info**
----> Noch zu beschreiben!
 
 
 ### Kalibrieren
@@ -268,6 +255,10 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
 
+### Interne Daten (Datatables + Calibration Graph)
+
+## Weiteres
+
 ## Verbinden mit einer Smartwatch
 
 An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden. Damit könnte man die Installationsschritte in "Nightscout einrichten" umgehen. Damit wiederherum umgeht man aber auch die Möglichkeit, die Daten weiter zu nutzen (als Überwachungsfunktion, als Tagebuch oder für das OpenAPS).
@@ -277,23 +268,9 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 
 ## Upload zu NightScout
 
-## Weiteres:
-### Settings
 
-|Name|Bedeutung|Empfehlung für Einsteiger|
-|--|--|--|
-|Bg Units| "mg/dl" oder "mmol"| -|
-| High Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu hoch" gewertet wird. | -|
-| Low Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu tief" gewertet wird. | -|
-|...|
-| Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
-| Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
 
-### Widgets - siehe auch Screenshot weiter oben
 
-Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glucosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xDrip App.
-
-Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
 
 ### Werte vorlesen lassen
 
