@@ -95,10 +95,7 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
 
-#### BG-Alert-Settings
-##### Profil: High, Ascending, ...
-##### Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren.
-#### Rise-Fall-Alerts
+
 
 ### System Status
 
