@@ -222,7 +222,7 @@ Sobald der BT-Chip Strom hat, kann sich das Handy damit verbinden. Das heißt le
 Klicke im System Status auf "forget device", Wixel kurz stromlos machen und danach neu verbinden. 
 Wenn danach der Chip immer noch "hm-soft" heißt, dann stimmt irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht.  
  * Verkabelung zwischen Wixel und Bluetooth-Modul prüfen  
- * Baud-Rate prüfen.  Bei einigen HM11-Modulen ist die Baudrate falsch gesetzt, ggf. also die Baudrate einstellen
+ * Baud-Rate prüfen.  Bei einigen HM11-Modulen ist die Baudrate falsch gesetzt, ggf. also die Baudrate neu einstellen
 
 2. **Frage:** nächster Punkt kommt dann hierher
 
