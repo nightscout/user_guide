@@ -213,23 +213,6 @@ Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen o
 
 
 
-### Verbinden mit dem Wixel
-#### Bluetooth-Scan / Hardware data source
-
-Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter empfangen und an die xDrip-App übergeben werden.
-* Bluetooth Wixel  
-xDrip in classic - xml. Selbst kompilierte wxl, in die die individuelle Transmitter-ID einkompiliert wurde. Erstellt gemäß dieser [Anleitung](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip)  
-Link: https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip
-* xBridge Wixel  
-xDrip in xBridge2 wxl. Aus dieser [Quelle](https://github.com/jstevensog/wixel-sdk)
-* Wifi Wixel  
-Weitere Infos, siehe: ?
-* Wifi Wixel + BT Wixel  
-Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu Hause mehrere Wixel im WLAN, die im ganzen Haus den Empfang sicherstellen. Außerhalb des WLANs werden die Daten vom BT-Wixel empfangen. Weitere Infos: 
-https://github.com/jamorham/python-usb-wixel-xdrip 
-* DexcomShare  
-DexcomShare ist zZt. in Europa nicht verfügbar. 
-Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
 
 
 ### Starten des Sensors
