@@ -15,7 +15,7 @@ Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen Quelle
 3. xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur USA)
 
 
-### Verbinden mit dem Wixel
+## Verbinden mit dem Wixel
 #### Bluetooth-Scan / Hardware data source
 
 Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter empfangen und an die xDrip-App übergeben werden.
@@ -33,7 +33,16 @@ https://github.com/jamorham/python-usb-wixel-xdrip
 DexcomShare ist zZt. in Europa nicht verfügbar. 
 Weitere Infos: http://www.dexcom.com/dexcom-g4-platinum-share
 
+## Settings
 
+|Name|Bedeutung|Empfehlung für Einsteiger|
+|--|--|--|
+|Bg Units| "mg/dl" oder "mmol"| -|
+| High Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu hoch" gewertet wird. | -|
+| Low Value | Grenze, ab der ein Wert in der Anzeige und Statistik als "zu tief" gewertet wird. | -|
+|...|
+| Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
+| Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
 
 ### Starten des Sensors
 
