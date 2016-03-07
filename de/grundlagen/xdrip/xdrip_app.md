@@ -16,7 +16,7 @@ Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen Quelle
 
 
 ## Verbinden mit dem Wixel
-#### Bluetooth-Scan / Hardware data source
+### Bluetooth-Scan / Hardware data source
 
 Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter empfangen und an die xDrip-App übergeben werden.
 * Bluetooth Wixel  
