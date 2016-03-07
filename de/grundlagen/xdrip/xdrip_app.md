@@ -202,11 +202,11 @@ Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, di
 Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend waagerechten, Bewegung zweier Finger in die Breite ziehen. Wenn man beliebige einzelne Punkte auf der Verlaufskurve antippt, erhält man unten kurz eingeblendet die Information über die Uhrzeit und den gemessenen Wert. Diese Einzelbetrachtung ist übrigens ebenfalls in der aktuellen Verlaufskurve des Hauptbildschirmes möglich.
 
 
-![xDrip_Screenshot_Hauptansicht.png](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png) ![xDrip_Screenshot_statistic_1](../../images/xdrip/xDrip_Screenshot_statistic_1.png)
+ 
 
-![xDrip_Screenshot_statistic_2](../../images/xdrip/xDrip_Screenshot_statistic_2.png) ![xDrip_Screenshot_statistic_3.png](../../images/xdrip/xDrip_Screenshot_statistic_3.png)
+ 
 
-![xDrip_Screenshot_alerts.png](../../images/xdrip/xDrip_Screenshot_alerts.png) ![xDrip_Screenshot_widget.png](../../images/xdrip/xDrip_Screenshot_widget.png)
+ 
 
 
 ## Weiteres
