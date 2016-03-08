@@ -201,6 +201,7 @@ Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem 
 
 Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
 
+
 ## BG History (nicht in der jetzigen Beta-Version verfügbar)
 
 Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen kann. Man kann auch vom ausgewählten Datum aus die letzten 1 bis 14 Tage in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen.
