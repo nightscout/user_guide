@@ -9,7 +9,7 @@ Anschließend nur noch auf "Perform actions" klicken und kurz warten. Hat alles 
 ![Ausgefuehrt](../../images/enlite/action.png)
 
 
-Danach sollte Windows eine neues Gerät namens "MMCommander" finden.
+Danach sollte Windows ein neues Gerät namens "MMCommander" finden.
 
 Um zu prüfen, ob der MMCommander erfolgreich programmiert wurde, reicht es, diesen in einen USB Anschluss zu stecken und den Druckknopf auf dem CC1111 einige Sekunden gedrückt zu halten. Die LED des CC1111 geht an. Drückt man den Knopf nochmal für ein paar Sekunden, so geht diese LED wieder aus. Der Stick funktioniert.
 

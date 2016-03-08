@@ -1,12 +1,12 @@
 # Grundvoraussetzungen
 
-Es wird ein CGM benötigt. Dexcom funktioniert. Langsam kommt aber auch das Enlite dazu.
 
-Ein internetfähiges Smartphone z.B. netzclub sim
-
-Ein Stück Hardware um die Verbindung Transmitter -> Smartphone herzustellen
-
-Die Einrichtung der Datenbank wo alle CGM Werte gespeichert werden und die Einrichtung der Nightscout Seite selbst.
-
-Optional kann eine Smartwatch angebunden werden.
-
+Für den Anfang benötigt man:
+* 
+Neugierde
+* 
+Interesse daran, etwas für die eigene Gesundheit (bzw. die der Angehörigen) zu tun
+* 
+technisches Interesse, aber nicht wirklich Vorkenntnisse! 
+* 
+ein bisschen Zeit und Geduld

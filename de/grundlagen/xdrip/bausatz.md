@@ -1,26 +1,27 @@
 # Bausatz
-Es gibt verschiedene Varianten, um einen xDrip zu bauen. Das betrifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) 
+Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) 
 Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen für ähnliche Dinge.
-Die Varianten haben unterschiedliche Eigenschaften, letztlich aber die selbe Aufgabe: CGM-Daten vom Transmitter empfangen und an ein Bluetooth-Handy übertragen.
+Die Varianten haben unterschiedliche Eigenschaften, letztlich aber dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und an ein Bluetooth-Handy zu übertragen.
 
 Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten Bauformen zu beschreiben. 
 
 Für die einfachste Bauform hat sich der Name der "xDrip classic" etabliert. Es gibt im Wesentlichen zwei wichtige Erweiterungen bzw. Änderungen dieser Bauform:
-* Der Spanungsteiler, der eine Akkuanzeige in der App ermöglicht.
+* Der Spannungsteiler, der eine Akkuanzeige in der App ermöglicht.
 * Eine alternative Spannungsversorgung des Bluetooth-Moduls, wodurch die Laufzeit des Akkus erhöht werden kann.
 
 
 ## 
 Tipps und Rat für Einsteiger: 
 * Baut zunächst einen xDrip in der "klassischen Verschaltung".  
-Es entfallen die beiden Widerstände, dafür fehlt in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten (und die Spanungsversorgung für Bluetooth-Modul ggf. ändern).
+Es entfallen die beiden Widerstände, dafür fehlt in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten (und die Spannungsversorgung für das Bluetooth-Modul ggf. ändern).
 * Verwendet für das Wixel die "xBridge2.wxl"-Software. Für alle hier gezeigten Schaltkreise ist diese Software geeignet.
-* Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein, dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen alle LiPo-Akkus mit 3,7V in Frage. Empfehlung aus Erfahrungswerten: für xDrip classic mindestens 500 mAh. Große Akkus mit 1100 mAh und mehr bieten auch für xDrip classic mehrere Tage Laufzeit. Für "xBridge"-Schaltkreise  können schon Akkus ab 200 mAh über 24 Stunden Laufzeit erreichen.
+* Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein, dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen alle LiPo-Akkus mit 3,7V in Frage. Eine Empfehlung aus Erfahrungswerten ist, für xDrip classic mindestens 500 mAh verwenden. Große Akkus mit 1100 mAh und mehr bieten auch für xDrip classic mehrere Tage Laufzeit. Für "xBridge"-Schaltkreise  können schon Akkus ab 200 mAh mehr als 24 Stunden Laufzeit erreichen.
 * Die Brücke "for faster charging with large batteries" beeinflusst den Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen, fließen 500 mA. Ein kleinerer Ladestrom schont den Akku - aber die Ladezeit erhöht sich.  
-Der Hersteller empfiehlt die Brücke für Akkus ab 500 mAh zu schließen. Zur Info: LiPo Akkus können sich beim Laden erhitzen. Laut Wikipedia kann das eine ernste Brandgefahr mit sich bringen.
+Der Akku-Hersteller empfiehlt, die Brücke für Akkus ab 500 mAh zu schließen. 
+Zur Information: LiPo Akkus können sich beim Laden erhitzen. Laut Wikipedia kann das eine ernste Brandgefahr mit sich bringen.
 * Die Kabel können sehr dünn sein - das erhöht die Flexibilität. Verschiedene Farben machen es leichter, die Übersicht zu behalten, solange der xDrip noch im Bau ist. 
-* Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und Ausschalten. Das könnte am kleinen Akku gelegen haben. Evtl. war es aber Pech oder fehlerhaft verlötet. Im Prinzip ist ein Schutz vor Tiefentladung sicher sehr sinnvoll. Die Schaltkreise funktionieren aber auch ohne dieses Modul.
-* In den Schaltbildern sind keine Schalter eingetragen. Ein Schalter kann sinnvoll sein, um  einen zweiten (geladenen, aber abgeschalteten) xDrip als Ersatz dabei haben zu können. Ggf. kann der xDrip abgeschaltet werden, wenn absehbar ist, dass für eine Zeit keine Daten empfangen werden können. (CGM vorübergehend abgelegt, während dem Schwimmen gehen,...).
+* Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und Ausschalten. Das könnte am kleinen Akku gelegen haben. Evtl. war es aber Pech oder fehlerhaft verlötet. Im Prinzip ist ein Schutz vor Tiefenentladung sicher sehr sinnvoll. Die Schaltkreise funktionieren aber auch ohne dieses Modul.
+* In den Schaltbildern sind keine Schalter eingetragen. Ein Schalter kann sinnvoll sein, um  einen zweiten (geladenen, aber abgeschalteten) xDrip als Ersatz dabei haben zu können. Ggf. kann das xDrip abgeschaltet werden, wenn absehbar ist, dass für eine Zeit keine Daten empfangen werden können. (CGM vorübergehend abgelegt, während des Schwimmengehens,...).
 
 
 
@@ -36,27 +37,28 @@ Der Hersteller empfiehlt die Brücke für Akkus ab 500 mAh zu schließen. Zur In
 
 
 ** Hinweise zum Löten: **
-* Wenn ihr ein anderes Bluetooth-Modul habt, als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel um Bluetooth-Modul. (Beschriftung der Pins in der , evtl. helfen auch die Abbildungen weiter unten zu den xBridge-Schaltungen.)
+* Wenn ihr ein anderes Bluetooth-Modul habt als in der Abbildung dargestellt, achtet auf die korrekte Verlötung vom Wixel zum Bluetooth-Modul. (Achtet auf die Beschriftung der Pins in der Abbildung).
 * Anleitung zum Löten: [Film](https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be)
 
 ** Zur Software auf dem Wixel: **
 * xBridge Firmware: [xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl) (Auch empfohlen bei Verlötung nach "xDrip classic".)
 * Software zum Aufspielen der wxl-Datei auf das Wixel [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
 *  Weitere Infos: siehe [hier](https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf) 
-*  Tipp: Wenn auf dem Wixel schon eine xBridge2.wxl Software aufgespielt ist, dann legt die Software das Wixel zyklisch in einen passiven Modus. In dieser Zeit kann sich das Wixel nicht via USB-Kabel mit dem PC verbinden.  
-Es gibt zwei Möglichkeiten: Warten, bis das Wixel (alle 5 Minuten) aufwacht, die Verbindung aufbauen und in dem "Wixel Configuration Utility" die Anwendung auf dem Wixel stoppen. Oder das Wixel kurz von der Spannungsversorghung trennen und dann die Verbindung aufbauen.
+*  Tipp: Wenn auf dem Wixel schon eine xBridge2.wxl Software aufgespielt ist, dann legt die Software das Wixel zyklisch in einen passiven Modus. In dieser Zeit kannst Du das Wixel nicht via USB-Kabel mit dem PC verbinden.  
+Es gibt zwei Möglichkeiten: Warten, bis das Wixel (alle 5 Minuten) aufwacht, die Verbindung aufbauen und in der "Wixel Configuration Utility" die Anwendung auf dem Wixel stoppen. Oder das Wixel kurz von der Spannungsversorgung trennen und dann die Verbindung aufbauen.
 
-** Info zu den Widerständen: ** (für Batterie-Anzeige) 
+** Info zu den Widerständen: ** (wichtig für die Batterie-Anzeige) 
 * "xDrip classic" (ohne Spannungsteiler)
-* "xDrip classic zzgl. Spannungsteiler" Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2,2k) ODER (10k und 22k).
-* "xBridge" (incl. Spannungsteiler) Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfehlung: (10k und 27k) 
-* Wenn Widerstände neu eingebaut wurden, oder wenn die eingebauten Widerstände verändert wurden, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte für Battery-Level in der xDrip-App sind falsch. 
-* Metallschicht-Widerstände sind etwas grüßer und damit leichter zu handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man etwas Platz sparen, aber man braucht wirklich eine ruhige Hand beim Löten.
+* "xDrip classic zzgl. Spannungsteiler". Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2,2k) ODER (10k und 22k).
+* "xBridge" (incl. Spannungsteiler). Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfohlen werden 10k und 27k.
+* Wenn Widerstände neu eingebaut wurden, oder wenn die eingebauten Widerstände verändert wurden, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte des Battery-Levels in der xDrip-App sind falsch. 
+* Metallschicht-Widerstände sind etwas größer und damit leichter zu handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man etwas Platz sparen, aber man braucht dann wirklich eine ruhige Hand beim Löten.
 
 ---
-Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf dem Wixel)
+Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf dem Wixel).
 
 Erklärung zur folgenden Tabelle:
+
 * **Die Inhalte sind noch nicht abgesichert. **
 * "~~grün~~" bedeutet: Es gibt verschiedene Bauformen für die Bluetooth-Module (HM10 und HM11), die Farbe der LED kann eine andere sein.
 * "-" bedeutet: Diese Anzeige sollte nicht vorkommen.
@@ -98,16 +100,16 @@ Erklärung zur folgenden Tabelle:
 |13| optional, aber empfehlenswert| Schrumpfschlauch |  |  |  |  |  |
 |14| optional, aber empfehlenswert| "dritte Hand" ein Beispiel: [Link](http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand) |  |  |  |  |  |
 |15| optional | Epoxid Trennschicht |  |  |  |  |  |
-|16| notwendig | Kabel mit Mini-USB-Stecker um das Wixel zu bespielen | Beispiel: [Link](http://www.amazon.de/dp/B00NH11N5A)  |  |  |  |  |
+|16| notwendig | Kabel mit Mini-USB-Stecker, um das Wixel zu bespielen | Beispiel: [Link](http://www.amazon.de/dp/B00NH11N5A)  |  |  |  |  |
 
 
 
 
 ---
-###weiterführende Infos / Schaltbilder für xBridge
+###Weiterführende Infos / Schaltbilder für xBridge
 
-Alternative Schaltbilder / Varianten (Wenn die Einsteiger-Variante "xDrip-classic" nicht gewünscht ist.)
-Es gibt verschiedene Bluetooth-Module: HM10 oder HM11. Und es gibt verschiedene Bauformen für diese Module. Deswegen hier mehrere Bilder zur Verschaltung. Sucht euch das Bild raus, das zu eurem konkreten HM Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus den folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen.
+Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante "xDrip-classic" nicht gewünscht ist.
+Es gibt verschiedene Bluetooth-Module: HM10 oder HM11, für die es verschiedene Bauformen gibt. Deswegen hier mehrere Bilder zur Verschaltung. Sucht euch das Bild raus, das zu eurem konkreten HM Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus den folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen.
 
 **Schaltbild für xBridge mit HM-10**
 ![HM10_xbridge_Wiring_Diagram](../../images/xdrip/HM10_xbridge_Wiring_Diagram.png)
@@ -125,4 +127,4 @@ Es gibt verschiedene Bluetooth-Module: HM10 oder HM11. Und es gibt verschiedene 
 ** Weitere Infos / empfohlene Links: ** (englische Seiten) 
 * zu xBridge2: Ein [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument findet sich in diesem [Repository](https://github.com/jstevensog/wixel-sdk)
 * Eine weitere Seite mit Anleitungen findet sich [hier](http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/)
-* Wichtige Quellen zu xDrip finden sich [hier](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip) und [hier](http://stephenblackwasalreadytaken.github.io/xDrip/) und [hier](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
+* Wichtige Quellen zu xDrip finden sich an diesen Stellen: [hier](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip) und [hier](http://stephenblackwasalreadytaken.github.io/xDrip/) und [hier](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)

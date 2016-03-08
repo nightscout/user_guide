@@ -3,7 +3,7 @@
 
 Optional
 
-Mongo DB ist eine eine Dokumentations - Datenbank, welche aus Collections (Sammlungen von Dokumenten) und Dokumenten besteht. Mongo DB ist eine [NoSQLDB](https://de.wikipedia.org/wiki/NoSQL) und schemafrei.Die Dokumente werden u.a. im JSON Format abgespeichert. [](http://www.json.org/json-de.html. Die Dokumente können direkt in die DB geladen werden. Um eine Dokumenten DB zu administrieren, ist eine Admin - GUI : [](https://de.wikipedia.org/wiki/Grafische_Benutzeroberfl%C3%A4che) sinnvoll.
+Mongo DB ist eine Dokumentations - Datenbank, welche aus Collections (Sammlungen von Dokumenten) und Dokumenten besteht. Mongo DB ist eine [NoSQLDB](https://de.wikipedia.org/wiki/NoSQL) und schemafrei. Die Dokumente werden u.a. im JSON Format abgespeichert. [](http://www.json.org/json-de.html.) Die Dokumente können direkt in die DB geladen werden. Um eine Dokumenten DB zu administrieren, ist eine Admin - GUI : [](https://de.wikipedia.org/wiki/Grafische_Benutzeroberfl%C3%A4che) sinnvoll.
 
 Ein Anbieter ist z.B. [3T Software Labs](http://3t.io/about-us) aus Berlin.
 Der 3T MongoChef :http://3t.io/mongochef ist für den Privatgebrauch kostenlos.

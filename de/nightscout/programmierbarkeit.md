@@ -9,7 +9,7 @@ Nightscout ist eine Open Source Software. Der Software Code ist frei im Internet
 Die Software wird auf einem Webserver gehostet. Sie wird über Webservices angesprochen, welche das API beschreibt.
 
 
-Das [API]((https://de.wikipedia.org/wiki/Programmierschnittstelle) ) ist mit [Swagger](http://swagger.io/) dokumentiert. Swagger ist ein API Dokumentationswerkzeug, welches auf die [Open API Initiative](https://openapis.org/) aufbaut.
+Das [API](https://de.wikipedia.org/wiki/Programmierschnittstelle) ist mit [Swagger](http://swagger.io/) dokumentiert. Swagger ist ein API Dokumentationswerkzeug, welches auf die [Open API Initiative](https://openapis.org/) aufbaut.
 
 Wir können das  Nightscout API mit der Adresse:
 https://meinwebsitename.azurewebsites.net/api-docs.html#/ aufrufen:
@@ -25,7 +25,7 @@ https://meinwebsitename.azurewebsites.net/swagger.yaml eintragen und den Button 
 **IFTTT**
 Der Internet - Event Dienst IFTTT ([If This Than That](https://de.wikipedia.org/wiki/IFTTT)) verknüpft verschiedene Webanwendungen, um Daten auszutauschen. So können Benachrichtigungen, welche über Nightscout erzeugt werden, z.B. als Email weitergeleitet werden.
  
-Daneben gibt es weitere Möglichkeiten, z.B. über Azure Webjobs  Daten zwischen Nighscout und anderen Tagebüchern, wie Sport- oder Ernährungstagebüchern zu synchronisieren, sofern diese eine dokumentiertes API besitzen. 
+Daneben gibt es weitere Möglichkeiten, z.B. über Azure Webjobs  Daten zwischen Nighscout und anderen Tagebüchern, wie Sport- oder Ernährungstagebüchern zu synchronisieren, sofern diese ein dokumentiertes API besitzen. 
  
  
  
