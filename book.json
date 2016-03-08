@@ -1,3 +1,7 @@
 {
-  "plugins": ["printlinks"]
+    "plugins": [
+        "printlinks",
+        "layout"
+    ],
+    "pluginsConfig": {}
 }
