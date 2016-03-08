@@ -1,6 +1,3 @@
 {
-    "plugins": [
-        "printlinks"
-    ],
-    "pluginsConfig": {}
+  "plugins": ["printlinks"]
 }
