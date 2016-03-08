@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "layout"
+        "layout","printlinks"
     ],
     "pluginsConfig": {}
 }
