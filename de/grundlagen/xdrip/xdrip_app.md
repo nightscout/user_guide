@@ -59,6 +59,27 @@ Hier findet man Informationen über das System:
 | Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein Spannungsteiler verbaut wurde.|
 | Run Collection Service in foreground| Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| aktivieren |
 
+## Screenshot des Hauptbildschirms
+
+![xDrip_Screenshot_Hauptansicht](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
+
+**oberer Bereich des Hauptbildschirms**
+ * aktueller GZ mit Trendpfeil
+ * Zeit seit letzter Messung
+ * Differenz zur vorletzten Messung
+ * Batterie-Stand von xDrip/xBridge (optional)
+ * dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“
+ * dünne rote Gerade: Individuell definierte Grenze für „zu tief“
+ * Verlauf der letzten drei Stunden
+ * Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert.  
+ * blau: im Zielbereich  
+ * gelb: zu hoch  
+ * rot: zu tief  
+ * rot/weiß: Kalibrierungen 
+**unterer Bereich des Hauptbildschirms**  
+Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
+
+
 ## Starten des Sensors
 
 Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man auf das Feld "Start Sensor".
@@ -110,27 +131,6 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 * Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des Smartphones. *
 
 * Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
-
-## Screenshot des Hauptbildschirms
-
-
-![xDrip_Screenshot_Hauptansicht](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
-
-**oberer Bereich des Hauptbildschirms**
- * aktueller GZ mit Trendpfeil
- * Zeit seit letzter Messung
- * Differenz zur vorletzten Messung
- * Batterie-Stand von xDrip/xBridge (optional)
- * dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“
- * dünne rote Gerade: Individuell definierte Grenze für „zu tief“
- * Verlauf der letzten drei Stunden
- * Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert.  
- * blau: im Zielbereich  
- * gelb: zu hoch  
- * rot: zu tief  
- * rot/weiß: Kalibrierungen 
-**unterer Bereich des Hauptbildschirms**  
-Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
 
 ## Alarme
 ### BG-Level-Alerts
