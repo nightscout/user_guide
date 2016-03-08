@@ -41,7 +41,7 @@ Hier findet man Informationen über das System:
 * welchen Ladezustand die Batterie des Transmitters hat
 * wann der Sensor gestartet worden ist 
 * wie viele Tage und Stunden er bereits liegt
-* Connection Status: ist die Hardware xDrip mit der App verbunden?
+* Connection Status: Ist die Hardware xDrip mit der App verbunden?
 * Über Antippen von "Forget Device" kann man die Verbindung unterbrechen und über "Restart Collector" neu in Gang setzen.
 
 ### Transmitter Battery Info
@@ -76,6 +76,7 @@ Hier findet man Informationen über das System:
  * gelb: zu hoch  
  * rot: zu tief  
  * rot/weiß: Kalibrierungen 
+  
 **unterer Bereich des Hauptbildschirms**  
 Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind. 
 
