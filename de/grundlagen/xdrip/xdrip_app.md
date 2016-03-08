@@ -83,18 +83,17 @@ Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand zeigt 
 
 ## Starten des Sensors
 
-Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), drückt man auf das Feld "Start Sensor".
+Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut sitzt (prüfen, ob an der Seite alles gut eingerastet ist), geht man über das Hauptmenü zum Punkt "Start Sensor".
 
-Nun erscheint auf dem Hauptbildschirm in roten Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten (rückwärtslaufend) eine Doppelkalibrierung benötigt.
+Hier folgt neben einem Warnhinweis, frei übersetzt: Erst dann auf "Sensor Start" tippen, wenn der Sensor gelegt und der Transmitter (Sender) auf der Sensorplatte befestigt worden ist, die Bitte, das Datum und die genaue Uhrzeit der Sensorlegezeit auszuwählen, zumindest so nah dran, wie man sich noch erinnert.
 
-Darunter folgt ein Warnhinweis, frei übersetzt: Erst dann auf "Sensor Start" tippen, wenn der Sensor gelegt und der Transmitter (Sender) auf der Sensorplatte befestigt worden ist.
-
-Bitte das Datum und die genaue Uhrzeit der Sensorlegezeit auswählen, zumindest so nah dran, wie man sich noch erinnert.
 Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf dem Smartphone zu speichern, falls man den Sensor später mit diesem Zeitpunkt nochmal neu starten möchte, z.B. um die bisherigen Kalibrierungen zu löschen oder weil man den Transmitter aus welchen Gründen auch immer kurz abgenommen hatte.
 
 Zur Erklärung der 12-Stunden-Anzeige:
 AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, Eselsbrücke: **A**m **M**orgen;
 PM = post meridiem, auf Deutsch: NACH dem Mittag
+
+Hat man den Sensor gestartet, erscheint auf dem Hauptbildschirm in roten Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten (rückwärtslaufend) eine Doppelkalibrierung benötigt.
 
 **Alternativen beim Starten des Sensors**
 
