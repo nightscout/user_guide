@@ -207,6 +207,15 @@ Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, di
 
 Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend waagerechten, Bewegung zweier Finger in die Breite ziehen. Wenn man beliebige einzelne Punkte auf der Verlaufskurve antippt, erhält man unten kurz eingeblendet die Information über die Uhrzeit und den gemessenen Wert. Diese Einzelbetrachtung ist übrigens ebenfalls in der aktuellen Verlaufskurve des Hauptbildschirmes möglich.
 
+## Widget
+
+
+![xdrip_Screenshot_widget](../../images/xdrip/xDrip_Screenshot_widget.png)
+
+Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget enthält den aktuellen Glucosewert mit Trendpfeil, die voraussichtliche Veränderung in der eingestellten Maßeinheit (mmol/l oder mg/dl), darunter die Angabe, von wann der zuletzt gemessene Wert stammt (z.B. 2 min ago = vor 2 Minuten) und im Hintergrund den letzten Teil der Verlaufskurve. Wird das Widget angetippt, öffnet sich die xDrip App.
+
+Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern (wischen) bis zum xDrip Widget, mit dem Finger auf dem Widget dieses nach rechts oder links auf den gewünschten Bildschirm ziehen, loslassen und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen, fertig!
+
 
 ## Weiteres
 
