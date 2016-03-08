@@ -49,7 +49,7 @@ Nachdem der Button **Create new MongoDB deployment** geklickt wurde, erscheint e
 
 ![mongodb_create_success](../images/mongodb/mongodb_create_success.jpg)
 
-Durch Doppelklick auf den Namen, hier: **ds040888/nscgmdatabase** richtet man u.a. den Datenbankbenutzer ein. Das ist derjenige, welcher in Azure oder xdrip konfiguriert wird,
+Durch Doppelklick auf den Namen, hier: **ds040888/nscgmdatabase** fügt man u.a. den Datenbankbenutzer ein. Das ist derjenige, welcher in Azure oder xdrip konfiguriert wird,
 um auf die mongodb zuzugreifen:
 
 **Datenbankbenutzer hinzufügen:**
