@@ -1,3 +1,16 @@
 /* CSS for pdf */
+a:link {
+    text-decoration: none;
+}
 
-a:link:after, a:visited:after { content:" [" attr(href) "] "; }
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
