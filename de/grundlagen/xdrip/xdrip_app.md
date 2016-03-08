@@ -216,8 +216,10 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 
 #### Android Wear
 #### Pebble
+
 ### Upload zu NightScout
 ----> ist noch zu beschreiben!
+
 ## Fehlerbehebung
 
 1. **Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als "hm-soft", nicht als „xBridge“ oder „xDrip“.  
