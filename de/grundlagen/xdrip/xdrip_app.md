@@ -125,7 +125,7 @@ Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü gehen und
 ![xDrip_Screenshot_Hauptansicht](../../images/xdrip/xDrip_Screenshot_Hauptansicht.png)
 
 **oberer Bereich des Hauptbildschirms**
- * aktueller BZ mit Trendpfeil
+ * aktueller GZ mit Trendpfeil
  * Zeit seit letzter Messung
  * Differenz zur vorletzten Messung
  * Batterie-Stand von xDrip/xBridge (optional)
