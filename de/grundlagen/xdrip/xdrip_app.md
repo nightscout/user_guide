@@ -97,11 +97,6 @@ PM = post meridiem, auf Deutsch: NACH dem Mittag
 
 **Alternativen beim Starten des Sensors**
 
-Wenn man keine zwei Stunden verlieren möchte, bis wieder CGM-Werte angezeigt werden (beim Wechsel des Sensors beispielsweise), so kann man bei der Zeit 2 Stunden vor der eigentlichen Uhrzeit eingeben. 
-Beispiel: Setzt man den Sensor um 11 Uhr morgens, so wählt man als Start-Uhrzeit des Sensors 9 Uhr, und die Messung des Sensors startet sofort.
-Wer bei Start des Sensors vergessen hat, die Uhrzeit um 2 Stunden vorzuverlegen, kann den Sensor in der App problemlos nochmals stoppen und wieder starten. 
-Wer die genaue Zeit beim Sensor-Start eingeben möchte in der App, der kann dies auch tun. Es ist allerdings nicht nötig, 2 Stunden mit der Doppelkalibrierung zu warten. Nach ca. 40 Minuten kann man die Doppelkalibrierung durchführen. Die Meldung, daß noch so und soviel Zeit bis zur Doppelkalibrierung zu vergehen hat, kann man dabei getrost ignorieren.
-
 Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start dieses Sensors legt, während der alte Sensor noch weiter in Gebrauch ist. Dabei wird bis zum Austausch ein alter Transmitter als Platzhalter auf dem neu gesetzten Sensor verwendet.
  
 ## Stoppen des Sensors
