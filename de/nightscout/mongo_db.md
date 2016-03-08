@@ -1,5 +1,5 @@
 
-# 
+# Einrichten der Mongo-Datenbank
 
 
 
@@ -35,7 +35,7 @@ Nachdem der Benutzer - Account eingerichtet wurde, bitte einmal im Postfach der 
 
 **Anlegen einer Datenbank:**
 
-Wir starten mit dem Klick:
+Wir starten mit dem Klick auf "Create New":
 
 ![create_db](../images/mongodb/create_db.jpg)
 
@@ -52,7 +52,7 @@ Nachdem der Button **Create new MongoDB deployment** geklickt wurde, erscheint e
 Durch Doppelklick auf den Namen, hier: **ds040888/nscgmdatabase** richtet man u.a. den Datenbankbenutzer ein. Das ist derjenige, welcher in Azure oder xdrip konfiguriert wird,
 um auf die mongodb zuzugreifen:
 
-**Datenbankbenutzer Anlegen:**
+**Datenbankbenutzer hinzufügen:**
 
 ![mongodb_create_dbuser](../images/mongodb/mongodb_createdbuser.jpg)
 
