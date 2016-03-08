@@ -111,11 +111,6 @@ Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal.
 
 * Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 Minuten.*
 
-
-
-
-
-
 ## Screenshot des Hauptbildschirms
 
 
@@ -205,7 +200,6 @@ Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen Verlaufskurven, di
 Für eine genauere Betrachtung lassen sich die Kurven mit einem Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend waagerechten, Bewegung zweier Finger in die Breite ziehen. Wenn man beliebige einzelne Punkte auf der Verlaufskurve antippt, erhält man unten kurz eingeblendet die Information über die Uhrzeit und den gemessenen Wert. Diese Einzelbetrachtung ist übrigens ebenfalls in der aktuellen Verlaufskurve des Hauptbildschirmes möglich.
 
 ## Widget
-
 
 ![xdrip_Screenshot_widget](../../images/xdrip/xDrip_Screenshot_widget.png)
 
