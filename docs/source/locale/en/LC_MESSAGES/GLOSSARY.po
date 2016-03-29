@@ -32,7 +32,7 @@ msgid ""
 "Möglichkeiten nicht ausschöpft, um betroffene Typ 1 Diabetiker zu "
 "unterstützen. Wir warten nicht darauf, dass uns geholfen wird, wir helfen"
 " uns selbst."
-msgstr ""
+msgstr "Patients using data to increase liberty, fidelity of care."
 
 #: ../../source/GLOSSARY.md
 msgid "5,5"
