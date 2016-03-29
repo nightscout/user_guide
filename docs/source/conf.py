@@ -60,6 +60,8 @@ project = u'Nightscout user guide'
 copyright = u'2016, LadyViktoria'
 author = u'LadyViktoria'
 
+locale_dirs = [ 'locale/' ]
+
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
