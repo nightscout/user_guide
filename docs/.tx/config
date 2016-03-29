@@ -1,0 +1,49 @@
+[main]
+host = https://www.transifex.com
+type = PO
+
+[nightscout-user-guide.GLOSSARY]
+file_filter = source/locale/<lang>/LC_MESSAGES/GLOSSARY.po
+source_file = build/locale/GLOSSARY.pot
+source_lang = en
+
+[nightscout-user-guide.grundlagen]
+file_filter = source/locale/<lang>/LC_MESSAGES/grundlagen.po
+source_file = build/locale/grundlagen.pot
+source_lang = en
+
+[nightscout-user-guide.nightscout]
+file_filter = source/locale/<lang>/LC_MESSAGES/nightscout.po
+source_file = build/locale/nightscout.pot
+source_lang = en
+
+[nightscout-user-guide.smartwatch]
+file_filter = source/locale/<lang>/LC_MESSAGES/smartwatch.po
+source_file = build/locale/smartwatch.pot
+source_lang = en
+
+[nightscout-user-guide.README]
+file_filter = source/locale/<lang>/LC_MESSAGES/README.po
+source_file = build/locale/README.pot
+source_lang = en
+
+[nightscout-user-guide.index]
+file_filter = source/locale/<lang>/LC_MESSAGES/index.po
+source_file = build/locale/index.pot
+source_lang = en
+
+[nightscout-user-guide.sonstiges]
+file_filter = source/locale/<lang>/LC_MESSAGES/sonstiges.po
+source_file = build/locale/sonstiges.pot
+source_lang = en
+
+[nightscout-user-guide.fehlerbehebung]
+file_filter = source/locale/<lang>/LC_MESSAGES/fehlerbehebung.po
+source_file = build/locale/fehlerbehebung.pot
+source_lang = en
+
+[nightscout-user-guide.dokumente]
+file_filter = source/locale/<lang>/LC_MESSAGES/dokumente.po
+source_file = build/locale/dokumente.pot
+source_lang = en
+
