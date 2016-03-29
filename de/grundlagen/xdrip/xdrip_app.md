@@ -219,14 +219,21 @@ An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu senden
 
 1. **Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als "hm-soft", nicht als „xBridge“ oder „xDrip“.  
 Was muss ich tun, damit das neue xDrip (richtig) funktioniert?  
-**Antwort**  
+**Antwort:**  
 Sobald der BT-Chip Strom hat, kann sich das Handy damit verbinden. Das heißt leider noch nicht, dass die Daten-Leitung Wixel -> BT-Chip passt.
 Klicke im System Status auf "forget device", Wixel kurz stromlos machen und danach neu verbinden. 
 Wenn danach der Chip immer noch "hm-soft" heißt, dann stimmt irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht.  
  * Verkabelung zwischen Wixel und Bluetooth-Modul prüfen  
- * Baud-Rate prüfen.  Bei einigen HM11-Modulen ist die Baudrate falsch gesetzt, ggf. also die Baudrate neu einstellen
+ * Baud-Rate prüfen.  Bei einigen HM11-Modulen ist die Baudrate falsch gesetzt, ggf. also die Baudrate neu einstellen  
+  
+2. **Frage:** Die xDrip App meldet einen Fehler "Unclear Sensor Readings". Was kann man tun, damit die Daten wieder plausibler werden?  
+**Antwort:**  
+Die Meldung wird angezeigt, wenn unter Settings/Other Alerts/Noisy Readings die Checkbox für "Bad (noisy) Value Alerts" aktiviert ist. 
+Was hilft ist: Warten bzw. den Sensor ersetzen. (Falls jemand eine bessere Antwort hat: Bitte die Antwort löschen und passend umformulieren. Danke!)
 
-2. **Frage:** nächster Punkt kommt dann hierher
+3. **Frage:** Nächste Frage kommt hierher.  
+**Antwort:**  
+Nächster Antwort kommt hierher.
 
 ---> Erweiterbar!
 	
