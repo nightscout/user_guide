@@ -18,3 +18,5 @@
 [Dexcom Pflaster Schablone](https://raw.githubusercontent.com/nightscout/nightscout_handbuch/master/images/sonstiges/Pflasterschablone2.jpg)
 
 [xDrip 1-Platinen Layout](https://oshpark.com/shared_projects/XrUwQSdh)
+
+[azure deployment template file](https://raw.githubusercontent.com/nightscout/nightscout_handbuch/master/)
