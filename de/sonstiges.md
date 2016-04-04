@@ -19,4 +19,4 @@
 
 [xDrip 1-Platinen Layout](https://oshpark.com/shared_projects/IuYnoGB9)
 
-[azure deployment template file](https://raw.githubusercontent.com/nightscout/nightscout_handbuch/master/)
+[azure deployment template file](https://github.com/nightscout/user_guide/blob/master/de/dokumente/azuredeploy.json)
