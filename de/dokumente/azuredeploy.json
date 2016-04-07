@@ -32,7 +32,8 @@
         },
         "repoUrl": {
             "type": "string"
-        },
+			
+			        },
         "branch": {
             "type": "string"
         },
@@ -54,18 +55,48 @@
         },
         "treatment_auth": {
         "type": "string",
+		"allowedValues": [
+                "on",
+                "off"
+            ],
 	    "defaultValue": "on"
         },    
 		"theme": {
         "type": "string",
+		 "allowedValues": [
+                "default",
+                "colors"
+            ],
 	    "defaultValue": "colors",
         },
         "time_format": {
         "type": "string",
+		"allowedValues": [
+                "12",
+                "24"
+            ],
 	    "defaultValue": "24",
         },
         "language": {
         "type": "string",
+		"allowedValues": [
+                "bg",
+				"cs",
+				"dk",
+				"de",
+				"en",
+				"es",
+				"fr",
+				"he",
+				"hr",
+				"it",
+				"nb",
+				"pl",
+				"pt",
+				"ro",
+				"sv",
+				"fi"
+            ],
 	    "defaultValue": "de",
          },
 		 "custom_title": {
@@ -74,30 +105,58 @@
          },
 		 "alarm_high": {
       "type": "string",
+	  "allowedValues": [
+                "on",
+                "off"
+            ],
 	  "defaultValue": "off",
       },
 	  "alarm_low": {
       "type": "string",
+	  "allowedValues": [
+                "on",
+                "off"
+            ],
 	  "defaultValue": "off",
       },
 	  "alarm_timeago_urgent": {
       "type": "string",
+	  "allowedValues": [
+                "on",
+                "off"
+            ],
 	  "defaultValue": "off",
       },
 	  "alarm_timeago_warn": {
       "type": "string",
+	  "allowedValues": [
+                "on",
+                "off"
+            ],
 	  "defaultValue": "off",
       },
 	  "alarm_urgent_high": {
       "type": "string",
+	  "allowedValues": [
+                "on",
+                "off"
+            ],
 	  "defaultValue": "off",
       },
 	  "alarm_urgent_low": {
       "type": "string",
+	  "allowedValues": [
+                "on",
+                "off"
+            ],
 	  "defaultValue": "off",
       },
 	  "basal_render": {
       "type": "string",
+	  "allowedValues": [
+                "default",
+                "icicle"
+            ],
 	  "defaultValue": "default",
       },
 	  "enable": {
@@ -106,6 +165,10 @@
       },
 	  "night_mode": {
       "type": "string",
+	  "allowedValues": [
+                "on",
+                "off"
+            ],
 	  "defaultValue": "off",
       },
 	  "show_plugins": {
@@ -114,6 +177,11 @@
       },
 	  "show_rawbg": {
       "type": "string",
+	  "allowedValues": [
+                "always",
+                "never",
+				"noise"
+            ],
 	  "defaultValue": "never",
       }
     },
@@ -244,6 +312,3 @@
         }
     ]
 }
-
-    
-
