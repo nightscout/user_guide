@@ -2,7 +2,7 @@
 
 
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierter Filehosting-Dienst für Software-Entwicklungsprojekte. Software besteht aus vielen Files, die in einer Verzeichnisstruktur liegen. Diese Files enthalten den eigentlichen Programmiercode. Das `cgm-remote-monitor` repository enthält den Programmcode zum Aufbau der Nightscout Website.
-Stellt ein Software - Entwickler etwas zur Verfügung, steht er es für andere in einem **branch** zur Verfügung. Der branch kennzeichnet Umgebungen. Im  ** dev - branch ** wird normalerweise entwickelt unf getestet. Verlief alles erfolgreich, werden die geänderten files in den ** master branch ** verschoben. Nighscout wird weiterentwickelt,  mit der Einteilung in  *branches ** lassen sich verschiedene Versionen einer Software managen.
+Stellt ein Software - Entwickler etwas zur Verfügung, steht er es für andere in einem **branch** zur Verfügung. Der branch kennzeichnet Umgebungen. Im  **dev - branch** wird normalerweise entwickelt unf getestet. Verlief alles erfolgreich, werden die geänderten files in den **master branch** verschoben. Nighscout wird weiterentwickelt,  mit der Einteilung in  **branches ** lassen sich verschiedene Versionen einer Software managen.
 Die  Files eines branches kopiert man sich in sein eigenes Verzeichnis (Fork). 
 
 Wir starten mit dem **Sign Up** auf der [GitHub Site](https://github.com/):
