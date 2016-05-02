@@ -49,7 +49,7 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  Mit **Confirm Merge** bestätigen wir die ermittelten Änderungen und bringen dmit den cgm-remote-monitor auf den akuellen Stand. Die Aktualisierung des Webcontens in **Azure**  erfolgt automatisch. Ein Neustart der Website ist nicht erforderlich.
  
  
- Jetzt geht es weiter mit dem Einrichten von [Azure](../nightscout/azure.md).
+ Jetzt richten wir mit voller Freude [Azure](../nightscout/azure.md). ein.
  
  
  
