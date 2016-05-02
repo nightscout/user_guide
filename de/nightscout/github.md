@@ -1,9 +1,9 @@
 # GitHub
 
 
-[GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierter Filehosting-Dienst für Software-Entwicklungsprojekte. Software besteht aus vielen Files, die in einer Verzeichnisstruktur liegen. Diese Files enthalten den eigentlichen Programmiercode. 
-Stellt ein Software - Entwickler etwas zur Verfügung, steht es für andere als **master**
-zur Verfügung, wie z.B. der `nightscout/cgm-remote-monitor`. Diese Files kopiert man sich in sein eigenes Verzeichnis (Fork). Das `cgm-remote-monitor` repository enthält den Programmcode zum Aufbau der Nightscout Website.
+[GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein webbasierter Filehosting-Dienst für Software-Entwicklungsprojekte. Software besteht aus vielen Files, die in einer Verzeichnisstruktur liegen. Diese Files enthalten den eigentlichen Programmiercode. Das `cgm-remote-monitor` repository enthält den Programmcode zum Aufbau der Nightscout Website.
+Stellt ein Software - Entwickler etwas zur Verfügung, steht er es für andere in einem **branch** zur Verfügung. Der branch kennzeichnet Umgebungen. Im  ** dev - branch ** wird normalerweise entwickelt unf getestet. Verlief alles erfolgreich, werden die geänderten files in den ** master branch ** verschoben. Nighscout wird weiterentwickelt,  mit der Einteilung in  *branches ** lassen sich verschiedene Versionen einer Software managen.
+Die  Files eines branches kopiert man sich in sein eigenes Verzeichnis (Fork). 
 
 Wir starten mit dem **Sign Up** auf der [GitHub Site](https://github.com/):
 
@@ -25,13 +25,12 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  ![github_search](../images/github/github_search.jpg)
  
- 
- Und mit **Fork** kopieren wir den Code in unser eigenes Verzeichnis:
+ Den ** branch ** wie master oder dev auswählen und mit **Fork** kopieren wir den Code in unser eigenes Verzeichnis:
  
  ![github_branch_master](../images/github/github_branch_master.jpg)
  
  
- Das Ergebnis mit unserem eigenen **master** Branch:
+ Das Ergebnis mit unserem eigenen Branch:
  
  ![github_fork](../images/github/github_fork.jpg)
  
