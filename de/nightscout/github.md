@@ -47,8 +47,10 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  Einfach den GitHub Account - Namen eingeben und **I'm Ready** klicken. Anschließend werden wir nach dem **github** Benutzernamen gefragt. Mit **Check for Updates** geht es weiter. Liegt eine neuerer Version vor, dann erscheint der Button
  **Create Pull Request**
  
+ Confirm Merge
  
  
+ Azure wird automatisch aktualisiert.
  
  
  
