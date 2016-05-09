@@ -26,6 +26,7 @@
    * [GitHub](nightscout/github.md)
    * [Azure](nightscout/azure.md)
        * [Optionale Einstellungen](nightscout/azure_plugins.md)
+   *  [Alternative und optionale Installationen](nightscout/alternative_optionale_installationen.md)
    * [Nightscout FAQs](nightscout/nsfaqs.md)
 * [Die Nightscout Website](nightscout/die_nightscout_website.md)
    * [Haupt Seite](nightscout/haupt_seite.md)
