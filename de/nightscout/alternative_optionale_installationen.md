@@ -12,6 +12,10 @@ Hier werden alternative und optionale Installation beschrieben.
 
 ![azure_setup](../images/azure/azure_deploy.jpg)
 
+Azure - Anmeldung erforderlich.
+
+
+
 ** Mongo DB Administration **
 
 
