@@ -14,7 +14,9 @@ Hier werden alternative und optionale Installation beschrieben.
 
 Azure - Anmeldung erforderlich.
 
+Dann alle gelb markierten Felder ausfüllen oder ändern:
 
+![azure_deploy_param](../images/azure/azure_deploy_param.jpg)
 
 ** Mongo DB Administration **
 
