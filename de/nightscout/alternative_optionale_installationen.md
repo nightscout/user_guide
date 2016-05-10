@@ -10,6 +10,8 @@ Hier werden alternative und optionale Installation beschrieben.
 ** Automatische Installation und Konfiguration der Nightscout Website **
 
 
+![azure_setup](../images/nightscout/nightscout_careportal.jpg)
+
 ** Mongo DB Administration **
 
 
