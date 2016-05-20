@@ -33,4 +33,6 @@ Zusätzlich hat der Autor, Matt, noch einen englischen Blog, der sich mit dem Th
 
 Speziell im [Beitrag vom 18.01.16](http://littlet1d.blogspot.co.uk/2016/01/nightscout-on-640g-step-by-step-into.html) geht Matt auf die erforderlichen Schritte ein. Mittlerweile hat Matt drei verschiedene Lösungen für die 640G erarbeitet. Details in seinem [Beitrag vom 16.4.16](http://littlet1d.blogspot.de/2016/04/small-medium-and-large-mobile.html).
 
+Seit Mitte Mai gibt es nun auch eine **einfache** **Lösung** mit Hilfe einer Android Uploader App ([s. hier](https://github.com/pazaan/640gAndroidUploader/wiki)).
+
 
