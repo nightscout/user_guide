@@ -8,31 +8,30 @@ der MiniLink Transmitter, kompatibel mit dem MiniMed Veo System und dem Guardian
 2. 
 den Guardian 2 Link Transmitter, der nur mit der MiniMed 640G Insulinpumpe kompatibel ist.
 
-Da sich die Wege zum erfolgreichen Nightscout-Betrieb gravierend unterscheiden, werden diese im Folgenden getrennt betrachtet.
+Da sich die Wege zum erfolgreichen Nightscout-Betrieb unterscheiden, werden diese im Folgenden getrennt betrachtet.
 
 
  
 ## MiniLink Transmitter
-Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es eine von Nightscout veröffentlichte Möglichkeit, die Daten zur Nightscout Webseite zu übertragen.
+Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es folgende Möglichkeit, die Daten zur Nightscout Webseite zu übertragen.
 
 ### Übersichtsgrafik
 ![Übersichtsgrafik](../../images/enlite/MedtronicUebersichtklein.jpg)
 
-Danach stehen einem die in den Kapiteln 3. [Die Nightscout Hauptseite](../../nightscout/die_nightscout_website.md) und 4. [Smartwatch Integration](../../smartwatch/smartwatch_integration.md) genannten Möglichkeiten zur Verfügung.
+Danach stehen einem die in den Kapiteln [Die Nightscout Hauptseite](../../nightscout/die_nightscout_website.md) und [Smartwatch Integration](../../smartwatch/smartwatch_integration.md) genannten Möglichkeiten zur Verfügung.
 
-Um das zu realisieren, muss man den MMCommander bauen und mit der entsprechenden Software bespielen. Zusätzlich muss noch auf einem kompatiblen Android Smartphone die Medtronic Uploader App installiert und konfiguriert werden. Beides ist im Kapitel 1.5. [MMCommander](../enlite/mmcommander.md) beschrieben.
+Um das zu realisieren, muss man den MMCommander bauen und mit der entsprechenden Software bespielen. Zusätzlich muss noch auf einem kompatiblen Android Smartphone die Medtronic Uploader App installiert und konfiguriert werden. Beides ist im Kapitel [MMCommander](../enlite/mmcommander.md) beschrieben.
 
 Im Netz findet man auch Hinweise auf eine Lösung für das Iphone (ab dem 4s und IOS 8.2). Diese Lösung, der **RileyLink**, kontaktiert die Pumpe per Funk und stellt dann über Bluetooth eine Verbindung mit dem Iphone her. Dort läuft dann die RileyLink IOS App und transportiert die Daten zu Nightscout. Dies **funktioniert bisher noch nicht mit den deutschen Pumpen**, eventuell da der RileyLink sich gegenüber der Pumpe als MySentry ausgibt, um von dieser die Daten zu bekommen. MySentry wird, lt. Medtronic-Hotline, aber nur von den amerikanischen Pumpen unterstützt. 
 Auch die mittlerweile offiziell von Nightscout unterstützte Lösung mit Hilfe von Minimed Connect und IOS [(s. hier)](http://www.nightscout.info/wiki/faqs-2/how-do-you-get-your-cgm-in-the-cloud) betrifft derzeit nur den amerikanischen Markt.
 
 ## Guardian 2 Link Transmitter
 
-Seit Ende Februar 2016 wird der Guardian 2 Link Transmitter und dadurch die Minimed 640G Insulinpumpe jetzt auch von NightScout unterstützt [(s. Nightscout and Medtronic 640g (engl.))](http://www.nightscout.info/wiki/welcome/nightscout-and-medtronic-640g). 
+Bei der Minimed 640G funktioniert es seit Mitte Mai 2016 recht ähnlich. Hierbei wird das Messgerät Bayer Contour Next Link 2.4 per USB Kabel mit einem passenden Android Smartphone verbunden. Auf diesem Smartphone wird dann der 640gAndroidUploader installiert und konfiguriert (s. [640gAndroidUploader](../../nightscout/die_nightscout_website.md)). Zuvor muss noch ein CareLinkPersonal Konto (s. [CareLinkPersonal Konto einrichten](../../nightscout/die_nightscout_website.md)) und die Nightscout Webseite eingerichtet werden (s. [Nightscout einrichten](../../nightscout/nightscout_einrichten.md)).
 
-Zusätzlich hat der Autor, Matt, noch einen englischen Blog, der sich mit dem Thema beschäftigt [Matt's Little D Blog an.](http://littlet1d.blogspot.co.uk/)
+
+Die vorherige, seit Ende Februar 2016 existierende Lösung sei hier noch am Rande erwähnt. Informationen dazu gibt es auf der Nightscout Webseite [(s. Nightscout and Medtronic 640g (engl.))](http://www.nightscout.info/wiki/welcome/nightscout-and-medtronic-640g) und zusätzlich hat der Autor, Matt, noch einen englischen Blog, der sich mit dem Thema beschäftigt [Matt's Little D Blog an.](http://littlet1d.blogspot.co.uk/)
 
 Speziell im [Beitrag vom 18.01.16](http://littlet1d.blogspot.co.uk/2016/01/nightscout-on-640g-step-by-step-into.html) geht Matt auf die erforderlichen Schritte ein. Mittlerweile hat Matt drei verschiedene Lösungen für die 640G erarbeitet. Details in seinem [Beitrag vom 16.4.16](http://littlet1d.blogspot.de/2016/04/small-medium-and-large-mobile.html).
-
-Seit Mitte Mai gibt es nun auch eine **einfache** **Lösung** mit Hilfe einer Android Uploader App ([s. hier](https://github.com/pazaan/640gAndroidUploader/wiki)).
 
 
