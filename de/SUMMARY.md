@@ -19,6 +19,7 @@
    * [xDrip](grundlagen/xdrip/xdrip.md)
        * [Bausatz](grundlagen/xdrip/bausatz.md)
        * [xDrip App](grundlagen/xdrip/xdrip_app.md)
+       * [640G](grundlagen/640g/README.md)
 * [Nightscout einrichten](nightscout/nightscout_einrichten.md)
    * [Account-Information](nightscout/datenblatt.md)
    * [Mongo DB](nightscout/mongo_db.md)
