@@ -32,12 +32,13 @@ Wechsle nun auf den Reiter „Hochladen“:
 Wähle nun „Minimed Serie 600“ und klicke auf „weiter“: 
 
 Du wirst nun gebeten 
-•	eine allfällige Bolusabgabe abzuwarten/abzubrechen 
-•	eine allfällige temporäre Basalrate abzuwarten/abzubrechen 
-•	zu kontrollieren, dass die Pumpenbatterie nicht schwach ist 
-•	etwaige Fehlermeldungen auf der Pumpe zu löschen 
-Sofern alles stimmt, klicke auf „Weiter“
+* eine laufende Bolusabgabe abzuwarten/abzubrechen 
+* eine laufende temporäre Basalrate abzuwarten/abzubrechen 
+* zu kontrollieren, dass die Pumpenbatterie nicht schwach ist 
+* etwaige Fehlermeldungen auf der Pumpe zu löschen 
 
+Sofern alles stimmt, klicke auf „Weiter“
+![Pumpenstatus](../../images/640g/carelink10.jpg)
 Nun musst du die Seriennummer der Pumpe eingeben und auf „Weiter“ klicken: 
 
 Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter“:  
