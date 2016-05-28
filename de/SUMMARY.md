@@ -21,7 +21,7 @@
        * [xDrip App](grundlagen/xdrip/xdrip_app.md)
    * [640G](grundlagen/640g/README.md) 
        * [Anlegen eines CareLink Kontos](grundlagen/640g/carelink.md)
-       * [Konfiguration des Android Smartphones](grundlagen/640g/640gUploaderApp.md)
+       * [Konfiguration des Android Smartphones](grundlagen/640g/640gAndroidUploader.md)
 * [Nightscout einrichten](nightscout/nightscout_einrichten.md)
    * [Account-Information](nightscout/datenblatt.md)
    * [Mongo DB](nightscout/mongo_db.md)
