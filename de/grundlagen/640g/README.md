@@ -1,0 +1,6 @@
+Bevor man das Messgerät Countour Next Link 2.4 vorbereitet oder den 640gAndroidUploader installiert sollte man zuerst das Kapitel [Nightscout einrichten](../nightscout_einrichten.md) durchgearbeitet und die Webseite entsprechend eingerochtet haben.
+ 
+Punkte, die wir durchführen werden 
+ 
+•	Anlegen eines Kontos auf https://carelink.minimed.eu 
+•	Konfiguration des Android Smartphones mit dem Contour Next Link Messgerät 
