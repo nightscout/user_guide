@@ -40,9 +40,10 @@ Du wirst nun gebeten
 Sofern alles stimmt, klicke auf „Weiter“
 ![Pumpenstatus](../../images/640g/carelink10.jpg)
 Nun musst du die Seriennummer der Pumpe eingeben und auf „Weiter“ klicken: 
+![Seriennummer](../../images/640g/carelink11.jpg)
 
 Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter“:  
-
+![](../../images/640g/carelink12.jpg)
 Stelle sicher, dass alle aufgeführten Punkte zutreffen und klicke auf „Fertigstellen“: 
 
 Die Pumpendaten werden nun ausgelesen: 
