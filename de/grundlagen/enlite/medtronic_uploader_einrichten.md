@@ -1,10 +1,10 @@
 # Medtronic Uploader einrichten
 
-Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert werden kann, muss man die Schritte des Kapitels 2. [Nightscout einrichten](../../nightscout/nightscout_einrichten.md), außer denen des Unterkapitels 2.3, vollzogen haben.
+Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert werden kann, muss man die Schritte des Kapitels [Nightscout einrichten](../../nightscout/nightscout_einrichten.md), außer denen des Unterkapitels "Care Portal", vollzogen haben.
 
 Nun installiert man die Datei "NightScout.apk" auf dem Smartphone. Eventuell muss man dazu unter Einstellungen - Sicherheit - Unbekannte Herkunft die Installation von Apps aus unbekannten Quellen zulassen, da diese App nicht aus dem Google Play Store stammt. Dort gibt es nur den für den Dexcom Empfänger gedachten "Nightscout Uploader".
 
-Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel 2.1. eingetragen hat, werden nun zum Konfigurieren der Medtronic Uploader App benötigt.
+Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel dem "Account-Information". eingetragen hat, werden nun zum Konfigurieren der Medtronic Uploader App benötigt.
 
 Zuerst muss die Medtronic Uploader App geschlossen werden, falls diese bereits läuft. Nun den MMCommander über das USB OTG Kabel an das Smartphone anschließen. Es sollte sich automatisch ein Fenster öffnen, welches fragt, was getan werden soll. Dort die Nightscout App auswählen und diese sollte danach automatisch starten.
 
@@ -54,7 +54,7 @@ Jedes Mal, wenn der Uploader Daten vom Sensor empfängt, erscheint folgender Tex
 
 ![Upload](../../images/enlite/upload.jpg)
 
-Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine Viertelstunde, bis die ersten Werte über die persönliche Internetseite im Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Unterkapitel 1.3.6. [Fehlerbehebung](fehlerbehebung.md).
+Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine Viertelstunde, bis die ersten Werte über die persönliche Internetseite im Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Unterkapitel [Fehlerbehebung](fehlerbehebung.md).
 
 Man sollte die Kalibrierung mittels "Instant Calibration" jedes Mal durchführen, wenn der MMCommander erneut mit dem Smartphone verbunden wird.
 
