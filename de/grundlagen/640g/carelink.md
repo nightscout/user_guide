@@ -39,15 +39,23 @@ Du wirst nun gebeten
 
 Sofern alles stimmt, klicke auf „Weiter“
 ![Pumpenstatus](../../images/640g/carelink10.jpg)
-Nun musst du die Seriennummer der Pumpe eingeben und auf „Weiter“ klicken: 
+
+Nun musst du die Seriennummer der Pumpe eingeben und auf „Weiter“ klicken:
+
 ![Seriennummer](../../images/640g/carelink11.jpg)
 
 Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter“:  
+
 ![Auswahl_Verbindung](../../images/640g/carelink12.jpg)
 
+
 Stelle sicher, dass alle aufgeführten Punkte zutreffen und klicke auf „Fertigstellen“: 
+
 ![Fertig](../../images/640g/carelink13.jpg)
-Die Pumpendaten werden nun ausgelesen: 
+
+Die Pumpendaten werden nun ausgelesen:
+
 ![Auslesen](../../images/640g/carelink14.jpg)
+
 
 **Wichtig:** *Sollte die Verbindung zwischen Pumpe und Messgerät unterbrochen werden (z.B. durch das Auslesen der Pumpendaten in CareLink Pro bei einer 3-Monatskontrolle) kann es sein, dass das Auslesen auf CareLink (wie eben durchgeführt) erneut notwendig wird. Damit das nicht passiert empfiehlt es sich, ein zusätzliches Contour Next Link 2.4 Messgerät anzuschaffen, welches nur in Verbindung mit dem Android Smartphone steht und nicht für etwaiges manuelles Hochladen von Pumpendaten gebraucht wird (muss allerdings ebenfalls einmalig zum Auslesen der Pumpendaten gebraucht worden sein!). *
