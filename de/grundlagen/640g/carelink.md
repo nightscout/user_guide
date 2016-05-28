@@ -24,7 +24,6 @@ Nach dem „Absenden“ erscheint eine Bestätigungsseite:
 ![Bestaetigung](../../images/640g/carelink5.jpg)
 
 Nachdem du auf „Fertig stellen“ klickst, kommst du auf die Startseite zum Login. 
-
 Gib deine vorhin erstellten Benutzernamen und Passwort ein und klicke auf „Einloggen“:
 
 ![Einloggen](../../images/640g/carelink6.jpg)
