@@ -9,6 +9,13 @@ Nightscout besteht aus **3 Komponenten**:
 * Einem Cloud-Service Anbieter, welcher die Web-Applikation über Webserver zur Verfügung stellt. Microsoft [**Azure**](https://azure.microsoft.com/de-de/pricing/free-trial/) oder [**Heroku**](https://www.heroku.com/) können hierfür verwendet werden. Cloud-Service Anbieter betreiben weltweit Rechenzentren, man konfiguriert webbasiert wie hier Nightscout
 diese Dienste.
 
+Wir können Azure auf verschiedene Weisen einrichten:
+
+**klassisch :** Die klassische Einrichtung erfordert das manuelle Anlegen der MongoDB und das manuelle Anlegen der Azure Website mit allen Einstellungen. Dieses ist in Kapitel .. (../nightscout/azure.md) beschrieben.
+
+**Alternativ :** Die Nightscout Website lässt sich fast vollkommen automatisiert einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als Provider. Dieses ist in Kapitel (../nightscout/azure.md) beschrieben.
+Eine Alternative Installationsmehtode ohne Cloud - Service - Provider ist dort ebenfalls beschrieben.
+
 
 Ein Schaubild verdeutlicht die Zusammmenhänge:
 
