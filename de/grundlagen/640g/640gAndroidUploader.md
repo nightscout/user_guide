@@ -33,14 +33,14 @@ Aktiviere nun „REST API Upload“. Je nach Version der App musst du noch deine
 ```https://```**deinAPI_SECRETPasswort**```@```**deinewebsite**```.azurewebsites.net/api/v1/```	Es	kann	sein,	dass dein	API_SECRET	Passwort	und	deine	Nightscout	Website (deinewebsite.azurewebsites.net)	separat	verlangt	werden.	 
 ![API](../../images/640g/app9.jpg)
 
-Nun kannst du auf deiner Website (deinewebsite.azurewebsites.net) die CGM-Werte ablesen (es kann einige Minuten in Anspruch nehmen, bis die Daten angezeigt werden): 
-  
- 
-Als App zum Lesen der Kurve für Android empfehle ich „NightWatch“. Für iPhones empfehle ich die Apps „Nightscouter“ oder „Nightscout“.  
- 
+Nun kannst du auf deiner Website (deinewebsite.azurewebsites.net) die CGM-Werte ablesen (es kann einige Minuten in Anspruch nehmen, bis die Daten angezeigt werden):
+![Nightscout](../../images/640g/app10.jpg)
+
+Als App zum Lesen der Kurve für Android empfehle ich „NightWatch“. Für iPhones empfehle ich die Apps „Nightscouter“ oder „Nightscout“.
+
 Sobald die Verbindung zwischen der Pumpe und der Android-Messgerät-
-Verbindung unterbrochen wird (Distanz, Wackelkontakt des USB OTGKabels), werden keine CGM-Werte mehr aufgezeichnet. Sie werden zum jetzigen Zeitpunkt auch nicht nachgetragen, sobald die Verbindung wieder steht.  
- 
-Bei Problemen kannst du jederzeit die Community auf Facebook um Rat bitten (Gruppe für Deutschland heisst „Nightscout Deutschland (Germany)“).  
- 
-Nun viel Spass mit Nightscout - #WeAreNotWaiting ! 
+Verbindung unterbrochen wird (Distanz, Wackelkontakt des USB-OTG Kabels), werden keine CGM-Werte mehr aufgezeichnet. Sie werden zum jetzigen Zeitpunkt auch nicht nachgetragen, sobald die Verbindung wieder steht.
+
+Bei Problemen kannst du jederzeit die Community auf Facebook um Rat bitten (Gruppe für Deutschland heißt „Nightscout Deutschland (Germany)“).
+
+Nun viel Spaß mit Nightscout - #WeAreNotWaiting ! 
