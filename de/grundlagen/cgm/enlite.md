@@ -4,9 +4,9 @@ Eine generelle Beschreibung des Enlite Sensors bietet der Hersteller Medtronic a
 
 Aktuell gibt es zwei verschiedene Transmitter von Medtronic, mit denen der Enlite Sensor verbunden werden kann:
 1.  
-der MiniLink Transmitter, kompatibel mit dem MiniMed Veo System und dem Guardian REAL-Time System und
+der MiniLink Transmitter, kompatibel mit dem **MiniMed Veo** System und dem Guardian REAL-Time System und
 2. 
-den Guardian 2 Link Transmitter, der nur mit der MiniMed 640G Insulinpumpe kompatibel ist.
+den Guardian 2 Link Transmitter, der nur mit der **MiniMed 640G** Insulinpumpe kompatibel ist.
 
 Da sich die Wege zum erfolgreichen Nightscout-Betrieb unterscheiden, werden diese im Folgenden getrennt betrachtet.
 
