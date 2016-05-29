@@ -40,13 +40,13 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  **Aktualisierung des eigenen `cgm-remote-monitor` repositories**
  
- Stand Januar 2016 hat der `cgm-remote-monitor` die Version 0.8.4. Im Frühsommer erscheint die Versioen 0.9.0 mit dem Namen 'Gluten Free Grilled Cheese'
+ Stand Januar 2016 hat der `cgm-remote-monitor` die Version 0.8.4. Im Sommer erscheint die Versioen 0.9.0 mit dem Namen 'Gluten Free Grilled Cheese'
  
- Über die URL [Weblink] (http://nightscout.github.io/pages/test-beta/?branch=0.9-beta2) kann überprüft werden, ob die eigene Version noch auf dem aktuellen Stand ist. Für Versionen, wie 0.9-beta2, welche aus der Entwicklung kommen, empfiehlt es sich, einen dev - branch im eigen Verzeichnis (Repository) anzulegen und eine zweite Website ib Azure anzulegen.
- 
- Einfach den GitHub Account - Namen eingeben und **I'm Ready** klicken. Anschließend werden wir nach dem **github** Benutzernamen gefragt. Mit **Check for Updates** geht es weiter. Liegt eine neuerer Version vor, dann erscheint der Button
+ In den vergangenen Monaten sind Beta Versionen (0.9-betax) erschienen. Für die Versionen gibt es ein Updatetool
+ die Links hierzu werden über fb (CGM in the Cloud und Gitterchatgruppen veröffentlicht) Es empfiehlt sich eine separate Website anzulegen.
+ Beim Aufruf des Update-Links geben wir den GitHub Account - Namen ein und Klicken  **I'm Ready**. Anschließend werden wir nach dem **github** Benutzernamen gefragt. Mit **Check for Updates** geht es weiter. Liegt eine neuere Version vor, dann erscheint der Button
  **Create Pull Request** jetzt erfolgt der Vergleich mit den file - Versionen und es wird angezeigt, was aktualisiert wurde.
- Mit **Confirm Merge** bestätigen wir die ermittelten Änderungen und bringen dmit den cgm-remote-monitor auf den akuellen Stand. Die Aktualisierung des Webcontens in **Azure**  erfolgt automatisch. Ein Neustart der Website ist nicht erforderlich.
+ Mit **Confirm Merge** bestätigen wir die ermittelten Änderungen und bringen dmit den cgm-remote-monitor auf den aktuellen Stand. 
  
  
  Jetzt richten wir mit voller Freude [Azure](../nightscout/azure.md). ein.
