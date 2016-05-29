@@ -27,10 +27,12 @@ Auch die mittlerweile offiziell von Nightscout unterstützte Lösung mit Hilfe v
 
 ## Guardian 2 Link Transmitter
 
-Bei der Minimed 640G funktioniert es seit Mitte Mai 2016 recht ähnlich. Hierbei wird das Messgerät Bayer Contour Next Link 2.4 per USB Kabel mit einem passenden Android Smartphone verbunden. Auf diesem Smartphone wird dann der 640gAndroidUploader installiert und konfiguriert (s. [640gAndroidUploader](../../nightscout/die_nightscout_website.md)). Zuvor muss noch ein CareLinkPersonal Konto (s. [CareLinkPersonal Konto einrichten](../../nightscout/die_nightscout_website.md)) und die Nightscout Webseite eingerichtet werden (s. [Nightscout einrichten](../../nightscout/nightscout_einrichten.md)).
+Bei der Minimed 640G funktioniert es seit Mitte Mai 2016 recht ähnlich. Hierbei wird das Messgerät Bayer Contour Next Link 2.4 per USB Kabel mit einem [passenden Android Smartphone ](https://github.com/pazaan/640gAndroidUploader/wiki/Compatible%20Android%20devices%20and%20firmware)verbunden. Auf diesem Smartphone wird dann der 640gAndroidUploader installiert und konfiguriert. 
 
+Dazu sind die folgenden Einzelschritte erforderlich:
+Zunächst muss das Kapitel [Nightscout einrichten](../../nightscout/nightscout_einrichten.md) durchgearbeitet und die Webseite entsprechend eingerichtet werden. Danach geht es weiter mit dem Kapitel [CareLinkPersonal Konto einrichten](../../nightscout/die_nightscout_website.md). Ist dies geschehen, wird noch das Android Smartphone mit dem Contour Next Link Messgerät konfiguriert  (s. [hier](../../nightscout/die_nightscout_website.md)).
 
-Die vorherige, seit Ende Februar 2016 existierende Lösung sei hier noch am Rande erwähnt. Informationen dazu gibt es auf der Nightscout Webseite [(s. Nightscout and Medtronic 640g (engl.))](http://www.nightscout.info/wiki/welcome/nightscout-and-medtronic-640g) und zusätzlich hat der Autor, Matt, noch einen englischen Blog, der sich mit dem Thema beschäftigt [Matt's Little D Blog an.](http://littlet1d.blogspot.co.uk/)
+Die vorherige, seit Ende Februar 2016 existierende Lösung sei auch noch erwähnt. Informationen dazu gibt es auf der Nightscout Webseite [(s. Nightscout and Medtronic 640g (engl.))](http://www.nightscout.info/wiki/welcome/nightscout-and-medtronic-640g) und zusätzlich hat der Autor, Matt, noch einen englischen Blog, der sich mit dem Thema beschäftigt [Matt's Little D Blog an.](http://littlet1d.blogspot.co.uk/)
 
 Speziell im [Beitrag vom 18.01.16](http://littlet1d.blogspot.co.uk/2016/01/nightscout-on-640g-step-by-step-into.html) geht Matt auf die erforderlichen Schritte ein. Mittlerweile hat Matt drei verschiedene Lösungen für die 640G erarbeitet. Details in seinem [Beitrag vom 16.4.16](http://littlet1d.blogspot.de/2016/04/small-medium-and-large-mobile.html).
 
