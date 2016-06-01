@@ -39,12 +39,11 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt, ob die App **online/running** oder **Stopped** ist.
 
  
- Weiter geht es mit der
- #Konfiguration der **Anwendungseinstellungen**:
+ Weiter geht es mit der Konfiguration der **Anwendungseinstellungen**:
  
  Wir beginnen mit der **Verbindung zur Mongo DB**:
  
- ![mongodb_connection](../images/azure/azure_app_settings.jpg)
+ ![mongodb_connection](../images/azure/azure_app_settings.JPG)
  
  - **mongo:** Schlüssel der Einstellung
  
