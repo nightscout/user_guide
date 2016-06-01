@@ -40,11 +40,11 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 
  
  Weiter geht es mit der
- #Konfiguration der Anwendungseinstellungen:
+ #Konfiguration der **Anwendungseinstellungen**:
  
  Wir beginnen mit der **Verbindung zur Mongo DB**:
  
- ![azure_mongodb_connection](../images/azure/azure_app_settings.jpg)
+ ![mongodb_connection](../images/azure/azure_app_settings.jpg)
  
  - **mongo:** Schlüssel der Einstellung
  
