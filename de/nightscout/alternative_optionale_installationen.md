@@ -1,6 +1,6 @@
 # Alternative und Optionale Installationsmethoden
 
-**Unbeaufsichtigte Installation**
+# Unbeaufsichtigte Installation
 Die Nightscout Website lässt sich mit vielen Standardeinstellungen beschleunigt installieren.
 Wir Starten mit der Anmeldung in Azure.
 Danach melden wir uns in Github an, navigieren in unserer Repository und den Branch, welchen wir installieren wollen.
@@ -24,15 +24,18 @@ Es erscheint eine Web - Maske, in der wir alle gelb markierten Felder ausfüllen
 
 **Mongo Connection:** Vollständiger Connection String der mongoDB mit Angabe der Datenbank.
 
-**Api Secret: ** API Secret Wert, bleibt der Wert unter 12 Zeichen, bricht die Installation ab.
+**Api Secret:** API Secret Wert, bleibt der Wert unter 12 Zeichen, bricht die Installation ab.
 
 **Language:** Standart Wert ist **en**, bitte in **de** wechseln.
 
 Weitere Werte kann man ändern, wenn man möchte. Am Ende geht es mit **Weiter** weiter. Im Hintergrund installiert sich jetzt die Website mit den vorbelegten einstellungen. Diese werden als Schlüssel mit Werten in den Azure **Anwendungseinstellungen** gespeichert.
 
-* Installtion Nightscout auf Windows Server 2012 R2
+# Installation ohne Cloud Service Provider
 
-[Nightscout on windows Server](https://github.com/jaylagorio/Nightscout-on-Windows-Server)
+Nightscout lässt sich autark installieren, das beteutet die Website liegt auf einem eigenen Server, welcher eine Verbindung in das Internet benötigt. folgender Link beschrreibt die Installation und Konfiguration eines windows server 2012, IIS und Nightscout Website:
+
+
+[Nightscout on Windows Server](https://github.com/jaylagorio/Nightscout-on-Windows-Server)
 
 
 
