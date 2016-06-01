@@ -1,6 +1,17 @@
-# Alternativen
+# Alternative und Optionale Installationsmethoden
 
-Hier werden alternative und optionale Installationen beschrieben.
+** Unbeaufsichtigte Installation **
+Die Nightscout Website lässt sich mit vielen Standardeinstellungen beschleunigt installieren.
+Wir Starten mit der Anmeldung in Azure.
+Danach melden wir uns in Github an, navigieren in unserer Repository und den Branch, welchen wir installieren wollen.
+
+Weiter Klicken auf das **Deploy to Azure** Symbol:
+![azure_unbeaufsichtigt](../images/azure/azure_deploy.jpg)
+
+Es erscheint eine Web - Maske, in der wir alle gelb markierten Felder ausfüllen oder ändern:
+
+![azure_deploy_param](../images/azure/azure_deploy_param.jpg)
+
 
 
 * Installtion Nightscout auf Windows Server 2012 R2
@@ -14,9 +25,7 @@ Hier werden alternative und optionale Installationen beschrieben.
 
 Azure - Anmeldung erforderlich.
 
-Dann alle gelb markierten Felder ausfüllen oder ändern:
 
-![azure_deploy_param](../images/azure/azure_deploy_param.jpg)
 
 * Mongo DB Administration
 
