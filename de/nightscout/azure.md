@@ -39,13 +39,13 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt, ob die App **online/running** oder **Stopped** ist.
 
  
- Weiter geht es mit der Konfiguration der **Anwendungseinstellungen**:
+ Weiter geht es mit der Konfiguration der **Anwendungseinstellungen**: Jede Zeile besteht aus einem **Schlüssel** und einem **Wert**.
  
  Wir beginnen mit der **Verbindung zur Mongo DB**:
  
  ![mongodb_connection](../images/azure/azure_app_settings.JPG)
  
- - **mongo:** Schlüssel der Einstellung
+ - **MONGO_CONNECTION** Schlüssel der Einstellung
  
  **mongodb://dbuser:dbpassword@ds040888.mlab.com:40888/nscgmdatabase**: Verbindungszeichenfolge, diese steht im vorher ausgefüllten Datenblatt
  
