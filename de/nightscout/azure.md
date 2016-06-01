@@ -40,26 +40,16 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
 
  
  Weiter geht es mit der
- #Konfiguration der Verbindungszeichenfolgen:
+ #Konfiguration der Anwendungseinstellungen:
  
  Wir beginnen mit der **Verbindung zur Mongo DB**:
  
- ![azure_mongodb_connection](../images/azure/azure_mongodb_connection.jpg)
+ ![azure_mongodb_connection](../images/azure/azure_app_settings.jpg)
  
- - **mongo:** Parametername
+ - **mongo:** Schlüssel der Einstellung
  
  **mongodb://dbuser:dbpassword@ds040888.mlab.com:40888/nscgmdatabase**: Verbindungszeichenfolge, diese steht im vorher ausgefüllten Datenblatt
  
- **Benutzerdefiniert**: Attribut
- 
- 
- Wir machen auf die gleiche Weise weiter mit der Angabe der **mongodb Collection:**
- 
- - **mongo_collection**: Parametername
- 
- **entries**: Standard: entries, die Collection, in der die CGM Werte gespeichert werden. Ggf. muss der Name angepasst werden.
- 
- **Benutzerdefiniert**: Attribut
  
 ** Speichern **nicht vergessen.
  
@@ -68,14 +58,11 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  - Jetzt fehlt noch das **API SECRET**. 
 
- Der API_SECRET Wert muss als **Minimum zwölf Zeichen** lang sein, da sonst die Nightscout Seite einfach weiß bleibt, und ist frei wählbar.
- Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
+ Der API_SECRET Wert muss als **Minimum zwölf Zeichen** lang sein, da sonst die Nightscout Seite einfach weiß bleibt, und ist frei wählbar. Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
  
  **API_SECRET**: Parametername
  
  **Y3KmrdFA12jmk**: API SECRET Wert (Beispiel)
- 
- **Benutzerdefiniert**: Attribut
  
  
  An dieser Stelle noch ganz wichtig den 
@@ -84,16 +71,10 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  
  mit dem Wert: **ON**
  
- Attribut **Benutzerdefiniert** hinzuzufügen sonst kann auch **jeder**, der die Website kennt, auch **ohne den geheimen** Wert vom API Secret Werte in eurer Datenbank **hinzufügen** oder **verändern**.
+ Dieser Wert ist wichtig, ansonsten kann auch **jeder**, der die Website kennt, auch **ohne den geheimen** Wert vom API Secret Werte in eurer Datenbank **hinzufügen** oder **verändern**.
 
  
  **Speichern** nicht vergessen.
- 
- Mit dem Button **Werte der Verbindungszeichenfolge anzeigen** kann man sich die Werte noch einmal anzeigen lassen:
- 
- ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
- 
- 
  
  
  Weiter geht es mit dem Konfigurieren der Plugin Module:
