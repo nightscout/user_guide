@@ -1,6 +1,10 @@
-# Optionale Einstellungen
+# Nightscout Plugins
 
-Das Erscheinungsbild und der Funktionsumfang der Nightscout Website können weiter konfiguriert werden. 
+Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenannten **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
+
+**Default PLugins**
+
+**Advanced Plugins**
 
 
 Konfiguration des **Erscheinungsbildes**:
