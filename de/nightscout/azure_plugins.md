@@ -4,7 +4,7 @@ Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenan
 
 **Standard PLugins**
 
-Wir können einige Standard Plugins **deaktivieren**, die standardmäßig aktiv sind. Dieses erfolgt über den DISABLE Parameter in den Azure App. Einstellungen:
+Wir können einige Standard Plugins **deaktivieren**, die *standardmäßig* aktiv sind. Dieses erfolgt über den DISABLE Parameter in den Azure App. Einstellungen:
 
  
 | Plugin |  Hinweise |
