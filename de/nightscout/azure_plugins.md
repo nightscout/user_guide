@@ -2,15 +2,9 @@
 
 Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenannten **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
 
-**Default PLugins**
-
-**Advanced Plugins**
-
-
-Konfiguration des **Erscheinungsbildes**:
+**Standard PLugins**
 
 Wir können einige Standard Plugins **deaktivieren**, die standardmäßig aktiv sind. Dieses erfolgt über den DISABLE Parameter in den Azure App. Einstellungen:
-
 
  
 | Plugin |  Hinweise |
@@ -21,6 +15,12 @@ Wir können einige Standard Plugins **deaktivieren**, die standardmäßig aktiv 
 |errorcodes |erzeugt Alarme für CGM Fehlermeldungen |
 |ar2 | erzeugt Alarme basierend auf prognostizierten Werten|
 |simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um Alarme zu erzeugen|
+
+
+
+**Weiterentwickelte Plugins**
+
+
 
 
 Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
