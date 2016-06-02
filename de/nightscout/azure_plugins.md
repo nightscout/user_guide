@@ -21,6 +21,23 @@ Wir können einige Standard Plugins **deaktivieren**, die standardmäßig aktiv 
 **Weiterentwickelte Plugins**
 
 
+    careportal (Careportal)
+    boluscalc (Bolus Wizard)
+    food (Custom Foods)
+    rawbg (Raw BG)
+    iob (Insulin-on-Board)
+    cob (Carbs-on-Board)
+    bwp (Bolus Wizard Preview)
+    cage (Cannula Age)
+    sage (Sensor Age)
+    iage (Insulin Age)
+    treatmentnotify (Treatment Notifications)
+    basal (Basal Profile)
+    bridge (Share2Nightscout bridge)
+    mmconnect (MiniMed Connect bridge)
+    pump (Pump Monitoring)
+    openaps (OpenAPS)
+
 
 
 Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
