@@ -47,18 +47,17 @@ Die Einstellungen sehen dann z.B. so aus:
 
 ![azure_app_entries](../images/azure/azure_app_entries.jpg)
 
-**Weiterentwickelte Plugins**
 
+#### Erweiterte Plugins:
 
-**careportal**  (de: Behandlungsportal) Über dieses Plugin können wir Eingaben über die Website machen. Mögliche Werte:
-`on` oder `off`
+##### `Careportal` (Careportal)
+  Eine optionale Form Behandlungen einzugeben.
 
+##### `Boluscalc` (de: Bolus Rechner) 
+  Nightscout berechnet anhand bestimmter Vorgaben die zu verabreichende Bolusmenge.
 
-**boluscalc**  (de: Bolus Rechner) Nightscout berechnet anhand bestimmter Vorgaben die zu verwendende Bolusmenge.
-
-
-**food** (de: Nahrung) Wir können über den ´Nahrungs - Editor´ siehe () Mahlzeiten mit Angabe von Kohlenhydraten eingeben und bearbeiten.
-
+##### `Food` (de: Lebensmittel) 
+  Wir können über den ´Nahrungs - Editor´ siehe () Mahlzeiten mit Angabe von Kohlenhydraten eingeben
 
 **rawbg** (de: Rohwert BZ) Mit diesem Plugin könne wir uns Roh - BZ Werte anzeigen lassen
 
