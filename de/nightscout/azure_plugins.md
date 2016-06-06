@@ -73,6 +73,12 @@ Die Einstellungen sehen dann z.B. so aus:
 
 **cage** (en: Cannula Age, de: Katheter - Alter) Dieses Plugin zeigt die Tragedauer des Pumpenkatheters an.
 
+    CAGE_ENABLE_ALERTS (false) - Set to true to enable notifications to remind you of upcoming cannula change.
+    CAGE_INFO (44) - If time since last Site Change matches CAGE_INFO, user will be warned of upcoming cannula change
+    CAGE_WARN (48) - If time since last Site Change matches CAGE_WARN, user will be alarmed to to change the cannula
+    CAGE_URGENT (72) - If time since last Site Change matches CAGE_URGENT, user will be issued a persistent warning of overdue change.
+    CAGE_DISPLAY (hours) - Possible values are 'hours' or 'days'. If 'days' is selected and age of canula is greater than 24h number is displayed in days and hours
+
 
 **sage** (en: Sensor Age, de: Sensor - Alter) Dieses Plugin zeigt die Dauer seit dem Sart des CGM - Sensors an.
 
