@@ -50,11 +50,22 @@ Die Einstellungen sehen dann z.B. so aus:
 **Weiterentwickelte Plugins**
 
 
-careportal (Careportal)
-boluscalc (Bolus Wizard)
-food (Custom Foods)
-rawbg (Raw BG)
-iob (Insulin-on-Board)
+**careportal**  (de: Behandlungsportal) Über dieses Plugin können wir Eingaben über die Website machen. Mögliche Werte:
+`on` oder `off`
+
+
+**boluscalc**  (de: Bolus Rechner) Nightscout berechnet anhand bestimmter Vorgaben die zu verwendende Bolusmenge.
+
+
+**food** (de: Nahrung) Wir können über den ´Nahrungs - Editor´ siehe () Mahlzeiten mit Angabe von Kohlenhydraten eingeben und bearbeiten.
+
+
+rawbg (de: Rohwert BZ) Mit diesem Plugin könne wir uns Roh - BZ Werte anzeigen lassen
+
+
+iob (en: Insulin-on-Board, de: Wirksames Insulin) Dieses Plugin berechnet das noch wirksame Bolus Insulin, bezogen auf die Wirkdauer.
+
+
 cob (Carbs-on-Board)
 bwp (Bolus Wizard Preview)
 cage (Cannula Age)
