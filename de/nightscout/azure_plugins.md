@@ -57,16 +57,16 @@ Die Einstellungen sehen dann z.B. so aus:
   Nightscout berechnet anhand bestimmter Vorgaben die zu verabreichende Bolusmenge.
 
 ##### `Food` (de: Lebensmittel) 
-  Wir können über den ´Nahrungs - Editor´ siehe () Mahlzeiten mit Angabe von Kohlenhydraten eingeben
+  Wir können über den  `Nahrungs - Editor` siehe () Mahlzeiten mit Angabe von Kohlenhydraten eingeben
 
-**rawbg** (de: Rohwert BZ) Mit diesem Plugin könne wir uns Roh - BZ Werte anzeigen lassen
+##### `rawbg` (Roh Blutzuckerwerte)
+  Berechnet Roh Blutzuckerwerte mit Sensor und Kalibrierungsaufzeichnungen und zeigt alternative Werte mit Verzerrungspegel an.
 
+##### `Iob` (en: Insulin-on-Board, de:Wirksames Insulin)
+  Fügt die IOB Pillbox Visualisierung im Browser ein und berechnet das noch wirksame Bolus Insulin, welches von anderen Plugins verwendet werden kann. Verwendet Behandlungen mit Insulindosen und der `dia` und` sens` Felder aus dem [Behandlungsprofil] (# behandlungs Profil).
 
-**iob** (en: Insulin-on-Board, de: Wirksames Insulin) Dieses Plugin berechnet das noch wirksame Bolus Insulin, bezogen auf die Wirkdauer.
-
-
-**cob**  (en: Carbs-on-Board, de: Wirksame Kohlenhydrate) Dieses Plugin berechnet die noch wirksamen Kohlenhydrate bezogen auf den Zeitpunkt der Einnahme
-
+##### `Cob` (Carbs-on-Board)
+  Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, die von anderen Plugins verwendet werden können. Verwendet Behandlungen mit carb angaben und der `carbs_hr`,` carbratio` und `sens` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil).
 
 **bwp** (en: Bolus Wizard Preview)  ?????
 
