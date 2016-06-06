@@ -60,17 +60,26 @@ Die Einstellungen sehen dann z.B. so aus:
 **food** (de: Nahrung) Wir können über den ´Nahrungs - Editor´ siehe () Mahlzeiten mit Angabe von Kohlenhydraten eingeben und bearbeiten.
 
 
-rawbg (de: Rohwert BZ) Mit diesem Plugin könne wir uns Roh - BZ Werte anzeigen lassen
+**rawbg** (de: Rohwert BZ) Mit diesem Plugin könne wir uns Roh - BZ Werte anzeigen lassen
 
 
-iob (en: Insulin-on-Board, de: Wirksames Insulin) Dieses Plugin berechnet das noch wirksame Bolus Insulin, bezogen auf die Wirkdauer.
+**iob** (en: Insulin-on-Board, de: Wirksames Insulin) Dieses Plugin berechnet das noch wirksame Bolus Insulin, bezogen auf die Wirkdauer.
 
 
-cob (Carbs-on-Board)
-bwp (Bolus Wizard Preview)
-cage (Cannula Age)
-sage (Sensor Age)
-iage (Insulin Age)
+**cob**  (en: Carbs-on-Board, de: Wirksame Kohlenhydrate) Dieses Plugin berechnet die noch wirksamen Kohlenhydrate bezogen auf den Zeitpunkt der Einnahme
+
+
+**bwp** (en: Bolus Wizard Preview)  ?????
+
+**cage** (en: Cannula Age, de: Katheter - Alter) Dieses Plugin zeigt die Tragedauer des Pumpenkatheters an.
+
+
+**sage** (en: Sensor Age, de: Sensor - Alter) Dieses Plugin zeigt die Dauer seit dem Sart des CGM - Sensors an.
+
+
+**iage** (en: Insulin Age, de: Insulin Alter) Dieses Plugin zeigt die Dauer seit dem Wechsel des Insulinreservoirs in der Pumpe an.
+
+
  treatmentnotify (Treatment Notifications)
 basal (Basal Profile)
 bridge (Share2Nightscout bridge)
