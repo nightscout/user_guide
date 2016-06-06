@@ -2,7 +2,7 @@
 
 Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenannten **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
 
-**Standard PLugins**
+**Standard Plugins**
 
 Wir können einige Standard Plugins **deaktivieren**, die `standardmäßig` aktiv sind. Dieses erfolgt über den DISABLE Parameter in den Azure App. Einstellungen:
 
@@ -78,6 +78,10 @@ Die Einstellungen sehen dann z.B. so aus:
 
 
 **iage** (en: Insulin Age, de: Insulin Alter) Dieses Plugin zeigt die Dauer seit dem Wechsel des Insulinreservoirs in der Pumpe an.
+
+**pump** (Pumpen Plugin "Pillbox")  ?????
+
+**openaps** (OpenAPS Plugin "Pillbox")  ?????
 
 
  treatmentnotify (Treatment Notifications)
