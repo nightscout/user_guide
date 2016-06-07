@@ -6,16 +6,46 @@ Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenan
 
 Wir können einige Standard Plugins **deaktivieren**, die `standardmäßig` aktiv sind. Dieses erfolgt über den DISABLE Parameter in den Azure App. Einstellungen:
 
- 
-| Plugin |  Hinweise |
-| -- | -- |
-|delta | berechnet und zeigt die Veränderung zwischen den letzten beiden BZ - Werten an|
-|direction |zeigt den Blutzuckertrend an|
-|upbat |zeigt den aktuellsten Batterieladezustand des Uploader - Smartphones an|
-|errorcodes |erzeugt Alarme für CGM Fehlermeldungen |
-|ar2 | erzeugt Alarme basierend auf prognostizierten Werten|
-|simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um Alarme zu erzeugen|
 
+
+#### Standard Plugins 
+  
+  Diese können durch Einstellen der `DISABLE` env var deaktiviert werden, zum Beispiel` deaktiviere = "Direction" `
+
+##### `Delta` (BG Delta)
+  Berechnet und zeigt die Veränderung zwischen den letzten 2 BG-Werten.
+
+##### `Direction` (BG Direction)
+  Zeigt die Trendrichtung an.
+
+##### `Upbat` (Uploader Batterie)
+  Zeigt den aktuellsten Batteriestatus vom Uploader Telefon.
+
+##### `Timeago` (Time Ago)
+  Zeigt die Zeit seit dem letzten CGM-Eintrag an. Unterstützt die `TIMEAGO_ENABLE_ALERTS` [Erweiterte Einstellung] (# extended-Einstellungen) für die Serverseite veraltete Daten Alarme via Pushover und IFTTT.
+
+##### `Devicestatus` (Gerätestatus)
+  Wird von `upbat` und anderen Plug-ins verwendet. Ist notwendig, wenn Gerätestatusinformationen angezeigt werden sollen. Unterstützt die `DEVICESTATUS_ADVANCED =" true "` [Erweiterte Einstellung] (# extended-Einstellungen), um alle Gerätezustände an den Client für die retrospektive Anwendung zu senden und andere Plugins zu unterstützen.
+
+##### `Errorcodes` (CGM-Fehlercodes)
+  Erzeugt Alarme für CGM-Codes `9` (Sanduhr) und` 10` (???).
+  * Verwenden Sie [erweiterte Einstellungen] (# extended-Einstellungen) um zu sehen, welche Fehlercodes Benachrichtigungen und Alarme auslösen:
+    * `ERRORCODES_INFO` (` 1 2 3 4 5 6 7 8`) - die Bedürfnisse der Kalibrierung (Bluttropfen) und andere Codes unter 9 erzeugen eine Info-Ebene Benachrichtigung, auf einen Raum getrennte Liste der Anzahl oder `off` Standardmäßig deaktivieren
+    * `ERRORCODES_WARN` (` off`) - Standardmäßig ist keine Warnung konfiguriert, um eine getrennte Liste von Zahlen oder `off` gesetzt zu deaktivieren
+    * `ERRORCODES_URGENT` (` 9 10`) - standardmäßig die Sanduhr und ??? generieren einen dringenden Alarm, auf einen Raum getrennte Liste von Zahlen oder `off` zu deaktivieren
+
+##### `Ar2` (AR2 Forecasting)
+  Erzeugt Alarme auf Basis von prognostizierten Werten. Siehe [Forecasting mit AR2 Algorithmus] (https://github.com/nightscout/nightscout.github.io/wiki/Forecasting)
+  * Standardmäßig aktiviert, wenn keine Schwellenwerte festgelegt werden ** OR ** `ALARM_TYPES` umfasst` predict`.
+  * Verwenden Sie [erweiterte Einstellungen] (# extended-Einstellungen), um das AR2 Verhalten anzupassen:
+    * `AR2_USE_RAW` (` false`) - um für Prognosen `rawbg` Werte zu verwenden, wenn Standardwerte keinen Alarm auslösen.
+    * `AR2_CONE_FACTOR` ( '2') - Größe der Kegel einzustellen, benutzen Sie '0' für eine einzelne Zeile.
+
+##### `Simplealarms` (Simple BG Alarme)
+  Verwendet `BG_HIGH`,` BG_TARGET_TOP`, `BG_TARGET_BOTTOM`,` BG_LOW` Schwellen Alarme generieren.
+  wenn 1 dann sind diese Schwellenwerte * standardmäßig Aktiviert gesetzt ist ** OR ** `ALARM_TYPES` umfasst` simple`.
+  
+  
 
 ### Vordefinierte Werte für Browser-Einstellungen (optional)
 
