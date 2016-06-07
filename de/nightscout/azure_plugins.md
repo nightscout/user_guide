@@ -2,6 +2,42 @@
 
 Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenannten **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
 
+### Alarme
+
+  Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen  außer Kraft gesetzt werden.
+  
+  * `ALARM_TYPES` (falls vorhanden` BG_` * ENV `simple` gesetzt werden, sonst` predict`) - derzeit zwei Alarmtypen unterstützt werden, und können unabhängig voneinander oder in Kombination verwendet werden. Der `simple` Alarmtyp vergleicht nur den aktuellen BG zu` BG_` Schwellen über die `predict` Alarmtyp stark getunten Formel verwendet, die prognostiziert, wo die BG basiert los es Trend ist. `Predict` ** NICHT ** gegenwärtig eines der` BG_` * ENV verwenden
+  * `BG_HIGH` (` 260`) - muss mg / dl Einheiten eingestellt werden; die hohe BG außerhalb des Zielbereichs, die dringend betrachtet
+  * `BG_TARGET_TOP` (` 180`) - muss mg / dl Einheiten eingestellt werden; das obere Ende des Zielbereichs, verwendet auch die Linie auf dem Chart zu zeichnen
+  * `BG_TARGET_BOTTOM` (` 80`) - muss mg / dl Einheiten eingestellt werden; der Boden des Zielbereichs, verwendet auch die Linie auf dem Chart zu zeichnen
+  * `BG_LOW` (` 55`) - muss mg / dl Einheiten eingestellt werden; die niedrige BG außerhalb des Zielbereichs, die dringend betrachtet
+  * `ALARM_URGENT_HIGH` (` on`) - mögliche Werte `on` oder` off`
+  * `ALARM_URGENT_HIGH_MINS` (` 30 60 90 120`) - Anzahl der Minuten dringend hohe Wecker erneut, Platz für Optionen in Browser getrennt, zunächst für Schwächling verwendet
+  * `ALARM_HIGH` (` on`) - mögliche Werte `on` oder` off`
+  * `ALARM_HIGH_MINS` (` 30 60 90 120`) - Anzahl der Minuten hohe Wecker erneut, Platz für Optionen in Browser getrennt, zunächst für Schwächling verwendet
+  * `ALARM_LOW` (` on`) - mögliche Werte `on` oder` off`
+  * `ALARM_LOW_MINS` (` 15 30 45 60`) - Anzahl der Minuten niedrigen Wecker erneut, Platz für Optionen in Browser getrennt, zunächst für Schwächling verwendet
+  * `ALARM_URGENT_LOW` (` on`) - mögliche Werte `on` oder` off`
+  * `ALARM_URGENT_LOW_MINS` (` 15 30 45`) - Anzahl der Minuten dringend niedrigen Wecker erneut, Platz für Optionen in Browser getrennt, zunächst für Schwächling verwendet
+  * `ALARM_URGENT_MINS` (` 30 60 90 120`) - Anzahl der Minuten dringende Alarme zu dösen, Platz für Optionen in Browser getrennt (die nicht als hoch oder niedrig markiert sind), zunächst für Schwächling verwendet
+  * `ALARM_WARN_MINS` (` 30 60 90 120`) - Anzahl der Minuten Warnsignale zu dösen, Platz für Optionen in Browser getrennt (die nicht als hoch oder niedrig markiert sind), zunächst für Schwächling verwendet
+  * 
+  
+### Basiseinstellungen
+
+Die Basiseinstellungen sind Standardwerte, die beim Implementiren einer Nightscout Website gesetzt werden.
+
+  * `MONGO_COLLECTION` (` entries`) - Die Sammlung zu speichern SGV, MBG und CAL Aufzeichnungen von Ihrem CGM-Gerät verwendet
+  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) -Die Sammlung zu speichern Behandlungen im Bereich Care Portal finden Sie in der `ENABLE` env var oben angegebenen verwendet
+  * `MONGO_DEVICESTATUS_COLLECTION` (` devicestatus`) - Die Sammlung zum Speichern von Gerätestatusinformationen wie Uploader Batterie verwendet
+  * `MONGO_PROFILE_COLLECTION` (` Profile`) - Die Sammlung verwendet, um Ihre Profile zu speichern
+  * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung verwendet, um Ihre Lebensmittel-Datenbank zu speichern,
+  * `PORT` (` 1337`) - Der Port, der die node.js Anwendung auf zuhören.
+  * `SSL_KEY` - Pfad zu Ihrer SSL-Schlüsseldatei, so dass ssl (https) direkt in node.js aktiviert sein
+  * `SSL_CERT` - Pfad zu Ihrer SSL-Zertifikat-Datei, so dass ssl (https) direkt in node.js aktiviert sein
+  * `SSL_CA` - Pfad zum ssl CA-Datei, so dass ssl (https) direkt in node.js aktiviert sein
+  * `HEARTBEAT` (` 60`) - Anzahl der Sekunden zwischen den Datenbankprüfungen warten in
+
 #### Standard Plugins 
   
   Diese können durch Einstellen der `DISABLE` env var deaktiviert werden, zum Beispiel` deaktiviere = "Direction" `
@@ -174,17 +210,7 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
   * `OPENAPS_RETRO_FIELDS` (` Status-Symbol Status-Label iob Mahlzeit-assist rssi`) - Die Felder im Retro-Modus angezeigt werden soll. Jede der oben genannten Bereichen.
 
 
-Wir können weitere Werte individuell konfigurieren, wenn wir es wollen.
-Diese umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
 
-|Parameter |  Beschreibung |
-| -- | -- |
-|BG_HIGH (260) | Der Blutzuckerwert muß in mg/dl angegeben werden. Bei Überschreitung des Schwellwertes werden diese als alarmierend betrachtet.|
-|BG_TARGET_TOP (180) |Der Blutzuckerwert muß in mg/dl angegeben werden. Er wird als Obergrenze des BZ Zielbereichs in der Grafik ausgegeben.|
-|BG_TARGET_BOTTOM (80) |Der Blutzuckerwert muß in mg/dl angegeben werden. Er wird als Untergrenze des BZ Zielbereichs in der Grafik ausgegeben.|
-|BG_LOW (55) |Der Blutzuckerwert muß in mg/dl angegeben werden. Bei Unterschreitung des Schwellwertes werden diese als alarmierend betrachtet.|
-|ALARM_TYPES (simple / predict) | Momentan werden 2 Alarmtypen unterstützt. Sie können unabhängig voneinander  genutzt werden.|
-|BASE_URL | Genutzt für Links . APIs, pushover, callbacks nutzen diesen Wert. Normalerweise ist es die URL - Adresse, der Typ kann von http auf https geändert werden|
     
     
  
