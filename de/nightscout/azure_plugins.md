@@ -2,6 +2,21 @@
 
 Wir befassen uns hier mit der Beschreibung der Programm - Module den sogenannten **Plugins**. Die Nightscout Website besteht aus vielen kleinen **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
 
+### Pflichtwerte
+
+  * `MONGO_CONNECTION` - Deine Mongo uri, zum Beispiel:` mongodb: // sally: sallypass@ds099999.mongolab.com: 99999 / nightscout`
+  * `DISPLAY_UNITS` (` mg / dl`) - Auswahl: `mg / dl` und` mmol`. Die Einstellung auf `mmol` den gesamten Server setzt in` mmol` Modus standardmäßig benötigt keine weiteren Einstellungen.
+  * `API_SECRET` - Ein geheimes Passwort zur Authentifizierung Es muss mindestens #12 Zeichen# lang sein. und ist frei wählbar. 
+     Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
+ 
+
+### Eigenschaften
+
+  * `ENABLE` - Wird verwendet, um optionale Funktionen zu aktivieren, erwartet eine durch Leerzeichen getrennte Liste, wie zum Beispiel:` careportal rawbg iob` 
+  - * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
+  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Wenn auf dem Gerät Eingaben erfolgen `API_SECRET` authentifiziert werden müssen, um Behandlungen erstellen
+  * `BASE_URL` - Wird für den Aufbau von Verbindungen zu Ihrer Websites api, dh Schwächling Rückrufe, in der Regel die URL Ihrer Website Nightscout möchten Sie vielleicht https statt http
+
 ### Alarme
 
   Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen  außer Kraft gesetzt werden.
