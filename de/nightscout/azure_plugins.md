@@ -210,10 +210,54 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
   * `OPENAPS_RETRO_FIELDS` (` Status-Symbol Status-Label iob Mahlzeit-assist rssi`) - Die Felder im Retro-Modus angezeigt werden soll. Jede der oben genannten Bereichen.
 
 
+#### Pushover
+  Zusätzlich zu den normalen web-basierten Alarmen ist auch die Unterstützung für [Pushover] Alarme (https://pushover.net/) möglich.
+  Um zu beginnen installieren wir die Pushover-Anwendung auf Ihrem iOS oder Android-Gerät und erstellen ein Konto .
 
+  Mit diesem Konto Login [Pushover] (https://pushover.net/), in der oberen linken Seite erstellen wir unseren User Key, sowie ein Anwendungs API Token / Schlüssel, um dieses Setup abzuschließen.
+
+  Wir müssen auf [Erstellen eines Pushover Application] (https://pushover.net/apps/build). Wir benötigen nur den Namen der Anwendung, um zu installieren, alle anderen Einstellungen können wir ignorieren.
+
+  Pushover ist so konfiguriert, die folgenden Umgebungsvariablen:
+  
+    * `ENABLE` -` pushover` sollte in die Liste der Plugin hinzugefügt werden, zum Beispiel: `ENABLE =" Pushover "`.
+    * `PUSHOVER_API_TOKEN` - Gebrauchte Pushover Benachrichtigungen zu ermöglichen, ist dieses Token an die Anwendung aus dem in [Pushover] erstellen (https://pushover.net/) spezifisch, *** [zusätzliche Pushover Informationen] (# Pushover) ** * unten.
+    * `PUSHOVER_USER_KEY` - Ihre Pushover Benutzerschlüssel können in der oberen linken Ecke des [Pushover] (https://pushover.net/) Seite gefunden werden, kann dies auch ein Pushover Liefergruppe der Schlüssel zu einer Gruppe zu senden, anstatt nur ein einzelner Benutzer. Dies unterstützt auch einen Raum getrennte Liste von Schlüsseln. So deaktivieren Sie `INFO` Ebene drückt gesetzt, dies zu` off`.
+    * `PUSHOVER_ALARM_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Alarme (Ebene>` WARN`) verwendet werden. Wenn nicht definiert ist, wird dies auf `PUSHOVER_USER_KEY` Rückfall. Eine mögliche Verwendung für diese sendet wichtige Meldungen und Alarme an einen CWD, die Sie wollen nicht zu alle Benachrichtigungen zu senden. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Alarm drückt setzen Sie dies auf `off`.
+    * `PUSHOVER_ANNOUNCEMENT_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Benutzer erzeugt Ankündigungen verwendet werden. Wenn nicht definiert ist, wird dieser Rückfall auf `PUSHOVER_USER_KEY` oder` PUSHOVER_ALARM_KEY`. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Ankündigung drückt setzen Sie dies auf `off`.
+    * `BASE_URL` - Für Pushover Rückrufe, in der Regel die URL Ihrer Website Night, https verwenden, wenn möglich.
+    * `API_SECRET` - verwendet, um die Pushover Rückrufanfrage für Bestätigungen für Ihre Anmeldung.
+
+    Wenn Sie noch nie Infoebene Benachrichtigungen (Behandlungen) erhalten möchten verwenden `PUSHOVER_USER_KEY =" off "`
+    Wenn Sie nie einen Alarm über Pushover Verwendung zu erhalten `PUSHOVER_ALARM_KEY =" off "`
+    Wenn Sie nie eine Ansage über Pushover Verwendung zu erhalten `PUSHOVER_ANNOUNCEMENT_KEY =" off "`
+  
+    Wenn nur `PUSHOVER_USER_KEY` gesetzt ist, wird es für alle Info-Benachrichtigungen, Alarme verwendet werden und Ankündigungen
+
+    Für den Test / Entwicklung versuchen [localtunnel] (http://localtunnel.me/).
     
     
  
+ #### IFTTT Maker
+ Zusätzlich zu den normalen web-basierten Alarme und Pushover, gibt es auch die Integration für [IFTTT Maker] (https://ifttt.com/maker).
+  
+ Mit Maker Sie mit allen anderen [IFTTT Kanäle] (https://ifttt.com/channels) sind in der Lage zu integrieren. Zum Beispiel können Sie einen Tweet senden, wenn es eine Warnung gibt, die Farbe des Farbtons Licht zu ändern, eine E-Mail, SMS senden und zu senden, und so vieles mehr.
+ 
+ 1. Setup-IFTTT Konto: [Anmelden] (https://ifttt.com/login) oder [ein Konto erstellen] (https://ifttt.com/join)
+ 2. Finden Sie Ihren geheimen Schlüssel auf dem [Hersteller Seite] (https://ifttt.com/maker)
+ 3. Konfigurieren Night durch diese Umgebungsvariablen:
+  * `ENABLE` -` maker` sollte in die Liste der Plugin hinzugefügt werden, zum Beispiel: `ENABLE =" maker "`.
+  * `MAKER_KEY` - Setzen Sie diese auf Ihre geheimen Schlüssel, der in Schritt 2 befindet, zum Beispiel:` MAKER_KEY = "abcMyExampleabc123defjt1DeNSiftttmak-XQb69p" `Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen.
+  * `MAKER_ANNOUNCEMENT_KEY` - Ein optionaler Maker Schlüssel wird für systemweite Benutzer erzeugt Ankündigungen verwendet werden. Wenn nicht definiert ist, wird dies auf `MAKER_KEY` Rückfall. Eine mögliche Verwendung für diese sendet wichtige Meldungen und Alarme an einen CWD, die Sie wollen nicht zu alle Benachrichtigungen zu senden. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen.
+ 4. [Erstellen Sie ein Rezept] (https://ifttt.com/myrecipes/personal/new) oder siehe [ausführliche Anleitung] (lib / plugins / maker-setup.md # create-a-Rezept)
+ 
+ Plugins können benutzerdefinierte Ereignisse erstellen, aber alle Ereignisse an Hersteller gesendet werden mit `ns-` vorangestellt werden. Die Kern Ereignisse sind:
+  * `Ns-event` - Dieses Ereignis wird für alle Alarme und Benachrichtigungen an den Hersteller-Service gesendet. Das ist gut, fangen alle Ereignis für die allgemeine Protokollierung.
+  * `Ns-allclear` - Dieses Ereignis wird an den Hersteller-Service gesendet wird, wenn ein Alarm ack'd wurde oder wenn der Server startet ohne Alarme auslösen. Zum Beispiel könnten Sie mit diesem Ereignis ein Licht grün.
+  * `Ns-info` - Plugins, die Benachrichtigungen auf der Infoebene generieren wird dieses Ereignis dazu führen, auch ausgelöst werden. Es wird zusätzlich zu `ns-event` gesendet werden.
+  * `Ns-warning` - Alarme auf der Warnstufe mit Ursache dieses Ereignis auch ausgelöst werden. Es wird zusätzlich zu `ns-event` gesendet werden.
+  * `Ns-urgent` - Alarme auf dringendes Ebene mit Ursache dieses Ereignis auch ausgelöst werden. Es wird zusätzlich zu `ns-event` gesendet werden.
+  * siehe die [vollständige Liste der Veranstaltungen] (lib / plugins / maker-setup.md # events)
 
 
     
