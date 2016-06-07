@@ -2,12 +2,6 @@
 
 Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenannten **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
 
-**Standard Plugins**
-
-Wir können einige Standard Plugins **deaktivieren**, die `standardmäßig` aktiv sind. Dieses erfolgt über den DISABLE Parameter in den Azure App. Einstellungen:
-
-
-
 #### Standard Plugins 
   
   Diese können durch Einstellen der `DISABLE` env var deaktiviert werden, zum Beispiel` deaktiviere = "Direction" `
@@ -136,7 +130,7 @@ Die Einstellungen sehen dann z.B. so aus:
   * `BASAL_RENDER` (` none`) - Mögliche Werte sind `none`,` default` oder `icicle` (invertiert)
 
 ##### `Bridge` (Share2Nightscout Brücke)
-  Glucose direkt von der Share-Dienst lesen, nutzt diese erweiterten Einstellungen:
+Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird über diesen Weg konfiguriert. Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABLE ind den App-Einstellungen hinzufügen. Die Einstellungen erfolgen über die `Connection Strings`. 
   * `BRIDGE_USER_NAME` - Ihr Benutzername für den Share-Dienst.
   * `BRIDGE_PASSWORD` - Ihr Passwort für den Share-Dienst.
   * `BRIDGE_INTERVAL` (` 150000` * 2,5 Minuten *) - Die Zeit zwischen jedem Update zu warten.
@@ -146,7 +140,7 @@ Die Einstellungen sehen dann z.B. so aus:
   * `BRIDGE_MINUTES` (` 1400`) - Das Zeitfenster für neue Daten pro Update zu suchen (Standard ist ein Tag in Minuten).
 
 ##### `Mmconnect` (MiniMed Connect-Brücke)
-  Übertragen Sie in Echtzeit MiniMed Connect Daten aus dem Medtronic Carelink-Server in Night ([mehr lesen] (https://github.com/mddub/minimed-connect-to-nightscout))
+  Übertragen Sie in Echtzeit MiniMed Connect Daten vom Medtronic Carelink-Server in Nightscout ([mehr lesen] (https://github.com/mddub/minimed-connect-to-nightscout))
   * `MMCONNECT_USER_NAME` - Ihr Benutzername für CareLink® Connect.
   * `MMCONNECT_PASSWORD` - Ihr Passwort für CareLink® Connect.
   * `MMCONNECT_INTERVAL` (` 60000` * 1 Minute *) - Anzahl der Millisekunden zwischen den Anforderungen an den CareLink® Server zu warten.
@@ -180,46 +174,6 @@ Die Einstellungen sehen dann z.B. so aus:
   * `OPENAPS_RETRO_FIELDS` (` Status-Symbol Status-Label iob Mahlzeit-assist rssi`) - Die Felder im Retro-Modus angezeigt werden soll. Jede der oben genannten Bereichen.
 
 
-Anbindung der **Share2Nightscout Bridge** Funktionalität
-
-Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird über diesen Weg konfiguriert.
-Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABLE ind den App-Einstellungen hinzufügen.
- 
- Nutzer der Share2bridge Funktionalität können ihre Parameter  in den Connection Strings konfigurieren:
- 
- **Share2Nightscout Bridge Parameter:**
- 
- 
-|Parameter |  Beschreibung |
-| -- | -- |
-|BRIDGE_USER_NAME |Erforderlich: Benutzername des Dexcom Share Accounts|
-|BRIDGE_PASSWORD |Erforderlich: Passwort des Dexcom Share AccountsShare Accounts|
-|BRIDGE_INTERVAL |Optional: Wartezeit zwischen jedem  Update. Der Standardwert ist 150000 – 2.5 minutes.
-|BRIDGE_MAX_COUNT |Optional: Die maximale Anzahl der Datensätze zum Upload. Der Standardwert ist 1.|
-|BRIDGE_FIRST_FETCH_COUNT |Optional: Maximale Anzahl der Datensätze während des ersten Uploads. Der Standardwert ist 3|
-|BRIDGE_MAX_FAILURES |Optional: Maximale Anzahl der Fehler beim Empfang.  Der Standardwert ist 3|
-|BRIDGE_MINUTES |Optional: Das Zeitfenster für die Suche nach neuen Daten pro Update. Der Standardwert ist Zeit in Minuten – 1400|
- 
- **Minimed Connect Anbindung**
- 
- Wir können Minimed CGM - Systeme einbinden, wenn wir einen [Carelink Benutzeraccount](https://carelink.minimed.com/patient/entry.jsp?bhcp=1) besitzen. Das  Minimed Connect Plugin lädt sich die Daten von den Medtronic Servern. Diese erhalten die Daten über die Minimed Connect App.
-
-Die Einstellungen erfolgen über die **Connection Strings**:
-
-
-
-|Parameter |  Beschreibung |
-| -- | -- |
-|MMCONNECT_USER_NAME | Der Wert repräsentiert den "Benutzernamen", welcher im Carelink angegeben wird, der Typ ist "Benutzerdefiniert" |
-|MMCONNECT_PASSWORD | Der Wert repräsentiert das "Benutzerpasswort", welches im Carelink angegeben wird, der Typ ist "Benutzerdefiniert"|    
-   
-
-Nach der Eingabe **Speichern** nicht vergessen.
-
-
-
-
- 
 Wir können weitere Werte individuell konfigurieren, wenn wir es wollen.
 Diese umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
 
@@ -233,17 +187,7 @@ Diese umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen.
 |BASE_URL | Genutzt für Links . APIs, pushover, callbacks nutzen diesen Wert. Normalerweise ist es die URL - Adresse, der Typ kann von http auf https geändert werden|
     
     
-**AR2**
-
-AR2 generiert Alarme basierend auf prognostizierten Werten. Es ist standardmäßig aktiviert, wenn keine Alarmschwellwerte gesetzt sind oder wenn die ALARM_TYPES Variable predict enthält.Wir können das AR2 Verhalten mit folgenden erweiterten Einstellungsvariablen steuern:
-
-
-|Parameter |  Beschreibung |
-| -- | -- |
-|AR2_USE_RAW| Prognose von rawbg Werten, wenn Standardwerte keine Alarm auslösen, die Standardeinstellung ist false|
-|AR2_CONE_FACTOR |Um die Größe des Trichters zu justieren, wird 0 für eine Einzelinie gewählt, der Standardwert ist 2|
-
-Die Funktionsweise ist in dem Artikel:[ Prognosen mit Nutzung des AR2 Algorithmus](https://github.com/nightscout/nightscout.github.io/wiki/Forecasting) näher beschrieben.
+ 
 
 
     
