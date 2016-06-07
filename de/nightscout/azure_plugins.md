@@ -67,7 +67,96 @@ Die Einstellungen sehen dann z.B. so aus:
 ##### `Cob` (Carbs-on-Board)
   Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, die von anderen Plugins verwendet werden können. Verwendet Behandlungen mit carb angaben und der `carbs_hr`,` carbratio` und `sens` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil).
 
-**bwp** (en: Bolus Wizard Preview)  ?????
+##### `Bwp` (BolusExpert Vorschau)
+  Dieses Plugin in die für die Zwecke der automatisch dösen Alarme, wenn der CGM zeigt hohe Blutzuckerwerte, aber es gibt auch Insulin an Bord (IOB) und zweitens, um Benutzer warnen, dass es vorteilhaft sein könnte, die Blutzucker mit einem Glucometer und Dosierung Insulin zu messen wie sie in der Pumpe oder im Auftrag von ausgebildeten Fachleuten medi berechnet. *** Die vom Plugin zur Verfügung gestellt Werte werden als Referenz zur Verfügung gestellt basierend auf CGM-Daten und die Insulinempfindlichkeit Sie konfiguriert haben, und sind nicht als Referenz für die Bolus-Berechnung verwendet werden soll. *** Das Plugin berechnet die Bolus-Menge, wenn sie über Ihr Ziel, erzeugt Alarme, wenn Sie Prüfung und bolusing in Betracht ziehen sollten, und Alarme snoozes, wenn es genug IOB ist eine hohe BG zu decken. Verwendet die Ergebnisse des `iob` Plugin und` sens`, `target_high` und` target_low` Felder aus dem [Behandlungsprofil] (# behandlungs Profil). Defaults, die mit angepasst werden kann [erweiterte Einstellung] (# extended-Einstellungen)
+  * `BWP_WARN` (` 0.50`) - Wenn `BWP` ist>` BWP_WARN` wird ein Warnalarm ausgelöst werden.
+  * `BWP_URGENT` (` 1.00`) - Wenn `BWP` ist>` ein dringender Alarm BWP_URGENT` ausgelöst.
+  * `BWP_SNOOZE_MINS` (` 10`) - Minuten verschoben werden, wenn es genügend IOB ist eine hohe BG zu decken.
+  * `BWP_SNOOZE` - (` 0.10`) Wenn BG höher als die `target_high` und` BWP` < `BWP_SNOOZE` Alarme für` BWP_SNOOZE_MINS` werden snoozed ist.
+  * 
+  
+
+
+
+##### `Cage` (Cannula Alter)
+  Berechnet die Anzahl der Stunden seit dem letzten `Website Change` Behandlung, die aufgezeichnet wurde.
+  * `CAGE_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen aktivieren Sie über anstehende Kanüle Wechsel zu erinnern.
+  * `CAGE_INFO` (` 44`) - Wenn es die Zeit seit dem letzten `Website Change` Spiele` CAGE_INFO`, wird der Benutzer über bevorstehende Kanülenwechsel gewarnt werden
+  * `CAGE_WARN` (` 48`) - Wenn es die Zeit seit dem letzten `Website Change` Spiele` CAGE_WARN`, wird der Benutzer alarmiert werden, um die Kanüle zu ändern
+  * `CAGE_URGENT` (` 72`) - Wenn es die Zeit seit dem letzten `Website Change` Spiele` CAGE_URGENT`, wird der Benutzer eine ständige Warnung überfälliger Wechsel ausgestellt werden.
+  * `CAGE_DISPLAY` (` hours`) - Mögliche Werte "Stunden" oder "Tage" sind. Wenn "Tage" ausgewählt ist und das Alter der Kanüle größer ist als 24-Stunden-Zahl wird in Tagen angezeigt und Stunden
+
+##### `Sage` (Sensor Alter)
+  Berechnet die Anzahl der Tage und Stunden seit dem letzten `Sensor Starten` und` Sensor Change` Behandlung, die aufgezeichnet wurde.
+  * `SAGE_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen aktivieren Sie über anstehende Sensorwechsel zu erinnern.
+  * `SAGE_INFO` (` 144`) - Wenn es die Zeit seit dem Ereignis letzten Sensor passt `SAGE_INFO`, wird der Benutzer über anstehende Sensorwechsel gewarnt werden
+  * `SAGE_WARN` (` 164`) - Wenn es die Zeit seit dem Ereignis letzten Sensor passt `SAGE_WARN`, wird der Benutzer alarmiert werden / zu ändern starten Sie den Sensor
+  * `SAGE_URGENT` (` 166`) - Wenn es die Zeit seit dem Ereignis letzten Sensor `SAGE_URGENT` übereinstimmt, wird der Benutzer eine ständige Warnung überfälliger Wechsel ausgestellt werden.
+
+##### `Iage` (Insulin Alter)
+  Berechnet die Anzahl der Tage und Stunden seit dem letzten `Insulin Change` Behandlung, die aufgezeichnet wurde.
+  * `IAGE_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen aktivieren Sie über anstehende Insulinreservoir Veränderung zu erinnern.
+  * `IAGE_INFO` (` 44`) - Wenn es die Zeit seit dem letzten `Insulin Change` Spiele` IAGE_INFO`, wird der Benutzer über bevorstehende Insulinbehälter Änderung gewarnt werden
+  * `IAGE_WARN` (` 48`) - Wenn es die Zeit seit dem letzten `Insulin Change` Spiele` IAGE_WARN`, wird der Benutzer alarmiert werden, um auf die Insulin-Reservoir ändern
+  * `IAGE_URGENT` (` 72`) - Wenn es die Zeit seit dem letzten `Insulin Change` Spiele` IAGE_URGENT`, wird der Benutzer eine ständige Warnung überfälliger Wechsel ausgestellt werden.
+
+##### `Treatmentnotify` (Behandlung Benachrichtigungen)
+  Werden Benachrichtigungen generiert, wenn eine Behandlung eingegeben wurde und snoozes Alarme Minuten nach einer Behandlung. Standard Schlummer ist 10 Minuten und kann die `TREATMENTNOTIFY_SNOOZE_MINS` [Erweiterte Einstellung] (# extended-Einstellungen) eingestellt werden.
+
+##### `Basal` (Basal-Profil)
+  Fügt die Basal Pille Visualisierung die Basalrate für die aktuelle Zeit anzuzeigen. Auch ermöglicht die `bwp` Plugin Korrektur Temp Basal Vorschläge zu berechnen. Verwendet das `basal` Feld aus dem [Behandlungsprofil] (# behandlungs Profil). Auch nutzt die erweiterte Einstellung:
+  * `BASAL_RENDER` (` none`) - Mögliche Werte sind `none`,` default` oder `icicle` (invertiert)
+
+##### `Bridge` (Share2Nightscout Brücke)
+  Glucose direkt von der Share-Dienst lesen, nutzt diese erweiterten Einstellungen:
+  * `BRIDGE_USER_NAME` - Ihr Benutzername für den Share-Dienst.
+  * `BRIDGE_PASSWORD` - Ihr Passwort für den Share-Dienst.
+  * `BRIDGE_INTERVAL` (` 150000` * 2,5 Minuten *) - Die Zeit zwischen jedem Update zu warten.
+  * `BRIDGE_MAX_COUNT` ( '1') - Die maximale Anzahl der Datensätze pro Update zu holen.
+  * `BRIDGE_FIRST_FETCH_COUNT` (` 3`) - Ändert max Zählung während der ersten Update nur.
+  * `BRIDGE_MAX_FAILURES` (` 3`) - Wie viele Ausfälle, bevor er aufgibt.
+  * `BRIDGE_MINUTES` (` 1400`) - Das Zeitfenster für neue Daten pro Update zu suchen (Standard ist ein Tag in Minuten).
+
+##### `Mmconnect` (MiniMed Connect-Brücke)
+  Übertragen Sie in Echtzeit MiniMed Connect Daten aus dem Medtronic Carelink-Server in Night ([mehr lesen] (https://github.com/mddub/minimed-connect-to-nightscout))
+  * `MMCONNECT_USER_NAME` - Ihr Benutzername für CareLink® Connect.
+  * `MMCONNECT_PASSWORD` - Ihr Passwort für CareLink® Connect.
+  * `MMCONNECT_INTERVAL` (` 60000` * 1 Minute *) - Anzahl der Millisekunden zwischen den Anforderungen an den CareLink® Server zu warten.
+  * `MMCONNECT_MAX_RETRY_DURATION` (` 32`) - Maximale Gesamtanzahl Sekunden, bevor er aufgibt erneuten Versuch fehlgeschlagenen Anfragen zu verbringen.
+  * `MMCONNECT_SGV_LIMIT` (` 24`) - Maximale Anzahl der letzten Werte Sensor Glucose zu Night auf jede Anfrage zu senden.
+  * `MMCONNECT_VERBOSE` - Setzen Sie dies auf" true "CareLink® Anfrage Informationen an die Konsole anzumelden.
+  * `MMCONNECT_STORE_RAW_DATA` - Setzen Sie dies auf" true "Rohdaten zu speichern zurückgegeben von CareLink® als` Typ: "carelink_raw" `Datenbankeinträge (nützlich für die Entwicklung).
+
+##### `Pump` (Pumpenüberwachung)
+  Generisches Pumpenüberwachung für OpenAPS, MiniMed Connect, RileyLink, t: schlank, mit mehr auf dem Weg
+  * Erfordert `DEVICESTATUS_ADVANCED =" true "` gesetzt werden
+  * `PUMP_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen für Pump-Akku und Reservoir zu ermöglichen.
+  * `PUMP_FIELDS` (` Reservoir battery`) - Die Felder standardmäßig angezeigt werden soll. Jede der folgenden Felder aus: `reservoir`,` battery`, `clock`,` status` und `device`
+  * `PUMP_RETRO_FIELDS` (` Reservoir Batterie clock`) - Die Felder im Retro-Modus angezeigt werden soll. Jede der oben genannten Bereichen.
+  * `PUMP_WARN_CLOCK` (` 30`) - Die Anzahl der Minuten vor, die vor ein Alarm ausgelöst wird, nicht überschreiten werden muss.
+  * `PUMP_URGENT_CLOCK` (` 60`) - Die Anzahl der Minuten vor, die vor ein dringender Alarm ausgelöst wird überschreiten werden muss.
+  * `PUMP_WARN_RES` (` 10`) - Die Anzahl der verbliebenen Einheiten, wird eine Warnung ausgelöst werden, wenn unter dieser Schwelle fällt.
+  * `PUMP_URGENT_RES` ( '5') - Die Anzahl der Einheiten bleibt, wird ein dringender Alarm ausgelöst werden, wenn unter dieser Schwelle fällt.
+  * `PUMP_WARN_BATT_P` (` 30`) - Die% der Pumpe verbleibende Batterie, wird eine Warnung ausgelöst werden, wenn unter dieser Schwelle fällt.
+  * `PUMP_URGENT_BATT_P` (` 20`) - Die% der Pumpe Batterie bleibt, wird ein dringender Alarm ausgelöst werden, wenn unter dieser Schwelle fällt.
+  * `PUMP_WARN_BATT_V` (` 1.35`) - Die Spannung der Pumpe Batterie (falls Prozent nicht verfügbar ist), wird eine Warnung ausgelöst werden, wenn unter dieser Schwelle fällt.
+  * `PUMP_URGENT_BATT_V` (` 1.30`) - Die Spannung der Pumpe Batterie (falls Prozent nicht verfügbar ist), wird ein dringender Alarm ausgelöst werden, wenn unter dieser Schwelle fällt.
+
+##### `Openaps` (OpenAPS)
+  Integrierte OpenAPS Kreisüberwachung nutzt diese erweiterten Einstellungen:
+  * Erfordert `DEVICESTATUS_ADVANCED =" true "` gesetzt werden
+  * `OPENAPS_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen zu aktivieren, wenn OpenAPS nicht Looping. Wenn OpenAPS für einen bestimmten Zeitraum zu offline geht, können Sie eine `OpenAPS Offline` Ereignis für die erwartete Dauer von Careportal hinzufügen zu vermeiden Warnungen bekommen.
+  `* OPENAPS_WARN` (` 30`) - Die Anzahl der Minuten seit der letzten Schleife, die nicht überschreiten werden muss, bevor ein Alarm ausgelöst wird,
+  `* OPENAPS_URGENT` (` 60`) - Die Anzahl der Minuten seit der letzten Schleife, die nicht überschreiten werden muss, bevor ein dringender Alarm ausgelöst wird
+  * `OPENAPS_FIELDS` (` Status-Symbol Status-Label iob Mahlzeit-assist rssi`) - Die Felder standardmäßig angezeigt werden soll. Jede der folgenden Felder: `Status-symbol`,` Status-label`, `iob`,` Mahlzeit-assist`, `freq` und` rssi`
+  * `OPENAPS_RETRO_FIELDS` (` Status-Symbol Status-Label iob Mahlzeit-assist rssi`) - Die Felder im Retro-Modus angezeigt werden soll. Jede der oben genannten Bereichen.
+
+
+
+
+
+
+
 
 **cage** (en: Cannula Age, de: Katheter - Alter) Dieses Plugin zeigt die Tragedauer des Pumpenkatheters an.
 
