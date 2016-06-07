@@ -16,29 +16,28 @@ Wir können einige Standard Plugins **deaktivieren**, die `standardmäßig` akti
 |ar2 | erzeugt Alarme basierend auf prognostizierten Werten|
 |simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, BG_LOW Schwellenwerte, um Alarme zu erzeugen|
 
+
+### Vordefinierte Werte für Browser-Einstellungen (optional)
+
 Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
 
-
-|Parameter |  Wert |Beschreibung|
-| -- | -- |-- |
-|TIME_FORMAT |24| mögliche Werte 12 oder 24|
-|LANGUAGE |de| Begriffe in deutscher Sprache|
-|NIGHT_MODE |off|  mögliche Werte on oder off|
-|SHOW_RAWBG |never|  mögliche Werte: always, never oder noise|
-|CUSTOM_TITLE |My NS|  Individueller Name der Website|
-|THEME |default|  mögliche Werte: default oder colors|
-|BASAL_RENDER|default|mögliche Werte: default, icicle|
-|ALARM_URGENT_HIGH |on|  mögliche Werte: on oder off|
-|ALARM_HIGH |on|  mögliche Werte: on oder off|
-|ALARM_LOW |on|  mögliche Werte: on oder off|
-|ALARM_URGENT_LOW |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_WARN |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_WARN_MINS |15|  Minuten seit dem letzten Lesen, um eine Warnung auszugeben|
-|ALARM_TIMEAGO_URGENT |on|  mögliche Werte: on oder off|
-|ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit dem letzten Lesen, um eine alarmierende Warnung auszugeben|
-|SHOW_PLUGINS|  enabled |Zeigt an, welche Plugins in der Grafik angezeigt werden sollen. Diese müssen vorher mit ENABLE bei den Azure App.-Settings konfiguriert sein|
-
-
+  * `TIME_FORMAT` (` 12`) - mögliche Werte `12` oder` 24`
+  * `NIGHT_MODE` (` off`) - mögliche Werte `on` oder` off`
+  * `SHOW_RAWBG` (` never`) - mögliche Werte `always`,` never` oder `noise`
+  * `CUSTOM_TITLE` (` Nightscout`) - angepasster Titel
+  * `THEME` (` default`) - mögliche Werte `default` oder` colors`
+  * `ALARM_TIMEAGO_WARN` (` on`) - mögliche Werte `on` oder` off`
+  * `ALARM_TIMEAGO_WARN_MINS` (` 15`) - Minuten seit dem letzten Meßwert, um  eine Warnung auszulösen
+  * `ALARM_TIMEAGO_URGENT` (` on`) - mögliche Werte `on` oder` off`
+  * `ALARM_TIMEAGO_URGENT_MINS` (` 30`) - Minuten seit dem letzten, um  einen dringenden Alarm auszulösen
+  * `SHOW_PLUGINS` - Zeige Plugins, Anzeige der Plugins in der Website, Standardwerte für alle freigegeben
+  * `SHOW_FORECAST` (` ar2`) - Plugin Prognosen, die standardmäßig angezeigt werden sollen, unterstützt Werte wie `" ar2 openaps "Raum begrenzt`
+  * `LANGUAGE` (` de`) - Sprache der Website. Falls nicht verfügbar Englisch wird verwendet,
+  * `SCALE_Y` (` log`) - Die Art der Skalierung , welche für die Y-Achse des Charts System verwendet wird.
+    * Der Standard `log` (logarithmisch) Option lässt läßt mehr Details im unteren Bereich zu , während immer noch der volle CGM Bereich angezeigt wird.
+    * Die `linear` Option hat im gleichen Abstand Markierungen , der verwendete Bereich ist dynamisch, so dass kein Platz an der Spitze des Diagramms verschwendet wird.
+    * Die `log-dynamic` ist auf den Standard` log` Optionen ähnlich, aber verwendet den gleichen dynamischen Bereich und die `linear` Skala.
+  * `EDIT_MODE` (` on`) - mögliche Werte `on` oder` off`. Aktivieren oder deaktivieren von Symbolen Hierüber gelangt man   Bearbeitungsmodus von Behandlungen.
 
 
 Nach Eingabe der Daten das **Speichern** nicht vergessen.
