@@ -1,6 +1,6 @@
 # Nightscout Plugins
 
-Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenannten **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
+Wir befassen uns hier mit der Beschreibung der Programm - Module den sogenannten **Plugins**. Die Nightscout Website besteht aus vielen kleinen **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
 
 ### Alarme
 
@@ -25,7 +25,7 @@ Die Nightscout Website besteht aus vielen kleinen Programm - Modulen den sogenan
   
 ### Basiseinstellungen
 
-Die Basiseinstellungen sind Standardwerte, die beim Implementiren einer Nightscout Website gesetzt werden.
+Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightscout Website gesetzt werden.
 
   * `MONGO_COLLECTION` (` entries`) - Die Sammlung zu speichern SGV, MBG und CAL Aufzeichnungen von Ihrem CGM-Gerät verwendet
   * `MONGO_TREATMENTS_COLLECTION` (` treatments`) -Die Sammlung zu speichern Behandlungen im Bereich Care Portal finden Sie in der `ENABLE` env var oben angegebenen verwendet
@@ -218,23 +218,23 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
 
   Wir müssen auf [Erstellen eines Pushover Application] (https://pushover.net/apps/build). Wir benötigen nur den Namen der Anwendung, um zu installieren, alle anderen Einstellungen können wir ignorieren.
 
-  Pushover ist so konfiguriert, die folgenden Umgebungsvariablen:
+  Pushover ist mit folgenden Umgebungsvariablen konfiguriert:
   
-    * `ENABLE` -` pushover` sollte in die Liste der Plugin hinzugefügt werden, zum Beispiel: `ENABLE =" Pushover "`.
-    * `PUSHOVER_API_TOKEN` - Gebrauchte Pushover Benachrichtigungen zu ermöglichen, ist dieses Token an die Anwendung aus dem in [Pushover] erstellen (https://pushover.net/) spezifisch, *** [zusätzliche Pushover Informationen] (# Pushover) ** * unten.
-    * `PUSHOVER_USER_KEY` - Ihre Pushover Benutzerschlüssel können in der oberen linken Ecke des [Pushover] (https://pushover.net/) Seite gefunden werden, kann dies auch ein Pushover Liefergruppe der Schlüssel zu einer Gruppe zu senden, anstatt nur ein einzelner Benutzer. Dies unterstützt auch einen Raum getrennte Liste von Schlüsseln. So deaktivieren Sie `INFO` Ebene drückt gesetzt, dies zu` off`.
-    * `PUSHOVER_ALARM_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Alarme (Ebene>` WARN`) verwendet werden. Wenn nicht definiert ist, wird dies auf `PUSHOVER_USER_KEY` Rückfall. Eine mögliche Verwendung für diese sendet wichtige Meldungen und Alarme an einen CWD, die Sie wollen nicht zu alle Benachrichtigungen zu senden. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Alarm drückt setzen Sie dies auf `off`.
-    * `PUSHOVER_ANNOUNCEMENT_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Benutzer erzeugt Ankündigungen verwendet werden. Wenn nicht definiert ist, wird dieser Rückfall auf `PUSHOVER_USER_KEY` oder` PUSHOVER_ALARM_KEY`. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Ankündigung drückt setzen Sie dies auf `off`.
-    * `BASE_URL` - Für Pushover Rückrufe, in der Regel die URL Ihrer Website Night, https verwenden, wenn möglich.
-    * `API_SECRET` - verwendet, um die Pushover Rückrufanfrage für Bestätigungen für Ihre Anmeldung.
+  * `ENABLE` -` pushover` sollte in die Liste der Plugin hinzugefügt werden, zum Beispiel: `ENABLE =" Pushover "`.
+  * `PUSHOVER_API_TOKEN` - Gebrauchte Pushover Benachrichtigungen zu ermöglichen, ist dieses Token an die Anwendung aus dem in [Pushover] erstellen (https://pushover.net/) spezifisch, *** [zusätzliche Pushover Informationen] (# Pushover) ** * unten.
+  * `PUSHOVER_USER_KEY` - Ihre Pushover Benutzerschlüssel können in der oberen linken Ecke des [Pushover] (https://pushover.net/) Seite gefunden werden, kann dies auch ein Pushover Liefergruppe der Schlüssel zu einer Gruppe zu senden, anstatt nur ein einzelner Benutzer. Dies unterstützt auch einen Raum getrennte Liste von Schlüsseln. So deaktivieren Sie `INFO` Ebene drückt gesetzt, dies zu` off`.
+   * `PUSHOVER_ALARM_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Alarme (Ebene>` WARN`) verwendet werden. Wenn nicht definiert ist, wird dies auf `PUSHOVER_USER_KEY` Rückfall. Eine mögliche Verwendung für diese sendet wichtige Meldungen und Alarme an einen CWD, die Sie wollen nicht zu alle Benachrichtigungen zu senden. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Alarm drückt setzen Sie dies auf `off`.
+  * `PUSHOVER_ANNOUNCEMENT_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Benutzer erzeugt Ankündigungen verwendet werden. Wenn nicht definiert ist, wird dieser Rückfall auf `PUSHOVER_USER_KEY` oder` PUSHOVER_ALARM_KEY`. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Ankündigung drückt setzen Sie dies auf `off`.
+  * `BASE_URL` - Für Pushover Rückrufe, in der Regel die URL Ihrer Website Night, https verwenden, wenn möglich.
+  * `API_SECRET` - verwendet, um die Pushover Rückrufanfrage für Bestätigungen für Ihre Anmeldung.
 
-    Wenn Sie noch nie Infoebene Benachrichtigungen (Behandlungen) erhalten möchten verwenden `PUSHOVER_USER_KEY =" off "`
-    Wenn Sie nie einen Alarm über Pushover Verwendung zu erhalten `PUSHOVER_ALARM_KEY =" off "`
-    Wenn Sie nie eine Ansage über Pushover Verwendung zu erhalten `PUSHOVER_ANNOUNCEMENT_KEY =" off "`
+   Wenn Sie noch nie Infoebene Benachrichtigungen (Behandlungen) erhalten möchten verwenden `PUSHOVER_USER_KEY =" off "`
+   Wenn Sie nie einen Alarm über Pushover Verwendung zu erhalten `PUSHOVER_ALARM_KEY =" off "`
+   Wenn Sie nie eine Ansage über Pushover Verwendung zu erhalten `PUSHOVER_ANNOUNCEMENT_KEY =" off "`
   
-    Wenn nur `PUSHOVER_USER_KEY` gesetzt ist, wird es für alle Info-Benachrichtigungen, Alarme verwendet werden und Ankündigungen
+  Wenn nur `PUSHOVER_USER_KEY` gesetzt ist, wird es für alle Info-Benachrichtigungen, Alarme verwendet werden und Ankündigungen
 
-    Für den Test / Entwicklung versuchen [localtunnel] (http://localtunnel.me/).
+  Für den Test / Entwicklung versuchen [localtunnel] (http://localtunnel.me/).
     
     
  
