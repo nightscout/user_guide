@@ -6,6 +6,14 @@ In der Abbildung ist die Web Site mit Elementen zu sehen. Mit dem Klick auf das 
 **Hauptseite:**
 ![nightscout_base_site](../images/nightscout/nightscout_base_site.jpg)
 
+1
+2
+3
+
+**Menü - Auswahlfelder**
+![nightscout_choice](../images/nightscout/nightscout_choice.jpg)
+
+
 
 Nach dem erstmaligen Aufruf rufen wir die **Einstellungen** auf. Hier kann man
 weiter zu **Berichte**, **Profil-Einstellungen**, **Admin Tools** gelangen.
