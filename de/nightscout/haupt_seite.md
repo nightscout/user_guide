@@ -58,23 +58,7 @@ zeigt, sofern über die Azure App.-Einstellungen (basal) eingetragen und über d
 
 
 
-AR2
 
-AR2 generates alarms based on forecasted values. AR2 is enabled by default if no alarm thresholds are set or if the ALARM_TYPES variable includes predict. You can adjust AR2 behavior with the following extended settings variables:
-
-    AR2_USE_RAW (to forecast using rawbg values when standard values don’t trigger an alarm; default is false)
-    AR2_CONE_FACTOR (to adjust size of cone, use 0 for a single line; default is 2)
-
-To learn more about AR2, see Forecasting Using AR2 Algorithm.
-Simple Alarms
-
-
-
-
-simple alarms
-Pushover
-
-See Pushover information for use with Funnel Cake.
 
 
 Wir sehen uns den   [Profil Editor](../nightscout/nightscout_plugins.md) jetzt näher an.
