@@ -28,7 +28,7 @@
    * [Azure - alternative und optionale Installationen](nightscout/alternative_optionale_installationen.md)
    * [Konfiguration der Nightscout Plugins](nightscout/azure_plugins.md)
    * [Nightscout FAQs](nightscout/nsfaqs.md)
-* [Die Nightscout Website](nightscout/die_nightscout_website.md)
+* [Die Nightscout Website](nightscout/nightscout_website.md)
    * [Haupt Seite](nightscout/haupt_seite.md)
    * [Profil - Editor](nightscout/nightscout_plugins.md)
    * [Care Portal](nightscout/care_portal.md)
