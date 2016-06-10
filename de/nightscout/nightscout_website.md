@@ -8,9 +8,20 @@ Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die Einstellungen 
 **Hauptseite:**
 ![nightscout_base_site](../images/nightscout/nightscout_base_site.jpg)
 
-1
-2
-3
+1. Zeit seit der Letzten CGM Sensor - Daten - Übertragung
+2. Batterie - Ladezustand des Smartphones
+3. Plugins für die Pumpensteuerung
+4. Zeitrahmen der Darstellung von Behandlungsdaten
+5. aktueller BZ - Wert
+6. Trendpfeilangabe
+7. Zunahme/Abnahme des BZ innerhalb von 2 Messpunkten
+8. Plugins mit Anzeige von  Werten wie  `Sensor - Alter` , `Insulin on Board`
+9. Basalratenverlauf
+10. CGM - Maeßwerte
+11. Behandlungsdaten Kohenhydrate - und Insulineinheiten
+12. BZ - Trend - Voraussage
+13. Zeitfenster der Darstellung im oberen Bereich
+
 
 Ein Beispiel für eine mögliche Anbindung eines Dexcom CGM Systems an Nightscout:
 
