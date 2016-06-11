@@ -9,7 +9,7 @@ Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit d
   - [Nahrungsmittel Editor](../nightscout/settings.md#nahrungsmittel-editor)
   - [Administrator Werkzeuge](../nightscout/settings.md#administrator-werkzeuge)
    
-**Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral für alle Browser gleich halten wollen, können wor dieses wie in Kapitel .... beschrieben, umsetzen.
+**Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral für alle Browser gleich halten wollen, können wor dieses wie in Kapitel [Nightscout Plugins](../nightscout/azure_plugins.md) beschrieben, umsetzen.
 
 ![Einstellungen](../images/nightscout/nightscout_config_menue.jpg)
 
@@ -18,7 +18,7 @@ Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit d
   
 ###Berichte
 
-Mit dem Klick auf **Berichte** und erhalten diese Ansicht: 
+Mit dem Klick auf **Berichte** erhalten wir diese Ansicht: 
 
 ![nightscout_reporting_config](../images/nightscout/nightscout_reporting_config.jpg)
 
@@ -70,6 +70,7 @@ Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, wieviel 
 
 Im Nahrungsmittel - Editor können wir Mahlzeiten Mit angabe von Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die Daten über csv- oder json - Format in de *mongodb** übertragen.
 
+pic
 
 
 ####Administrator Werkzeuge
