@@ -6,7 +6,7 @@ Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit d
 
 **Oben** haben wir die Wahl von 4 Menüpunkten:
 
-  - [Berichte](###Berichte)
+  - [Berichte](../nightscout/settings.md#berichte)
   - [Profil - Editor](###Profil - Editor)
   - [Nahrungsmittel Editor](###Nahrungsmittel Editor)
   - [Administrator Werkzeuge](###Administrator Werkzeuge)
