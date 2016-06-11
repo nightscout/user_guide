@@ -2,8 +2,6 @@
 
 Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit dem roten Pfeil markierte Symbol:
 
-![Einstellungen](../images/nightscout/nightscout_config_menue.jpg)
-
 **Oben** haben wir die Wahl von 4 Menüpunkten:
 
   - [Berichte](../nightscout/settings.md#berichte)
@@ -12,6 +10,10 @@ Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit d
   - [Administrator Werkzeuge](../nightscout/settings.md#administrator-werkzeuge)
    
 **Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral für alle Browser gleich halten wollen, können wor dieses wie in Kapitel .... beschrieben, umsetzen.
+
+![Einstellungen](../images/nightscout/nightscout_config_menue.jpg)
+
+
   
   
 ###Berichte
