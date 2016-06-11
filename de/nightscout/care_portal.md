@@ -2,8 +2,7 @@
 
 
 
-Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit dem Klick auf das **+** - Symbol. Der Ereignis-Typ ist ein DropDown - Menü mit Auswahlwerten. Bespielhaft
-wählen wir jetzt einen **Mahlzeiten Bolus** aus, um Insulinmenge und KH hinzuzufügen.
+Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit dem Klick auf das `+` - Symbol. Der Ereignis-Typ ist ein DropDown - Menü mit Auswahlwerten. Bespielhaft wählen wir jetzt einen `Mahlzeiten Bolus` aus, um Insulinmenge und KH hinzuzufügen.
 
 
 **Ereignis-Typ:**
@@ -16,7 +15,7 @@ Die Auswahlfelder werden entsprechend der Auswahl angepasst.
 Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch die Eingabe der
 korrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese zusammen mit den CGM - Werten grafisch dargestellt werden.
 
-In dieser Maske können wir auch temporäre Basalraten mit Temp Basal Start/End eingegeben. Diese werden anschließend grafisch dargestellt.
+In dieser Maske können wir auch temporäre Basalraten mit `Temp Basal Start/End` eingegeben. Diese werden anschließend grafisch dargestellt.
 Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die eingaben zu bestätigen. Mit **OK** ist alles gespeichert.
 
 
@@ -35,4 +34,4 @@ Variable ändert.
 
 
 
-Weiter gehts mit der  Auswertung der Daten über die [Reports](../nightscout/reports.md).
+Weiter gehts mit der  Verwendung des  [Bolus Rechner](../nightscout/boluscalculator.md).
