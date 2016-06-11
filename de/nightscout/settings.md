@@ -7,9 +7,9 @@ Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit d
 **Oben** haben wir die Wahl von 4 Menüpunkten:
 
   - [Berichte](../nightscout/settings.md#berichte)
-  - [Profil - Editor](###Profil - Editor)
-  - [Nahrungsmittel Editor](###Nahrungsmittel Editor)
-  - [Administrator Werkzeuge](###Administrator Werkzeuge)
+  - [Profil - Editor](../nightscout/settings.md#profil---editor)
+  - [Nahrungsmittel Editor](../nightscout/settings.md#nahrungsmittel-editor)
+  - [Administrator Werkzeuge](../nightscout/settings.md#administrator-werkzeuge)
    
 **Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral für alle Browser gleich halten wollen, können wor dieses wie in Kapitel .... beschrieben, umsetzen.
   
