@@ -4,27 +4,46 @@ Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit d
 
 ![Einstellungen](../images/nightscout/nightscout_config_menue.jpg)
 
-Oben haben wir die Wahl von 4 Menüpunkten:
+**Oben** haben wir die Wahl von 4 Menüpunkten:
 
   - [Berichte](#Berichte)
   - [Profil - Editor](#Profil - Editor)
   - [Nahrungsmittel Editor](#Nahrungsmittel Editor)
   - [Administrator Werkzeuge](#Administrator Werkzeuge)
    
-Unten sind die Browsereinstellungen gelistet. Wenn wir diese zentral für alle Browser gleich halten wollen, können wor dieses wie in Kapitel .... beschrieben, umsetzen.
+**Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral für alle Browser gleich halten wollen, können wor dieses wie in Kapitel .... beschrieben, umsetzen.
   
   
-## Berichte
+###Berichte
+
+Mit dem Klick auf **Berichte** und erhalten diese Ansicht: 
+
+![nightscout_reporting_config](../images/nightscout/nightscout_reporting_config.jpg)
+
+Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks auf den Namen aufrufen.
+Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang. Wir können vorgefertigte Zeiträume und individuelle Zeiträume auswählen. Weitere Filter sind möglich.
+Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**.
+
+Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:
 
 
-## Profil - Editor
+
+![nightscout_reporting_daily_graph](../images/nightscout/nightscout_reporting_daily_graph.jpg)
+
+
+Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf **Bearbeitung** zu **Korrigieren** oder zu **Löschen**:
+
+![nightscout_change_treatments](../images/nightscout/nightscout_change_treatments.jpg)
+
+
+###Profil - Editor
 
 
 
-## Nahrungsmittel Editor
+####Nahrungsmittel Editor
 
 
-## Administrator Werkzeuge
+####Administrator Werkzeuge
 
 
 
