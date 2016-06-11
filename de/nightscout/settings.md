@@ -6,10 +6,10 @@ Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit d
 
 **Oben** haben wir die Wahl von 4 Menüpunkten:
 
-  - [Berichte](#Berichte)
-  - [Profil - Editor](#Profil - Editor)
-  - [Nahrungsmittel Editor](#Nahrungsmittel Editor)
-  - [Administrator Werkzeuge](#Administrator Werkzeuge)
+  - [Berichte](###Berichte)
+  - [Profil - Editor](###Profil - Editor)
+  - [Nahrungsmittel Editor](###Nahrungsmittel Editor)
+  - [Administrator Werkzeuge](###Administrator Werkzeuge)
    
 **Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral für alle Browser gleich halten wollen, können wor dieses wie in Kapitel .... beschrieben, umsetzen.
   
