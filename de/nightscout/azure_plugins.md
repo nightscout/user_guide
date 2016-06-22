@@ -1,6 +1,6 @@
 # Nightscout Plugins
 
-Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannten **Plugins**. Die Nightscout Website besteht aus vielen kleinen **Plugins** Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
+Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannten **Plugins**. Die Nightscout Website besteht aus vielen kleinen **Plugins**. Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
 
 ### Pflichtwerte
 
@@ -14,8 +14,8 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 
   * `ENABLE` - Wird verwendet, um optionale Funktionen zu aktivieren, erwartet eine durch Leerzeichen getrennte Liste, wie zum Beispiel:` careportal rawbg iob` 
   - * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
-  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Wenn auf dem Gerät Eingaben erfolgen `API_SECRET` authentifiziert werden müssen, um Behandlungen erstellen
-  * `BASE_URL` - Wird für den Aufbau von Verbindungen zu Ihrer Websites api, dh Schwächling Rückrufe, in der Regel die URL Ihrer Website Nightscout möchten Sie vielleicht https statt http
+  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` müssen Eingaben auf dem Gerät mit dem `API_SECRET` authentifiziert werden.
+  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu Ihrer Websites api, dh pushover callbacks, in der Regel die URL Ihrer Website Nightscout möchten Sie vielleicht https statt http
 
 ### Alarme
 
