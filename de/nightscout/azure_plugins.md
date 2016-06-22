@@ -15,14 +15,14 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
   * `ENABLE` - Wird verwendet, um optionale Funktionen zu aktivieren, erwartet eine durch Leerzeichen getrennte Liste, wie zum Beispiel:` careportal rawbg iob` 
   - * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
   * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` müssen Eingaben auf dem Gerät mit dem `API_SECRET` authentifiziert werden.
-  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu Ihrer Websites api, dh pushover callbacks, in der Regel die URL Ihrer Website Nightscout möchten Sie vielleicht https statt http
+  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu Ihrer Website api, dh pushover callbacks, in der Regel die URL Ihrer Nightscout Website, statt http möchten Sie vielleicht lieber https
 
 ### Alarme
 
   Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen  außer Kraft gesetzt werden.
   
-  * `ALARM_TYPES` (falls vorhanden` BG_` * ENV `simple` gesetzt werden, sonst` predict`) - derzeit zwei Alarmtypen unterstützt werden, und können unabhängig voneinander oder in Kombination verwendet werden. Der `simple` Alarmtyp vergleicht nur den aktuellen BG zu` BG_` Schwellen über die `predict` Alarmtyp stark getunten Formel verwendet, die prognostiziert, wo die BG basiert los es Trend ist. `Predict` ** NICHT ** gegenwärtig eines der` BG_` * ENV verwenden
-  * `BG_HIGH` (` 260`) - muss mg / dl Einheiten eingestellt werden; die hohe BG außerhalb des Zielbereichs, die dringend betrachtet
+  * `ALARM_TYPES` (`simple` falls ` BG_` * ENV  gesetzt sind, sonst `predict`) - derzeit werden zwei Alarmtypen unterstützt und können unabhängig voneinander oder in Kombination verwendet werden. Der `simple` Alarmtyp vergleicht nur den aktuellen BG mit `BG_` Schwellen, der `predict` Alarmtyp verwendet eine optimierte Formel, die aufgrund seines bisherigen Verlaufs den BG prognostiziert. Derzeit verwendet `Predict` ** NICHT ** eines der` BG_` * ENV.
+  * `BG_HIGH` (` 260`) - muss auf mg / dl Einheiten eingestellt werden; die hohe BG außerhalb des Zielbereichs, die dringend betrachtet
   * `BG_TARGET_TOP` (` 180`) - muss mg / dl Einheiten eingestellt werden; das obere Ende des Zielbereichs, verwendet auch die Linie auf dem Chart zu zeichnen
   * `BG_TARGET_BOTTOM` (` 80`) - muss mg / dl Einheiten eingestellt werden; der Boden des Zielbereichs, verwendet auch die Linie auf dem Chart zu zeichnen
   * `BG_LOW` (` 55`) - muss mg / dl Einheiten eingestellt werden; die niedrige BG außerhalb des Zielbereichs, die dringend betrachtet
