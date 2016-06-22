@@ -1,6 +1,6 @@
 # Nightscout Plugins
 
-Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannten **Plugins**. Die Nightscout Website besteht aus vielen kleinen **Plugins**. Die Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
+Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannten **Plugins**. Die Nightscout Website besteht aus vielen kleinen **Plugins**. Diese Plugins können konfiguriert werden. Die Konfigurationseinstellungen können wir in den **Azure** Anwendungseinstellungen speichern.
 
 ### Pflichtwerte
 
