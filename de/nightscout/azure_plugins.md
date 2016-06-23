@@ -15,43 +15,43 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
   * `ENABLE` - Wird verwendet, um optionale Funktionen zu aktivieren, erwartet eine durch Leerzeichen getrennte Liste, wie zum Beispiel:` careportal rawbg iob` 
   - * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
   * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` müssen Eingaben auf dem Gerät mit dem `API_SECRET` authentifiziert werden.
-  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu Ihrer Website api, dh pushover callbacks, in der Regel die URL Ihrer Nightscout Website, statt http möchten Sie vielleicht lieber https
+  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu Ihrer Website api, dh pushover callbacks, in der Regel die URL Ihrer Nightscout Website, statt http möchten Sie vielleicht lieber https verwenden
 
 ### Alarme
 
   Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen  außer Kraft gesetzt werden.
   
-  * `ALARM_TYPES` (`simple` falls ` BG_` * ENV  gesetzt sind, sonst `predict`) - derzeit werden zwei Alarmtypen unterstützt und können unabhängig voneinander oder in Kombination verwendet werden. Der `simple` Alarmtyp vergleicht nur die aktuelle BG mit `BG_` Schwellen, der `predict` Alarmtyp verwendet eine optimierte Formel, die aufgrund seines bisherigen Verlaufs die BG prognostiziert. Derzeit verwendet `Predict` ** NICHT ** eines der` BG_` * ENV.
-  * `BG_HIGH` (` 260`) - muss auf mg / dl Einheiten eingestellt werden; die hohe BG außerhalb des Zielbereichs, die als dringlich erachtet wird
+  * `ALARM_TYPES` (`simple` falls ` BG_` * ENV  gesetzt sind, sonst `predict`) - derzeit werden zwei Alarmtypen unterstützt und können unabhängig voneinander oder in Kombination verwendet werden. Der `simple` Alarmtyp vergleicht nur die aktuelle BG mit `BG_` Schwellen, der `predict` Alarmtyp verwendet eine optimierte Formel, die die BG aufgrund ihres bisherigen Verlaufs prognostiziert. Derzeit verwendet `Predict` ** NICHT ** eines der` BG_` * ENV.
+  * `BG_HIGH` (` 260`) - muss auf mg / dl Einheiten eingestellt werden; das ist die hohe BG außerhalb des Zielbereichs, die als dringlich erachtet wird
   * `BG_TARGET_TOP` (` 180`) - muss auf mg / dl Einheiten eingestellt werden; das obere Ende des Zielbereichs, wird auch verwendet, um die obere Linie in der Grafik zu zeichnen
   * `BG_TARGET_BOTTOM` (` 80`) - muss auf mg / dl Einheiten eingestellt werden; das untere Ende des Zielbereichs, wird als untere Linie in der Grafik verwendet
   * `BG_LOW` (` 55`) - muss auf mg / dl Einheiten eingestellt werden; die niedrige BG außerhalb des Zielbereichs, die als dringlich erachtet wird
   * `ALARM_URGENT_HIGH` (` on`) - mögliche Werte `on` oder` off`
-  * `ALARM_URGENT_HIGH_MINS` (` 30 60 90 120`) - Anzahl der Minuten dringend hohe Wecker erneut, Platz für Optionen in Browser getrennt, zunächst für Schwächling verwendet
+  * `ALARM_URGENT_HIGH_MINS` (` 30 60 90 120`) - Anzahl der Minuten, in denen ein dringender Hochalarm schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
   * `ALARM_HIGH` (` on`) - mögliche Werte `on` oder` off`
-  * `ALARM_HIGH_MINS` (` 30 60 90 120`) - Anzahl der Minuten hohe Wecker erneut, Platz für Optionen in Browser getrennt, zunächst für Schwächling verwendet
+  * `ALARM_HIGH_MINS` (` 30 60 90 120`) - Anzahl der Minuten, in denen ein (einfacher) Hochalarm schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
   * `ALARM_LOW` (` on`) - mögliche Werte `on` oder` off`
-  * `ALARM_LOW_MINS` (` 15 30 45 60`) - Anzahl der Minuten niedrigen Wecker erneut, Platz für Optionen in Browser getrennt, zunächst für Schwächling verwendet
+  * `ALARM_LOW_MINS` (` 15 30 45 60`) - Anzahl der Minuten, in denen ein (einfacher) Tiefalarm schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
   * `ALARM_URGENT_LOW` (` on`) - mögliche Werte `on` oder` off`
-  * `ALARM_URGENT_LOW_MINS` (` 15 30 45`) - Anzahl der Minuten dringend niedrigen Wecker erneut, Platz für Optionen in Browser getrennt, zunächst für Schwächling verwendet
-  * `ALARM_URGENT_MINS` (` 30 60 90 120`) - Anzahl der Minuten dringende Alarme zu dösen, Platz für Optionen in Browser getrennt (die nicht als hoch oder niedrig markiert sind), zunächst für Schwächling verwendet
-  * `ALARM_WARN_MINS` (` 30 60 90 120`) - Anzahl der Minuten Warnsignale zu dösen, Platz für Optionen in Browser getrennt (die nicht als hoch oder niedrig markiert sind), zunächst für Schwächling verwendet
+  * `ALARM_URGENT_LOW_MINS` (` 15 30 45`) - Anzahl der Minuten, in denen ein dringender Tiefalarm schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
+  * `ALARM_URGENT_MINS` (` 30 60 90 120`) - Anzahl der Minuten, in denen ein dringender Alarm (der nicht als hoch oder niedrig markiert ist) schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
+  * `ALARM_WARN_MINS` (` 30 60 90 120`) - Anzahl der Minuten, in denen ein Alarm (der nicht als hoch oder niedrig markiert ist) schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
   * 
   
 ### Basiseinstellungen
 
 Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightscout Website gesetzt werden.
 
-  * `MONGO_COLLECTION` (` entries`) - Die Sammlung zu speichern SGV, MBG und CAL Aufzeichnungen von Ihrem CGM-Gerät verwendet
-  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) -Die Sammlung zu speichern Behandlungen im Bereich Care Portal finden Sie in der `ENABLE` env var oben angegebenen verwendet
-  * `MONGO_DEVICESTATUS_COLLECTION` (` devicestatus`) - Die Sammlung zum Speichern von Gerätestatusinformationen wie Uploader Batterie verwendet
-  * `MONGO_PROFILE_COLLECTION` (` Profile`) - Die Sammlung verwendet, um Ihre Profile zu speichern
-  * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung verwendet, um Ihre Lebensmittel-Datenbank zu speichern,
-  * `PORT` (` 1337`) - Der Port, der die node.js Anwendung auf zuhören.
-  * `SSL_KEY` - Pfad zu Ihrer SSL-Schlüsseldatei, so dass ssl (https) direkt in node.js aktiviert sein
-  * `SSL_CERT` - Pfad zu Ihrer SSL-Zertifikat-Datei, so dass ssl (https) direkt in node.js aktiviert sein
-  * `SSL_CA` - Pfad zum ssl CA-Datei, so dass ssl (https) direkt in node.js aktiviert sein
-  * `HEARTBEAT` (` 60`) - Anzahl der Sekunden zwischen den Datenbankprüfungen warten in
+  * `MONGO_COLLECTION` (` entries`) - Diese Sammlung speichert SGV, MBG und CAL Aufzeichnungen von Ihrem CGM-Gerät
+  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) -Diese Sammlung speichert sog. treatments, die im Care Portal eingegeben worden sind, s.o. unter `ENABLE` env var
+  * `MONGO_DEVICESTATUS_COLLECTION` (` devicestatus`) - Diese Sammlung speichert Gerätestatusinformationen wie z.B. Uploader Batterie
+  * `MONGO_PROFILE_COLLECTION` (` Profile`) - Diese Sammlung speichert Ihre Profile
+  * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung speichert Ihre Lebensmittel-Datenbank
+  * `PORT` (` 1337`) - Der Port, auf den die node.js Anwendung zugreift
+  * `SSL_KEY` - Pfad zu Ihrer SSL-Schlüsseldatei, so dass ssl (https) direkt in node.js aktiviert werden kann
+  * `SSL_CERT` - Pfad zu Ihrer SSL-Zertifikat-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
+  * `SSL_CA` - Pfad zum ssl CA-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
+  * `HEARTBEAT` (` 60`) - Anzahl der Sekunden zwischen den einzelnen Datenbanküberprüfungen
 
 #### Standard Plugins 
   
