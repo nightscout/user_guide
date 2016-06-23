@@ -55,7 +55,7 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
 
 #### Standard Plugins 
   
-  Diese können durch Einstellen der `DISABLE` env var deaktiviert werden, zum Beispiel` deaktiviere = "Direction" `
+  Diese können durch Einstellen der `DISABLE` env var deaktiviert werden, zum Beispiel` disable="Direction upbat" `
 
 ##### `Delta` (BG Delta)
   Berechnet und zeigt die Veränderung zwischen den letzten 2 BG-Werten.
@@ -67,17 +67,17 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
   Zeigt den aktuellsten Batteriestatus vom Uploader Telefon.
 
 ##### `Timeago` (Time Ago)
-  Zeigt die Zeit seit dem letzten CGM-Eintrag an. Unterstützt die `TIMEAGO_ENABLE_ALERTS` [Erweiterte Einstellung] (# extended-Einstellungen) für die Serverseite veraltete Daten Alarme via Pushover und IFTTT.
+  Zeigt die Zeit seit dem letzten CGM-Eintrag an. Unterstützt die `TIMEAGO_ENABLE_ALERTS` [Erweiterte Einstellung] (# extended-Einstellungen) für die Serverseite bei Alarmen wegen veralteter Daten via Pushover und IFTTT.
 
 ##### `Devicestatus` (Gerätestatus)
-  Wird von `upbat` und anderen Plug-ins verwendet. Ist notwendig, wenn Gerätestatusinformationen angezeigt werden sollen. Unterstützt die `DEVICESTATUS_ADVANCED =" true "` [Erweiterte Einstellung] (# extended-Einstellungen), um alle Gerätezustände an den Client für die retrospektive Anwendung zu senden und andere Plugins zu unterstützen.
+  Wird von `upbat` und anderen Plugins verwendet, um Gerätestatusinformationen anzuzeigen. Unterstützt die `DEVICESTATUS_ADVANCED =" true "` [Erweiterte Einstellung] (# extended-Einstellungen), um jeden Gerätestatus an den Client für die retrospektive Anwendung zu senden und um andere Plugins zu unterstützen.
 
 ##### `Errorcodes` (CGM-Fehlercodes)
   Erzeugt Alarme für CGM-Codes `9` (Sanduhr) und` 10` (???).
   * Verwenden Sie [erweiterte Einstellungen] (# extended-Einstellungen) um zu sehen, welche Fehlercodes Benachrichtigungen und Alarme auslösen:
-    * `ERRORCODES_INFO` (` 1 2 3 4 5 6 7 8`) - die Bedürfnisse der Kalibrierung (Bluttropfen) und andere Codes unter 9 erzeugen eine Info-Ebene Benachrichtigung, auf einen Raum getrennte Liste der Anzahl oder `off` Standardmäßig deaktivieren
-    * `ERRORCODES_WARN` (` off`) - Standardmäßig ist keine Warnung konfiguriert, um eine getrennte Liste von Zahlen oder `off` gesetzt zu deaktivieren
-    * `ERRORCODES_URGENT` (` 9 10`) - standardmäßig die Sanduhr und ??? generieren einen dringenden Alarm, auf einen Raum getrennte Liste von Zahlen oder `off` zu deaktivieren
+    * `ERRORCODES_INFO` (` 1 2 3 4 5 6 7 8`) - Standardmäßig erzeugen die "Needs Calibration" (Blutstropfen) und andere Fehlercodes unter 9 eine Info-Ebene Benachrichtigung; die Auswahlmöglichkeiten sind eine durch Leerzeichen getrennte Zahlenreihe oder `off`, um diese Benachrichtigung auszuschalten
+    * `ERRORCODES_WARN` (` off`) - Standardmäßig ist keine Warnung konfiguriert, die Auswahlmöglichkeiten sind eine durch Leerzeichen getrennte Zahlenreihe oder `off`, um diese Benachrichtigung auszuschalten
+    * `ERRORCODES_URGENT` (` 9 10`) - standardmäßig generieren die Sanduhr und ??? einen dringenden Alarm, die Auswahlmöglichkeiten sind eine durch Leerzeichen getrennte Zahlenreihe oder `off`, um diese Benachrichtigung auszuschalten
 
 ##### `Ar2` (AR2 Forecasting)
   Erzeugt Alarme auf Basis von prognostizierten Werten. Siehe [Forecasting mit AR2 Algorithmus] (https://github.com/nightscout/nightscout.github.io/wiki/Forecasting)
