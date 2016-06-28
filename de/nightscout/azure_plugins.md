@@ -43,7 +43,7 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightscout Website gesetzt werden.
 
   * `MONGO_COLLECTION` (` entries`) - Diese Sammlung speichert SGV, MBG und CAL Aufzeichnungen von Ihrem CGM-Gerät
-  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) -Diese Sammlung speichert sog. treatments, die im Care Portal eingegeben worden sind, s.o. unter `ENABLE` env var
+  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) - Diese Sammlung speichert sog. treatments, die im Care Portal eingegeben worden sind, s.o. unter `ENABLE` env var
   * `MONGO_DEVICESTATUS_COLLECTION` (` devicestatus`) - Diese Sammlung speichert Gerätestatusinformationen wie z.B. Uploader Batterie
   * `MONGO_PROFILE_COLLECTION` (` Profile`) - Diese Sammlung speichert Ihre Profile
   * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung speichert Ihre Lebensmittel-Datenbank
@@ -83,18 +83,18 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
   Erzeugt Alarme auf Basis von prognostizierten Werten. Siehe [Forecasting mit AR2 Algorithmus] (https://github.com/nightscout/nightscout.github.io/wiki/Forecasting)
   * Standardmäßig aktiviert, wenn keine Schwellenwerte festgelegt werden ** OR ** `ALARM_TYPES` umfasst` predict`.
   * Verwenden Sie [erweiterte Einstellungen] (# extended-Einstellungen), um das AR2 Verhalten anzupassen:
-    * `AR2_USE_RAW` (` false`) - um für Prognosen `rawbg` Werte zu verwenden, wenn Standardwerte keinen Alarm auslösen.
-    * `AR2_CONE_FACTOR` ( '2') - Größe der Kegel einzustellen, benutzen Sie '0' für eine einzelne Zeile.
+    * `AR2_USE_RAW` (` false`) - um für Prognosen `rawbg` Werte zu verwenden, wenn Standardwerte keinen Alarm auslösen
+    * `AR2_CONE_FACTOR` ( '2') - um die Größe der Kegel anzupassen, benutzen Sie '0' für eine einzelne Zeile
 
 ##### `Simplealarms` (Simple BG Alarme)
-  Verwendet `BG_HIGH`,` BG_TARGET_TOP`, `BG_TARGET_BOTTOM`,` BG_LOW` Schwellen Alarme generieren.
-  wenn 1 dann sind diese Schwellenwerte * standardmäßig Aktiviert gesetzt ist ** OR ** `ALARM_TYPES` umfasst` simple`.
+  Verwendet `BG_HIGH`,` BG_TARGET_TOP`, `BG_TARGET_BOTTOM`,` BG_LOW` -Schwellenwerte, um Alarme abzugeben.
+  Ist standardmäßig aktiviert, wenn einer dieser Schwellenwerte gesetzt ist ** OR ** `ALARM_TYPES` umfasst` simple`.
   
   
 
 ### Vordefinierte Werte für Browser-Einstellungen (optional)
 
-Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
+Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App aus immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
 
   * `TIME_FORMAT` (` 12`) - mögliche Werte `12` oder` 24`
   * `NIGHT_MODE` (` off`) - mögliche Werte `on` oder` off`
@@ -102,10 +102,10 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
   * `CUSTOM_TITLE` (` Nightscout`) - angepasster Titel
   * `THEME` (` default`) - mögliche Werte `default` oder` colors`
   * `ALARM_TIMEAGO_WARN` (` on`) - mögliche Werte `on` oder` off`
-  * `ALARM_TIMEAGO_WARN_MINS` (` 15`) - Minuten seit dem letzten Meßwert, um  eine Warnung auszulösen
+  * `ALARM_TIMEAGO_WARN_MINS` (` 15`) - Minuten seit dem letzten Messwert, um eine Warnung auszulösen
   * `ALARM_TIMEAGO_URGENT` (` on`) - mögliche Werte `on` oder` off`
-  * `ALARM_TIMEAGO_URGENT_MINS` (` 30`) - Minuten seit dem letzten, um  einen dringenden Alarm auszulösen
-  * `SHOW_PLUGINS` - Zeige Plugins, Anzeige der Plugins in der Website, Standardwerte für alle freigegeben
+  * `ALARM_TIMEAGO_URGENT_MINS` (` 30`) - Minuten seit dem letzten Wert, um  einen dringenden Alarm auszulösen
+  * `SHOW_PLUGINS` - Anzeige der Plugins in der Website, Standardwerte für alle freigegeben
   * `SHOW_FORECAST` (` ar2`) - Plugin Prognosen, die standardmäßig angezeigt werden sollen, unterstützt Werte wie `" ar2 openaps "Raum begrenzt`
   * `LANGUAGE` (` de`) - Sprache der Website. Falls nicht verfügbar Englisch wird verwendet,
   * `SCALE_Y` (` log`) - Die Art der Skalierung , welche für die Y-Achse des Charts System verwendet wird.
