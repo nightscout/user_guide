@@ -14,7 +14,7 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 
   * `ENABLE` - Wird verwendet, um optionale Funktionen zu aktivieren, erwartet eine durch Leerzeichen getrennte Liste, wie zum Beispiel:` careportal rawbg iob` 
   - * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
-  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` müssen Eingaben auf dem Gerät mit dem `API_SECRET` authentifiziert werden.
+  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` muss man sich bei Eingaben auf dem Gerät mit dem `API_SECRET` authentisieren.
   * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu Ihrer Website api, dh pushover callbacks, in der Regel die URL Ihrer Nightscout Website, statt http möchten Sie vielleicht lieber https verwenden
 
 ### Alarme
