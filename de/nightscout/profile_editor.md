@@ -10,7 +10,7 @@ Der Behandlungs Profil Editor speichert angepasste Werte für die persönliche T
 
 
 
-![nightscout_profile_editor_plugins](../images/nightscout/nightscout_profile_editor_plugins.jpg)
+![nightscout_profile_editor_plugins](../images/nightscout/nightscout_profile_editor.jpg)
 
 Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden **Erklärungstexte** in englischer Sprache angezeigt.
 
