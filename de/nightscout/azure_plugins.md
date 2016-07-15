@@ -22,10 +22,10 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
   Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen  außer Kraft gesetzt werden.
   
   * `ALARM_TYPES` (`simple` falls ` BG_` * ENV  gesetzt sind, sonst `predict`) - derzeit werden zwei Alarmtypen unterstützt und können unabhängig voneinander oder in Kombination verwendet werden. Der `simple` Alarmtyp vergleicht nur die aktuelle BG mit `BG_` Schwellen, der `predict` Alarmtyp verwendet eine optimierte Formel, die die BG aufgrund ihres bisherigen Verlaufs prognostiziert. Derzeit verwendet `Predict` ** NICHT ** eines der` BG_` * ENV.
-  * `BG_HIGH` (` 260`) - muss auf mg / dl Einheiten eingestellt werden; das ist die hohe BG außerhalb des Zielbereichs, die als dringlich erachtet wird
+  * `BG_HIGH` (` 260`) - muss auf mg / dl Einheiten eingestellt werden; das ist eine hohe BG außerhalb des Zielbereichs, die als dringlich erachtet wird
   * `BG_TARGET_TOP` (` 180`) - muss auf mg / dl Einheiten eingestellt werden; das obere Ende des Zielbereichs, wird auch verwendet, um die obere Linie in der Grafik zu zeichnen
   * `BG_TARGET_BOTTOM` (` 80`) - muss auf mg / dl Einheiten eingestellt werden; das untere Ende des Zielbereichs, wird als untere Linie in der Grafik verwendet
-  * `BG_LOW` (` 55`) - muss auf mg / dl Einheiten eingestellt werden; die niedrige BG außerhalb des Zielbereichs, die als dringlich erachtet wird
+  * `BG_LOW` (` 55`) - muss auf mg / dl Einheiten eingestellt werden; eine niedrige BG außerhalb des Zielbereichs, die als dringlich erachtet wird
   * `ALARM_URGENT_HIGH` (` on`) - mögliche Werte `on` oder` off`
   * `ALARM_URGENT_HIGH_MINS` (` 30 60 90 120`) - Anzahl der Minuten, in denen ein dringender Hochalarm schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
   * `ALARM_HIGH` (` on`) - mögliche Werte `on` oder` off`
@@ -50,7 +50,7 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
   * `PORT` (` 1337`) - Der Port, auf den die node.js Anwendung zugreift
   * `SSL_KEY` - Pfad zu Ihrer SSL-Schlüsseldatei, so dass ssl (https) direkt in node.js aktiviert werden kann
   * `SSL_CERT` - Pfad zu Ihrer SSL-Zertifikat-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
-  * `SSL_CA` - Pfad zum ssl CA-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
+  * `SSL_CA` - Pfad zur ssl CA-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
   * `HEARTBEAT` (` 60`) - Anzahl der Sekunden zwischen den einzelnen Datenbanküberprüfungen
 
 #### Standard Plugins 
@@ -106,13 +106,13 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
   * `ALARM_TIMEAGO_URGENT` (` on`) - mögliche Werte `on` oder` off`
   * `ALARM_TIMEAGO_URGENT_MINS` (` 30`) - Minuten seit dem letzten Wert, um  einen dringenden Alarm auszulösen
   * `SHOW_PLUGINS` - Anzeige der Plugins in der Website, Standardwerte für alle freigegeben
-  * `SHOW_FORECAST` (` ar2`) - Plugin Prognosen, die standardmäßig angezeigt werden sollen, unterstützt Werte wie `" ar2 openaps "Raum begrenzt`
-  * `LANGUAGE` (` de`) - Sprache der Website. Falls nicht verfügbar Englisch wird verwendet,
+  * `SHOW_FORECAST` (` ar2`) - Plugin Prognosen, die standardmäßig angezeigt werden sollen, unterstützt räumlich begrenzte Werte wie `" ar2 openaps "`
+  * `LANGUAGE` (` de`) - Sprache der Website. Falls nicht verfügbar, wird Englisch verwendet,
   * `SCALE_Y` (` log`) - Die Art der Skalierung , welche für die Y-Achse des Charts System verwendet wird.
-    * Der Standard `log` (logarithmisch) Option lässt läßt mehr Details im unteren Bereich zu , während immer noch der volle CGM Bereich angezeigt wird.
+    * Die Standard `log` (logarithmisch) Option lässt mehr Details im unteren Bereich zu , während immer noch der volle CGM Bereich angezeigt wird.
     * Die `linear` Option hat im gleichen Abstand Markierungen , der verwendete Bereich ist dynamisch, so dass kein Platz an der Spitze des Diagramms verschwendet wird.
-    * Die `log-dynamic` ist auf den Standard` log` Optionen ähnlich, aber verwendet den gleichen dynamischen Bereich und die `linear` Skala.
-  * `EDIT_MODE` (` on`) - mögliche Werte `on` oder` off`. Aktivieren oder deaktivieren von Symbolen Hierüber gelangt man   Bearbeitungsmodus von Behandlungen.
+    * Die `log-dynamic` ist der Standard` log` Option ähnlich und verwendet den gleichen dynamischen Bereich, aber die `linear` Skala.
+  * `EDIT_MODE` (` on`) - mögliche Werte `on` oder` off`. Aktivieren oder deaktivieren des Symbols, das den Bearbeitungsmodus der Eingabe von Treatments ermöglicht.
 
 
 Nach Eingabe der Daten das **Speichern** nicht vergessen.
@@ -125,7 +125,7 @@ Die Einstellungen sehen dann z.B. so aus:
 #### Erweiterte Plugins:
 
 ##### `Careportal` (Careportal)
-  Eine optionale Form Behandlungen einzugeben.
+  Eine optionale Form, Treatments einzugeben.
 
 ##### `Boluscalc` (de: Bolus Rechner) 
   Nightscout berechnet anhand bestimmter Vorgaben die zu verabreichende Bolusmenge.
@@ -136,11 +136,11 @@ Die Einstellungen sehen dann z.B. so aus:
 ##### `rawbg` (Roh Blutzuckerwerte)
   Berechnet Roh Blutzuckerwerte mit Sensor und Kalibrierungsaufzeichnungen und zeigt alternative Werte mit Verzerrungspegel an.
 
-##### `Iob` (en: Insulin-on-Board, de:Wirksames Insulin)
-  Fügt die IOB Pillbox Visualisierung im Browser ein und berechnet das noch wirksame Bolus Insulin, welches von anderen Plugins verwendet werden kann. Verwendet Behandlungen mit Insulindosen und der `dia` und` sens` Felder aus dem [Behandlungsprofil] (# behandlungs Profil).
+##### `Iob` (en: Insulin-on-Board, de: Wirksames Insulin)
+  Fügt die IOB Pillbox Visualisierung im Browser ein und berechnet das noch wirksame Bolus Insulin, welches von anderen Plugins verwendet werden kann. Verwendet Treatments mit Insulindosen und der `dia` und` sens` Felder aus dem [Behandlungsprofil] (# behandlungs Profil).
 
 ##### `Cob` (Carbs-on-Board)
-  Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, die von anderen Plugins verwendet werden können. Verwendet Behandlungen mit carb angaben und der `carbs_hr`,` carbratio` und `sens` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil).
+  Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, die von anderen Plugins verwendet werden können. Verwendet Treatments mit carb Angaben und der `carbs_hr`,` carbratio` und `sens` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil).
 
 ##### `Bwp` (BolusExpert Vorschau)
   Dieses Plugin in die für die Zwecke der automatisch dösen Alarme, wenn der CGM zeigt hohe Blutzuckerwerte, aber es gibt auch Insulin an Bord (IOB) und zweitens, um Benutzer warnen, dass es vorteilhaft sein könnte, die Blutzucker mit einem Glucometer und Dosierung Insulin zu messen wie sie in der Pumpe oder im Auftrag von ausgebildeten Fachleuten medi berechnet. *** Die vom Plugin zur Verfügung gestellt Werte werden als Referenz zur Verfügung gestellt basierend auf CGM-Daten und die Insulinempfindlichkeit Sie konfiguriert haben, und sind nicht als Referenz für die Bolus-Berechnung verwendet werden soll. *** Das Plugin berechnet die Bolus-Menge, wenn sie über Ihr Ziel, erzeugt Alarme, wenn Sie Prüfung und bolusing in Betracht ziehen sollten, und Alarme snoozes, wenn es genug IOB ist eine hohe BG zu decken. Verwendet die Ergebnisse des `iob` Plugin und` sens`, `target_high` und` target_low` Felder aus dem [Behandlungsprofil] (# behandlungs Profil). Defaults, die mit angepasst werden kann [erweiterte Einstellung] (# extended-Einstellungen)
