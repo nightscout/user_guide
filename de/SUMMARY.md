@@ -23,7 +23,7 @@
        * [Anlegen eines CareLink Kontos](grundlagen/640g/carelink.md)
        * [Konfiguration des Android Smartphones](grundlagen/640g/640gAndroidUploader.md)
    * [Libre](grundlagen/libre.md)
-       * Libre als CGM
+       * [Libre als CGM](grundlagen/libre_als_cgm.md)
 * [Nightscout einrichten](nightscout/nightscout_einrichten.md)
    * [Account-Information](nightscout/datenblatt.md)
    * [Mongo DB](nightscout/mongo_db.md)
