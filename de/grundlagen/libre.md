@@ -1,20 +1,32 @@
 # Libre
 
-Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch eine Android-App (Glimp), die die Sensoren auch auslesen kann. Von der Android-App werden allerdings z.T. andere Werte ausgelesen als vom Lesegerät. Das Freestyle Libre gibt keine Alarme, der Benutzer muss selbst aktiv werden.  Außerdem ist das Freestyle Libre derzeit nicht geeignet für APS.
+Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch die [Android-App Glimp](https://play.google.com/store/apps/details?id=it.ct.glicemia), die auch Sensoren auch auslesen kann. Dadurch ist eine Fernüberwachung möglich - z.B. durch die Eltern, die dann auf dem selben Stand wie das Kind sind und sehen ob und was gemessen wurde.
+Mit der Android-App werden allerdings z.T. leicht andere Werte ausgelesen als vom Lesegerät.
 
-Dennoch ist Remote Monitoring möglich - dadurch sind Eltern auf demselben Stand wie das Kind / der Lehrer und sehen, ob gemessen wurde.
 
-Eine stabile Version von Glimp, die Nightscout unterstützt, findet man im [Google Play-Store](https://play.google.com/store/apps/details?id=it.ct.glicemia&hl=de).
+## Nightscout mit FreeStyle Libre
 
-Um Glimp nutzen zu können, muss bei NightScout das *Care Portal* eingerichtet sein. Siehe dazu: [Care Portal einrichten](/../nightscout/care_portal.md)
+
 
 Um Nightscout mit dem FreeStyle Libre nutzen zu können, braucht man:
 * ein funktionierendes FreeStyle Libre System
 * eine eingerichtete Nightscout Seite
 * ein Android Smartphone, das NFC (Nahfeldkommunikation) unterstützt
-* die Glimp App aus dem Google Play Store
+* die [Glimp App](https://play.google.com/store/apps/details?id=it.ct.glicemia) aus dem Google Play Store
 
-Falls man bisher noch keine Nightscout Seite eingerichtet hat, findet man alle erforderlichen Schritte im Kapitel [Nightscout einrichten](../nightscout/nightscout_einrichten.md).
+Falls man bisher noch keine Nightscout Seite eingerichtet hat, findet man alle erforderlichen Schritte im Kapitel [Nightscout einrichten](../nightscout/nightscout_einrichten.md). Wichtig ist dabei darauf zu achten, dass in Azure bzw. Heroku das CarePortal eingeschaltet wurde (dies geschieht, in dem man "careportal" bei der "ENABLE" Variable eingfügt. Auch muss in Azure bzw. Heroku ein "API_SECRET" gesetzt worden sein. Dies klingt komplizierter als, es in Wirklichkeit ist. Am besten Schritt für Schritt der Anleitung folgen ;-)
 
 Viele aktuelle Android Smartphones unterstützen die NFC Technologie. Eine sehr gute, englischsprachige Liste findet man [hier](http://www.nfcworld.com/nfc-phones-list/).
+
+
+### Daten des FreeStyle Libre mit Glimp hochladen
+
+Um die Daten auf der Nightscout Seite angezeigt zu bekommen, müssen diese mit der Glimp App über das Smartphone vom Sensor gelesen werden und die App sendet die Daten dann zu Nightscout. Folgende Schritte sind dazu nötig:
+
+1. die [Glimp App](https://play.google.com/store/apps/details?id=it.ct.glicemia) aus dem Google Play Store laden
+2. Glimp konfigurieren damit es mit dem FreeStyle Libre zusammen arbeitet
+3. Glimp für die Zusammenarbeit mit Nightscout konfigurieren. Dazu auf die 3 Punkte in der rechten, oberen Ecke klicken.
+4. 
+
+
 
