@@ -14,12 +14,12 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 
   * `ENABLE` - Wird verwendet, um optionale Funktionen zu aktivieren, erwartet eine durch Leerzeichen getrennte Liste, wie zum Beispiel:` careportal rawbg iob` 
   - * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
-  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` muss man sich bei Eingaben auf dem Gerät mit dem `API_SECRET` authentisieren.
-  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu Ihrer Website api, dh pushover callbacks, in der Regel die URL Ihrer Nightscout Website, statt http möchten Sie vielleicht lieber https verwenden
+  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` muss man sich bei Eingaben auf dem jeweiligen Gerät mit dem `API_SECRET` authentisieren.
+  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu deinem Websiten api, dh pushover callbacks, in der Regel die URL deiner Nightscout Website, statt http möchtest du vielleicht lieber https verwenden
 
 ### Alarme
 
-  Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen  außer Kraft gesetzt werden.
+  Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen außer Kraft gesetzt werden.
   
   * `ALARM_TYPES` (`simple` falls ` BG_` * ENV  gesetzt sind, sonst `predict`) - derzeit werden zwei Alarmtypen unterstützt und können unabhängig voneinander oder in Kombination verwendet werden. Der `simple` Alarmtyp vergleicht nur die aktuelle BG mit `BG_` Schwellen, der `predict` Alarmtyp verwendet eine optimierte Formel, die die BG aufgrund ihres bisherigen Verlaufs prognostiziert. Derzeit verwendet `Predict` ** NICHT ** eines der` BG_` * ENV.
   * `BG_HIGH` (` 260`) - muss auf mg / dl Einheiten eingestellt werden; das ist eine hohe BG außerhalb des Zielbereichs, die als dringlich erachtet wird
@@ -42,14 +42,14 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 
 Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightscout Website gesetzt werden.
 
-  * `MONGO_COLLECTION` (` entries`) - Diese Sammlung speichert SGV, MBG und CAL Aufzeichnungen von Ihrem CGM-Gerät
+  * `MONGO_COLLECTION` (` entries`) - Diese Sammlung speichert SGV, MBG und CAL Aufzeichnungen von deinem CGM-Gerät
   * `MONGO_TREATMENTS_COLLECTION` (` treatments`) - Diese Sammlung speichert sog. treatments, die im Care Portal eingegeben worden sind, s.o. unter `ENABLE` env var
-  * `MONGO_DEVICESTATUS_COLLECTION` (` devicestatus`) - Diese Sammlung speichert Gerätestatusinformationen wie z.B. Uploader Batterie
-  * `MONGO_PROFILE_COLLECTION` (` Profile`) - Diese Sammlung speichert Ihre Profile
-  * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung speichert Ihre Lebensmittel-Datenbank
+  * `MONGO_DEVICESTATUS_COLLECTION` (` devicestatus`) - Diese Sammlung speichert Gerätestatusinformationen wie z.B. die Uploader Batterie
+  * `MONGO_PROFILE_COLLECTION` (` Profile`) - Diese Sammlung speichert deine Profile
+  * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung speichert deine Lebensmittel-Datenbank
   * `PORT` (` 1337`) - Der Port, auf den die node.js Anwendung zugreift
-  * `SSL_KEY` - Pfad zu Ihrer SSL-Schlüsseldatei, so dass ssl (https) direkt in node.js aktiviert werden kann
-  * `SSL_CERT` - Pfad zu Ihrer SSL-Zertifikat-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
+  * `SSL_KEY` - Pfad zu deiner SSL-Schlüsseldatei, so dass ssl (https) direkt in node.js aktiviert werden kann
+  * `SSL_CERT` - Pfad zu deiner SSL-Zertifikat-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
   * `SSL_CA` - Pfad zur ssl CA-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
   * `HEARTBEAT` (` 60`) - Anzahl der Sekunden zwischen den einzelnen Datenbanküberprüfungen
 
@@ -74,7 +74,7 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
 
 ##### `Errorcodes` (CGM-Fehlercodes)
   Erzeugt Alarme für CGM-Codes `9` (Sanduhr) und` 10` (???).
-  * Verwenden Sie [erweiterte Einstellungen] (# extended-Einstellungen) um zu sehen, welche Fehlercodes Benachrichtigungen und Alarme auslösen:
+  * Verwende [erweiterte Einstellungen] (# extended-Einstellungen) um zu sehen, welche Fehlercodes Benachrichtigungen und Alarme auslösen:
     * `ERRORCODES_INFO` (` 1 2 3 4 5 6 7 8`) - Standardmäßig erzeugen die "Needs Calibration" (Blutstropfen) und andere Fehlercodes unter 9 eine Info-Ebene Benachrichtigung; die Auswahlmöglichkeiten sind eine durch Leerzeichen getrennte Zahlenreihe oder `off`, um diese Benachrichtigung auszuschalten
     * `ERRORCODES_WARN` (` off`) - Standardmäßig ist keine Warnung konfiguriert, die Auswahlmöglichkeiten sind eine durch Leerzeichen getrennte Zahlenreihe oder `off`, um diese Benachrichtigung auszuschalten
     * `ERRORCODES_URGENT` (` 9 10`) - standardmäßig generieren die Sanduhr und ??? einen dringenden Alarm, die Auswahlmöglichkeiten sind eine durch Leerzeichen getrennte Zahlenreihe oder `off`, um diese Benachrichtigung auszuschalten
@@ -82,9 +82,9 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
 ##### `Ar2` (AR2 Forecasting)
   Erzeugt Alarme auf Basis von prognostizierten Werten. Siehe [Forecasting mit AR2 Algorithmus] (https://github.com/nightscout/nightscout.github.io/wiki/Forecasting)
   * Standardmäßig aktiviert, wenn keine Schwellenwerte festgelegt werden ** OR ** `ALARM_TYPES` umfasst` predict`.
-  * Verwenden Sie [erweiterte Einstellungen] (# extended-Einstellungen), um das AR2 Verhalten anzupassen:
+  * Verwende [erweiterte Einstellungen] (# extended-Einstellungen), um das AR2 Verhalten anzupassen:
     * `AR2_USE_RAW` (` false`) - um für Prognosen `rawbg` Werte zu verwenden, wenn Standardwerte keinen Alarm auslösen
-    * `AR2_CONE_FACTOR` ( '2') - um die Größe der Kegel anzupassen, benutzen Sie '0' für eine einzelne Zeile
+    * `AR2_CONE_FACTOR` ( '2') - um die Größe der Kegel anzupassen, benutze '0' für eine einzelne Zeile
 
 ##### `Simplealarms` (Simple BG Alarme)
   Verwendet `BG_HIGH`,` BG_TARGET_TOP`, `BG_TARGET_BOTTOM`,` BG_LOW` -Schwellenwerte, um Alarme abzugeben.
@@ -94,12 +94,12 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
 
 ### Vordefinierte Werte für Browser-Einstellungen (optional)
 
-Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App aus immer die gleichen Einstellungen hat. Machen wir dieses nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
+Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App aus immer die gleichen Einstellungen hat. Machen wir dies nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
 
   * `TIME_FORMAT` (` 12`) - mögliche Werte `12` oder` 24`
   * `NIGHT_MODE` (` off`) - mögliche Werte `on` oder` off`
   * `SHOW_RAWBG` (` never`) - mögliche Werte `always`,` never` oder `noise`
-  * `CUSTOM_TITLE` (` Nightscout`) - angepasster Titel
+  * `CUSTOM_TITLE` (` Nightscout`) - angepasste/r Titel/Überschrift
   * `THEME` (` default`) - mögliche Werte `default` oder` colors`
   * `ALARM_TIMEAGO_WARN` (` on`) - mögliche Werte `on` oder` off`
   * `ALARM_TIMEAGO_WARN_MINS` (` 15`) - Minuten seit dem letzten Messwert, um eine Warnung auszulösen
@@ -143,7 +143,7 @@ Die Einstellungen sehen dann z.B. so aus:
   Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, die von anderen Plugins verwendet werden können. Verwendet Treatments mit carb Angaben und der `carbs_hr`,` carbratio` und `sens` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil).
 
 ##### `Bwp` (BolusExpert Vorschau)
-  Dieses Plugin in die für die Zwecke der automatisch dösen Alarme, wenn der CGM zeigt hohe Blutzuckerwerte, aber es gibt auch Insulin an Bord (IOB) und zweitens, um Benutzer warnen, dass es vorteilhaft sein könnte, die Blutzucker mit einem Glucometer und Dosierung Insulin zu messen wie sie in der Pumpe oder im Auftrag von ausgebildeten Fachleuten medi berechnet. *** Die vom Plugin zur Verfügung gestellt Werte werden als Referenz zur Verfügung gestellt basierend auf CGM-Daten und die Insulinempfindlichkeit Sie konfiguriert haben, und sind nicht als Referenz für die Bolus-Berechnung verwendet werden soll. *** Das Plugin berechnet die Bolus-Menge, wenn sie über Ihr Ziel, erzeugt Alarme, wenn Sie Prüfung und bolusing in Betracht ziehen sollten, und Alarme snoozes, wenn es genug IOB ist eine hohe BG zu decken. Verwendet die Ergebnisse des `iob` Plugin und` sens`, `target_high` und` target_low` Felder aus dem [Behandlungsprofil] (# behandlungs Profil). Defaults, die mit angepasst werden kann [erweiterte Einstellung] (# extended-Einstellungen)
+  Dieses Plugin hat erstens den Zweck, Alarme automatisch schlafen zu legen, wenn das CGM zwar hohe Blutzuckerwerte anzeigt, es aber noch ausreichend Insulin an Bord (IOB) gibt und zweitens, um Benutzer darauf hinzuweisen, dass es günstig sein könnte, den Blutzucker mit einem Blutzuckermessgerät zu bestimmen und Insulin laut Berechnung durch die Insulinpumpe oder wie von medizinischem Fachpersonal empfohlen abzugeben. *** Die vom Plugin zur Verfügung gestellten Werte werden als Referenz zur Verfügung gestellt basierend auf CGM-Daten und die Insulinempfindlichkeit Sie konfiguriert haben, und sind nicht als Referenz für die Bolus-Berechnung verwendet werden soll. *** Das Plugin berechnet die Bolus-Menge, wenn sie über Ihr Ziel, erzeugt Alarme, wenn Sie Prüfung und bolusing in Betracht ziehen sollten, und Alarme snoozes, wenn es genug IOB ist eine hohe BG zu decken. Verwendet die Ergebnisse des `iob` Plugin und` sens`, `target_high` und` target_low` Felder aus dem [Behandlungsprofil] (# behandlungs Profil). Defaults, die mit angepasst werden kann [erweiterte Einstellung] (# extended-Einstellungen)
   * `BWP_WARN` (` 0.50`) - Wenn `BWP` ist>` BWP_WARN` wird ein Warnalarm ausgelöst werden.
   * `BWP_URGENT` (` 1.00`) - Wenn `BWP` ist>` ein dringender Alarm BWP_URGENT` ausgelöst.
   * `BWP_SNOOZE_MINS` (` 10`) - Minuten verschoben werden, wenn es genügend IOB ist eine hohe BG zu decken.
