@@ -143,23 +143,23 @@ Die Einstellungen sehen dann z.B. so aus:
   Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, die von anderen Plugins verwendet werden können. Verwendet Treatments mit carb Angaben und der `carbs_hr`,` carbratio` und `sens` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil).
 
 ##### `Bwp` (BolusExpert Vorschau)
-  Dieses Plugin hat erstens den Zweck, Alarme automatisch schlafen zu legen, wenn das CGM zwar hohe Blutzuckerwerte anzeigt, es aber noch ausreichend Insulin an Bord (IOB) gibt und zweitens, um Benutzer darauf hinzuweisen, dass es günstig sein könnte, den Blutzucker mit einem Blutzuckermessgerät zu bestimmen und Insulin laut Berechnung durch die Insulinpumpe oder wie von medizinischem Fachpersonal empfohlen abzugeben. *** Die vom Plugin zur Verfügung gestellten Werte sind als Hinweis gedacht basierend auf CGM-Daten und der Insulinempfindlichkeit, die du konfiguriert hast, sie sind nicht als Empfehlung für die Bolus-Berechnung gedacht. *** Das Plugin berechnet die Bolus-Menge, wenn der Wert über dem von dir angegebenen Zielwert liegt, erzeugt Alarme, wenn Sie Prüfung und die Abgabe eines Bolus in Betracht ziehen sollten, und Alarme snoozes, wenn genug IOB vorliegt, um eine hohe BG zu decken. Verwendet die Ergebnisse des `iob` Plugin und` sens`, `target_high` und` target_low` Felder aus dem [Behandlungsprofil] (# behandlungs Profil). Defaults, die mit angepasst werden kann [erweiterte Einstellung] (# extended-Einstellungen)
-  * `BWP_WARN` (` 0.50`) - Wenn `BWP` ist>` BWP_WARN` wird ein Warnalarm ausgelöst werden.
-  * `BWP_URGENT` (` 1.00`) - Wenn `BWP` ist>` ein dringender Alarm BWP_URGENT` ausgelöst.
-  * `BWP_SNOOZE_MINS` (` 10`) - Minuten verschoben werden, wenn es genügend IOB ist eine hohe BG zu decken.
+  Dieses Plugin hat erstens den Zweck, Alarme automatisch schlafen zu legen, wenn das CGM zwar hohe Blutzuckerwerte anzeigt, es aber noch ausreichend Insulin an Bord (IOB) gibt und zweitens, um Benutzer darauf hinzuweisen, dass es günstig sein könnte, den Blutzucker mit einem Blutzuckermessgerät zu bestimmen und Insulin laut Berechnung durch die Insulinpumpe oder wie von medizinischem Fachpersonal empfohlen abzugeben. *** Die vom Plugin zur Verfügung gestellten Werte sind als Hinweis gedacht basierend auf CGM-Daten und der Insulinempfindlichkeit, die du konfiguriert hast, sie sind nicht als Empfehlung für die Bolus-Berechnung gedacht. *** Das Plugin berechnet die Bolus-Menge, wenn der Wert über dem von dir angegebenen Zielwert liegt, erzeugt Alarme, wenn du Prüfung und die Abgabe eines Bolus in Betracht ziehen solltest, und Alarme snoozes, wenn genug IOB vorliegt, um eine hohe BG zu decken. Verwendet die Ergebnisse des `iob` Plugin und` sens`, `target_high` und` target_low` Felder aus dem [Behandlungsprofil] (# behandlungs Profil). Defaults, die mit angepasst werden können [erweiterte Einstellung] (# extended-Einstellungen)
+  * `BWP_WARN` (` 0.50`) - Wenn `BWP` größer ist als der ` BWP_WARN` wird ein Warnalarm ausgelöst.
+  * `BWP_URGENT` (` 1.00`) - Wenn `BWP` größer als dieser Wert ist, wird` ein dringender Alarm BWP_URGENT` ausgelöst.
+  * `BWP_SNOOZE_MINS` (` 10`) - Die Anzahl der Minuten, in der kein Alarm ausgelöst wird, wenn noch genügend IOB vorhanden ist, um eine hohe BG abzudecken.
   * `BWP_SNOOZE` - (` 0.10`) Wenn BG höher als die `target_high` und` BWP` < `BWP_SNOOZE` Alarme für` BWP_SNOOZE_MINS` werden snoozed ist.
   * 
   
 
-##### `Cage` (en: Cannula Age, de: Pumpen Kathetersetz - Alter)
-  Berechnet die Anzahl der Stunden seit dem letzten `Site Change` Behandlung, die aufgezeichnet wurde.
-  * `CAGE_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen aktivieren Sie über anstehende Kanüle Wechsel zu erinnern.
-  * `CAGE_INFO` (` 44`) - Wenn es die Zeit seit dem letzten `Website Change` Spiele` CAGE_INFO`, wird der Benutzer über bevorstehende Kanülenwechsel gewarnt werden
-  * `CAGE_WARN` (` 48`) - Wenn es die Zeit seit dem letzten `Website Change` Spiele` CAGE_WARN`, wird der Benutzer alarmiert werden, um die Kanüle zu ändern
-  * `CAGE_URGENT` (` 72`) - Wenn es die Zeit seit dem letzten `Website Change` Spiele` CAGE_URGENT`, wird der Benutzer eine ständige Warnung überfälliger Wechsel ausgestellt werden.
-  * `CAGE_DISPLAY` (` hours`) - Mögliche Werte "Stunden" oder "Tage" sind. Wenn "Tage" ausgewählt ist und das Alter der Kanüle größer ist als 24-Stunden-Zahl wird in Tagen angezeigt und Stunden
+##### `Cage` (en: Cannula Age, de: Pumpenkatheter Setz-Alter)
+  Berechnet die Anzahl der Stunden seit der letzten `Site Change` Behandlung, die aufgezeichnet wurde.
+  * `CAGE_ENABLE_ALERTS` (` false`) - Wenn du stattdessen auf `true` einstellst, kannst du dich an einen Katheterwechsel erinnern lassen.
+  * `CAGE_INFO` (` 44`) - Wenn die hinter ` CAGE_INFO` eingestellte Stundenanzahl mit der Zahl seit dem letzten `Website Change` übereinstimmt, wirst du an einen demnächst fälligen Katheterwechsel erinnert.
+  * `CAGE_WARN` (` 48`) - Wenn die hinter ` CAGE_WARN` eingestellte Stundenanzahl mit der Zeit seit dem letzten `Website Change` übereinstimmt, wirst du an den nun fälligen Katheterwechsel erinnert.
+  * `CAGE_URGENT` (` 72`) - Wenn die hinter ` CAGE_URGENT` eingestellte Stundenanzahl die Zeit seit dem letzten `Website Change` erreicht, wird eine dauerhafte Warnung ausgegeben, dass der Katheterwechsel überfällig ist.
+  * `CAGE_DISPLAY` (` hours`) - Mögliche Werte sind "Stunden" oder "Tage". Wenn "Tage" ausgewählt ist und das Alter des Katheters größer ist als 24-Stunden, wird in Tagen und Stunden angezeigt.
 
-##### `Sage` (Sensor Alter)
+##### `Sage` (Sensor-Alter)
   Berechnet die Anzahl der Tage und Stunden seit dem letzten `Sensor Starten` und` Sensor Change` Behandlung, die aufgezeichnet wurde.
   * `SAGE_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen aktivieren Sie über anstehende Sensorwechsel zu erinnern.
   * `SAGE_INFO` (` 144`) - Wenn es die Zeit seit dem Ereignis letzten Sensor passt `SAGE_INFO`, wird der Benutzer über anstehende Sensorwechsel gewarnt werden
