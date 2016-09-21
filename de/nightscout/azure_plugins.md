@@ -43,7 +43,7 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightscout Website gesetzt werden.
 
   * `MONGO_COLLECTION` (` entries`) - Diese Sammlung speichert SGV, MBG und CAL Aufzeichnungen von deinem CGM-Gerät
-  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) - Diese Sammlung speichert sog. treatments, die im Care Portal eingegeben worden sind, s.o. unter `ENABLE` env var
+  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) - Diese Sammlung speichert sog. treatments (Eingaben/Bearbeitungen), die im Care Portal eingegeben worden sind, s.o. unter `ENABLE` env var
   * `MONGO_DEVICESTATUS_COLLECTION` (` devicestatus`) - Diese Sammlung speichert Gerätestatusinformationen wie z.B. die Uploader Batterie
   * `MONGO_PROFILE_COLLECTION` (` Profile`) - Diese Sammlung speichert deine Profile
   * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung speichert deine Lebensmittel-Datenbank
@@ -125,7 +125,7 @@ Die Einstellungen sehen dann z.B. so aus:
 #### Erweiterte Plugins:
 
 ##### `Careportal` (Careportal)
-  Eine optionale Form, Treatments einzugeben.
+  Eine optionale Form, Eingaben zu machen.
 
 ##### `Boluscalc` (de: Bolus Rechner) 
   Nightscout berechnet anhand bestimmter Vorgaben die zu verabreichende Bolusmenge.
@@ -137,10 +137,10 @@ Die Einstellungen sehen dann z.B. so aus:
   Berechnet Roh Blutzuckerwerte mit Sensor und Kalibrierungsaufzeichnungen und zeigt alternative Werte mit Verzerrungspegel an.
 
 ##### `Iob` (en: Insulin-on-Board, de: Wirksames Insulin)
-  Fügt die IOB Pillbox Visualisierung im Browser ein und berechnet das noch wirksame Bolus Insulin, welches von anderen Plugins verwendet werden kann. Verwendet Treatments mit Insulindosen und der `dia` und` sens` Felder aus dem [Behandlungsprofil] (# behandlungs Profil).
+  Fügt die IOB Pillbox Visualisierung im Browser ein und berechnet das noch wirksame Bolus Insulin, welches von anderen Plugins verwendet werden kann. Verwendet Eingaben mit Insulindosen und der `dia` und` sens` Felder aus dem [Behandlungsprofil] (# behandlungs Profil).
 
 ##### `Cob` (Carbs-on-Board)
-  Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, die von anderen Plugins verwendet werden können. Verwendet Treatments mit carb Angaben und der `carbs_hr`,` carbratio` und `sens` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil).
+  Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, die von anderen Plugins verwendet werden können. Verwendet Eingaben (treatments) mit carb Angaben und der `carbs_hr`,` carbratio` und `sens` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil).
 
 ##### `Bwp` (BolusExpert Vorschau)
   Dieses Plugin hat erstens den Zweck, Alarme automatisch schlafen zu legen, wenn das CGM zwar hohe Blutzuckerwerte anzeigt, es aber noch ausreichend Insulin an Bord (IOB) gibt und zweitens, um Benutzer darauf hinzuweisen, dass es günstig sein könnte, den Blutzucker mit einem Blutzuckermessgerät zu bestimmen und Insulin laut Berechnung durch die Insulinpumpe oder wie von medizinischem Fachpersonal empfohlen abzugeben. *** Die vom Plugin zur Verfügung gestellten Werte sind als Hinweis gedacht basierend auf CGM-Daten und der Insulinempfindlichkeit, die du konfiguriert hast, sie sind nicht als Empfehlung für die Bolus-Berechnung gedacht. *** Das Plugin berechnet die Bolus-Menge, wenn der Wert über dem von dir angegebenen Zielwert liegt, erzeugt Alarme, wenn du Prüfung und die Abgabe eines Bolus in Betracht ziehen solltest, und Alarme snoozes, wenn genug IOB vorliegt, um eine hohe BG zu decken. Verwendet die Ergebnisse des `iob` Plugin und` sens`, `target_high` und` target_low` Felder aus dem [Behandlungsprofil] (# behandlungs Profil). Defaults, die mit angepasst werden können [erweiterte Einstellung] (# extended-Einstellungen)
@@ -152,26 +152,26 @@ Die Einstellungen sehen dann z.B. so aus:
   
 
 ##### `Cage` (en: Cannula Age, de: Pumpenkatheter Setz-Alter)
-  Berechnet die Anzahl der Stunden seit der letzten `Site Change` Behandlung, die aufgezeichnet wurde.
+  Berechnet die Anzahl der Stunden seit der letzten `Site Change` Eingabe/Bearbeitung, die aufgezeichnet wurde.
   * `CAGE_ENABLE_ALERTS` (` false`) - Wenn du stattdessen auf `true` einstellst, kannst du dich an einen Katheterwechsel erinnern lassen.
   * `CAGE_INFO` (` 44`) - Wenn die hinter ` CAGE_INFO` eingestellte Stundenanzahl mit der Zahl seit dem letzten `Website Change` übereinstimmt, wirst du an einen demnächst fälligen Katheterwechsel erinnert.
   * `CAGE_WARN` (` 48`) - Wenn die hinter ` CAGE_WARN` eingestellte Stundenanzahl mit der Zeit seit dem letzten `Website Change` übereinstimmt, wirst du an den nun fälligen Katheterwechsel erinnert.
-  * `CAGE_URGENT` (` 72`) - Wenn die hinter ` CAGE_URGENT` eingestellte Stundenanzahl die Zeit seit dem letzten `Website Change` erreicht, wird eine dauerhafte Warnung ausgegeben, dass der Katheterwechsel überfällig ist.
+  * `CAGE_URGENT` (` 72`) - Wenn die hinter ` CAGE_URGENT` eingestellte Stundenanzahl die Zeit seit dem letzten `Website Change` erreicht, wird von da ab eine dauerhafte Warnung ausgegeben, dass der Katheterwechsel überfällig ist.
   * `CAGE_DISPLAY` (` hours`) - Mögliche Werte sind "Stunden" oder "Tage". Wenn "Tage" ausgewählt ist und das Alter des Katheters größer ist als 24-Stunden, wird in Tagen und Stunden angezeigt.
 
 ##### `Sage` (Sensor-Alter)
-  Berechnet die Anzahl der Tage und Stunden seit dem letzten `Sensor Starten` und` Sensor Change` treatment, das aufgezeichnet wurde.
+  Berechnet die Anzahl der Tage und Stunden seit der letzten `Sensor Starten` und` Sensor Change` Eingabe/Bearbeitung, die aufgezeichnet wurde.
   * `SAGE_ENABLE_ALERTS` (` false`) - Stattdessen auf `true` eingestellt, kannst du dich an einen Sensorwechsel erinnern lassen.
   * `SAGE_INFO` (` 144`) - Wenn die hinter `SAGE_INFO` eingestellte Stundenanzahl mit der Zeit seit dem letzten dokumentierten Sensorwechsel bzw. Sensorstart übereinstimmt, wirst du an einen demnächst fälligen Sensorwechsel erinnert.
   * `SAGE_WARN` (` 164`) - Wenn die hinter `SAGE_WARN` eingestellte Stundenanzahl mit der Zeit seit dem letzten Sensorwechsel bzw. -start übereinstimmt, wirst du an den nun fälligen Sensorwechsel oder -neustart erinnert.
   * `SAGE_URGENT` (` 166`) - Wenn die hinter `SAGE_URGENT` eingestellte Stundenanzahl erreicht ist, wird der Benutzer dauerhaft an einen überfälligen Wechsel/Neustart erinnert.
 
-##### `Iage` (Insulin Alter)
-  Berechnet die Anzahl der Tage und Stunden seit dem letzten `Insulin Change` Behandlung, die aufgezeichnet wurde.
-  * `IAGE_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen aktivieren Sie über anstehende Insulinreservoir Veränderung zu erinnern.
-  * `IAGE_INFO` (` 44`) - Wenn es die Zeit seit dem letzten `Insulin Change` Spiele` IAGE_INFO`, wird der Benutzer über bevorstehende Insulinbehälter Änderung gewarnt werden
-  * `IAGE_WARN` (` 48`) - Wenn es die Zeit seit dem letzten `Insulin Change` Spiele` IAGE_WARN`, wird der Benutzer alarmiert werden, um auf die Insulin-Reservoir ändern
-  * `IAGE_URGENT` (` 72`) - Wenn es die Zeit seit dem letzten `Insulin Change` Spiele` IAGE_URGENT`, wird der Benutzer eine ständige Warnung überfälliger Wechsel ausgestellt werden.
+##### `Iage` (Insulin-Alter)
+  Berechnet die Anzahl der Tage und Stunden seit der letzten `Insulin Change` Eingabe, die aufgezeichnet wurde.
+  * `IAGE_ENABLE_ALERTS` (` false`) - Stattdessen auf `true` eingestellt, kannst du dich an einen Insulinreservoirwechsel erinnern lassen.
+  * `IAGE_INFO` (` 44`) - Wenn die hinter ` IAGE_INFO` eingestellte Stundenanzahl mit der Zeit seit dem letzten dokumentierten `Insulin Change` übereinstimmt, wirst du an einen demnächst fälligen Reservoirwechsel erinnert.
+  * `IAGE_WARN` (` 48`) - Wenn die hinter ` IAGE_WARN` eingestellte Stundenanzahl mit der Zeit seit dem letzten `Insulin Change` übereinstimmt, wirst du an den nun fälligen Reservoirwechsel erinnert.
+  * `IAGE_URGENT` (` 72`) - Wenn die hinter ` IAGE_URGENT` eingestellte Stundenanzahl mit der dokumentierten `Insulin Change` Stundenanzahl übereinstimmt, wirst du dauerhaft an einen überfälligen Reservoirwechsel erinnert.
 
 ##### `Treatmentnotify` (Behandlung Benachrichtigungen)
   Werden Benachrichtigungen generiert, wenn eine Behandlung eingegeben wurde und snoozes Alarme Minuten nach einer Behandlung. Standard Schlummer ist 10 Minuten und kann die `TREATMENTNOTIFY_SNOOZE_MINS` [Erweiterte Einstellung] (# extended-Einstellungen) eingestellt werden.
