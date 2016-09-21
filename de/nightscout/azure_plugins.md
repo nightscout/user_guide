@@ -160,11 +160,11 @@ Die Einstellungen sehen dann z.B. so aus:
   * `CAGE_DISPLAY` (` hours`) - Mögliche Werte sind "Stunden" oder "Tage". Wenn "Tage" ausgewählt ist und das Alter des Katheters größer ist als 24-Stunden, wird in Tagen und Stunden angezeigt.
 
 ##### `Sage` (Sensor-Alter)
-  Berechnet die Anzahl der Tage und Stunden seit dem letzten `Sensor Starten` und` Sensor Change` Behandlung, die aufgezeichnet wurde.
-  * `SAGE_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen aktivieren Sie über anstehende Sensorwechsel zu erinnern.
-  * `SAGE_INFO` (` 144`) - Wenn es die Zeit seit dem Ereignis letzten Sensor passt `SAGE_INFO`, wird der Benutzer über anstehende Sensorwechsel gewarnt werden
-  * `SAGE_WARN` (` 164`) - Wenn es die Zeit seit dem Ereignis letzten Sensor passt `SAGE_WARN`, wird der Benutzer alarmiert werden / zu ändern starten Sie den Sensor
-  * `SAGE_URGENT` (` 166`) - Wenn es die Zeit seit dem Ereignis letzten Sensor `SAGE_URGENT` übereinstimmt, wird der Benutzer eine ständige Warnung überfälliger Wechsel ausgestellt werden.
+  Berechnet die Anzahl der Tage und Stunden seit dem letzten `Sensor Starten` und` Sensor Change` treatment, das aufgezeichnet wurde.
+  * `SAGE_ENABLE_ALERTS` (` false`) - Stattdessen auf `true` eingestellt, kannst du dich an einen Sensorwechsel erinnern lassen.
+  * `SAGE_INFO` (` 144`) - Wenn die hinter `SAGE_INFO` eingestellte Stundenanzahl mit der Zeit seit dem letzten dokumentierten Sensorwechsel bzw. Sensorstart übereinstimmt, wirst du an einen demnächst fälligen Sensorwechsel erinnert.
+  * `SAGE_WARN` (` 164`) - Wenn die hinter `SAGE_WARN` eingestellte Stundenanzahl mit der Zeit seit dem letzten Sensorwechsel bzw. -start übereinstimmt, wirst du an den nun fälligen Sensorwechsel oder -neustart erinnert.
+  * `SAGE_URGENT` (` 166`) - Wenn die hinter `SAGE_URGENT` eingestellte Stundenanzahl erreicht ist, wird der Benutzer dauerhaft an einen überfälligen Wechsel/Neustart erinnert.
 
 ##### `Iage` (Insulin Alter)
   Berechnet die Anzahl der Tage und Stunden seit dem letzten `Insulin Change` Behandlung, die aufgezeichnet wurde.
