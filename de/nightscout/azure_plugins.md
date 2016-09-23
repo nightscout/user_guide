@@ -43,7 +43,7 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightscout Website gesetzt werden.
 
   * `MONGO_COLLECTION` (` entries`) - Diese Sammlung speichert SGV, MBG und CAL Aufzeichnungen von deinem CGM-Gerät
-  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) - Diese Sammlung speichert sog. treatments (Eingaben/Bearbeitungen), die im Care Portal eingegeben worden sind, s.o. unter `ENABLE` env var
+  * `MONGO_TREATMENTS_COLLECTION` (` treatments`) - Diese Sammlung speichert sog. treatments (eingegebene Therapiemaßnahmen oder kurz: Eingaben), die im Care Portal eingegeben worden sind, s.o. unter `ENABLE` env var
   * `MONGO_DEVICESTATUS_COLLECTION` (` devicestatus`) - Diese Sammlung speichert Gerätestatusinformationen wie z.B. die Uploader Batterie
   * `MONGO_PROFILE_COLLECTION` (` Profile`) - Diese Sammlung speichert deine Profile
   * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung speichert deine Lebensmittel-Datenbank
@@ -94,7 +94,7 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
 
 ### Vordefinierte Werte für Browser-Einstellungen (optional)
 
-Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App aus immer die gleichen Einstellungen hat. Machen wir dies nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
+Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App aus immer die gleichen Einstellungen hat. Machen wir dies nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen ggf. immer wieder neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
 
   * `TIME_FORMAT` (` 12`) - mögliche Werte `12` oder` 24`
   * `NIGHT_MODE` (` off`) - mögliche Werte `on` oder` off`
@@ -112,7 +112,7 @@ Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen spe
     * Die Standard `log` (logarithmisch) Option lässt mehr Details im unteren Bereich zu , während immer noch der volle CGM Bereich angezeigt wird.
     * Die `linear` Option hat im gleichen Abstand Markierungen , der verwendete Bereich ist dynamisch, so dass kein Platz an der Spitze des Diagramms verschwendet wird.
     * Die `log-dynamic` ist der Standard` log` Option ähnlich und verwendet den gleichen dynamischen Bereich, aber die `linear` Skala.
-  * `EDIT_MODE` (` on`) - mögliche Werte `on` oder` off`. Aktivieren oder deaktivieren des Symbols, das den Bearbeitungsmodus der Eingabe von Treatments ermöglicht.
+  * `EDIT_MODE` (` on`) - mögliche Werte `on` oder` off`. Aktivieren oder deaktivieren des Symbols, das den Bearbeitungsmodus der treatments (Behandlungsmaßnahmen) ermöglicht.
 
 
 Nach Eingabe der Daten das **Speichern** nicht vergessen.
@@ -125,7 +125,7 @@ Die Einstellungen sehen dann z.B. so aus:
 #### Erweiterte Plugins:
 
 ##### `Careportal` (Careportal)
-  Eine optionale Form, Eingaben zu machen.
+  Eine optionale Form, Therapiemaßnahmen einzugeben.
 
 ##### `Boluscalc` (de: Bolus Rechner) 
   Nightscout berechnet anhand bestimmter Vorgaben die zu verabreichende Bolusmenge.
@@ -174,7 +174,7 @@ Die Einstellungen sehen dann z.B. so aus:
   * `IAGE_URGENT` (` 72`) - Wenn die hinter ` IAGE_URGENT` eingestellte Stundenanzahl mit der dokumentierten `Insulin Change` Stundenanzahl übereinstimmt, wirst du dauerhaft an einen überfälligen Reservoirwechsel erinnert.
 
 ##### `Treatmentnotify` (Behandlung Benachrichtigungen)
-  Werden Benachrichtigungen generiert, wenn eine Behandlung eingegeben wurde und snoozes Alarme Minuten nach einer Behandlung. Standard Schlummer ist 10 Minuten und kann die `TREATMENTNOTIFY_SNOOZE_MINS` [Erweiterte Einstellung] (# extended-Einstellungen) eingestellt werden.
+  Erzeugt Benachrichtigungen, wenn eine Therapiemaßnahme eingegeben wurde, und legt Alarme für bestimmte Minuten nach einer Eingabe schlafen. Die Standardeinstellung ist 10 Minuten und kann über `TREATMENTNOTIFY_SNOOZE_MINS` [Erweiterte Einstellung] (# extended-Einstellungen) verändert werden.
 
 ##### `Basal` (Basal-Profil)
   Fügt die Basal Pillbox Visualisierung die Basalrate für die aktuelle Zeit anzuzeigen. Auch ermöglicht die `bwp` Plugin Korrektur Temp Basal Vorschläge zu berechnen. Verwendet das `basal` Feld aus dem [Behandlungsprofil] (# behandlungs Profil). Auch nutzt die erweiterte Einstellung:
