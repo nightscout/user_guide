@@ -177,67 +177,67 @@ Die Einstellungen sehen dann z.B. so aus:
   Erzeugt Benachrichtigungen, wenn eine Therapiemaßnahme eingegeben wurde, und legt Alarme für bestimmte Minuten nach einer Eingabe schlafen. Die Standardeinstellung ist 10 Minuten und kann über `TREATMENTNOTIFY_SNOOZE_MINS` [Erweiterte Einstellung] (# extended-Einstellungen) verändert werden.
 
 ##### `Basal` (Basal-Profil)
-  Fügt die Basal Pillbox Visualisierung die Basalrate für die aktuelle Zeit anzuzeigen. Auch ermöglicht die `bwp` Plugin Korrektur Temp Basal Vorschläge zu berechnen. Verwendet das `basal` Feld aus dem [Behandlungsprofil] (# behandlungs Profil). Auch nutzt die erweiterte Einstellung:
-  * `BASAL_RENDER` (` none`) - Mögliche Werte sind `none`,` default` oder `icicle` (invertiert)
+  Fügt ein Textfeld, eine sog. Pillbox, für das Basalinsulin ein, in dem du die aktuelle Basalrate ablesen kannst. Außerdem ermöglicht es dem `bwp` Plugin, Vorschläge für eine temporäre Basalkorrektur zu berechnen. Verwendet das `basal` Feld aus dem [Behandlungsprofil] (# behandlungs Profil). Es nutzt auch die erweiterte Einstellung:
+  * `BASAL_RENDER` (` none`) - Mögliche Werte sind `none`,` default` oder `icicle` (invertiert, auf den Kopf gestellt)
 
 ##### `Bridge` (Share2Nightscout Brücke)
-Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird über diesen Weg konfiguriert. Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABLE ind den App-Einstellungen hinzufügen. Die Einstellungen erfolgen über die `Connection Strings`. 
-  * `BRIDGE_USER_NAME` - Ihr Benutzername für den Share-Dienst.
-  * `BRIDGE_PASSWORD` - Ihr Passwort für den Share-Dienst.
-  * `BRIDGE_INTERVAL` (` 150000` * 2,5 Minuten *) - Die Zeit zwischen jedem Update zu warten.
-  * `BRIDGE_MAX_COUNT` ( '1') - Die maximale Anzahl der Datensätze pro Update zu holen.
-  * `BRIDGE_FIRST_FETCH_COUNT` (` 3`) - Ändert max Zählung während der ersten Update nur.
-  * `BRIDGE_MAX_FAILURES` (` 3`) - Wie viele Ausfälle, bevor er aufgibt.
-  * `BRIDGE_MINUTES` (` 1400`) - Das Zeitfenster für neue Daten pro Update zu suchen (Standard ist ein Tag in Minuten).
+Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird über diesen Weg konfiguriert. Um die Bridge Funktionalität nutzen zu können, müssen wir **bridge** zu ENABLE in den App-Einstellungen hinzufügen. Die Einstellungen erfolgen über die `Connection Strings`. 
+  * `BRIDGE_USER_NAME` - Dein Benutzername für den Share-Dienst
+  * `BRIDGE_PASSWORD` - Dein Passwort für den Share-Dienst
+  * `BRIDGE_INTERVAL` (` 150000` * 2,5 Minuten *) - Die Wartezeit zwischen den Updates
+  * `BRIDGE_MAX_COUNT` ( '1') - Die maximale Anzahl der Datensätze pro Update
+  * `BRIDGE_FIRST_FETCH_COUNT` (` 3`) - Ändert Brigde_Max_Count nur während des ersten Updates
+  * `BRIDGE_MAX_FAILURES` (` 3`) - Die Anzahl der Fehlversuche, bevor aufgegeben wird
+  * `BRIDGE_MINUTES` (` 1400`) - Das Zeitfenster für die Suche nach neuen Updates (Standard ist ein Tag in Minuten)
 
 ##### `Mmconnect` (MiniMed Connect-Brücke)
-  Übertragen Sie in Echtzeit MiniMed Connect Daten vom Medtronic Carelink-Server in Nightscout ([mehr lesen] (https://github.com/mddub/minimed-connect-to-nightscout))
-  * `MMCONNECT_USER_NAME` - Ihr Benutzername für CareLink® Connect.
-  * `MMCONNECT_PASSWORD` - Ihr Passwort für CareLink® Connect.
-  * `MMCONNECT_INTERVAL` (` 60000` * 1 Minute *) - Anzahl der Millisekunden zwischen den Anforderungen an den CareLink® Server zu warten.
-  * `MMCONNECT_MAX_RETRY_DURATION` (` 32`) - Maximale Gesamtanzahl Sekunden, bevor er aufgibt erneuten Versuch fehlgeschlagenen Anfragen zu verbringen.
-  * `MMCONNECT_SGV_LIMIT` (` 24`) - Maximale Anzahl der letzten Werte Sensor Glucose zu Night auf jede Anfrage zu senden.
-  * `MMCONNECT_VERBOSE` - Setzen Sie dies auf" true "CareLink® Anfrage Informationen an die Konsole anzumelden.
-  * `MMCONNECT_STORE_RAW_DATA` - Setzen Sie dies auf" true "Rohdaten zu speichern zurückgegeben von CareLink® als` Typ: "carelink_raw" `Datenbankeinträge (nützlich für die Entwicklung).
+  Überträgt Echtzeit MiniMed Connect Daten vom Medtronic Carelink-Server an Nightscout ([mehr lesen] (https://github.com/mddub/minimed-connect-to-nightscout))
+  * `MMCONNECT_USER_NAME` - Dein Benutzername für CareLink® Connect
+  * `MMCONNECT_PASSWORD` - Dein Passwort für CareLink® Connect
+  * `MMCONNECT_INTERVAL` (` 60000` * 1 Minute *) - Anzahl der Millisekunden zwischen den einzelnen Anfragen an den CareLink® Server
+  * `MMCONNECT_MAX_RETRY_DURATION` (` 32`) - Maximale Gesamtanzahl der Sekunden, nach denen bei fehlgeschlagenen Anfragen aufgegeben wird
+  * `MMCONNECT_SGV_LIMIT` (` 24`) - Maximale Anzahl der letzten Sensorwerte, die bei jeder Anfrage gesendet werden
+  * `MMCONNECT_VERBOSE` - Setze dies auf" true ", um Informationen über CareLink® Anfragen auf der Konsole wiederzugeben.
+  * `MMCONNECT_STORE_RAW_DATA` - Setze dies auf" true ", um Rohdaten zu speichern, die von CareLink® als` Typ: "carelink_raw" `Datenbankeinträge zurück kommen (nützlich für die Entwicklung).
 
 ##### `Pump` (Pumpenüberwachung)
-  Generisches Pumpenüberwachung für OpenAPS, MiniMed Connect, RileyLink, t: schlank, mit mehr auf dem Weg
-  * Erfordert `DEVICESTATUS_ADVANCED =" true "` gesetzt werden
-  * `PUMP_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen für Pump-Akku und Reservoir zu ermöglichen.
-  * `PUMP_FIELDS` (` Reservoir battery`) - Die Felder standardmäßig angezeigt werden soll. Jede der folgenden Felder aus: `reservoir`,` battery`, `clock`,` status` und `device`
-  * `PUMP_RETRO_FIELDS` (` Reservoir Batterie clock`) - Die Felder im Retro-Modus angezeigt werden soll. Jede der oben genannten Bereichen.
-  * `PUMP_WARN_CLOCK` (` 30`) - Die Anzahl der Minuten vor, die vor ein Alarm ausgelöst wird, nicht überschreiten werden muss.
-  * `PUMP_URGENT_CLOCK` (` 60`) - Die Anzahl der Minuten vor, die vor ein dringender Alarm ausgelöst wird überschreiten werden muss.
-  * `PUMP_WARN_RES` (` 10`) - Die Anzahl der verbliebenen Einheiten, wird eine Warnung ausgelöst werden, wenn unter dieser Schwelle fällt.
-  * `PUMP_URGENT_RES` ( '5') - Die Anzahl der Einheiten bleibt, wird ein dringender Alarm ausgelöst werden, wenn unter dieser Schwelle fällt.
-  * `PUMP_WARN_BATT_P` (` 30`) - Die% der Pumpe verbleibende Batterie, wird eine Warnung ausgelöst werden, wenn unter dieser Schwelle fällt.
-  * `PUMP_URGENT_BATT_P` (` 20`) - Die% der Pumpe Batterie bleibt, wird ein dringender Alarm ausgelöst werden, wenn unter dieser Schwelle fällt.
-  * `PUMP_WARN_BATT_V` (` 1.35`) - Die Spannung der Pumpe Batterie (falls Prozent nicht verfügbar ist), wird eine Warnung ausgelöst werden, wenn unter dieser Schwelle fällt.
-  * `PUMP_URGENT_BATT_V` (` 1.30`) - Die Spannung der Pumpe Batterie (falls Prozent nicht verfügbar ist), wird ein dringender Alarm ausgelöst werden, wenn unter dieser Schwelle fällt.
+  Allgemeingültige Pumpenüberwachung für OpenAPS, MiniMed Connect, RileyLink, t:slim, mit mehr auf dem Weg
+  * Erfordert `DEVICESTATUS_ADVANCED =" true "` 
+  * `PUMP_ENABLE_ALERTS` (` false`) - Auf `true` werden Anzeigen über die Pumpenbatterie und das -reservoir bereitgestellt.
+  * `PUMP_FIELDS` (` reservoir battery`) - Diese Felder werden standardmäßig angezeigt. Wähle aus: `reservoir`,` battery`, `clock`,` status` und `device`
+  * `PUMP_RETRO_FIELDS` (` reservoir battery clock`) - Die Textfelder, die im Retro-Modus angezeigt werden. Jede der oben genannten Möglichkeiten.
+  * `PUMP_WARN_CLOCK` (` 30`) - Die Anzahl der Minuten, die verstrichen sein müssen, bevor ein Alarm ausgelöst wird
+  * `PUMP_URGENT_CLOCK` (` 60`) - Die Anzahl der Minuten, die verstrichen sein müssen, bevor ein dringender Alarm ausgelöst wird
+  * `PUMP_WARN_RES` (` 10`) - Bei Unterschreiten der ausgewählten Insulinrestmenge im Reservoir wird eine Warnung ausgelöst.
+  * `PUMP_URGENT_RES` ( '5') - Bei Unterschreiten der ausgewählten Insulinrestmenge wird ein dringender Alarm ausgelöst.
+  * `PUMP_WARN_BATT_P` (` 30`) - Bei Unterschreiten der ausgewählten Restleistung der Pumpenbatterie in % wird eine Warnung ausgelöst.
+  * `PUMP_URGENT_BATT_P` (` 20`) - Bei Unterschreiten der ausgewählten Restleistung der Batterie in % wird ein dringender Alarm ausgelöst.
+  * `PUMP_WARN_BATT_V` (` 1.35`) - Bei Unterschreiten der ausgewählten Restleistung der Pumpenbatterie in Voltzahl (falls Prozent nicht verfügbar ist) wird eine Warnung ausgelöst.
+  * `PUMP_URGENT_BATT_V` (` 1.30`) - Bei Unterschreiten der ausgewählten Restleistung der Batterie in Voltzahl (falls Prozent nicht verfügbar ist) wird ein dringender Alarm ausgelöst.
 
 ##### `Openaps` (OpenAPS)
-  Integrierte OpenAPS Kreisüberwachung nutzt diese erweiterten Einstellungen:
-  * Erfordert `DEVICESTATUS_ADVANCED =" true "` gesetzt werden
-  * `OPENAPS_ENABLE_ALERTS` (` false`) - Auf `true` Benachrichtigungen zu aktivieren, wenn OpenAPS nicht Looping. Wenn OpenAPS für einen bestimmten Zeitraum zu offline geht, können Sie eine `OpenAPS Offline` Ereignis für die erwartete Dauer von Careportal hinzufügen zu vermeiden Warnungen bekommen.
-  `* OPENAPS_WARN` (` 30`) - Die Anzahl der Minuten seit der letzten Schleife, die nicht überschreiten werden muss, bevor ein Alarm ausgelöst wird,
-  `* OPENAPS_URGENT` (` 60`) - Die Anzahl der Minuten seit der letzten Schleife, die nicht überschreiten werden muss, bevor ein dringender Alarm ausgelöst wird
-  * `OPENAPS_FIELDS` (` Status-Symbol Status-Label iob Mahlzeit-assist rssi`) - Die Felder standardmäßig angezeigt werden soll. Jede der folgenden Felder: `Status-symbol`,` Status-label`, `iob`,` Mahlzeit-assist`, `freq` und` rssi`
-  * `OPENAPS_RETRO_FIELDS` (` Status-Symbol Status-Label iob Mahlzeit-assist rssi`) - Die Felder im Retro-Modus angezeigt werden soll. Jede der oben genannten Bereichen.
+  Integrierte OpenAPS Loopüberwachung nutzt diese erweiterten Einstellungen:
+  * `DEVICESTATUS_ADVANCED =" true "` muss gesetzt werden
+  * `OPENAPS_ENABLE_ALERTS` (` false`) - Auf `true` setzen, um benachrichtigt zu werden, wenn OpenAPS nicht loopt. Wenn du mit OpenAPS für einen bestimmten Zeitraum offline gehst, kannst du ein `OpenAPS Offline` Ereignis für die erwartete Dauer vom Careportal aus hinzufügen, um Warnmeldungen zu vermeiden.
+  `* OPENAPS_WARN` (` 30`) - Die Anzahl der Minuten seit dem letzten Loop, die überschreiten werden muss, bevor ein Alarm ausgelöst wird
+  `* OPENAPS_URGENT` (` 60`) - Die Anzahl der Minuten seit dem letzten Loop, die überschreiten werden muss, bevor ein dringender Alarm ausgelöst wird
+  * `OPENAPS_FIELDS` (` status-symbol status-label iob meal-assist rssi`) - Die standardmäßig angezeigten Textfelder. Jedes der folgenden Felder ist möglich: `status-symbol`,` status-label`, `iob`,` meal-assist`, `freq` und` rssi`
+  * `OPENAPS_RETRO_FIELDS` (` status-symbol status-label iob meal-assist rssi`) - Die Felder, die im Retro-Modus angezeigt werden sollen. Jede der oben genannten Möglichkeiten.
 
 
 #### Pushover
-  Zusätzlich zu den normalen web-basierten Alarmen ist auch die Unterstützung für [Pushover] Alarme (https://pushover.net/) möglich.
-  Um zu beginnen installieren wir die Pushover-Anwendung auf Ihrem iOS oder Android-Gerät und erstellen ein Konto .
+  Zusätzlich zu den normalen web-basierten Alarmen können auch [Pushover] Alarme (https://pushover.net/) eingerichtet werden.
+  Zuerst installierst du die Pushover-Anwendung auf deinem iOS oder Android-Gerät und erstellst ein Konto .
 
-  Mit diesem Konto Login [Pushover] (https://pushover.net/), in der oberen linken Seite erstellen wir unseren User Key, sowie ein Anwendungs API Token / Schlüssel, um dieses Setup abzuschließen.
+  Mit diesem Konto Login bei [Pushover] (https://pushover.net/), oben links, erstellst du deinen User Key, sowie ein Anwendungs API Token / Schlüssel, um dieses Setup abzuschließen.
 
-  Wir müssen auf [Erstellen eines Pushover Application] (https://pushover.net/apps/build). Wir benötigen nur den Namen der Anwendung, um zu installieren, alle anderen Einstellungen können wir ignorieren.
+  Du musst auf [Erstellen eines Pushover Application] (https://pushover.net/apps/build). Du benötigst nur einen Namen für die Anwendung, um sie zu installieren, alle anderen Einstellungen kannst du ignorieren.
 
   Pushover ist mit folgenden Umgebungsvariablen konfiguriert:
   
-  * `ENABLE` -` pushover` sollte in die Liste der Plugin hinzugefügt werden, zum Beispiel: `ENABLE =" Pushover "`.
-  * `PUSHOVER_API_TOKEN` - Gebrauchte Pushover Benachrichtigungen zu ermöglichen, ist dieses Token an die Anwendung aus dem in [Pushover] erstellen (https://pushover.net/) spezifisch, *** [zusätzliche Pushover Informationen] (# Pushover) ** * unten.
-  * `PUSHOVER_USER_KEY` - Ihre Pushover Benutzerschlüssel können in der oberen linken Ecke des [Pushover] (https://pushover.net/) Seite gefunden werden, kann dies auch ein Pushover Liefergruppe der Schlüssel zu einer Gruppe zu senden, anstatt nur ein einzelner Benutzer. Dies unterstützt auch einen Raum getrennte Liste von Schlüsseln. So deaktivieren Sie `INFO` Ebene drückt gesetzt, dies zu` off`.
+  * `ENABLE` -` pushover` sollte zu der Liste der Plugins hinzugefügt werden, zum Beispiel: `ENABLE =" Pushover "`.
+  * `PUSHOVER_API_TOKEN` - Um Pushover Benachrichtigungen zu ermöglichen, ist dieses Token speziell für deine erstellte Anwendung [Pushover] (https://pushover.net/) *** [zusätzliche Pushover Informationen] (# Pushover) ** * unten.
+  * `PUSHOVER_USER_KEY` - Deinen Pushover Benutzerschlüssel findest du in der oberen linken Ecke der [Pushover] (https://pushover.net/) Seite. Es kann sich dabei auch um einen Benutzerschlüssel für eine Pushover delivery group statt für einen einzelnen Benutzer handeln. Dies unterstützt auch einen Raum getrennte Liste von Schlüsseln. So deaktivieren Sie `INFO` Ebene drückt gesetzt, dies zu` off`.
    * `PUSHOVER_ALARM_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Alarme (Ebene>` WARN`) verwendet werden. Wenn nicht definiert ist, wird dies auf `PUSHOVER_USER_KEY` Rückfall. Eine mögliche Verwendung für diese sendet wichtige Meldungen und Alarme an einen CWD, die Sie wollen nicht zu alle Benachrichtigungen zu senden. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Alarm drückt setzen Sie dies auf `off`.
   * `PUSHOVER_ANNOUNCEMENT_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Benutzer erzeugt Ankündigungen verwendet werden. Wenn nicht definiert ist, wird dieser Rückfall auf `PUSHOVER_USER_KEY` oder` PUSHOVER_ALARM_KEY`. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Ankündigung drückt setzen Sie dies auf `off`.
   * `BASE_URL` - Für Pushover Rückrufe, in der Regel die URL Ihrer Website Night, https verwenden, wenn möglich.
