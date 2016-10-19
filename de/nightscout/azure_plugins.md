@@ -229,9 +229,9 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
   Zusätzlich zu den normalen web-basierten Alarmen können auch [Pushover] Alarme (https://pushover.net/) eingerichtet werden.
   Zuerst installierst du die Pushover-Anwendung auf deinem iOS oder Android-Gerät und erstellst ein Konto .
 
-  Mit diesem Konto Login bei [Pushover] (https://pushover.net/), oben links, erstellst du deinen User Key, sowie ein Anwendungs API Token / Schlüssel, um dieses Setup abzuschließen.
+  Beim Konto Login in [Pushover] (https://pushover.net/) findest du oben links deinen User Key, du benötigst diesen Key und einen Anwendungs API Token / Schlüssel, um dieses Setup abzuschließen.
 
-  Du musst auf [Erstellen eines Pushover Application] (https://pushover.net/apps/build). Du benötigst nur einen Namen für die Anwendung, um sie zu installieren, alle anderen Einstellungen kannst du ignorieren.
+  Gehe auf [Erstellen eines Pushover Application] (https://pushover.net/apps/build). Du benötigst nur einen Namen für die Anwendung, um sie zu installieren, alle anderen Einstellungen kannst du ignorieren.
 
   Pushover ist mit folgenden Umgebungsvariablen konfiguriert:
   
