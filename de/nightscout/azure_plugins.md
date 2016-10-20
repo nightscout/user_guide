@@ -237,32 +237,32 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
   
   * `ENABLE` -` pushover` sollte zu der Liste der Plugins hinzugefügt werden, zum Beispiel: `ENABLE =" Pushover "`.
   * `PUSHOVER_API_TOKEN` - Um Pushover Benachrichtigungen zu ermöglichen, ist dieses Token speziell für deine erstellte Anwendung [Pushover] (https://pushover.net/) *** [zusätzliche Pushover Informationen] (# Pushover) ** * unten.
-  * `PUSHOVER_USER_KEY` - Deinen Pushover Benutzerschlüssel findest du in der oberen linken Ecke der [Pushover] (https://pushover.net/) Seite. Es kann sich dabei auch um einen Benutzerschlüssel für eine Pushover delivery group statt für einen einzelnen Benutzer handeln. Dies unterstützt auch einen Raum getrennte Liste von Schlüsseln. Um `INFO` Level pushes zu deaktivieren, stelle dies auf` off`.
+  * `PUSHOVER_USER_KEY` - Deinen Pushover Benutzerschlüssel findest du in der oberen linken Ecke der [Pushover] (https://pushover.net/) Seite. Es kann sich dabei auch um einen Benutzerschlüssel für eine Pushover delivery group statt für einen einzelnen Benutzer handeln. Dies unterstützt auch eine durch Leerzeichen getrennte Liste von Schlüsseln. Um `INFO` Level pushes zu deaktivieren, stelle dies auf` off`.
    * `PUSHOVER_ALARM_KEY` - Ein optionaler Pushover Benutzer- / Gruppenschlüssel wird für systemweite Alarme (level>` WARN`) verwendet. Wenn hier nichts definiert ist, wird ersatzweise auf `PUSHOVER_USER_KEY` zurückgegriffen. Eine mögliche Verwendung für dies ist, wichtige Meldungen und Alarme an einen CWD zu senden, an den du nicht alle Benachrichtigungen senden möchtest. Auch dies unterstützt eine durch Leerzeichen getrennte Liste von Schlüsseln. Zum Deaktivieren der Alarmpushes setze dies auf `off`.
-  * `PUSHOVER_ANNOUNCEMENT_KEY` - Eine optionale Pushover Benutzer / Gruppenschlüssel wird für systemweite Benutzer erzeugt Ankündigungen verwendet werden. Wenn nicht definiert ist, wird dieser Rückfall auf `PUSHOVER_USER_KEY` oder` PUSHOVER_ALARM_KEY`. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen. Zum Deaktivieren der Ankündigung drückt setzen Sie dies auf `off`.
+  * `PUSHOVER_ANNOUNCEMENT_KEY` - Ein optionaler Pushover Benutzer- / Gruppenschlüssel wird für systemweite vom Benutzer erzeugte Ankündigungen verwendet. Wenn hier nichts definiert ist, wird auf `PUSHOVER_USER_KEY` oder` PUSHOVER_ALARM_KEY`zurückgegriffen. Dies unterstützt ebenfalls eine durch Leerzeichen getrennte Liste von Schlüsseln. Zum Deaktivieren setzt du dies auf `off`.
   * `BASE_URL` - Wird für Pushover Rückrufe genutzt, in der Regel die URL deiner Nightscout Website, verwende dafür möglichst https.
-  * `API_SECRET` - verwendet, um die Pushover Rückrufanfrage für Bestätigungen für Ihre Anmeldung.
+  * `API_SECRET` - wird für die Pushover Rückrufanfrage als Bestätigungen verwendet für deine Identifizierung.
 
-   Wenn Sie noch nie Infoebene Benachrichtigungen (Behandlungen) erhalten möchten verwenden `PUSHOVER_USER_KEY =" off "`
-   Wenn Sie nie einen Alarm über Pushover Verwendung zu erhalten `PUSHOVER_ALARM_KEY =" off "`
-   Wenn Sie nie eine Ansage über Pushover Verwendung zu erhalten `PUSHOVER_ANNOUNCEMENT_KEY =" off "`
+   Wenn du keine Infolevel Benachrichtigungen (treatments, Therapiemaßnahmen) erhalten möchtest, verwende `PUSHOVER_USER_KEY =" off "`
+   Wenn du keinen Alarm über Pushover erhalten möchtest, verwende `PUSHOVER_ALARM_KEY =" off "`
+   Wenn du keine Mitteilung über Pushover erhalten möchtest, verwende `PUSHOVER_ANNOUNCEMENT_KEY =" off "`
   
-  Wenn nur `PUSHOVER_USER_KEY` gesetzt ist, wird es für alle Info-Benachrichtigungen, Alarme verwendet werden und Ankündigungen
+  Wenn nur `PUSHOVER_USER_KEY` gesetzt ist, wird es für alle Info-Benachrichtigungen, Alarme und Mitteilungen verwendet werden.
 
-  Für den Test / Entwicklung versuchen [localtunnel] (http://localtunnel.me/).
+  Für Test / Entwicklung versuche [localtunnel] (http://localtunnel.me/).
     
     
  
  #### IFTTT Maker
- Zusätzlich zu den normalen web-basierten Alarme und Pushover, gibt es auch die Integration für [IFTTT Maker] (https://ifttt.com/maker).
+ Zusätzlich zu den normalen web-basierten Alarmen und zu Pushover, gibt es auch die Integration für [IFTTT Maker] (https://ifttt.com/maker).
   
- Mit Maker Sie mit allen anderen [IFTTT Kanäle] (https://ifttt.com/channels) sind in der Lage zu integrieren. Zum Beispiel können Sie einen Tweet senden, wenn es eine Warnung gibt, die Farbe des Farbtons Licht zu ändern, eine E-Mail, SMS senden und zu senden, und so vieles mehr.
+ Mit Maker kannst du dich mit allen anderen [IFTTT Kanälen] (https://ifttt.com/channels) verknüpfen. Zum Beispiel kannst du einen Tweet senden, wenn es eine Warnung gibt, die Farbe von Hue Lampen ändern, eine E-Mail oder eine SMS senden und vieles mehr.
  
  1. Setup-IFTTT Konto: [Anmelden] (https://ifttt.com/login) oder [ein Konto erstellen] (https://ifttt.com/join)
- 2. Finden Sie Ihren geheimen Schlüssel auf dem [Hersteller Seite] (https://ifttt.com/maker)
- 3. Konfigurieren Night durch diese Umgebungsvariablen:
-  * `ENABLE` -` maker` sollte in die Liste der Plugin hinzugefügt werden, zum Beispiel: `ENABLE =" maker "`.
-  * `MAKER_KEY` - Setzen Sie diese auf Ihre geheimen Schlüssel, der in Schritt 2 befindet, zum Beispiel:` MAKER_KEY = "abcMyExampleabc123defjt1DeNSiftttmak-XQb69p" `Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen.
+ 2. Finde deinen Geheimschlüssel auf der [Hersteller Seite] (https://ifttt.com/maker)
+ 3. Konfiguriere Nightscout mithilfe dieser Umgebungsvariablen:
+  * `ENABLE` -` maker` sollte zu der Liste der Plugins hinzugefügt werden, zum Beispiel: `ENABLE =" maker "`.
+  * `MAKER_KEY` - Setze diesen auf deinen Geheimschlüssel, siehe Schritt 2, zum Beispiel:` MAKER_KEY = "abcMyExampleabc123defjt1DeNSiftttmak-XQb69p" `Dies unterstützt auch eine durch Leerzeichen getrennte Liste von Schlüsseln.
   * `MAKER_ANNOUNCEMENT_KEY` - Ein optionaler Maker Schlüssel wird für systemweite Benutzer erzeugt Ankündigungen verwendet werden. Wenn nicht definiert ist, wird dies auf `MAKER_KEY` Rückfall. Eine mögliche Verwendung für diese sendet wichtige Meldungen und Alarme an einen CWD, die Sie wollen nicht zu alle Benachrichtigungen zu senden. Dies ist auch eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen.
  4. [Erstellen Sie ein Rezept] (https://ifttt.com/myrecipes/personal/new) oder siehe [ausführliche Anleitung] (lib / plugins / maker-setup.md # create-a-Rezept)
  
