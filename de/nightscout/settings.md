@@ -76,7 +76,7 @@ pic
 ####Administrator Werkzeuge
 
 
-
+![nightscout_administrator_werkzeuge](../images/nightscout/nightscout_administrator_werkzeuge.jpg)
 
 
 
