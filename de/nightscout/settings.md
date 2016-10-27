@@ -71,7 +71,7 @@ Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, wieviel 
 Im Nahrungsmittel - Editor können wir Mahlzeiten Mit angabe von Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die Daten über csv- oder json - Format in de *mongodb** übertragen.
 
 pic
-
+![nightscout_nahrungsmittel_editor](../images/nightscout/nightscout_nahrungsmittel_editor.jpg)
 
 ####Administrator Werkzeuge
 
