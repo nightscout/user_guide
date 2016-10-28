@@ -26,7 +26,7 @@
    * [GitHub](nightscout/github.md)
    * [Der Deploy to Azure Button](nightscout/deploy_to_azure.md)
    * [Nightscout -  klassische Installation](nightscout/azure.md)
-   * [Nightscout - Lokale Installationen](nightscout/alternative_optionale_installationen.md)
+   * [Nightscout - Lokale Installationen](nightscout/lokale_installationen.md.md)
    * [Beschreibung der Nightscout Plugins](nightscout/azure_plugins.md)
    * [Programmierbarkeit](nightscout/programmability.md)
    * [Nightscout FAQs](nightscout/nsfaqs.md)
