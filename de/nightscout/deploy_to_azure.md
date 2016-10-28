@@ -72,6 +72,15 @@ Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die Bereitst
 Wenn wir unsere Uploader-App noch nicht installiert und konfiguriert haben, können wir dieses jetzt tun. (Wenn wir ein kabelgebundenes Rig verwenden, bedeutet dies, dass wir die Nightscout App installieren müssen. Wenn wir einen anderen Uploader verwenden oder die Bridge konfigurieren, kehren wir zu den Grundeinstellungen für unser spezielles Setup zurück und fahren mit dem nächsten Schritt fort.) Wir werden keine Daten sehen Auf der Nightscout-Website, bis die Uploader-App (oder Bridge) konfiguriert ist.
 
 
+#Wir bestätigen, das  unsere Website ist als kostenlose Website konfiguriert ist.
 
-Weitere Werte kann man ändern, wenn man möchte. Am Ende geht es mit **Weiter** weiter. Im Hintergrund installiert sich jetzt die Website mit den vorbelegten einstellungen. Diese werden als Schlüssel mit Werten in den Azure **Anwendungseinstellungen** gespeichert.
+Wenn unser Azure Konto neu ist und wir während des Setups keine Pay-As-You-Go gewählt haben, haben wir 30 Tage Zeit, die Site in Pay-As-You-Go zu konvertieren. Wir empfehlen, die Website-Einstellungen zu überprüfen, indem wir Folgendes überprüfen:
+
+     Bitte Bestätigen, dass der Abonnementtyp auf Pay-as-you-go festgelegt ist.
+     Bitte Bestätigen, dass das Pricing Tier auf Free festgelegt ist.
+
+![azure-new-reviewfree](../images/azure/azure-new-reviewfree.png)
+
+
+
 
