@@ -16,6 +16,8 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
   - * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
   * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` muss man sich bei Eingaben auf dem jeweiligen Gerät mit dem `API_SECRET` authentisieren.
   * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu deinem Websiten api, dh pushover callbacks, in der Regel die URL deiner Nightscout Website, statt http möchtest du vielleicht lieber https verwenden
+  
+  * `AUTH_DEFAULT_ROLES (readable)` - mögliche Werte `readable`, `denied`, oder ein beliebiger Rollenname. Wenn **lesend** gesetzt, kann jeder ohne einen Zugriffstoken auf die Website zugreifen. Die Einstellung `denied `bewirkt, das man sich bei jedem Besuch der Website authentifizieren muss, die Einstellung `status-only` bewirkt ein Anmelden über das **API Secret**.
 
 ### Alarme
 
