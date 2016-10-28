@@ -225,6 +225,17 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
   `* OPENAPS_URGENT` (` 60`) - Die Anzahl der Minuten seit dem letzten Loop, die überschreiten werden muss, bevor ein dringender Alarm ausgelöst wird
   * `OPENAPS_FIELDS` (` status-symbol status-label iob meal-assist rssi`) - Die standardmäßig angezeigten Textfelder. Jedes der folgenden Felder ist möglich: `status-symbol`,` status-label`, `iob`,` meal-assist`, `freq` und` rssi`
   * `OPENAPS_RETRO_FIELDS` (` status-symbol status-label iob meal-assist rssi`) - Die Felder, die im Retro-Modus angezeigt werden sollen. Jede der oben genannten Möglichkeiten.
+  
+#### `loop (Loop)`####
+
+iOS Loop app monitoring, uses these extended settings:
+
+    Requires DEVICESTATUS_ADVANCED="true" to be set
+    LOOP_ENABLE_ALERTS (false) - Set to true to enable notifications when Loop isn't looping.
+    LOOP_WARN (30) - The number of minutes since the last loop that needs to be exceeded before an alert is triggered
+    LOOP_URGENT (60) - The number of minutes since the last loop that needs to be exceeded before an urgent alarm is triggered
+    Add loop to SHOW_FORECAST to show forecasted BG.
+
 
 
 #### Pushover
