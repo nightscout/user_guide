@@ -6,22 +6,25 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 
   * `MONGO_CONNECTION` - Deine Mongo uri, zum Beispiel:` mongodb: // sally: sallypass@ds099999.mongolab.com: 99999 / nightscout`
   * `DISPLAY_UNITS` (` mg / dl`) - Auswahl: `mg / dl` und` mmol`. Die Einstellung auf `mmol` setzt den gesamten Server auf ` mmol` Modus als Standard, weitere Einstellungen sind nicht erforderlich.
-  * `API_SECRET` - Ein geheimes Passwort zur Authentifizierung. Es muss mindestens **12 Zeichen** lang sein und ist frei wählbar. 
-     Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
+  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu deinem Websiten api, dh pushover callbacks, in der Regel die URL deiner Nightscout Website, statt http möchtest du vielleicht lieber https verwenden
+  
  
 
 ### Eigenschaften
 
   * `ENABLE` - Wird verwendet, um optionale Funktionen zu aktivieren, erwartet eine durch Leerzeichen getrennte Liste, wie zum Beispiel:` careportal rawbg iob` 
-  - * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
-  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder` off`. Bei Einstellung auf `on` muss man sich bei Eingaben auf dem jeweiligen Gerät mit dem `API_SECRET` authentisieren.
-  * `BASE_URL` - Wird verwendet für den Aufbau von Verbindungen zu deinem Websiten api, dh pushover callbacks, in der Regel die URL deiner Nightscout Website, statt http möchtest du vielleicht lieber https verwenden
-  
+  * `DISABLE` wird genutzt, um  Standardfunktionen zu deaktivieren, erwartet eine durch Leerzeichen getrennte Liste 
+  * `API_SECRET` - Ein geheimes Passwort zur Authentifizierung. Es muss mindestens **12 Zeichen** lang sein und ist frei wählbar.  Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
   * `AUTH_DEFAULT_ROLES (readable)` - mögliche Werte `readable`, `denied`, oder ein beliebiger Rollenname. Wenn **lesend** gesetzt, kann jeder ohne einen Zugriffstoken auf die Website zugreifen. Die Einstellung `denied `bewirkt, das man sich bei jedem Besuch der Website authentifizieren muss, die Einstellung `status-only` bewirkt ein Anmelden über das **API Secret**.
+  Wenn auf den Wert `off` gesetzt ist, wird die Careportal Rolle zu `AUTH_DEFAULT_ROLES` hinzugefügt.
+  * `TREATMENTS_AUTH` (` off`) - mögliche Werte `on` oder `off`. Bei Einstellung auf `on` muss man sich bei Eingaben auf dem jeweiligen Gerät mit dem `API_SECRET` authentisieren.
+  
+  
+  
 
 ### Alarme
 
-  Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen außer Kraft gesetzt werden.
+Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Browser, Pushover, IFTTT Maker, etc.),  einige Einstellungen können durch Browsereinstellungen außer Kraft gesetzt werden.
   
   * `ALARM_TYPES` (`simple` falls ` BG_` * ENV  gesetzt sind, sonst `predict`) - derzeit werden zwei Alarmtypen unterstützt und können unabhängig voneinander oder in Kombination verwendet werden. Der `simple` Alarmtyp vergleicht nur die aktuelle BG mit `BG_` Schwellen, der `predict` Alarmtyp verwendet eine optimierte Formel, die die BG aufgrund ihres bisherigen Verlaufs prognostiziert. Derzeit verwendet `Predict` ** NICHT ** eines der` BG_` * ENV.
   * `BG_HIGH` (` 260`) - muss auf mg / dl Einheiten eingestellt werden; das ist eine hohe BG außerhalb des Zielbereichs, die als dringlich erachtet wird
