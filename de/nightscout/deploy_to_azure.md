@@ -46,8 +46,32 @@ In das Api Secret-Feld geben wir das minimales `API-SECRET` mit "mindestens 12 Z
 Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir im Kapitel "Azure Plugins" Hilfe finden.
 
 Die ENABLE-Variable wird auf dieser einstufigen Implementierung mit vielen häufig verwendeten Features vorbelegt. Wenn wir der Werte-Zeichenfolge etwas hinzufügen möchten, setzen wir ein Leerzeichen nach dem letzten Zeichen im String und geben einen neuen Wert ein (z. B. Bridge für Benutzer von Dexcom G4 Share / G5-Bridge-Sites oder Pushover für Pushover-Benachrichtigungen).
-Im Feld Show_plugins wird "careportal" vorgefüllt. In diesem Feld aufgelistete Plugins sind immer auf der Website sichtbar, anstatt sichtbar zu sein, wenn sie innerhalb des Einstellungsbereichs des einzelnen Browsers aktiviert werden. Wenn Sie möchten, dass iage, cage, sage, bwp und rawbg "immer sichtbar" sind, dann listen Sie sie in diesem Feld in einer durch Leerzeichen getrennten Liste auf. (Hier können auch andere Werte eingegeben werden, ua bwp, boluscalc usw.)
-Klicken Sie auf die Schaltfläche "Weiter".
+
+Im Feld Show_plugins wird "careportal" vorgefüllt. In diesem Feld aufgelistete Plugins sind immer auf der Website sichtbar, nn sie müssten ansonsten innerhalb des Einstellungsbereichs des einzelnen Browsers aktiviert werden. Wenn wir möchten, dass iage, cage, sage, bwp und rawbg "immer sichtbar" sind, dann listen wir sie in diesem Feld in einer durch Leerzeichen getrennten Liste auf. (Hier können auch andere Werte eingegeben werden, ua bwp, boluscalc usw.)
+
+Wir klicken auf die Schaltfläche `Next`:
+
+![grilledcheese-next.png](../images/azure/grilledcheese-next.png)
+
+Der nächste Bildschirm bestätigt, dass eine "Website" bereitgestellt wird. Wir klicken Sie auf `Deploy`. (Wenn wir zum vorherigen Bildschirm zurückkehren müssen, klicken wir auf "Setup".)
+
+![grilledcheese-deploy](../images/azure/grilledcheese-deploy.png)
+
+
+Beim nächsten Schritt sehen wir den Fortschritt. "Sei geduldig :)".
+
+![grilledcheese-deployment](../images/azure/grilledcheese-deployment.png)
+
+
+Wenn die Bereitstellung abgeschlossen ist (und erfolgreich), sehen wir eine abschließende Zeile, die über Links verfügt, die uns erlauben, unsere Website zu verwalten oder nach yoursiteURL zu browsen. Unsere Nightscout-URL verwendet dieses Format: http://YOURWEBSITENAME.azurewebsites.net.
+
+![grilledcheese-success](../images/azure/grilledcheese-success.png)
+
+Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die Bereitstellung erfolgreich war und unsere "Mlab-Informationen" korrekt eingegeben wurden, sollten wir eine schwarze Nightscout-Website sehen. (Wenn unsere Website noch keine Daten enthält, wird es eine schwarze Website mit Zeit und Bindestrichen oder Zeit und das Wort "undefiniert".
+
+Wenn wir unsere Uploader-App noch nicht installiert und konfiguriert haben, können wir dieses jetzt tun. (Wenn wir ein kabelgebundenes Rig verwenden, bedeutet dies, dass wir die Nightscout App installieren müssen. Wenn wir einen anderen Uploader verwenden oder die Bridge konfigurieren, kehren wir zu den Grundeinstellungen für unser spezielles Setup zurück und fahren mit dem nächsten Schritt fort.) Wir werden keine Daten sehen Auf der Nightscout-Website, bis die Uploader-App (oder Bridge) konfiguriert ist.
+
+
 
 Weitere Werte kann man ändern, wenn man möchte. Am Ende geht es mit **Weiter** weiter. Im Hintergrund installiert sich jetzt die Website mit den vorbelegten einstellungen. Diese werden als Schlüssel mit Werten in den Azure **Anwendungseinstellungen** gespeichert.
 
