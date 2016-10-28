@@ -6,7 +6,7 @@ Wir befassen uns hier mit der Beschreibung der Programm - Module, den sogenannte
 
   * `MONGO_CONNECTION` - Deine Mongo uri, zum Beispiel:` mongodb: // sally: sallypass@ds099999.mongolab.com: 99999 / nightscout`
   * `DISPLAY_UNITS` (` mg / dl`) - Auswahl: `mg / dl` und` mmol`. Die Einstellung auf `mmol` setzt den gesamten Server auf ` mmol` Modus als Standard, weitere Einstellungen sind nicht erforderlich.
-  * `API_SECRET` - Ein geheimes Passwort zur Authentifizierung. Es muss mindestens #12 Zeichen# lang sein und ist frei wählbar. 
+  * `API_SECRET` - Ein geheimes Passwort zur Authentifizierung. Es muss mindestens **12 Zeichen** lang sein und ist frei wählbar. 
      Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
  
 
