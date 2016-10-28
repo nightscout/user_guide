@@ -40,8 +40,7 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  
  **Aktualisierung des eigenen `cgm-remote-monitor` repositories**
  
- Stand Januar 2016 hat der `cgm-remote-monitor` die Version 0.8.4. Im Sommer erscheint die Versioen 0.9.0 mit dem Namen 'Gluten Free Grilled Cheese'
- 
+  
  In den vergangenen Monaten sind Beta Versionen (0.9-betax) erschienen. Für die Versionen gibt es ein Web - Updatetool.
  Die Links hierzu werden über Facebook (CGM in the Cloud) und Gitterchatgruppen veröffentlicht. Es empfiehlt sich eine separate Website anzulegen, um Beta - Versionen testen zu können. Durch Angabe des mongodb - Namens wird die Datenquelle mitgenommen.
  Beim Aufruf des Update-Links geben wir den GitHub Account - Namen ein und Klicken  **I'm Ready**. Anschließend werden wir nach dem **github** Benutzernamen gefragt. Mit **Check for Updates** geht es weiter. Liegt eine neuere Version vor, dann erscheint der Button
@@ -49,7 +48,7 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  Mit **Confirm Merge** bestätigen wir die ermittelten Änderungen und bringen dmit den cgm-remote-monitor auf den aktuellen Stand. 
  
  
- Jetzt richten wir mit voller Freude [Azure](../nightscout/azure.md). ein.
+ Jetzt instsallieren wir die Nightscout Website  [Deply to Azure](../nightscout/deploy_to_azure.md). 
  
  
  
