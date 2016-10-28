@@ -41,7 +41,7 @@ Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden aus (Bro
   * `ALARM_URGENT_LOW_MINS` (` 15 30 45`) - Anzahl der Minuten, in denen ein dringender Tiefalarm schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
   * `ALARM_URGENT_MINS` (` 30 60 90 120`) - Anzahl der Minuten, in denen ein dringender Alarm (der nicht als hoch oder niedrig markiert ist) schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
   * `ALARM_WARN_MINS` (` 30 60 90 120`) - Anzahl der Minuten, in denen ein Alarm (der nicht als hoch oder niedrig markiert ist) schlafen gelegt wird, bevor er erneut ertönt; die einzelnen Minuten werden durch Leerzeichen voneinander getrennt, die erste Zahl wird für pushover verwendet
-  * 
+ 
   
 ### Basiseinstellungen
 
@@ -53,10 +53,42 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
   * `MONGO_PROFILE_COLLECTION` (` Profile`) - Diese Sammlung speichert deine Profile
   * `MONGO_FOOD_COLLECTION` (` food`) - Die Sammlung speichert deine Lebensmittel-Datenbank
   * `PORT` (` 1337`) - Der Port, auf den die node.js Anwendung zugreift
+  * `Hostname` - Der Hostname, den die node.js-Anwendung verwendet, standardmäßig null für jeden Hostnamen,  für IPv6 evtl. ::
+  nicht vergessen.
   * `SSL_KEY` - Pfad zu deiner SSL-Schlüsseldatei, so dass ssl (https) direkt in node.js aktiviert werden kann
   * `SSL_CERT` - Pfad zu deiner SSL-Zertifikat-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
   * `SSL_CA` - Pfad zur ssl CA-Datei, so dass ssl (https) direkt in node.js aktiviert werden kann
   * `HEARTBEAT` (` 60`) - Anzahl der Sekunden zwischen den einzelnen Datenbanküberprüfungen
+  
+  
+### Vordefinierte Werte für Browser-Einstellungen (optional)
+
+Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App aus immer die gleichen Einstellungen hat. Machen wir dies nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen ggf. immer wieder neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
+
+  * `TIME_FORMAT` (` 12`) - mögliche Werte `12` oder` 24`
+  * `NIGHT_MODE` (` off`) - mögliche Werte `on` oder` off`
+  * `SHOW_RAWBG` (` never`) - mögliche Werte `always`,` never` oder `noise`
+  * `CUSTOM_TITLE` (` Nightscout`) - angepasste/r Titel/Überschrift
+  * `THEME` (` default`) - mögliche Werte `default` oder` colors`
+  * `ALARM_TIMEAGO_WARN` (` on`) - mögliche Werte `on` oder` off`
+  * `ALARM_TIMEAGO_WARN_MINS` (` 15`) - Minuten seit dem letzten Messwert, um eine Warnung auszulösen
+  * `ALARM_TIMEAGO_URGENT` (` on`) - mögliche Werte `on` oder` off`
+  * `ALARM_TIMEAGO_URGENT_MINS` (` 30`) - Minuten seit dem letzten Wert, um  einen dringenden Alarm auszulösen
+  * `SHOW_PLUGINS` - Anzeige der Plugins in der Website, Standardwerte für alle freigegeben
+  * `SHOW_FORECAST` (` ar2`) - Plugin Prognosen, die standardmäßig angezeigt werden sollen, unterstützt räumlich begrenzte Werte wie `" ar2 openaps "`
+  * `LANGUAGE` (` de`) - Sprache der Website. Falls nicht verfügbar, wird Englisch verwendet,
+  * `SCALE_Y` (` log`) - Die Art der Skalierung , welche für die Y-Achse des Charts System verwendet wird.
+    * Die Standard `log` (logarithmisch) Option lässt mehr Details im unteren Bereich zu , während immer noch der volle CGM Bereich angezeigt wird.
+    * Die `linear` Option hat im gleichen Abstand Markierungen , der verwendete Bereich ist dynamisch, so dass kein Platz an der Spitze des Diagramms verschwendet wird.
+    * Die `log-dynamic` ist der Standard` log` Option ähnlich und verwendet den gleichen dynamischen Bereich, aber die `linear` Skala.
+  * `EDIT_MODE` (` on`) - mögliche Werte `on` oder` off`. Aktivieren oder deaktivieren des Symbols, das den Bearbeitungsmodus der treatments (Behandlungsmaßnahmen) ermöglicht.
+
+
+Nach Eingabe der Daten das **Speichern** nicht vergessen.
+
+Die Einstellungen sehen dann z.B. so aus:
+
+![azure_app_entries](../images/azure/azure_app_entries.jpg)
 
 #### Standard Plugins 
   
@@ -97,34 +129,7 @@ Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer Nightsc
   
   
 
-### Vordefinierte Werte für Browser-Einstellungen (optional)
 
-Wir können **Browsereinstellungen** zentral in den Azure App. Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer Smartphone App aus immer die gleichen Einstellungen hat. Machen wir dies nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen ggf. immer wieder neu eingegeben werden. Jeder Parameter mit Wert steht in einer extra Zeile.
-
-  * `TIME_FORMAT` (` 12`) - mögliche Werte `12` oder` 24`
-  * `NIGHT_MODE` (` off`) - mögliche Werte `on` oder` off`
-  * `SHOW_RAWBG` (` never`) - mögliche Werte `always`,` never` oder `noise`
-  * `CUSTOM_TITLE` (` Nightscout`) - angepasste/r Titel/Überschrift
-  * `THEME` (` default`) - mögliche Werte `default` oder` colors`
-  * `ALARM_TIMEAGO_WARN` (` on`) - mögliche Werte `on` oder` off`
-  * `ALARM_TIMEAGO_WARN_MINS` (` 15`) - Minuten seit dem letzten Messwert, um eine Warnung auszulösen
-  * `ALARM_TIMEAGO_URGENT` (` on`) - mögliche Werte `on` oder` off`
-  * `ALARM_TIMEAGO_URGENT_MINS` (` 30`) - Minuten seit dem letzten Wert, um  einen dringenden Alarm auszulösen
-  * `SHOW_PLUGINS` - Anzeige der Plugins in der Website, Standardwerte für alle freigegeben
-  * `SHOW_FORECAST` (` ar2`) - Plugin Prognosen, die standardmäßig angezeigt werden sollen, unterstützt räumlich begrenzte Werte wie `" ar2 openaps "`
-  * `LANGUAGE` (` de`) - Sprache der Website. Falls nicht verfügbar, wird Englisch verwendet,
-  * `SCALE_Y` (` log`) - Die Art der Skalierung , welche für die Y-Achse des Charts System verwendet wird.
-    * Die Standard `log` (logarithmisch) Option lässt mehr Details im unteren Bereich zu , während immer noch der volle CGM Bereich angezeigt wird.
-    * Die `linear` Option hat im gleichen Abstand Markierungen , der verwendete Bereich ist dynamisch, so dass kein Platz an der Spitze des Diagramms verschwendet wird.
-    * Die `log-dynamic` ist der Standard` log` Option ähnlich und verwendet den gleichen dynamischen Bereich, aber die `linear` Skala.
-  * `EDIT_MODE` (` on`) - mögliche Werte `on` oder` off`. Aktivieren oder deaktivieren des Symbols, das den Bearbeitungsmodus der treatments (Behandlungsmaßnahmen) ermöglicht.
-
-
-Nach Eingabe der Daten das **Speichern** nicht vergessen.
-
-Die Einstellungen sehen dann z.B. so aus:
-
-![azure_app_entries](../images/azure/azure_app_entries.jpg)
 
 
 #### Erweiterte Plugins:
