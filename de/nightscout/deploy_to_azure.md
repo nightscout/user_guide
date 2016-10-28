@@ -43,7 +43,7 @@ Wir wählen  mg / dl oder mmol aus dem Dropdown-Menü Display Units.
 
 In das Api Secret-Feld geben wir das minimales `API-SECRET` mit "mindestens 12 Zeichen" ein. Zeichen sind frei wählbar, aber es muss mindestens 12 Zeichen lang sein.
 
-Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir im Kapitel "Azure Plugins" Hilfe finden.
+Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir im Kapitel **Azure Plugins** Hilfe finden.
 
 Die ENABLE-Variable wird auf dieser einstufigen Implementierung mit vielen häufig verwendeten Features vorbelegt. Wenn wir der Werte-Zeichenfolge etwas hinzufügen möchten, setzen wir ein Leerzeichen nach dem letzten Zeichen im String und geben einen neuen Wert ein (z. B. Bridge für Benutzer von Dexcom G4 Share / G5-Bridge-Sites oder Pushover für Pushover-Benachrichtigungen).
 
@@ -58,7 +58,7 @@ Der nächste Bildschirm bestätigt, dass eine "Website" bereitgestellt wird. Wir
 ![grilledcheese-deploy](../images/azure/grilledcheese-deploy.png)
 
 
-Beim nächsten Schritt sehen wir den Fortschritt. "Sei geduldig :)".
+Beim nächsten Schritt sehen wir den Fortschritt. **Sei geduldig :)**.
 
 ![grilledcheese-deployment](../images/azure/grilledcheese-deployment.png)
 
@@ -67,12 +67,12 @@ Wenn die Bereitstellung abgeschlossen ist (und erfolgreich), sehen wir eine absc
 
 ![grilledcheese-success](../images/azure/grilledcheese-success.png)
 
-Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die Bereitstellung erfolgreich war und unsere "Mlab-Informationen" korrekt eingegeben wurden, sollten wir eine schwarze Nightscout-Website sehen. (Wenn unsere Website noch keine Daten enthält, wird es eine schwarze Website mit Zeit und Bindestrichen oder Zeit und das Wort "undefiniert".
+Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die Bereitstellung erfolgreich war und unsere **Mlab-Informationen** korrekt eingegeben wurden, sollten wir eine schwarze Nightscout-Website sehen. (Wenn unsere Website noch keine Daten enthält, wird es eine schwarze Website mit Zeit und Bindestrichen oder Zeit und das Wort **undefiniert**.
 
 Wenn wir unsere Uploader-App noch nicht installiert und konfiguriert haben, können wir dieses jetzt tun. (Wenn wir ein kabelgebundenes Rig verwenden, bedeutet dies, dass wir die Nightscout App installieren müssen. Wenn wir einen anderen Uploader verwenden oder die Bridge konfigurieren, kehren wir zu den Grundeinstellungen für unser spezielles Setup zurück und fahren mit dem nächsten Schritt fort.) Wir werden keine Daten sehen Auf der Nightscout-Website, bis die Uploader-App (oder Bridge) konfiguriert ist.
 
 
-#Wir bestätigen, das  unsere Website ist als kostenlose Website konfiguriert ist.
+**Wir bestätigen, das  unsere Website ist als kostenlose Website konfiguriert ist.**
 
 Wenn unser Azure Konto neu ist und wir während des Setups keine Pay-As-You-Go gewählt haben, haben wir 30 Tage Zeit, die Site in Pay-As-You-Go zu konvertieren. Wir empfehlen, die Website-Einstellungen zu überprüfen, indem wir Folgendes überprüfen:
 
