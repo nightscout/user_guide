@@ -18,21 +18,36 @@ Wir stellen sicher, dass das Abonnement `Pay-as-you-go zeigt`. (Wenn das Konto n
 Wenn eine Ressourcengruppe im Dropdown-Menü aufgelistet ist, wählen wir sie aus. Ansonsten wählen wir `Create New` und akzeptieren oder ersetzen  den "neuen" Ressourcengruppennamen im Feld `Resource Group Name`.
 Wir wählen unseren Site-Namen. Ein Standardname wird bereits im Feld angezeigt. Wir können ihn mit dem gewünschten Namen ersetzen. Was wir hier eingeben, wird der "Name" unserer Nightscout-Website (und wird der Schlüsselteil Ihrer Nightscout-URL) sein. Der Name unserer Website kann nicht geändert werden. Wenn wir später einen anderen Namen verwenden möchten, müssen wir eine neue Website erstellen.
 
-**Resource Group**: Die Nightscout Website ist eine **Resource**, die einen **Wartungsplan** benötigt. Im Wartungsplan ist auch der Tarif gespeichert. Einzelne Resourcen werden zu einer Resourcengruppe zusammnegefasst. Hier geben wir einen Namen für die Gruppe ein.
-
-**Subscription**: Standardwert: **Nutzungsbasierte Bezahlung**. Hier bitte nichts ändern.
-
-**Site Name:** Name Deiner Website
-
-**Site Location:** Region, in der die Website gehostet wird, ggf. den Wert auf **North Europe** ändern.
-
-**Sku:** Tarif, **Free** ist Standardwert
-
-**Mongo Connection:** Vollständiger Connection String der mongoDB mit Angabe der Datenbank.
 
 **Api Secret:** API Secret Wert, bleibt der Wert unter 12 Zeichen, bricht die Installation ab.
 
 **Language:** Standart Wert ist **en**, bitte in **de** wechseln.
+
+![grilledcheese-deploytoazure-panel-sitename](../images/azure/grilledcheese-deploytoazure-panel-sitename.png)
+
+Wir wählen im Dropdown-Menü den Standort aus. (Dieser Standort muss nicht mit unserem tatsächlichen geografischen Standort übereinstimmen. `North Europe`ist für Deutschland zu empfehlen.)
+Wir stellen sicher, dass `Free` im Sku-Dropdown-Menü ausgewählt ist. (Dies ist die "kostenlose Variante" von Azure.)
+
+Wir geben jetzt die mongo (mLab) URI in das Feld `Mongo-Connection` ein.
+
+Die mLab URI verwendet die Syntax, die in diesem Beispiel gezeigt wird, wir müssen unsere "EIGEN-Informationen" ausfüllen, "nicht" die Beispielwerte, die hier gezeigt werden:
+
+Mongodb: // databaseUserName: databaseUserPassword@ds012345.mlab.com: 12345 / databaseName
+
+Beispielsweise:
+Mongodb: // sallyuser: sallypassword@ds012345.mlab.com: 12345 / mycgm
+
+"!: Seit März 2016 wechselte mongolab zu mlab. Die angezeigte Syntax enthält das mlab Format."
+
+Wir wählen  mg / dl oder mmol aus dem Dropdown-Menü Display Units.
+
+In das Api Secret-Feld geben wir das minimales `API-SECRET` mit "mindestens 12 Zeichen" ein. Zeichen sind frei wählbar, aber es muss mindestens 12 Zeichen lang sein.
+
+Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir im Kapitel "Azure Plugins" Hilfe finden.
+
+Die ENABLE-Variable wird auf dieser einstufigen Implementierung mit vielen häufig verwendeten Features vorbelegt. Wenn wir der Werte-Zeichenfolge etwas hinzufügen möchten, setzen wir ein Leerzeichen nach dem letzten Zeichen im String und geben einen neuen Wert ein (z. B. Bridge für Benutzer von Dexcom G4 Share / G5-Bridge-Sites oder Pushover für Pushover-Benachrichtigungen).
+Im Feld Show_plugins wird "careportal" vorgefüllt. In diesem Feld aufgelistete Plugins sind immer auf der Website sichtbar, anstatt sichtbar zu sein, wenn sie innerhalb des Einstellungsbereichs des einzelnen Browsers aktiviert werden. Wenn Sie möchten, dass iage, cage, sage, bwp und rawbg "immer sichtbar" sind, dann listen Sie sie in diesem Feld in einer durch Leerzeichen getrennten Liste auf. (Hier können auch andere Werte eingegeben werden, ua bwp, boluscalc usw.)
+Klicken Sie auf die Schaltfläche "Weiter".
 
 Weitere Werte kann man ändern, wenn man möchte. Am Ende geht es mit **Weiter** weiter. Im Hintergrund installiert sich jetzt die Website mit den vorbelegten einstellungen. Diese werden als Schlüssel mit Werten in den Azure **Anwendungseinstellungen** gespeichert.
 
