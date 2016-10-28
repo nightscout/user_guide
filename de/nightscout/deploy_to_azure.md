@@ -1,14 +1,13 @@
 # Der **Deploy to Azure** Button
 Die Nightscout Website lässt sich mit vielen Standardeinstellungen beschleunigt installieren.
-Wir Starten mit der Anmeldung in Azure.
-Danach melden wir uns in Github an, navigieren in unserer Repository und den Branch, welchen wir installieren wollen.
+Wir Starten mit der Anmeldung in in Github an, navigieren in unserer Repository und den Branch, welchen wir installieren wollen.
 
 Weiter Klicken auf das **Deploy to Azure** Symbol:
 ![azure_unbeaufsichtigt](../images/azure/azure_deploy.jpg)
 
 Wir loggen uns bei Azure ein (folgt den angezeigten Anweisungen, um eingeloggt zu werden). (Wenn wir noch kein Azure-Konto haben, sollten wir das Azure-Konto zunächst separat hinzufügen und dann wieder in diese Sequenz von Schritten zurückkehren.
-Es ist möglich, das Konto an dieser Stelle einzurichten, aber es kann weniger verwirrend sein Wenn wir das Konto vorher erstellen.)
-Der Bildschirm "Deploy to Azure" wird mit allen Optionen geladen, die wir (am Anfang) für unsere Website konfigurieren können. (Wir können dieses später bei Bedarf ändern.)
+Es ist möglich, das Konto an dieser Stelle einzurichten, aber es kann weniger verwirrend sein, wenn wir das Konto vorher erstellen.)
+Der Bildschirm **eploy to Azure** wird mit allen Optionen geladen, die wir (am Anfang) für unsere Website konfigurieren können. (Wir können dieses später bei Bedarf ändern.)
 
 Es erscheint diese Web - Maske:
 
