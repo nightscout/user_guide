@@ -90,6 +90,12 @@ Die Einstellungen sehen dann z.B. so aus:
 
 ![azure_app_entries](../images/azure/azure_app_entries.jpg)
 
+### Plugins
+Plugins werden verwendet, um die Art und Weise Informationen anzuzeigen, wie Benachrichtigungen gesendet werden, Alarme ausgelöst werden, und vieles mehr.
+
+Die eingebauten / Beispiel-Plugins, die standardmäßig verfügbar sind, sind nachfolgend aufgelistet. Die Plugins müssen möglicherweise noch aktiviert werden, indem sie der Umgebungsvariable `ENABLE` hinzugefügt werden.
+
+
 #### Standard Plugins 
   
   Diese können durch Einstellen der `DISABLE` env var deaktiviert werden, zum Beispiel` disable="Direction upbat" `
@@ -127,8 +133,12 @@ Die Einstellungen sehen dann z.B. so aus:
   Verwendet `BG_HIGH`,` BG_TARGET_TOP`, `BG_TARGET_BOTTOM`,` BG_LOW` -Schwellenwerte, um Alarme abzugeben.
   Ist standardmäßig aktiviert, wenn einer dieser Schwellenwerte gesetzt ist ** OR ** `ALARM_TYPES` umfasst` simple`.
   
-  
+#### `profile` (Treatment Profile)
 
+Fügen Sie Link zum Profil-Editor hinzu, und geben Sie die Einstellungen für das Behandlungsprofil ein. Verwendet auch die erweiterte Einstellung:
+
+* `PROFILE_HISTORY` (`off`) - mögliche Werte `on` oder `off`. Aktivieren / Deaktivieren der NS-Fähigkeit zur Protokollierung Ihrer Profile (noch experimentell)
+ *  `PROFILE_MULTIPLE` (`off`) - mögliche Werte `on` oder `off`. Aktivieren / Deaktivieren der NS-Fähigkeit zum Handhaben und Umschalten zwischen mehreren Behandlungsprofilen
 
 
 
@@ -140,8 +150,8 @@ Die Einstellungen sehen dann z.B. so aus:
 ##### `Boluscalc` (de: Bolus Rechner) 
   Nightscout berechnet anhand bestimmter Vorgaben die zu verabreichende Bolusmenge.
 
-##### `Food` (de: Lebensmittel) 
-  Wir können über den  `Nahrungs - Editor` siehe () Mahlzeiten mit Angabe von Kohlenhydraten eingeben
+##### `Food` (de: Nahrungsmittel) 
+  Wir können über den  `Nahrungsmittel - Editor` siehe () Mahlzeiten mit Angabe von Kohlenhydraten eingeben
 
 ##### `rawbg` (Roh Blutzuckerwerte)
   Berechnet Roh Blutzuckerwerte mit Sensor und Kalibrierungsaufzeichnungen und zeigt alternative Werte mit Verzerrungspegel an.
@@ -234,15 +244,14 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
   * `OPENAPS_FIELDS` (` status-symbol status-label iob meal-assist rssi`) - Die standardmäßig angezeigten Textfelder. Jedes der folgenden Felder ist möglich: `status-symbol`,` status-label`, `iob`,` meal-assist`, `freq` und` rssi`
   * `OPENAPS_RETRO_FIELDS` (` status-symbol status-label iob meal-assist rssi`) - Die Felder, die im Retro-Modus angezeigt werden sollen. Jede der oben genannten Möglichkeiten.
   
-#### `loop (Loop)`####
+#### `loop` (Loop)####
 
-iOS Loop app monitoring, uses these extended settings:
-
-    Requires DEVICESTATUS_ADVANCED="true" to be set
-    LOOP_ENABLE_ALERTS (false) - Set to true to enable notifications when Loop isn't looping.
-    LOOP_WARN (30) - The number of minutes since the last loop that needs to be exceeded before an alert is triggered
-    LOOP_URGENT (60) - The number of minutes since the last loop that needs to be exceeded before an urgent alarm is triggered
-    Add loop to SHOW_FORECAST to show forecasted BG.
+IOS Loop App-Überwachung, verwendet diese erweiterten Einstellungen:
+    * Erfordert `DEVICESTATUS_ADVANCED="true"` als gesetzten Wert
+    * `LOOP_ENABLE_ALERTS` (`false`) - Auf `true` setzen, um Benachrichtigungen zu aktivieren, wenn der Loop keine Werte liefert
+    * `LOOP_WARN` (`30`) - Die Anzahl der Minuten seit des letzten Loops, die überschritten werden muss, bevor ein Alarm ausgelöst wird
+    * `LOOP_URGENT` (`60`) - Die Anzahl der Minuten seit des letzten Loops, die überschritten werden muss, bevor ein dringender Alarm ausgelöst wird
+    * Füge `loop` zu `SHOW_FORECAST` hinzu, um prognostizierten BZ anzuzeigen.
 
 
 
