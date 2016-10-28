@@ -15,7 +15,7 @@ Wir können Azure auf verschiedene Weisen einrichten:
 Die Nightscout Website lässt sich fast vollkommen automatisiert einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als Provider. Dieses ist in Kapitel [Der Deploy to Azure Button](../nightscout/deploy_to_azure.md) beschrieben.
 
 **Lokale Installation:** 
-Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI installieren. Dieses hat den Vorteil, das keine Internetverbindung zum Auslesen von Daten erforderlich ist. Die mongodb, ein Webservice und die Website müssen dazu installiert und konfiguriert werden. Dieses ist in Kapitel [Lokale Installatione beschrieben](../nightscout/lokale_installationen.md) beschrieben.
+Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI installieren. Dieses hat den Vorteil, das keine Internetverbindung zum Auslesen von Daten erforderlich ist. Die mongodb, ein Webservice und die Website müssen dazu installiert und konfiguriert werden. Dieses ist in Kapitel [Lokale Installationen](../nightscout/lokale_installationen.md) beschrieben.
 
 **Klassisch :** Die klassische Einrichtung erfordert das  manuelle Anlegen der Azure Website mit allen Einstellungen. Dieses ist in Kapitel [Azure](../nightscout/azure.md) beschrieben.
 
