@@ -48,7 +48,7 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
  Mit **Confirm Merge** bestätigen wir die ermittelten Änderungen und bringen dmit den cgm-remote-monitor auf den aktuellen Stand. 
  
  
- Jetzt instsallieren wir die Nightscout Website  [Deply to Azure](../nightscout/deploy_to_azure.md). 
+ Jetzt instsallieren wir die Nightscout Website  [Deploy to Azure](../nightscout/deploy_to_azure.md). 
  
  
  
