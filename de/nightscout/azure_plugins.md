@@ -244,22 +244,26 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
   * `OPENAPS_FIELDS` (` status-symbol status-label iob meal-assist rssi`) - Die standardmäßig angezeigten Textfelder. Jedes der folgenden Felder ist möglich: `status-symbol`,` status-label`, `iob`,` meal-assist`, `freq` und` rssi`
   * `OPENAPS_RETRO_FIELDS` (` status-symbol status-label iob meal-assist rssi`) - Die Felder, die im Retro-Modus angezeigt werden sollen. Jede der oben genannten Möglichkeiten.
   
-#### `loop` (Loop)####
+##### `loop` (Loop)
 
 IOS Loop App-Überwachung, verwendet diese erweiterten Einstellungen:
-    * Erfordert `DEVICESTATUS_ADVANCED="true"` als gesetzten Wert
+
+    * `DEVICESTATUS_ADVANCED`(`true`) - als gesetzten Wert
     * `LOOP_ENABLE_ALERTS` (`false`) - Auf `true` setzen, um Benachrichtigungen zu aktivieren, wenn der Loop keine Werte liefert
     * `LOOP_WARN` (`30`) - Die Anzahl der Minuten seit des letzten Loops, die überschritten werden muss, bevor ein Alarm ausgelöst wird
     * `LOOP_URGENT` (`60`) - Die Anzahl der Minuten seit des letzten Loops, die überschritten werden muss, bevor ein dringender Alarm ausgelöst wird
     * Füge `loop` zu `SHOW_FORECAST` hinzu, um prognostizierten BZ anzuzeigen.
 
+### Extended Settings
 
+Einige Plugins unterstützen zusätzliche Konfigurationen mit zusätzlichen Umgebungsvariablen. Diese werden mit dem Namen des Plugins und einem `_` vorangestellt. Beispielsweise würde die Einstellung `MYPLUGIN_EXAMPLE_VALUE = 1234` dem `MYPLUGIN`-Plugin den Befehl `extendedSettings.exampleValue` zur Verfügung stellen.
+Plugins haben nur Zugriff auf ihre eigenen erweiterten Einstellungen, alle erweiterten Einstellungen von Client-Plugins werden an den Browser gesendet.
 
 #### Pushover
   Zusätzlich zu den normalen web-basierten Alarmen können auch [Pushover] Alarme (https://pushover.net/) eingerichtet werden.
   Zuerst installierst du die Pushover-Anwendung auf deinem iOS oder Android-Gerät und erstellst ein Konto .
 
-  Beim Konto Login in [Pushover] (https://pushover.net/) findest du oben links deinen User Key, du benötigst diesen Key und einen Anwendungs API Token / Schlüssel, um dieses Setup abzuschließen.
+  Beim Konto Login in [Pushover] (https://pushover.net/) findest du oben links deinen User Key, du benötigst diesen Key und  einen Anwendungs API Token / Schlüssel, um dieses Setup abzuschließen.
 
   Gehe auf [Erstellen eines Pushover Application] (https://pushover.net/apps/build). Du benötigst nur einen Namen für die Anwendung, um sie zu installieren, alle anderen Einstellungen kannst du ignorieren.
 
@@ -306,12 +310,25 @@ IOS Loop App-Überwachung, verwendet diese erweiterten Einstellungen:
 
 
     
-**Pushover** - Benachrichtigungen.
+### Treatment Profile
 
-Der [Pushover](https://pushover.net/) Internetdienst bietet die Möglichkeit, sich Nachrichten, welche Nightscout erzeugen kann, auf einem Android oder Apple Iphone mit einer entspr. App anzeigen zu lassen. Nach Registrierung auf der Website erhält man einen Benutzer Key - Schlüssel, den man sich notiert. Nightscout konfiguriert man dort als eine Anwendung.
-In den App.-Einstellungen ist der Wert **pushover** hinzuzufügen. 
-Als Minimum ist der **API_TOKEN_KEY**, welcher über die Pushover Website generiert wurde, abzuspeichern.Jetzt können wir Alarme definieren, welche über die App auf dem Smartphone ausgegeben werden.
-Eine detaiilierte Beschreibung findet man hier: [Pushover in Funnel Cake](http://www.nightscout.info/wiki/labs/pushover-in-funnel-cake).
+Einige der Plugins verwenden ein Behandlungsprofil, das mit dem ***Profileditor*** bearbeitet werden kann
+
+Behandlungsprofil - Attribute:
+
+    * `timezone` (Zeitzone) - lokale Zeitzone. Sollte eingestellt werden.
+    * `units` (Profil - Einheiten) - Blutglukoseeinheiten, die im Profil verwendet werden, entweder "mgdl" oder "mmol"
+    * `dia` (Insulinwirkzeit) - Wert sollte die Dauer der Insulinwirkung bei der Berechnung, wie viel Insulin aktiv bleibt, sein. Die Voreinstellung beträgt 3 Stunden.
+    * `carbs_hr` (KH pro Stunde) - Die Anzahl der Kohlenhydrate, die pro Stunde verarbeitet werden, näheres siehe [#DIYPS] (https://diyps.org/2014/05/29/determining-your-carbohydrate-absorption-rate-diyps-lessons-learned/)
+   * `carbratio` (KH Faktor) - Gramm pro einheit Insulin
+   * `sens` (Insulin Sensitivität) - Um wieviel eine Einheit Insulin den BZ senkt
+   *  `basal` Die Basalrate, welche zur Pumpe gesendet wird
+   *  `target_high` - Oberes Ziel für Korrekturbolus.
+   * `target_low` - Unteres Ziel für Korrekturbolus.
+   
+   Einige Beispiele findet man [hier] (https://github.com/nightscout/cgm-remote-monitor/blob/master/example-profiles.md)
+    
+
 
 
 
