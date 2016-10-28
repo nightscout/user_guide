@@ -247,7 +247,6 @@ Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share Be
 ##### `loop` (Loop)
 
 IOS Loop App-Überwachung, verwendet diese erweiterten Einstellungen:
-
     * `DEVICESTATUS_ADVANCED`(`true`) - als gesetzten Wert
     * `LOOP_ENABLE_ALERTS` (`false`) - Auf `true` setzen, um Benachrichtigungen zu aktivieren, wenn der Loop keine Werte liefert
     * `LOOP_WARN` (`30`) - Die Anzahl der Minuten seit des letzten Loops, die überschritten werden muss, bevor ein Alarm ausgelöst wird
@@ -268,8 +267,7 @@ Plugins haben nur Zugriff auf ihre eigenen erweiterten Einstellungen, alle erwei
   Gehe auf [Erstellen eines Pushover Application] (https://pushover.net/apps/build). Du benötigst nur einen Namen für die Anwendung, um sie zu installieren, alle anderen Einstellungen kannst du ignorieren.
 
   Pushover ist mit folgenden Umgebungsvariablen konfiguriert:
-  
-  * `ENABLE` -` pushover` sollte zu der Liste der Plugins hinzugefügt werden, zum Beispiel: `ENABLE =" Pushover "`.
+   * `ENABLE` -` pushover` sollte zu der Liste der Plugins hinzugefügt werden, zum Beispiel: `ENABLE =" Pushover "`.
   * `PUSHOVER_API_TOKEN` - Um Pushover Benachrichtigungen zu ermöglichen, ist dieses Token speziell für deine erstellte Anwendung [Pushover] (https://pushover.net/) *** [zusätzliche Pushover Informationen] (# Pushover) ** * unten.
   * `PUSHOVER_USER_KEY` - Deinen Pushover Benutzerschlüssel findest du in der oberen linken Ecke der [Pushover] (https://pushover.net/) Seite. Es kann sich dabei auch um einen Benutzerschlüssel für eine Pushover delivery group statt für einen einzelnen Benutzer handeln. Dies unterstützt auch eine durch Leerzeichen getrennte Liste von Schlüsseln. Um `INFO` Level pushes zu deaktivieren, stelle dies auf` off`.
    * `PUSHOVER_ALARM_KEY` - Ein optionaler Pushover Benutzer- / Gruppenschlüssel wird für systemweite Alarme (level>` WARN`) verwendet. Wenn hier nichts definiert ist, wird ersatzweise auf `PUSHOVER_USER_KEY` zurückgegriffen. Eine mögliche Verwendung für dies ist, wichtige Meldungen und Alarme an einen CWD zu senden, an den du nicht alle Benachrichtigungen senden möchtest. Auch dies unterstützt eine durch Leerzeichen getrennte Liste von Schlüsseln. Zum Deaktivieren der Alarmpushes setze dies auf `off`.
@@ -290,8 +288,7 @@ Plugins haben nur Zugriff auf ihre eigenen erweiterten Einstellungen, alle erwei
  #### IFTTT Maker
  Zusätzlich zu den normalen web-basierten Alarmen und zu Pushover, gibt es auch die Integration für [IFTTT Maker] (https://ifttt.com/maker).
   
- Mit Maker kannst du dich mit allen anderen [IFTTT Kanälen] (https://ifttt.com/channels) verknüpfen. Zum Beispiel kannst du einen Tweet senden, wenn es eine Warnung gibt, die Farbe von Hue Lampen ändern, eine E-Mail oder eine SMS senden und vieles mehr.
- 
+Mit Maker kannst du dich mit allen anderen [IFTTT Kanälen] (https://ifttt.com/channels) verknüpfen. Zum Beispiel kannst du einen Tweet senden, wenn es eine Warnung gibt, die Farbe von Hue Lampen ändern, eine E-Mail oder eine SMS senden und vieles mehr.
  1. Setup-IFTTT Konto: [Anmelden] (https://ifttt.com/login) oder [ein Konto erstellen] (https://ifttt.com/join)
  2. Finde deinen Geheimschlüssel auf der [Hersteller Seite] (https://ifttt.com/maker)
  3. Konfiguriere Nightscout mithilfe dieser Umgebungsvariablen:
@@ -310,12 +307,11 @@ Plugins haben nur Zugriff auf ihre eigenen erweiterten Einstellungen, alle erwei
 
 
     
-### Treatment Profile
+### Behandlungsprofil
 
 Einige der Plugins verwenden ein Behandlungsprofil, das mit dem ***Profileditor*** bearbeitet werden kann
 
 Behandlungsprofil - Attribute:
-
     * `timezone` (Zeitzone) - lokale Zeitzone. Sollte eingestellt werden.
     * `units` (Profil - Einheiten) - Blutglukoseeinheiten, die im Profil verwendet werden, entweder "mgdl" oder "mmol"
     * `dia` (Insulinwirkzeit) - Wert sollte die Dauer der Insulinwirkung bei der Berechnung, wie viel Insulin aktiv bleibt, sein. Die Voreinstellung beträgt 3 Stunden.
@@ -328,7 +324,33 @@ Behandlungsprofil - Attribute:
    
    Einige Beispiele findet man [hier] (https://github.com/nightscout/cgm-remote-monitor/blob/master/example-profiles.md)
     
+### Setting environment variables
 
+Einfach zu emulieren auf der Kommandozeile:
+
+    echo 'MONGO_CONNECTION=mongodb://sally:sallypass@ds099999.mongolab.com:99999/nightscout' >> my.env
+    echo 'MONGO_COLLECTION=entries' >> my.env
+
+Von nun an kann der Befehl ausgeführt werden:
+
+    $ env $(cat my.env) PORT=1337 node server.js
+
+Ein Hosting Provider bietet evtl. ein GUI zur Eingabe an.
+
+
+### Vagrant installieren
+
+Optionally, use Vagrant with the included Vagrantfile and setup.sh to install OS and node packages to a virtual machine.
+Optional können Sie [Vagrant] (https://www.vagrantup.com/) mit der mitgelieferten `Vagrantfile` und `setup.sh` verwenden, um OS- und Knotenpakete auf einer virtuellen Maschine zu installieren.
+
+host$ vagrant up
+host$ vagrant ssh
+vm$ setup.sh
+
+Das Setup-Skript installiert die Betriebssystempakete und führt dann die Installation von npm durch.
+The Vagrant VM serves to your host machine only on 192.168.33.10, you can access the web interface on http://192.168.33.10:1337
+
+Die Vagrant VM dient nur auf Ihrem Host-Computer mit Beispiel IP 192.168.33.10, man kann auf das Web-Interface über  http://192.168.33.10:1337 zugreifen.
 
 
 
