@@ -98,7 +98,7 @@ Es ist unter Punkt 3 möglich, die Gerätestatus - Sammlung (Collection in der m
 Mit Punkt 4 kann man fälschlicherweise Behandlungen mit Datum in der Zukunft aus der Datenbank löschen.
 
 
-Jetzt geht es weiter mit dem [Behandlungsportal](nightscout/care_portal.md)
+Jetzt geht es weiter mit dem [Behandlungsportal](../nightscout/care_portal.md)
 
 
 
