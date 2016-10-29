@@ -9,4 +9,4 @@ Der Bolus Rechner greift auf Werte aus dem `Profil Editor` zu, genauer dem `ISF`
 mit `Formular absenden` werden die Daten gespeichert.
 
 
-Weiter geht es mit den Smartwatches.
+Weiter geht es mit der [Smartwatch Integration](smartwatch/smartwatch_integration.md)
