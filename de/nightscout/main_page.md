@@ -36,6 +36,7 @@ Was sehen wir ?
   
   
 In der rechten oberen Ecke finden wir **Menü - Auswahlfelder**.
+
 ![Menüpunkte](../images/nightscout/grilledcheese-edit2.png)
 
 **Bearbeitungsmodus**
@@ -51,57 +52,12 @@ Mit dem Klick auf das  **+** - Symbol rufen wir das **Behandlungsportal** auf.
 Mit dem **Taschenrechner** - Symbol gelangen wir zum **Bolus - Rechner**.
 
 
-
-
-**Einstellungen:**
-
-![nightscout_einstellungen](../images/nightscout/nightscout_einstellungen.jpg)
-
-Wir machen weiter mit den **Profil-Einstellungen**. Neben allgemeinen Einstellungen
- wird hier auch eingestellt, ob die Plugins angezeigt werden sollen, oder nicht.
-Für Änderungen muss das Gerät, wie z.B. der Laptop authentifiziert sein, dazu ist das 
-[API SECRET](../nightscout/azure.md) einzugeben. Am Ende machen wir ein **Update record/Speichern**.
-
-
-**Profil-Einstellungen:**
-
-
-![nightscout_profile_editor](../images/nightscout/nightscout_profile_editor.jpg)
-
-Die Dateneingabe erfolgt über das **+** Symbol der Website. Es gibt **Auswahl**- und **Werte**- Felder. Einige Plugins, wie bwp, benötigen hier Eingaben, damit sie Werte berechnen können. Mit **Eingabe senden** erscheint noch ein Bestätigungsbutton, klickt man diesen, werden die Werte gespeichert.
-
-**Admin Tools**
-
-![nightscout_admin_tools](../images/nightscout/nightscout_admin_tools.jpg)
-
-Mit den Admin Tools ist es möglich, Daten zu löschen. Dieses betrifft im wesentlichen Nutzer der Nightscout Uploader App, welche Daten vom Dexcom Receiver via USB Kabel an das Android Smartphone übertragen. Bevor hier etwas geklickt wird, bitte genau überlegen, ob dieses wirklich nötig ist.
-
-
-**Dateneingabe:**
-
-Für die Dateneingabe muss das Plugin **careportal** mit **ENABLE** über [Azure](../nightscout/azure.md) konfiguriert sein.
-
-![nightscout_dateneingabe](../images/nightscout/nightscout_dateneingabe.jpg)
-
-
-**Grafische Darstellungen**
-
-Grafik wird alle 60 Sekunden aktualisiert ?. Neben dem reinen CGM - Verlauf
-werden auch Careportal Eingaben dargestellt. Die **Basalraten Visualisierung**
-zeigt, sofern über die Azure App.-Einstellungen (basal) eingetragen und über den Profil Editor konfiguriert, den Verlauf an. Dieses ist gerade für temporäre Basalraten interessant.
-
-
-
-*****************************
+Um die Website weiter anzupassen rufen wir jetzt das [Einstellungen](nightscout/settings.md) Menü auf.
 
 
 
 
 
-
-
-
-Wir sehen uns den   [Profil Editor](../nightscout/nightscout_plugins.md) jetzt näher an.
 
 
 
