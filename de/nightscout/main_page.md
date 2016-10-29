@@ -16,7 +16,7 @@ Wenn wir die Website aktualisieren und feststellen, dass Dinge, die wir aktivier
 
 Wenn wir zuvor kein Profil auf der Website eingerichtet haben, werden wir beim ersten Aufruf der Website aufgefordert,ein Profil zu erstellen. Wir können alle Informationen eingeben, oder nur die Zeitzone (und das Profil später bearbeiten). Wir müssen die Website authentifizieren, bevor wir die Profiländerungen speichern können. Um sich zu authentifizieren, verwenden wir den Link am unteren Rand des Profils Bildschirms und geben das **API SECRET** ein. Sobald wir authentifiziert sind, ändern wir das  Profil und klicken  dann auf **Speichern**. Wenn das Profil korrekt gespeichert ist, sehen wir  **Erfolg** unten und rechts oben. Wir können nun die Website öffnen.
 
-Wir sehen uns nun die **Hauptseite:** an.
+Wir sehen uns nun die **Hauptseite:** an. Die Grafik wird alle 60 Sekunden aktualisiert.
 ![nightscout_base_site](../images/nightscout/nightscout_base_site.jpg)
 
 Was sehen wir ?
@@ -35,15 +35,22 @@ Was sehen wir ?
   13. Zeitfenster der Darstellung im oberen Bereich
   
   
-**Menü - Auswahlfelder**
-![nightscout_choice](../images/nightscout/nightscout_choice.jpg)
+In der rechten oberen Ecke finden wir **Menü - Auswahlfelder**.
+![Menüpunkte](../images/nightscout/grilledcheese-edit2.png)
+
+**Bearbeitungsmodus**
+
+`EDIT_MODE` (`on`) - mögliche Werte `on` oder `off`. Wenn diese Option aktiviert ist (rot) , kann man z.B. Behandlungsdaten grafisch mit der Maus bearbeiten, indem man eingegebene Werte auf der Zeitachse verschiebt.
+
+Mit dem **Lautsprecher** - Symbol  kann man eingestellte Alarme testen.
+
+Das Symbol mit den **3 Strichen** ist das Einstellungsmodul mit umfangreichen Möglichkeiten.
+
+Mit dem Klick auf das  **+** - Symbol rufen wir das **Behandlungsportal** auf.
+
+Mit dem **Taschenrechner** - Symbol gelangen wir zum **Bolus - Rechner**.
 
 
-
-Nach dem erstmaligen Aufruf rufen wir die **Einstellungen** auf. Hier kann man
-weiter zu **Berichte**, **Profil-Einstellungen**, **Admin Tools** gelangen.
-Über die Auswahlfelder konfiguriert man das Erscheinungsbild, die Sprache, Alarme
-und Plugins. Bei Änderungen **Speichern** nicht vergessen.
 
 
 **Einstellungen:**
@@ -81,7 +88,7 @@ Für die Dateneingabe muss das Plugin **careportal** mit **ENABLE** über [Azure
 
 Grafik wird alle 60 Sekunden aktualisiert ?. Neben dem reinen CGM - Verlauf
 werden auch Careportal Eingaben dargestellt. Die **Basalraten Visualisierung**
-zeigt, sofern über die Azure App.-Einstellungen (basal) eingetragen und über den Profil Editor konfiguriert, den Verlauf an. Dieses ist geade für temporäre Basalraten interessant.
+zeigt, sofern über die Azure App.-Einstellungen (basal) eingetragen und über den Profil Editor konfiguriert, den Verlauf an. Dieses ist gerade für temporäre Basalraten interessant.
 
 
 
