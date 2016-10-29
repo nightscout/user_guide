@@ -82,21 +82,19 @@ Mit den Administrator - Werkzeugen können wir Berechtigungen zum Zugriff auf di
 Für Berechtigungen benötigt man **Subjekte** (Menschen, Institutionen, etc.), denen man eine Rolle zuweist. Für jedes Subjekt wird ein **Zugriffstoken** generiert, mit dem der Betrachter Zugriff auf die Website bekommt. Dieses Token muss man dem Betrachter mitteilen. Innerhalb der Rolle werden Zugriffsberechtigungen verteilt, das höchste Recht ist Vollzugriff, symbolisiert durch ein `*`- Symbol, das niedrigste ist **kein Zugriff**.
 
 1. Anlegen von Subjekten
-
-![nightscout_subjects](../images/nightscout/nightscout_admin_tools_subject.PNG)
-
 2. Anlegen von Rollen
+3. Löschen von Dokumenten
+4. Behandlungsdaten in der Zukunft
+
+Anlegen von Subjekten:
+![nightscout_subjects](../images/nightscout/nightscout_admin_tools_subject.PNG)
 
 Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend sind. Hinter den Rollen sind die Zugriffsrechte gelistet.
 Man kann eigene Rollen wie beim anlegen von Subjekten definieren und speichern.
 
-3. Löschen von Dokumenten
+Es ist unter Punkt 3 möglich, die Gerätestatus - Sammlung (Collection in der mongo db) mit diesem Menüpunkt zu löschen.
 
-Es ist möglich, die Gerätestatus - Sammlung (Collection in der mongo db) mit diesem Menüpunkt zu löschen.
-
-4. Behandlungsdaten in der Zukunft
-
-Mit diesem Punkt kann man fälschlicherweise Behandlungen mit Datum in der Zukunft aus der Datenbank löschen.
+Mit Punkt 4 kann man fälschlicherweise Behandlungen mit Datum in der Zukunft aus der Datenbank löschen.
 
 
 
