@@ -42,13 +42,8 @@ Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf **Bearbeitu
 
 Der Behandlungs Profil Editor speichert angepasste Werte für die persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für Plugin iob, cob, bwp und Basalraten.
 
-**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine verwendbaren Werte angezeigt.
+**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine verwendbaren Werte angezeigt. Seit Grilled Cheese, Version 0.9 ist das Anlegen eines Profils beim ersten Aufruf der Website erforderlich.
 
-
-
-**Profil Editor:**
-
-alles NEU!!!!!
 
 ![nightscout_profile_editor_plugins](../images/nightscout/nightscout_profile_editor_plugins.jpg)
 
@@ -68,9 +63,8 @@ Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, wieviel 
 
 ####Nahrungsmittel Editor
 
-Im Nahrungsmittel - Editor können wir Mahlzeiten Mit angabe von Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die Daten über csv- oder json - Format in de *mongodb** übertragen.
+Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die Daten über csv- oder json - Format in de *mongodb** übertragen.
 
-pic
 ![nightscout_nahrungsmittel_editor](../images/nightscout/nightscout_nahrungsmittel_editor.jpg)
 
 ####Administrator Werkzeuge
