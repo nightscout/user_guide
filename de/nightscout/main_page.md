@@ -12,15 +12,15 @@ Wenn wir die Website aktualisieren und feststellen, dass Dinge, die wir aktivier
 **Bitte Sicherstellen, dass es nur eine die ENABLE - Zeile in den gesamten Einstellungen der Website gibt. (Das bedeutet nur ein einziges Mal in den Gesamteinstellungen, einschließlich App-Einstellungen und Verbindungszeichenfolgen.)
  Wenn ENABLE in Connection Strings auftaucht , bitte in die App Settings verschieben. Speichern nicht vergessen und anschließend die Website Stoppen und Starten.**
 
-**Grilled Cheese** Benötigt ein **Profil**
+**Grilled Cheese** benötigt ein **Profil**
 
 Wenn wir zuvor kein Profil auf der Website eingerichtet haben, werden wir beim ersten Aufruf der Website aufgefordert,ein Profil zu erstellen. Wir können alle Informationen eingeben, oder nur die Zeitzone (und das Profil später bearbeiten). Wir müssen die Website authentifizieren, bevor wir die Profiländerungen speichern können. Um sich zu authentifizieren, verwenden wir den Link am unteren Rand des Profils Bildschirms und geben das **API SECRET** ein. Sobald wir authentifiziert sind, ändern wir das  Profil und klicken  dann auf **Speichern**. Wenn das Profil korrekt gespeichert ist, sehen wir  **Erfolg** unten und rechts oben. Wir können nun die Website öffnen.
 
-**Hauptseite:**
+Wir sehen uns nun die **Hauptseite:** an.
 ![nightscout_base_site](../images/nightscout/nightscout_base_site.jpg)
 
-
-1. Zeit seit der Letzten CGM Sensor - Daten - Übertragung
+Was sehen wir ?
+  1. Zeit seit der Letzten CGM Sensor - Daten - Übertragung
   2. Batterie - Ladezustand des Smartphones
   3. Plugins für die Pumpensteuerung
   4. Zeitrahmen der Darstellung von Behandlungsdaten
@@ -29,7 +29,7 @@ Wenn wir zuvor kein Profil auf der Website eingerichtet haben, werden wir beim e
   7. Zunahme/Abnahme des BZ innerhalb von 2 Messpunkten
   8. Plugins mit Anzeige von  Werten wie  `Sensor - Alter` , `Insulin on Board`
   9. Basalratenverlauf
-  10. CGM - Maeßwerte
+  10. CGM - Meßwerte
   11. Behandlungsdaten Kohenhydrate - und Insulineinheiten
   12. BZ - Trend - Voraussage
   13. Zeitfenster der Darstellung im oberen Bereich
