@@ -87,6 +87,7 @@ Für Berechtigungen benötigt man **Subjekte** (Menschen, Institutionen, etc.), 
 4. Behandlungsdaten in der Zukunft
 
 Anlegen von Subjekten:
+
 ![nightscout_subjects](../images/nightscout/nightscout_admin_tools_subject.PNG)
 
 Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend sind. Hinter den Rollen sind die Zugriffsrechte gelistet.
