@@ -1,15 +1,38 @@
 # Haupt Seite
 
+Nightscout ist seit Oktober 2016 in der Version **0.9** - **Grilled Cheese** verfügbar. Wer Vorgängerversionen nutzt,
+muss Einstellungen für die Website in Azure oder Heroku überprüfen und ergänzen.
 
-In der Abbildung ist die Web Site mit Elementen zu sehen. Mit dem Klick auf das Ausschnittsfenster kann an die Ansicht von aktuellen Live Daten zu **RETRO** - Daten aus der Vergangenheit ändern.
+
+Variable unter den App - eEnstellungen  zum Hinzufügen: `AUTH_DEFAULT_ROLES` mit `readable`, `status-only` als mögliche Werte.
+evicestatus-Upload
+
+Wenn wir die Website aktualisieren und feststellen, dass Dinge, die wir aktiviert haben, nicht richtig angezeigt werden (wie boluscalc), bitte folgendes überprüfen:
+
+**Bitte Sicherstellen, dass es nur eine die ENABLE - Zeile in den gesamten Einstellungen der Website gibt. (Das bedeutet nur ein einziges Mal in den Gesamteinstellungen, einschließlich App-Einstellungen und Verbindungszeichenfolgen.)
+ Wenn ENABLE in Connection Strings auftaucht , bitte in die App Settings verschieben. Speichern nicht vergessen und anschließend die Website Stoppen und Starten.**
+
+Wie immer, wenn Sie Änderungen an Ihren Variablen vornehmen, seien Sie sicher und speichern Sie.
 
 **Hauptseite:**
 ![nightscout_base_site](../images/nightscout/nightscout_base_site.jpg)
 
-1
-2
-3
 
+1. Zeit seit der Letzten CGM Sensor - Daten - Übertragung
+  2. Batterie - Ladezustand des Smartphones
+  3. Plugins für die Pumpensteuerung
+  4. Zeitrahmen der Darstellung von Behandlungsdaten
+  5. aktueller BZ - Wert
+  6. Trendpfeilangabe
+  7. Zunahme/Abnahme des BZ innerhalb von 2 Messpunkten
+  8. Plugins mit Anzeige von  Werten wie  `Sensor - Alter` , `Insulin on Board`
+  9. Basalratenverlauf
+  10. CGM - Maeßwerte
+  11. Behandlungsdaten Kohenhydrate - und Insulineinheiten
+  12. BZ - Trend - Voraussage
+  13. Zeitfenster der Darstellung im oberen Bereich
+  
+  
 **Menü - Auswahlfelder**
 ![nightscout_choice](../images/nightscout/nightscout_choice.jpg)
 
