@@ -63,14 +63,40 @@ Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, wieviel 
 
 ####Nahrungsmittel Editor
 
-Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die Daten über csv- oder json - Format in de *mongodb** übertragen.
-
 ![nightscout_nahrungsmittel_editor](../images/nightscout/nightscout_nahrungsmittel_editor.jpg)
+
+Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die Daten über csv- oder json - Format in die **mongodb** übertragen.
+
+ 1.  Eingabe von Nahrungsmittel - Daten
+ 2. Ändern, Löschen von Datensätzen
+
 
 ####Administrator Werkzeuge
 
-
 ![nightscout_administrator_werkzeuge](../images/nightscout/nightscout_administrator_werkzeuge.jpg)
+
+Mit den Administrator - Werkzeugen können wir Berechtigungen zum Zugriff auf die Nightscout - Website verwalten und Datensätze aus der mongo DB löschen. 
+
+#####Verwalten von Berechtigungen
+
+Für Berechtigungen benötigt man **Subjekte** (Menschen, Institutionen, etc.), denen man eine Rolle zuweist. Für jedes Subjekt wird ein **Zugriffstoken** generiert, mit dem der Betrachter Zugriff auf die Website bekommt. Dieses Token muss man dem Betrachter mitteilen. Innerhalb der Rolle werden Zugriffsberechtigungen verteilt, das höchste Recht ist Vollzugriff, symbolisiert durch ein `*`- Symbol, das niedrigste ist **kein Zugriff**.
+
+1. Anlegen von Subjekten
+
+![nightscout_subjects](../images/nightscout/nightscout_admin_tools_subject.PNG)
+
+2. Anlegen von Rollen
+
+Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend sind. Hinter den Rollen sind die Zugriffsrechte gelistet.
+Man kann eigene Rollen wie beim anlegen von Subjekten definieren und speichern.
+
+3. Löschen von Dokumenten
+
+Es ist möglich, die Gerätestatus - Sammlung (Collection in der mongo db) mit diesem Menüpunkt zu löschen.
+
+4. behandlungsdaten in der Zukunft
+
+Mit diesem Punkt kann man fälschlicherweise Behandlungen mit Datum in der Zukunft aus der Datenbank löschen.
 
 
 
