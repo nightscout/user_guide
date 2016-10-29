@@ -33,7 +33,7 @@
 * [Die Nightscout Website](nightscout/nightscout_website.md)
    * [Haupt Seite](nightscout/main_page.md)
    * [Einstellungen](nightscout/settings.md)
-   * [Care Portal](nightscout/care_portal.md)
+   * [Behandlungsportal](nightscout/care_portal.md)
    * [Bolus Rechner](nightscout/boluscalculator.md)
 * [Smartwatch Integration](smartwatch/smartwatch_integration.md)
    * [Android Wear](smartwatch/android_wear.md)
