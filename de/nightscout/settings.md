@@ -67,7 +67,7 @@ Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, wieviel 
 
 Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die Daten über csv- oder json - Format in die **mongodb** übertragen.
 
- 1.  Eingabe von Nahrungsmittel - Daten
+ 1. Eingabe von Nahrungsmittel - Daten
  2. Ändern, Löschen von Datensätzen
 
 
@@ -94,7 +94,7 @@ Man kann eigene Rollen wie beim anlegen von Subjekten definieren und speichern.
 
 Es ist möglich, die Gerätestatus - Sammlung (Collection in der mongo db) mit diesem Menüpunkt zu löschen.
 
-4. behandlungsdaten in der Zukunft
+4. Behandlungsdaten in der Zukunft
 
 Mit diesem Punkt kann man fälschlicherweise Behandlungen mit Datum in der Zukunft aus der Datenbank löschen.
 
