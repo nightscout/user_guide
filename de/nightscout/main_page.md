@@ -52,7 +52,7 @@ Mit dem Klick auf das  **+** - Symbol rufen wir das **Behandlungsportal** auf.
 Mit dem **Taschenrechner** - Symbol gelangen wir zum **Bolus - Rechner**.
 
 
-Um die Website weiter anzupassen rufen wir jetzt das [Einstellungen](nightscout/settings.md) Menü auf.
+Um die Website weiter anzupassen rufen wir jetzt das [Einstellungen](../nightscout/settings.md) Menü auf.
 
 
 
