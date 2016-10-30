@@ -1,7 +1,6 @@
 # Haupt Seite
 
-Nightscout ist seit Oktober 2016 in der Version **0.9** - **Grilled Cheese** verfügbar. Wer Vorgängerversionen nutzt,
-muss Einstellungen für die Website in Azure oder Heroku überprüfen und ergänzen.
+Nightscout ist seit Oktober 2016 in der Version **0.9** - **Grilled Cheese** verfügbar. Wer Vorgängerversionen nutzt, muss Einstellungen für die Website in Azure oder Heroku überprüfen und ergänzen.
 
 
 Variable unter den App - Einstellungen  zum Hinzufügen: `AUTH_DEFAULT_ROLES` mit `readable`, `status-only` als mögliche Werte.
