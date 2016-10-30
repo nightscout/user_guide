@@ -2,7 +2,7 @@
 # Deutsche Anleitung
 
 
-Stand: August 2016
+Stand: Oktober 2016
 
 
 
