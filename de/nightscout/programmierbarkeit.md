@@ -27,8 +27,7 @@ Der Internet - Event Dienst IFTTT ([If This Than That](https://de.wikipedia.org/
  
 Daneben gibt es weitere Möglichkeiten, z.B. über Azure Webjobs  Daten zwischen Nighscout und anderen Tagebüchern, wie Sport- oder Ernährungstagebüchern zu synchronisieren, sofern diese ein dokumentiertes API besitzen. 
  
- **Azure CLI**
- 
+  
  
  **Datenbankschicht**
  
