@@ -7,7 +7,7 @@
 
 Den Einstieg in deutscher Sprache findet man hier: [Azure ](https://azure.microsoft.com/de-de/)
 
-Mit dem zweimaligen Drücken des Buttons **Kostenlos testen >** gelangen wir zur Registrierungsseite:
+Mit dem zweimaligen Klicken des Buttons **Kostenlos testen >** gelangen wir zur Registrierungsseite:
 
 ![azure_reg](../images/azure/azure_reg.jpg)
 
@@ -21,7 +21,7 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  ![azure_portal](../images/azure/azure_portal.jpg)
  
  
- Mit dem Button **+ Neu** richten wir eine neue **Ressource** ein. Die Menüführung ist kaskadiert, alle gelb markierten Punkte sind auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:
+ Mit dem Button **+ Neu** richten wir eine neue **Resource** ein. Die Menüführung ist kaskadiert, alle gelb markierten Punkte sind auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:
  
  
  ![azure_config_app](../images/azure/azure_config_app.jpg)
@@ -30,108 +30,24 @@ Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im Azure Port
  Mit dem Button **Erstellen** speichern wir die Einstellungen. Dieses kann einige Zeit
  in Anspruch nehmen.
  
- Der Name der Nightscout - Website ist jetzt AppServiceName.azurewebsites.net, hier im Beispiel: **nscgmq01.azurewebsites.net**. Diesen Namen bitte auch notieren.
+ Der Name der Nightscout - Website ist jetzt <meinname>.azurewebsites.net, hier im Beispiel: **nscgmq01.azurewebsites.net**. Diesen Website - Namen bitte auch notieren.
  
  Wenn die Web-App erstellt wurde, erscheint diese Ansicht:
  
  ![azure_app_created](../images/azure/azure_app_created.jpg)
  
- Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt, ob die App **online/running** oder **Stopped** ist.
+ Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der **Status**. Hier wird angezeigt, ob die App **Running** oder **Stopped** ist.
 
+ Weiter geht es mit der Konfiguration der **Plugin** Module. Diese sind in Kapitel [Konfiguration der Nightscout Plugins](../nightscout/azure_plugins.md)
  
- Weiter geht es mit der
- #Konfiguration der Verbindungszeichenfolgen:
- 
- Wir beginnen mit der **Verbindung zur Mongo DB**:
- 
- ![azure_mongodb_connection](../images/azure/azure_mongodb_connection.jpg)
- 
- - **mongo:** Parametername
- 
- **mongodb://dbuser:dbpassword@ds040888.mlab.com:40888/nscgmdatabase**: Verbindungszeichenfolge, diese steht im vorher ausgefüllten Datenblatt
- 
- **Benutzerdefiniert**: Attribut
- 
- 
- Wir machen auf die gleiche Weise weiter mit der Angabe der **mongodb Collection:**
- 
- - **mongo_collection**: Parametername
- 
- **entries**: Standard: entries, die Collection, in der die CGM Werte gespeichert werden. Ggf. muss der Name angepasst werden.
- 
- **Benutzerdefiniert**: Attribut
- 
-** Speichern **nicht vergessen.
- 
- ![azure_save](../images/azure/azure_save.jpg)
- 
- 
- - Jetzt fehlt noch das **API SECRET**. 
 
- Der API_SECRET Wert muss als **Minimum zwölf Zeichen** lang sein, da sonst die Nightscout Seite einfach weiß bleibt, und ist frei wählbar.
- Das API_SECRET wird für Careportal Eingaben, Pushover Notifications und REST API Upload benötigt.
- 
- **API_SECRET**: Parametername
- 
- **Y3KmrdFA12jmk**: API SECRET Wert (Beispiel)
- 
- **Benutzerdefiniert**: Attribut
- 
- 
- An dieser Stelle noch ganz wichtig den 
- 
- - Parametername : **TREATMENTS_AUTH** 
- 
- mit dem Wert: **ON**
- 
- Attribut **Benutzerdefiniert** hinzuzufügen sonst kann auch **jeder**, der die Website kennt, auch **ohne den geheimen** Wert vom API Secret Werte in eurer Datenbank **hinzufügen** oder **verändern**.
-
- 
- **Speichern** nicht vergessen.
- 
- Mit dem Button **Werte der Verbindungszeichenfolge anzeigen** kann man sich die Werte noch einmal anzeigen lassen:
- 
- ![azure_connection_strings](../images/azure/azure_connection_strings.jpg)
- 
- 
- 
- 
- Weiter geht es mit dem Konfigurieren der Plugin Module:
- #App Einstellungen 
- 
- 
- 
- | Plugin |  Hinweise |
-| -- | -- |
-| careportal | Basismodul für Eingabe von Therapie - Daten  |
-| rawbg |  benötigt Daten über xDrip oder Nightscout Uploder App |
-| iob | benötigt Profil- und careportal -Eingaben |
-| cob | benötigt careportal Eingaben |
-| bwp | Bolusrechner|
-| cage| benötigt Careportal Eingaben |
-|treatmentnotify |Benachrichtigungen über Eingaben|
-|basal|Visualisierung der Basalrate|
-|bridge-enable |Anbindungsmöglichkeit Dexcom Share mit iOS |
-|mmconnect |medtronic CGM System - Anbindung|
- 
- Wir gehen zu den **App-Einstellungen** und konfigurieren den Wert **ENABLE**:
  
  ![azure_enable_plugins](../images/azure/azure_enable_plugins.jpg)
- 
- **Eingaben:**
- 
- 
- **ENABLE**: Parametername
- 
- **Plugins**: careportal rawbg iob cob bwp cage treatmentnotify basal bridge mmconnect
- 
- ** Speichern **nicht vergessen.
- 
  
  
 #Einbindung des GitHub Source Codes
 
-Zu Bereitstellung der Nightscout -Website fehlt uns noch der `cgm-remote-monitor`, den wir über GitHub laden.
+Zu Bereitstellung der Nightscout-Website fehlt uns noch der `cgm-remote-monitor`, den wir über GitHub laden.
 Wir steigen hier ein, um die Verbindung herzustellen:
 
 ![azure_choose_github](../images/azure/azure_choose_github.jpg)
@@ -161,7 +77,7 @@ Sollte es zu einer Fehlermeldung kommen, bitte die Bereitstellung noch einmal st
 
 
 Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann über einen Browser
-mit dem Aufruf http://meinwebsitename.azurewebsites.net aufgerufen werden.
+mit dem Aufruf http://<meinname>.azurewebsites.net aufgerufen werden.
 Die Einrichtung ist fertig.
 
 
