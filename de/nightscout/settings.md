@@ -1,6 +1,6 @@
 # Einstellungen
 
-Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit dem roten Pfeil markierte Symbol:
+Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das mit dem **roten** Pfeil markierte Symbol:
 
 **Oben** haben wir die Wahl von 4 Menüpunkten:
 
