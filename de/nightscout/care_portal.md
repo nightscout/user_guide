@@ -1,8 +1,7 @@
 # Behandlungsportal
 
 
-
-Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit dem Klick auf das `+` - Symbol. Der Ereignis-Typ ist ein DropDown - Menü mit Auswahlwerten. Bespielhaft wählen wir jetzt einen `Mahlzeiten Bolus` aus, um Insulinmenge und KH hinzuzufügen.
+Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit dem Klick auf das `+` - Symbol. Der Ereignis-Typ ist ein DropDown - Menü mit Auswahlwerten. Bespielhaft wählen wir jetzt einen `Mahlzeiten Bolus` aus, um Insulinmenge und Kohlenhydrate (KH) hinzuzufügen.
 
 
 **Ereignis-Typ:**
