@@ -1,6 +1,6 @@
 # Bolus Rechner
 
-Der Bolus Rechner berechnet die abzugebende Insulinmenge für eine Mahlzeit. wir erreichen das Menü durch Klick auf das Rechner - Sysmbol ganz oben rechts:
+Der Bolus Rechner berechnet die abzugebende Insulinmenge für eine Mahlzeit. Wir erreichen das Menü durch Klick auf das Rechner - Sysmbol ganz oben rechts:
 
 ![Bolus Rechner](../images/nightscout/nightscout_bolus_calculator.jpg)
 
