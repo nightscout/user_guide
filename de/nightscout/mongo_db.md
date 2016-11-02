@@ -61,6 +61,10 @@ um auf die mongodb zuzugreifen:
 
 ![mongodb_dbuser_details](../images/mongodb/mongodb_dbuser_details.jpg)
 
+**WICHTIG:**
+
+Dabei darauf achten, dass bei "Make read-only" kein Haken gesetzt ist, da man Schreibrechte auf die Datenbank braucht.
+
 
 **Hinzufügen einer "Collection":**
 
@@ -68,7 +72,7 @@ Unter Collections auf "add collection" gehen, einen Namen wie z.B. "entries" ein
 
 **WICHTIG:**
 
-Am Ende bitte unbedingt die MongoDB [URI](https://de.wikipedia.org/wiki/Uniform_Resource_Identifier) notieren..Diese wird benötigt, um auf die Daten über das Internet zugreifen zu können.
+Am Ende bitte unbedingt die MongoDB [URI](https://de.wikipedia.org/wiki/Uniform_Resource_Identifier) notieren. Diese wird benötigt, um auf die Daten über das Internet zugreifen zu können.
 
 **Die URI Syntax:**
 
