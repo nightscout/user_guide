@@ -7,17 +7,17 @@ Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung zum Na
 
 Hier werden drei verschiedene Bauformen vorgestellt. Eine "Bauform" meint eine Art, die Hardware-Komponenten miteinander zu verlöten.
 
-Bauform 1.): "xDrip classic"
+Bauform 1.): "xDrip classic"  
 Dies ist die einfachste Bauform. Es hat sich der Name der "xDrip classic" etabliert.  
 Vorteil: Weniger Lötstellen.  
 Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei xBridge-Bauform.
 
-Bauform 2.): "xDrip classic mit Spannungsteiler"
+Bauform 2.): "xDrip classic mit Spannungsteiler"  
 Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst geringem Aufwand ein "xDrip classic" um eine Anzeig eder Akku-Ladung erweitert werden soll.  
 Vorteil: Mit Anzeige der Akku-Ladung. Minimal weniger Aufwand beim Umbau von "xDrip classic".  
 Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform.
 
-Bauform 2.): "xBridge"
+Bauform 2.): "xBridge"  
 Die Stromversorgung des Bluetooth-Moduls läuft etwas anders, als beim "xDrip classic". Im Vergleich zum "xDrip mit Spannungsteiler" müssen zwei Lötstellen mehr gelötet werden. Insbesondere muss aber die Anbindung an das Bluetooth-Modul etwas anders geschlatet werden. 
 Vorteil: Von den hier vorgestellten Vairanten die längste Akku-Laufzeit.
 Nachteil: Wenn die Bluetooth-Verbiibdung zum Handy sich schlecht oder langsam aufbaut, ungeeignet. 
