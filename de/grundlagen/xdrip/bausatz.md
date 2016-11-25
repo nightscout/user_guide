@@ -5,16 +5,29 @@ Die Varianten haben unterschiedliche Eigenschaften, letztlich aber dieselbe Aufg
 
 Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten Bauformen zu beschreiben. 
 
-Für die einfachste Bauform hat sich der Name der "xDrip classic" etabliert. Es gibt im Wesentlichen zwei wichtige Erweiterungen bzw. Änderungen dieser Bauform:
-* Der Spannungsteiler, der eine Akkuanzeige in der App ermöglicht.
-* Eine alternative Spannungsversorgung des Bluetooth-Moduls, wodurch die Laufzeit des Akkus erhöht werden kann.
+Hier werden drei verschiedene Bauformen vorgestellt. Eine "Bauform" meint eine Art, die Hardware-Komponenten miteinander zu verlöten.
+
+Bauform 1.): "xDrip classic"
+Dies ist die einfachste Bauform. Es hat sich der Name der "xDrip classic" etabliert.  
+Vorteil: Weniger Lötstellen.  
+Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei xBridge-Bauform.
+
+Bauform 2.): "xDrip classic mit Spannungsteiler"
+Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst geringem Aufwand ein "xDrip classic" um eine Anzeig eder Akku-Ladung erweitert werden soll.  
+Vorteil: Mit Anzeige der Akku-Ladung. Minimal weniger Aufwand beim Umbau von "xDrip classic".  
+Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform.
+
+Bauform 2.): "xBridge"
+Die Stromversorgung des Bluetooth-Moduls läuft etwas anders, als beim "xDrip classic". Im Vergleich zum "xDrip mit Spannungsteiler" müssen zwei Lötstellen mehr gelötet werden. Insbesondere muss aber die Anbindung an das Bluetooth-Modul etwas anders geschlatet werden. 
+Vorteil: Von den hier vorgestellten Vairanten die längste Akku-Laufzeit.
+Nachteil: Wenn die Bluetooth-Verbiibdung zum Handy sich schlecht oder langsam aufbaut, ungeeignet. 
 
 
 ## 
 Tipps und Rat für Einsteiger: 
 * Baut zunächst einen xDrip in der "klassischen Verschaltung".  
 Es entfallen die beiden Widerstände, dafür fehlt in der App die Batterieanzeige. Wenn das später gewünscht ist, kann man diese Teile problemlos nachrüsten (und die Spannungsversorgung für das Bluetooth-Modul ggf. ändern).
-* Verwendet für das Wixel die "xBridge2.wxl"-Software. Für alle hier gezeigten Schaltkreise ist diese Software geeignet.
+* Verwendet für das Wixel die "xBridge2.wxl"-Software. Für alle hier gezeigten Schaltkreise/Bauformen ist diese Software geeignet.
 * Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein, dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen alle LiPo-Akkus mit 3,7V in Frage. Eine Empfehlung aus Erfahrungswerten ist, für xDrip classic mindestens 500 mAh verwenden. Große Akkus mit 1100 mAh und mehr bieten auch für xDrip classic mehrere Tage Laufzeit. Für "xBridge"-Schaltkreise  können schon Akkus ab 200 mAh mehr als 24 Stunden Laufzeit erreichen.
 * Die Brücke "for faster charging with large batteries" beeinflusst den Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen, fließen 500 mA. Ein kleinerer Ladestrom schont den Akku - aber die Ladezeit erhöht sich.  
 Der Akku-Hersteller empfiehlt, die Brücke für Akkus ab 500 mAh zu schließen. 
