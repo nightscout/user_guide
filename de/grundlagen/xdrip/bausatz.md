@@ -78,6 +78,7 @@ Erklärung zur folgenden Tabelle:
 
 | Bauteil | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | xBridge|
 | -- | -- | -- | -- | -- | -- |
+| HM17 | -- | -- | -- | -- | -- |
 | HM11 | Klärung nötig ||||
 | HM10 | ~~grün~~ Dauerleuchten | Regelbetrieb | Regelbetrieb | -  |
 | HM10 | ~~grün~~ blinkend | keine BT-Verbindung zum Handy | keine BT-Verbindung zum Handy | keine BT-Verbindung zum Handy|
@@ -114,7 +115,7 @@ Erklärung zur folgenden Tabelle:
 |14| optional, aber empfehlenswert| "dritte Hand" ein Beispiel: [Link](http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand) |  |  |  |  |  |
 |15| optional | Epoxid Trennschicht |  |  |  |  |  |
 |16| notwendig | Kabel mit Mini-USB-Stecker, um das Wixel zu bespielen | Beispiel: [Link](http://www.amazon.de/dp/B00NH11N5A)  |  |  |  |  |
-
+Hinweis: Es gibt Erfahrungsberichte, die besagen, dass ein HM17 sich ebenso verwenden lässt.
 
 
 
