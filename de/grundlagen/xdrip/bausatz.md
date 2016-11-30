@@ -77,8 +77,8 @@ Erklärung zur folgenden Tabelle:
 * "-" bedeutet: Diese Anzeige sollte nicht vorkommen.
 
 | Bauteil | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | xBridge|
-| -- | -- | -- | -- | -- | -- |
-| HM17 | -- | -- | -- | -- | -- |
+| -- | -- | -- | -- | -- |
+| HM17 | -- | -- | -- | -- |
 | HM11 | Klärung nötig ||||
 | HM10 | ~~grün~~ Dauerleuchten | Regelbetrieb | Regelbetrieb | -  |
 | HM10 | ~~grün~~ blinkend | keine BT-Verbindung zum Handy | keine BT-Verbindung zum Handy | keine BT-Verbindung zum Handy|
@@ -87,6 +87,7 @@ Erklärung zur folgenden Tabelle:
 | Wixel | orange Dauerleuchten |  -  |  -  | keine Verbindung zum Transmitter|
 | Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb |  - |
 | Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | - | - | Regelbetrieb| 
+| Wixel | Ab und zu Orange und rot | ? | ? | ?| 
 | App Statusanzeige | "not connected" dauerhaft | keine Verbindung zum BT-Modul | keine Verbindung zum BT-Modul |keine Verbindung zum BT-Modul |
 | App Statusanzeige | "not connected", aber alle 5 Minuten für ca. 30 Sek "connected" | - | - | Regelbetrieb (!) |
 | App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb | - |
