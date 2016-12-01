@@ -13,13 +13,13 @@ Vorteil: Weniger Lötstellen. Einfach und robust. (Was nicht dran ist, kann nich
 Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei xBridge-Bauform.
 
 Bauform 2.): "xDrip classic mit Spannungsteiler"  
-Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst geringem Aufwand ein "xDrip classic" um eine Anzeig eder Akku-Ladung erweitert werden soll.  
+Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst geringem Aufwand ein "xDrip classic" um eine Anzeige der Akku-Ladung erweitert werden soll.  
 Vorteil: Mit Anzeige der Akku-Ladung. Geringer Aufwand beim Umbau von "xDrip classic".  
 Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform.
 
-Bauform 2.): "xBridge"  
+Bauform 3.): "xBridge"  
 Die Stromversorgung des Bluetooth-Moduls läuft etwas anders, als beim "xDrip classic". Im Vergleich zum "xDrip mit Spannungsteiler" müssen zwei Lötstellen mehr gelötet werden. Insbesondere müssen die Kabel für die Anbindung an das Bluetooth-Modul etwas anders geschaltet werden.  
-Vorteil: Von den hier vorgestellten Vairanten die längste Akku-Laufzeit.  
+Vorteil: Von den hier vorgestellten Varianten die längste Akku-Laufzeit. Von der Anzeige der Akku-Ladung bitte keine Wunder erwarten - es ist nur eine grobe Orientierung. Der aangezeigte Prozentwert sinkt nicht linear.   
 Nachteil: Ungeeignet, wenn sich die Bluetooth-Verbindung zum Handy sich schlecht oder langsam aufbaut. 
 
 
@@ -64,7 +64,7 @@ Es gibt zwei Möglichkeiten: Warten, bis das Wixel (alle 5 Minuten) aufwacht, di
 * "xDrip classic" (ohne Spannungsteiler)
 * "xDrip classic zzgl. Spannungsteiler". Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also (1k und 2,2k) ODER (10k und 22k).
 * "xBridge" (incl. Spannungsteiler). Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfohlen werden 10k und 27k.
-* Wenn Widerstände neu eingebaut wurden, oder wenn die eingebauten Widerstände verändert wurden, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte des Battery-Levels in der xDrip-App sind falsch. 
+* Wenn Widerstände neu eingebaut wurden, wenn die eingebauten Widerstände verändert wurden oder wenn der Akku getauscht wurde, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte des Battery-Levels in der xDrip-App sind falsch. 
 * Metallschicht-Widerstände sind etwas größer und damit leichter zu handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man etwas Platz sparen, aber man braucht dann wirklich eine ruhige Hand beim Löten.
 
 ---
@@ -87,7 +87,7 @@ Erklärung zur folgenden Tabelle:
 | Wixel | orange Dauerleuchten |  -  |  -  | keine Verbindung zum Transmitter|
 | Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb |  - |
 | Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | - | - | Regelbetrieb| 
-| Wixel | Ab und zu Orange und rot | ? | ? | ?| 
+| Wixel | ab und zu orange und rot gleichzeitig | ? | ? | ?| 
 | App Statusanzeige | "not connected" dauerhaft | keine Verbindung zum BT-Modul | keine Verbindung zum BT-Modul |keine Verbindung zum BT-Modul |
 | App Statusanzeige | "not connected", aber alle 5 Minuten für ca. 30 Sek "connected" | - | - | Regelbetrieb (!) |
 | App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb | - |
