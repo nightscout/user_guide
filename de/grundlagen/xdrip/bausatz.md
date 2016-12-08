@@ -87,7 +87,7 @@ Erklärung zur folgenden Tabelle:
 | Wixel | orange Dauerleuchten |  -  |  -  | keine Verbindung zum Transmitter|
 | Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb |  - |
 | Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | - | - | Regelbetrieb| 
-| Wixel | ab und zu orange und rot gleichzeitig | ? | ? | ?| 
+| Wixel | ab und zu orange und rot gleichzeitig | ? | ? | Das Wixel hat die Transmitter-ID an der Handy-App empfangen und wartet auf das erste Paket von diesem Transmitter.| 
 | App Statusanzeige | "not connected" dauerhaft | keine Verbindung zum BT-Modul | keine Verbindung zum BT-Modul |keine Verbindung zum BT-Modul |
 | App Statusanzeige | "not connected", aber alle 5 Minuten für ca. 30 Sek "connected" | - | - | Regelbetrieb (!) |
 | App Statusanzeige | "connected" dauerhaft | Regelbetrieb |Regelbetrieb | - |
