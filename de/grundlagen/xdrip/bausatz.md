@@ -1,6 +1,6 @@
 # Bausatz
 
-Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. \(Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.\)   
+Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die verwendete Hardware, die Art die Hardware zu verlöten und auch die Software. \(Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.\)  
 Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen für ähnliche Dinge.  
 Die Varianten haben unterschiedliche Eigenschaften, letztlich aber dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und an ein Bluetooth-Handy zu übertragen.
 
@@ -10,7 +10,7 @@ Hier werden drei verschiedene Bauformen vorgestellt. Eine "Bauform" meint eine A
 
 Bauform 1.\): "xDrip classic"  
 Dies ist die einfachste Bauform. Es hat sich der Name der "xDrip classic" etabliert.  
-Vorteil: Weniger Lötstellen. Einfach und robust. \(Was nicht dran ist, kann nicht kaputt gehen.\)  
+Vorteil: Weniger Lötstellen. Einfach und robust. \(Was nicht dran ist, kann nicht kaputt gehen.\) Im Regelbetrieb leuchtet immer eine LED. Das verbraucht etwas Strom, aber man sieht auf den ersten Blick, ob der xDrip noch "lebt".  
 Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei xBridge-Bauform.
 
 Bauform 2.\): "xDrip classic mit Spannungsteiler"  
@@ -60,15 +60,16 @@ Tipps und Rat für Einsteiger:
 
 ** Info zu den Widerständen: ** \(wichtig für die Batterie-Anzeige\)
 
-* "xDrip classic" \(ohne Spannungsteiler\)
-* "xDrip classic zzgl. Spannungsteiler". Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Also \(1k und 2,2k\) ODER \(10k und 22k\).
+* "xDrip classic" \(ohne Spannungsteiler\) Also keine Widerstände verbaut.
+* "xDrip classic zzgl. Spannungsteiler". Dann muss der Spannungsteiler ein Verhältnis von 1:2,2 haben. Empfohlen werden 10k und 22k. \(Aber die Kombination mit 1k und 2,2k geht auch.\)
 * "xBridge" \(incl. Spannungsteiler\). Dann muss der Spannungsteiler ein Verhältnis von 1:2,7 haben. Empfohlen werden 10k und 27k.
 * Wenn Widerstände neu eingebaut wurden, wenn die eingebauten Widerstände verändert wurden oder wenn der Akku getauscht wurde, muss anschließend die xBridge2.wxl neu aufgespielt werden. Sonst stimmen die "angelernten" Werte nicht und die angezeigten Werte des Battery-Levels in der xDrip-App sind falsch. 
 * Metallschicht-Widerstände sind etwas größer und damit leichter zu handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man etwas Platz sparen, aber man braucht dann wirklich eine ruhige Hand beim Löten.
 
 ---
 
-Anzeigen der LED \(bzw. in der App\) und die Bedeutung \(mit xBridge2.wxl auf dem Wixel\).
+Anzeigen der LED \(bzw. in der App\) und die Bedeutung \(mit xBridge2.wxl auf dem Wixel\).  
+Die Anzeigen sind von der Version der wxl-Datei und von der verbauten Hardware abhängig - in der folgenden Tabelle gibt es eine grobe Orientierung.
 
 Erklärung zur folgenden Tabelle:
 
