@@ -52,12 +52,14 @@ Tipps und Rat für Einsteiger:
 
 ** Zur Software auf dem Wixel: **
 
-* xBridge Firmware: [xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl) \(Auch empfohlen bei Verlötung nach "xDrip classic".\)
-  \(Update 01/2017:  Mit der xBridge-Verdrahtung wird alternativ diese wxl empfohlen: 
-  https://github.com/savek-cc/wixel-sdk/blob/master/apps/xBridge2/xBridge2.c
+* xBridge Firmware: [xBridge2.wxl](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.wxl) \(Auch empfohlen bei Verlötung nach "xDrip classic".\)  
+  \(Update 01/2017:  Mit der xBridge-Verdrahtung wird alternativ diese wxl empfohlen:   
+  [https://github.com/savek-cc/wixel-sdk/blob/master/apps/xBridge2/xBridge2.c](https://github.com/savek-cc/wixel-sdk/blob/master/apps/xBridge2/xBridge2.c)   
+  Achtung: Nur in Zusammenspiel mit der Handy-App "xDrip+" lauffähig. Nicht mit xDrip.\)  
   Die Ansteuerung der Dioden ist anders, als unten beschrieben. Die Laufzeit ist höher, als in den anderen Versionen. Wenn es Lücken in der Verbindung von xDrip-Box und Handy gab, werden diese nachträglich auch für mehrere Stunden aufgefüllt.\)
 
 * Software zum Aufspielen der wxl-Datei auf das Wixel [Wixel Configuration Utility](https://www.pololu.com/product/1337/resources)
+
 * Weitere Infos: siehe [hier](https://github.com/jstevensog/wixel-sdk/blob/master/apps/xBridge2/xBridge2.pdf) 
 * Tipp: Wenn auf dem Wixel schon eine xBridge2.wxl Software aufgespielt ist, dann legt die Software das Wixel zyklisch in einen passiven Modus. In dieser Zeit kannst Du das Wixel nicht via USB-Kabel mit dem PC verbinden.  
   Es gibt zwei Möglichkeiten: Warten, bis das Wixel \(alle 5 Minuten\) aufwacht, die Verbindung aufbauen und in der "Wixel Configuration Utility" die Anwendung auf dem Wixel stoppen. Oder das Wixel kurz von der Spannungsversorgung trennen und dann die Verbindung aufbauen.
@@ -146,7 +148,7 @@ Es gibt verschiedene Bluetooth-Module: HM10, HM11 oder HM-17 für die es verschi
 * zu xBridge2: Ein [PDF](https://github.com/jstevensog/wixel-sdk/raw/master/apps/xBridge2/xBridge2.pdf) Dokument findet sich in diesem [Repository](https://github.com/jstevensog/wixel-sdk)
 * Eine weitere Seite mit Anleitungen findet sich [hier](http://circles-of-blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-dexdrip-introduction/)
 * Eine sehr hübsche Anleitung zu Bau der xDrip-Box findet sich hier: 
-  http://www.hypodiabetic.co.uk/home/blog/hacking-diabetes/xdrip-and-xbridge-build-instructions
+  [http://www.hypodiabetic.co.uk/home/blog/hacking-diabetes/xdrip-and-xbridge-build-instructions](http://www.hypodiabetic.co.uk/home/blog/hacking-diabetes/xdrip-and-xbridge-build-instructions)
 * Wichtige Quellen zu xDrip finden sich an diesen Stellen: [hier](https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip) und [hier](http://stephenblackwasalreadytaken.github.io/xDrip/) und [hier](https://github.com/StephenBlackWasAlreadyTaken/xDrip/blob/gh-pages/hardware_setup.md)
 
 
