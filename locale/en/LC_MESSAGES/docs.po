@@ -3847,3 +3847,7 @@ msgstr ""
 #: ../../docs/grundlagen/libre/index.rst:2
 msgid "Libre"
 msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:6
+msgid "Applikationsschicht"
+msgstr ""
