@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: :project_name 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 19:53+0100\n"
+"POT-Creation-Date: 2017-02-05 17:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,23 +160,259 @@ msgid ""
 "https://de.wikipedia.org/wiki/Plug-in"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/index.rst:8
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:6
 msgid ""
-"Diese Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, "
-"CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die"
-" Therapie besser steuern zu können. Im Gegensatz zur herkömmlichen "
-"Blutzuckermessung wird nicht der Glucosegehalt in einem dafür gewonnenen  "
-"Blutstropfen gemessen (Blutzuckerwert, BZ), sondern im Gewebe des Körpers "
-"(Gewebeglucosewert, GZ). Veränderungen treten dort in der Regel mit einer "
-"kurzen zeitlichen Verzögerung im Vergleich zum Blutzucker auf."
+"Lade die aktuellste Version der Nightscout Uploader App auf dein Android "
+"Smartphone und installiere sie "
+"(https://github.com/pazaan/640gAndroidUploader/releases)."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/index.rst:10
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:9
 msgid ""
-"Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem "
-"Transmitter (Sender, zur Übertragung der GZ-Werte) und einem Empfangsgerät, "
-"das alle Werte speichert und auf dem der Gewebeglucosewert zusammen mit "
-"einem Trend auf dem Display angezeigt werden kann."
+"Nachdem du die App installiert hast, verbinde dein Smartphone mit dem "
+"Contour Next Link 2.4 Messgerät über ein USB-OTG (On-The-Go) Kabel und "
+"starte die App: OTG Setup"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:14
+msgid ""
+"Im ersten Schritt musst du die Nutzungsbedingungen lesen und akzeptieren. "
+"Als nächstes musst du dein Contour Next Link Gerät registrieren. Dazu klicke"
+" auf die drei kleinen Menü-Punkte in der rechten oberen Ecke: Menu1"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:17
+msgid ""
+"Solltest du keine drei Menü-Punkte sehen, musst du das Menü über deine Menü-"
+"Taste des Smartphones öffnen: Menu2"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:20
+msgid "Klicke nun auf „Register USB Stick“: USBStick"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:23
+msgid ""
+"Gib nun deine Login Informationen von carelink.minimed.eu ein und drücke "
+"„RETRIEVE KEYS FOR USB“: Keys"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:26
+msgid ""
+"Wenn die App den richtigen Schlüssel von CareLink bekommt, siehst du nun auf"
+" dem Bildschirm den ersten CGM-Wert: Gratuliere! CGM"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:29
+msgid ""
+"Damit die CGM-Werte nun auch auf anderen mobilen Geräten abgelesen werden "
+"können, müssen wir noch einen Schritt machen. Gehe wiederum ins Menü der App"
+" und drücke auf „Preferences“: Preferences"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:32
+msgid ""
+"Aktiviere nun „REST API Upload“. Je nach Version der App musst du noch deine"
+" API Base URL eingeben, die so aussieht: "
+"https://deinAPI_SECRETPasswort@deinewebsite.azurewebsites.net/api/v1/ Es  "
+"kann    sein,   dass dein   API_SECRET  Passwort    und deine   Nightscout  "
+"Website (deinewebsite.azurewebsites.net)    separat verlangt    werden. API"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:36
+msgid ""
+"Nun kannst du auf deiner Website (deinewebsite.azurewebsites.net) die CGM-"
+"Werte ablesen (es kann einige Minuten in Anspruch nehmen, bis die Daten "
+"angezeigt werden): Nightscout"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:39
+msgid ""
+"Als App zum Lesen der Kurve für Android empfehle ich „NightWatch“. Für "
+"iPhones empfehle ich die Apps „Nightscouter“ oder „Nightscout“."
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:41
+msgid ""
+"Sobald die Verbindung zwischen der Pumpe und der Android-Messgerät- "
+"Verbindung unterbrochen wird (Distanz, Wackelkontakt des USB-OTG Kabels), "
+"werden keine CGM-Werte mehr aufgezeichnet. Sie werden zum jetzigen Zeitpunkt"
+" auch nicht nachgetragen, sobald die Verbindung wieder steht."
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:44
+msgid ""
+"Bei Problemen kannst du jederzeit die Community auf Facebook um Rat bitten "
+"(Gruppe für Deutschland heißt „Nightscout Deutschland (Germany)“)."
+msgstr ""
+
+#: ../../docs/grundlagen/640g/640gAndroidUploader.md:46
+msgid "Nun viel Spaß mit Nightscout - #WeAreNotWaiting !"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:5
+msgid ""
+"Wir benötigen ein Konto auf CareLink und müssen mindestens einmal die "
+"Pumpendaten über das Contour Next Link 2.4 Messgerät auf Carelink hochladen."
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:7
+msgid "Gehe auf https://carelink.minimed.eu und klicke auf „Jetzt anmelden“:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:9
+msgid "Anmeldung"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:11
+msgid "Wähle dein Land und deine Sprache aus:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:13
+msgid "Sprache"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:15
+msgid ""
+"Nach dem Durchlesen der Nutzungsbedingungen akzeptiere diese, indem du diese"
+" drei Checkboxen klickst und „Akzeptieren“ klickst: Checkboxen"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:18
+msgid ""
+"Fülle nun das Formular mit deinen Angaben aus. Bestätige, dass du kein "
+"Roboter bist, und klicke auf „Absenden“:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:20
+msgid "Absenden"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:22
+msgid "Nach dem „Absenden“ erscheint eine Bestätigungsseite:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:24
+msgid "Bestaetigung"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:26
+msgid ""
+"Nachdem du auf „Fertig stellen“ klickst, kommst du auf die Startseite zum "
+"Login. Gib deine vorhin erstellten Benutzernamen und Passwort ein und klicke"
+" auf „Einloggen“:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:29
+msgid "Einloggen"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:31
+msgid "Wechsle nun auf den Reiter „Hochladen“:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:33
+msgid "Hochladen"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:35
+msgid ""
+"Stecke nun dein Contour Next Link 2.4 Messgerät in einen USB-Stecker deines "
+"Computers. WICHTIG ist, dass dieses Messgerät mit der Minimed 640G Pumpe "
+"bereits verbunden/gepaart wurde. (Eine Anleitung dazu findest du hier.) Die "
+"Pumpe bzw. der/die Pumpenträger_in muss sich nun in der Nähe des Computers "
+"bzw. des angeschlossenen Messgeräts befinden."
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:39
+msgid ""
+"(Java muss auf dem Computer installiert sein und die Ausführung von Java "
+"erlaubt werden)."
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:41
+msgid ""
+"WICHTIG ist, als Gerät „Minimed Insulinpumpe“ auszuwählen. Klicke nun auf "
+"„Weiter“"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:43
+msgid "Auswahl"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:45
+msgid "Wähle nun „Minimed Serie 600“ und klicke auf „weiter“:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:47
+msgid "Du wirst nun gebeten"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:53
+msgid "Sofern alles stimmt, klicke auf „Weiter“"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:55
+msgid "Pumpenstatus"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:57
+msgid ""
+"Nun musst du die Seriennummer der Pumpe eingeben und auf „Weiter“ klicken:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:59
+msgid "Seriennummer"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:61
+msgid "Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter“:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:63
+msgid "Auswahl_Verbindung"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:65
+msgid ""
+"Stelle sicher, dass alle aufgeführten Punkte zutreffen und klicke auf "
+"„Fertigstellen“:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:67
+msgid "Fertig"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:69
+msgid "Die Pumpendaten werden nun ausgelesen:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:71
+msgid "Auslesen"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/carelink.md:73
+msgid ""
+"Wichtig: *Sollte die Verbindung zwischen Pumpe und Messgerät unterbrochen "
+"werden (z.B. durch das Auslesen der Pumpendaten in CareLink Pro bei einer "
+"3-Monatskontrolle) kann es sein, dass das Auslesen auf CareLink (wie eben "
+"durchgeführt) erneut notwendig wird. Damit das nicht passiert empfiehlt es "
+"sich, ein zusätzliches Contour Next Link 2.4 Messgerät anzuschaffen, welches"
+" nur in Verbindung mit dem Android Smartphone steht und nicht für etwaiges "
+"manuelles Hochladen von Pumpendaten gebraucht wird (muss allerdings "
+"ebenfalls einmalig zum Auslesen der Pumpendaten gebraucht worden sein!). *"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/index.rst:2
+msgid "640G"
+msgstr ""
+
+#: ../../docs/grundlagen/640g/index.rst:4
+msgid ""
+"Bevor man das Messgerät Countour Next Link 2.4 vorbereitet oder den "
+"640gAndroidUploader installiert sollte man zuerst das Kapitel [Nightscout "
+"einrichten](../../nightscout/nightscout_einrichten.md) durchgearbeitet und "
+"die Webseite entsprechend eingerichtet haben."
 msgstr ""
 
 #: ../../docs/grundlagen/cgm/dexcom.md:3
@@ -225,6 +461,146 @@ msgstr ""
 msgid ""
 "den Guardian 2 Link Transmitter, der nur mit der MiniMed 640G Insulinpumpe "
 "kompatibel ist."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:11
+msgid ""
+"Da sich die Wege zum erfolgreichen Nightscout-Betrieb unterscheiden, werden "
+"diese im Folgenden getrennt betrachtet."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:16
+msgid ""
+"Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es "
+"folgende Möglichkeit, die Daten zur Nightscout Webseite zu übertragen."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:19
+msgid "Übersichtsgrafik"
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:21
+msgid ""
+"Danach stehen einem die in den Kapiteln Die Nightscout Hauptseite und "
+"Smartwatch Integration genannten Möglichkeiten zur Verfügung."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:23
+msgid ""
+"Um das zu realisieren, muss man den MMCommander bauen und mit der "
+"entsprechenden Software bespielen. Zusätzlich muss noch auf einem "
+"kompatiblen Android Smartphone die Medtronic Uploader App installiert und "
+"konfiguriert werden. Beides ist im Kapitel MMCommander beschrieben."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:25
+msgid ""
+"Im Netz findet man auch Hinweise auf eine Lösung für das Iphone (ab dem 4s "
+"und IOS 8.2). Diese Lösung, der RileyLink, kontaktiert die Pumpe per Funk "
+"und stellt dann über Bluetooth eine Verbindung mit dem Iphone her. Dort "
+"läuft dann die RileyLink IOS App und transportiert die Daten zu Nightscout. "
+"Dies funktioniert bisher noch nicht mit den deutschen Pumpen, eventuell da "
+"der RileyLink sich gegenüber der Pumpe als MySentry ausgibt, um von dieser "
+"die Daten zu bekommen. MySentry wird, lt. Medtronic-Hotline, aber nur von "
+"den amerikanischen Pumpen unterstützt. Auch die mittlerweile offiziell von "
+"Nightscout unterstützte Lösung mit Hilfe von Minimed Connect und IOS (s. "
+"hier) betrifft derzeit nur den amerikanischen Markt."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:30
+msgid ""
+"Bei der Minimed 640G funktioniert es seit Mitte Mai 2016 recht ähnlich. "
+"Hierbei wird das Messgerät Bayer Contour Next Link 2.4 per USB Kabel mit "
+"einem passenden Android Smartphone verbunden. Auf diesem Smartphone wird "
+"dann der 640gAndroidUploader installiert und konfiguriert."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:32
+msgid ""
+"Dazu sind die folgenden Einzelschritte erforderlich: Zunächst muss das "
+"Kapitel Nightscout einrichten durchgearbeitet und die Webseite entsprechend "
+"eingerichtet werden. Danach geht es weiter mit dem Kapitel CareLinkPersonal "
+"Konto einrichten. Ist dies geschehen, wird noch das Android Smartphone mit "
+"dem Contour Next Link Messgerät konfiguriert  (s. hier)."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:35
+msgid ""
+"Die vorherige, seit Anfang 2016 existierende Lösung sei auch noch erwähnt. "
+"Speziell, da damit noch mehr Daten wie zum Beispiel Informationen über "
+"Temporäres Basal zu Nightscout übertragen werden können, die derzeit noch "
+"nicht mit der App übertragen werden. Allerdings ist diese Lösung deutlich "
+"komplizierter und noch nicht Bestandteil dieses Handbuches. Informationen "
+"dazu gibt es auf der Nightscout Webseite (s. Nightscout and Medtronic 640g "
+"(engl.)) und zusätzlich hat der Autor, Matt, noch einen englischen Blog, der"
+" sich mit dem Thema beschäftigt Matt's Little D Blog an."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/enlite.md:37
+msgid ""
+"Speziell im Beitrag vom 18.01.16 geht Matt auf die erforderlichen Schritte "
+"ein. Mittlerweile hat Matt drei verschiedene Lösungen für die 640G "
+"erarbeitet. Details in seinem Beitrag vom 16.4.16."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/freestyle_libre.md:4
+msgid ""
+"Der FreeStyle Libre der Firma Abbott ist seitens des Herstellers kein CGM "
+"System, sondern ein FGM (Flash Glucose Messsystem). Der Unterschied ist, "
+"dass bei einem CGM System ein Transmitter die Daten automatisch z.B. alle 5 "
+"Minuten an ein geeignetes Anzeigegerät sendet und bei einem FGM die Daten "
+"nur durch aktives Scannen des Sensors \"abgeholt\" werden. Derzeit wird der "
+"Sensor zumeist durch das passende Lesegerät ausgelesen. Auch gibt es "
+"mittlerweile die LibreLink Android App, die zur Nutzung mit dem FreeStyle "
+"Libre zugelassen ist und das Auslesen direkt mit einem Smartphone "
+"ermöglicht. Auch bei Nutzung des FreeStyle Libre als FGM ist eine Einbindung"
+" in Nightscout möglich. Wie das funktioniert ist hier beschrieben."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/freestyle_libre.md:10
+msgid ""
+"Mittlerweile gibt es es ein DIY Projekt, welches die Herstellung eines "
+"Transmitters für dieses System ermöglicht und die Firma BlueToolz UG "
+"arbeitet derzeit an einer Lösung, die für den Benutzer ohne Bastelkenntnisse"
+" eine CGM auf FreeStyle Libre Basis ermöglichen soll. Details zu den "
+"Projekten finden sich hier."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/index.rst:2
+msgid "CGM"
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/index.rst:4
+msgid ""
+"**Kontinuierlich messender Glucosesensor** --- Insulinpflichtige Diabetiker "
+"müssen zyklisch ihren Blutzucker prüfen. Eine Möglichkeit, die Messungen "
+"besonders oft durchzuführen, ist ein System zur kontinuierlichen Messung der"
+" Glucose."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/index.rst:8
+msgid ""
+"Diese Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring, "
+"CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um die"
+" Therapie besser steuern zu können. Im Gegensatz zur herkömmlichen "
+"Blutzuckermessung wird nicht der Glucosegehalt in einem dafür gewonnenen  "
+"Blutstropfen gemessen (Blutzuckerwert, BZ), sondern im Gewebe des Körpers "
+"(Gewebeglucosewert, GZ). Veränderungen treten dort in der Regel mit einer "
+"kurzen zeitlichen Verzögerung im Vergleich zum Blutzucker auf."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/index.rst:10
+msgid ""
+"Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem "
+"Transmitter (Sender, zur Übertragung der GZ-Werte) und einem Empfangsgerät, "
+"das alle Werte speichert und auf dem der Gewebeglucosewert zusammen mit "
+"einem Trend auf dem Display angezeigt werden kann."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm/index.rst:12
+msgid ""
+"Auf den folgenden Seiten wird die Vorgehensweise von drei bisher erprobten "
+"verschiedenen Systemen vorgestellt. ---"
 msgstr ""
 
 #: ../../docs/grundlagen/diydisclaimer.md:4
@@ -341,6 +717,12 @@ msgid ""
 "Programmer bereits installiert)."
 msgstr ""
 
+#: ../../docs/grundlagen/enlite/cc1111_anschliessen.md:14
+msgid ""
+"Wenn alles richtig angeschlossen ist, leuchtet die LED am CC Debugger grün, "
+"wenn nicht, hilft eventuell ein Blick in das Unterkapitel Fehlerbehebung."
+msgstr ""
+
 #: ../../docs/grundlagen/enlite/cc1111_programmierung.md:3
 msgid ""
 "Um den CC1111 USB Dongle zu programmieren, muss der SmartRF Flash Programmer"
@@ -448,6 +830,17 @@ msgid ""
 "Originaldatei INSTALL.pdf, die der Autor geschrieben hat."
 msgstr ""
 
+#: ../../docs/grundlagen/enlite/index.rst:2
+msgid "MMCommander"
+msgstr ""
+
+#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:3
+msgid ""
+"Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert "
+"werden kann, muss man die Schritte des Kapitels Nightscout einrichten, außer"
+" denen des Unterkapitels \"Care Portal\", vollzogen haben."
+msgstr ""
+
 #: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:5
 msgid ""
 "Nun installiert man die Datei \"NightScout.apk\" auf dem Smartphone. "
@@ -455,6 +848,13 @@ msgid ""
 "Herkunft die Installation von Apps aus unbekannten Quellen zulassen, da "
 "diese App nicht aus dem Google Play Store stammt. Dort gibt es nur den für "
 "den Dexcom Empfänger gedachten \"Nightscout Uploader\"."
+msgstr ""
+
+#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:7
+msgid ""
+"Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel dem "
+"\"Account-Information\". eingetragen hat, werden nun zum Konfigurieren der "
+"Medtronic Uploader App benötigt."
 msgstr ""
 
 #: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:9
@@ -592,6 +992,14 @@ msgstr ""
 msgid "Upload"
 msgstr ""
 
+#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:57
+msgid ""
+"Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine"
+" Viertelstunde, bis die ersten Werte über die persönliche Internetseite im "
+"Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Unterkapitel "
+"Fehlerbehebung."
+msgstr ""
+
 #: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:59
 msgid ""
 "Man sollte die Kalibrierung mittels \"Instant Calibration\" jedes Mal "
@@ -686,6 +1094,29 @@ msgstr ""
 msgid "tictac"
 msgstr ""
 
+#: ../../docs/grundlagen/enlite/mmcommander.md:3
+msgid ""
+"Der MMCommander stellt die Schnittstelle zwischen dem MiniLink Transmitter "
+"(für die Veo) und einem (kompatiblen) Android Smartphone dar. Derzeit wird "
+"damit das \"alte\" System, bestehend aus Enlite Sensor, MiniLink Transmitter"
+" und VEO Insulinpumpe, unterstützt."
+msgstr ""
+
+#: ../../docs/grundlagen/enlite/mmcommander.md:5
+msgid ""
+"Benutzer der Medtronic 640G und deren CGM Komponenten sollten sich den "
+"Unterpunkt Guardian 2 Link Transmitter des Kapitels Enlite ansehen."
+msgstr ""
+
+#: ../../docs/grundlagen/enlite/mmcommander.md:7
+msgid ""
+"Das Grundprinzip ist, dass der MMCommander die vom Transmitter an die Pumpe "
+"übertragenen Werte \"mithört\" und diese dann per Medtronic Uploader Android"
+" App entweder per Wi-Fi oder mobilem Telefon Netzwerk an Nightscout "
+"überträgt (vgl. Übersichtsgrafik im Unterpunkt MiniLink Transmitter des "
+"Kapitels Enlite)."
+msgstr ""
+
 #: ../../docs/grundlagen/enlite/mmcommander.md:11
 msgid ""
 "Der Hersteller Medtronic hat mit dem hier beschriebenen Projekt nichts zu "
@@ -693,6 +1124,18 @@ msgid ""
 "Risiko benutzt. Informationen, die mithilfe dieses Projektes erlangt werden,"
 " dürfen niemals als Grundlage für eine medizinische Entscheidung benutzt "
 "werden."
+msgstr ""
+
+#: ../../docs/grundlagen/enlite/software.md:3
+msgid ""
+"Um den CC1111 USB Dongle mit der entsprechenden Software zu beschreiben, "
+"braucht man ein Windows Programm, welches Smart RF Flash Programmer heißt "
+"(Achtung: nicht den SmartRF Flash Programmer 2 runterladen!) und natürlich "
+"die aufzuspielende Software. Diese befindet sich   hier. Am besten man "
+"installiert bereits jetzt SmartRF Flash Programmer, damit Windows später den"
+" CC Debugger erkennt. Es gibt alternativ auch die Möglichkeit, den TI Stick "
+"unter Linux mit Hilfe des cc-tool's zu beschreiben, einfacher ist es aber "
+"unter Windows. Für Mac ist derzeit keine Lösung bekannt."
 msgstr ""
 
 #: ../../docs/grundlagen/enlite/software.md:6
@@ -776,11 +1219,123 @@ msgstr ""
 msgid "ein bisschen Zeit und Geduld"
 msgstr ""
 
+#: ../../docs/grundlagen/index.rst:2 ../../docs/grundlagen/libre/index.rst:2
+msgid "Grundlagen"
+msgstr ""
+
+#: ../../docs/grundlagen/libre/libre.md:3
+msgid ""
+"Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch die "
+"Android-App Glimp, die auch Sensoren auch auslesen kann. Dadurch ist eine "
+"Fernüberwachung möglich - z.B. durch die Eltern, die dann auf dem selben "
+"Stand wie das Kind sind und sehen ob und was gemessen wurde. Mit der "
+"Android-App werden allerdings z.T. leicht andere Werte ausgelesen als vom "
+"Lesegerät, da diese einen eigenen Algorithmus verwendet."
+msgstr ""
+
+#: ../../docs/grundlagen/libre/libre.md:11
+msgid "Um Nightscout mit dem FreeStyle Libre nutzen zu können, braucht man:"
+msgstr ""
+
+#: ../../docs/grundlagen/libre/libre.md:17
+msgid ""
+"Falls man bisher noch keine Nightscout Seite eingerichtet hat, findet man "
+"alle erforderlichen Schritte im Kapitel Nightscout einrichten. Wichtig ist "
+"dabei darauf zu achten, dass in Azure bzw. Heroku das CarePortal "
+"eingeschaltet wurde (dies geschieht, in dem man \"careportal\" bei der "
+"\"ENABLE\" Variable eingfügt. Auch muss in Azure bzw. Heroku ein "
+"\"API_SECRET\" gesetzt worden sein. Dies klingt komplizierter als, es in "
+"Wirklichkeit ist. Am besten Schritt für Schritt der Anleitung folgen ;-)"
+msgstr ""
+
+#: ../../docs/grundlagen/libre/libre.md:19
+msgid ""
+"Viele aktuelle Android Smartphones unterstützen die NFC Technologie. Eine "
+"sehr gute, englischsprachige Liste findet man hier."
+msgstr ""
+
+#: ../../docs/grundlagen/libre/libre.md:24
+msgid ""
+"Um die Daten auf der Nightscout Seite angezeigt zu bekommen, müssen diese "
+"mit der Glimp App über das Smartphone vom Sensor gelesen werden und die App "
+"sendet die Daten dann zu Nightscout. Folgende Schritte sind dazu nötig:"
+msgstr ""
+
+#: ../../docs/grundlagen/libre/libre_als_cgm.md:6
+msgid ""
+"Dank eines DIY Projektes ist es bereits heute möglich, den Libre Sensor mit "
+"einem selbst zu bastelnden Transmitter auszustatten, der dann automatisch "
+"alle 5 Minuten Werte scannt und an ein Android Smartphone überträgt. Auf "
+"diesem muss die XDrip App installiert sein, die die Daten sowohl anzeigen "
+"kann, als auch an Nightscout oder eine Smartwatch senden. Wie das geht steht"
+" hier auf Englisch."
+msgstr ""
+
+#: ../../docs/grundlagen/libre/libre_als_cgm.md:11
+msgid ""
+"Mittlerweile gibt es auch ein Projekt, das sich an alle wendet, die nicht so"
+" gerne mit dem Lötkolben arbeiten und trotzdem den Libre mit dem "
+"Funktionsumfang eines CGM-Systems nutzen möchten. Der blueReader soll "
+"wasserdicht und klein sein. Wer sich über den aktuellen Stand informieren "
+"möchte, kann dies in dem Blog Sandras Place machen. Damit dieses Projekt "
+"allerdings realisiert werden kann, wurde ein crowdfunding Projekt ins Leben "
+"gerufen, welches auf finanzielle Unterstützung angewiesen ist."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:3
+msgid ""
+"Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die "
+"verwendete Hardware, die Art die Hardware zu verlöten und auch die Software."
+" (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.)Daher"
+" gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen für "
+"ähnliche Dinge.Die Varianten haben unterschiedliche Eigenschaften, letztlich"
+" aber dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und an ein "
+"Bluetooth-Handy zu übertragen."
+msgstr ""
+
 #: ../../docs/grundlagen/xdrip/bausatz.md:7
 msgid ""
 "Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung zum"
 " Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten Bauformen zu "
 "beschreiben."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:9
+msgid ""
+"Hier werden drei verschiedene Bauformen vorgestellt. Eine \"Bauform\" meint "
+"eine Art, die Hardware-Komponenten miteinander zu verlöten."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:11
+msgid ""
+"Bauform 1.): \"xDrip classic\"Dies ist die einfachste Bauform. Es hat sich "
+"der Name der \"xDrip classic\" etabliert.Vorteil: Weniger Lötstellen. "
+"Einfach und robust. (Was nicht dran ist, kann nicht kaputt gehen.) Im "
+"Regelbetrieb leuchtet immer eine LED. Das verbraucht etwas Strom, aber man "
+"sieht auf den ersten Blick, ob der xDrip noch \"lebt\".Nachteil: Keine "
+"Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei xBridge-Bauform."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:16
+msgid ""
+"Bauform 2.): \"xDrip classic mit Spannungsteiler\"Diese Bauform lohnt sich "
+"eigentlich nur dann, wenn mit möglichst geringem Aufwand ein \"xDrip "
+"classic\" um eine Anzeige der Akku-Ladung erweitert werden soll.Vorteil: Mit"
+" Anzeige der Akku-Ladung. Geringer Aufwand beim Umbau von \"xDrip "
+"classic\".Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:21
+msgid ""
+"Bauform 3.): \"xBridge\"Die Stromversorgung des Bluetooth-Moduls läuft etwas"
+" anders, als beim \"xDrip classic\". Im Vergleich zum \"xDrip mit "
+"Spannungsteiler\" müssen zwei Lötstellen mehr gelötet werden. Insbesondere "
+"müssen die Kabel für die Anbindung an das Bluetooth-Modul etwas anders "
+"geschaltet werden.Vorteil: Von den hier vorgestellten Varianten die längste "
+"Akku-Laufzeit. Von der Anzeige der Akku-Ladung bitte keine Wunder erwarten -"
+" es ist nur eine grobe Orientierung. Der aangezeigte Prozentwert sinkt nicht"
+" linear.Nachteil: Ungeeignet, wenn sich die Bluetooth-Verbindung zum Handy "
+"sich schlecht oder langsam aufbaut."
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/bausatz.md:28
@@ -791,6 +1346,10 @@ msgstr ""
 msgid ""
 "Schaltbild für xDrip in der \"klassischen Verschaltung\" (Empfehlung für "
 "Einsteiger)"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:45
+msgid "(ohne Widerstände für Batterieanzeige)xDrip Schaltbild"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/bausatz.md:48
@@ -805,16 +1364,115 @@ msgstr ""
 msgid "** Info zu den Widerständen: ** (wichtig für die Batterie-Anzeige)"
 msgstr ""
 
+#: ../../docs/grundlagen/xdrip/bausatz.md:77
+msgid ""
+"Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf "
+"dem Wixel).Die Anzeigen sind von der Version der wxl-Datei und von der "
+"verbauten Hardware abhängig - in der folgenden Tabelle gibt es eine grobe "
+"Orientierung."
+msgstr ""
+
 #: ../../docs/grundlagen/xdrip/bausatz.md:80
 msgid "Erklärung zur folgenden Tabelle:"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:86
+msgid ""
+"| Bauteil | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | "
+"xBridge | | --- | --- | --- | --- | --- | | HM17 | -- | -- | -- | -- | | "
+"HM11 | Klärung nötig |  |  |  | | HM10 | ~~grün~~ Dauerleuchten | "
+"Regelbetrieb | Regelbetrieb | - | | HM10 | ~~grün~~ blinkend | keine BT-"
+"Verbindung zum Handy | keine BT-Verbindung zum Handy | keine BT-Verbindung "
+"zum Handy | | HM10 | ~~grün~~ aus, aber alle 5 Minuten kurzes Blinken, dann "
+"ca. 30 Sek. an | - | - | Regelbetrieb | | Wixel | orange Dauerblinken | "
+"keine Verbindung zum Transmitter | keine Verbindung zum Transmitter | - | | "
+"Wixel | orange Dauerleuchten | - | - | keine Verbindung zum Transmitter | | "
+"Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb | - | |"
+" Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | - | - | "
+"Regelbetrieb | | Wixel | ab und zu orange und rot gleichzeitig | ? | ? | "
+"Regelbetrieb | | App Statusanzeige | \"not connected\" dauerhaft | keine "
+"Verbindung zum BT-Modul | keine Verbindung zum BT-Modul | keine Verbindung "
+"zum BT-Modul | | App Statusanzeige | \"not connected\", aber alle 5 Minuten "
+"für ca. 30 Sek \"connected\" | - | - | Regelbetrieb (!) | | App "
+"Statusanzeige | \"connected\" dauerhaft | Regelbetrieb | Regelbetrieb | - |"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/bausatz.md:104
 msgid "** Stückliste ** ( Stand: September 2015 )"
 msgstr ""
 
+#: ../../docs/grundlagen/xdrip/bausatz.md:106
+msgid ""
+"|  | Nr. | Bemerkung | Bauteil: | Vertrieb: | Verkaufspreis: | "
+"Artikelnummer: | Hersteller-Nr.: | | :--- | :--- | :--- | :--- | :--- | :---"
+" | :--- | :--- | |  | 1 | optional | IC Lithium-Polymer Akku-Schutzschaltung"
+" | Voelkner | 2,96 € | Q33939 | S-8261ABJMD-G3J2G | |  | 2 | optional (und "
+"Alternative zu 1) | Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-"
+"G3J2G | Conrad | 2,96 € | 155151 - VQ | S-8261ABJMD-G3J2G | |  | 3 | "
+"notwendig | Pololu Wixel Programmable USB Wireless Module | EXP TECH | 18,60"
+" € | EXP-R25-070 | Pololu  1337 | |  | 4 | notwendig | Adafruit Mini Lipo "
+"w/Mini-B USB Jack - USB LiIon/LiPoly charger | EXP TECH | 7,65 € | "
+"EXP-R15-446 | Adafruit  1905 | |  | 5 | notwendig, alternativ auch HM10 "
+"möglich | Seeed Studio Bluetooth V4.0 HM-11 BLE Module | EXP TECH | 12,28 € "
+"| EXP-R02-308 | Seeed Studio  210005001 | |  | 6 | optional |  Handgehäuse "
+"Minitec El, 78x48x20, Lava/Grün | Voelkner | 12,38 € | S23261 | D9006178 | |"
+"  | 7 | optional, Alternative zu 6 | Hand-Gehäuse Kunststoff Lava, Grün 78 x"
+" 48 x 20 OKW D9006178 1 Set | Conrad | 13,57 € | 535384 - 62 | D9006178 | | "
+"8 | notwendig, oder ein anderer 3,7v LiPo-Akku | Lipo Akku 1100 mAh 3,7V "
+"Einzelzelle | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  | |  | 9 "
+"| optional (für Batterieanzeige bei xBridge-Schaltung) | "
+"Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k |  |  |  |  | "
+"|  | 10 | optional (für Batterieanzeige bei xDrip-Schaltung) | "
+"Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k |  |  |  |  | "
+"|  | 11 | notwendig | flexible Leitungen (dünn) Beispiel | exp-tech.de | "
+"0,80 € | EXP-R15-686 | Adafruit | |  | 12 | notwendig | Lötzinn, Lötkolben |"
+"  |  |  |  | |  | 13 | optional, aber empfehlenswert | Schrumpfschlauch |  |"
+"  |  |  | |  | 14 | optional, aber empfehlenswert | \"dritte Hand\" ein "
+"Beispiel: Link |  |  |  |  | |  | 15 | optional | Epoxid Trennschicht |  |  "
+"|  |  | |  | 16 | notwendig | Kabel mit Mini-USB-Stecker, um das Wixel zu "
+"bespielen | Beispiel: Link |  |  |  |"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:125
+msgid ""
+"Hinweis: Es gibt Erfahrungsberichte, die besagen, dass ein HM17 sich ebenso "
+"verwenden lässt."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:131
+msgid ""
+"Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante \"xDrip-"
+"classic\" nicht gewünscht ist.Es gibt verschiedene Bluetooth-Module: HM10, "
+"HM11 oder HM-17 für die es verschiedene Bauformen gibt. Deswegen hier "
+"mehrere Bilder zur Verschaltung. Sucht euch das Bild raus, das zu eurem "
+"konkreten HM Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus"
+" den folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:134
+msgid "Schaltbild für xBridge mit HM-10HM10_xbridge_Wiring_Diagram"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:137
+msgid ""
+"Schaltbild für xBridge mit HM-10 auf Breakout BoardHM10 + Breakout "
+"Board_xbridge_Wiring_Diagram"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:140
+msgid "Schaltbild für xBridge mit HM-11HM11_xbridge_Wiring_Diagram"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bausatz.md:143
+msgid "Schaltbild für \"xDrip USB V3\"xDrip V3usb Schaltbild"
+msgstr ""
+
 #: ../../docs/grundlagen/xdrip/bausatz.md:146
 msgid "** Weitere Infos / empfohlene Links: ** (englische Seiten)"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/index.rst:2
+msgid "xDrip"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip.md:3
@@ -847,6 +1505,42 @@ msgstr ""
 msgid "Abgrenzung"
 msgstr ""
 
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:3
+msgid ""
+"Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy "
+"läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und - optional - einer"
+" Smart-Watch anzuzeigen, auszuwerten und bei Bedarf zu NightScout "
+"hochzuladen.Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 "
+"with Share oder einen selbstgebauten Bausatz. Da Share in Europa nicht "
+"erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:16
+msgid ""
+"Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der "
+"Download für eine lauffähige Version (*.apk-File) findet sich hier: Link zur"
+" Beta-Version"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:18
+msgid ""
+"Die hier verlinkten Versionen sind so erstellt, dass man eine ältere Version"
+" mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu "
+"verlieren.Wer hinreichende technische Kenntnisse hat, kann sich aus den "
+"vorhandenen Quellen selbst die apk zusammenstellen."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:22
+msgid ""
+"\"xDrip\" oder \"xDrip+\"Alternativ zur \"xDrip\"-App wird auch die Software"
+" \"xDrip+\" empfohlen. xDrip+ ist eine Variante, bzw. eine Erweiterung der "
+"\"xDrip\"-App. In \"xDrip+\" sind (erheblich) mehr Möglichkeiten zur "
+"Konfiguration enthalten. Das kann wunderbar hilfreich sein, aber die Fülle "
+"der Möglichkeiten kann Einsteiger auch verwirren.Die Beschreibungen dieser "
+"Seite wurden für xDrip geschrieben, sie gelten aber ebenso für xDrip+.Infos "
+"und Download zu xDrip+ finden sich hier: https://jamorham.github.io/"
+msgstr ""
+
 #: ../../docs/grundlagen/xdrip/xdrip_app.md:31
 msgid ""
 "Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter "
@@ -855,6 +1549,24 @@ msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip_app.md:49
 msgid "Hier findet man Informationen über das System:"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:62
+msgid "---&gt; ist noch zu beschreiben!"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:66
+msgid ""
+"| Name | Bedeutung | Empfehlung für Einsteiger | | --- | --- | --- | | Bg "
+"Units | \"mg/dl\" oder \"mmol\" | - | | High Value | Grenze, ab der ein Wert"
+" in der Anzeige und Statistik als \"zu hoch\" gewertet wird. | - | | Low "
+"Value | Grenze, ab der ein Wert in der Anzeige und Statistik als \"zu tief\""
+" gewertet wird. | - | |  |  | ... | | Display Bridge Battery | Sofern ein "
+"Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden |"
+" Nur aktivieren, wenn ein Spannungsteiler verbaut wurde. | | Run Collection "
+"Service in foreground | Klärung nötig: Kann das die BT-Verbindung "
+"tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen "
+"den Wert mit Tendenz an. | aktivieren |"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip_app.md:77
@@ -896,6 +1608,13 @@ msgid ""
 "nochmal neu starten möchte, z.B. um die bisherigen Kalibrierungen zu löschen"
 " oder weil man den Transmitter aus welchen Gründen auch immer kurz "
 "abgenommen hatte."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:105
+msgid ""
+"Zur Erklärung der 12-Stunden-Anzeige:AM = ante meridiem (lateinisch), auf "
+"Deutsch: VOR dem Mittag, Eselsbrücke: Am Morgen;PM = post meridiem, auf "
+"Deutsch: NACH dem Mittag"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip_app.md:109
@@ -995,6 +1714,28 @@ msgid ""
 "werden."
 msgstr ""
 
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:151
+msgid ""
+"Drücke \"create low alert\", um einen Tiefalarm selbst zu definieren. Unter "
+"\"Alert Name\" gibst du dem Alarm eine von dir ausgewählte Bezeichnung, z.B."
+" für mg/dl zu niedrig 80. Bei \"Threshold\" tippst du den entsprechenden "
+"Wert (hier z.B. 80) ein. Unter \"Default Snooze\" gibst du die Minuten ein, "
+"nach denen sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der"
+" Wert aber nach wie vor zu tief ist; unter \"Re-raise\" die Minuten, nach "
+"denen sich der Alarm erneut melden soll, wenn du ihn ignoriert hast, der "
+"Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich bei Tiefalarmen "
+"einen kürzeren Zeitraum auszuwählen. Unter \"Alert Tone\" kannst du dir "
+"einen entsprechenden Alarmton bestimmen bzw. mit \"choose file\" aus deinem "
+"Smartphonerepertoire aussuchen.Unter \"select time for alert\" ist \"all "
+"day\" bereits mit Häkchen versehen, so dass dein Alarm ganztägig "
+"funktioniert. Du kannst aber auch auf \"all day\" tippen, um dann mit \"tap "
+"to change\" einen gewissen Zeitraum (z.B. die Nacht) festzulegen. Du kannst "
+"den Alarm über \"override phone silent mode\" auch im Ruhemodus klingen "
+"lassen und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an "
+"\"vibrate on alert\". Zuletzt kannst du den Alarm noch testen und vergiss "
+"nicht, ihn zu speichern (\"save alert\"), wenn er dir zusagt!"
+msgstr ""
+
 #: ../../docs/grundlagen/xdrip/xdrip_app.md:154
 msgid ""
 "Entsprechend kannst du über \"create high alert\" eine Alarmkaskade nach "
@@ -1005,6 +1746,11 @@ msgstr ""
 msgid ""
 "Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des "
 "gewünschten Alarmes in den Bearbeitungsmodus."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:166
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:231
+msgid "----&gt; ist noch zu beschreiben!"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip_app.md:170
@@ -1044,6 +1790,14 @@ msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip_app.md:180
 msgid "xDrip_Screenshot_statistic_3"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:182
+msgid ""
+"Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den "
+"Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen "
+"auswählen kann.TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = "
+"Tage"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip_app.md:185
@@ -1161,6 +1915,10 @@ msgid ""
 "Tagebuch oder für das OpenAPS)."
 msgstr ""
 
+#: ../../docs/grundlagen/xdrip/xdrip_app.md:254
+msgid "---&gt; Erweiterbar!"
+msgstr ""
+
 #: ../../docs/nightscout/azure.md:4
 msgid ""
 "Azure ist ein Cloud - Computing Dienst, welcher umfangreiche Services  für "
@@ -1173,6 +1931,12 @@ msgstr ""
 
 #: ../../docs/nightscout/azure.md:8
 msgid "Den Einstieg in deutscher Sprache findet man hier: Azure"
+msgstr ""
+
+#: ../../docs/nightscout/azure.md:10
+msgid ""
+"Mit dem zweimaligen Klicken des Buttons Kostenlos testen > gelangen wir zur "
+"Registrierungsseite:"
 msgstr ""
 
 #: ../../docs/nightscout/azure.md:12
@@ -1197,6 +1961,13 @@ msgstr ""
 msgid "azure_portal"
 msgstr ""
 
+#: ../../docs/nightscout/azure.md:24
+msgid ""
+"Mit dem Button + Neu richten wir eine neue Resource ein. Die Menüführung ist"
+" kaskadiert, alle gelb markierten Punkte sind auszuwählen. Bei "
+"Auswahlpunkten mit > kann man weitere Einstellungen auswählen:"
+msgstr ""
+
 #: ../../docs/nightscout/azure.md:27
 msgid "azure_config_app"
 msgstr ""
@@ -1207,6 +1978,13 @@ msgid ""
 " Zeit in Anspruch nehmen."
 msgstr ""
 
+#: ../../docs/nightscout/azure.md:33
+msgid ""
+"Der Name der Nightscout - Website ist jetzt <meinname>.azurewebsites.net, "
+"hier im Beispiel: nscgmq01.azurewebsites.net. Diesen Website - Namen bitte "
+"auch notieren."
+msgstr ""
+
 #: ../../docs/nightscout/azure.md:35
 msgid "Wenn die Web-App erstellt wurde, erscheint diese Ansicht:"
 msgstr ""
@@ -1215,12 +1993,31 @@ msgstr ""
 msgid "azure_app_created"
 msgstr ""
 
+#: ../../docs/nightscout/azure.md:39
+msgid ""
+"Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der "
+"Status. Hier wird angezeigt, ob die App Running oder Stopped ist."
+msgstr ""
+
+#: ../../docs/nightscout/azure.md:41
+msgid ""
+"Weiter geht es mit der Konfiguration der Plugin Module. Diese sind in "
+"Kapitel Konfiguration der Nightscout Plugins"
+msgstr ""
+
 #: ../../docs/nightscout/azure.md:45
 msgid "azure_enable_plugins"
 msgstr ""
 
 #: ../../docs/nightscout/azure.md:48
 msgid "#Einbindung des GitHub Source Codes"
+msgstr ""
+
+#: ../../docs/nightscout/azure.md:50
+msgid ""
+"Zu Bereitstellung der Nightscout-Website fehlt uns noch der cgm-remote-"
+"monitor, den wir über GitHub laden. Wir steigen hier ein, um die Verbindung "
+"herzustellen:"
 msgstr ""
 
 #: ../../docs/nightscout/azure.md:53
@@ -1274,6 +2071,13 @@ msgid ""
 "einmal starten."
 msgstr ""
 
+#: ../../docs/nightscout/azure.md:79
+msgid ""
+"Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann über "
+"einen Browser mit dem Aufruf http://<meinname>.azurewebsites.net aufgerufen "
+"werden. Die Einrichtung ist fertig."
+msgstr ""
+
 #: ../../docs/nightscout/azure.md:84
 msgid "#Kosten:"
 msgstr ""
@@ -1307,1439 +2111,6 @@ msgid ""
 "konfigurieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.md:87
-msgid "Nach Eingabe der Daten das Speichern nicht vergessen."
-msgstr ""
-
-#: ../../docs/nightscout/azure_plugins.md:89
-msgid "Die Einstellungen sehen dann z.B. so aus:"
-msgstr ""
-
-#: ../../docs/nightscout/azure_plugins.md:91
-msgid "azure_app_entries"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:7
-msgid "Ereignis-Typ:"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:9
-msgid "nightscout_careportal"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:12
-msgid "Die Auswahlfelder werden entsprechend der Auswahl angepasst."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:14
-msgid ""
-"Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch "
-"die Eingabe der korrekten Zeit, falls man Daten nicht online eingeben kann, "
-"da diese zusammen mit den CGM - Werten grafisch dargestellt werden."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:17
-msgid ""
-"In dieser Maske können wir auch temporäre Basalraten mit Temp Basal "
-"Start/End eingegeben. Diese werden anschließend grafisch dargestellt. Nach "
-"dem Klick auf Eingabe Senden wird man noch aufgefordert, die eingaben zu "
-"bestätigen. Mit OK ist alles gespeichert."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:23
-msgid "Nun können wir uns  alles grafisch ansehen:"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:25
-msgid "nightscout_cp_entries"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:29
-msgid "Benachrichtigungen über Therapie - Behandlungsdaten"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.md:31
-msgid ""
-"Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden "
-"Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht wurde. "
-"Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die Standard - "
-"Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über Azure "
-"App.-Einstellungen geändert werden, in dem man die "
-"TREATMENTNOTIFY_SNOOZE_MINS Variable ändert."
-msgstr ""
-
-#: ../../docs/nightscout/datenblatt.md:3
-msgid ""
-"Bevor wir mit der Einrichtung von Nightscout beginnen, ist es  sinnvoll, das"
-"  Arbeitsblatt auszudrucken. Wir  notieren alle wichtigen Benutzernamen,  "
-"Passwörter und Zugangsdaten, die bei der ersten Einrichtung festgelegt "
-"werden. Am besten füllt man es direkt während der Einrichtung gewissenhaft "
-"aus und heftet es ab, um später darauf zugreifen zu können."
-msgstr ""
-
-#: ../../docs/nightscout/datenblatt.md:6
-msgid "Link zum übersetzten Arbeitsblatt"
-msgstr ""
-
-#: ../../docs/nightscout/datenblatt.md:11
-msgid "Link zum englischen Original Arbeitsblatt"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.md:6
-msgid ""
-"Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die "
-"Einstellungen zum Übertragen der Daten in der Uploader-App (Xdrip, "
-"NightScout-Uploader oder Glimp) erforderlich."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.md:11
-msgid "Kommunikation:"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.md:13
-msgid "nightscout_principle"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:8
-msgid "Wir starten mit dem Sign Up auf der GitHub Site:"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:10
-msgid "github sign up"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:12
-msgid ""
-"Wichtig ist auch hier, Benutzername und Passwort in das Datenblatt "
-"einzutragen."
-msgstr ""
-
-#: ../../docs/nightscout/github.md:14
-msgid "Mit Edit Profile können wir uns unsere Einstellungen ansehen."
-msgstr ""
-
-#: ../../docs/nightscout/github.md:16
-msgid "Billing:"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:18
-msgid ""
-"Unter diesem Menüpunkt sind die Kosten aufgelistet, wichtig ist hier, das "
-"hier Free angezeigt wird:"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:20
-msgid "github_billing"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:22
-msgid "Wir suchen jetzt den Programmcode:"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:24
-msgid "Über die Suchfunktion jetzt cgm-remote-monitor eingeben:"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:26
-msgid "github_search"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:30
-msgid "github_branch_master"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:35
-msgid "github_fork"
-msgstr ""
-
-#: ../../docs/nightscout/github.md:41
-msgid "Aktualisierung des eigenen cgm-remote-monitor repositories"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:6
-msgid ""
-"Die Mongo DB Datenbank ist eine Dokumentations - Datenbank. Hier werden die "
-"Daten der Nightscout Website gespeichert. Es handelt sich um eine Cloud - "
-"Datenbank in Rechenzentren der USA und Europa. Mongo DB gibt es als "
-"kostenlose Sandbox - Variante."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:9
-msgid ""
-"Bevor wir mit der Konfiguration loslegen, ist es wichtig, das Arbeitsblatt "
-"auszudrucken und auszufüllen."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:13
-msgid ""
-"Es ist für weitere Konfigurationen wichtig, dieses Datenblatt sicher "
-"aufzubewahren."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:15
-msgid "Die URL Adresse zum Start gibt es hier: https://mlab.com"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:17
-msgid ""
-"Wir starten mit der Einrichtung der Benutzer - Konten auf der mlab - "
-"Startseite:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:20
-msgid "SIGN UP: mongodb signin up"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:23
-msgid "Weiter gehts mit dem Anlegen der benötigten Konten: zur Verwaltung"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:25
-msgid "mongo db create account"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:27
-msgid "Passwörter"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:29
-msgid ""
-"Der Einfachheit halber kann man denselben Benutzernamen (Account name) für "
-"die Verwaltung von mongolab als auch für den Datenbanknutzer (Username) "
-"nutzen, muss es aber nicht. Hauptsache: Alles notieren. Auch sind eigene "
-"Passwörter nur für mlab und Nightscout sinnvoll, es sollten auf keinen Fall "
-"bereits bekannte Passwörter, welche man für andere Anlässe wie Online-"
-"Banking nutzt, verwendet werden."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:31
-msgid "Überprüfung Email: verifyemail"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:34
-msgid ""
-"Nachdem der Benutzer - Account eingerichtet wurde, bitte einmal im Postfach "
-"der angegebenen Email - Adresse die Bestätigungs - Email suchen. Durch Klick"
-" auf den Link wird man auf die Seite zur Einrichtung einer Datenbank "
-"geleitet."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:36
-msgid "Anlegen einer Datenbank:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:38
-msgid "Wir starten mit dem Klick auf \"Create New\":"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:40
-msgid "create_db"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:42
-msgid ""
-"Alle gelb markierten Punkte sind auszufüllen, der Datenbankname ist frei "
-"wählbar:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:44
-msgid "mongodb_details"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:47
-msgid ""
-"Wichtig ist er Eintrag FREE, damit wird die Datenbank kostenlos betrieben. "
-"Nachdem der Button Create new MongoDB deployment geklickt wurde, erscheint "
-"eine Erfolgsmeldung:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:50
-msgid "mongodb_create_success"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:52
-msgid ""
-"Durch Doppelklick auf den Namen, hier: ds040888/nscgmdatabase fügt man u.a. "
-"den Datenbankbenutzer ein. Das ist derjenige, welcher in Azure oder xdrip "
-"konfiguriert wird, um auf die mongodb zuzugreifen:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:55
-msgid "Datenbankbenutzer hinzufügen:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:57
-msgid "mongodb_create_dbuser"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:59
-msgid "..und die vorher notierten Daten eingeben:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:62
-msgid "mongodb_dbuser_details"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:64 ../../docs/nightscout/mongo_db.md:73
-msgid "WICHTIG:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:77
-msgid "Die URI Syntax:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:79
-msgid "Zum besseren Verständnis ausführlich erklärt:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:81
-msgid "mongodb://dbuser:dbpassword@ds040888.mlab.com:40888/nscgmdatabase"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:83
-msgid "dbuser: ist der vorher eingerichtete Datenbankbenutzer"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:85
-msgid "dbpassword: ist das eingerichtete Passwort für den Datenbankbenutzer"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:87
-msgid "@: ist ein Verbindungszeichen, muss angegeben werden"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:89
-msgid ""
-"ds040888.mlab.com: ist ein einzigartiger Name, über den die mongodb "
-"angesprochen wird"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:91
-msgid ": ist ein Verbindungszeichen, muss angegeben werden"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:93
-msgid ""
-"40888: ist ein sogenannter Kommunikationsport, der für den Zugriff benötigt "
-"wird"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:95
-msgid "nscgmdatabase: Name der mongodb"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:97
-msgid ""
-"Diese Daten bitte unbedingt im Datenblatt notieren. Bei evtl. "
-"Verbindungsproblemen ist eine der häufigsten Ursachen ein falsche URI, es "
-"kommt hier auf Details, auf jedes Zeichen an!"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:99
-msgid ""
-"Es gibt optionale Komponenten zum Management der MongoDB im nächsten "
-"Kapitel, diese sind nicht Bestandteil der Implementierung."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db.md:101
-msgid "Ansonsten geht es jetzt weiter mit der Einrichtung von GitHub"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:4
-msgid "Optional"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:6
-msgid ""
-"Mongo DB ist eine Dokumentations - Datenbank, welche aus Collections "
-"(Sammlungen von Dokumenten) und Dokumenten besteht. Mongo DB ist eine "
-"NoSQLDB und schemafrei. Die Dokumente werden u.a. im JSON Format "
-"abgespeichert.  Die Dokumente können direkt in die DB geladen werden. Um "
-"eine Dokumenten DB zu administrieren, ist eine Admin - GUI :  sinnvoll."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:8
-msgid ""
-"Ein Anbieter ist z.B. 3T Software Labs aus Berlin. Der 3T MongoChef "
-":http://3t.io/mongochef ist für den Privatgebrauch kostenlos. Unter : "
-"http://3t.io/mongochef/download muss man sich registrieren und kann dann die"
-" Software für das jeweilige Betriebssystem herunterladen."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:12
-msgid "**Mit dieser Admin GUI  ist folgendes möglich:* **"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:16
-msgid ""
-"Dieses ist hilfreich, wenn man die mongodb umziehen möchte, z.B. von einem "
-"Standort   aus den USA zu einem Standort nach Europa. Man kann es auch als "
-"Backup Möglichkeit nutzen"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:20
-msgid ""
-"Man kann sowohl csv-, als auch json - Dokumente im- bzw. exportieren. Die "
-"Daten aus der Cloud können lokal auf einen Rechner gespeichert werden, als "
-"Backup - Möglichkeit, oder zur Weiterverarbeitung im csv - Format"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:24
-msgid ""
-"Für weitergehende Reporting Abfragen, welche nicht über die Nightscout - "
-"Reporting Seite zur Verfügung gestellt werden, können JSON - queries "
-"gebildet werden. Die Ergbnisse können wiederum im json- oder csv Format "
-"abgespeicht werden, um sie z.B. dem Doktor zukommen zu lassen."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:28
-msgid ""
-"Die Installation z.B. unter Windows ist eine Standard - Installation ohne "
-"speziell benötigte Parameter."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:30
-msgid ""
-"Beim Aufruf wird man aufgefordert, eine Connection = Verbindung zur Mongo DB"
-" zu konfigurieren. Dieses ist die URI aus vorhergehendem Kapitel."
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:32
-msgid "Connection: Klicke Connect, dann öffnet sich folgendes Fenster:"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:35
-msgid "mongochef_connect_name_port"
-msgstr ""
-
-#: ../../docs/nightscout/mongo_db_administration.md:41
-msgid "mongochef_connect_user"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.md:3
-msgid "Nightscout besteht aus 3 Komponenten:"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.md:25
-msgid "Ein Schaubild verdeutlicht die Zusammmenhänge:"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.md:27
-msgid "nightscout scheme"
-msgstr ""
-
-#: ../../docs/nightscout/settings.md:43
-msgid ""
-"Der Behandlungs Profil Editor speichert angepasste Werte für die persönliche"
-" Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für "
-"Plugin iob, cob, bwp und Basalraten."
-msgstr ""
-
-#: ../../docs/nightscout/profile_editor.md:6
-msgid ""
-"Wichtig: Ohne Änderugen im Editor werden für die Plugins keine verwendbaren "
-"Werte angezeigt."
-msgstr ""
-
-#: ../../docs/nightscout/profile_editor.md:10
-msgid "Profil Editor:"
-msgstr ""
-
-#: ../../docs/nightscout/profile_editor.md:14
-#: ../../docs/nightscout/settings.md:48
-msgid "nightscout_profile_editor_plugins"
-msgstr ""
-
-#: ../../docs/nightscout/settings.md:50
-msgid ""
-"Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden "
-"Erklärungstexte in englischer Sprache angezeigt."
-msgstr ""
-
-#: ../../docs/nightscout/settings.md:52
-msgid "Bei Timezone bitte die gewünschte Zeitzone Einstellen."
-msgstr ""
-
-#: ../../docs/nightscout/settings.md:54
-msgid ""
-"Mit Duration of Insulin Activity (DIA) definieren wir die Wirkdauer des "
-"Bolus - Insulins. Die Plugins iob, bwp  benötigen diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/settings.md:56
-msgid ""
-"Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für "
-"eine definierte Menge an KH verwendet werden müssen. Die Plugins iob und cob"
-" benötigen diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/settings.md:58
-msgid ""
-"Mit dem Insulin Sensitivity Factor (ISF) können wir den Korrekturfaktor in "
-"mg/dl oder mmol/L angeben. Mit mehrfachen Eingaben können unterschiedliche "
-"Faktoren bestimmt werden."
-msgstr ""
-
-#: ../../docs/nightscout/settings.md:60
-msgid ""
-"Mit Carbs activity /absorbtion rate (g/hour) können wir bestimmen, wieviel "
-"Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das Plugin cob "
-"benötigt diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/profile_editor.md:33
-msgid "Weiter gehts mit der Eingabe von Daten über das Careportal."
-msgstr ""
-
-#: ../../docs/nightscout/nsfaqs.md:5
-msgid ""
-"**Die Website reagiert sehr langsam, wenn sie längere Zeit nicht verwendet "
-"wurde: ** Wenn die Website längere Zeit nicht verwendet wird, z.B. wenn die "
-"Daten nachts direkt zur Mongo-Datenbank hochgeladen werden und keine Uhr "
-"Daten periodisch abfragt, baut Azure Verbindungen ab. Diese wieder "
-"herzustellen, braucht eine gewisse Zeit. Abhilfe schaffen Dienste, die die "
-"Website periodisch (z.B. alle 5 Minuten einmal) abrufen. Ein solcher Dienst "
-"ist https://uptimerobot.com/."
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:3
-msgid "Nightscout besteht aus einer Applikations- und einer Datenbankschicht."
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:8
-msgid ""
-"Nightscout ist eine Open Source Software. Der Software Code ist frei im "
-"Internet über GitHub einsehbar. Jeder, der Interesse hat und sich zutraut am"
-" Programmcode mitzuentwickeln kann dieses tun. Die Kommunikation verläuft "
-"über Gitter Chat in englischer Sprache. Die Software wird auf einem "
-"Webserver gehostet. Sie wird über Webservices angesprochen, welche das API "
-"beschreibt."
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:12
-msgid ""
-"Das API ist mit Swagger dokumentiert. Swagger ist ein API "
-"Dokumentationswerkzeug, welches auf die Open API Initiative aufbaut."
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:14
-msgid ""
-"Wir können das  Nightscout API mit der Adresse: "
-"https://meinwebsitename.azurewebsites.net/api-docs.html#/ aufrufen:"
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:17
-msgid "Nightscout API:"
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:19
-msgid "nightscout_swagger"
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:21
-msgid ""
-"Sollten die Details nicht automatisch dargestellt werden, so bitte den Wert"
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:23
-msgid ""
-"https://meinwebsitename.azurewebsites.net/swagger.yaml eintragen und den "
-"Button Explore klicken."
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:25
-msgid ""
-"IFTTT Der Internet - Event Dienst IFTTT (If This Than That) verknüpft "
-"verschiedene Webanwendungen, um Daten auszutauschen. So können "
-"Benachrichtigungen, welche über Nightscout erzeugt werden, z.B. als Email "
-"weitergeleitet werden."
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:28
-msgid ""
-"Daneben gibt es weitere Möglichkeiten, z.B. über Azure Webjobs  Daten "
-"zwischen Nighscout und anderen Tagebüchern, wie Sport- oder "
-"Ernährungstagebüchern zu synchronisieren, sofern diese ein dokumentiertes "
-"API besitzen."
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:34
-msgid ""
-"Als Nutzer der mongodb hat man Vollzugriff auf seine Daten. Über Tools, wie "
-"in Kapitel 2.5 beschrieben, kann man sich die CGM- und Behandlungsdaten "
-"sichern (im json- und csv Format). Es sind auch Uploads über die json und "
-"csv Formate möglich."
-msgstr ""
-
-#: ../../docs/nightscout/programmierbarkeit.md:37
-msgid "Weiter gehts mit der Anbindung von  Smartwatches."
-msgstr ""
-
-#: ../../docs/nightscout/reports.md:5
-msgid ""
-"Wir starten das Reporting mit dem Klick auf Berichte und erhalten diese "
-"Ansicht:"
-msgstr ""
-
-#: ../../docs/nightscout/reports.md:7 ../../docs/nightscout/settings.md:23
-msgid "nightscout_reporting_config"
-msgstr ""
-
-#: ../../docs/nightscout/reports.md:9 ../../docs/nightscout/settings.md:25
-msgid ""
-"Die Report - Arten sind umfangreich. Wir können sie uns mit Klicks auf den "
-"Namen aufrufen. Mit der Eingabe der Zeiträume bestimmt man den Report - "
-"Umfang. Wir können vorgefertigte Zeiträume und individuelle Zeiträume "
-"auswählen. Weitere Filter sind möglich. Wir starten die Ausgabe des Reports "
-"mit dem Klick auf Zeigen."
-msgstr ""
-
-#: ../../docs/nightscout/reports.md:13 ../../docs/nightscout/settings.md:29
-msgid "Mit dem Report Von Tag zu Tag gibt es alle Daten auf einen Blick:"
-msgstr ""
-
-#: ../../docs/nightscout/reports.md:17 ../../docs/nightscout/settings.md:33
-msgid "nightscout_reporting_daily_graph"
-msgstr ""
-
-#: ../../docs/nightscout/reports.md:20 ../../docs/nightscout/settings.md:36
-msgid ""
-"Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf "
-"Bearbeitung zu Korrigieren oder zu Löschen:"
-msgstr ""
-
-#: ../../docs/nightscout/reports.md:22 ../../docs/nightscout/settings.md:38
-msgid "nightscout_change_treatments"
-msgstr ""
-
-#: ../../docs/nightscout/reports.md:27
-msgid "Weiter gehts mit der  Programmierbarkeit."
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.md:3
-msgid ""
-"###CGM-Watch https://apps.garmin.com/en-US/apps/eff8409b-"
-"4d52-4813-9c46-e28191e2ea61"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.md:6 ../../docs/smartwatch/garmin.md:17
-#: ../../docs/smartwatch/garmin.md:26
-msgid "Kompatible Geräte:"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.md:14
-msgid ""
-"###CGM-Run https://apps.garmin.com/de-DE/apps/531100b4-12ca-4828-865d-"
-"1f7064de498d"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.md:23
-msgid ""
-"###CGM-Hike https://apps.garmin.com/de-DE/apps/fe8d607b-d051-401e-"
-"aa23-8fc8832a72c2"
-msgstr ""
-
-#: ../../docs/smartwatch/pebble.md:3
-msgid "https://apps.getpebble.com/en_US/application/568fb97705f633b362000045"
-msgstr ""
-
-#: ../../docs/sonstiges.md:2
-msgid ""
-"##Links deutsche Gitter Chat Gruppe zu OpenAPS, DIY, Nightscout, xDrip, CGM,"
-" Closed Loop"
-msgstr ""
-
-#: ../../docs/sonstiges.md:6
-msgid "Nightscout Deutschland Facebook-Gruppe"
-msgstr ""
-
-#: ../../docs/sonstiges.md:9
-msgid "##Flyer"
-msgstr ""
-
-#: ../../docs/sonstiges.md:11
-msgid ""
-"[Verlängerung der Tragezeit des Sensors "
-"(PDF)](https://github.com/nightscout/nightscout_handbuch/raw/master/dokumente/Verlängerung"
-" der Tragezeit.pdf)"
-msgstr ""
-
-#: ../../docs/sonstiges.md:15
-msgid "[](verlängerung der tragezeit)"
-msgstr ""
-
-#: ../../docs/sonstiges.md:17
-msgid "##Schablonen Dexcom Pflaster Schablone"
-msgstr ""
-
-#: ../../docs/sonstiges.md:20
-msgid "xDrip 1-Platinen Layout"
-msgstr ""
-
-#: ../../docs/grundlagen/index.rst:2 ../../docs/grundlagen/libre/index.rst:2
-msgid "Grundlagen"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/index.rst:2
-msgid "MMCommander"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/index.rst:2
-msgid "xDrip"
-msgstr ""
-
-#: ../../docs/nightscout/index.rst:2
-msgid "Nightscout"
-msgstr ""
-
-#: ../../docs/smartwatch/index.rst:2
-msgid "Smartwatch"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:6
-msgid ""
-"Lade die aktuellste Version der Nightscout Uploader App auf dein Android "
-"Smartphone und installiere sie "
-"(https://github.com/pazaan/640gAndroidUploader/releases)."
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:9
-msgid ""
-"Nachdem du die App installiert hast, verbinde dein Smartphone mit dem "
-"Contour Next Link 2.4 Messgerät über ein USB-OTG (On-The-Go) Kabel und "
-"starte die App: OTG Setup"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:14
-msgid ""
-"Im ersten Schritt musst du die Nutzungsbedingungen lesen und akzeptieren. "
-"Als nächstes musst du dein Contour Next Link Gerät registrieren. Dazu klicke"
-" auf die drei kleinen Menü-Punkte in der rechten oberen Ecke: Menu1"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:17
-msgid ""
-"Solltest du keine drei Menü-Punkte sehen, musst du das Menü über deine Menü-"
-"Taste des Smartphones öffnen: Menu2"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:20
-msgid "Klicke nun auf „Register USB Stick“: USBStick"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:23
-msgid ""
-"Gib nun deine Login Informationen von carelink.minimed.eu ein und drücke "
-"„RETRIEVE KEYS FOR USB“: Keys"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:26
-msgid ""
-"Wenn die App den richtigen Schlüssel von CareLink bekommt, siehst du nun auf"
-" dem Bildschirm den ersten CGM-Wert: Gratuliere! CGM"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:29
-msgid ""
-"Damit die CGM-Werte nun auch auf anderen mobilen Geräten abgelesen werden "
-"können, müssen wir noch einen Schritt machen. Gehe wiederum ins Menü der App"
-" und drücke auf „Preferences“: Preferences"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:36
-msgid ""
-"Nun kannst du auf deiner Website (deinewebsite.azurewebsites.net) die CGM-"
-"Werte ablesen (es kann einige Minuten in Anspruch nehmen, bis die Daten "
-"angezeigt werden): Nightscout"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:39
-msgid ""
-"Als App zum Lesen der Kurve für Android empfehle ich „NightWatch“. Für "
-"iPhones empfehle ich die Apps „Nightscouter“ oder „Nightscout“."
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:41
-msgid ""
-"Sobald die Verbindung zwischen der Pumpe und der Android-Messgerät- "
-"Verbindung unterbrochen wird (Distanz, Wackelkontakt des USB-OTG Kabels), "
-"werden keine CGM-Werte mehr aufgezeichnet. Sie werden zum jetzigen Zeitpunkt"
-" auch nicht nachgetragen, sobald die Verbindung wieder steht."
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:44
-msgid ""
-"Bei Problemen kannst du jederzeit die Community auf Facebook um Rat bitten "
-"(Gruppe für Deutschland heißt „Nightscout Deutschland (Germany)“)."
-msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:46
-msgid "Nun viel Spaß mit Nightscout - #WeAreNotWaiting !"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:5
-msgid ""
-"Wir benötigen ein Konto auf CareLink und müssen mindestens einmal die "
-"Pumpendaten über das Contour Next Link 2.4 Messgerät auf Carelink hochladen."
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:7
-msgid "Gehe auf https://carelink.minimed.eu und klicke auf „Jetzt anmelden“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:9
-msgid "Anmeldung"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:11
-msgid "Wähle dein Land und deine Sprache aus:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:13
-msgid "Sprache"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:15
-msgid ""
-"Nach dem Durchlesen der Nutzungsbedingungen akzeptiere diese, indem du diese"
-" drei Checkboxen klickst und „Akzeptieren“ klickst: Checkboxen"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:18
-msgid ""
-"Fülle nun das Formular mit deinen Angaben aus. Bestätige, dass du kein "
-"Roboter bist, und klicke auf „Absenden“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:20
-msgid "Absenden"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:22
-msgid "Nach dem „Absenden“ erscheint eine Bestätigungsseite:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:24
-msgid "Bestaetigung"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:26
-msgid ""
-"Nachdem du auf „Fertig stellen“ klickst, kommst du auf die Startseite zum "
-"Login. Gib deine vorhin erstellten Benutzernamen und Passwort ein und klicke"
-" auf „Einloggen“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:29
-msgid "Einloggen"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:31
-msgid "Wechsle nun auf den Reiter „Hochladen“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:33
-msgid "Hochladen"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:39
-msgid ""
-"(Java muss auf dem Computer installiert sein und die Ausführung von Java "
-"erlaubt werden)."
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:41
-msgid ""
-"WICHTIG ist, als Gerät „Minimed Insulinpumpe“ auszuwählen. Klicke nun auf "
-"„Weiter“"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:43
-msgid "Auswahl"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:45
-msgid "Wähle nun „Minimed Serie 600“ und klicke auf „weiter“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:47
-msgid "Du wirst nun gebeten"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:53
-msgid "Sofern alles stimmt, klicke auf „Weiter“"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:55
-msgid "Pumpenstatus"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:57
-msgid ""
-"Nun musst du die Seriennummer der Pumpe eingeben und auf „Weiter“ klicken:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:59
-msgid "Seriennummer"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:61
-msgid "Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:63
-msgid "Auswahl_Verbindung"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:65
-msgid ""
-"Stelle sicher, dass alle aufgeführten Punkte zutreffen und klicke auf "
-"„Fertigstellen“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:67
-msgid "Fertig"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:69
-msgid "Die Pumpendaten werden nun ausgelesen:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:71
-msgid "Auslesen"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:73
-msgid ""
-"Wichtig: *Sollte die Verbindung zwischen Pumpe und Messgerät unterbrochen "
-"werden (z.B. durch das Auslesen der Pumpendaten in CareLink Pro bei einer "
-"3-Monatskontrolle) kann es sein, dass das Auslesen auf CareLink (wie eben "
-"durchgeführt) erneut notwendig wird. Damit das nicht passiert empfiehlt es "
-"sich, ein zusätzliches Contour Next Link 2.4 Messgerät anzuschaffen, welches"
-" nur in Verbindung mit dem Android Smartphone steht und nicht für etwaiges "
-"manuelles Hochladen von Pumpendaten gebraucht wird (muss allerdings "
-"ebenfalls einmalig zum Auslesen der Pumpendaten gebraucht worden sein!). *"
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:11
-msgid ""
-"Da sich die Wege zum erfolgreichen Nightscout-Betrieb unterscheiden, werden "
-"diese im Folgenden getrennt betrachtet."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:16
-msgid ""
-"Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es "
-"folgende Möglichkeit, die Daten zur Nightscout Webseite zu übertragen."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:19
-msgid "Übersichtsgrafik"
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:21
-msgid ""
-"Danach stehen einem die in den Kapiteln Die Nightscout Hauptseite und "
-"Smartwatch Integration genannten Möglichkeiten zur Verfügung."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:23
-msgid ""
-"Um das zu realisieren, muss man den MMCommander bauen und mit der "
-"entsprechenden Software bespielen. Zusätzlich muss noch auf einem "
-"kompatiblen Android Smartphone die Medtronic Uploader App installiert und "
-"konfiguriert werden. Beides ist im Kapitel MMCommander beschrieben."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:25
-msgid ""
-"Im Netz findet man auch Hinweise auf eine Lösung für das Iphone (ab dem 4s "
-"und IOS 8.2). Diese Lösung, der RileyLink, kontaktiert die Pumpe per Funk "
-"und stellt dann über Bluetooth eine Verbindung mit dem Iphone her. Dort "
-"läuft dann die RileyLink IOS App und transportiert die Daten zu Nightscout. "
-"Dies funktioniert bisher noch nicht mit den deutschen Pumpen, eventuell da "
-"der RileyLink sich gegenüber der Pumpe als MySentry ausgibt, um von dieser "
-"die Daten zu bekommen. MySentry wird, lt. Medtronic-Hotline, aber nur von "
-"den amerikanischen Pumpen unterstützt. Auch die mittlerweile offiziell von "
-"Nightscout unterstützte Lösung mit Hilfe von Minimed Connect und IOS (s. "
-"hier) betrifft derzeit nur den amerikanischen Markt."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:30
-msgid ""
-"Bei der Minimed 640G funktioniert es seit Mitte Mai 2016 recht ähnlich. "
-"Hierbei wird das Messgerät Bayer Contour Next Link 2.4 per USB Kabel mit "
-"einem passenden Android Smartphone verbunden. Auf diesem Smartphone wird "
-"dann der 640gAndroidUploader installiert und konfiguriert."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:32
-msgid ""
-"Dazu sind die folgenden Einzelschritte erforderlich: Zunächst muss das "
-"Kapitel Nightscout einrichten durchgearbeitet und die Webseite entsprechend "
-"eingerichtet werden. Danach geht es weiter mit dem Kapitel CareLinkPersonal "
-"Konto einrichten. Ist dies geschehen, wird noch das Android Smartphone mit "
-"dem Contour Next Link Messgerät konfiguriert  (s. hier)."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:35
-msgid ""
-"Die vorherige, seit Anfang 2016 existierende Lösung sei auch noch erwähnt. "
-"Speziell, da damit noch mehr Daten wie zum Beispiel Informationen über "
-"Temporäres Basal zu Nightscout übertragen werden können, die derzeit noch "
-"nicht mit der App übertragen werden. Allerdings ist diese Lösung deutlich "
-"komplizierter und noch nicht Bestandteil dieses Handbuches. Informationen "
-"dazu gibt es auf der Nightscout Webseite (s. Nightscout and Medtronic 640g "
-"(engl.)) und zusätzlich hat der Autor, Matt, noch einen englischen Blog, der"
-" sich mit dem Thema beschäftigt Matt's Little D Blog an."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.md:37
-msgid ""
-"Speziell im Beitrag vom 18.01.16 geht Matt auf die erforderlichen Schritte "
-"ein. Mittlerweile hat Matt drei verschiedene Lösungen für die 640G "
-"erarbeitet. Details in seinem Beitrag vom 16.4.16."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/freestyle_libre.md:4
-msgid ""
-"Der FreeStyle Libre der Firma Abbott ist seitens des Herstellers kein CGM "
-"System, sondern ein FGM (Flash Glucose Messsystem). Der Unterschied ist, "
-"dass bei einem CGM System ein Transmitter die Daten automatisch z.B. alle 5 "
-"Minuten an ein geeignetes Anzeigegerät sendet und bei einem FGM die Daten "
-"nur durch aktives Scannen des Sensors \"abgeholt\" werden. Derzeit wird der "
-"Sensor zumeist durch das passende Lesegerät ausgelesen. Auch gibt es "
-"mittlerweile die LibreLink Android App, die zur Nutzung mit dem FreeStyle "
-"Libre zugelassen ist und das Auslesen direkt mit einem Smartphone "
-"ermöglicht. Auch bei Nutzung des FreeStyle Libre als FGM ist eine Einbindung"
-" in Nightscout möglich. Wie das funktioniert ist hier beschrieben."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/freestyle_libre.md:10
-msgid ""
-"Mittlerweile gibt es es ein DIY Projekt, welches die Herstellung eines "
-"Transmitters für dieses System ermöglicht und die Firma BlueToolz UG "
-"arbeitet derzeit an einer Lösung, die für den Benutzer ohne Bastelkenntnisse"
-" eine CGM auf FreeStyle Libre Basis ermöglichen soll. Details zu den "
-"Projekten finden sich hier."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_anschliessen.md:14
-msgid ""
-"Wenn alles richtig angeschlossen ist, leuchtet die LED am CC Debugger grün, "
-"wenn nicht, hilft eventuell ein Blick in das Unterkapitel Fehlerbehebung."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:3
-msgid ""
-"Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert "
-"werden kann, muss man die Schritte des Kapitels Nightscout einrichten, außer"
-" denen des Unterkapitels \"Care Portal\", vollzogen haben."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:7
-msgid ""
-"Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel dem "
-"\"Account-Information\". eingetragen hat, werden nun zum Konfigurieren der "
-"Medtronic Uploader App benötigt."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.md:57
-msgid ""
-"Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine"
-" Viertelstunde, bis die ersten Werte über die persönliche Internetseite im "
-"Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Unterkapitel "
-"Fehlerbehebung."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmcommander.md:3
-msgid ""
-"Der MMCommander stellt die Schnittstelle zwischen dem MiniLink Transmitter "
-"(für die Veo) und einem (kompatiblen) Android Smartphone dar. Derzeit wird "
-"damit das \"alte\" System, bestehend aus Enlite Sensor, MiniLink Transmitter"
-" und VEO Insulinpumpe, unterstützt."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmcommander.md:5
-msgid ""
-"Benutzer der Medtronic 640G und deren CGM Komponenten sollten sich den "
-"Unterpunkt Guardian 2 Link Transmitter des Kapitels Enlite ansehen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmcommander.md:7
-msgid ""
-"Das Grundprinzip ist, dass der MMCommander die vom Transmitter an die Pumpe "
-"übertragenen Werte \"mithört\" und diese dann per Medtronic Uploader Android"
-" App entweder per Wi-Fi oder mobilem Telefon Netzwerk an Nightscout "
-"überträgt (vgl. Übersichtsgrafik im Unterpunkt MiniLink Transmitter des "
-"Kapitels Enlite)."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/software.md:3
-msgid ""
-"Um den CC1111 USB Dongle mit der entsprechenden Software zu beschreiben, "
-"braucht man ein Windows Programm, welches Smart RF Flash Programmer heißt "
-"(Achtung: nicht den SmartRF Flash Programmer 2 runterladen!) und natürlich "
-"die aufzuspielende Software. Diese befindet sich   hier. Am besten man "
-"installiert bereits jetzt SmartRF Flash Programmer, damit Windows später den"
-" CC Debugger erkennt. Es gibt alternativ auch die Möglichkeit, den TI Stick "
-"unter Linux mit Hilfe des cc-tool's zu beschreiben, einfacher ist es aber "
-"unter Windows. Für Mac ist derzeit keine Lösung bekannt."
-msgstr ""
-
-#: ../../docs/grundlagen/libre/libre.md:3
-msgid ""
-"Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch die "
-"Android-App Glimp, die auch Sensoren auch auslesen kann. Dadurch ist eine "
-"Fernüberwachung möglich - z.B. durch die Eltern, die dann auf dem selben "
-"Stand wie das Kind sind und sehen ob und was gemessen wurde. Mit der "
-"Android-App werden allerdings z.T. leicht andere Werte ausgelesen als vom "
-"Lesegerät, da diese einen eigenen Algorithmus verwendet."
-msgstr ""
-
-#: ../../docs/grundlagen/libre/libre.md:11
-msgid "Um Nightscout mit dem FreeStyle Libre nutzen zu können, braucht man:"
-msgstr ""
-
-#: ../../docs/grundlagen/libre/libre.md:17
-msgid ""
-"Falls man bisher noch keine Nightscout Seite eingerichtet hat, findet man "
-"alle erforderlichen Schritte im Kapitel Nightscout einrichten. Wichtig ist "
-"dabei darauf zu achten, dass in Azure bzw. Heroku das CarePortal "
-"eingeschaltet wurde (dies geschieht, in dem man \"careportal\" bei der "
-"\"ENABLE\" Variable eingfügt. Auch muss in Azure bzw. Heroku ein "
-"\"API_SECRET\" gesetzt worden sein. Dies klingt komplizierter als, es in "
-"Wirklichkeit ist. Am besten Schritt für Schritt der Anleitung folgen ;-)"
-msgstr ""
-
-#: ../../docs/grundlagen/libre/libre.md:19
-msgid ""
-"Viele aktuelle Android Smartphones unterstützen die NFC Technologie. Eine "
-"sehr gute, englischsprachige Liste findet man hier."
-msgstr ""
-
-#: ../../docs/grundlagen/libre/libre.md:24
-msgid ""
-"Um die Daten auf der Nightscout Seite angezeigt zu bekommen, müssen diese "
-"mit der Glimp App über das Smartphone vom Sensor gelesen werden und die App "
-"sendet die Daten dann zu Nightscout. Folgende Schritte sind dazu nötig:"
-msgstr ""
-
-#: ../../docs/grundlagen/libre/libre_als_cgm.md:6
-msgid ""
-"Dank eines DIY Projektes ist es bereits heute möglich, den Libre Sensor mit "
-"einem selbst zu bastelnden Transmitter auszustatten, der dann automatisch "
-"alle 5 Minuten Werte scannt und an ein Android Smartphone überträgt. Auf "
-"diesem muss die XDrip App installiert sein, die die Daten sowohl anzeigen "
-"kann, als auch an Nightscout oder eine Smartwatch senden. Wie das geht steht"
-" hier auf Englisch."
-msgstr ""
-
-#: ../../docs/grundlagen/libre/libre_als_cgm.md:11
-msgid ""
-"Mittlerweile gibt es auch ein Projekt, das sich an alle wendet, die nicht so"
-" gerne mit dem Lötkolben arbeiten und trotzdem den Libre mit dem "
-"Funktionsumfang eines CGM-Systems nutzen möchten. Der blueReader soll "
-"wasserdicht und klein sein. Wer sich über den aktuellen Stand informieren "
-"möchte, kann dies in dem Blog Sandras Place machen. Damit dieses Projekt "
-"allerdings realisiert werden kann, wurde ein crowdfunding Projekt ins Leben "
-"gerufen, welches auf finanzielle Unterstützung angewiesen ist."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:3
-msgid ""
-"Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die "
-"verwendete Hardware, die Art die Hardware zu verlöten und auch die Software."
-" (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.)Daher"
-" gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen für "
-"ähnliche Dinge.Die Varianten haben unterschiedliche Eigenschaften, letztlich"
-" aber dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und an ein "
-"Bluetooth-Handy zu übertragen."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:9
-msgid ""
-"Hier werden drei verschiedene Bauformen vorgestellt. Eine \"Bauform\" meint "
-"eine Art, die Hardware-Komponenten miteinander zu verlöten."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:11
-msgid ""
-"Bauform 1.): \"xDrip classic\"Dies ist die einfachste Bauform. Es hat sich "
-"der Name der \"xDrip classic\" etabliert.Vorteil: Weniger Lötstellen. "
-"Einfach und robust. (Was nicht dran ist, kann nicht kaputt gehen.) Im "
-"Regelbetrieb leuchtet immer eine LED. Das verbraucht etwas Strom, aber man "
-"sieht auf den ersten Blick, ob der xDrip noch \"lebt\".Nachteil: Keine "
-"Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei xBridge-Bauform."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:16
-msgid ""
-"Bauform 2.): \"xDrip classic mit Spannungsteiler\"Diese Bauform lohnt sich "
-"eigentlich nur dann, wenn mit möglichst geringem Aufwand ein \"xDrip "
-"classic\" um eine Anzeige der Akku-Ladung erweitert werden soll.Vorteil: Mit"
-" Anzeige der Akku-Ladung. Geringer Aufwand beim Umbau von \"xDrip "
-"classic\".Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:21
-msgid ""
-"Bauform 3.): \"xBridge\"Die Stromversorgung des Bluetooth-Moduls läuft etwas"
-" anders, als beim \"xDrip classic\". Im Vergleich zum \"xDrip mit "
-"Spannungsteiler\" müssen zwei Lötstellen mehr gelötet werden. Insbesondere "
-"müssen die Kabel für die Anbindung an das Bluetooth-Modul etwas anders "
-"geschaltet werden.Vorteil: Von den hier vorgestellten Varianten die längste "
-"Akku-Laufzeit. Von der Anzeige der Akku-Ladung bitte keine Wunder erwarten -"
-" es ist nur eine grobe Orientierung. Der aangezeigte Prozentwert sinkt nicht"
-" linear.Nachteil: Ungeeignet, wenn sich die Bluetooth-Verbindung zum Handy "
-"sich schlecht oder langsam aufbaut."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:45
-msgid "(ohne Widerstände für Batterieanzeige)xDrip Schaltbild"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:77
-msgid ""
-"Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf "
-"dem Wixel).Die Anzeigen sind von der Version der wxl-Datei und von der "
-"verbauten Hardware abhängig - in der folgenden Tabelle gibt es eine grobe "
-"Orientierung."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:86
-msgid ""
-"| Bauteil | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | "
-"xBridge | | --- | --- | --- | --- | --- | | HM17 | -- | -- | -- | -- | | "
-"HM11 | Klärung nötig |  |  |  | | HM10 | ~~grün~~ Dauerleuchten | "
-"Regelbetrieb | Regelbetrieb | - | | HM10 | ~~grün~~ blinkend | keine BT-"
-"Verbindung zum Handy | keine BT-Verbindung zum Handy | keine BT-Verbindung "
-"zum Handy | | HM10 | ~~grün~~ aus, aber alle 5 Minuten kurzes Blinken, dann "
-"ca. 30 Sek. an | - | - | Regelbetrieb | | Wixel | orange Dauerblinken | "
-"keine Verbindung zum Transmitter | keine Verbindung zum Transmitter | - | | "
-"Wixel | orange Dauerleuchten | - | - | keine Verbindung zum Transmitter | | "
-"Wixel | orange alle 5 Minuten blinkend | Regelbetrieb | Regelbetrieb | - | |"
-" Wixel | orange alle 5 Minuten ca. 30 Sek. Dauerleuchten | - | - | "
-"Regelbetrieb | | Wixel | ab und zu orange und rot gleichzeitig | ? | ? | "
-"Regelbetrieb | | App Statusanzeige | \"not connected\" dauerhaft | keine "
-"Verbindung zum BT-Modul | keine Verbindung zum BT-Modul | keine Verbindung "
-"zum BT-Modul | | App Statusanzeige | \"not connected\", aber alle 5 Minuten "
-"für ca. 30 Sek \"connected\" | - | - | Regelbetrieb (!) | | App "
-"Statusanzeige | \"connected\" dauerhaft | Regelbetrieb | Regelbetrieb | - |"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:106
-msgid ""
-"|  | Nr. | Bemerkung | Bauteil: | Vertrieb: | Verkaufspreis: | "
-"Artikelnummer: | Hersteller-Nr.: | | :--- | :--- | :--- | :--- | :--- | :---"
-" | :--- | :--- | |  | 1 | optional | IC Lithium-Polymer Akku-Schutzschaltung"
-" | Voelkner | 2,96 € | Q33939 | S-8261ABJMD-G3J2G | |  | 2 | optional (und "
-"Alternative zu 1) | Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-"
-"G3J2G | Conrad | 2,96 € | 155151 - VQ | S-8261ABJMD-G3J2G | |  | 3 | "
-"notwendig | Pololu Wixel Programmable USB Wireless Module | EXP TECH | 18,60"
-" € | EXP-R25-070 | Pololu  1337 | |  | 4 | notwendig | Adafruit Mini Lipo "
-"w/Mini-B USB Jack - USB LiIon/LiPoly charger | EXP TECH | 7,65 € | "
-"EXP-R15-446 | Adafruit  1905 | |  | 5 | notwendig, alternativ auch HM10 "
-"möglich | Seeed Studio Bluetooth V4.0 HM-11 BLE Module | EXP TECH | 12,28 € "
-"| EXP-R02-308 | Seeed Studio  210005001 | |  | 6 | optional |  Handgehäuse "
-"Minitec El, 78x48x20, Lava/Grün | Voelkner | 12,38 € | S23261 | D9006178 | |"
-"  | 7 | optional, Alternative zu 6 | Hand-Gehäuse Kunststoff Lava, Grün 78 x"
-" 48 x 20 OKW D9006178 1 Set | Conrad | 13,57 € | 535384 - 62 | D9006178 | | "
-"8 | notwendig, oder ein anderer 3,7v LiPo-Akku | Lipo Akku 1100 mAh 3,7V "
-"Einzelzelle | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C 603450 |  | |  | 9 "
-"| optional (für Batterieanzeige bei xBridge-Schaltung) | "
-"Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k |  |  |  |  | "
-"|  | 10 | optional (für Batterieanzeige bei xDrip-Schaltung) | "
-"Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k |  |  |  |  | "
-"|  | 11 | notwendig | flexible Leitungen (dünn) Beispiel | exp-tech.de | "
-"0,80 € | EXP-R15-686 | Adafruit | |  | 12 | notwendig | Lötzinn, Lötkolben |"
-"  |  |  |  | |  | 13 | optional, aber empfehlenswert | Schrumpfschlauch |  |"
-"  |  |  | |  | 14 | optional, aber empfehlenswert | \"dritte Hand\" ein "
-"Beispiel: Link |  |  |  |  | |  | 15 | optional | Epoxid Trennschicht |  |  "
-"|  |  | |  | 16 | notwendig | Kabel mit Mini-USB-Stecker, um das Wixel zu "
-"bespielen | Beispiel: Link |  |  |  |"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:125
-msgid ""
-"Hinweis: Es gibt Erfahrungsberichte, die besagen, dass ein HM17 sich ebenso "
-"verwenden lässt."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:131
-msgid ""
-"Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante \"xDrip-"
-"classic\" nicht gewünscht ist.Es gibt verschiedene Bluetooth-Module: HM10, "
-"HM11 oder HM-17 für die es verschiedene Bauformen gibt. Deswegen hier "
-"mehrere Bilder zur Verschaltung. Sucht euch das Bild raus, das zu eurem "
-"konkreten HM Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus"
-" den folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:134
-msgid "Schaltbild für xBridge mit HM-10HM10_xbridge_Wiring_Diagram"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:137
-msgid ""
-"Schaltbild für xBridge mit HM-10 auf Breakout BoardHM10 + Breakout "
-"Board_xbridge_Wiring_Diagram"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:140
-msgid "Schaltbild für xBridge mit HM-11HM11_xbridge_Wiring_Diagram"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.md:143
-msgid "Schaltbild für \"xDrip USB V3\"xDrip V3usb Schaltbild"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:3
-msgid ""
-"Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy "
-"läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und - optional - einer"
-" Smart-Watch anzuzeigen, auszuwerten und bei Bedarf zu NightScout "
-"hochzuladen.Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 "
-"with Share oder einen selbstgebauten Bausatz. Da Share in Europa nicht "
-"erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:16
-msgid ""
-"Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der "
-"Download für eine lauffähige Version (*.apk-File) findet sich hier: Link zur"
-" Beta-Version"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:18
-msgid ""
-"Die hier verlinkten Versionen sind so erstellt, dass man eine ältere Version"
-" mit einer neueren updaten kann, ohne Einstellungen und Messwerte zu "
-"verlieren.Wer hinreichende technische Kenntnisse hat, kann sich aus den "
-"vorhandenen Quellen selbst die apk zusammenstellen."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:22
-msgid ""
-"\"xDrip\" oder \"xDrip+\"Alternativ zur \"xDrip\"-App wird auch die Software"
-" \"xDrip+\" empfohlen. xDrip+ ist eine Variante, bzw. eine Erweiterung der "
-"\"xDrip\"-App. In \"xDrip+\" sind (erheblich) mehr Möglichkeiten zur "
-"Konfiguration enthalten. Das kann wunderbar hilfreich sein, aber die Fülle "
-"der Möglichkeiten kann Einsteiger auch verwirren.Die Beschreibungen dieser "
-"Seite wurden für xDrip geschrieben, sie gelten aber ebenso für xDrip+.Infos "
-"und Download zu xDrip+ finden sich hier: https://jamorham.github.io/"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:62
-msgid "---&gt; ist noch zu beschreiben!"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:66
-msgid ""
-"| Name | Bedeutung | Empfehlung für Einsteiger | | --- | --- | --- | | Bg "
-"Units | \"mg/dl\" oder \"mmol\" | - | | High Value | Grenze, ab der ein Wert"
-" in der Anzeige und Statistik als \"zu hoch\" gewertet wird. | - | | Low "
-"Value | Grenze, ab der ein Wert in der Anzeige und Statistik als \"zu tief\""
-" gewertet wird. | - | |  |  | ... | | Display Bridge Battery | Sofern ein "
-"Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige gemacht werden |"
-" Nur aktivieren, wenn ein Spannungsteiler verbaut wurde. | | Run Collection "
-"Service in foreground | Klärung nötig: Kann das die BT-Verbindung "
-"tatsächlich verbessern? Zeigt in den Statusmeldungen und ggf. im Lockscreen "
-"den Wert mit Tendenz an. | aktivieren |"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:105
-msgid ""
-"Zur Erklärung der 12-Stunden-Anzeige:AM = ante meridiem (lateinisch), auf "
-"Deutsch: VOR dem Mittag, Eselsbrücke: Am Morgen;PM = post meridiem, auf "
-"Deutsch: NACH dem Mittag"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:151
-msgid ""
-"Drücke \"create low alert\", um einen Tiefalarm selbst zu definieren. Unter "
-"\"Alert Name\" gibst du dem Alarm eine von dir ausgewählte Bezeichnung, z.B."
-" für mg/dl zu niedrig 80. Bei \"Threshold\" tippst du den entsprechenden "
-"Wert (hier z.B. 80) ein. Unter \"Default Snooze\" gibst du die Minuten ein, "
-"nach denen sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der"
-" Wert aber nach wie vor zu tief ist; unter \"Re-raise\" die Minuten, nach "
-"denen sich der Alarm erneut melden soll, wenn du ihn ignoriert hast, der "
-"Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich bei Tiefalarmen "
-"einen kürzeren Zeitraum auszuwählen. Unter \"Alert Tone\" kannst du dir "
-"einen entsprechenden Alarmton bestimmen bzw. mit \"choose file\" aus deinem "
-"Smartphonerepertoire aussuchen.Unter \"select time for alert\" ist \"all "
-"day\" bereits mit Häkchen versehen, so dass dein Alarm ganztägig "
-"funktioniert. Du kannst aber auch auf \"all day\" tippen, um dann mit \"tap "
-"to change\" einen gewissen Zeitraum (z.B. die Nacht) festzulegen. Du kannst "
-"den Alarm über \"override phone silent mode\" auch im Ruhemodus klingen "
-"lassen und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an "
-"\"vibrate on alert\". Zuletzt kannst du den Alarm noch testen und vergiss "
-"nicht, ihn zu speichern (\"save alert\"), wenn er dir zusagt!"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:166
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:231
-msgid "----&gt; ist noch zu beschreiben!"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:182
-msgid ""
-"Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den "
-"Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen "
-"auswählen kann.TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = "
-"Tage"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.md:254
-msgid "---&gt; Erweiterbar!"
-msgstr ""
-
-#: ../../docs/nightscout/azure.md:10
-msgid ""
-"Mit dem zweimaligen Klicken des Buttons Kostenlos testen > gelangen wir zur "
-"Registrierungsseite:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.md:24
-msgid ""
-"Mit dem Button + Neu richten wir eine neue Resource ein. Die Menüführung ist"
-" kaskadiert, alle gelb markierten Punkte sind auszuwählen. Bei "
-"Auswahlpunkten mit > kann man weitere Einstellungen auswählen:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.md:33
-msgid ""
-"Der Name der Nightscout - Website ist jetzt <meinname>.azurewebsites.net, "
-"hier im Beispiel: nscgmq01.azurewebsites.net. Diesen Website - Namen bitte "
-"auch notieren."
-msgstr ""
-
-#: ../../docs/nightscout/azure.md:39
-msgid ""
-"Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der "
-"Status. Hier wird angezeigt, ob die App Running oder Stopped ist."
-msgstr ""
-
-#: ../../docs/nightscout/azure.md:41
-msgid ""
-"Weiter geht es mit der Konfiguration der Plugin Module. Diese sind in "
-"Kapitel Konfiguration der Nightscout Plugins"
-msgstr ""
-
-#: ../../docs/nightscout/azure.md:50
-msgid ""
-"Zu Bereitstellung der Nightscout-Website fehlt uns noch der cgm-remote-"
-"monitor, den wir über GitHub laden. Wir steigen hier ein, um die Verbindung "
-"herzustellen:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.md:79
-msgid ""
-"Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann über "
-"einen Browser mit dem Aufruf http://<meinname>.azurewebsites.net aufgerufen "
-"werden. Die Einrichtung ist fertig."
-msgstr ""
-
 #: ../../docs/nightscout/azure_plugins.md:3
 msgid ""
 "Wir befassen uns hier mit der Beschreibung der Programm - Module, den "
@@ -2770,6 +2141,18 @@ msgid ""
 "nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen "
 "ggf. immer wieder neu eingegeben werden. Jeder Parameter mit Wert steht in "
 "einer extra Zeile."
+msgstr ""
+
+#: ../../docs/nightscout/azure_plugins.md:87
+msgid "Nach Eingabe der Daten das Speichern nicht vergessen."
+msgstr ""
+
+#: ../../docs/nightscout/azure_plugins.md:89
+msgid "Die Einstellungen sehen dann z.B. so aus:"
+msgstr ""
+
+#: ../../docs/nightscout/azure_plugins.md:91
+msgid "azure_app_entries"
 msgstr ""
 
 #: ../../docs/nightscout/azure_plugins.md:94
@@ -3152,8 +2535,74 @@ msgid ""
 "Insulinmenge und Kohlenhydrate (KH) hinzuzufügen."
 msgstr ""
 
+#: ../../docs/nightscout/care_portal.md:7
+msgid "Ereignis-Typ:"
+msgstr ""
+
+#: ../../docs/nightscout/care_portal.md:9
+msgid "nightscout_careportal"
+msgstr ""
+
+#: ../../docs/nightscout/care_portal.md:12
+msgid "Die Auswahlfelder werden entsprechend der Auswahl angepasst."
+msgstr ""
+
+#: ../../docs/nightscout/care_portal.md:14
+msgid ""
+"Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch "
+"die Eingabe der korrekten Zeit, falls man Daten nicht online eingeben kann, "
+"da diese zusammen mit den CGM - Werten grafisch dargestellt werden."
+msgstr ""
+
+#: ../../docs/nightscout/care_portal.md:17
+msgid ""
+"In dieser Maske können wir auch temporäre Basalraten mit Temp Basal "
+"Start/End eingegeben. Diese werden anschließend grafisch dargestellt. Nach "
+"dem Klick auf Eingabe Senden wird man noch aufgefordert, die eingaben zu "
+"bestätigen. Mit OK ist alles gespeichert."
+msgstr ""
+
+#: ../../docs/nightscout/care_portal.md:23
+msgid "Nun können wir uns  alles grafisch ansehen:"
+msgstr ""
+
+#: ../../docs/nightscout/care_portal.md:25
+msgid "nightscout_cp_entries"
+msgstr ""
+
+#: ../../docs/nightscout/care_portal.md:29
+msgid "Benachrichtigungen über Therapie - Behandlungsdaten"
+msgstr ""
+
+#: ../../docs/nightscout/care_portal.md:31
+msgid ""
+"Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden "
+"Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht wurde. "
+"Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die Standard - "
+"Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über Azure "
+"App.-Einstellungen geändert werden, in dem man die "
+"TREATMENTNOTIFY_SNOOZE_MINS Variable ändert."
+msgstr ""
+
 #: ../../docs/nightscout/care_portal.md:36
 msgid "Weiter gehts mit der  Verwendung des  Bolus Rechner."
+msgstr ""
+
+#: ../../docs/nightscout/datenblatt.md:3
+msgid ""
+"Bevor wir mit der Einrichtung von Nightscout beginnen, ist es  sinnvoll, das"
+"  Arbeitsblatt auszudrucken. Wir  notieren alle wichtigen Benutzernamen,  "
+"Passwörter und Zugangsdaten, die bei der ersten Einrichtung festgelegt "
+"werden. Am besten füllt man es direkt während der Einrichtung gewissenhaft "
+"aus und heftet es ab, um später darauf zugreifen zu können."
+msgstr ""
+
+#: ../../docs/nightscout/datenblatt.md:6
+msgid "Link zum übersetzten Arbeitsblatt"
+msgstr ""
+
+#: ../../docs/nightscout/datenblatt.md:11
+msgid "Link zum englischen Original Arbeitsblatt"
 msgstr ""
 
 #: ../../docs/nightscout/datenblatt.md:14
@@ -3391,14 +2840,70 @@ msgid ""
 "eigenes Verzeichnis (Fork)."
 msgstr ""
 
+#: ../../docs/nightscout/github.md:8
+msgid "Wir starten mit dem Sign Up auf der GitHub Site:"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:10
+msgid "github sign up"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:12
+msgid ""
+"Wichtig ist auch hier, Benutzername und Passwort in das Datenblatt "
+"einzutragen."
+msgstr ""
+
+#: ../../docs/nightscout/github.md:14
+msgid "Mit Edit Profile können wir uns unsere Einstellungen ansehen."
+msgstr ""
+
+#: ../../docs/nightscout/github.md:16
+msgid "Billing:"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:18
+msgid ""
+"Unter diesem Menüpunkt sind die Kosten aufgelistet, wichtig ist hier, das "
+"hier Free angezeigt wird:"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:20
+msgid "github_billing"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:22
+msgid "Wir suchen jetzt den Programmcode:"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:24
+msgid "Über die Suchfunktion jetzt cgm-remote-monitor eingeben:"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:26
+msgid "github_search"
+msgstr ""
+
 #: ../../docs/nightscout/github.md:28
 msgid ""
 "Den ** branch ** wie master oder dev auswählen und mit Fork kopieren wir den"
 " Code in unser eigenes Verzeichnis:"
 msgstr ""
 
+#: ../../docs/nightscout/github.md:30
+msgid "github_branch_master"
+msgstr ""
+
 #: ../../docs/nightscout/github.md:33
 msgid "Das Ergebnis mit unserem eigenen Branch:"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:35
+msgid "github_fork"
+msgstr ""
+
+#: ../../docs/nightscout/github.md:41
+msgid "Aktualisierung des eigenen cgm-remote-monitor repositories"
 msgstr ""
 
 #: ../../docs/nightscout/github.md:44
@@ -3419,6 +2924,10 @@ msgstr ""
 
 #: ../../docs/nightscout/github.md:51
 msgid "Jetzt instsallieren wir die Nightscout Website  Deploy to Azure."
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:2
+msgid "Nightscout"
 msgstr ""
 
 #: ../../docs/nightscout/lokale_installationen.md:3
@@ -3540,6 +3049,134 @@ msgid ""
 "Um die Website weiter anzupassen rufen wir jetzt das Einstellungen Menü auf."
 msgstr ""
 
+#: ../../docs/nightscout/mongo_db.md:6
+msgid ""
+"Die Mongo DB Datenbank ist eine Dokumentations - Datenbank. Hier werden die "
+"Daten der Nightscout Website gespeichert. Es handelt sich um eine Cloud - "
+"Datenbank in Rechenzentren der USA und Europa. Mongo DB gibt es als "
+"kostenlose Sandbox - Variante."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:9
+msgid ""
+"Bevor wir mit der Konfiguration loslegen, ist es wichtig, das Arbeitsblatt "
+"auszudrucken und auszufüllen."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:13
+msgid ""
+"Es ist für weitere Konfigurationen wichtig, dieses Datenblatt sicher "
+"aufzubewahren."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:15
+msgid "Die URL Adresse zum Start gibt es hier: https://mlab.com"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:17
+msgid ""
+"Wir starten mit der Einrichtung der Benutzer - Konten auf der mlab - "
+"Startseite:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:20
+msgid "SIGN UP: mongodb signin up"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:23
+msgid "Weiter gehts mit dem Anlegen der benötigten Konten: zur Verwaltung"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:25
+msgid "mongo db create account"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:27
+msgid "Passwörter"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:29
+msgid ""
+"Der Einfachheit halber kann man denselben Benutzernamen (Account name) für "
+"die Verwaltung von mongolab als auch für den Datenbanknutzer (Username) "
+"nutzen, muss es aber nicht. Hauptsache: Alles notieren. Auch sind eigene "
+"Passwörter nur für mlab und Nightscout sinnvoll, es sollten auf keinen Fall "
+"bereits bekannte Passwörter, welche man für andere Anlässe wie Online-"
+"Banking nutzt, verwendet werden."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:31
+msgid "Überprüfung Email: verifyemail"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:34
+msgid ""
+"Nachdem der Benutzer - Account eingerichtet wurde, bitte einmal im Postfach "
+"der angegebenen Email - Adresse die Bestätigungs - Email suchen. Durch Klick"
+" auf den Link wird man auf die Seite zur Einrichtung einer Datenbank "
+"geleitet."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:36
+msgid "Anlegen einer Datenbank:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:38
+msgid "Wir starten mit dem Klick auf \"Create New\":"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:40
+msgid "create_db"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:42
+msgid ""
+"Alle gelb markierten Punkte sind auszufüllen, der Datenbankname ist frei "
+"wählbar:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:44
+msgid "mongodb_details"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:47
+msgid ""
+"Wichtig ist er Eintrag FREE, damit wird die Datenbank kostenlos betrieben. "
+"Nachdem der Button Create new MongoDB deployment geklickt wurde, erscheint "
+"eine Erfolgsmeldung:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:50
+msgid "mongodb_create_success"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:52
+msgid ""
+"Durch Doppelklick auf den Namen, hier: ds040888/nscgmdatabase fügt man u.a. "
+"den Datenbankbenutzer ein. Das ist derjenige, welcher in Azure oder xdrip "
+"konfiguriert wird, um auf die mongodb zuzugreifen:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:55
+msgid "Datenbankbenutzer hinzufügen:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:57
+msgid "mongodb_create_dbuser"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:59
+msgid "..und die vorher notierten Daten eingeben:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:62
+msgid "mongodb_dbuser_details"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:64 ../../docs/nightscout/mongo_db.md:73
+msgid "WICHTIG:"
+msgstr ""
+
 #: ../../docs/nightscout/mongo_db.md:66
 msgid ""
 "Dabei darauf achten, dass bei \"Make read-only\" kein Haken gesetzt ist, da "
@@ -3561,6 +3198,142 @@ msgstr ""
 msgid ""
 "Am Ende bitte unbedingt die MongoDB URI notieren. Diese wird benötigt, um "
 "auf die Daten über das Internet zugreifen zu können."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:77
+msgid "Die URI Syntax:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:79
+msgid "Zum besseren Verständnis ausführlich erklärt:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:81
+msgid "mongodb://dbuser:dbpassword@ds040888.mlab.com:40888/nscgmdatabase"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:83
+msgid "dbuser: ist der vorher eingerichtete Datenbankbenutzer"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:85
+msgid "dbpassword: ist das eingerichtete Passwort für den Datenbankbenutzer"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:87
+msgid "@: ist ein Verbindungszeichen, muss angegeben werden"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:89
+msgid ""
+"ds040888.mlab.com: ist ein einzigartiger Name, über den die mongodb "
+"angesprochen wird"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:91
+msgid ": ist ein Verbindungszeichen, muss angegeben werden"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:93
+msgid ""
+"40888: ist ein sogenannter Kommunikationsport, der für den Zugriff benötigt "
+"wird"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:95
+msgid "nscgmdatabase: Name der mongodb"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:97
+msgid ""
+"Diese Daten bitte unbedingt im Datenblatt notieren. Bei evtl. "
+"Verbindungsproblemen ist eine der häufigsten Ursachen ein falsche URI, es "
+"kommt hier auf Details, auf jedes Zeichen an!"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:99
+msgid ""
+"Es gibt optionale Komponenten zum Management der MongoDB im nächsten "
+"Kapitel, diese sind nicht Bestandteil der Implementierung."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db.md:101
+msgid "Ansonsten geht es jetzt weiter mit der Einrichtung von GitHub"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:4
+msgid "Optional"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:6
+msgid ""
+"Mongo DB ist eine Dokumentations - Datenbank, welche aus Collections "
+"(Sammlungen von Dokumenten) und Dokumenten besteht. Mongo DB ist eine "
+"NoSQLDB und schemafrei. Die Dokumente werden u.a. im JSON Format "
+"abgespeichert.  Die Dokumente können direkt in die DB geladen werden. Um "
+"eine Dokumenten DB zu administrieren, ist eine Admin - GUI :  sinnvoll."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:8
+msgid ""
+"Ein Anbieter ist z.B. 3T Software Labs aus Berlin. Der 3T MongoChef "
+":http://3t.io/mongochef ist für den Privatgebrauch kostenlos. Unter : "
+"http://3t.io/mongochef/download muss man sich registrieren und kann dann die"
+" Software für das jeweilige Betriebssystem herunterladen."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:12
+msgid "**Mit dieser Admin GUI  ist folgendes möglich:* **"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:16
+msgid ""
+"Dieses ist hilfreich, wenn man die mongodb umziehen möchte, z.B. von einem "
+"Standort   aus den USA zu einem Standort nach Europa. Man kann es auch als "
+"Backup Möglichkeit nutzen"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:20
+msgid ""
+"Man kann sowohl csv-, als auch json - Dokumente im- bzw. exportieren. Die "
+"Daten aus der Cloud können lokal auf einen Rechner gespeichert werden, als "
+"Backup - Möglichkeit, oder zur Weiterverarbeitung im csv - Format"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:24
+msgid ""
+"Für weitergehende Reporting Abfragen, welche nicht über die Nightscout - "
+"Reporting Seite zur Verfügung gestellt werden, können JSON - queries "
+"gebildet werden. Die Ergbnisse können wiederum im json- oder csv Format "
+"abgespeicht werden, um sie z.B. dem Doktor zukommen zu lassen."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:28
+msgid ""
+"Die Installation z.B. unter Windows ist eine Standard - Installation ohne "
+"speziell benötigte Parameter."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:30
+msgid ""
+"Beim Aufruf wird man aufgefordert, eine Connection = Verbindung zur Mongo DB"
+" zu konfigurieren. Dieses ist die URI aus vorhergehendem Kapitel."
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:32
+msgid "Connection: Klicke Connect, dann öffnet sich folgendes Fenster:"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:35
+msgid "mongochef_connect_name_port"
+msgstr ""
+
+#: ../../docs/nightscout/mongo_db_administration.md:41
+msgid "mongochef_connect_user"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_einrichten.md:3
+msgid "Nightscout besteht aus 3 Komponenten:"
 msgstr ""
 
 #: ../../docs/nightscout/nightscout_einrichten.md:12
@@ -3591,6 +3364,14 @@ msgid ""
 "beschrieben."
 msgstr ""
 
+#: ../../docs/nightscout/nightscout_einrichten.md:25
+msgid "Ein Schaubild verdeutlicht die Zusammmenhänge:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_einrichten.md:27
+msgid "nightscout scheme"
+msgstr ""
+
 #: ../../docs/nightscout/nightscout_website.md:3
 msgid ""
 "Die Nightscout Website ist die zentrale Website zur Darstellung und "
@@ -3609,14 +3390,40 @@ msgid ""
 "aktualisiert."
 msgstr ""
 
+#: ../../docs/nightscout/nightscout_website.md:6
+msgid ""
+"Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die "
+"Einstellungen zum Übertragen der Daten in der Uploader-App (Xdrip, "
+"NightScout-Uploader oder Glimp) erforderlich."
+msgstr ""
+
 #: ../../docs/nightscout/nightscout_website.md:9
 msgid ""
 "Ein Beispiel für eine mögliche Anbindung eines  CGM Systems an die "
 "Nightscout Website:"
 msgstr ""
 
+#: ../../docs/nightscout/nightscout_website.md:11
+msgid "Kommunikation:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.md:13
+msgid "nightscout_principle"
+msgstr ""
+
 #: ../../docs/nightscout/nightscout_website.md:15
 msgid "Wir schauen uns zunächst die Haupt Seite an."
+msgstr ""
+
+#: ../../docs/nightscout/nsfaqs.md:5
+msgid ""
+"**Die Website reagiert sehr langsam, wenn sie längere Zeit nicht verwendet "
+"wurde: ** Wenn die Website längere Zeit nicht verwendet wird, z.B. wenn die "
+"Daten nachts direkt zur Mongo-Datenbank hochgeladen werden und keine Uhr "
+"Daten periodisch abfragt, baut Azure Verbindungen ab. Diese wieder "
+"herzustellen, braucht eine gewisse Zeit. Abhilfe schaffen Dienste, die die "
+"Website periodisch (z.B. alle 5 Minuten einmal) abrufen. Ein solcher Dienst "
+"ist https://uptimerobot.com/."
 msgstr ""
 
 #: ../../docs/nightscout/profile_editor.md:3
@@ -3627,6 +3434,21 @@ msgid ""
 " durch Klicken auf das + - Symbol können wir ein alternatives Profil "
 "erstellen. Der NS android Client zur Steuerung der Kommunikation zwischen "
 "Pumpe und CGM erfragt Werte aus den abgespeicherten Profilen."
+msgstr ""
+
+#: ../../docs/nightscout/profile_editor.md:6
+msgid ""
+"Wichtig: Ohne Änderugen im Editor werden für die Plugins keine verwendbaren "
+"Werte angezeigt."
+msgstr ""
+
+#: ../../docs/nightscout/profile_editor.md:10
+msgid "Profil Editor:"
+msgstr ""
+
+#: ../../docs/nightscout/profile_editor.md:14
+#: ../../docs/nightscout/settings.md:48
+msgid "nightscout_profile_editor_plugins"
 msgstr ""
 
 #: ../../docs/nightscout/profile_editor.md:16
@@ -3677,8 +3499,126 @@ msgstr ""
 msgid "Am Ende das Speichern nicht vergessen."
 msgstr ""
 
+#: ../../docs/nightscout/profile_editor.md:33
+msgid "Weiter gehts mit der Eingabe von Daten über das Careportal."
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:3
+msgid "Nightscout besteht aus einer Applikations- und einer Datenbankschicht."
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:8
+msgid ""
+"Nightscout ist eine Open Source Software. Der Software Code ist frei im "
+"Internet über GitHub einsehbar. Jeder, der Interesse hat und sich zutraut am"
+" Programmcode mitzuentwickeln kann dieses tun. Die Kommunikation verläuft "
+"über Gitter Chat in englischer Sprache. Die Software wird auf einem "
+"Webserver gehostet. Sie wird über Webservices angesprochen, welche das API "
+"beschreibt."
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:12
+msgid ""
+"Das API ist mit Swagger dokumentiert. Swagger ist ein API "
+"Dokumentationswerkzeug, welches auf die Open API Initiative aufbaut."
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:14
+msgid ""
+"Wir können das  Nightscout API mit der Adresse: "
+"https://meinwebsitename.azurewebsites.net/api-docs.html#/ aufrufen:"
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:17
+msgid "Nightscout API:"
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:19
+msgid "nightscout_swagger"
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:21
+msgid ""
+"Sollten die Details nicht automatisch dargestellt werden, so bitte den Wert"
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:23
+msgid ""
+"https://meinwebsitename.azurewebsites.net/swagger.yaml eintragen und den "
+"Button Explore klicken."
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:25
+msgid ""
+"IFTTT Der Internet - Event Dienst IFTTT (If This Than That) verknüpft "
+"verschiedene Webanwendungen, um Daten auszutauschen. So können "
+"Benachrichtigungen, welche über Nightscout erzeugt werden, z.B. als Email "
+"weitergeleitet werden."
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:28
+msgid ""
+"Daneben gibt es weitere Möglichkeiten, z.B. über Azure Webjobs  Daten "
+"zwischen Nighscout und anderen Tagebüchern, wie Sport- oder "
+"Ernährungstagebüchern zu synchronisieren, sofern diese ein dokumentiertes "
+"API besitzen."
+msgstr ""
+
 #: ../../docs/nightscout/programmierbarkeit.md:32
 msgid "Datenbankschicht"
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:34
+msgid ""
+"Als Nutzer der mongodb hat man Vollzugriff auf seine Daten. Über Tools, wie "
+"in Kapitel 2.5 beschrieben, kann man sich die CGM- und Behandlungsdaten "
+"sichern (im json- und csv Format). Es sind auch Uploads über die json und "
+"csv Formate möglich."
+msgstr ""
+
+#: ../../docs/nightscout/programmierbarkeit.md:37
+msgid "Weiter gehts mit der Anbindung von  Smartwatches."
+msgstr ""
+
+#: ../../docs/nightscout/reports.md:5
+msgid ""
+"Wir starten das Reporting mit dem Klick auf Berichte und erhalten diese "
+"Ansicht:"
+msgstr ""
+
+#: ../../docs/nightscout/reports.md:7 ../../docs/nightscout/settings.md:23
+msgid "nightscout_reporting_config"
+msgstr ""
+
+#: ../../docs/nightscout/reports.md:9 ../../docs/nightscout/settings.md:25
+msgid ""
+"Die Report - Arten sind umfangreich. Wir können sie uns mit Klicks auf den "
+"Namen aufrufen. Mit der Eingabe der Zeiträume bestimmt man den Report - "
+"Umfang. Wir können vorgefertigte Zeiträume und individuelle Zeiträume "
+"auswählen. Weitere Filter sind möglich. Wir starten die Ausgabe des Reports "
+"mit dem Klick auf Zeigen."
+msgstr ""
+
+#: ../../docs/nightscout/reports.md:13 ../../docs/nightscout/settings.md:29
+msgid "Mit dem Report Von Tag zu Tag gibt es alle Daten auf einen Blick:"
+msgstr ""
+
+#: ../../docs/nightscout/reports.md:17 ../../docs/nightscout/settings.md:33
+msgid "nightscout_reporting_daily_graph"
+msgstr ""
+
+#: ../../docs/nightscout/reports.md:20 ../../docs/nightscout/settings.md:36
+msgid ""
+"Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf "
+"Bearbeitung zu Korrigieren oder zu Löschen:"
+msgstr ""
+
+#: ../../docs/nightscout/reports.md:22 ../../docs/nightscout/settings.md:38
+msgid "nightscout_change_treatments"
+msgstr ""
+
+#: ../../docs/nightscout/reports.md:27
+msgid "Weiter gehts mit der  Programmierbarkeit."
 msgstr ""
 
 #: ../../docs/nightscout/settings.md:3
@@ -3710,11 +3650,55 @@ msgstr ""
 msgid "###Profil - Editor"
 msgstr ""
 
+#: ../../docs/nightscout/settings.md:43
+msgid ""
+"Der Behandlungs Profil Editor speichert angepasste Werte für die persönliche"
+" Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten und Werte für "
+"Plugin iob, cob, bwp und Basalraten."
+msgstr ""
+
 #: ../../docs/nightscout/settings.md:45
 msgid ""
 "Wichtig: Ohne Änderugen im Editor werden für die Plugins keine verwendbaren "
 "Werte angezeigt. Seit Grilled Cheese, Version 0.9 ist das Anlegen eines "
 "Profils beim ersten Aufruf der Website erforderlich."
+msgstr ""
+
+#: ../../docs/nightscout/settings.md:50
+msgid ""
+"Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden "
+"Erklärungstexte in englischer Sprache angezeigt."
+msgstr ""
+
+#: ../../docs/nightscout/settings.md:52
+msgid "Bei Timezone bitte die gewünschte Zeitzone Einstellen."
+msgstr ""
+
+#: ../../docs/nightscout/settings.md:54
+msgid ""
+"Mit Duration of Insulin Activity (DIA) definieren wir die Wirkdauer des "
+"Bolus - Insulins. Die Plugins iob, bwp  benötigen diese Eingaben."
+msgstr ""
+
+#: ../../docs/nightscout/settings.md:56
+msgid ""
+"Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für "
+"eine definierte Menge an KH verwendet werden müssen. Die Plugins iob und cob"
+" benötigen diese Eingaben."
+msgstr ""
+
+#: ../../docs/nightscout/settings.md:58
+msgid ""
+"Mit dem Insulin Sensitivity Factor (ISF) können wir den Korrekturfaktor in "
+"mg/dl oder mmol/L angeben. Mit mehrfachen Eingaben können unterschiedliche "
+"Faktoren bestimmt werden."
+msgstr ""
+
+#: ../../docs/nightscout/settings.md:60
+msgid ""
+"Mit Carbs activity /absorbtion rate (g/hour) können wir bestimmen, wieviel "
+"Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das Plugin cob "
+"benötigt diese Eingaben."
 msgstr ""
 
 #: ../../docs/nightscout/settings.md:64
@@ -3792,870 +3776,70 @@ msgstr ""
 msgid "Jetzt geht es weiter mit dem Behandlungsportal"
 msgstr ""
 
+#: ../../docs/smartwatch/garmin.md:3
+msgid ""
+"###CGM-Watch https://apps.garmin.com/en-US/apps/eff8409b-"
+"4d52-4813-9c46-e28191e2ea61"
+msgstr ""
+
+#: ../../docs/smartwatch/garmin.md:6 ../../docs/smartwatch/garmin.md:17
+#: ../../docs/smartwatch/garmin.md:26
+msgid "Kompatible Geräte:"
+msgstr ""
+
+#: ../../docs/smartwatch/garmin.md:14
+msgid ""
+"###CGM-Run https://apps.garmin.com/de-DE/apps/531100b4-12ca-4828-865d-"
+"1f7064de498d"
+msgstr ""
+
+#: ../../docs/smartwatch/garmin.md:23
+msgid ""
+"###CGM-Hike https://apps.garmin.com/de-DE/apps/fe8d607b-d051-401e-"
+"aa23-8fc8832a72c2"
+msgstr ""
+
+#: ../../docs/smartwatch/index.rst:2
+msgid "Smartwatch"
+msgstr ""
+
+#: ../../docs/smartwatch/pebble.md:3
+msgid "https://apps.getpebble.com/en_US/application/568fb97705f633b362000045"
+msgstr ""
+
+#: ../../docs/sonstiges.md:2
+msgid ""
+"##Links deutsche Gitter Chat Gruppe zu OpenAPS, DIY, Nightscout, xDrip, CGM,"
+" Closed Loop"
+msgstr ""
+
+#: ../../docs/sonstiges.md:6
+msgid "Nightscout Deutschland Facebook-Gruppe"
+msgstr ""
+
+#: ../../docs/sonstiges.md:9
+msgid "##Flyer"
+msgstr ""
+
+#: ../../docs/sonstiges.md:11
+msgid ""
+"[Verlängerung der Tragezeit des Sensors "
+"(PDF)](https://github.com/nightscout/nightscout_handbuch/raw/master/dokumente/Verlängerung"
+" der Tragezeit.pdf)"
+msgstr ""
+
+#: ../../docs/sonstiges.md:15
+msgid "[](verlängerung der tragezeit)"
+msgstr ""
+
+#: ../../docs/sonstiges.md:17
+msgid "##Schablonen Dexcom Pflaster Schablone"
+msgstr ""
+
+#: ../../docs/sonstiges.md:20
+msgid "xDrip 1-Platinen Layout"
+msgstr ""
+
 #: ../../docs/sonstiges.md:22
 msgid "azure deployment template file"
 msgstr ""
-
-#: ../../docs/grundlagen/640g/640gAndroidUploader.md:32
-msgid ""
-"Aktiviere nun „REST API Upload“. Je nach Version der App musst du noch deine"
-" API Base URL eingeben, die so aussieht: "
-"https://deinAPI_SECRETPasswort@deinewebsite.azurewebsites.net/api/v1/ Es  "
-"kann    sein,   dass dein   API_SECRET  Passwort    und deine   Nightscout  "
-"Website (deinewebsite.azurewebsites.net)    separat verlangt    werden. API"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/carelink.md:35
-msgid ""
-"Stecke nun dein Contour Next Link 2.4 Messgerät in einen USB-Stecker deines "
-"Computers. WICHTIG ist, dass dieses Messgerät mit der Minimed 640G Pumpe "
-"bereits verbunden/gepaart wurde. (Eine Anleitung dazu findest du hier.) Die "
-"Pumpe bzw. der/die Pumpenträger_in muss sich nun in der Nähe des Computers "
-"bzw. des angeschlossenen Messgeräts befinden."
-msgstr ""
-
-#: ../../docs/grundlagen/640g/index.rst:2
-msgid "640G"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/index.rst:4
-msgid ""
-"Bevor man das Messgerät Countour Next Link 2.4 vorbereitet oder den "
-"640gAndroidUploader installiert sollte man zuerst das Kapitel [Nightscout "
-"einrichten](../../nightscout/nightscout_einrichten.md) durchgearbeitet und "
-"die Webseite entsprechend eingerichtet haben."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/index.rst:2
-msgid "CGM"
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/index.rst:4
-msgid ""
-"**Kontinuierlich messender Glucosesensor** --- Insulinpflichtige Diabetiker "
-"müssen zyklisch ihren Blutzucker prüfen. Eine Möglichkeit, die Messungen "
-"besonders oft durchzuführen, ist ein System zur kontinuierlichen Messung der"
-" Glucose."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/index.rst:12
-msgid ""
-"Auf den folgenden Seiten wird die Vorgehensweise von drei bisher erprobten "
-"verschiedenen Systemen vorgestellt. ---"
-msgstr ""
-
-#~ msgid "##Kontinuierlich messender Glucosesensor"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Insulinpflichtige Diabetiker müssen zyklisch ihren Blutzucker prüfen. Eine "
-#~ "Möglichkeit, die Messungen besonders oft durchzuführen, ist ein System zur "
-#~ "kontinuierlichen Messung der Glucose."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Auf den folgenden Seiten wird die Vorgehensweise von drei bisher erprobten "
-#~ "verschiedenen Systemen vorgestellt."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Kontinuierlich messender Glucosesensor Insulinpflichtige Diabetiker müssen "
-#~ "zyklisch ihren Blutzucker prüfen. Eine Möglichkeit, die Messungen besonders "
-#~ "oft durchzuführen, ist ein System zur kontinuierlichen Messung der Glucose."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Da sich die Wege zum erfolgreichen Nightscout-Betrieb gravierend "
-#~ "unterscheiden, werden diese im Folgenden getrennt betrachtet."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es eine"
-#~ " von Nightscout veröffentlichte Möglichkeit, die Daten zur Nightscout "
-#~ "Webseite zu übertragen."
-#~ msgstr ""
-
-#~ msgid "Übersichtsgrafik Übersichtsgrafik"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Danach stehen einem die in den Kapiteln 3. Die Nightscout Hauptseite und 4. "
-#~ "Smartwatch Integration genannten Möglichkeiten zur Verfügung."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Um das zu realisieren, muss man den MMCommander bauen und mit der "
-#~ "entsprechenden Software bespielen. Zusätzlich muss noch auf einem "
-#~ "kompatiblen Android Smartphone die Medtronic Uploader App installiert und "
-#~ "konfiguriert werden. Beides ist im Kapitel 1.5. MMCommander beschrieben."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Im Netz findet man auch Hinweise auf eine Lösung für das Iphone (ab dem 4s "
-#~ "und IOS 8.2). Diese Lösung, der RileyLink, kontaktiert die Pumpe per Funk "
-#~ "und stellt dann über Bluetooth eine Verbindung mit dem Iphone her. Dort "
-#~ "läuft dann die RileyLink IOS App und transportiert die Daten zu Nightscout. "
-#~ "Dies funktioniert nicht mit den deutschen Pumpen, da der RileyLink sich "
-#~ "gegenüber der Pumpe als MySentry ausgibt, um von dieser die Daten zu "
-#~ "bekommen. MySentry wird, nach derzeitigem Kenntnisstand, aber nur von den "
-#~ "amerikanischen Pumpen unterstützt. Auch die mittlerweile offiziell von "
-#~ "Nightscout unterstützte Lösung mit Hilfe von Minimed Connect und IOS (s. "
-#~ "hier) betrifft derzeit nur den amerikanischen Markt."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Seit Ende Februar 2016 wird der Guardian 2 Link Transmitter und dadurch die "
-#~ "Minimed 640G Insulinpumpe jetzt auch von NightScout unterstützt (s. "
-#~ "Nightscout and Medtronic 640g (engl.))."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Zusätzlich hat der Autor, Matt, noch einen englischen Blog, der sich mit dem"
-#~ " Thema beschäftigt Matt's Little D Blog an."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Speziell im Beitrag vom 18.01.16 geht Matt auf die erforderlichen Schritte "
-#~ "ein."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch eine "
-#~ "Android-App (Glimp), die die Sensoren auch auslesen kann. Von der Android-"
-#~ "App werden allerdings z.T. andere Werte ausgelesen als vom Lesegerät. Das "
-#~ "Freestyle Libre gibt keine Alarme, der Benutzer muss selbst aktiv werden.  "
-#~ "Außerdem ist das Freestyle Libre derzeit nicht geeignet für APS."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Dennoch ist Remote Monitoring möglich - dadurch sind Eltern auf demselben "
-#~ "Stand wie das Kind / der Lehrer und sehen, ob gemessen wurde."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Eine stabile Version von Glimp, die Nightscout unterstützt, findet man im "
-#~ "Google Play-Store."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Um Glimp nutzen zu können, muss bei NightScout das Care Portal eingerichtet "
-#~ "sein. Siehe dazu: Care Portal einrichten"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Bevor man das Messgerät Countour Next Link 2.4 vorbereitet oder den "
-#~ "640gAndroidUploader installiert sollte man zuerst das Kapitel Nightscout "
-#~ "einrichten durchgearbeitet und die Webseite entsprechend eingerichtet haben."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Aktiviere nun „REST API Upload“. Je nach Version der App musst du noch deine"
-#~ " API Base URL eingeben, die so aussieht: "
-#~ "https://deinAPI_SECRETPasswort@deinewebsite.azurewebsites.net/api/v1/ Es  "
-#~ "kann    sein,   dass dein   API_SECRET  Passwort    und deine   Nightscout  "
-#~ "Website (deinewebsite.azurewebsites.net)    separat verlangt    werden.API"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Stecke nun dein Contour Next Link 2.4 Messgerät in einen USB-Stecker deines "
-#~ "Computers.WICHTIG ist, dass dieses Messgerät mit der Minimed 640G Pumpe "
-#~ "bereits verbunden/gepaart wurde. (Eine Anleitung dazu findest du hier.)Die "
-#~ "Pumpe bzw. der/die Pumpenträger_in muss sich nun in der Nähe des Computers "
-#~ "bzw. des angeschlossenen Messgeräts befinden."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wenn alles richtig angeschlossen ist, leuchtet die LED am CC Debugger grün, "
-#~ "wenn nicht, hilft eventuell ein Blick in das Unterkapitel 1.3.6. "
-#~ "Fehlerbehebung."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert "
-#~ "werden kann, muss man die Schritte des Kapitels 2. Nightscout einrichten, "
-#~ "außer denen des Unterkapitels 2.3, vollzogen haben."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel 2.1. "
-#~ "eingetragen hat, werden nun zum Konfigurieren der Medtronic Uploader App "
-#~ "benötigt."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa eine"
-#~ " Viertelstunde, bis die ersten Werte über die persönliche Internetseite im "
-#~ "Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick in das Unterkapitel "
-#~ "1.3.6. Fehlerbehebung."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Der MMCommander stellt die Schnittstelle zwischen dem MiniLink Transmitter "
-#~ "und einem (kompatiblen) Android Smartphone dar. Derzeit wird damit das "
-#~ "\"alte\" System, bestehend aus Enlite Sensor, MiniLink Transmitter und VEO "
-#~ "Insulinpumpe, unterstützt."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Benutzer der Medtronic 640G und deren CGM Komponenten sollten sich den "
-#~ "Unterpunkt Guardian 2 Link Transmitter  des Kapitels 1.4.2. Enlite ansehen."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Das Grundprinzip ist, dass der MMCommander die vom Transmitter an die Pumpe "
-#~ "übertragenen Werte \"mithört\" und diese dann per Medtronic Uploader Android"
-#~ " App entweder per Wi-Fi oder mobilem Telefon Netzwerk an Nightscout "
-#~ "überträgt (vgl. Übersichtsgrafik im Unterpunkt MiniLink Transmitter des "
-#~ "Kapitels 1.4.2. Enlite)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Um den CC1111 USB Dongle mit der entsprechenden Software zu beschreiben, "
-#~ "braucht man ein Windows Programm, welches Smart RF Flash Programmer heißt "
-#~ "(Achtung: nicht den SmartRF Flash Programmer 2 runterladen!) und natürlich "
-#~ "die aufzuspielende Software. Diese befindet sich   hier. Am besten man "
-#~ "installiert bereits jetzt SmartRF Flash Programmer, damit Windows später den"
-#~ " CC Debugger erkennt."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die "
-#~ "verwendete Hardware, die Art die Hardware zu verlöten und auch die Software."
-#~ " (Auf eines der Bauteile - das Wixel - wird eine Software aufgespielt.) "
-#~ "Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen "
-#~ "für ähnliche Dinge. Die Varianten haben unterschiedliche Eigenschaften, "
-#~ "letztlich aber dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und "
-#~ "an ein Bluetooth-Handy zu übertragen."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Für die einfachste Bauform hat sich der Name der \"xDrip classic\" "
-#~ "etabliert. Es gibt im Wesentlichen zwei wichtige Erweiterungen bzw. "
-#~ "Änderungen dieser Bauform:"
-#~ msgstr ""
-
-#~ msgid "(ohne Widerstände für Batterieanzeige) xDrip Schaltbild"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl auf "
-#~ "dem Wixel)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "| Bauteil | Anzeige | xDrip classic | xDrip classic mit Spannungsteiler | "
-#~ "xBridge| | -- | -- | -- | -- | -- | -- | | HM11 | Klärung nötig |||| | HM10 "
-#~ "| ~~grün~~ Dauerleuchten | Regelbetrieb | Regelbetrieb | -  | | HM10 | "
-#~ "~~grün~~ blinkend | keine BT-Verbindung zum Handy | keine BT-Verbindung zum "
-#~ "Handy | keine BT-Verbindung zum Handy| | HM10 | ~~grün~~ aus, aber alle 5 "
-#~ "Minuten kurzes Blinken, dann ca. 30 Sek. an |  -  |  -  | Regelbetrieb| | "
-#~ "Wixel | orange Dauerblinken | keine Verbindung zum Transmitter | keine "
-#~ "Verbindung zum Transmitter |  -  | | Wixel | orange Dauerleuchten |  -  |  -"
-#~ "  | keine Verbindung zum Transmitter| | Wixel | orange alle 5 Minuten "
-#~ "blinkend | Regelbetrieb | Regelbetrieb |  - | | Wixel | orange alle 5 "
-#~ "Minuten ca. 30 Sek. Dauerleuchten | - | - | Regelbetrieb| | App "
-#~ "Statusanzeige | \"not connected\" dauerhaft | keine Verbindung zum BT-Modul "
-#~ "| keine Verbindung zum BT-Modul |keine Verbindung zum BT-Modul | | App "
-#~ "Statusanzeige | \"not connected\", aber alle 5 Minuten für ca. 30 Sek "
-#~ "\"connected\" | - | - | Regelbetrieb (!) | | App Statusanzeige | "
-#~ "\"connected\" dauerhaft | Regelbetrieb |Regelbetrieb | - |"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "|Nr.| Bemerkung| Bauteil: | Vertrieb: | Verkaufspreis: | Artikelnummer: | "
-#~ "Hersteller-Nr.: | EAN: | | -- | -- | -- | -- | -- | -- | |1| optional|IC "
-#~ "Lithium-Polymer Akku-Schutzschaltung | Voelkner |2,96 € | Q33939 | S"
-#~ "-8261ABJMD-G3J2G |2050000662089 | |2| optional (und Alternative zu "
-#~ "1)|Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-G3J2G | Conrad | "
-#~ "2,96 € | 155151 - VQ | S-8261ABJMD-G3J2G | 2050000662089 | |3| "
-#~ "notwendig|Pololu Wixel Programmable USB Wireless Module| EXP TECH | 18,60 € "
-#~ "| EXP-R25-070 | Pololu  1337 |  | |4| notwendig| Adafruit Mini Lipo w/Mini-B"
-#~ " USB Jack - USB LiIon/LiPoly charger | EXP TECH | 7,65 € | EXP-R15-446 | "
-#~ "Adafruit  1905 |  | |5| notwendig, alternativ auch HM10 möglich |Seeed "
-#~ "Studio Bluetooth V4.0 HM-11 BLE Module | EXP TECH | 12,28 € | EXP-R02-308 | "
-#~ "Seeed Studio  210005001 |  | |6| optional| Handgehäuse Minitec El, 78x48x20,"
-#~ " Lava/Grün | Voelkner | 12,38 € | S23261 | D9006178 | 2050001140593 | |7| "
-#~ "optional, Alternative zu 6 |Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 "
-#~ "OKW D9006178 1 Set | Conrad | 13,57 € | 535384 - 62 | D9006178 | "
-#~ "2050001140593 | |8| notwendig, oder ein anderer 3,7v LiPo-Akku | Lipo Akku "
-#~ "1100 mAh 3,7V Einzelzelle  | Lipopower.de | 6,95 € | 7.011.0-11_34 | 1C "
-#~ "603450 |  | |9| optional (für Batterieanzeige bei xBridge-Schaltung)| "
-#~ "Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k |  |  |  |  |"
-#~ "  | |10| optional (für Batterieanzeige bei xDrip-Schaltung)| "
-#~ "Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k |  |  |  |  |"
-#~ "  | |11| notwendig |flexible Leitungen (dünn) Beispiel | exp-tech.de | 0,80 "
-#~ "€  | EXP-R15-686 | Adafruit |  | |12| notwendig| Lötzinn, Lötkolben |  |  |"
-#~ "  |  |  | |13| optional, aber empfehlenswert| Schrumpfschlauch |  |  |  |  |"
-#~ "  | |14| optional, aber empfehlenswert| \"dritte Hand\" ein Beispiel: Link |"
-#~ "  |  |  |  |  | |15| optional | Epoxid Trennschicht |  |  |  |  |  | |16| "
-#~ "notwendig | Kabel mit Mini-USB-Stecker, um das Wixel zu bespielen | "
-#~ "Beispiel: Link  |  |  |  |  |"
-#~ msgstr ""
-
-#~ msgid "###Weiterführende Infos / Schaltbilder für xBridge"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante \"xDrip-"
-#~ "classic\" nicht gewünscht ist. Es gibt verschiedene Bluetooth-Module: HM10 "
-#~ "oder HM11, für die es verschiedene Bauformen gibt. Deswegen hier mehrere "
-#~ "Bilder zur Verschaltung. Sucht euch das Bild raus, das zu eurem konkreten HM"
-#~ " Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus den "
-#~ "folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen."
-#~ msgstr ""
-
-#~ msgid "Schaltbild für xBridge mit HM-10 HM10_xbridge_Wiring_Diagram"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Schaltbild für xBridge mit HM-10 auf Breakout Board HM10 + Breakout "
-#~ "Board_xbridge_Wiring_Diagram"
-#~ msgstr ""
-
-#~ msgid "Schaltbild für xBridge mit HM-11 HM11_xbridge_Wiring_Diagram"
-#~ msgstr ""
-
-#~ msgid "Schaltbild für \"xDrip USB V3\" xDrip V3usb Schaltbild"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy "
-#~ "läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und - optional - einer"
-#~ " Smart-Watch anzuzeigen, auszuwerten und bei Bedarf zu NightScout "
-#~ "hochzuladen. Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 "
-#~ "with Share oder einen selbstgebauten Bausatz. Da Share in Europa nicht "
-#~ "erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der "
-#~ "Download für eine lauffähige Version (*.apk-File) findet sich hier: Link zur"
-#~ " Beta-Version Die hier verlinkten Versionen sind so erstellt, dass man eine "
-#~ "ältere Version mit einer neueren updaten kann, ohne Einstellungen und "
-#~ "Messwerte zu verlieren. Wer hinreichende technische Kenntnisse hat, kann "
-#~ "sich aus den vorhandenen Quellen selbst die apk zusammenstellen."
-#~ msgstr ""
-
-#~ msgid "---> ist noch zu beschreiben!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "|Name|Bedeutung|Empfehlung für Einsteiger| |--|--|--| |Bg Units| \"mg/dl\" "
-#~ "oder \"mmol\"| -| | High Value | Grenze, ab der ein Wert in der Anzeige und "
-#~ "Statistik als \"zu hoch\" gewertet wird. | -| | Low Value | Grenze, ab der "
-#~ "ein Wert in der Anzeige und Statistik als \"zu tief\" gewertet wird. | -| "
-#~ "|...| | Display Bridge Battery| Sofern ein Spannungsteiler eingebaut wurde, "
-#~ "kann eine Batterie-Anzeige gemacht werden| Nur aktivieren, wenn ein "
-#~ "Spannungsteiler verbaut wurde.| | Run Collection Service in foreground| "
-#~ "Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt in "
-#~ "den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an.| "
-#~ "aktivieren |"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Zur Erklärung der 12-Stunden-Anzeige: AM = ante meridiem (lateinisch), auf "
-#~ "Deutsch: VOR dem Mittag, Eselsbrücke: Am Morgen; PM = post meridiem, auf "
-#~ "Deutsch: NACH dem Mittag"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Drücke \"****create low alert****\", um einen Tiefalarm selbst zu "
-#~ "definieren. Unter \"Alert Name\" gibst du dem Alarm eine von dir ausgewählte"
-#~ " Bezeichnung, z.B. für mg/dl zu niedrig 80. Bei \"Threshold\" tippst du den "
-#~ "entsprechenden Wert (hier z.B. 80) ein. Unter \"Default Snooze\" gibst du "
-#~ "die Minuten ein, nach denen sich der Alarm erneut melden soll, wenn du ihn "
-#~ "gestoppt hast, der Wert aber nach wie vor zu tief ist; unter \"Re-raise\" "
-#~ "die Minuten, nach denen sich der Alarm erneut melden soll, wenn du ihn "
-#~ "ignoriert hast, der Wert aber nach wie vor zu tief ist. Hier empfiehlt es "
-#~ "sich bei Tiefalarmen einen kürzeren Zeitraum auszuwählen. Unter \"Alert "
-#~ "Tone\" kannst du dir einen entsprechenden Alarmton bestimmen bzw. mit "
-#~ "\"choose file\" aus deinem Smartphonerepertoire aussuchen. Unter \"select "
-#~ "time for alert\" ist \"all day\" bereits mit Häkchen versehen, so dass dein "
-#~ "Alarm ganztägig funktioniert. Du kannst aber auch auf \"all day\" tippen, um"
-#~ " dann mit \"tap to change\" einen gewissen Zeitraum (z.B. die Nacht) "
-#~ "festzulegen. Du kannst den Alarm über \"override phone silent mode\" auch im"
-#~ " Ruhemodus klingen lassen und das Telefon beim Alarm außerdem vibrieren "
-#~ "lassen mit Häkchen an \"vibrate on alert\". Zuletzt kannst du den Alarm noch"
-#~ " testen und vergiss nicht, ihn zu speichern (\"save alert\"), wenn er dir "
-#~ "zusagt!"
-#~ msgstr ""
-
-#~ msgid "----> ist noch zu beschreiben!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den "
-#~ "Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen "
-#~ "auswählen kann. TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = "
-#~ "Tage"
-#~ msgstr ""
-
-#~ msgid "---> Erweiterbar!"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Mit dem zweimaligen Drücken des Buttons Kostenlos testen > gelangen wir zur "
-#~ "Registrierungsseite:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Mit dem Button + Neu richten wir eine neue Ressource ein. Die Menüführung "
-#~ "ist kaskadiert, alle gelb markierten Punkte sind auszuwählen. Bei "
-#~ "Auswahlpunkten mit > kann man weitere Einstellungen auswählen:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Der Name der Nightscout - Website ist jetzt "
-#~ "AppServiceName.azurewebsites.net, hier im Beispiel: "
-#~ "nscgmq01.azurewebsites.net. Diesen Namen bitte auch notieren."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der "
-#~ "Status. Hier wird angezeigt, ob die App online/running oder Stopped ist."
-#~ msgstr ""
-
-#~ msgid "Weiter geht es mit der #Konfiguration der Verbindungszeichenfolgen:"
-#~ msgstr ""
-
-#~ msgid "Wir beginnen mit der Verbindung zur Mongo DB:"
-#~ msgstr ""
-
-#~ msgid "azure_mongodb_connection"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "mongodb://dbuser:dbpassword@ds040888.mlab.com:40888/nscgmdatabase: "
-#~ "Verbindungszeichenfolge, diese steht im vorher ausgefüllten Datenblatt"
-#~ msgstr ""
-
-#~ msgid "Benutzerdefiniert: Attribut"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wir machen auf die gleiche Weise weiter mit der Angabe der mongodb "
-#~ "Collection:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "entries: Standard: entries, die Collection, in der die CGM Werte gespeichert"
-#~ " werden. Ggf. muss der Name angepasst werden."
-#~ msgstr ""
-
-#~ msgid "** Speichern **nicht vergessen."
-#~ msgstr ""
-
-#~ msgid "azure_save"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Der API_SECRET Wert muss als Minimum zwölf Zeichen lang sein, da sonst die "
-#~ "Nightscout Seite einfach weiß bleibt, und ist frei wählbar. Das API_SECRET "
-#~ "wird für Careportal Eingaben, Pushover Notifications und REST API Upload "
-#~ "benötigt."
-#~ msgstr ""
-
-#~ msgid "API_SECRET: Parametername"
-#~ msgstr ""
-
-#~ msgid "Y3KmrdFA12jmk: API SECRET Wert (Beispiel)"
-#~ msgstr ""
-
-#~ msgid "An dieser Stelle noch ganz wichtig den"
-#~ msgstr ""
-
-#~ msgid "mit dem Wert: ON"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Attribut Benutzerdefiniert hinzuzufügen sonst kann auch jeder, der die "
-#~ "Website kennt, auch ohne den geheimen Wert vom API Secret Werte in eurer "
-#~ "Datenbank hinzufügen oder verändern."
-#~ msgstr ""
-
-#~ msgid "Speichern nicht vergessen."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Mit dem Button Werte der Verbindungszeichenfolge anzeigen kann man sich die "
-#~ "Werte noch einmal anzeigen lassen:"
-#~ msgstr ""
-
-#~ msgid "azure_connection_strings"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Weiter geht es mit dem Konfigurieren der Plugin Module: #App Einstellungen"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "| Plugin |  Hinweise | | -- | -- | | careportal | Basismodul für Eingabe von"
-#~ " Therapie - Daten  | | rawbg |  benötigt Daten über xDrip oder Nightscout "
-#~ "Uploder App | | iob | benötigt Profil- und careportal -Eingaben | | cob | "
-#~ "benötigt careportal Eingaben | | bwp | Bolusrechner| | cage| benötigt "
-#~ "Careportal Eingaben | |treatmentnotify |Benachrichtigungen über Eingaben| "
-#~ "|basal|Visualisierung der Basalrate| |bridge-enable |Anbindungsmöglichkeit "
-#~ "Dexcom Share mit iOS | |mmconnect |medtronic CGM System - Anbindung|"
-#~ msgstr ""
-
-#~ msgid "Wir gehen zu den App-Einstellungen und konfigurieren den Wert ENABLE:"
-#~ msgstr ""
-
-#~ msgid "Eingaben:"
-#~ msgstr ""
-
-#~ msgid "ENABLE: Parametername"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Plugins: careportal rawbg iob cob bwp cage treatmentnotify basal bridge "
-#~ "mmconnect"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Zu Bereitstellung der Nightscout -Website fehlt uns noch der cgm-remote-"
-#~ "monitor, den wir über GitHub laden. Wir steigen hier ein, um die Verbindung "
-#~ "herzustellen:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann über "
-#~ "einen Browser mit dem Aufruf http://meinwebsitename.azurewebsites.net "
-#~ "aufgerufen werden. Die Einrichtung ist fertig."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Das Erscheinungsbild und der Funktionsumfang der Nightscout Website können "
-#~ "weiter konfiguriert werden."
-#~ msgstr ""
-
-#~ msgid "Konfiguration des Erscheinungsbildes:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wir können einige Standard Plugins deaktivieren, die standardmäßig aktiv "
-#~ "sind. Dieses erfolgt über den DISABLE Parameter in den Azure App. "
-#~ "Einstellungen:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "| Plugin |  Hinweise | | -- | -- | |delta | berechnet und zeigt die "
-#~ "Veränderung zwischen den letzten beiden BZ - Werten an| |direction |zeigt "
-#~ "den Blutzuckertrend an| |upbat |zeigt den aktuellsten Batterieladezustand "
-#~ "des Uploader - Smartphones an| |errorcodes |erzeugt Alarme für CGM "
-#~ "Fehlermeldungen | |ar2 | erzeugt Alarme basierend auf prognostizierten "
-#~ "Werten| |simplealarms |nutzt BG_HIGH, BG_TARGET_TOP, BG_TARGET_BOTTOM, "
-#~ "BG_LOW Schwellenwerte, um Alarme zu erzeugen|"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wir können Browsereinstellungen zentral in den Azure App. Einstellungen "
-#~ "speichern. Das hat den Vorteil, dass man egal von welchem Browser oder einer"
-#~ " Smartphone App immer die gleichen Einstellungen hat. Machen wir dieses "
-#~ "nicht, werden die Einstellungen nur im Browser Cache gespeichert und müssen "
-#~ "sehr häufig neu eingegeben werden. Jeder Parameter mit Wert steht in einer "
-#~ "extra Zeile."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "|Parameter |  Wert |Beschreibung| | -- | -- |-- | |TIME_FORMAT |24| mögliche"
-#~ " Werte 12 oder 24| |LANGUAGE |de| Begriffe in deutscher Sprache| |NIGHT_MODE"
-#~ " |off|  mögliche Werte on oder off| |SHOW_RAWBG |never|  mögliche Werte: "
-#~ "always, never oder noise| |CUSTOM_TITLE |My NS|  Individueller Name der "
-#~ "Website| |THEME |default|  mögliche Werte: default oder colors| "
-#~ "|BASAL_RENDER|default|mögliche Werte: default, icicle| |ALARM_URGENT_HIGH "
-#~ "|on|  mögliche Werte: on oder off| |ALARM_HIGH |on|  mögliche Werte: on oder"
-#~ " off| |ALARM_LOW |on|  mögliche Werte: on oder off| |ALARM_URGENT_LOW |on|  "
-#~ "mögliche Werte: on oder off| |ALARM_TIMEAGO_WARN |on|  mögliche Werte: on "
-#~ "oder off| |ALARM_TIMEAGO_WARN_MINS |15|  Minuten seit dem letzten Lesen, um "
-#~ "eine Warnung auszugeben| |ALARM_TIMEAGO_URGENT |on|  mögliche Werte: on oder"
-#~ " off| |ALARM_TIMEAGO_URGENT_MINS |30|  Minuten seit dem letzten Lesen, um "
-#~ "eine alarmierende Warnung auszugeben| |SHOW_PLUGINS|  enabled |Zeigt an, "
-#~ "welche Plugins in der Grafik angezeigt werden sollen. Diese müssen vorher "
-#~ "mit ENABLE bei den Azure App.-Settings konfiguriert sein|"
-#~ msgstr ""
-
-#~ msgid "Anbindung der Share2Nightscout Bridge Funktionalität"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom Share "
-#~ "Benutzer interessant. Die Verbindung zum Dexcom G5 System wird über diesen "
-#~ "Weg konfiguriert. Um die Bridge Funktionalität nutzen zu können, müssen wir "
-#~ "bridge zu ENABLE ind den App-Einstellungen hinzufügen."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Nutzer der Share2bridge Funktionalität können ihre Parameter  in den "
-#~ "Connection Strings konfigurieren:"
-#~ msgstr ""
-
-#~ msgid "Share2Nightscout Bridge Parameter:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "|Parameter |  Beschreibung | | -- | -- | |BRIDGE_USER_NAME |Erforderlich: "
-#~ "Benutzername des Dexcom Share Accounts| |BRIDGE_PASSWORD |Erforderlich: "
-#~ "Passwort des Dexcom Share AccountsShare Accounts| |BRIDGE_INTERVAL "
-#~ "|Optional: Wartezeit zwischen jedem  Update. Der Standardwert ist 150000 – "
-#~ "2.5 minutes. |BRIDGE_MAX_COUNT |Optional: Die maximale Anzahl der Datensätze"
-#~ " zum Upload. Der Standardwert ist 1.| |BRIDGE_FIRST_FETCH_COUNT |Optional: "
-#~ "Maximale Anzahl der Datensätze während des ersten Uploads. Der Standardwert "
-#~ "ist 3| |BRIDGE_MAX_FAILURES |Optional: Maximale Anzahl der Fehler beim "
-#~ "Empfang.  Der Standardwert ist 3| |BRIDGE_MINUTES |Optional: Das Zeitfenster"
-#~ " für die Suche nach neuen Daten pro Update. Der Standardwert ist Zeit in "
-#~ "Minuten – 1400|"
-#~ msgstr ""
-
-#~ msgid "Minimed Connect Anbindung"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wir können Minimed CGM - Systeme einbinden, wenn wir einen Carelink "
-#~ "Benutzeraccount besitzen. Das  Minimed Connect Plugin lädt sich die Daten "
-#~ "von den Medtronic Servern. Diese erhalten die Daten über die Minimed Connect"
-#~ " App."
-#~ msgstr ""
-
-#~ msgid "Die Einstellungen erfolgen über die Connection Strings:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "|Parameter |  Beschreibung | | -- | -- | |MMCONNECT_USER_NAME | Der Wert "
-#~ "repräsentiert den \"Benutzernamen\", welcher im Carelink angegeben wird, der"
-#~ " Typ ist \"Benutzerdefiniert\" | |MMCONNECT_PASSWORD | Der Wert "
-#~ "repräsentiert das \"Benutzerpasswort\", welches im Carelink angegeben wird, "
-#~ "der Typ ist \"Benutzerdefiniert\"|"
-#~ msgstr ""
-
-#~ msgid "Nach der Eingabe Speichern nicht vergessen."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wir können weitere Werte individuell konfigurieren, wenn wir es wollen. "
-#~ "Diese umfassen Schwellwerte für den Blutzucker, Alarme, Schnittstellen."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "|Parameter |  Beschreibung | | -- | -- | |BG_HIGH (260) | Der Blutzuckerwert"
-#~ " muß in mg/dl angegeben werden. Bei Überschreitung des Schwellwertes werden "
-#~ "diese als alarmierend betrachtet.| |BG_TARGET_TOP (180) |Der Blutzuckerwert "
-#~ "muß in mg/dl angegeben werden. Er wird als Obergrenze des BZ Zielbereichs in"
-#~ " der Grafik ausgegeben.| |BG_TARGET_BOTTOM (80) |Der Blutzuckerwert muß in "
-#~ "mg/dl angegeben werden. Er wird als Untergrenze des BZ Zielbereichs in der "
-#~ "Grafik ausgegeben.| |BG_LOW (55) |Der Blutzuckerwert muß in mg/dl angegeben "
-#~ "werden. Bei Unterschreitung des Schwellwertes werden diese als alarmierend "
-#~ "betrachtet.| |ALARM_TYPES (simple / predict) | Momentan werden 2 Alarmtypen "
-#~ "unterstützt. Sie können unabhängig voneinander  genutzt werden.| |BASE_URL |"
-#~ " Genutzt für Links . APIs, pushover, callbacks nutzen diesen Wert. "
-#~ "Normalerweise ist es die URL - Adresse, der Typ kann von http auf https "
-#~ "geändert werden|"
-#~ msgstr ""
-
-#~ msgid "AR2"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "AR2 generiert Alarme basierend auf prognostizierten Werten. Es ist "
-#~ "standardmäßig aktiviert, wenn keine Alarmschwellwerte gesetzt sind oder wenn"
-#~ " die ALARM_TYPES Variable predict enthält.Wir können das AR2 Verhalten mit "
-#~ "folgenden erweiterten Einstellungsvariablen steuern:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "|Parameter |  Beschreibung | | -- | -- | |AR2_USE_RAW| Prognose von rawbg "
-#~ "Werten, wenn Standardwerte keine Alarm auslösen, die Standardeinstellung ist"
-#~ " false| |AR2_CONE_FACTOR |Um die Größe des Trichters zu justieren, wird 0 "
-#~ "für eine Einzelinie gewählt, der Standardwert ist 2|"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die Funktionsweise ist in dem Artikel: Prognosen mit Nutzung des AR2 "
-#~ "Algorithmus näher beschrieben."
-#~ msgstr ""
-
-#~ msgid "Pushover - Benachrichtigungen."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Der Pushover Internetdienst bietet die Möglichkeit, sich Nachrichten, welche"
-#~ " Nightscout erzeugen kann, auf einem Android oder Apple Iphone mit einer "
-#~ "entspr. App anzeigen zu lassen. Nach Registrierung auf der Website erhält "
-#~ "man einen Benutzer Key - Schlüssel, den man sich notiert. Nightscout "
-#~ "konfiguriert man dort als eine Anwendung. In den App.-Einstellungen ist der "
-#~ "Wert pushover hinzuzufügen. Als Minimum ist der API_TOKEN_KEY, welcher über "
-#~ "die Pushover Website generiert wurde, abzuspeichern.Jetzt können wir Alarme "
-#~ "definieren, welche über die App auf dem Smartphone ausgegeben werden. Eine "
-#~ "detaiilierte Beschreibung findet man hier: Pushover in Funnel Cake."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit dem "
-#~ "Klick auf das + - Symbol. Der Ereignis-Typ ist ein DropDown - Menü mit "
-#~ "Auswahlwerten. Bespielhaft wählen wir jetzt einen Mahlzeiten Bolus aus, um "
-#~ "Insulinmenge und KH hinzuzufügen."
-#~ msgstr ""
-
-#~ msgid "Weiter gehts mit der  Auswertung der Daten über die Reports."
-#~ msgstr ""
-
-#~ msgid "Wir starten mit  dem Einrichten der Mongo Datenbank.Mongo Datenbank."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die Nightscout Website ist die zentrale Website zur Darstellung und "
-#~ "Speicherung von Diabetes - Daten. Sie kann als komplettes Tagebuch mit "
-#~ "Eingabe von Insulin, Kohlenhydraten, Bewegung uvm. verwendet werden. Der "
-#~ "gesamte CGM - Verlauf wird online dargestellt und zyklisch aktualisiert. Es "
-#~ "gibt über Plugins umfangreiche Konfigurationsmöglichkeiten. Das Reporting "
-#~ "bietet die Möglichkeit, die Daten auszuwerten und für andere zur Analyse "
-#~ "auszugeben."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Funnel Cake ist der interne Name aller Versionen ab 0.8.0 des cgm-remote-"
-#~ "monitors."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Ein Beispiel für eine mögliche Anbindung eines Dexcom CGM Systems an "
-#~ "Nightscout:"
-#~ msgstr ""
-
-#~ msgid "Wir starten mit der Haupt Seite:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "GitHub ist ein webbasierter Filehosting-Dienst für Software-"
-#~ "Entwicklungsprojekte. Software besteht aus vielen Files, die in einer "
-#~ "Verzeichnisstruktur liegen. Diese Files enthalten den eigentlichen "
-#~ "Programmiercode. Stellt ein Software - Entwickler etwas zur Verfügung, steht"
-#~ " es für andere als master zur Verfügung, wie z.B. der nightscout/cgm-remote-"
-#~ "monitor. Diese Files kopiert man sich in sein eigenes Verzeichnis (Fork). "
-#~ "Das cgm-remote-monitor repository enthält den Programmcode zum Aufbau der "
-#~ "Nightscout Website."
-#~ msgstr ""
-
-#~ msgid "Und mit Fork kopieren wir den Code in unser eigenes Verzeichnis:"
-#~ msgstr ""
-
-#~ msgid "Das Ergebnis mit unserem eigenen master Branch:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die Nightscout Website wird ständig weiterentwickelt. Diese "
-#~ "Weiterentwicklung hat als Kennzahl die Version. Stand Januar 2016 hat der "
-#~ "cgm-remote-monitor die Version 0.8.4."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Über diesen Weblink können wir überprüfen, ob es bereits neuere Versionen "
-#~ "gibt. Einfach den GitHub Account - Namen eingeben und Check for Updates "
-#~ "klicken."
-#~ msgstr ""
-
-#~ msgid "Jetzt geht es weiter mit dem Einrichten von Azure."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In der Abbildung ist die Web Site mit Elementen zu sehen. Mit dem Klick auf "
-#~ "das Ausschnittsfenster kann an die Ansicht von aktuellen Live Daten zu RETRO"
-#~ " - Daten aus der Vergangenheit ändern."
-#~ msgstr ""
-
-#~ msgid "Hauptseite: nightscout_base_site"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Nach dem erstmaligen Aufruf rufen wir die Einstellungen auf. Hier kann man "
-#~ "weiter zu Berichte, Profil-Einstellungen, Admin Tools gelangen. Über die "
-#~ "Auswahlfelder konfiguriert man das Erscheinungsbild, die Sprache, Alarme und"
-#~ " Plugins. Bei Änderungen Speichern nicht vergessen."
-#~ msgstr ""
-
-#~ msgid "Einstellungen:"
-#~ msgstr ""
-
-#~ msgid "nightscout_einstellungen"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Wir machen weiter mit den Profil-Einstellungen. Neben allgemeinen "
-#~ "Einstellungen wird hier auch eingestellt, ob die Plugins angezeigt werden "
-#~ "sollen, oder nicht. Für Änderungen muss das Gerät, wie z.B. der Laptop "
-#~ "authentifiziert sein, dazu ist das API SECRET einzugeben. Am Ende machen wir"
-#~ " ein Update record/Speichern."
-#~ msgstr ""
-
-#~ msgid "Profil-Einstellungen:"
-#~ msgstr ""
-
-#~ msgid "nightscout_profile_editor"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Die Dateneingabe erfolgt über das + Symbol der Website. Es gibt Auswahl- und"
-#~ " Werte- Felder. Einige Plugins, wie bwp, benötigen hier Eingaben, damit sie "
-#~ "Werte berechnen können. Mit Eingabe senden erscheint noch ein "
-#~ "Bestätigungsbutton, klickt man diesen, werden die Werte gespeichert."
-#~ msgstr ""
-
-#~ msgid "Admin Tools"
-#~ msgstr ""
-
-#~ msgid "nightscout_admin_tools"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Mit den Admin Tools ist es möglich, Daten zu löschen. Dieses betrifft im "
-#~ "wesentlichen Nutzer der Nightscout Uploader App, welche Daten vom Dexcom "
-#~ "Receiver via USB Kabel an das Android Smartphone übertragen. Bevor hier "
-#~ "etwas geklickt wird, bitte genau überlegen, ob dieses wirklich nötig ist."
-#~ msgstr ""
-
-#~ msgid "Dateneingabe:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Für die Dateneingabe muss das Plugin careportal mit ENABLE über Azure "
-#~ "konfiguriert sein."
-#~ msgstr ""
-
-#~ msgid "nightscout_dateneingabe"
-#~ msgstr ""
-
-#~ msgid "Grafische Darstellungen"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Grafik wird alle 60 Sekunden aktualisiert ?. Neben dem reinen CGM - Verlauf "
-#~ "werden auch Careportal Eingaben dargestellt. Die Basalraten Visualisierung "
-#~ "zeigt, sofern über die Azure App.-Einstellungen (basal) eingetragen und über"
-#~ " den Profil Editor konfiguriert, den Verlauf an. Dieses ist geade für "
-#~ "temporäre Basalraten interessant."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "AR2 generates alarms based on forecasted values. AR2 is enabled by default "
-#~ "if no alarm thresholds are set or if the ALARM_TYPES variable includes "
-#~ "predict. You can adjust AR2 behavior with the following extended settings "
-#~ "variables:"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To learn more about AR2, see Forecasting Using AR2 Algorithm. Simple Alarms"
-#~ msgstr ""
-
-#~ msgid "simple alarms Pushover"
-#~ msgstr ""
-
-#~ msgid "See Pushover information for use with Funnel Cake."
-#~ msgstr ""
-
-#~ msgid "Wir sehen uns den   Profil Editor jetzt näher an."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Am Ende bitte unbedingt die MongoDB URI notieren..Diese wird benötigt, um "
-#~ "auf die Daten über das Internet zugreifen zu können."
-#~ msgstr ""

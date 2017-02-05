@@ -17,13 +17,5 @@ Contents:
  
    docs/fehlerbehebung
    docs/sonstiges
-   docs/GLOSSARY
-   
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   docs/GLOSSARY`
 

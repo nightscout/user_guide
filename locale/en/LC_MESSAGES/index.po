@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: :project_name 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 19:53+0100\n"
+"POT-Creation-Date: 2017-02-05 17:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,4 @@ msgstr ""
 
 #: ../../index.rst:9
 msgid "Contents:"
-msgstr ""
-
-#: ../../index.rst:24
-msgid "Indices and tables"
-msgstr ""
-
-#: ../../index.rst:26
-msgid ":ref:`genindex`"
-msgstr ""
-
-#: ../../index.rst:27
-msgid ":ref:`modindex`"
-msgstr ""
-
-#: ../../index.rst:28
-msgid ":ref:`search`"
 msgstr ""
