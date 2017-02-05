@@ -13,11 +13,11 @@ msgstr ""
 
 #: ../../index.rst:7
 msgid "Welcome to Nightscout user guide's documentation!"
-msgstr ""
+msgstr "Willkommen zum Nightscout Benutzerhandbuch!"
 
 #: ../../index.rst:9
 msgid "Contents:"
-msgstr ""
+msgstr "Inhalte:"
 
 #: ../../index.rst:24
 msgid "Indices and tables"
@@ -33,4 +33,4 @@ msgstr ""
 
 #: ../../index.rst:28
 msgid ":ref:`search`"
-msgstr ""
+msgstr ":ref:`Suche`"
