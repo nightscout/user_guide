@@ -17,5 +17,5 @@ Contents:
  
    docs/fehlerbehebung
    docs/sonstiges
-   docs/GLOSSARY`
+   docs/GLOSSARY
 
