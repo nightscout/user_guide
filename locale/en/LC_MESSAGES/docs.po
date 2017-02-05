@@ -1219,7 +1219,7 @@ msgstr ""
 msgid "ein bisschen Zeit und Geduld"
 msgstr ""
 
-#: ../../docs/grundlagen/index.rst:2 ../../docs/grundlagen/libre/index.rst:2
+#: ../../docs/grundlagen/index.rst:2
 msgid "Grundlagen"
 msgstr ""
 
@@ -3842,4 +3842,8 @@ msgstr ""
 
 #: ../../docs/sonstiges.md:22
 msgid "azure deployment template file"
+msgstr ""
+
+#: ../../docs/grundlagen/libre/index.rst:2
+msgid "Libre"
 msgstr ""
