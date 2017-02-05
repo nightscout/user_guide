@@ -44,6 +44,10 @@ source_suffix = ['.rst', '.md']
 extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.autodoc',
+	'sphinx.ext.doctest', 
+	'sphinx.ext.todo',
+	'sphinx.ext.coverage', 
+	'sphinx.ext.imgmath',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -255,7 +259,7 @@ latex_documents = [
 #latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-#latex_show_urls = False
+#latex_show_urls = true
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
@@ -304,12 +308,12 @@ locale_dirs = ['locale/']
 # Set up ReadTheDocs theme with custom style overrides
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-github_doc_root = 'https://github.com/LadyViktoria/user_guide2/tree/master/'
+github_doc_root = 'https://github.com/nightscout/user_guide/tree/wip-sphinx2'
 hosted_root = 'http://localhost:8000/'
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
   rtd_version = os.environ.get('READTHEDOCS_VERSION')
-  hosted_root = 'https://openaps.readthedocs.org/en/%s/' % rtd_version
+  hosted_root = 'http://nightscout-user-guide.readthedocs.io/en/%s/' % rtd_version
 def setup(app):
     app.add_config_value('recommonmark_config', {
             'url_resolver': lambda url: github_doc_root + url,
