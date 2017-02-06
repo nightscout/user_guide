@@ -13,9 +13,9 @@ Contents:
 
    docs/grundlagen/index
    docs/nightscout/index
-   docs/smartwatch/index
+   docs/smartwatch
  
    docs/fehlerbehebung
    docs/sonstiges
-   docs/GLOSSARY
+   docs/glossary
 

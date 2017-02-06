@@ -13,7 +13,7 @@ Für den Anfang benötigt man:
 Grundsätzliche Funktionsweise/Ausblick
 ======================================
 
-Man kann Nightscout auf verschiedene Weise nutzen:
+Man kann :term:`Nightscout` auf verschiedene Weise nutzen:
 
 -  als Kontroll- und Alarmsystem für Angehörige von Diabetikern,
    insbesondere wenn Kinder oder ältere Menschen vom Diabetes betroffen
