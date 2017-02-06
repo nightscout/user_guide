@@ -9,7 +9,7 @@ Welcome to Nightscout user guide's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 6
 
    docs/grundlagen/index
    docs/nightscout/index
