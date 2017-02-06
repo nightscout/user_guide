@@ -11,43 +11,35 @@ Für den Anfang benötigt man:
 
 
 Grundsätzliche Funktionsweise/Ausblick
-======================================
+--------------------------------------
 
 Man kann :term:`Nightscout` auf verschiedene Weise nutzen:
 
 -  als Kontroll- und Alarmsystem für Angehörige von Diabetikern,
    insbesondere wenn Kinder oder ältere Menschen vom Diabetes betroffen
    sind
-
 -  als Visualisierung deiner eigenen CGM-Daten direkt am Handgelenk
-
 -  als Blutzucker Tagebuch mit umfangreichen Auswertungsmöglichkeiten
-
 -  als Monitoring System für ein APS (Artificial Pancreas System - der
    sogenannte "Closed Loop" oder auch "Künstliche Bauchspeicheldrüse")
-
 -  als Schnittstelle, um diese Daten weiterzuverwerten
 
 
 finanzielle / technische Voraussetzungen
-========================================
+----------------------------------------
 
 -  CGM, durch die Krankenkasse oder privat finanziert
 -  Dexcom G4 Platinum funktioniert sehr gut,
 -  langsam kommt aber auch das Enlite dazu.
-
 -  Ein Stück Hardware, um die CGM-Daten hochzuladen, z.B.
    `xDrip <https://nightscout.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html>`__
    (ca. 50 bis 60€) oder den MMCommander oder ..
-
 -  Smartphone (Android-Telefon)
 -  mit Betriebssystem-Version 4.3 (besser 4.4 oder höher) und
 -  Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab
    Bluetooth 4.0 vorhanden.
-
 -  Datenvertrag (z.B. 0 € bei Netzclub mit 100mb Freivolumen, danach
    gedrosseltes Internet.)
-
 -  eine Kreditkarte (wird nicht belastet)
 
 *Nicht notwendig, aber:*
@@ -62,13 +54,13 @@ niemals, um medizinische Entscheidungen zu treffen.**
 
 **HINWEIS:**
 
-*Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und
-unterstützt wird.*
+**Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und
+unterstützt wird.**
 
-*Es gibt in diesem Projekt keine Gewährleistung oder garantierte
+**Es gibt in diesem Projekt keine Gewährleistung oder garantierte
 Unterstützung in irgendeiner Art. Wenn Du dich entscheidest es zu
 nutzen, hängt die Qualität und Leistungsfähigkeit dieses Projektes von
-dir selbst ab.*
+dir selbst ab.**
 
 
 
@@ -86,16 +78,18 @@ Sicherheit der Tools, die hier zur Verfügung gestellt werden. Alle
 Daten, die du hochlädst, sind für jeden im Internet zu lesen, wenn du
 die spezifische URL (Internetadresse) freigibst oder weitergibst.
 
-| Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat
-  keine Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen,
-  Dienstleistungen oder Produkten, die im Rahmen dieser Internetpräsenz
-  erwähnt werden.
-| Alle hier erwähnten Produkt- und Firmennamen sind Marken der
-  jeweiligen Eigentümer bzw. Hersteller.
+Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat
+keine Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen,
+Dienstleistungen oder Produkten, die im Rahmen dieser Internetpräsenz
+erwähnt werden.
+
+Alle hier erwähnten Produkt- und Firmennamen sind Marken der
+jeweiligen Eigentümer bzw. Hersteller.
 
 
 
-**Inhalt des Onlineangebotes**
+Inhalt des Onlineangebotes
+--------------------------
 
 Die Übersetzer/Autoren übernehmen keinerlei Gewähr für die Aktualität,
 Richtigkeit und Vollständigkeit der bereitgestellten Informationen auf
@@ -112,7 +106,8 @@ Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu
 verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise
 oder endgültig einzustellen.
 
-**DIY - Eigenbau und Eigenverantwortung**
+DIY - Eigenbau und Eigenverantwortung
+-------------------------------------
 
 Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem
 Fall, dass es keine Firma gibt, von der man ein fertiges,

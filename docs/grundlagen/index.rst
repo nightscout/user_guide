@@ -6,7 +6,7 @@ Grundlagen
 
    grundvoraussetzungen
    cgm
-   enlite/index
-   xdrip/index
+   mmcommander
+   xdrip
    640g
    libre

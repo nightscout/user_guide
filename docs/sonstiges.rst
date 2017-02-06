@@ -10,19 +10,19 @@ Sonstiges
 
 **Flyer:**
 
-:download:`Flyer Vorderseite <images/sonstiges/Folie1.jpg>`
+:download:`Download Flyer Vorderseite <images/sonstiges/Folie1.jpg>`
 
-:download:`Flyer Rückseite <images/sonstiges/Folie2.jpg>`
+:download:`Download Flyer Rückseite <images/sonstiges/Folie2.jpg>`
 
 
 **Verlängerung der Tragezeit:**
 
-:download:`Verlängerung der Tragezeit des Sensors <documents/Verlaengerung-der-Tragezeit.pdf>`
+:download:`Download Verlängerung der Tragezeit des Sensors <documents/Verlaengerung-der-Tragezeit.pdf>`
 
 
 **Schablonen:**
 
-:download:`Dexcom Pflaster Schablone <images/sonstiges/Pflasterschablone2.jpg>`
+:download:`Download Dexcom Pflaster Schablone <images/sonstiges/Pflasterschablone2.jpg>`
 
 `xDrip 1-Platinen Layout <https://oshpark.com/shared_projects/IuYnoGB9>`__
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-06 15:38+0100\n"
+"POT-Creation-Date: 2017-02-06 16:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../docs/fehlerbehebung.rst:2
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:2
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:432
+#: ../../docs/fehlerbehebung.rst:2 ../../docs/grundlagen/mmcommander.rst:285
+#: ../../docs/grundlagen/xdrip.rst:719
 msgid "Fehlerbehebung"
 msgstr ""
 
@@ -638,8 +637,7 @@ msgstr ""
 msgid "|Auslesen|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:166
-#: ../../docs/grundlagen/enlite/mmcommander.rst:19
+#: ../../docs/grundlagen/640g.rst:166 ../../docs/grundlagen/mmcommander.rst:20
 msgid "**Wichtig:**"
 msgstr ""
 
@@ -950,575 +948,6 @@ msgid ""
 " CGM>`."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:2
-msgid "CC1111 anschließen"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:4
-msgid ""
-"Beim Verbinden des CC1111 USB Dongle mit dem CC Debugger ist darauf zu "
-"achten, dass dieselbe Ader des Flachbandkabels am Pin 1 des CC Debuggers "
-"und am Pin 1 des Debug Anschlusses des CC1111 angeschlossen wird. Da es "
-"verschiedene Lieferversionen gibt (Ader 1 rot oder Ader 10 rot), sollte "
-"man versuchen, das Kabel anhand des folgenden Bildes richtig "
-"anzuschließen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:11
-msgid "|Kabelverbindung|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:13
-msgid ""
-"Nun müssen der CC1111 und der CC Debugger mit den USB Anschlüssen des "
-"Computers verbunden werden."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:16
-msgid "|Anschluss an den Computer|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:18
-msgid ""
-"Danach sollte der CC Debugger von Windows erkannt und der USB Treiber "
-"installiert werden (vorausgesetzt man hat die Software SmartRF Flash "
-"Programmer bereits installiert)."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:22
-msgid ""
-"Wenn alles richtig angeschlossen ist, leuchtet die LED am CC Debugger "
-"grün, wenn nicht, hilft eventuell ein Blick in das Unterkapitel "
-"`Fehlerbehebung <fehlerbehebung.md>`__."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_programmierung.rst:2
-msgid "CC1111 Programmierung"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_programmierung.rst:4
-msgid ""
-"Um den CC1111 USB Dongle zu programmieren, muss der SmartRF Flash "
-"Programmer entsprechend konfiguriert werden. Im \"System-on-Chip\" "
-"Fenster sollte nun der CC1111 erscheinen. Im \"Flash image\" Fenster auf "
-"den Button mit den drei Punkten drücken und die bereits heruntergeladene "
-"HEX-Datei auswählen (MMCommander\\_EUR\\_0.89\\_NoTx.hex). Bei den "
-"\"Actions\" wählt man den Punkt \"Erase, program and verify\" aus."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_programmierung.rst:11
-msgid "|Konfiguration|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_programmierung.rst:13
-msgid ""
-"Anschließend nur noch auf \"Perform actions\" klicken und kurz warten. "
-"Hat alles geklappt, sollte es so aussehen:"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_programmierung.rst:16
-msgid "|Ausgefuehrt|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_programmierung.rst:18
-msgid "Danach sollte Windows ein neues Gerät namens \"MMCommander\" finden."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/cc1111_programmierung.rst:20
-msgid ""
-"Um zu prüfen, ob der MMCommander erfolgreich programmiert wurde, reicht "
-"es, diesen in einen USB Anschluss zu stecken und den Druckknopf auf dem "
-"CC1111 einige Sekunden gedrückt zu halten. Die LED des CC1111 geht an. "
-"Drückt man den Knopf nochmal für ein paar Sekunden, so geht diese LED "
-"wieder aus. Der Stick funktioniert."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:4
-msgid ""
-"Da die meisten Informationen in diesem Handbuch zum Thema MMCommander und"
-" Medtronic Uploader frei aus der entsprechenden englischen "
-"Installationsanleitung übersetzt wurden und dabei auch einige, nicht "
-"zwingend notwendige, Informationen weggelassen wurden, kann man eventuell"
-" `dort <http://github.com/jberian/mmcommander/>`__ in der Datei "
-"INSTALL.pdf auch weitere Informationen finden."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:11
-msgid "**Probleme beim Verbinden des CC Debuggers mit dem CC1111**"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:13
-msgid ""
-"Wenn die Verbindung zwischen den beiden Geräten nicht funktioniert, "
-"versucht man am besten, das Kabel auf dem CC1111 andersherum zu stecken. "
-"Dabei kann nichts kaputt gehen. Wenn auch diese Maßnahme nichts bringen "
-"sollte, dann könnte im Ausnahmefall das Kabel selbst das Problem sein. "
-"Als letzten Versuch könnte man die Nase des einen Steckers vorsichtig mit"
-" einem Messer entfernen und auch den Stecker im CC Debugger drehen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:20
-msgid "**Probleme mit der Firmware des Debuggers**"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:23
-msgid ""
-"Normalerweise sollte es nicht nötig sein, diese Firmware zu "
-"aktualisieren, da es auch mit einer älteren Version der Firmware klappen "
-"sollte. Wenn es doch nötig sein sollte, weil man zum Beispiel Probleme "
-"beim Programmieren des CC1111 hat, dann trennt man zuerst den CC1111 vom "
-"CC Debugger. Im Pull-Down Menü des SmartRF Flash Programmers wählt man "
-"nun den Punkt \"Program Evaluation Board\" und klickt danach auf \"Update"
-" EB Firmware\" - dies geht übrigens nur, falls der Debugger eine ältere "
-"Version der Software hat. Danach sucht man die Datei mit der neuen "
-"Firmware aus z. B. C:\\\\Programme\\\\Texas Instruments\\\\SmartRF "
-"Tools\\\\Firmware\\\\CC Debugger\\\\cebal\\_fw\\_srf05dbg.hex (Version "
-"kann abweichen). Dabei solltet ihr darauf achten, dass ihr nicht den "
-"Bootloader aktualisiert."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:37
-msgid "|Firmware-Update1|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:39
-msgid ""
-"Anschließend sollte man eine aktualisierte \"EB firmware rev\" und \"... "
-"update OK\" sehen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:42
-msgid "|Firmware-Update2|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:44
-msgid "**Probleme mit dem CC Debugger**"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:47
-msgid ""
-"Wenn die CC Debugger LED rot leuchtet, dann sollte man die Verkabelung "
-"überprüfen und sicherstellen, dass sowohl der CC111 als auch der CC "
-"Debugger an USB Ports angeschlossen sind. Eventuell auch nochmal den "
-"Reset Knopf des Debuggers drücken."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:52
-msgid ""
-"Wenn die LED des CC Debuggers rot blinkt, dann hat der Debugger selbst "
-"einen Fehler und man sollte im englischen `TI's CC Debugger User Guide "
-"<http://www.ti.com/lit/pdf/swru197>`__ nach Rat suchen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:56
-msgid "**Grundsätzlich**"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:59
-msgid ""
-"Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann "
-"empfiehlt sich ein Blick in die bereits oben erwähnte englische "
-"Originaldatei INSTALL.pdf, die der Autor geschrieben hat."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/index.rst:2
-#: ../../docs/grundlagen/enlite/mmcommander.rst:2
-msgid "MMCommander"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:2
-msgid "Medtronic Uploader einrichten"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:4
-msgid ""
-"Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert "
-"werden kann, muss man die Schritte des Kapitels `Nightscout einrichten "
-"<../../nightscout/nightscout_einrichten.md>`__, außer denen des "
-"Unterkapitels \"Care Portal\", vollzogen haben."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:9
-msgid ""
-"Nun installiert man die Datei \"NightScout.apk\" auf dem Smartphone. "
-"Eventuell muss man dazu unter Einstellungen - Sicherheit - Unbekannte "
-"Herkunft die Installation von Apps aus unbekannten Quellen zulassen, da "
-"diese App nicht aus dem Google Play Store stammt. Dort gibt es nur den "
-"für den Dexcom Empfänger gedachten \"Nightscout Uploader\"."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:15
-msgid ""
-"Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel dem "
-"\"Account-Information\". eingetragen hat, werden nun zum Konfigurieren "
-"der Medtronic Uploader App benötigt."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:19
-msgid ""
-"Zuerst muss die Medtronic Uploader App geschlossen werden, falls diese "
-"bereits läuft. Nun den MMCommander über das USB OTG Kabel an das "
-"Smartphone anschließen. Es sollte sich automatisch ein Fenster öffnen, "
-"welches fragt, was getan werden soll. Dort die Nightscout App auswählen "
-"und diese sollte danach automatisch starten."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:25
-msgid ""
-"Wenn jetzt der Uploader läuft, klickt man rechts oben auf die drei Punkte"
-" oder, abhängig vom jeweiligen Android Smartphone, man benutzt die "
-"Einstellungstaste des Gerätes. Es öffnet sich ein Menü, und dort wählt "
-"man den Punkt \"Preferences\". Hier werden folgende Einstellungen "
-"vorgenommen:"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:31
-#: ../../docs/nightscout/settings.rst:21
-msgid "|Einstellungen|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:33
-msgid ""
-"mmol/L -> hier kann man wählen, ob man lieber mit mmol/l oder mg/dl "
-"arbeitet."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:35
-msgid "Type -> \"Medtronic CGM\" auswählen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:36
-msgid ""
-"Pump ID -> die ID von der Pumpenrückseite eintragen. Dies sind die sechs "
-"Ziffern, die auf dem folgenden Bild im Bereich des roten Rechteckes "
-"liegen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:40
-msgid "|Pumpe|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:42
-msgid ""
-"Glucometer ID -> die ID des Blutzuckermessgerätes eintragen (rotes "
-"Rechteck)."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:45
-msgid "|Messgerät|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:47
-msgid ""
-"Sensor ID -> die ID von der Rückseite des Minimed Transmitters eintragen "
-"(rotes Rechteck)."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:50
-msgid "|Transmitter|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:52
-msgid "Calibration Type -> \"Manual\" auswählen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:53
-msgid "Glucose Value Source -> \"Medtronic Sensor\" auswählen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:54
-msgid "API Upload (REST) -> aktivieren"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:55
-msgid ""
-"API Base URL -> ``APISECRET``\\ @\\ https:// "
-"``WEBSEITENNAME``.azurewebsites.net/api/v1 eintragen. Sowohl das "
-"\"APISECRET\", als auch den \"Webseitennamen\" findet man auf der letzten"
-" Seite des Arbeitsblattes aus Kapitel 2.1. - vorausgesetzt man hat das "
-"Arbeitsblatt ausgefüllt. Mit den Beispielen aus Kapitel 2.5. `Azure "
-"<../../nightscout/azure.md>`__ ergäbe sich dann: "
-"Y3KmrdFA12jmk@https://nscgm01.azurewebsites.net/api/v1."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:62
-msgid "MongoDB Upload -> deaktivieren"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:63
-msgid "MongoDB REST Upload -> deaktivieren"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:64
-msgid "Wifi Hack -> deaktivieren"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:65
-msgid "2 Days at Startup -> aktivieren"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:66
-msgid ""
-"I UNDERSTAND -> Hier steht ganz klar, dass Nightscout nicht genutzt "
-"werden darf, um medizinische Entscheidungen zu fällen. Es gibt weder "
-"Unterstützung noch irgendwelche Garantien. Die Qualität und Leistung "
-"dieses Projektes hängt einzig von Dir ab. Dieses Projekt wurde von "
-"Freiwilligen erstellt und weiterentwickelt. Dies muss man akzeptieren. ->"
-" aktivieren"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:72
-msgid "Logging Level -> Error"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:74
-msgid ""
-"Nun geht man raus aus den Einstellungen. Man sollte Striche sehen, einen "
-"grünen Text \"CGM Service Started\" und einen weiteren Text "
-"\"Uncalibrated\"."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:78
-msgid ""
-"Jedes Mal, wenn der Uploader Daten vom Sensor empfängt, erscheint "
-"folgender Text im unteren Teil des Bildschirms: \"Medtronic CGM Message: "
-"sensor data value received\". Sobald man den ersten Wert empfangen hat, "
-"klickt man wieder rechts oben auf die drei Punkte. Diesmal wählt man "
-"\"Instant Calibration\" und gibt den Wert ein, den man gerade auf der "
-"Pumpe abliest. Anschließend sollte der Uploader alle 5 Minuten einen Wert"
-" empfangen und diesen in die Mongo Datenbank hochladen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:86
-msgid "|Upload|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:88
-msgid ""
-"Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa "
-"eine Viertelstunde, bis die ersten Werte über die persönliche "
-"Internetseite im Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick "
-"in das Unterkapitel `Fehlerbehebung <fehlerbehebung.md>`__."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/medtronic_uploader_einrichten.rst:93
-msgid ""
-"Man sollte die Kalibrierung mittels \"Instant Calibration\" jedes Mal "
-"durchführen, wenn der MMCommander erneut mit dem Smartphone verbunden "
-"wird."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:2
-msgid "Hardware"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:4
-msgid "Um den MMCommander zu bauen, wird folgende Hardware benötigt:"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:6
-msgid "ein \"geeignetes\" **Android Smartphone** mit USB OTG Unterstützung."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:8
-msgid ""
-"Ob ein bereits vorhandenes Smartphone geeignet ist, lässt sich leider "
-"nicht sicher vorhersagen. Als Orientierung kann man sich auf "
-"`www.nightscout.info <http://www.nightscout.info>`__ eine Liste mit "
-"bestätigten Smartphones ansehen: (`Liste <http://www.nightscout.info/wp-"
-"content/uploads/2015/02/Nightscout-OTG-Database_CGMitC.xlsx.pdf>`__). "
-"Zusätzlich gibt es eine Liste mit Smartphones, die laut Nightscout.info "
-"**nicht** funktionieren:"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:16
-msgid "Kyocera Hydro"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:17
-msgid "Samsung Mini – alle Modelle"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:18
-msgid "Moto E"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:19
-msgid "Straight Talk LG L34C Optimus Fuel"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:20
-msgid "LG Realm"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:21
-msgid "HTC Desire (außer AT&T Version)"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:22
-msgid "Core Prime"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:23
-msgid "Droid Bionic"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:24
-msgid "Droid Razr Maxx"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:25
-msgid "Droid Razr"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:26
-msgid "Geräte mit **Blackberry** Betriebssystem"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:27
-msgid "Geräte mit **iOS** Betriebssystem (Apple - Geräte)"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:29
-msgid ""
-"Zusätzlich zu den Infos der Nightscout-Seite gibt es einen Bericht, bei "
-"dem ein HTC One (M7) mit Android 5.1 \"Lollipop\" nicht stabil "
-"funktionierte. Erfolgreich läuft der MMCommander mit einem Sony Xperia Z3"
-" - ebenfalls mit Android 5.1 \"Lollipop\". Dieses Smartphone hat den "
-"Vorteil, dass man es über einen weiteren magnetischen Anschluss laden "
-"kann, während die Micro USB Buchse durch den MMCommander blockiert ist. "
-"Im Internet scheinen sich übrigens viele Nightscout-Benutzer für das "
-"kostengünstige Motorola Moto G entschieden zu haben."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:38
-msgid ""
-"ein **USB-OTG Kabel** (Micro-USB Stecker auf normale USB Buchse) - "
-"zumeist empfiehlt es sich, einen gewinkelten USB-Stecker zu nehmen, wobei"
-" die sinnvolle Richtung vom verwendeten Smartphone abhängt. Man findet "
-"eine relativ große Auswahl bei Ebay oder Amazon. Die Kosten betragen etwa"
-" 5 €."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:44
-msgid "|usb_otgklein|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:46
-msgid ""
-"einen **CC1111 USB Dongle**, diesen Funk-Sender-Empfänger kann man z.B. "
-"für 67 € bei `Farnell <http://de.farnell.com/texas-"
-"instruments/cc1111emk868-915/cc1111-rf-transceiver-eval-"
-"module/dp/2334589>`__ oder `Digi-Key <http://www.digikey.de/product-"
-"detail/de/CC1111EMK868-915/296-22732-ND/1739551>`__ bestellen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:53
-msgid "|cc1111_dongle|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:55
-msgid ""
-"zumindest einmalig zum Programmieren des CC1111 USB Dongles einen **CC "
-"Debugger**. Dieser kann für rund 44 € z.B. ebenfalls bei `Farnell "
-"<http://de.farnell.com/texas-instruments/cc-debugger/prog-debugger-f-rf-"
-"soc/dp/1752232?MER=baynote-1752232-pr>`__ oder `Digi-Key "
-"<http://www.digikey.de/product-detail/de/CC-"
-"DEBUGGER/296-30207-ND/2231678>`__ bestellt werden."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:62
-msgid "|ccdebugger|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:64
-msgid ""
-"nicht zwingend notwendig, aber durchaus sinnvoll ist ein "
-"**Schutzgehäuse** für den CC1111. Es gibt bereits ein Plastikgehäuse, "
-"welches man `hier <http://www.shapeways.com/product/PGQ26J9UG/ti-cc1111"
-"-rf-transceiver-protective-case?li=shop-results&optionId=40496519>`__ für"
-" knapp 20 € erwerben kann. Da der Anbieter mit dem Gehäuse kein Geld "
-"verdienen, sondern nur andere Nutzer unterstützen möchte, bietet er auch "
-"alternativ die Pläne `hier "
-"<https://www.tinkercad.com/things/2TzPZp0T0p1-cc1111-stick-usb-cable-"
-"protector>`__ umsonst an, so dass man diese auch bei einem 3D Druck "
-"Service nach Wahl realisieren kann. Eine weitere Möglichkeit ist die "
-"Benutzung einer Tic-Tac Dose."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:76
-msgid "|tictac|"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmcommander.rst:4
-msgid ""
-"Der MMCommander stellt die Schnittstelle zwischen dem MiniLink "
-"Transmitter (für die Veo) und einem (kompatiblen) Android Smartphone dar."
-" Derzeit wird damit das \"alte\" System, bestehend aus Enlite Sensor, "
-"MiniLink Transmitter und VEO Insulinpumpe, unterstützt."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmcommander.rst:9
-msgid ""
-"Benutzer der Medtronic 640G und deren CGM Komponenten sollten sich den "
-"Unterpunkt Guardian 2 Link Transmitter des Kapitels `Enlite "
-"<../cgm/enlite.md>`__ ansehen."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmcommander.rst:13
-msgid ""
-"Das Grundprinzip ist, dass der MMCommander die vom Transmitter an die "
-"Pumpe übertragenen Werte \"mithört\" und diese dann per Medtronic "
-"Uploader Android App entweder per Wi-Fi oder mobilem Telefon Netzwerk an "
-"Nightscout überträgt (vgl. Übersichtsgrafik im Unterpunkt MiniLink "
-"Transmitter des Kapitels `Enlite <../cgm/enlite.md>`__)."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/mmcommander.rst:21
-msgid ""
-"Der Hersteller Medtronic hat mit dem hier beschriebenen Projekt nichts zu"
-" tun und alle Informationen, die sich hier befinden, werden auf eigenes "
-"Risiko benutzt. Informationen, die mithilfe dieses Projektes erlangt "
-"werden, dürfen niemals als Grundlage für eine medizinische Entscheidung "
-"benutzt werden."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/software.rst:2
-msgid "Software"
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/software.rst:9
-msgid ""
-"Um den CC1111 USB Dongle mit der entsprechenden Software zu beschreiben, "
-"braucht man ein Windows Programm, welches `Smart RF Flash Programmer "
-"<http://www.ti.com/tool/flash-programmer>`__ heißt (Achtung: nicht den "
-"SmartRF Flash Programmer 2 runterladen!) und natürlich die aufzuspielende"
-" Software. Diese befindet sich `hier "
-"<https://github.com/jberian/mmcommander/releases/download/0.89/MMCommander_EUR_0.89_NoTx.hex>`__."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/software.rst:14
-msgid ""
-"Am besten man installiert bereits jetzt SmartRF Flash Programmer, damit "
-"Windows später den CC Debugger erkennt. Es gibt alternativ auch die "
-"Möglichkeit, den TI Stick unter Linux mit Hilfe des cc-tool's zu "
-"beschreiben, einfacher ist es aber unter Windows. Für Mac ist derzeit "
-"keine Lösung bekannt."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/software.rst:16
-msgid ""
-"Später braucht man noch den Medtronic Uploader, der auf dem Android "
-"Smartphone die empfangenen Daten weitertransportiert. Dieser Link steht "
-"hier "
-"https://github.com/arbox0/MedtronicUploader/releases/download/MEDTRONICUPLOADER_R1_V7/NightScout.apk"
-" ausgeschrieben, da es sinnvoll sein kann, das Android Programm direkt "
-"vom Smartphone runterzuladen. Sollte dieser nicht mehr funktionieren, "
-"kann es auch helfen, `hier "
-"<https://github.com/arbox0/MedtronicUploader/releases>`__ zu prüfen, ob "
-"es eine aktuellere Version gibt."
-msgstr ""
-
 #: ../../docs/grundlagen/grundvoraussetzungen.rst:2
 msgid "Grundvoraussetzungen"
 msgstr ""
@@ -1559,108 +988,108 @@ msgid ""
 "insbesondere wenn Kinder oder ältere Menschen vom Diabetes betroffen sind"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:22
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:21
 msgid "als Visualisierung deiner eigenen CGM-Daten direkt am Handgelenk"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:24
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:22
 msgid "als Blutzucker Tagebuch mit umfangreichen Auswertungsmöglichkeiten"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:26
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:23
 msgid ""
 "als Monitoring System für ein APS (Artificial Pancreas System - der "
 "sogenannte \"Closed Loop\" oder auch \"Künstliche Bauchspeicheldrüse\")"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:29
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:25
 msgid "als Schnittstelle, um diese Daten weiterzuverwerten"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:33
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:29
 msgid "finanzielle / technische Voraussetzungen"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:35
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:31
 msgid "CGM, durch die Krankenkasse oder privat finanziert"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:36
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:32
 msgid "Dexcom G4 Platinum funktioniert sehr gut,"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:37
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:33
 msgid "langsam kommt aber auch das Enlite dazu."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:39
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:34
 msgid ""
 "Ein Stück Hardware, um die CGM-Daten hochzuladen, z.B. `xDrip "
 "<https://nightscout.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html>`__"
 " (ca. 50 bis 60€) oder den MMCommander oder .."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:43
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:37
 msgid "Smartphone (Android-Telefon)"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:44
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:38
 msgid "mit Betriebssystem-Version 4.3 (besser 4.4 oder höher) und"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:45
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:39
 msgid ""
 "Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab "
 "Bluetooth 4.0 vorhanden."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:48
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:41
 msgid ""
 "Datenvertrag (z.B. 0 € bei Netzclub mit 100mb Freivolumen, danach "
 "gedrosseltes Internet.)"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:51
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:43
 msgid "eine Kreditkarte (wird nicht belastet)"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:53
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:45
 msgid "*Nicht notwendig, aber:*"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:55
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:47
 msgid "Du wirst sehr bald eine Smartwatch haben wollen! (Android / Pebble)"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:58
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:50
 msgid "DIY/Disclaimer"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:60
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:52
 msgid ""
 "**Verwende die Informationen aus Nightscout oder den Programmcode "
 "niemals, um medizinische Entscheidungen zu treffen.**"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:63
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:55
 msgid "**HINWEIS:**"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:65
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:57
 msgid ""
-"*Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und "
-"unterstützt wird.*"
+"**Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und "
+"unterstützt wird.**"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:68
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:60
 msgid ""
-"*Es gibt in diesem Projekt keine Gewährleistung oder garantierte "
+"**Es gibt in diesem Projekt keine Gewährleistung oder garantierte "
 "Unterstützung in irgendeiner Art. Wenn Du dich entscheidest es zu nutzen,"
 " hängt die Qualität und Leistungsfähigkeit dieses Projektes von dir "
-"selbst ab.*"
+"selbst ab.**"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:75
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:67
 msgid ""
 "Alle Informationen und Gedanken der hier beschriebenen Programmcodes sind"
 " ausschließlich zu Informationszwecken und für pädagogische Zwecke "
@@ -1669,13 +1098,13 @@ msgid ""
 "Art."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:81
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:73
 msgid ""
 "Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System"
 " unbrauchbar werden kann!"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:84
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:76
 msgid ""
 "Es gibt keine Passwort geschützte Privatsphäre oder irgendeine Sicherheit"
 " der Tools, die hier zur Verfügung gestellt werden. Alle Daten, die du "
@@ -1683,7 +1112,7 @@ msgid ""
 "URL (Internetadresse) freigibst oder weitergibst."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:92
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:81
 msgid ""
 "Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat keine "
 "Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen, "
@@ -1691,17 +1120,17 @@ msgid ""
 "erwähnt werden."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:94
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:86
 msgid ""
 "Alle hier erwähnten Produkt- und Firmennamen sind Marken der jeweiligen "
 "Eigentümer bzw. Hersteller."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:98
-msgid "**Inhalt des Onlineangebotes**"
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:92
+msgid "Inhalt des Onlineangebotes"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:100
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:94
 msgid ""
 "Die Übersetzer/Autoren übernehmen keinerlei Gewähr für die Aktualität, "
 "Richtigkeit und Vollständigkeit der bereitgestellten Informationen auf "
@@ -1719,11 +1148,11 @@ msgid ""
 "endgültig einzustellen."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:115
-msgid "**DIY - Eigenbau und Eigenverantwortung**"
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:110
+msgid "DIY - Eigenbau und Eigenverantwortung"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:117
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:112
 msgid ""
 "Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem "
 "Fall, dass es keine Firma gibt, von der man ein fertiges, "
@@ -1902,11 +1331,704 @@ msgid ""
 "finanzielle Unterstützung angewiesen ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:2
+#: ../../docs/grundlagen/mmcommander.rst:3
+msgid "MMCommander"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:5
+msgid ""
+"Der MMCommander stellt die Schnittstelle zwischen dem MiniLink "
+"Transmitter (für die Veo) und einem (kompatiblen) Android Smartphone dar."
+" Derzeit wird damit das \"alte\" System, bestehend aus Enlite Sensor, "
+"MiniLink Transmitter und VEO Insulinpumpe, unterstützt."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:10
+msgid ""
+"Benutzer der Medtronic 640G und deren CGM Komponenten sollten sich den "
+"Unterpunkt Guardian 2 Link Transmitter des Kapitels `Enlite "
+"<../cgm/enlite.md>`__ ansehen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:14
+msgid ""
+"Das Grundprinzip ist, dass der MMCommander die vom Transmitter an die "
+"Pumpe übertragenen Werte \"mithört\" und diese dann per Medtronic "
+"Uploader Android App entweder per Wi-Fi oder mobilem Telefon Netzwerk an "
+"Nightscout überträgt (vgl. Übersichtsgrafik im Unterpunkt MiniLink "
+"Transmitter des Kapitels `Enlite <../cgm/enlite.md>`__)."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:22
+msgid ""
+"Der Hersteller Medtronic hat mit dem hier beschriebenen Projekt nichts zu"
+" tun und alle Informationen, die sich hier befinden, werden auf eigenes "
+"Risiko benutzt. Informationen, die mithilfe dieses Projektes erlangt "
+"werden, dürfen niemals als Grundlage für eine medizinische Entscheidung "
+"benutzt werden."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:30
+msgid "Hardware"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:32
+msgid "Um den MMCommander zu bauen, wird folgende Hardware benötigt:"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:34
+msgid "ein \"geeignetes\" **Android Smartphone** mit USB OTG Unterstützung."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:36
+msgid ""
+"Ob ein bereits vorhandenes Smartphone geeignet ist, lässt sich leider "
+"nicht sicher vorhersagen. Als Orientierung kann man sich auf "
+"`www.nightscout.info <http://www.nightscout.info>`__ eine Liste mit "
+"bestätigten Smartphones ansehen: (`Liste <http://www.nightscout.info/wp-"
+"content/uploads/2015/02/Nightscout-OTG-Database_CGMitC.xlsx.pdf>`__). "
+"Zusätzlich gibt es eine Liste mit Smartphones, die laut Nightscout.info "
+"**nicht** funktionieren:"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:44
+msgid "Kyocera Hydro"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:45
+msgid "Samsung Mini – alle Modelle"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:46
+msgid "Moto E"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:47
+msgid "Straight Talk LG L34C Optimus Fuel"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:48
+msgid "LG Realm"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:49
+msgid "HTC Desire (außer AT&T Version)"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:50
+msgid "Core Prime"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:51
+msgid "Droid Bionic"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:52
+msgid "Droid Razr Maxx"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:53
+msgid "Droid Razr"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:54
+msgid "Geräte mit **Blackberry** Betriebssystem"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:55
+msgid "Geräte mit **iOS** Betriebssystem (Apple - Geräte)"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:57
+msgid ""
+"Zusätzlich zu den Infos der Nightscout-Seite gibt es einen Bericht, bei "
+"dem ein HTC One (M7) mit Android 5.1 \"Lollipop\" nicht stabil "
+"funktionierte. Erfolgreich läuft der MMCommander mit einem Sony Xperia Z3"
+" - ebenfalls mit Android 5.1 \"Lollipop\". Dieses Smartphone hat den "
+"Vorteil, dass man es über einen weiteren magnetischen Anschluss laden "
+"kann, während die Micro USB Buchse durch den MMCommander blockiert ist. "
+"Im Internet scheinen sich übrigens viele Nightscout-Benutzer für das "
+"kostengünstige Motorola Moto G entschieden zu haben."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:66
+msgid ""
+"ein **USB-OTG Kabel** (Micro-USB Stecker auf normale USB Buchse) - "
+"zumeist empfiehlt es sich, einen gewinkelten USB-Stecker zu nehmen, wobei"
+" die sinnvolle Richtung vom verwendeten Smartphone abhängt. Man findet "
+"eine relativ große Auswahl bei Ebay oder Amazon. Die Kosten betragen etwa"
+" 5 €."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:72
+msgid "|usb_otgklein|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:74
+msgid ""
+"einen **CC1111 USB Dongle**, diesen Funk-Sender-Empfänger kann man z.B. "
+"für 67 € bei `Farnell <http://de.farnell.com/texas-"
+"instruments/cc1111emk868-915/cc1111-rf-transceiver-eval-"
+"module/dp/2334589>`__ oder `Digi-Key <http://www.digikey.de/product-"
+"detail/de/CC1111EMK868-915/296-22732-ND/1739551>`__ bestellen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:81
+msgid "|cc1111_dongle|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:83
+msgid ""
+"zumindest einmalig zum Programmieren des CC1111 USB Dongles einen **CC "
+"Debugger**. Dieser kann für rund 44 € z.B. ebenfalls bei `Farnell "
+"<http://de.farnell.com/texas-instruments/cc-debugger/prog-debugger-f-rf-"
+"soc/dp/1752232?MER=baynote-1752232-pr>`__ oder `Digi-Key "
+"<http://www.digikey.de/product-detail/de/CC-"
+"DEBUGGER/296-30207-ND/2231678>`__ bestellt werden."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:90
+msgid "|ccdebugger|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:92
+msgid ""
+"nicht zwingend notwendig, aber durchaus sinnvoll ist ein "
+"**Schutzgehäuse** für den CC1111. Es gibt bereits ein Plastikgehäuse, "
+"welches man `hier <http://www.shapeways.com/product/PGQ26J9UG/ti-cc1111"
+"-rf-transceiver-protective-case?li=shop-results&optionId=40496519>`__ für"
+" knapp 20 € erwerben kann. Da der Anbieter mit dem Gehäuse kein Geld "
+"verdienen, sondern nur andere Nutzer unterstützen möchte, bietet er auch "
+"alternativ die Pläne `hier "
+"<https://www.tinkercad.com/things/2TzPZp0T0p1-cc1111-stick-usb-cable-"
+"protector>`__ umsonst an, so dass man diese auch bei einem 3D Druck "
+"Service nach Wahl realisieren kann. Eine weitere Möglichkeit ist die "
+"Benutzung einer Tic-Tac Dose."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:104
+msgid "|tictac|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:108
+msgid "Software"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:115
+msgid ""
+"Um den CC1111 USB Dongle mit der entsprechenden Software zu beschreiben, "
+"braucht man ein Windows Programm, welches `Smart RF Flash Programmer "
+"<http://www.ti.com/tool/flash-programmer>`__ heißt (Achtung: nicht den "
+"SmartRF Flash Programmer 2 runterladen!) und natürlich die aufzuspielende"
+" Software. Diese befindet sich `hier "
+"<https://github.com/jberian/mmcommander/releases/download/0.89/MMCommander_EUR_0.89_NoTx.hex>`__."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:120
+msgid ""
+"Am besten man installiert bereits jetzt SmartRF Flash Programmer, damit "
+"Windows später den CC Debugger erkennt. Es gibt alternativ auch die "
+"Möglichkeit, den TI Stick unter Linux mit Hilfe des cc-tool's zu "
+"beschreiben, einfacher ist es aber unter Windows. Für Mac ist derzeit "
+"keine Lösung bekannt."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:122
+msgid ""
+"Später braucht man noch den Medtronic Uploader, der auf dem Android "
+"Smartphone die empfangenen Daten weitertransportiert. Dieser Link steht "
+"hier "
+"https://github.com/arbox0/MedtronicUploader/releases/download/MEDTRONICUPLOADER_R1_V7/NightScout.apk"
+" ausgeschrieben, da es sinnvoll sein kann, das Android Programm direkt "
+"vom Smartphone runterzuladen. Sollte dieser nicht mehr funktionieren, "
+"kann es auch helfen, `hier "
+"<https://github.com/arbox0/MedtronicUploader/releases>`__ zu prüfen, ob "
+"es eine aktuellere Version gibt."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:134
+msgid "CC1111 anschließen"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:136
+msgid ""
+"Beim Verbinden des CC1111 USB Dongle mit dem CC Debugger ist darauf zu "
+"achten, dass dieselbe Ader des Flachbandkabels am Pin 1 des CC Debuggers "
+"und am Pin 1 des Debug Anschlusses des CC1111 angeschlossen wird. Da es "
+"verschiedene Lieferversionen gibt (Ader 1 rot oder Ader 10 rot), sollte "
+"man versuchen, das Kabel anhand des folgenden Bildes richtig "
+"anzuschließen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:143
+msgid "|Kabelverbindung|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:145
+msgid ""
+"Nun müssen der CC1111 und der CC Debugger mit den USB Anschlüssen des "
+"Computers verbunden werden."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:148
+msgid "|Anschluss an den Computer|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:150
+msgid ""
+"Danach sollte der CC Debugger von Windows erkannt und der USB Treiber "
+"installiert werden (vorausgesetzt man hat die Software SmartRF Flash "
+"Programmer bereits installiert)."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:154
+msgid ""
+"Wenn alles richtig angeschlossen ist, leuchtet die LED am CC Debugger "
+"grün, wenn nicht, hilft eventuell ein Blick in das Unterkapitel "
+"`Fehlerbehebung <fehlerbehebung.md>`__."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:161
+msgid "CC1111 Programmierung"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:163
+msgid ""
+"Um den CC1111 USB Dongle zu programmieren, muss der SmartRF Flash "
+"Programmer entsprechend konfiguriert werden. Im \"System-on-Chip\" "
+"Fenster sollte nun der CC1111 erscheinen. Im \"Flash image\" Fenster auf "
+"den Button mit den drei Punkten drücken und die bereits heruntergeladene "
+"HEX-Datei auswählen (MMCommander\\_EUR\\_0.89\\_NoTx.hex). Bei den "
+"\"Actions\" wählt man den Punkt \"Erase, program and verify\" aus."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:170
+msgid "|Konfiguration|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:172
+msgid ""
+"Anschließend nur noch auf \"Perform actions\" klicken und kurz warten. "
+"Hat alles geklappt, sollte es so aussehen:"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:175
+msgid "|Ausgefuehrt|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:177
+msgid "Danach sollte Windows ein neues Gerät namens \"MMCommander\" finden."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:179
+msgid ""
+"Um zu prüfen, ob der MMCommander erfolgreich programmiert wurde, reicht "
+"es, diesen in einen USB Anschluss zu stecken und den Druckknopf auf dem "
+"CC1111 einige Sekunden gedrückt zu halten. Die LED des CC1111 geht an. "
+"Drückt man den Knopf nochmal für ein paar Sekunden, so geht diese LED "
+"wieder aus. Der Stick funktioniert."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:188
+msgid "Medtronic Uploader einrichten"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:190
+msgid ""
+"Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert "
+"werden kann, muss man die Schritte des Kapitels `Nightscout einrichten "
+"<../../nightscout/nightscout_einrichten.md>`__, außer denen des "
+"Unterkapitels \"Care Portal\", vollzogen haben."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:195
+msgid ""
+"Nun installiert man die Datei \"NightScout.apk\" auf dem Smartphone. "
+"Eventuell muss man dazu unter Einstellungen - Sicherheit - Unbekannte "
+"Herkunft die Installation von Apps aus unbekannten Quellen zulassen, da "
+"diese App nicht aus dem Google Play Store stammt. Dort gibt es nur den "
+"für den Dexcom Empfänger gedachten \"Nightscout Uploader\"."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:201
+msgid ""
+"Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel dem "
+"\"Account-Information\". eingetragen hat, werden nun zum Konfigurieren "
+"der Medtronic Uploader App benötigt."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:205
+msgid ""
+"Zuerst muss die Medtronic Uploader App geschlossen werden, falls diese "
+"bereits läuft. Nun den MMCommander über das USB OTG Kabel an das "
+"Smartphone anschließen. Es sollte sich automatisch ein Fenster öffnen, "
+"welches fragt, was getan werden soll. Dort die Nightscout App auswählen "
+"und diese sollte danach automatisch starten."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:211
+msgid ""
+"Wenn jetzt der Uploader läuft, klickt man rechts oben auf die drei Punkte"
+" oder, abhängig vom jeweiligen Android Smartphone, man benutzt die "
+"Einstellungstaste des Gerätes. Es öffnet sich ein Menü, und dort wählt "
+"man den Punkt \"Preferences\". Hier werden folgende Einstellungen "
+"vorgenommen:"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:217
+#: ../../docs/nightscout/settings.rst:21
+msgid "|Einstellungen|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:219
+msgid ""
+"mmol/L -> hier kann man wählen, ob man lieber mit mmol/l oder mg/dl "
+"arbeitet."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:221
+msgid "Type -> \"Medtronic CGM\" auswählen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:222
+msgid ""
+"Pump ID -> die ID von der Pumpenrückseite eintragen. Dies sind die sechs "
+"Ziffern, die auf dem folgenden Bild im Bereich des roten Rechteckes "
+"liegen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:226
+msgid "|Pumpe|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:228
+msgid ""
+"Glucometer ID -> die ID des Blutzuckermessgerätes eintragen (rotes "
+"Rechteck)."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:231
+msgid "|Messgerät|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:233
+msgid ""
+"Sensor ID -> die ID von der Rückseite des Minimed Transmitters eintragen "
+"(rotes Rechteck)."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:236
+msgid "|Transmitter|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:238
+msgid "Calibration Type -> \"Manual\" auswählen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:239
+msgid "Glucose Value Source -> \"Medtronic Sensor\" auswählen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:240
+msgid "API Upload (REST) -> aktivieren"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:241
+msgid ""
+"API Base URL -> ``APISECRET``\\ @\\ https:// "
+"``WEBSEITENNAME``.azurewebsites.net/api/v1 eintragen. Sowohl das "
+"\"APISECRET\", als auch den \"Webseitennamen\" findet man auf der letzten"
+" Seite des Arbeitsblattes aus Kapitel 2.1. - vorausgesetzt man hat das "
+"Arbeitsblatt ausgefüllt. Mit den Beispielen aus Kapitel 2.5. `Azure "
+"<../../nightscout/azure.md>`__ ergäbe sich dann: "
+"Y3KmrdFA12jmk@https://nscgm01.azurewebsites.net/api/v1."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:248
+msgid "MongoDB Upload -> deaktivieren"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:249
+msgid "MongoDB REST Upload -> deaktivieren"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:250
+msgid "Wifi Hack -> deaktivieren"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:251
+msgid "2 Days at Startup -> aktivieren"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:252
+msgid ""
+"I UNDERSTAND -> Hier steht ganz klar, dass Nightscout nicht genutzt "
+"werden darf, um medizinische Entscheidungen zu fällen. Es gibt weder "
+"Unterstützung noch irgendwelche Garantien. Die Qualität und Leistung "
+"dieses Projektes hängt einzig von Dir ab. Dieses Projekt wurde von "
+"Freiwilligen erstellt und weiterentwickelt. Dies muss man akzeptieren. ->"
+" aktivieren"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:258
+msgid "Logging Level -> Error"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:260
+msgid ""
+"Nun geht man raus aus den Einstellungen. Man sollte Striche sehen, einen "
+"grünen Text \"CGM Service Started\" und einen weiteren Text "
+"\"Uncalibrated\"."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:264
+msgid ""
+"Jedes Mal, wenn der Uploader Daten vom Sensor empfängt, erscheint "
+"folgender Text im unteren Teil des Bildschirms: \"Medtronic CGM Message: "
+"sensor data value received\". Sobald man den ersten Wert empfangen hat, "
+"klickt man wieder rechts oben auf die drei Punkte. Diesmal wählt man "
+"\"Instant Calibration\" und gibt den Wert ein, den man gerade auf der "
+"Pumpe abliest. Anschließend sollte der Uploader alle 5 Minuten einen Wert"
+" empfangen und diesen in die Mongo Datenbank hochladen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:272
+msgid "|Upload|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:274
+msgid ""
+"Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa "
+"eine Viertelstunde, bis die ersten Werte über die persönliche "
+"Internetseite im Netz abrufbar sind. Ansonsten empfiehlt sich ein Blick "
+"in das Unterkapitel `Fehlerbehebung <fehlerbehebung.md>`__."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:279
+msgid ""
+"Man sollte die Kalibrierung mittels \"Instant Calibration\" jedes Mal "
+"durchführen, wenn der MMCommander erneut mit dem Smartphone verbunden "
+"wird."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:287
+msgid ""
+"Da die meisten Informationen in diesem Handbuch zum Thema MMCommander und"
+" Medtronic Uploader frei aus der entsprechenden englischen "
+"Installationsanleitung übersetzt wurden und dabei auch einige, nicht "
+"zwingend notwendige, Informationen weggelassen wurden, kann man eventuell"
+" `dort <http://github.com/jberian/mmcommander/>`__ in der Datei "
+"INSTALL.pdf auch weitere Informationen finden."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:294
+msgid "**Probleme beim Verbinden des CC Debuggers mit dem CC1111**"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:296
+msgid ""
+"Wenn die Verbindung zwischen den beiden Geräten nicht funktioniert, "
+"versucht man am besten, das Kabel auf dem CC1111 andersherum zu stecken. "
+"Dabei kann nichts kaputt gehen. Wenn auch diese Maßnahme nichts bringen "
+"sollte, dann könnte im Ausnahmefall das Kabel selbst das Problem sein. "
+"Als letzten Versuch könnte man die Nase des einen Steckers vorsichtig mit"
+" einem Messer entfernen und auch den Stecker im CC Debugger drehen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:303
+msgid "**Probleme mit der Firmware des Debuggers**"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:306
+msgid ""
+"Normalerweise sollte es nicht nötig sein, diese Firmware zu "
+"aktualisieren, da es auch mit einer älteren Version der Firmware klappen "
+"sollte. Wenn es doch nötig sein sollte, weil man zum Beispiel Probleme "
+"beim Programmieren des CC1111 hat, dann trennt man zuerst den CC1111 vom "
+"CC Debugger. Im Pull-Down Menü des SmartRF Flash Programmers wählt man "
+"nun den Punkt \"Program Evaluation Board\" und klickt danach auf \"Update"
+" EB Firmware\" - dies geht übrigens nur, falls der Debugger eine ältere "
+"Version der Software hat. Danach sucht man die Datei mit der neuen "
+"Firmware aus z. B. C:\\\\Programme\\\\Texas Instruments\\\\SmartRF "
+"Tools\\\\Firmware\\\\CC Debugger\\\\cebal\\_fw\\_srf05dbg.hex (Version "
+"kann abweichen). Dabei solltet ihr darauf achten, dass ihr nicht den "
+"Bootloader aktualisiert."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:320
+msgid "|Firmware-Update1|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:322
+msgid ""
+"Anschließend sollte man eine aktualisierte \"EB firmware rev\" und \"... "
+"update OK\" sehen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:325
+msgid "|Firmware-Update2|"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:327
+msgid "**Probleme mit dem CC Debugger**"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:330
+msgid ""
+"Wenn die CC Debugger LED rot leuchtet, dann sollte man die Verkabelung "
+"überprüfen und sicherstellen, dass sowohl der CC111 als auch der CC "
+"Debugger an USB Ports angeschlossen sind. Eventuell auch nochmal den "
+"Reset Knopf des Debuggers drücken."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:335
+msgid ""
+"Wenn die LED des CC Debuggers rot blinkt, dann hat der Debugger selbst "
+"einen Fehler und man sollte im englischen `TI's CC Debugger User Guide "
+"<http://www.ti.com/lit/pdf/swru197>`__ nach Rat suchen."
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:339
+msgid "**Grundsätzlich**"
+msgstr ""
+
+#: ../../docs/grundlagen/mmcommander.rst:342
+msgid ""
+"Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann "
+"empfiehlt sich ein Blick in die bereits oben erwähnte englische "
+"Originaldatei INSTALL.pdf, die der Autor geschrieben hat."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:2
+msgid "xDrip"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:4
+msgid ""
+"Eine Möglichkeit, das Dexcom G4-CGM-System zu nutzen, besteht mit der "
+"Alternative xDrip und der xDrip App auf einem Android-Smartphone."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:7
+msgid "**Eine kurze Beschreibung zum Prozessablauf:**"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:9
+msgid ""
+"Ein Dexcom-Sensor liegt auf/unter der Haut und misst den Glucosegehalt im"
+" Gewebe."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:11
+msgid ""
+"Ein Dexcom G4 Transmitter ist auf dem Sensor eingeklinkt und sendet die "
+"Glucose-Werte über ein Funk-Protokoll und würde im regulären Fall vom "
+"Dexcom-Receiver empfangen und angezeigt."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:14
+msgid ""
+"Durch den Einsatz von xDrip kann der Dexcom-Receiver entfallen. Die vom "
+"Transmitter gesendeten Werte werden dann von einer selbst gebauten "
+"Hardware (xDrip) empfangen und via Bluetooth an ein Android-Handy "
+"gesendet. Auf dem Handy wird die xDrip-App installiert."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:19
+msgid "**Das System xDrip besteht aus zwei Komponenten:**"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:21
+msgid ""
+"Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe "
+"`Bausatz <../bausatz.md>`__) miteinander verlötet."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:24
+msgid ""
+"Die `xDrip App <../xdrip_app.md>`__ wird auf ein Android-Handy "
+"aufgespielt und mit einigen Handgriffen individuell konfiguriert. Sie hat"
+" folgende Funktionen:"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:28
+msgid "Empfang von Gewebezucker-Messwerten"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:29
+msgid "Anzeige (und ggf. Ansage) von GZ-Werten"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:30
+msgid ""
+"Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, "
+"Nightscout)"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:32
+msgid ""
+"Alarm bei (zuvor individuell definierten) meldewürdigen GZ-Werten / GZ-"
+"Verlauf"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:34
+msgid "Export der GZ-Werte zur Auswertung in andere Systeme (zB. SiDiary, Excel)"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:37
+msgid "**Abgrenzung**"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:39
+msgid "xDrip hat keine Freigabe als medizinisches Produkt,"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:40
+msgid "xDrip hat keine Garantie, keine Gewährleistung."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:41
+msgid "xDrip ist kein käufliches Produkt."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:42
+#, python-format
+msgid "xDrip wird zu 100% in eigener Verantwortung genutzt."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:43
+msgid ""
+"xDrip kann die Messung des Blutzuckers nicht vollständig ersetzen. "
+"(Kontrollen und Kalibrierungen sind nötig.)"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:45
+msgid "xDrip steuert nicht die Abgabe einer Insulinpumpe."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:46
+msgid ""
+"xDrip wird ausschließlich von Freiwilligen und ohne jede Bezahlung "
+"entwickelt."
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:48
+msgid ""
+"xDrip hat keinen zentralen Ansprechpartner, keine Hotline, keinen "
+"Verantwortlichen"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:50
+msgid ""
+"xDrip arbeitet mit dem Transmitter „Dexcom G4“. Es funktioniert nicht mit"
+" \"Dexcom G5\" (Stand 03/2016)"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip.rst:55
 msgid "Bausatz"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:7
+#: ../../docs/grundlagen/xdrip.rst:60
 msgid ""
 "Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die "
 "verwendete Hardware, die Art die Hardware zu verlöten und auch die "
@@ -1914,43 +2036,43 @@ msgid ""
 "aufgespielt.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:9
+#: ../../docs/grundlagen/xdrip.rst:62
 msgid ""
 "Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen"
 " für ähnliche Dinge."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:12
+#: ../../docs/grundlagen/xdrip.rst:65
 msgid ""
 "Die Varianten haben unterschiedliche Eigenschaften, letztlich aber "
 "dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und an ein "
 "Bluetooth-Handy zu übertragen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:14
+#: ../../docs/grundlagen/xdrip.rst:67
 msgid ""
 "Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung "
 "zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten "
 "Bauformen zu beschreiben."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:18
+#: ../../docs/grundlagen/xdrip.rst:71
 msgid ""
 "Hier werden drei verschiedene Bauformen vorgestellt. Eine \"Bauform\" "
 "meint eine Art, die Hardware-Komponenten miteinander zu verlöten."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:21
+#: ../../docs/grundlagen/xdrip.rst:74
 msgid "Bauform 1.): \"xDrip classic\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:23
+#: ../../docs/grundlagen/xdrip.rst:76
 msgid ""
 "Dies ist die einfachste Bauform. Es hat sich der Name der \"xDrip "
 "classic\" etabliert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:27
+#: ../../docs/grundlagen/xdrip.rst:80
 msgid ""
 "Vorteil: Weniger Lötstellen. Einfach und robust. (Was nicht dran ist, "
 "kann nicht kaputt gehen.) Im Regelbetrieb leuchtet immer eine LED. Das "
@@ -1958,38 +2080,38 @@ msgid ""
 " noch \"lebt\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:29
+#: ../../docs/grundlagen/xdrip.rst:82
 msgid ""
 "Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei "
 "xBridge-Bauform."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:31
+#: ../../docs/grundlagen/xdrip.rst:84
 msgid "Bauform 2.): \"xDrip classic mit Spannungsteiler\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:34
+#: ../../docs/grundlagen/xdrip.rst:87
 msgid ""
 "Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst geringem"
 " Aufwand ein \"xDrip classic\" um eine Anzeige der Akku-Ladung erweitert "
 "werden soll."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:36
+#: ../../docs/grundlagen/xdrip.rst:89
 msgid ""
 "Vorteil: Mit Anzeige der Akku-Ladung. Geringer Aufwand beim Umbau von "
 "\"xDrip classic\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:37
+#: ../../docs/grundlagen/xdrip.rst:90
 msgid "Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:39
+#: ../../docs/grundlagen/xdrip.rst:92
 msgid "Bauform 3.): \"xBridge\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:43
+#: ../../docs/grundlagen/xdrip.rst:96
 msgid ""
 "Die Stromversorgung des Bluetooth-Moduls läuft etwas anders, als beim "
 "\"xDrip classic\". Im Vergleich zum \"xDrip mit Spannungsteiler\" müssen "
@@ -1997,24 +2119,24 @@ msgid ""
 "die Anbindung an das Bluetooth-Modul etwas anders geschaltet werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:47
+#: ../../docs/grundlagen/xdrip.rst:100
 msgid ""
 "Vorteil: Von den hier vorgestellten Varianten die längste Akku-Laufzeit. "
 "Von der Anzeige der Akku-Ladung bitte keine Wunder erwarten - es ist nur "
 "eine grobe Orientierung. Der aangezeigte Prozentwert sinkt nicht linear."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:49
+#: ../../docs/grundlagen/xdrip.rst:102
 msgid ""
 "Nachteil: Ungeeignet, wenn sich die Bluetooth-Verbindung zum Handy sich "
 "schlecht oder langsam aufbaut."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:51
+#: ../../docs/grundlagen/xdrip.rst:104
 msgid "Tipps und Rat für Einsteiger:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:53
+#: ../../docs/grundlagen/xdrip.rst:106
 msgid ""
 "Baut zunächst einen xDrip in der \"klassischen Verschaltung\". Es "
 "entfallen die beiden Widerstände, dafür fehlt in der App die "
@@ -2023,13 +2145,13 @@ msgid ""
 "Modul ggf. ändern)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:58
+#: ../../docs/grundlagen/xdrip.rst:111
 msgid ""
 "Verwendet für das Wixel die \"xBridge2.wxl\"-Software. Für alle hier "
 "gezeigten Schaltkreise/Bauformen ist diese Software geeignet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:60
+#: ../../docs/grundlagen/xdrip.rst:113
 msgid ""
 "Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein,"
 " dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen "
@@ -2044,7 +2166,7 @@ msgid ""
 "nehmen.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:71
+#: ../../docs/grundlagen/xdrip.rst:124
 msgid ""
 "Die Brücke \"for faster charging with large batteries\" beeinflusst den "
 "Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen,"
@@ -2055,14 +2177,14 @@ msgid ""
 "bringen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:79
+#: ../../docs/grundlagen/xdrip.rst:132
 msgid ""
 "Die Kabel können sehr dünn sein - das erhöht die Flexibilität. "
 "Verschiedene Farben machen es leichter, die Übersicht zu behalten, "
 "solange der xDrip noch im Bau ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:82
+#: ../../docs/grundlagen/xdrip.rst:135
 msgid ""
 "Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat "
 "sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und "
@@ -2072,7 +2194,7 @@ msgid ""
 " auch ohne dieses Modul."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:88
+#: ../../docs/grundlagen/xdrip.rst:141
 msgid ""
 "In den Schaltbildern sind keine Schalter eingetragen. Ein Schalter kann "
 "sinnvoll sein, um einen zweiten (geladenen, aber abgeschalteten) xDrip "
@@ -2082,65 +2204,65 @@ msgid ""
 "Schwimmengehens,...)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:95
+#: ../../docs/grundlagen/xdrip.rst:148
 msgid ""
 "**Schaltbild für xDrip in der \"klassischen Verschaltung\" (Empfehlung "
 "für Einsteiger)**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:98
+#: ../../docs/grundlagen/xdrip.rst:151
 msgid "(ohne Widerstände für Batterieanzeige)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:99
+#: ../../docs/grundlagen/xdrip.rst:152
 msgid "|xDrip Schaltbild|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:101
+#: ../../docs/grundlagen/xdrip.rst:154
 msgid "\\*\\* Hinweise zum Löten: \\*\\*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:103
+#: ../../docs/grundlagen/xdrip.rst:156
 msgid ""
 "Wenn ihr ein anderes Bluetooth-Modul habt als in der Abbildung "
 "dargestellt, achtet auf die korrekte Verlötung vom Wixel zum Bluetooth-"
 "Modul. (Achtet auf die Beschriftung der Pins in der Abbildung)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:107
+#: ../../docs/grundlagen/xdrip.rst:160
 msgid ""
 "Anleitung zum Löten: `Film "
 "<https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:110
+#: ../../docs/grundlagen/xdrip.rst:163
 msgid "\\*\\* Zur Software auf dem Wixel: \\*\\*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "xBridge Firmware: `xBridge2.wxl <https://github.com/jstevensog/wixel-"
 "sdk/raw/master/apps/xBridge2/xBridge2.wxl>`__ (Auch empfohlen bei "
 "Verlötung nach \"xDrip classic\".)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "(Update 01/2017: Mit der xBridge-Verdrahtung wird alternativ diese wxl "
 "empfohlen:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid "https://github.com/savek-cc/wixel-sdk/blob/master/apps/xBridge2/xBridge2.c"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "Achtung: Nur in Zusammenspiel mit der Handy-App \"xDrip+\" lauffähig. "
 "Nicht mit xDrip.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "Die Ansteuerung der Dioden ist anders, als unten beschrieben. Die "
 "Laufzeit ist höher, als in den anderen Versionen. Wenn es Lücken in der "
@@ -2148,19 +2270,19 @@ msgid ""
 "für mehrere Stunden aufgefüllt.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:125
+#: ../../docs/grundlagen/xdrip.rst:178
 msgid ""
 "Software zum Aufspielen der wxl-Datei auf das Wixel `Wixel Configuration "
 "Utility <https://www.pololu.com/product/1337/resources>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:129
+#: ../../docs/grundlagen/xdrip.rst:182
 msgid ""
 "Weitere Infos: siehe `hier <https://github.com/jstevensog/wixel-"
 "sdk/blob/master/apps/xBridge2/xBridge2.pdf>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "Tipp: Wenn auf dem Wixel schon eine xBridge2.wxl Software aufgespielt "
 "ist, dann legt die Software das Wixel zyklisch in einen passiven Modus. "
@@ -2168,7 +2290,7 @@ msgid ""
 "verbinden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "Es gibt zwei Möglichkeiten: Warten, bis das Wixel (alle 5 Minuten) "
 "aufwacht, die Verbindung aufbauen und in der \"Wixel Configuration "
@@ -2176,28 +2298,28 @@ msgid ""
 "der Spannungsversorgung trennen und dann die Verbindung aufbauen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:141
+#: ../../docs/grundlagen/xdrip.rst:194
 msgid "\\*\\* Info zu den Widerständen: \\*\\* (wichtig für die Batterie-Anzeige)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:143
+#: ../../docs/grundlagen/xdrip.rst:196
 msgid "\"xDrip classic\" (ohne Spannungsteiler) Also keine Widerstände verbaut."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:145
+#: ../../docs/grundlagen/xdrip.rst:198
 msgid ""
 "\"xDrip classic zzgl. Spannungsteiler\". Dann muss der Spannungsteiler "
 "ein Verhältnis von 1:2,2 haben. Empfohlen werden 10k und 22k. (Aber die "
 "Kombination mit 1k und 2,2k geht auch.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:148
+#: ../../docs/grundlagen/xdrip.rst:201
 msgid ""
 "\"xBridge\" (incl. Spannungsteiler). Dann muss der Spannungsteiler ein "
 "Verhältnis von 1:2,7 haben. Empfohlen werden 10k und 27k."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:150
+#: ../../docs/grundlagen/xdrip.rst:203
 msgid ""
 "Wenn Widerstände neu eingebaut wurden, wenn die eingebauten Widerstände "
 "verändert wurden oder wenn der Akku getauscht wurde, muss anschließend "
@@ -2206,7 +2328,7 @@ msgid ""
 "in der xDrip-App sind falsch."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:155
+#: ../../docs/grundlagen/xdrip.rst:208
 msgid ""
 "Metallschicht-Widerstände sind etwas größer und damit leichter zu "
 "handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man "
@@ -2214,226 +2336,226 @@ msgid ""
 "Löten."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:163
+#: ../../docs/grundlagen/xdrip.rst:216
 msgid ""
 "Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl "
 "auf dem Wixel)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:166
+#: ../../docs/grundlagen/xdrip.rst:219
 msgid ""
 "Die Anzeigen sind von der Version der wxl-Datei und von der verbauten "
 "Hardware abhängig - in der folgenden Tabelle gibt es eine grobe "
 "Orientierung."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:168
+#: ../../docs/grundlagen/xdrip.rst:221
 msgid "Erklärung zur folgenden Tabelle:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:170
+#: ../../docs/grundlagen/xdrip.rst:223
 msgid "**Die Inhalte sind noch nicht abgesichert.**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:171
+#: ../../docs/grundlagen/xdrip.rst:224
 msgid ""
 "\"[STRIKEOUT:grün]\" bedeutet: Es gibt verschiedene Bauformen für die "
 "Bluetooth-Module (HM10 und HM11), die Farbe der LED kann eine andere "
 "sein."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:174
+#: ../../docs/grundlagen/xdrip.rst:227
 msgid "\"-\" bedeutet: Diese Anzeige sollte nicht vorkommen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:176
+#: ../../docs/grundlagen/xdrip.rst:229
 msgid "**Bauteile**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "Bauteil"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "Anzeige"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "xDrip classic"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "xDrip classic mit Spannungsteiler"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "xBridge"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "HM17"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "HM11"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "Klärung nötig"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "HM10"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "grün Dauerleuchten"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "Regelbetrieb"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "grün blinkend"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "keine BT-Verbindung zum Handy"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "grün aus, aber alle 5 Minuten kurzes Blinken, dann ca. 30 Sek. an"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "Wixel"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "orange Dauerblinken"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "keine Verbindung zum Transmitter"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "orange Dauerleuchten"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "orange alle 5 Minuten blinkend"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "orange alle 5 Minuten ca. 30 Sek. Dauerleuchten"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "ab und zu orange und rot gleichzeitig"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "App Statusanzeige"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "\"not connected\" dauerhaft"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "keine Verbindung zum BT-Modul"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "\"not connected\", aber alle 5 Minuten für ca. 30 Sek \"connected\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "Regelbetrieb (!)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+#: ../../docs/grundlagen/xdrip_bauteile.csv:1
 msgid "\"connected\" dauerhaft"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:182
+#: ../../docs/grundlagen/xdrip.rst:235
 msgid "**Stückliste** ( Stand: September 2015 )"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Nr."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Bemerkung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Bauteil:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Vertrieb:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Verkaufspreis:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Artikelnummer:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Hersteller-Nr.:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "1"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "optional"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`IC Lithium-Polymer Akku-Schutzschaltung "
 "<http://www.voelkner.de/products/128243/IC-Lithium-Polymer-Akku-"
 "Schutzschaltung.html>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Voelkner"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "2,96 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Q33939"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "S-8261ABJMD-G3J2G"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "2"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "optional (und Alternative zu 1)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-G3J2G "
 "<https://www.conrad.de/de/schutzmodul-fuer-lithium-polymer-akkumulator-s"
@@ -2441,285 +2563,285 @@ msgid ""
 "fuer-lithium-polymer-akkumulator-155151.html?ref=searchDetail>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Conrad"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "155151 - VQ"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "3"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "notwendig"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`Pololu Wixel Programmable USB Wireless Module <http://www.exp-tech.de"
 "/pololu-wixel-programmable-usb-wireless-module>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "EXP TECH"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "18,60 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "EXP-R25-070"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Pololu 1337"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "4"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`Adafruit Mini Lipo w/Mini-B USB Jack - USB LiIon/LiPoly charger "
 "<http://www.exp-tech.de/adafruit-mini-lipo-w-mini-b-usb-jack-usb-liion-"
 "lipoly-charger>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "7,65 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "EXP-R15-446"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Adafruit 1905"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "5"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "notwendig, alternativ auch HM10 möglich"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`Seeed Studio Bluetooth V4.0 HM-11 BLE Module <http://www.exp-tech.de"
 "/seeed-studio-bluetooth-v4-0-hm-11-ble-module>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "12,28 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "EXP-R02-308"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Seeed Studio 210005001"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "6"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`Handgehäuse Minitec El, 78x48x20, Lava/Grün "
 "<http://www.voelkner.de/products/213275/Minitec-El-78x48x20-Lava-"
 "Gruen.html>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "12,38 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "S23261"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "D9006178"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "7"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "optional, Alternative zu 6"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set "
 "<https://www.conrad.de/de/hand-gehaeuse-78-x-48-x-20-kunststoff-lava-"
 "gruen-okw-minitec-d9006178-1-set-535384.html?ref=searchDetail>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "13,57 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "535384 - 62"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "8"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "notwendig, oder ein anderer 3,7v LiPo-Akku"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`Lipo Akku 1100 mAh 3,7V Einzelzelle <http://shop.lipopower.de/1100-mAh-"
 "37V-Einzelzelle-1C-34mm-breit>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Lipopower.de"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "6,95 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "7.011.0-11_34"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "1C 603450"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "9"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "optional (für Batterieanzeige bei xBridge-Schaltung)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "10"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "optional (für Batterieanzeige bei xDrip-Schaltung)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k <>"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "11"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`flexible Leitungen (dünn) Beispiel <http://www.exp-tech.de/silicone-"
 "cover-stranded-core-wire-30awg-black>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "exp-tech.de"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "0,80 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "EXP-R15-686"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Adafruit"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "12"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Lötzinn, Lötkolben"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "13"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "optional, aber empfehlenswert"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Schrumpfschlauch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "14"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`\"dritte Hand\" ein Beispiel: Link "
 "<http://www.amazon.de/Silverline-633830-Dritte-Hand-"
 "Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "15"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "Epoxid Trennschicht"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid "16"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+#: ../../docs/grundlagen/xdrip_stückliste.csv:1
 msgid ""
 "`Kabel mit Mini-USB-Stecker, um das Wixel zu bespielen "
 "<http://www.amazon.de/dp/B00NH11N5A>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:190
+#: ../../docs/grundlagen/xdrip.rst:243
 msgid ""
 "Hinweis: Es gibt Erfahrungsberichte, die besagen, dass ein HM17 sich "
 "ebenso verwenden lässt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:196
+#: ../../docs/grundlagen/xdrip.rst:249
 msgid "Weiterführende Infos / Schaltbilder für xBridge"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:199
+#: ../../docs/grundlagen/xdrip.rst:252
 msgid ""
 "Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante "
 "\"xDrip-classic\" nicht gewünscht ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:204
+#: ../../docs/grundlagen/xdrip.rst:257
 msgid ""
 "Es gibt verschiedene Bluetooth-Module: HM10, HM11 oder HM-17 für die es "
 "verschiedene Bauformen gibt. Deswegen hier mehrere Bilder zur "
@@ -2728,64 +2850,64 @@ msgid ""
 "Abbildungen auch die Bezeichnungen der Anschlüsse ablesen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:206
+#: ../../docs/grundlagen/xdrip.rst:259
 msgid "**Schaltbild für xBridge mit HM-10**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:207
+#: ../../docs/grundlagen/xdrip.rst:260
 msgid "|HM10_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:209
+#: ../../docs/grundlagen/xdrip.rst:262
 msgid "**Schaltbild für xBridge mit HM-10 auf Breakout Board**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:210
+#: ../../docs/grundlagen/xdrip.rst:263
 msgid "|HM10_Breakout Board_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:212
+#: ../../docs/grundlagen/xdrip.rst:265
 msgid "**Schaltbild für xBridge mit HM-11**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:213
+#: ../../docs/grundlagen/xdrip.rst:266
 msgid "|HM11_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:215
+#: ../../docs/grundlagen/xdrip.rst:268
 msgid "**Schaltbild für \"xDrip USB V3\"**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:216
+#: ../../docs/grundlagen/xdrip.rst:269
 msgid "|xDrip V3usb Schaltbild|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:218
+#: ../../docs/grundlagen/xdrip.rst:271
 msgid "\\*\\* Weitere Infos / empfohlene Links: \\*\\* (englische Seiten)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:220
+#: ../../docs/grundlagen/xdrip.rst:273
 msgid ""
 "zu xBridge2: Ein `PDF <https://github.com/jstevensog/wixel-"
 "sdk/raw/master/apps/xBridge2/xBridge2.pdf>`__ Dokument findet sich in "
 "diesem `Repository <https://github.com/jstevensog/wixel-sdk>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:224
+#: ../../docs/grundlagen/xdrip.rst:277
 msgid ""
 "Eine weitere Seite mit Anleitungen findet sich `hier <http://circles-of-"
 "blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-"
 "dexdrip-introduction/>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:226
+#: ../../docs/grundlagen/xdrip.rst:279
 msgid ""
 "Eine sehr hübsche Anleitung zu Bau der xDrip-Box findet sich hier: "
 "http://www.hypodiabetic.co.uk/home/blog/hacking-diabetes/xdrip-and-"
 "xbridge-build-instructions"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:228
+#: ../../docs/grundlagen/xdrip.rst:281
 msgid ""
 "Wichtige Quellen zu xDrip finden sich an diesen Stellen: `hier "
 "<https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip>`__ und `hier"
@@ -2794,137 +2916,11 @@ msgid ""
 "pages/hardware_setup.md>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/index.rst:2
-#: ../../docs/grundlagen/xdrip/xdrip.rst:2
-msgid "xDrip"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:4
-msgid ""
-"Eine Möglichkeit, das Dexcom G4-CGM-System zu nutzen, besteht mit der "
-"Alternative xDrip und der xDrip App auf einem Android-Smartphone."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:7
-msgid "**Eine kurze Beschreibung zum Prozessablauf:**"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:9
-msgid ""
-"Ein Dexcom-Sensor liegt auf/unter der Haut und misst den Glucosegehalt im"
-" Gewebe."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:11
-msgid ""
-"Ein Dexcom G4 Transmitter ist auf dem Sensor eingeklinkt und sendet die "
-"Glucose-Werte über ein Funk-Protokoll und würde im regulären Fall vom "
-"Dexcom-Receiver empfangen und angezeigt."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:14
-msgid ""
-"Durch den Einsatz von xDrip kann der Dexcom-Receiver entfallen. Die vom "
-"Transmitter gesendeten Werte werden dann von einer selbst gebauten "
-"Hardware (xDrip) empfangen und via Bluetooth an ein Android-Handy "
-"gesendet. Auf dem Handy wird die xDrip-App installiert."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:19
-msgid "**Das System xDrip besteht aus zwei Komponenten:**"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:21
-msgid ""
-"Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe "
-"`Bausatz <../bausatz.md>`__) miteinander verlötet."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:24
-msgid ""
-"Die `xDrip App <../xdrip_app.md>`__ wird auf ein Android-Handy "
-"aufgespielt und mit einigen Handgriffen individuell konfiguriert. Sie hat"
-" folgende Funktionen:"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:28
-msgid "Empfang von Gewebezucker-Messwerten"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:29
-msgid "Anzeige (und ggf. Ansage) von GZ-Werten"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:30
-msgid ""
-"Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, "
-"Nightscout)"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:32
-msgid ""
-"Alarm bei (zuvor individuell definierten) meldewürdigen GZ-Werten / GZ-"
-"Verlauf"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:34
-msgid "Export der GZ-Werte zur Auswertung in andere Systeme (zB. SiDiary, Excel)"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:37
-msgid "**Abgrenzung**"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:39
-msgid "xDrip hat keine Freigabe als medizinisches Produkt,"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:40
-msgid "xDrip hat keine Garantie, keine Gewährleistung."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:41
-msgid "xDrip ist kein käufliches Produkt."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:42
-#, python-format
-msgid "xDrip wird zu 100% in eigener Verantwortung genutzt."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:43
-msgid ""
-"xDrip kann die Messung des Blutzuckers nicht vollständig ersetzen. "
-"(Kontrollen und Kalibrierungen sind nötig.)"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:45
-msgid "xDrip steuert nicht die Abgabe einer Insulinpumpe."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:46
-msgid ""
-"xDrip wird ausschließlich von Freiwilligen und ohne jede Bezahlung "
-"entwickelt."
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:48
-msgid ""
-"xDrip hat keinen zentralen Ansprechpartner, keine Hotline, keinen "
-"Verantwortlichen"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip.rst:50
-msgid ""
-"xDrip arbeitet mit dem Transmitter „Dexcom G4“. Es funktioniert nicht mit"
-" \"Dexcom G5\" (Stand 03/2016)"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:2
+#: ../../docs/grundlagen/xdrip.rst:289
 msgid "xDrip App"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:7
+#: ../../docs/grundlagen/xdrip.rst:294
 msgid ""
 "Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy "
 "läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und - optional - "
@@ -2932,41 +2928,41 @@ msgid ""
 "hochzuladen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:10
+#: ../../docs/grundlagen/xdrip.rst:297
 msgid ""
 "Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with "
 "Share* oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht "
 "erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:13
+#: ../../docs/grundlagen/xdrip.rst:300
 msgid "Voraussetzungen:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:15
+#: ../../docs/grundlagen/xdrip.rst:302
 msgid "Android-Telefon mit Betriebssystem-Version 4.3 (besser 4.4 oder höher)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:17
+#: ../../docs/grundlagen/xdrip.rst:304
 msgid ""
 "Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab "
 "Bluetooth 4.0 vorhanden und wird häufig mit \"Bluetooth Smart\" "
 "gekennzeichnet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:20
+#: ../../docs/grundlagen/xdrip.rst:307
 msgid "xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur USA)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:24
+#: ../../docs/grundlagen/xdrip.rst:311
 msgid "Grund-Funktionalität"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:27
+#: ../../docs/grundlagen/xdrip.rst:314
 msgid "Download & Installation"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:29
+#: ../../docs/grundlagen/xdrip.rst:316
 msgid ""
 "Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der "
 "Download für eine lauffähige Version (\\*.apk-File) findet sich hier: "
@@ -2974,24 +2970,24 @@ msgid ""
 "<https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:36
+#: ../../docs/grundlagen/xdrip.rst:323
 msgid ""
 "Die hier verlinkten Versionen sind so erstellt, dass man eine ältere "
 "Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte "
 "zu verlieren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:38
+#: ../../docs/grundlagen/xdrip.rst:325
 msgid ""
 "Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen"
 " Quellen selbst die apk zusammenstellen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:40
+#: ../../docs/grundlagen/xdrip.rst:327
 msgid "**\"xDrip\" oder \"xDrip+\"**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:45
+#: ../../docs/grundlagen/xdrip.rst:332
 msgid ""
 "Alternativ zur \"xDrip\"-App wird auch die Software \"xDrip+\" empfohlen."
 " xDrip+ ist eine Variante, bzw. eine Erweiterung der \"xDrip\"-App. In "
@@ -3000,31 +2996,31 @@ msgid ""
 "Möglichkeiten kann Einsteiger auch verwirren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:47
+#: ../../docs/grundlagen/xdrip.rst:334
 msgid ""
 "Die Beschreibungen dieser Seite wurden für xDrip geschrieben, sie gelten "
 "aber ebenso für xDrip+."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:49
+#: ../../docs/grundlagen/xdrip.rst:336
 msgid "Infos und Download zu xDrip+ finden sich hier: https://jamorham.github.io/"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:52
+#: ../../docs/grundlagen/xdrip.rst:339
 msgid "Verbinden mit dem Wixel"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:55
+#: ../../docs/grundlagen/xdrip.rst:342
 msgid "Bluetooth-Scan / Hardware data source"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:57
+#: ../../docs/grundlagen/xdrip.rst:344
 msgid ""
 "Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter "
 "empfangen und an die xDrip-App übergeben werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:60
+#: ../../docs/grundlagen/xdrip.rst:347
 msgid ""
 "Bluetooth Wixel xDrip in classic - xml. Selbst kompilierte wxl, in die "
 "die individuelle Transmitter-ID einkompiliert wurde. Erstellt gemäß "
@@ -3033,17 +3029,17 @@ msgid ""
 "xDrip"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:66
+#: ../../docs/grundlagen/xdrip.rst:353
 msgid ""
 "xBridge Wixel xDrip in xBridge2 wxl. Aus dieser `Quelle "
 "<https://github.com/jstevensog/wixel-sdk>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:69
+#: ../../docs/grundlagen/xdrip.rst:356
 msgid "Wifi Wixel Weitere Infos, siehe: ?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:71
+#: ../../docs/grundlagen/xdrip.rst:358
 msgid ""
 "Wifi Wixel + BT Wixel Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu "
 "Hause mehrere Wixel im WLAN, die im ganzen Haus den Empfang "
@@ -3052,212 +3048,212 @@ msgid ""
 "xdrip"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:76
+#: ../../docs/grundlagen/xdrip.rst:363
 msgid ""
 "DexcomShare DexcomShare ist zZt. in Europa nicht verfügbar. Weitere "
 "Infos: http://www.dexcom.com/dexcom-g4-platinum-share"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:81
+#: ../../docs/grundlagen/xdrip.rst:368
 msgid "System Status"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:83
+#: ../../docs/grundlagen/xdrip.rst:370
 msgid "Hier findet man Informationen über das System:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:85
+#: ../../docs/grundlagen/xdrip.rst:372
 msgid "welche Hardware benutzt wird"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:86
+#: ../../docs/grundlagen/xdrip.rst:373
 msgid "welchen Ladezustand die Batterie des Transmitters hat"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:87
+#: ../../docs/grundlagen/xdrip.rst:374
 msgid "wann der Sensor gestartet worden ist"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:88
+#: ../../docs/grundlagen/xdrip.rst:375
 msgid "wie viele Tage und Stunden er bereits liegt"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:89
+#: ../../docs/grundlagen/xdrip.rst:376
 msgid "Connection Status: Ist die Hardware xDrip mit der App verbunden?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:90
+#: ../../docs/grundlagen/xdrip.rst:377
 msgid ""
 "Über Antippen von \"Forget Device\" kann man die Verbindung unterbrechen "
 "und über \"Restart Collector\" neu in Gang setzen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:94
+#: ../../docs/grundlagen/xdrip.rst:381
 msgid "Transmitter Battery Info"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:97
+#: ../../docs/grundlagen/xdrip.rst:384
 msgid "xDrip Battery Info"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:99
+#: ../../docs/grundlagen/xdrip.rst:386
 msgid "---> ist noch zu beschreiben!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:101
+#: ../../docs/grundlagen/xdrip.rst:388
 msgid "**Settings**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "Name"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "Bedeutung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "Empfehlung für Einsteiger"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "Bg Units"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "\"mg/dl\" oder \"mmol\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "High Value"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid ""
 "Grenze, ab der ein Wert in der Anzeige und Statistik als \"zu hoch\" "
 "gewertet wird."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "Low Value"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid ""
 "Grenze, ab der ein Wert in der Anzeige und Statistik als \"zu tief\" "
 "gewertet wird."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "Display Bridge Battery"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid ""
 "Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige "
 "gemacht werden"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "Nur aktivieren, wenn ein Spannungsteiler verbaut wurde."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "Run Collection Service in foreground"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid ""
 "Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt "
 "in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/settings.csv:1
+#: ../../docs/grundlagen/xdrip_settings.csv:1
 msgid "aktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:108
+#: ../../docs/grundlagen/xdrip.rst:395
 msgid "Screenshot des Hauptbildschirms"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:110
+#: ../../docs/grundlagen/xdrip.rst:397
 msgid "|xDrip_Screenshot_Hauptansicht|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:112
+#: ../../docs/grundlagen/xdrip.rst:399
 msgid "**oberer Bereich des Hauptbildschirms**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:114
+#: ../../docs/grundlagen/xdrip.rst:401
 msgid "aktueller GZ mit Trendpfeil"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:115
+#: ../../docs/grundlagen/xdrip.rst:402
 msgid "Zeit seit letzter Messung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:116
+#: ../../docs/grundlagen/xdrip.rst:403
 msgid "Differenz zur vorletzten Messung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:117
+#: ../../docs/grundlagen/xdrip.rst:404
 msgid "Batterie-Stand von xDrip/xBridge (optional)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:118
+#: ../../docs/grundlagen/xdrip.rst:405
 msgid "dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:119
+#: ../../docs/grundlagen/xdrip.rst:406
 msgid "dünne rote Gerade: Individuell definierte Grenze für „zu tief“"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:120
+#: ../../docs/grundlagen/xdrip.rst:407
 msgid "Verlauf der letzten drei Stunden"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:121
+#: ../../docs/grundlagen/xdrip.rst:408
 msgid "Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:123
+#: ../../docs/grundlagen/xdrip.rst:410
 msgid "blau: im Zielbereich"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:124
+#: ../../docs/grundlagen/xdrip.rst:411
 msgid "gelb: zu hoch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:125
+#: ../../docs/grundlagen/xdrip.rst:412
 msgid "rot: zu tief"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:126
+#: ../../docs/grundlagen/xdrip.rst:413
 msgid "rot/weiß: Kalibrierungen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:128
+#: ../../docs/grundlagen/xdrip.rst:415
 msgid "**unterer Bereich des Hauptbildschirms**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:130
+#: ../../docs/grundlagen/xdrip.rst:417
 msgid ""
 "Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand "
 "zeigt die letzten drei Stunden, die oben größer dargestellt sind."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:133
+#: ../../docs/grundlagen/xdrip.rst:420
 msgid "Starten des Sensors"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:135
+#: ../../docs/grundlagen/xdrip.rst:422
 msgid ""
 "Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut "
 "sitzt (prüfen, ob an der Seite alles gut eingerastet ist), geht man über "
 "das Hauptmenü zum Punkt \"Start Sensor\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:139
+#: ../../docs/grundlagen/xdrip.rst:426
 msgid ""
 "Hier folgt neben einem Warnhinweis, frei übersetzt: Erst dann auf "
 "\"Sensor Start\" tippen, wenn der Sensor gelegt und der Transmitter "
@@ -3266,7 +3262,7 @@ msgid ""
 "dran, wie man sich noch erinnert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:145
+#: ../../docs/grundlagen/xdrip.rst:432
 msgid ""
 "Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu "
 "notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf "
@@ -3276,32 +3272,32 @@ msgid ""
 "Gründen auch immer kurz abgenommen hatte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:152
+#: ../../docs/grundlagen/xdrip.rst:439
 msgid "Zur Erklärung der 12-Stunden-Anzeige:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:154
+#: ../../docs/grundlagen/xdrip.rst:441
 msgid ""
 "AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, "
 "Eselsbrücke: **A**\\ m **M**\\ orgen;"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:155
+#: ../../docs/grundlagen/xdrip.rst:442
 msgid "PM = post meridiem, auf Deutsch: NACH dem Mittag"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:157
+#: ../../docs/grundlagen/xdrip.rst:444
 msgid ""
 "Hat man den Sensor gestartet, erscheint auf dem Hauptbildschirm in roten "
 "Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten"
 " (rückwärtslaufend) eine Doppelkalibrierung benötigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:161
+#: ../../docs/grundlagen/xdrip.rst:448
 msgid "**Alternativen beim Starten des Sensors**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:163
+#: ../../docs/grundlagen/xdrip.rst:450
 msgid ""
 "Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn"
 " man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start "
@@ -3310,17 +3306,17 @@ msgid ""
 "dem neu gesetzten Sensor verwendet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:170
+#: ../../docs/grundlagen/xdrip.rst:457
 msgid "Stoppen des Sensors"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:172
+#: ../../docs/grundlagen/xdrip.rst:459
 msgid ""
 "Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt \"Start"
 " Sensor\" in der App durch den Menüpunkt \"**Stop Sensor**\" ersetzt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:175
+#: ../../docs/grundlagen/xdrip.rst:462
 msgid ""
 "Wenn man hier antippt, erscheint ein Warnhinweis, man möge den Sensor nur"
 " dann stoppen, wenn man auch vorhat, ihn zu entfernen. Darunter befindet "
@@ -3328,15 +3324,15 @@ msgid ""
 "man, um den Sensor zu stoppen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:180
+#: ../../docs/grundlagen/xdrip.rst:467
 msgid "Ab diesem Moment wechselt die Anzeige im Menü wieder zu \"Sensor Start\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:183
+#: ../../docs/grundlagen/xdrip.rst:470
 msgid "Kalibrieren"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:185
+#: ../../docs/grundlagen/xdrip.rst:472
 msgid ""
 "Zwei Stunden nach dem Sensor-Start (oder früher, s.o. unter Sensor "
 "starten) müssen die vom Sensor gemessenen Werte mit zwei von einem "
@@ -3352,7 +3348,7 @@ msgid ""
 "eingetragen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:198
+#: ../../docs/grundlagen/xdrip.rst:485
 msgid ""
 "Für ein paar Minuten erscheint im Auswahlmenü die Möglichkeit "
 "**\"Override Calibration\"**, auf Deutsch: Kalibrierung überschreiben. "
@@ -3360,7 +3356,7 @@ msgid ""
 "werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:203
+#: ../../docs/grundlagen/xdrip.rst:490
 msgid ""
 "Anschließend gibt es im Menü nicht mehr die Doppel-, sondern die einfache"
 " Kalibrierung **\"Add Calibration\"**, die wie die Doppelkalibrierung "
@@ -3379,15 +3375,15 @@ msgid ""
 "Blutzucker möglichst stabil ist*, also z.B. vor einer Mahlzeit."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:220
+#: ../../docs/grundlagen/xdrip.rst:507
 msgid "Calibration Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:222
+#: ../../docs/grundlagen/xdrip.rst:509
 msgid "Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:225
+#: ../../docs/grundlagen/xdrip.rst:512
 msgid ""
 "Calibration Alerts - alert when a calibration is requested: *Hier kannst "
 "du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche "
@@ -3395,40 +3391,40 @@ msgid ""
 "Doppelkalibrierung an.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:230
+#: ../../docs/grundlagen/xdrip.rst:517
 msgid ""
 "Calibration Request Sound: *Hier kannst du dir durch Antippen einen "
 "Signalton aus deinem Smartphonerepertoire auswählen.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:233
+#: ../../docs/grundlagen/xdrip.rst:520
 msgid ""
 "Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen "
 "setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des "
 "Smartphones.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:237
+#: ../../docs/grundlagen/xdrip.rst:524
 msgid ""
 "Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton "
 "aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 "
 "Minuten.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:242
+#: ../../docs/grundlagen/xdrip.rst:529
 #: ../../docs/nightscout/azure_plugins.rst:48
 msgid "Alarme"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:245
+#: ../../docs/grundlagen/xdrip.rst:532
 msgid "BG-Level-Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:247
+#: ../../docs/grundlagen/xdrip.rst:534
 msgid "|xDrip_Screenshot_alerts|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:249
+#: ../../docs/grundlagen/xdrip.rst:536
 msgid ""
 "Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich"
 " Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- "
@@ -3437,7 +3433,7 @@ msgid ""
 "verändert werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:266
+#: ../../docs/grundlagen/xdrip.rst:553
 msgid ""
 "Drücke \"**create low alert**\", um einen Tiefalarm selbst zu definieren."
 " Unter \"***Alert Name***\" gibst du dem Alarm eine von dir ausgewählte "
@@ -3453,7 +3449,7 @@ msgid ""
 "Smartphonerepertoire aussuchen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:275
+#: ../../docs/grundlagen/xdrip.rst:562
 msgid ""
 "Unter \"***select time for alert***\" ist \"all day\" bereits mit Häkchen"
 " versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch"
@@ -3466,44 +3462,43 @@ msgid ""
 "zusagt!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:277
+#: ../../docs/grundlagen/xdrip.rst:564
 msgid ""
 "Entsprechend kannst du über \"**create high alert**\" eine Alarmkaskade "
 "nach oben schaffen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:280
+#: ../../docs/grundlagen/xdrip.rst:567
 msgid ""
 "Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des "
 "gewünschten Alarmes in den Bearbeitungsmodus."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:284
+#: ../../docs/grundlagen/xdrip.rst:571
 msgid "BG-Alert-Settings"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:287
+#: ../../docs/grundlagen/xdrip.rst:574
 msgid "Profil: High, Ascending, ..."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:290
+#: ../../docs/grundlagen/xdrip.rst:577
 msgid "Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:293
+#: ../../docs/grundlagen/xdrip.rst:580
 msgid "Rise-Fall-Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:295
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:429
+#: ../../docs/grundlagen/xdrip.rst:582 ../../docs/grundlagen/xdrip.rst:716
 msgid "----> ist noch zu beschreiben!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:298
+#: ../../docs/grundlagen/xdrip.rst:585
 msgid "Werte vorlesen lassen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:300
+#: ../../docs/grundlagen/xdrip.rst:587
 msgid ""
 "Beim Autofahren oder wenn man aus anderen Gründen die Hände gerade nicht "
 "frei hat (z.B. weil man mit den Händen im Spülwasser oder im Kuchenteig "
@@ -3511,7 +3506,7 @@ msgid ""
 " das Smartphone die sog. \"Text-to-speech\" Möglichkeit bietet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:305
+#: ../../docs/grundlagen/xdrip.rst:592
 msgid ""
 "Dazu geht man zuerst im xDrip Menü auf Settings (Einstellungen) und "
 "verschiebt den Bildschirmtest so lange nach oben, bis man weit unten "
@@ -3524,7 +3519,7 @@ msgid ""
 "(Download Symbol antippen) kann."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:315
+#: ../../docs/grundlagen/xdrip.rst:602
 msgid ""
 "Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man"
 " gleich noch ein Häkchen direkt unter Speak Readings bei \"**Speak "
@@ -3535,30 +3530,30 @@ msgid ""
 "deaktiviert werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:324
+#: ../../docs/grundlagen/xdrip.rst:611
 msgid "Statistik"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:326
+#: ../../docs/grundlagen/xdrip.rst:613
 msgid "|xDrip_Screenshot_statistic_1| |xDrip_Screenshot_statistic_2|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:328
+#: ../../docs/grundlagen/xdrip.rst:615
 msgid "|xDrip_Screenshot_statistic_3|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:332
+#: ../../docs/grundlagen/xdrip.rst:619
 msgid ""
 "Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den "
 "Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen "
 "auswählen kann."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:333
+#: ../../docs/grundlagen/xdrip.rst:620
 msgid "TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = Tage"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:335
+#: ../../docs/grundlagen/xdrip.rst:622
 msgid ""
 "Hierzu gibt es drei Seiten, die man durch Wischen nach links bzw. rechts "
 "aufrufen kann. Auf welcher der Seiten man sich befindet, erkennt man an "
@@ -3566,70 +3561,70 @@ msgid ""
 "Zeiträumen von ungefüllten zu gefüllten Kreisen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:340
+#: ../../docs/grundlagen/xdrip.rst:627
 msgid "Die linke der drei Seiten enthält Informationstext."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:342
+#: ../../docs/grundlagen/xdrip.rst:629
 msgid ""
 "Range, auf Deutsch: Spannweite, gibt die Verteilung der gemessenen Werte "
 "an, unterteilt nach in/high/low, auf Deutsch: innerhalb der "
 "Grenzwerte/höher/tiefer."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:346
+#: ../../docs/grundlagen/xdrip.rst:633
 msgid ""
 "Absolute numbers: Dies sind die absoluten Zahlen der jeweils in den "
 "genannten Bereichen gemessenen Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:349
+#: ../../docs/grundlagen/xdrip.rst:636
 msgid ""
 "Der Median BG ist der Wert in der Mitte der gemessenen Werte, damit "
 "werden Ausreißer nicht berücksichtigt (Bsp: 1,3,5,6,9=5)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:352
+#: ../../docs/grundlagen/xdrip.rst:639
 msgid ""
 "Der Mean BG ist das arithmetische Mittel der gemessenen Werte (Bsp: "
 "1+3+5+5+9=23/5=4,6)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:355
+#: ../../docs/grundlagen/xdrip.rst:642
 msgid ""
 "HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach "
 "angetipptem Zeitraum der HbA1c in mmol/mol und in mg/dl überschlägig "
 "berechnet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:359
+#: ../../docs/grundlagen/xdrip.rst:646
 msgid ""
 "StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie"
 " ist ein Maß für die Streuung der Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:362
+#: ../../docs/grundlagen/xdrip.rst:649
 msgid ""
 "Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in "
 "ihrer Verteilung als Tortengrafik dargestellt. Grün steht für innerhalb "
 "der Grenzwerte, gelb für hohe und rot für tiefe Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:366
+#: ../../docs/grundlagen/xdrip.rst:653
 msgid ""
 "Auf der rechten Seite wird für jeden ausgewählten Zeitraum die "
 "Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:370
+#: ../../docs/grundlagen/xdrip.rst:657
 msgid "Widget"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:372
+#: ../../docs/grundlagen/xdrip.rst:659
 msgid "|xdrip_Screenshot_widget|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:374
+#: ../../docs/grundlagen/xdrip.rst:661
 msgid ""
 "Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir "
 "auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget "
@@ -3640,7 +3635,7 @@ msgid ""
 "Wird das Widget angetippt, öffnet sich die xDrip App."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:382
+#: ../../docs/grundlagen/xdrip.rst:669
 msgid ""
 "Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü "
 "gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern "
@@ -3651,15 +3646,15 @@ msgid ""
 "fertig!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:391
+#: ../../docs/grundlagen/xdrip.rst:678
 msgid "BG History"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:392
+#: ../../docs/grundlagen/xdrip.rst:679
 msgid "**(nicht in der jetzigen Beta-Version verfügbar)**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:394
+#: ../../docs/grundlagen/xdrip.rst:681
 msgid ""
 "Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen "
 "Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen "
@@ -3667,7 +3662,7 @@ msgid ""
 "in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:400
+#: ../../docs/grundlagen/xdrip.rst:687
 msgid ""
 "Für eine genauere Betrachtung lassen sich die Kurven mit einem "
 "Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend "
@@ -3678,15 +3673,15 @@ msgid ""
 "Verlaufskurve des Hauptbildschirmes möglich."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:409
+#: ../../docs/grundlagen/xdrip.rst:696
 msgid "Weiteres"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:412
+#: ../../docs/grundlagen/xdrip.rst:699
 msgid "Verbinden mit einer Smartwatch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:414
+#: ../../docs/grundlagen/xdrip.rst:701
 msgid ""
 "An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu "
 "senden. Damit könnte man die Installationsschritte in \"Nightscout "
@@ -3695,19 +3690,19 @@ msgid ""
 "Tagebuch oder für das OpenAPS)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:421 ../../docs/smartwatch.rst:5
+#: ../../docs/grundlagen/xdrip.rst:708 ../../docs/smartwatch.rst:5
 msgid "Android Wear"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:424 ../../docs/smartwatch.rst:9
+#: ../../docs/grundlagen/xdrip.rst:711 ../../docs/smartwatch.rst:9
 msgid "Pebble"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:427
+#: ../../docs/grundlagen/xdrip.rst:714
 msgid "Upload zu NightScout"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:434
+#: ../../docs/grundlagen/xdrip.rst:721
 msgid ""
 "**Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als \"hm-"
 "soft\", nicht als „xBridge“ oder „xDrip“. Was muss ich tun, damit das "
@@ -3719,48 +3714,48 @@ msgid ""
 " irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:446
+#: ../../docs/grundlagen/xdrip.rst:733
 msgid "Verkabelung zwischen Wixel und Bluetooth-Modul prüfen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:447
+#: ../../docs/grundlagen/xdrip.rst:734
 msgid ""
 "Baud-Rate prüfen. Bei einigen HM11-Modulen ist die Baudrate falsch "
 "gesetzt, ggf. also die Baudrate neu einstellen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "**Frage:** Die xDrip App meldet einen Fehler \"Unclear Sensor Readings\"."
 " Was kann man tun, damit die Daten wieder plausibler werden?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid "**Antwort:**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "Die Meldung wird angezeigt, wenn unter Settings/Other Alerts/Noisy "
 "Readings die Checkbox für \"Bad (noisy) Value Alerts\" aktiviert ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid ""
 "Was hilft ist: Warten bzw. den Sensor ersetzen. (Falls jemand eine "
 "bessere Antwort hat: Bitte die Antwort löschen und passend umformulieren."
 " Danke!)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid "**Frage:** Nächste Frage kommt hierher."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst
+#: ../../docs/grundlagen/xdrip.rst
 msgid "Nächster Antwort kommt hierher."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:464
+#: ../../docs/grundlagen/xdrip.rst:751
 msgid "---> Erweiterbar!"
 msgstr ""
 
@@ -7309,11 +7304,11 @@ msgid "**Flyer:**"
 msgstr ""
 
 #: ../../docs/sonstiges.rst:13
-msgid ":download:`Flyer Vorderseite <images/sonstiges/Folie1.jpg>`"
+msgid ":download:`Download Flyer Vorderseite <images/sonstiges/Folie1.jpg>`"
 msgstr ""
 
 #: ../../docs/sonstiges.rst:15
-msgid ":download:`Flyer Rückseite <images/sonstiges/Folie2.jpg>`"
+msgid ":download:`Download Flyer Rückseite <images/sonstiges/Folie2.jpg>`"
 msgstr ""
 
 #: ../../docs/sonstiges.rst:18
@@ -7322,7 +7317,7 @@ msgstr ""
 
 #: ../../docs/sonstiges.rst:20
 msgid ""
-":download:`Verlängerung der Tragezeit des Sensors <documents"
+":download:`Download Verlängerung der Tragezeit des Sensors <documents"
 "/Verlaengerung-der-Tragezeit.pdf>`"
 msgstr ""
 
@@ -7332,7 +7327,7 @@ msgstr ""
 
 #: ../../docs/sonstiges.rst:25
 msgid ""
-":download:`Dexcom Pflaster Schablone "
+":download:`Download Dexcom Pflaster Schablone "
 "<images/sonstiges/Pflasterschablone2.jpg>`"
 msgstr ""
 
