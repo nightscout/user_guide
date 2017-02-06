@@ -1,3 +1,9 @@
+.. _Libre:
+
+Libre
+-----
+
+Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch die `Android-App Glimp <https://play.google.com/store/apps/details?id=it.ct.glicemia>`__, die auch Sensoren auch auslesen kann. Dadurch ist eine Fernüberwachung möglich - z.B. durch die Eltern, die dann auf dem selben Stand wie das Kind sind und sehen ob und was gemessen wurde. Mit der Android-App werden allerdings z.T. leicht andere Werte ausgelesen als vom Lesegerät, da diese einen eigenen Algorithmus verwendet.
 
 Nightscout mit FreeStyle Libre
 ==============================
@@ -90,9 +96,9 @@ Projekt allerdings realisiert werden kann, wurde ein `crowdfunding
 Projekt <https://www.startnext.com/bluereader>`__ ins Leben gerufen,
 welches auf finanzielle Unterstützung angewiesen ist.
 
-.. |image0| image:: ../../images/libre/glimp1.png
-.. |image1| image:: ../../images/libre/glimp2.png
-.. |image2| image:: ../../images/libre/glimp3.png
-.. |image3| image:: ../../images/libre/glimp4.png
-.. |image4| image:: ../../images/libre/glimp5.png
+.. |image0| image:: ../images/libre/glimp1.png
+.. |image1| image:: ../images/libre/glimp2.png
+.. |image2| image:: ../images/libre/glimp3.png
+.. |image3| image:: ../images/libre/glimp4.png
+.. |image4| image:: ../images/libre/glimp5.png
 

@@ -5,8 +5,8 @@ Grundlagen
    :maxdepth: 4
 
    grundvoraussetzungen
-   cgm/index
+   cgm
    enlite/index
    xdrip/index
-   640g/index
-   libre/index
+   640g
+   libre

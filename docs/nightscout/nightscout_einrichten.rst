@@ -1,3 +1,6 @@
+.. _Nightscout einrichten:
+
+
 Nightscout einrichten
 =====================
 

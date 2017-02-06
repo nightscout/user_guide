@@ -1,3 +1,5 @@
+.. _Die Nightscout Website:
+
 Die Nightscout Website
 ======================
 

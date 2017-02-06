@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-06 14:05+0100\n"
+"POT-Creation-Date: 2017-02-06 15:38+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,256 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-
-#: ../../docs/GLOSSARY.rst:4
-msgid "Glossary"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:12
-msgid "#WeAreNotWaiting"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid ""
-"Ausdruck der Empörung über die Medizintechnik, die aktuelle technische "
-"Möglichkeiten nicht ausschöpft, um betroffene Typ 1 Diabetiker zu "
-"unterstützen."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid "Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:15
-msgid "5,5"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:15
-msgid ""
-"5,5 mmol/l ist die Entsprechung von 100mg/dl (ein gerne gefeierter "
-"Zielwert)"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:21
-msgid "API SECRET"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:18
-msgid ""
-"Das API SECRET - Application Programming Interface - SECRECT ist ein "
-"Schlüssel zur sicheren Übertragung von Daten über das Internet. Es "
-"besteht aus numerischen und alphanumerischen Zeichen und identifiziert "
-"den Absender. Näheres siehe:(\\ "
-"https://de.wikipedia.org/wiki/Programmierschnittstelle)"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:29
-msgid "APS"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:24
-msgid ""
-"(engl.: Artificial Pancreas System, APS) CGM ist ferner integraler "
-"Bestandteil einer dauerhaft funktionierenden künstlichen "
-"Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus "
-"geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus"
-" einem kontinuierlich messenden Glucosesensor und einem Regler, der eine "
-"Insulinpumpe steuert."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:35
-msgid "AR2"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid ""
-"(engl.: Auto Regression = AR2 ) ein mathematisches Modell zur "
-"Vorausberechnung von Werten unter Berücksichtigung des bisherigen "
-"Verlaufs. Näheres siehe:"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid "https://en.wikipedia.org/wiki/Autoregressive_model#AR.282.29"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:49
-msgid "bwp"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid ""
-"(engl.: Bolus Wizard Preview = Bolus Vorschau Assistent, bwp) Der Bolus "
-"Vorschau Assistent kann anhand von Wirkungszeit des Insulins (iob) und "
-"Zeitpunkt der Injektion oder Abgabe von Insulin durch die Pumpe eine "
-"Vorschau berechnen. Diese kann dafür genutzt werden, um Entscheidungen "
-"über mögliche Korrekturen zu erleichtern."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid ""
-"Dieses können Bolus - Korrekturen bei erhöhten BZ Werten oder "
-"Kohlenhydrat - Korrekturen bei zu niedrigen Werten sein."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid ""
-"Voraussetzung hierfür sind die genaue Dokumentation von "
-"Insulininjektionen und Wirkdauer - über Careportal und den Nightscout "
-"Profil Editor."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid "Weitere Erläuterungen in englischer Sprache findet man hier:"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid ""
-"http://www.nightscout.info/wiki/welcome/website-features/funnel-"
-"cake-0-8-features/bwp-bolus-wizard-preview"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:53
-msgid "cage"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:52
-msgid ""
-"Insulinpumpen Katheter Setzzeit ( engl.: Cannula Age, Cage) Zeigt die "
-"verstrichene Zeit an seit dem letzten Infusionsset - Setzen oder "
-"-Wechseln."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:66 ../../docs/grundlagen/cgm/index.rst:2
-msgid "CGM"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid ""
-"Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring,"
-" CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um"
-" die Therapie besser steuern zu können. Im Gegensatz zur herkömmlichen "
-"Blutzuckermessung wird nicht der Glucosegehalt in einem dafür gewonnenen "
-"Blutstropfen gemessen, sondern im Gewebe des Körpers. Veränderungen "
-"treten dort meist mit einer kurzen zeitlichen Verzögerung auf."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst
-msgid ""
-"Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem "
-"Transmitter (Übertragung) und einem Empfangsgerät, das alle Werte "
-"speichert und auf dem der Gewebeglucosewert zusammen mit einem Trend auf "
-"dem Display angezeigt werden kann."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:74
-msgid "cob"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:69
-msgid ""
-"Kohlenhydrate an Bord (engl.: Carbs On Board, cob) ist die Menge an "
-"Kohlenhydraten aus vorangegangenen Mahlzeiten, Snacks und Kohlenhydrat - "
-"Korrekturen. Die Zeitdauer, wie lange aufgenommene Kohlenhydrate aktiv "
-"sind, wird beeinflusst durch die Menge an Kohlenhydraten, die gegessen "
-"wurden und die Kohlenhydratart. (Kohlenhydrate in Schwarzbrot werden "
-"langsamer aufgenommen als Kohlenhydrate in Cola, wirken dafür aber "
-"länger)."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:85
-msgid "DIY"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:77
-msgid ""
-"Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem "
-"Fall, dass es keine Firma gibt, von der man ein fertiges, "
-"funktionierendes System kaufen kann. Die Elemente des Systems sind von "
-"Teilnehmern des Projektes entwickelt und zusammengesetzt und werden dir "
-"kostenlos zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen "
-"Teil dazu beitragen musst, damit das System für dich funktioniert. Wir "
-"hoffen, dass DIY dich so sehr begeistern wird wie uns - sodass du "
-"wiederum irgendwann einen kleinen Teil dazu beitragen kannst, dass das "
-"System für alle besser wird."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:93
-msgid "iob"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:88
-msgid ""
-"Insulin an Bord (engl.: Insulin On Board, iob) ist das aktive, "
-"schnellwirksame Bolus Insulin , welches nach einer Injektion oder Abgabe "
-"durch eine Insulinpumpe noch im Körper wirkt. Es hilft zu entscheiden, ob"
-" mehr Insulin oder mehr Kohlenhydrate benötigt werden, um "
-"Blutzuckerspitzen oder Hypoglykämien zu verhindern. Die Wirkdauer des "
-"Insulins ist den Herstellerangaben zu entnehmen."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:100
-msgid "json"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:96
-msgid ""
-"(engl.: = Java Script Object Notation) ist ein einfaches Datenformat zum "
-"Austausch und zur Speicherung von Daten. Das Datenformat wird u.a. bei "
-"Abfragen über Webservices und Speicherung von Daten in "
-"Dokumentendatenbanken wie mongodb eingesetzt. Näheres siehe hier: "
-"https://de.wikipedia.org/wiki/JavaScript_Object_Notation"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:112 ../../docs/nightscout/index.rst:2
-msgid "Nightscout"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:103
-msgid ""
-"Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-"
-"DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website "
-"erstellt, auf der man seine CGM-Daten über das Internet sehen und "
-"auswerten kann. Entwickelt wurde es urspünglich von Eltern, die die Werte"
-" ihrer Kinder aus der Ferne beobachten wollen. Nightscout (frei übersetzt"
-" Nachtwache - wie die wachsame Eule, die über dich wacht, auch während du"
-" schläfst). Mittlerweile nutzen es auch Erwachsene, um die Daten weiter "
-"zu nutzen. Die Daten können nicht nur in einem Internetbrowser angezeigt "
-"werden, sondern von dort aus auch über Apps und Widgets auf dem "
-"Smartphone, Tablets und auf Smartwatches."
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:115
-msgid "NS"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:115
-msgid "Siehe Nightscout"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:122
-msgid "Open Source Software"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:118
-msgid ""
-"Open Source Software wird als Begriff für Software verwendet, deren "
-"Quelltext offenliegt und frei verfügbar ist. Die Open Source Bewegung "
-"entstand bereits in der 60/70er Jahren des letzten Jahrhunderts. Eine "
-"sehr hilfreiche Erklärung findet man hier: "
-"https://de.wikipedia.org/wiki/Open_Source"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:127
-msgid "Plugin"
-msgstr ""
-
-#: ../../docs/GLOSSARY.rst:125
-msgid ""
-"Plugins sind Software - Erweiterungen oder auch Software - Module, mit "
-"welchen man den Funktionsumfang einer Software - wie hier die Nightscout "
-"Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es "
-"hier: https://de.wikipedia.org/wiki/Plug-in"
-msgstr ""
 
 #: ../../docs/fehlerbehebung.rst:2
 #: ../../docs/grundlagen/enlite/fehlerbehebung.rst:2
@@ -328,102 +78,337 @@ msgstr ""
 msgid "Bitte unter Profil-Einstellungen die Zeitzone überprüfen und ggf. ändern."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:2
+#: ../../docs/glossary.rst:3
+msgid "Glossary"
+msgstr ""
+
+#: ../../docs/glossary.rst:6
+msgid "#WeAreNotWaiting"
+msgstr ""
+
+#: ../../docs/glossary.rst:8
+msgid ""
+"Ausdruck der Empörung über die Medizintechnik, die aktuelle technische "
+"Möglichkeiten nicht ausschöpft, um betroffene Typ 1 Diabetiker zu "
+"unterstützen. Wir warten nicht darauf, dass uns geholfen wird, wir helfen"
+" uns selbst."
+msgstr ""
+
+#: ../../docs/glossary.rst:12
+msgid "5,5"
+msgstr ""
+
+#: ../../docs/glossary.rst:14
+msgid ""
+"5,5 mmol/l ist die Entsprechung von 100mg/dl (ein gerne gefeierter "
+"Zielwert)"
+msgstr ""
+
+#: ../../docs/glossary.rst:15
+msgid "API SECRET"
+msgstr ""
+
+#: ../../docs/glossary.rst:17
+msgid ""
+"Das API SECRET - Application Programming Interface - SECRECT ist ein "
+"Schlüssel zur sicheren Übertragung von Daten über das Internet. Es "
+"besteht aus numerischen und alphanumerischen Zeichen und identifiziert "
+"den Absender. Näheres siehe:(\\ "
+"https://de.wikipedia.org/wiki/Programmierschnittstelle)"
+msgstr ""
+
+#: ../../docs/glossary.rst:21
+msgid "APS"
+msgstr ""
+
+#: ../../docs/glossary.rst:23
+msgid ""
+"(engl.: Artificial Pancreas System, APS) CGM ist ferner integraler "
+"Bestandteil einer dauerhaft funktionierenden künstlichen "
+"Bauchspeicheldrüse, nämlich einer vom Blutzucker über einen Algorithmus "
+"geregelten Insulinpumpe. Ein solcher Regelkreis besteht grundsätzlich aus"
+" einem kontinuierlich messenden Glucosesensor und einem Regler, der eine "
+"Insulinpumpe steuert."
+msgstr ""
+
+#: ../../docs/glossary.rst:29
+msgid "AR2"
+msgstr ""
+
+#: ../../docs/glossary.rst:31
+msgid ""
+"(engl.: Auto Regression = AR2 ) ein mathematisches Modell zur "
+"Vorausberechnung von Werten unter Berücksichtigung des bisherigen "
+"Verlaufs. Näheres siehe: "
+"https://en.wikipedia.org/wiki/Autoregressive_model#AR.282.29"
+msgstr ""
+
+#: ../../docs/glossary.rst:35
+msgid "bwp"
+msgstr ""
+
+#: ../../docs/glossary.rst:37
+msgid ""
+"(engl.: Bolus Wizard Preview = Bolus Vorschau Assistent, bwp) Der Bolus "
+"Vorschau Assistent kann anhand von Wirkungszeit des Insulins (iob) und "
+"Zeitpunkt der Injektion oder Abgabe von Insulin durch die Pumpe eine "
+"Vorschau berechnen. Diese kann dafür genutzt werden, um Entscheidungen "
+"über mögliche Korrekturen zu erleichtern. Dieses können Bolus - "
+"Korrekturen bei erhöhten BZ Werten oder Kohlenhydrat - Korrekturen bei zu"
+" niedrigen Werten sein. Voraussetzung hierfür sind die genaue "
+"Dokumentation von Insulininjektionen und Wirkdauer - über Careportal und "
+"den Nightscout Profil Editor. Weitere Erläuterungen in englischer Sprache"
+" findet man hier: http://www.nightscout.info/wiki/welcome/website-"
+"features/funnel-cake-0-8-features/bwp-bolus-wizard-preview"
+msgstr ""
+
+#: ../../docs/glossary.rst:49
+msgid "cage"
+msgstr ""
+
+#: ../../docs/glossary.rst:51
+msgid ""
+"Insulinpumpen Katheter Setzzeit ( engl.: Cannula Age, Cage) Zeigt die "
+"verstrichene Zeit an seit dem letzten Infusionsset - Setzen oder "
+"-Wechseln."
+msgstr ""
+
+#: ../../docs/glossary.rst:53 ../../docs/grundlagen/cgm.rst:3
+msgid "CGM"
+msgstr ""
+
+#: ../../docs/glossary.rst:55
+msgid ""
+"Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring,"
+" CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um"
+" die Therapie besser steuern zu können. Im Gegensatz zur herkömmlichen "
+"Blutzuckermessung wird nicht der Glucosegehalt in einem dafür gewonnenen "
+"Blutstropfen gemessen, sondern im Gewebe des Körpers. Veränderungen "
+"treten dort meist mit einer kurzen zeitlichen Verzögerung auf. "
+"Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem "
+"Transmitter (Übertragung) und einem Empfangsgerät, das alle Werte "
+"speichert und auf dem der Gewebeglucosewert zusammen mit einem Trend auf "
+"dem Display angezeigt werden kann."
+msgstr ""
+
+#: ../../docs/glossary.rst:66
+msgid "cob"
+msgstr ""
+
+#: ../../docs/glossary.rst:68
+msgid ""
+"Kohlenhydrate an Bord (engl.: Carbs On Board, cob) ist die Menge an "
+"Kohlenhydraten aus vorangegangenen Mahlzeiten, Snacks und Kohlenhydrat - "
+"Korrekturen. Die Zeitdauer, wie lange aufgenommene Kohlenhydrate aktiv "
+"sind, wird beeinflusst durch die Menge an Kohlenhydraten, die gegessen "
+"wurden und die Kohlenhydratart. (Kohlenhydrate in Schwarzbrot werden "
+"langsamer aufgenommen als Kohlenhydrate in Cola, wirken dafür aber "
+"länger)."
+msgstr ""
+
+#: ../../docs/glossary.rst:74
+msgid "DIY"
+msgstr ""
+
+#: ../../docs/glossary.rst:76
+msgid ""
+"Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem "
+"Fall, dass es keine Firma gibt, von der man ein fertiges, "
+"funktionierendes System kaufen kann. Die Elemente des Systems sind von "
+"Teilnehmern des Projektes entwickelt und zusammengesetzt und werden dir "
+"kostenlos zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen "
+"Teil dazu beitragen musst, damit das System für dich funktioniert. Wir "
+"hoffen, dass DIY dich so sehr begeistern wird wie uns - sodass du "
+"wiederum irgendwann einen kleinen Teil dazu beitragen kannst, dass das "
+"System für alle besser wird."
+msgstr ""
+
+#: ../../docs/glossary.rst:85
+msgid "iob"
+msgstr ""
+
+#: ../../docs/glossary.rst:87
+msgid ""
+"Insulin an Bord (engl.: Insulin On Board, iob) ist das aktive, "
+"schnellwirksame Bolus Insulin , welches nach einer Injektion oder Abgabe "
+"durch eine Insulinpumpe noch im Körper wirkt. Es hilft zu entscheiden, ob"
+" mehr Insulin oder mehr Kohlenhydrate benötigt werden, um "
+"Blutzuckerspitzen oder Hypoglykämien zu verhindern. Die Wirkdauer des "
+"Insulins ist den Herstellerangaben zu entnehmen."
+msgstr ""
+
+#: ../../docs/glossary.rst:93
+msgid "json"
+msgstr ""
+
+#: ../../docs/glossary.rst:95
+msgid ""
+"(engl.: = Java Script Object Notation) ist ein einfaches Datenformat zum "
+"Austausch und zur Speicherung von Daten. Das Datenformat wird u.a. bei "
+"Abfragen über Webservices und Speicherung von Daten in "
+"Dokumentendatenbanken wie mongodb eingesetzt. Näheres siehe hier: "
+"https://de.wikipedia.org/wiki/JavaScript_Object_Notation"
+msgstr ""
+
+#: ../../docs/glossary.rst:100 ../../docs/nightscout/index.rst:2
+msgid "Nightscout"
+msgstr ""
+
+#: ../../docs/glossary.rst:102
+msgid ""
+"Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-"
+"DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website "
+"erstellt, auf der man seine CGM-Daten über das Internet sehen und "
+"auswerten kann. Entwickelt wurde es urspünglich von Eltern, die die Werte"
+" ihrer Kinder aus der Ferne beobachten wollen. Nightscout (frei übersetzt"
+" Nachtwache - wie die wachsame Eule, die über dich wacht, auch während du"
+" schläfst). Mittlerweile nutzen es auch Erwachsene, um die Daten weiter "
+"zu nutzen. Die Daten können nicht nur in einem Internetbrowser angezeigt "
+"werden, sondern von dort aus auch über Apps und Widgets auf dem "
+"Smartphone, Tablets und auf Smartwatches."
+msgstr ""
+
+#: ../../docs/glossary.rst:112
+msgid "NS"
+msgstr ""
+
+#: ../../docs/glossary.rst:114
+msgid "Siehe Nightscout"
+msgstr ""
+
+#: ../../docs/glossary.rst:115
+msgid "Open Source Software"
+msgstr ""
+
+#: ../../docs/glossary.rst:117
+msgid ""
+"Open Source Software wird als Begriff für Software verwendet, deren "
+"Quelltext offenliegt und frei verfügbar ist. Die Open Source Bewegung "
+"entstand bereits in der 60/70er Jahren des letzten Jahrhunderts. Eine "
+"sehr hilfreiche Erklärung findet man hier: "
+"https://de.wikipedia.org/wiki/Open_Source"
+msgstr ""
+
+#: ../../docs/glossary.rst:122
+msgid "Plugin"
+msgstr ""
+
+#: ../../docs/glossary.rst:124
+msgid ""
+"Plugins sind Software - Erweiterungen oder auch Software - Module, mit "
+"welchen man den Funktionsumfang einer Software - wie hier die Nightscout "
+"Website - konfigurieren kann. Eine detaillierte Beschreibung gibt es "
+"hier: https://de.wikipedia.org/wiki/Plug-in"
+msgstr ""
+
+#: ../../docs/grundlagen/640g.rst:2
+msgid "640G"
+msgstr ""
+
+#: ../../docs/grundlagen/640g.rst:4
+msgid ""
+"Bevor man das Messgerät Countour Next Link 2.4 vorbereitet oder den "
+"640gAndroidUploader installiert sollte man zuerst das Kapitel "
+":ref:`Nightscout einrichten` durchgearbeitet und die Webseite "
+"entsprechend eingerichtet haben."
+msgstr ""
+
+#: ../../docs/grundlagen/640g.rst:11
 msgid "Konfiguration des Android Smartphones mit dem Contour Next Link Messgerät"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:5
+#: ../../docs/grundlagen/640g.rst:14
 msgid "Lade die aktuellste Version der Nightscout Uploader App auf dein Android"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:7
+#: ../../docs/grundlagen/640g.rst:16
 msgid ""
 "Smartphone und installiere sie "
 "(https://github.com/pazaan/640gAndroidUploader/releases)."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:11
+#: ../../docs/grundlagen/640g.rst:20
 msgid ""
 "Nachdem du die App installiert hast, verbinde dein Smartphone mit dem "
 "Contour Next Link 2.4 Messgerät über ein USB-OTG (On-The-Go) Kabel und "
 "starte die App:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:12
+#: ../../docs/grundlagen/640g.rst:21
 msgid "|OTG|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:13
+#: ../../docs/grundlagen/640g.rst:22
 msgid "|Setup|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:18
+#: ../../docs/grundlagen/640g.rst:27
 msgid ""
 "Im ersten Schritt musst du die Nutzungsbedingungen lesen und akzeptieren."
 " Als nächstes musst du dein Contour Next Link Gerät registrieren. Dazu "
 "klicke auf die drei kleinen Menü-Punkte in der rechten oberen Ecke:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:19
+#: ../../docs/grundlagen/640g.rst:28
 msgid "|Menu1|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:22
+#: ../../docs/grundlagen/640g.rst:31
 msgid ""
 "Solltest du keine drei Menü-Punkte sehen, musst du das Menü über deine "
 "Menü-Taste des Smartphones öffnen:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:23
+#: ../../docs/grundlagen/640g.rst:32
 msgid "|Menu2|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:25
+#: ../../docs/grundlagen/640g.rst:34
 msgid "Klicke nun auf „Register USB Stick“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:26
+#: ../../docs/grundlagen/640g.rst:35
 msgid "|USBStick|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:29
+#: ../../docs/grundlagen/640g.rst:38
 msgid ""
 "Gib nun deine Login Informationen von carelink.minimed.eu ein und drücke "
 "„RETRIEVE KEYS FOR USB“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:30
+#: ../../docs/grundlagen/640g.rst:39
 msgid "|Keys|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:33
+#: ../../docs/grundlagen/640g.rst:42
 msgid ""
 "Wenn die App den richtigen Schlüssel von CareLink bekommt, siehst du nun "
 "auf dem Bildschirm den ersten CGM-Wert: Gratuliere!"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:34
+#: ../../docs/grundlagen/640g.rst:43
 msgid "|CGM|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:38
+#: ../../docs/grundlagen/640g.rst:47
 msgid ""
 "Damit die CGM-Werte nun auch auf anderen mobilen Geräten abgelesen werden"
 " können, müssen wir noch einen Schritt machen. Gehe wiederum ins Menü der"
 " App und drücke auf „Preferences“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:39
+#: ../../docs/grundlagen/640g.rst:48
 msgid "|Preferences|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:42
+#: ../../docs/grundlagen/640g.rst:51
 msgid ""
 "Aktiviere nun „REST API Upload“. Je nach Version der App musst du noch "
 "deine API Base URL eingeben, die so aussieht:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:45
+#: ../../docs/grundlagen/640g.rst:54
 msgid ""
 "``https://``\\ **deinAPI\\_SECRETPasswort**\\ ``@``\\ **deinewebsite**\\ "
 "``.azurewebsites.net/api/v1/`` Es kann sein, dass dein API\\_SECRET "
@@ -431,258 +416,285 @@ msgid ""
 "separat verlangt werden."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:46
+#: ../../docs/grundlagen/640g.rst:55
 msgid "|API|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:50
+#: ../../docs/grundlagen/640g.rst:59
 msgid ""
 "Nun kannst du auf deiner Website (deinewebsite.azurewebsites.net) die "
 "CGM-Werte ablesen (es kann einige Minuten in Anspruch nehmen, bis die "
 "Daten angezeigt werden):"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:51
+#: ../../docs/grundlagen/640g.rst:60
 msgid "|Nightscout|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:53
+#: ../../docs/grundlagen/640g.rst:62
 msgid ""
 "Als App zum Lesen der Kurve für Android empfehle ich „NightWatch“. Für "
 "iPhones empfehle ich die Apps „Nightscouter“ oder „Nightscout“."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:56
+#: ../../docs/grundlagen/640g.rst:65
 msgid "Sobald die Verbindung zwischen der Pumpe und der Android-Messgerät-"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:60
+#: ../../docs/grundlagen/640g.rst:69
 msgid ""
 "Verbindung unterbrochen wird (Distanz, Wackelkontakt des USB-OTG Kabels),"
 " werden keine CGM-Werte mehr aufgezeichnet. Sie werden zum jetzigen "
 "Zeitpunkt auch nicht nachgetragen, sobald die Verbindung wieder steht."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:62
+#: ../../docs/grundlagen/640g.rst:71
 msgid ""
 "Bei Problemen kannst du jederzeit die Community auf Facebook um Rat "
 "bitten (Gruppe für Deutschland heißt „Nightscout Deutschland (Germany)“)."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/640gAndroidUploader.rst:66
+#: ../../docs/grundlagen/640g.rst:75
 msgid "Nun viel Spaß mit Nightscout - #WeAreNotWaiting !"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:2
+#: ../../docs/grundlagen/640g.rst:81
 msgid "Anlegen eines Kontos auf https://carelink.minimed.eu"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:4
+#: ../../docs/grundlagen/640g.rst:83
 msgid ""
 "Wir benötigen ein Konto auf CareLink und müssen mindestens einmal die "
 "Pumpendaten über das Contour Next Link 2.4 Messgerät auf Carelink "
 "hochladen."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:8
+#: ../../docs/grundlagen/640g.rst:87
 msgid "Gehe auf https://carelink.minimed.eu und klicke auf „Jetzt anmelden“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:10
+#: ../../docs/grundlagen/640g.rst:89
 msgid "|Anmeldung|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:12
+#: ../../docs/grundlagen/640g.rst:91
 msgid "Wähle dein Land und deine Sprache aus:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:14
+#: ../../docs/grundlagen/640g.rst:93
 msgid "|Sprache|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:17
+#: ../../docs/grundlagen/640g.rst:96
 msgid ""
 "Nach dem Durchlesen der Nutzungsbedingungen akzeptiere diese, indem du "
 "diese drei Checkboxen klickst und „Akzeptieren“ klickst:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:18
+#: ../../docs/grundlagen/640g.rst:97
 msgid "|Checkboxen|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:20
+#: ../../docs/grundlagen/640g.rst:99
 msgid ""
 "Fülle nun das Formular mit deinen Angaben aus. Bestätige, dass du kein "
 "Roboter bist, und klicke auf „Absenden“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:23
+#: ../../docs/grundlagen/640g.rst:102
 msgid "|Absenden|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:25
+#: ../../docs/grundlagen/640g.rst:104
 msgid "Nach dem „Absenden“ erscheint eine Bestätigungsseite:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:27
+#: ../../docs/grundlagen/640g.rst:106
 msgid "|Bestaetigung|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:30
+#: ../../docs/grundlagen/640g.rst:109
 msgid ""
 "Nachdem du auf „Fertig stellen“ klickst, kommst du auf die Startseite zum"
 " Login."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:32
+#: ../../docs/grundlagen/640g.rst:111
 msgid ""
 "Gib deine vorhin erstellten Benutzernamen und Passwort ein und klicke auf"
 " „Einloggen“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:34
+#: ../../docs/grundlagen/640g.rst:113
 msgid "|Einloggen|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:36
+#: ../../docs/grundlagen/640g.rst:115
 msgid "Wechsle nun auf den Reiter „Hochladen“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:38
+#: ../../docs/grundlagen/640g.rst:117
 msgid "|Hochladen|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:41
+#: ../../docs/grundlagen/640g.rst:120
 msgid ""
 "**Stecke** nun dein Contour Next Link 2.4 Messgerät in einen USB-Stecker "
 "deines Computers."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:44
+#: ../../docs/grundlagen/640g.rst:123
 msgid ""
 "**WICHTIG** ist, dass dieses Messgerät mit der Minimed 640G Pumpe bereits"
 " verbunden/gepaart wurde. (Eine Anleitung dazu findest du `hier "
 "<http://diabetes.ascensia.de/datafiles/pdf/userguides/Contour_NEXT_Link_2_4_User_Guide_de_mgdl.pdf>`__.)"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:46
+#: ../../docs/grundlagen/640g.rst:125
 msgid ""
 "**Die Pumpe** bzw. der/die Pumpenträger\\_in muss sich nun in der Nähe "
 "des Computers bzw. des angeschlossenen Messgeräts befinden."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:48
+#: ../../docs/grundlagen/640g.rst:127
 msgid ""
 "(Java muss auf dem Computer installiert sein und die Ausführung von Java "
 "erlaubt werden)."
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:51
+#: ../../docs/grundlagen/640g.rst:130
 msgid ""
 "**WICHTIG** ist, als Gerät „Minimed Insulinpumpe“ auszuwählen. Klicke nun"
 " auf „Weiter“"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:54
+#: ../../docs/grundlagen/640g.rst:133
 msgid "|Auswahl|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:56
+#: ../../docs/grundlagen/640g.rst:135
 msgid "Wähle nun „Minimed Serie 600“ und klicke auf „weiter“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:58
+#: ../../docs/grundlagen/640g.rst:137
 msgid "Du wirst nun gebeten"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:60
+#: ../../docs/grundlagen/640g.rst:139
 msgid "eine laufende Bolusabgabe abzuwarten/abzubrechen"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:61
+#: ../../docs/grundlagen/640g.rst:140
 msgid "eine laufende temporäre Basalrate abzuwarten/abzubrechen"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:62
+#: ../../docs/grundlagen/640g.rst:141
 msgid "zu kontrollieren, dass die Pumpenbatterie nicht schwach ist"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:63
+#: ../../docs/grundlagen/640g.rst:142
 msgid "etwaige Fehlermeldungen auf der Pumpe zu löschen"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:65
+#: ../../docs/grundlagen/640g.rst:144
 msgid "Sofern alles stimmt, klicke auf „Weiter“"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:67
+#: ../../docs/grundlagen/640g.rst:146
 msgid "|Pumpenstatus|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:69
+#: ../../docs/grundlagen/640g.rst:148
 msgid "Nun musst du die Seriennummer der Pumpe eingeben und auf „Weiter“ klicken:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:72
+#: ../../docs/grundlagen/640g.rst:151
 msgid "|Seriennummer|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:74
+#: ../../docs/grundlagen/640g.rst:153
 msgid "Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:76
+#: ../../docs/grundlagen/640g.rst:155
 msgid "|AuswahlVerbindung|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:78
+#: ../../docs/grundlagen/640g.rst:157
 msgid ""
 "Stelle sicher, dass alle aufgeführten Punkte zutreffen und klicke auf "
 "„Fertigstellen“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:81
+#: ../../docs/grundlagen/640g.rst:160
 msgid "|Fertig|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:83
+#: ../../docs/grundlagen/640g.rst:162
 msgid "Die Pumpendaten werden nun ausgelesen:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:85
+#: ../../docs/grundlagen/640g.rst:164
 msgid "|Auslesen|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/carelink.rst:87
+#: ../../docs/grundlagen/640g.rst:166
+#: ../../docs/grundlagen/enlite/mmcommander.rst:19
+msgid "**Wichtig:**"
+msgstr ""
+
+#: ../../docs/grundlagen/640g.rst:168
 msgid ""
-"**Wichtig:** *Sollte die Verbindung zwischen Pumpe und Messgerät "
-"unterbrochen werden (z.B. durch das Auslesen der Pumpendaten in CareLink "
-"Pro bei einer 3-Monatskontrolle) kann es sein, dass das Auslesen auf "
-"CareLink (wie eben durchgeführt) erneut notwendig wird. Damit das nicht "
-"passiert empfiehlt es sich, ein zusätzliches Contour Next Link 2.4 "
-"Messgerät anzuschaffen, welches nur in Verbindung mit dem Android "
-"Smartphone steht und nicht für etwaiges manuelles Hochladen von "
-"Pumpendaten gebraucht wird (muss allerdings ebenfalls einmalig zum "
-"Auslesen der Pumpendaten gebraucht worden sein!).*"
+"**Sollte die Verbindung zwischen Pumpe und Messgerät unterbrochen werden "
+"(z.B. durch das Auslesen der Pumpendaten in CareLink Pro bei einer "
+"3-Monatskontrolle) kann es sein, dass das Auslesen auf CareLink (wie eben"
+" durchgeführt) erneut notwendig wird. Damit das nicht passiert empfiehlt "
+"es sich, ein zusätzliches Contour Next Link 2.4 Messgerät anzuschaffen, "
+"welches nur in Verbindung mit dem Android Smartphone steht und nicht für "
+"etwaiges manuelles Hochladen von Pumpendaten gebraucht wird (muss "
+"allerdings ebenfalls einmalig zum Auslesen der Pumpendaten gebraucht "
+"worden sein!).**"
 msgstr ""
 
-#: ../../docs/grundlagen/640g/index.rst:2
-msgid "640G"
-msgstr ""
-
-#: ../../docs/grundlagen/640g/index.rst:4
+#: ../../docs/grundlagen/cgm.rst:5
 msgid ""
-"Bevor man das Messgerät Countour Next Link 2.4 vorbereitet oder den "
-"640gAndroidUploader installiert sollte man zuerst das Kapitel [Nightscout"
-" einrichten](../../nightscout/nightscout_einrichten.md) durchgearbeitet "
-"und die Webseite entsprechend eingerichtet haben."
+"**Kontinuierlich messender Glucosesensor** --- Insulinpflichtige "
+"Diabetiker müssen zyklisch ihren Blutzucker prüfen. Eine Möglichkeit, die"
+" Messungen besonders oft durchzuführen, ist ein System zur "
+"kontinuierlichen Messung der Glucose."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:2
+#: ../../docs/grundlagen/cgm.rst:9
+msgid ""
+"Diese Kontinuierliche Glucosemessung (engl.: Continuous Glucose "
+"Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus "
+"eingesetzt, um die Therapie besser steuern zu können. Im Gegensatz zur "
+"herkömmlichen Blutzuckermessung wird nicht der Glucosegehalt in einem "
+"dafür gewonnenen  Blutstropfen gemessen (Blutzuckerwert, BZ), sondern im "
+"Gewebe des Körpers (Gewebeglucosewert, GZ). Veränderungen treten dort in "
+"der Regel mit einer kurzen zeitlichen Verzögerung im Vergleich zum "
+"Blutzucker auf."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm.rst:11
+msgid ""
+"Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem "
+"Transmitter (Sender, zur Übertragung der GZ-Werte) und einem "
+"Empfangsgerät, das alle Werte speichert und auf dem der Gewebeglucosewert"
+" zusammen mit einem Trend auf dem Display angezeigt werden kann."
+msgstr ""
+
+#: ../../docs/grundlagen/cgm.rst:13
+msgid ""
+"Auf den folgenden Seiten wird die Vorgehensweise von drei bisher "
+"erprobten verschiedenen Systemen vorgestellt. ---"
+msgstr ""
+
+#: ../../docs/grundlagen/cgm.rst:18
 msgid "Dexcom"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:4
+#: ../../docs/grundlagen/cgm.rst:20
 msgid ""
 "ACHTUNG - Alle Angaben zu diesem Produkt sind ausschließlich vom "
 "Hersteller `DEXCOM <http://www.dexcom.com/en-US>`__ oder vom deutschen "
@@ -692,79 +704,79 @@ msgid ""
 "des Vertriebs zur Verfügung gestellt."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:12
+#: ../../docs/grundlagen/cgm.rst:28
 msgid "Beschreibung"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:12
+#: ../../docs/grundlagen/cgm.rst:28
 msgid "Link"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:14
+#: ../../docs/grundlagen/cgm.rst:30
 msgid "Link zur deutschen Seite"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:14
+#: ../../docs/grundlagen/cgm.rst:30
 msgid "`Dexcom G4 PLATINUM <https://www.nintamed.eu/p/products/dexcomg4>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:16
+#: ../../docs/grundlagen/cgm.rst:32
 msgid "Link zur deutschen Bedienungsanleitung"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:16
+#: ../../docs/grundlagen/cgm.rst:32
 msgid ""
 "`Dexcom G4 PLATINUM (mg/dl) "
 "<http://www.dexcom.com/sites/dexcom.com/files/international/user_guides"
 "/LBL-011912_Rev03-UG-G4-PLATINUM-OUS-mgdL_DE.pdf>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:18
+#: ../../docs/grundlagen/cgm.rst:34
 msgid "Link zum deutschen Quick Start Guide"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:18
+#: ../../docs/grundlagen/cgm.rst:34
 msgid ""
 "`Dexcom G4 PLATINUM (mg/dl) "
 "<http://www.dexcom.com/sites/dexcom.com/files/international/quick_start"
 "/LBL-011913_QuickStartGuide_G4PLATINUM_German_mgdL.pdf>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:21
+#: ../../docs/grundlagen/cgm.rst:37
 msgid "Fünf Möglichkeiten mit Dexcom-Sensoren:"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:23
+#: ../../docs/grundlagen/cgm.rst:39
 msgid "G4-Empfänger mit Kabelverbindung"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:24
+#: ../../docs/grundlagen/cgm.rst:40
 msgid ""
 "G4-Empfänger \"with Share\" (Import aus den Vereinigten Staaten von "
 "Amerika) mit Share2NS-Bridge"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:26
+#: ../../docs/grundlagen/cgm.rst:42
 msgid ""
 "G4-Empfänger \"with Share\" (Import aus den Vereinigten Staaten von "
 "Amerika) mit xDrip-App"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:28
+#: ../../docs/grundlagen/cgm.rst:44
 msgid "G5 mit Share2NS-Bridge"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/dexcom.rst:29
+#: ../../docs/grundlagen/cgm.rst:45
 msgid ""
 "G4 mit selbstgebautem Empfänger (`siehe Kapitel XDrip "
 "<../xdrip/xdrip.md>`__)"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:2
+#: ../../docs/grundlagen/cgm.rst:50
 msgid "Enlite"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:4
+#: ../../docs/grundlagen/cgm.rst:52
 msgid ""
 "Eine generelle Beschreibung des Enlite Sensors bietet der Hersteller "
 "Medtronic an: `Link Enlite Glukosesensor <https://www.medtronic-"
@@ -776,49 +788,49 @@ msgid ""
 "Verbindung mit der VEO Insulinpumpe beschäftigt."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:13
+#: ../../docs/grundlagen/cgm.rst:61
 msgid ""
 "Aktuell gibt es zwei verschiedene Transmitter von Medtronic, mit denen "
 "der Enlite Sensor verbunden werden kann:"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:16
+#: ../../docs/grundlagen/cgm.rst:64
 msgid ""
 "der MiniLink Transmitter, kompatibel mit dem **MiniMed Veo** System und "
 "dem Guardian REAL-Time System und"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:18
+#: ../../docs/grundlagen/cgm.rst:66
 msgid ""
 "den Guardian 2 Link Transmitter, der nur mit der **MiniMed 640G** "
 "Insulinpumpe kompatibel ist."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:21
+#: ../../docs/grundlagen/cgm.rst:69
 msgid ""
 "Da sich die Wege zum erfolgreichen Nightscout-Betrieb unterscheiden, "
 "werden diese im Folgenden getrennt betrachtet."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:25
+#: ../../docs/grundlagen/cgm.rst:73
 msgid "MiniLink Transmitter"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:27
+#: ../../docs/grundlagen/cgm.rst:75
 msgid ""
 "Mit dem MiniLink Transmitter und der Medtronic Veo Insulinpumpe gibt es "
 "folgende Möglichkeit, die Daten zur Nightscout Webseite zu übertragen."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:31
-msgid "Übersichtsgrafik"
+#: ../../docs/grundlagen/cgm.rst:78
+msgid "**Übersichtsgrafik**"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:33
+#: ../../docs/grundlagen/cgm.rst:80
 msgid "|Übersichtsgrafik|"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:35
+#: ../../docs/grundlagen/cgm.rst:82
 msgid ""
 "Danach stehen einem die in den Kapiteln `Die Nightscout Hauptseite "
 "<../../nightscout/die_nightscout_website.md>`__ und `Smartwatch "
@@ -826,7 +838,7 @@ msgid ""
 "Möglichkeiten zur Verfügung."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:40
+#: ../../docs/grundlagen/cgm.rst:87
 msgid ""
 "Um das zu realisieren, muss man den MMCommander bauen und mit der "
 "entsprechenden Software bespielen. Zusätzlich muss noch auf einem "
@@ -835,7 +847,7 @@ msgid ""
 "<../enlite/mmcommander.md>`__ beschrieben."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:54
+#: ../../docs/grundlagen/cgm.rst:93
 msgid ""
 "Im Netz findet man auch Hinweise auf eine Lösung für das Iphone (ab dem "
 "4s und IOS 8.2). Diese Lösung, der **RileyLink**, kontaktiert die Pumpe "
@@ -844,22 +856,18 @@ msgid ""
 " Nightscout. Dies **funktioniert bisher noch nicht mit den deutschen "
 "Pumpen**, eventuell da der RileyLink sich gegenüber der Pumpe als "
 "MySentry ausgibt, um von dieser die Daten zu bekommen. MySentry wird, lt."
-" Medtronic-Hotline, aber nur von den amerikanischen Pumpen unterstützt."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.rst:58
-msgid ""
+" Medtronic-Hotline, aber nur von den amerikanischen Pumpen unterstützt. "
 "Auch die mittlerweile offiziell von Nightscout unterstützte Lösung mit "
 "Hilfe von Minimed Connect und IOS `(s. hier) "
 "<http://www.nightscout.info/wiki/faqs-2/how-do-you-get-your-cgm-in-the-"
 "cloud>`__ betrifft derzeit nur den amerikanischen Markt."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:61
+#: ../../docs/grundlagen/cgm.rst:109
 msgid "Guardian 2 Link Transmitter"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:63
+#: ../../docs/grundlagen/cgm.rst:111
 #, python-format
 msgid ""
 "Bei der Minimed 640G funktioniert es seit Mitte Mai 2016 recht ähnlich. "
@@ -870,22 +878,18 @@ msgid ""
 "installiert und konfiguriert."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:70
-msgid "Dazu sind die folgenden Einzelschritte erforderlich:"
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/enlite.rst:78
+#: ../../docs/grundlagen/cgm.rst:118
 msgid ""
-"Zunächst muss das Kapitel `Nightscout einrichten "
-"<../../nightscout/nightscout_einrichten.md>`__ durchgearbeitet und die "
-"Webseite entsprechend eingerichtet werden. Danach geht es weiter mit dem "
-"Kapitel `CareLinkPersonal Konto einrichten "
-"<../../nightscout/die_nightscout_website.md>`__. Ist dies geschehen, wird"
-" noch das Android Smartphone mit dem Contour Next Link Messgerät "
-"konfiguriert (s. `hier <../../nightscout/die_nightscout_website.md>`__)."
+"Dazu sind die folgenden Einzelschritte erforderlich: Zunächst muss das "
+"Kapitel :ref:`Nightscout einrichten` durchgearbeitet und die Webseite "
+"entsprechend eingerichtet werden. Danach geht es weiter mit dem Kapitel "
+":ref:`Anlegen eines Kontos auf https://carelink.minimed.eu`. Ist dies "
+"geschehen, wird noch das Android Smartphone mit dem Contour Next Link "
+"Messgerät konfiguriert siehe :ref:`Konfiguration des Android Smartphones "
+"mit dem Contour Next Link Messgerät`."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:80
+#: ../../docs/grundlagen/cgm.rst:125
 msgid ""
 "Die vorherige, seit Anfang 2016 existierende Lösung sei auch noch "
 "erwähnt. Speziell, da damit noch mehr Daten wie zum Beispiel "
@@ -900,7 +904,7 @@ msgid ""
 "<http://littlet1d.blogspot.co.uk/>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/enlite.rst:92
+#: ../../docs/grundlagen/cgm.rst:137
 msgid ""
 "Speziell im `Beitrag vom 18.01.16 "
 "<http://littlet1d.blogspot.co.uk/2016/01/nightscout-on-640g-step-by-step-"
@@ -910,11 +914,11 @@ msgid ""
 "medium-and-large-mobile.html>`__."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/freestyle_libre.rst:2
+#: ../../docs/grundlagen/cgm.rst:146
 msgid "FreeStyle Libre"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/freestyle_libre.rst:4
+#: ../../docs/grundlagen/cgm.rst:148
 msgid ""
 "Der `FreeStyle Libre <http://www.freestylelibre.de/>`__ der Firma Abbott "
 "ist seitens des Herstellers kein CGM System, sondern ein FGM (Flash "
@@ -932,11 +936,11 @@ msgid ""
 "funktioniert ist hier :ref:`HIER <libre>` beschrieben."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/freestyle_libre.rst:19
+#: ../../docs/grundlagen/cgm.rst:163
 msgid "**Libre als CGM**"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/freestyle_libre.rst:21
+#: ../../docs/grundlagen/cgm.rst:165
 msgid ""
 "Mittlerweile gibt es es ein DIY Projekt, welches die Herstellung eines "
 "Transmitters für dieses System ermöglicht und die Firma BlueToolz UG "
@@ -944,40 +948,6 @@ msgid ""
 "Bastelkenntnisse eine CGM auf FreeStyle Libre Basis ermöglichen soll. "
 "Details zu den Projekten finden sich unter :ref:`Libre als CGM <Libre als"
 " CGM>`."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/index.rst:4
-msgid ""
-"**Kontinuierlich messender Glucosesensor** --- Insulinpflichtige "
-"Diabetiker müssen zyklisch ihren Blutzucker prüfen. Eine Möglichkeit, die"
-" Messungen besonders oft durchzuführen, ist ein System zur "
-"kontinuierlichen Messung der Glucose."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/index.rst:8
-msgid ""
-"Diese Kontinuierliche Glucosemessung (engl.: Continuous Glucose "
-"Monitoring, CGM) wird in der Regel bei Menschen mit Diabetes mellitus "
-"eingesetzt, um die Therapie besser steuern zu können. Im Gegensatz zur "
-"herkömmlichen Blutzuckermessung wird nicht der Glucosegehalt in einem "
-"dafür gewonnenen  Blutstropfen gemessen (Blutzuckerwert, BZ), sondern im "
-"Gewebe des Körpers (Gewebeglucosewert, GZ). Veränderungen treten dort in "
-"der Regel mit einer kurzen zeitlichen Verzögerung im Vergleich zum "
-"Blutzucker auf."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/index.rst:10
-msgid ""
-"Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem "
-"Transmitter (Sender, zur Übertragung der GZ-Werte) und einem "
-"Empfangsgerät, das alle Werte speichert und auf dem der Gewebeglucosewert"
-" zusammen mit einem Trend auf dem Display angezeigt werden kann."
-msgstr ""
-
-#: ../../docs/grundlagen/cgm/index.rst:12
-msgid ""
-"Auf den folgenden Seiten wird die Vorgehensweise von drei bisher "
-"erprobten verschiedenen Systemen vorgestellt. ---"
 msgstr ""
 
 #: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:2
@@ -1504,10 +1474,6 @@ msgid ""
 "Transmitter des Kapitels `Enlite <../cgm/enlite.md>`__)."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/mmcommander.rst:19
-msgid "**Wichtig:**"
-msgstr ""
-
 #: ../../docs/grundlagen/enlite/mmcommander.rst:21
 msgid ""
 "Der Hersteller Medtronic hat mit dem hier beschriebenen Projekt nichts zu"
@@ -1584,7 +1550,7 @@ msgid "Grundsätzliche Funktionsweise/Ausblick"
 msgstr ""
 
 #: ../../docs/grundlagen/grundvoraussetzungen.rst:16
-msgid "Man kann Nightscout auf verschiedene Weise nutzen:"
+msgid "Man kann :term:`Nightscout` auf verschiedene Weise nutzen:"
 msgstr ""
 
 #: ../../docs/grundlagen/grundvoraussetzungen.rst:18
@@ -1774,11 +1740,11 @@ msgstr ""
 msgid "Grundlagen"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/index.rst:4
+#: ../../docs/grundlagen/libre.rst:4
 msgid "Libre"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/index.rst:6
+#: ../../docs/grundlagen/libre.rst:6
 msgid ""
 "Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch die "
 "`Android-App Glimp "
@@ -1790,34 +1756,34 @@ msgid ""
 "diese einen eigenen Algorithmus verwendet."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:3
+#: ../../docs/grundlagen/libre.rst:9
 msgid "Nightscout mit FreeStyle Libre"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:5
+#: ../../docs/grundlagen/libre.rst:11
 msgid "Um Nightscout mit dem FreeStyle Libre nutzen zu können, braucht man:"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:7
+#: ../../docs/grundlagen/libre.rst:13
 msgid "ein funktionierendes FreeStyle Libre System"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:8
+#: ../../docs/grundlagen/libre.rst:14
 msgid "eine eingerichtete Nightscout Seite"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:9
+#: ../../docs/grundlagen/libre.rst:15
 msgid "ein Android Smartphone, das NFC (Nahfeldkommunikation) unterstützt"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:10
+#: ../../docs/grundlagen/libre.rst:16
 msgid ""
 "die `Glimp App "
 "<https://play.google.com/store/apps/details?id=it.ct.glicemia>`__ aus dem"
 " Google Play Store"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:14
+#: ../../docs/grundlagen/libre.rst:20
 msgid ""
 "Falls man bisher noch keine Nightscout Seite eingerichtet hat, findet man"
 " alle erforderlichen Schritte im Kapitel `Nightscout einrichten "
@@ -1829,18 +1795,18 @@ msgid ""
 "besten Schritt für Schritt der Anleitung folgen ;-)"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:23
+#: ../../docs/grundlagen/libre.rst:29
 msgid ""
 "Viele aktuelle Android Smartphones unterstützen die NFC Technologie. Eine"
 " sehr gute, englischsprachige Liste findet man `hier "
 "<http://www.nfcworld.com/nfc-phones-list/>`__."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:28
+#: ../../docs/grundlagen/libre.rst:34
 msgid "Daten des FreeStyle Libre mit Glimp hochladen"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:30
+#: ../../docs/grundlagen/libre.rst:36
 msgid ""
 "Um die Daten auf der Nightscout Seite angezeigt zu bekommen, müssen diese"
 " mit der Glimp App über das Smartphone vom Sensor gelesen werden und die "
@@ -1848,14 +1814,14 @@ msgid ""
 "nötig:"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:35
+#: ../../docs/grundlagen/libre.rst:41
 msgid ""
 "die `Glimp App "
 "<https://play.google.com/store/apps/details?id=it.ct.glicemia>`__ aus dem"
 " Google Play Store laden"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:38
+#: ../../docs/grundlagen/libre.rst:44
 msgid ""
 "Glimp konfigurieren damit es mit dem FreeStyle Libre zusammen arbeitet - "
 "das bedeutet am Telefon NFC einschalten und mit dem Smartphone den "
@@ -1865,50 +1831,50 @@ msgid ""
 "wiederholen)."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:44
+#: ../../docs/grundlagen/libre.rst:50
 msgid ""
 "Glimp für die Zusammenarbeit mit Nightscout konfigurieren. Dazu auf die 3"
 " Punkte in der rechten, oberen Ecke klicken und danach auf "
 "\"**Optionen**\" klicken. |image0|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:48
+#: ../../docs/grundlagen/libre.rst:54
 msgid "Jetzt \"**entferntes Glucose-Monitoring**\" wählen. |image1|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:50
+#: ../../docs/grundlagen/libre.rst:56
 msgid ""
 "Auf der \"entferntes Glucose-Monitoring\"-Seite, gibt man jetzt die "
 "vorher erstellte Nightscout URL ein. |image2|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:53
+#: ../../docs/grundlagen/libre.rst:59
 msgid ""
 "Jetzt das API SECRET eingeben (Anmerkung: das API SECRET *muss* identisch"
 " sein, mit das man bei der Konfiguration der Nightscout Seite bei Azure "
 "bzw. Heroku gesetzt hat.) |image3|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:57
+#: ../../docs/grundlagen/libre.rst:63
 msgid "Nun auf \"**Test connection**\" klicken. |image4|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:59
+#: ../../docs/grundlagen/libre.rst:65
 msgid ""
 "Wenn der Test erfolgreich war, dann ist Glimp nun fertig konfiguriert und"
 " lädt ab jetzt die mit der Glimp App gescannten Werte des Libre auf die "
 "Nightscout Seite."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:67
+#: ../../docs/grundlagen/libre.rst:73
 msgid "Libre als CGM"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:69
+#: ../../docs/grundlagen/libre.rst:75
 msgid "**LimiTTer**"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:72
+#: ../../docs/grundlagen/libre.rst:78
 msgid ""
 "Dank eines DIY Projektes ist es bereits heute möglich, den Libre Sensor "
 "mit einem selbst zu bastelnden Transmitter auszustatten, der dann "
@@ -1919,11 +1885,11 @@ msgid ""
 "Englisch."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:80
+#: ../../docs/grundlagen/libre.rst:86
 msgid "**blueReader**"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:83
+#: ../../docs/grundlagen/libre.rst:89
 msgid ""
 "Mittlerweile gibt es auch ein Projekt, das sich an alle wendet, die nicht"
 " so gerne mit dem Lötkolben arbeiten und trotzdem den Libre mit dem "
@@ -3729,13 +3695,11 @@ msgid ""
 "Tagebuch oder für das OpenAPS)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:421
-#: ../../docs/smartwatch/android_wear.rst:2
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:421 ../../docs/smartwatch.rst:5
 msgid "Android Wear"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:424
-#: ../../docs/smartwatch/pebble.rst:2
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:424 ../../docs/smartwatch.rst:9
 msgid "Pebble"
 msgstr ""
 
@@ -6624,22 +6588,22 @@ msgstr ""
 msgid "|mongochef_connect_user|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:2
+#: ../../docs/nightscout/nightscout_einrichten.rst:5
 msgid "Nightscout einrichten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:4
+#: ../../docs/nightscout/nightscout_einrichten.rst:7
 msgid "Nightscout besteht aus **3 Komponenten**:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:6
+#: ../../docs/nightscout/nightscout_einrichten.rst:9
 msgid ""
 "Einer Dokumentations-Datenbank (MongoDB) zur Speicherung von Blutglukose,"
 " Kohlenhydraten, Insulin, Aktivitäten usw. MongoDB ist eine "
 "Cloudanwendung und kann über das Internet erreicht werden."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:10
+#: ../../docs/nightscout/nightscout_einrichten.rst:13
 msgid ""
 "Einer **Web-Applikation**, welche über einen beliebigen Browser oder eine"
 " App aufgerufen werden kann. Die Anwendung wird in einem Verzeichnis "
@@ -6669,15 +6633,15 @@ msgid ""
 "standalone - Lösungen bei einem entspr. Provider sind auch möglich."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:32
+#: ../../docs/nightscout/nightscout_einrichten.rst:35
 msgid "Wir können Azure auf verschiedene Weisen einrichten:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:34
+#: ../../docs/nightscout/nightscout_einrichten.rst:37
 msgid "**Geführte Installation:**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:38
+#: ../../docs/nightscout/nightscout_einrichten.rst:41
 msgid ""
 "Die Nightscout Website lässt sich fast vollkommen automatisiert "
 "einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als "
@@ -6685,11 +6649,11 @@ msgid ""
 "<../nightscout/deploy_to_azure.md>`__ beschrieben."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:40
+#: ../../docs/nightscout/nightscout_einrichten.rst:43
 msgid "**Lokale Installation:**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:47
+#: ../../docs/nightscout/nightscout_einrichten.rst:50
 msgid ""
 "Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI "
 "installieren. Dieses hat den Vorteil, das keine Internetverbindung zum "
@@ -6700,26 +6664,26 @@ msgid ""
 "Anfang und wird weiter bearbeitet."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:49
+#: ../../docs/nightscout/nightscout_einrichten.rst:52
 msgid ""
 "**Klassisch :** Die klassische Einrichtung erfordert das manuelle Anlegen"
 " der Azure Website mit allen Einstellungen. Dieses ist in Kapitel `Azure "
 "<../nightscout/azure.md>`__ beschrieben."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:53
+#: ../../docs/nightscout/nightscout_einrichten.rst:56
 msgid "Ein Schaubild verdeutlicht die Zusammmenhänge:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_einrichten.rst:55
+#: ../../docs/nightscout/nightscout_einrichten.rst:58
 msgid "|nightscout scheme|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:2
+#: ../../docs/nightscout/nightscout_website.rst:4
 msgid "Die Nightscout Website"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:15
+#: ../../docs/nightscout/nightscout_website.rst:17
 msgid ""
 "Die Nightscout Website ist die zentrale Website zur Darstellung und "
 "Speicherung von Diabetes - Daten. Sie kann als komplettes Tagebuch mit "
@@ -6734,7 +6698,7 @@ msgid ""
 "abzugebende Boluseinheiten berechnet werden."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:21
+#: ../../docs/nightscout/nightscout_website.rst:23
 msgid ""
 "Das `Reporting <../nightscout/settings.md>`__ bietet die Möglichkeit, die"
 " Daten auszuwerten und für andere zur Analyse auszugeben. Mit dem "
@@ -6744,7 +6708,7 @@ msgid ""
 "Sekunden aktualisiert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:23
+#: ../../docs/nightscout/nightscout_website.rst:25
 msgid ""
 "Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die "
 "Einstellungen zum Übertragen der Daten in der Uploader-App (`Xdrip "
@@ -6752,21 +6716,21 @@ msgid ""
 "erforderlich."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:28
+#: ../../docs/nightscout/nightscout_website.rst:30
 msgid ""
 "Ein Beispiel für eine mögliche Anbindung eines CGM Systems an die "
 "Nightscout Website:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:31
+#: ../../docs/nightscout/nightscout_website.rst:33
 msgid "**Kommunikation:**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:33
+#: ../../docs/nightscout/nightscout_website.rst:35
 msgid "|nightscout_principle|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:35
+#: ../../docs/nightscout/nightscout_website.rst:37
 msgid "Wir schauen uns zunächst die `Haupt Seite <nightscout/main_page.md>`__ an."
 msgstr ""
 
@@ -7247,87 +7211,77 @@ msgid ""
 "<../nightscout/care_portal.md>`__"
 msgstr ""
 
-#: ../../docs/smartwatch/apple_watch.rst:2
-msgid "Apple Watch"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:2
-msgid "Garmin"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:5
-msgid "CGM-Watch"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:7
-msgid "https://apps.garmin.com/en-US/apps/eff8409b-4d52-4813-9c46-e28191e2ea61"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:9 ../../docs/smartwatch/garmin.rst:23
-#: ../../docs/smartwatch/garmin.rst:35
-msgid "Kompatible Geräte:"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:11
-msgid "ForeAthlete 920XTJ"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:12 ../../docs/smartwatch/garmin.rst:26
-#: ../../docs/smartwatch/garmin.rst:38
-msgid "Forerunner® 920XT"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:13 ../../docs/smartwatch/garmin.rst:27
-#: ../../docs/smartwatch/garmin.rst:39
-msgid "epix™"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:14
-msgid "fēnix™ 3"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:15
-msgid "fēnix™ 3 HR"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:16
-msgid "vívoactive™"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:19
-msgid "CGM-Run"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:21
-msgid "https://apps.garmin.com/de-DE/apps/531100b4-12ca-4828-865d-1f7064de498d"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:25 ../../docs/smartwatch/garmin.rst:37
-msgid "ForeAthlete® 920XTJ"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:28 ../../docs/smartwatch/garmin.rst:40
-msgid "vívoactive®"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:31
-msgid "CGM-Hike"
-msgstr ""
-
-#: ../../docs/smartwatch/garmin.rst:33
-msgid "https://apps.garmin.com/de-DE/apps/fe8d607b-d051-401e-aa23-8fc8832a72c2"
-msgstr ""
-
-#: ../../docs/smartwatch/index.rst:2
+#: ../../docs/smartwatch.rst:2
 msgid "Smartwatch"
 msgstr ""
 
-#: ../../docs/smartwatch/pebble.rst:4
+#: ../../docs/smartwatch.rst:11
 msgid "https://apps.getpebble.com/en_US/application/568fb97705f633b362000045"
 msgstr ""
 
-#: ../../docs/smartwatch/smartwatch_integration.rst:2
-msgid "Smartwatch Integration"
+#: ../../docs/smartwatch.rst:15
+msgid "Apple Watch"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:19
+msgid "Garmin"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:22
+msgid ""
+"`CGM-Watch <https://apps.garmin.com/en-US/apps/eff8409b-"
+"4d52-4813-9c46-e28191e2ea61/>`__"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:24 ../../docs/smartwatch.rst:36
+#: ../../docs/smartwatch.rst:47
+msgid "Kompatible Geräte:"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:26
+msgid "ForeAthlete 920XTJ"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:27 ../../docs/smartwatch.rst:39
+#: ../../docs/smartwatch.rst:50
+msgid "Forerunner® 920XT"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:28 ../../docs/smartwatch.rst:40
+#: ../../docs/smartwatch.rst:51
+msgid "epix™"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:29
+msgid "fēnix™ 3"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:30
+msgid "fēnix™ 3 HR"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:31
+msgid "vívoactive™"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:34
+msgid ""
+"`CGM-Run <https://apps.garmin.com/de-DE/apps/531100b4-12ca-4828-865d-"
+"1f7064de498d/>`__"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:38 ../../docs/smartwatch.rst:49
+msgid "ForeAthlete® 920XTJ"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:41 ../../docs/smartwatch.rst:52
+msgid "vívoactive®"
+msgstr ""
+
+#: ../../docs/smartwatch.rst:45
+msgid ""
+"`CGM-Hike <https://apps.garmin.com/de-DE/apps/fe8d607b-d051-401e-"
+"aa23-8fc8832a72c2/>`__"
 msgstr ""
 
 #: ../../docs/sonstiges.rst:2
