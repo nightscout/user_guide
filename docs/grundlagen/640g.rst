@@ -10,63 +10,70 @@ durchgearbeitet und die Webseite entsprechend eingerichtet haben.
 Konfiguration des Android Smartphones mit dem Contour Next Link Messgerät
 =========================================================================
 
-| Lade die aktuellste Version der Nightscout Uploader App auf dein
-  Android
-| Smartphone und installiere sie
-  (https://github.com/pazaan/640gAndroidUploader/releases).
+Lade die aktuellste Version der Nightscout Uploader App auf dein
+Android Smartphone und installiere sie
+(https://github.com/pazaan/640gAndroidUploader/releases).
 
-| Nachdem du die App installiert hast, verbinde dein Smartphone mit dem
-  Contour Next Link 2.4 Messgerät über ein USB-OTG (On-The-Go) Kabel und
-  starte die App:
-| |OTG|
-| |Setup|
+Nachdem du die App installiert hast, verbinde dein Smartphone mit dem
+Contour Next Link 2.4 Messgerät über ein USB-OTG (On-The-Go) Kabel und
+starte die App:
+|OTG|
+|Setup|
 
-| Im ersten Schritt musst du die Nutzungsbedingungen lesen und
-  akzeptieren. Als nächstes musst du dein Contour Next Link Gerät
-  registrieren. Dazu klicke auf die drei kleinen Menü-Punkte in der
-  rechten oberen Ecke:
-| |Menu1|
+Im ersten Schritt musst du die Nutzungsbedingungen lesen und
+akzeptieren. Als nächstes musst du dein Contour Next Link Gerät
+registrieren. Dazu klicke auf die drei kleinen Menü-Punkte in der
+rechten oberen Ecke:
 
-| Solltest du keine drei Menü-Punkte sehen, musst du das Menü über deine
-  Menü-Taste des Smartphones öffnen:
-| |Menu2|
+|Menu1|
 
-| Klicke nun auf „Register USB Stick“:
-| |USBStick|
+Solltest du keine drei Menü-Punkte sehen, musst du das Menü über deine
+Menü-Taste des Smartphones öffnen:
 
-| Gib nun deine Login Informationen von carelink.minimed.eu ein und
-  drücke „RETRIEVE KEYS FOR USB“:
-| |Keys|
+|Menu2|
 
-| Wenn die App den richtigen Schlüssel von CareLink bekommt, siehst du
-  nun auf dem Bildschirm den ersten CGM-Wert: Gratuliere!
-| |CGM|
+Klicke nun auf „Register USB Stick“:
 
-| Damit die CGM-Werte nun auch auf anderen mobilen Geräten abgelesen
-  werden können, müssen wir noch einen Schritt machen. Gehe wiederum ins
-  Menü der App und drücke auf „Preferences“:
-| |Preferences|
+|USBStick|
 
-| Aktiviere nun „REST API Upload“. Je nach Version der App musst du noch
-  deine API Base URL eingeben, die so aussieht:
-| ``https://``\ **deinAPI\_SECRETPasswort**\ ``@``\ **deinewebsite**\ ``.azurewebsites.net/api/v1/``
-  Es kann sein, dass dein API\_SECRET Passwort und deine Nightscout
-  Website (deinewebsite.azurewebsites.net) separat verlangt werden.
-| |API|
+Gib nun deine Login Informationen von carelink.minimed.eu ein und
+drücke „RETRIEVE KEYS FOR USB“:
 
-| Nun kannst du auf deiner Website (deinewebsite.azurewebsites.net) die
-  CGM-Werte ablesen (es kann einige Minuten in Anspruch nehmen, bis die
-  Daten angezeigt werden):
-| |Nightscout|
+|Keys|
+
+Wenn die App den richtigen Schlüssel von CareLink bekommt, siehst du
+nun auf dem Bildschirm den ersten CGM-Wert: Gratuliere!
+
+|CGM|
+
+Damit die CGM-Werte nun auch auf anderen mobilen Geräten abgelesen
+werden können, müssen wir noch einen Schritt machen. Gehe wiederum ins
+Menü der App und drücke auf „Preferences“:
+
+|Preferences|
+
+Aktiviere nun „REST API Upload“. Je nach Version der App musst du noch
+deine API Base URL eingeben, die so aussieht:
+``https://deinAPI_SECRET@deinewebsite.azurewebsites.net/api/v1/``
+Es kann sein, dass dein API_SECRET Passwort und deine Nightscout
+Website (deinewebsite.azurewebsites.net) separat verlangt werden.
+
+|API|
+
+Nun kannst du auf deiner Website (deinewebsite.azurewebsites.net) die
+CGM-Werte ablesen (es kann einige Minuten in Anspruch nehmen, bis die
+Daten angezeigt werden):
+
+|Nightscout|
 
 Als App zum Lesen der Kurve für Android empfehle ich „NightWatch“. Für
 iPhones empfehle ich die Apps „Nightscouter“ oder „Nightscout“.
 
-| Sobald die Verbindung zwischen der Pumpe und der Android-Messgerät-
-| Verbindung unterbrochen wird (Distanz, Wackelkontakt des USB-OTG
-  Kabels), werden keine CGM-Werte mehr aufgezeichnet. Sie werden zum
-  jetzigen Zeitpunkt auch nicht nachgetragen, sobald die Verbindung
-  wieder steht.
+Sobald die Verbindung zwischen der Pumpe und der Android-Messgerät-
+Verbindung unterbrochen wird (Distanz, Wackelkontakt des USB-OTG
+Kabels), werden keine CGM-Werte mehr aufgezeichnet. Sie werden zum
+jetzigen Zeitpunkt auch nicht nachgetragen, sobald die Verbindung
+wieder steht.
 
 Bei Problemen kannst du jederzeit die Community auf Facebook um Rat
 bitten (Gruppe für Deutschland heißt „Nightscout Deutschland
@@ -92,9 +99,9 @@ Wähle dein Land und deine Sprache aus:
 
 |Sprache|
 
-| Nach dem Durchlesen der Nutzungsbedingungen akzeptiere diese, indem du
-  diese drei Checkboxen klickst und „Akzeptieren“ klickst:
-| |Checkboxen|
+Nach dem Durchlesen der Nutzungsbedingungen akzeptiere diese, indem du
+diese drei Checkboxen klickst und „Akzeptieren“ klickst:
+|Checkboxen|
 
 Fülle nun das Formular mit deinen Angaben aus. Bestätige, dass du kein
 Roboter bist, und klicke auf „Absenden“:
@@ -105,10 +112,10 @@ Nach dem „Absenden“ erscheint eine Bestätigungsseite:
 
 |Bestaetigung|
 
-| Nachdem du auf „Fertig stellen“ klickst, kommst du auf die Startseite
-  zum Login.
-| Gib deine vorhin erstellten Benutzernamen und Passwort ein und klicke
-  auf „Einloggen“:
+Nachdem du auf „Fertig stellen“ klickst, kommst du auf die Startseite
+zum Login.
+Gib deine vorhin erstellten Benutzernamen und Passwort ein und klicke
+auf „Einloggen“:
 
 |Einloggen|
 
@@ -116,13 +123,13 @@ Wechsle nun auf den Reiter „Hochladen“:
 
 |Hochladen|
 
-| **Stecke** nun dein Contour Next Link 2.4 Messgerät in einen
-  USB-Stecker deines Computers.
-| **WICHTIG** ist, dass dieses Messgerät mit der Minimed 640G Pumpe
-  bereits verbunden/gepaart wurde. (Eine Anleitung dazu findest du
-  `hier <http://diabetes.ascensia.de/datafiles/pdf/userguides/Contour_NEXT_Link_2_4_User_Guide_de_mgdl.pdf>`__.)
-| **Die Pumpe** bzw. der/die Pumpenträger\_in muss sich nun in der Nähe
-  des Computers bzw. des angeschlossenen Messgeräts befinden.
+**Stecke** nun dein Contour Next Link 2.4 Messgerät in einen
+USB-Stecker deines Computers.
+**WICHTIG** ist, dass dieses Messgerät mit der Minimed 640G Pumpe
+bereits verbunden/gepaart wurde. (Eine Anleitung dazu findest du
+`hier <http://diabetes.ascensia.de/datafiles/pdf/userguides/Contour_NEXT_Link_2_4_User_Guide_de_mgdl.pdf>`__.)
+**Die Pumpe** bzw. der/die Pumpenträger\_in muss sich nun in der Nähe
+des Computers bzw. des angeschlossenen Messgeräts befinden.
 
 (Java muss auf dem Computer installiert sein und die Ausführung von Java
 erlaubt werden).
