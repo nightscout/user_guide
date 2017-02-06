@@ -73,7 +73,7 @@ klicken:
 
 Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter“:
 
-|Auswahl\_Verbindung|
+|AuswahlVerbindung|
 
 Stelle sicher, dass alle aufgeführten Punkte zutreffen und klicke auf
 „Fertigstellen“:
@@ -92,7 +92,7 @@ passiert empfiehlt es sich, ein zusätzliches Contour Next Link 2.4
 Messgerät anzuschaffen, welches nur in Verbindung mit dem Android
 Smartphone steht und nicht für etwaiges manuelles Hochladen von
 Pumpendaten gebraucht wird (muss allerdings ebenfalls einmalig zum
-Auslesen der Pumpendaten gebraucht worden sein!). *
+Auslesen der Pumpendaten gebraucht worden sein!).*
 
 .. |Anmeldung| image:: ../../images/640g/carelink1.jpg
 .. |Sprache| image:: ../../images/640g/carelink2.jpg
@@ -104,7 +104,7 @@ Auslesen der Pumpendaten gebraucht worden sein!). *
 .. |Auswahl| image:: ../../images/640g/carelink8.jpg
 .. |Pumpenstatus| image:: ../../images/640g/carelink10.jpg
 .. |Seriennummer| image:: ../../images/640g/carelink11.jpg
-.. |Auswahl\_Verbindung| image:: ../../images/640g/carelink12.jpg
+.. |AuswahlVerbindung| image:: ../../images/640g/carelink12.jpg
 .. |Fertig| image:: ../../images/640g/carelink13.jpg
 .. |Auslesen| image:: ../../images/640g/carelink14.jpg
 

@@ -31,7 +31,7 @@ Mit **Edit Profile** können wir uns unsere Einstellungen ansehen.
 Unter diesem Menüpunkt sind die Kosten aufgelistet, wichtig ist hier,
 das hier **Free** angezeigt wird:
 
-|github\_billing|
+|github_billing|
 
 Wir suchen jetzt den **Programmcode**:
 
@@ -42,11 +42,11 @@ Wir suchen jetzt den **Programmcode**:
 Den \*\* branch \*\* wie master oder dev auswählen und mit **Fork**
 kopieren wir den Code in unser eigenes Verzeichnis:
 
-|github\_branch\_master|
+|github_branch_master|
 
 Das Ergebnis mit unserem eigenen Branch:
 
-|github\_fork|
+|github_fork|
 
 **Aktualisierung des eigenen ``cgm-remote-monitor`` repositories**
 
@@ -69,8 +69,8 @@ Jetzt instsallieren wir die Nightscout Website `Deploy to
 Azure <../nightscout/deploy_to_azure.md>`__.
 
 .. |github sign up| image:: ../images/github/github_sign_up.jpg
-.. |github\_billing| image:: ../images/github/github_billing.jpg
-.. |github\_search| image:: ../images/github/github_search.jpg
-.. |github\_branch\_master| image:: ../images/github/github_branch_master.jpg
-.. |github\_fork| image:: ../images/github/github_fork.jpg
+.. |github_billing| image:: ../images/github/github_billing.jpg
+.. |github_search| image:: ../images/github/github_search.jpg
+.. |github_branch_master| image:: ../images/github/github_branch_master.jpg
+.. |github_fork| image:: ../images/github/github_fork.jpg
 

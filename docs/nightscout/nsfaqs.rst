@@ -2,7 +2,7 @@ Nightscout FAQs
 ===============
 
 | **Die Website reagiert sehr langsam, wenn sie längere Zeit nicht
-  verwendet wurde: **
+  verwendet wurde:**
 | Wenn die Website längere Zeit nicht verwendet wird, z.B. wenn die
   Daten nachts direkt zur Mongo-Datenbank hochgeladen werden und keine
   Uhr Daten periodisch abfragt, baut Azure Verbindungen ab. Diese wieder

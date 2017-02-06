@@ -14,7 +14,7 @@ verwendbaren Werte angezeigt.
 
 **Profil Editor:**
 
-|nightscout\_profile\_editor\_plugins|
+|nightscout_profile_editor_plugins|
 
 Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden
 **Erklärungstexte** in Sprache angezeigt.
@@ -45,5 +45,5 @@ Am Ende das **Speichern** nicht vergessen.
 Weiter gehts mit der Eingabe von Daten über das
 `Careportal <../nightscout/care_portal.md>`__.
 
-.. |nightscout\_profile\_editor\_plugins| image:: ../images/nightscout/nightscout_profile_editor.jpg
+.. |nightscout_profile_editor_plugins| image:: ../images/nightscout/nightscout_profile_editor.jpg
 

@@ -98,138 +98,16 @@ xDrip Battery Info
 
 ---> ist noch zu beschreiben!
 
-Settings
---------
+**Settings**
 
-+------+------+------+
-| Name | Bede | Empf |
-|      | utun | ehlu |
-|      | g    | ng   |
-|      |      | für  |
-|      |      | Eins |
-|      |      | teig |
-|      |      | er   |
-+======+======+======+
-| Bg   | "mg/ | -    |
-| Unit | dl"  |      |
-| s    | oder |      |
-|      | "mmo |      |
-|      | l"   |      |
-+------+------+------+
-| High | Gren | -    |
-| Valu | ze,  |      |
-| e    | ab   |      |
-|      | der  |      |
-|      | ein  |      |
-|      | Wert |      |
-|      | in   |      |
-|      | der  |      |
-|      | Anze |      |
-|      | ige  |      |
-|      | und  |      |
-|      | Stat |      |
-|      | isti |      |
-|      | k    |      |
-|      | als  |      |
-|      | "zu  |      |
-|      | hoch |      |
-|      | "    |      |
-|      | gewe |      |
-|      | rtet |      |
-|      | wird |      |
-|      | .    |      |
-+------+------+------+
-| Low  | Gren | -    |
-| Valu | ze,  |      |
-| e    | ab   |      |
-|      | der  |      |
-|      | ein  |      |
-|      | Wert |      |
-|      | in   |      |
-|      | der  |      |
-|      | Anze |      |
-|      | ige  |      |
-|      | und  |      |
-|      | Stat |      |
-|      | isti |      |
-|      | k    |      |
-|      | als  |      |
-|      | "zu  |      |
-|      | tief |      |
-|      | "    |      |
-|      | gewe |      |
-|      | rtet |      |
-|      | wird |      |
-|      | .    |      |
-+------+------+------+
-|      |      | ...  |
-+------+------+------+
-| Disp | Sofe | Nur  |
-| lay  | rn   | akti |
-| Brid | ein  | vier |
-| ge   | Span | en,  |
-| Batt | nung | wenn |
-| ery  | stei | ein  |
-|      | ler  | Span |
-|      | eing | nung |
-|      | ebau | stei |
-|      | t    | ler  |
-|      | wurd | verb |
-|      | e,   | aut  |
-|      | kann | wurd |
-|      | eine | e.   |
-|      | Batt |      |
-|      | erie |      |
-|      | -Anz |      |
-|      | eige |      |
-|      | gema |      |
-|      | cht  |      |
-|      | werd |      |
-|      | en   |      |
-+------+------+------+
-| Run  | Klär | akti |
-| Coll | ung  | vier |
-| ecti | nöti | en   |
-| on   | g:   |      |
-| Serv | Kann |      |
-| ice  | das  |      |
-| in   | die  |      |
-| fore | BT-V |      |
-| grou | erbi |      |
-| nd   | ndun |      |
-|      | g    |      |
-|      | tats |      |
-|      | ächl |      |
-|      | ich  |      |
-|      | verb |      |
-|      | esse |      |
-|      | rn?  |      |
-|      | Zeig |      |
-|      | t    |      |
-|      | in   |      |
-|      | den  |      |
-|      | Stat |      |
-|      | usme |      |
-|      | ldun |      |
-|      | gen  |      |
-|      | und  |      |
-|      | ggf. |      |
-|      | im   |      |
-|      | Lock |      |
-|      | scre |      |
-|      | en   |      |
-|      | den  |      |
-|      | Wert |      |
-|      | mit  |      |
-|      | Tend |      |
-|      | enz  |      |
-|      | an.  |      |
-+------+------+------+
+.. csv-table:: 
+   :file: settings.csv
+   :header-rows: 1
 
 Screenshot des Hauptbildschirms
 -------------------------------
 
-|xDrip\_Screenshot\_Hauptansicht|
+|xDrip_Screenshot_Hauptansicht|
 
 **oberer Bereich des Hauptbildschirms**
 
@@ -354,7 +232,7 @@ Kalibrierungserinnerungssignal.
 
 -  Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen
    setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des
-   Smartphones. *
+   Smartphones.*
 
 -  Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton
    aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20
@@ -366,7 +244,7 @@ Alarme
 BG-Level-Alerts
 ~~~~~~~~~~~~~~~
 
-|xDrip\_Screenshot\_alerts|
+|xDrip_Screenshot_alerts|
 
 Unter Settings - Alerts and Notifications - BG Level Alerts kann man
 sich Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert
@@ -445,9 +323,9 @@ deaktiviert werden.
 Statistik
 ---------
 
-|xDrip\_Screenshot\_statistic\_1| |xDrip\_Screenshot\_statistic\_2|
+|xDrip_Screenshot_statistic_1| |xDrip_Screenshot_statistic_2|
 
-|xDrip\_Screenshot\_statistic\_3|
+|xDrip_Screenshot_statistic_3|
 
 | Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu
   den Statistiken für verschiedene Zeiträume, die man wiederum durch
@@ -491,7 +369,7 @@ Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt.
 Widget
 ------
 
-|xdrip\_Screenshot\_widget|
+|xdrip_Screenshot_widget|
 
 Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir
 auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget
@@ -584,10 +462,10 @@ Fehlerbehebung
 
 ---> Erweiterbar!
 
-.. |xDrip\_Screenshot\_Hauptansicht| image:: ../../images/xdrip/xDrip_Screenshot_Hauptansicht.png
-.. |xDrip\_Screenshot\_alerts| image:: ../../images/xdrip/xDrip_Screenshot_alerts.png
-.. |xDrip\_Screenshot\_statistic\_1| image:: ../../images/xdrip/xDrip_Screenshot_statistic_1.png
-.. |xDrip\_Screenshot\_statistic\_2| image:: ../../images/xdrip/xDrip_Screenshot_statistic_2.png
-.. |xDrip\_Screenshot\_statistic\_3| image:: ../../images/xdrip/xDrip_Screenshot_statistic_3.png
-.. |xdrip\_Screenshot\_widget| image:: ../../images/xdrip/xDrip_Screenshot_widget.png
+.. |xDrip_Screenshot_Hauptansicht| image:: ../../images/xdrip/xDrip_Screenshot_Hauptansicht.png
+.. |xDrip_Screenshot_alerts| image:: ../../images/xdrip/xDrip_Screenshot_alerts.png
+.. |xDrip_Screenshot_statistic_1| image:: ../../images/xdrip/xDrip_Screenshot_statistic_1.png
+.. |xDrip_Screenshot_statistic_2| image:: ../../images/xdrip/xDrip_Screenshot_statistic_2.png
+.. |xDrip_Screenshot_statistic_3| image:: ../../images/xdrip/xDrip_Screenshot_statistic_3.png
+.. |xdrip_Screenshot_widget| image:: ../../images/xdrip/xDrip_Screenshot_widget.png
 

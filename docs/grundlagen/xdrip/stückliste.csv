@@ -1,0 +1,17 @@
+Nr.,Bemerkung,Bauteil:,Vertrieb:,Verkaufspreis:,Artikelnummer:,Hersteller-Nr.:
+1,optional,`IC Lithium-Polymer Akku-Schutzschaltung <http://www.voelkner.de/products/128243/IC-Lithium-Polymer-Akku-Schutzschaltung.html>`__,Voelkner,"2,96 €",Q33939,S-8261ABJMD-G3J2G
+2,optional (und Alternative zu 1),`Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-G3J2G <https://www.conrad.de/de/schutzmodul-fuer-lithium-polymer-akkumulator-s-8261abjmd-g3j2g-gehaeuseart-aufgebaute-platine-ausfuehrung-schutzmodul-fuer-lithium-polymer-akkumulator-155151.html?ref=searchDetail>`__,Conrad,"2,96 €",155151 - VQ,S-8261ABJMD-G3J2G
+3,notwendig,`Pololu Wixel Programmable USB Wireless Module <http://www.exp-tech.de/pololu-wixel-programmable-usb-wireless-module>`__,EXP TECH,"18,60 €",EXP-R25-070,Pololu 1337
+4,notwendig,`Adafruit Mini Lipo w/Mini-B USB Jack - USB LiIon/LiPoly charger <http://www.exp-tech.de/adafruit-mini-lipo-w-mini-b-usb-jack-usb-liion-lipoly-charger>`__,EXP TECH,"7,65 €",EXP-R15-446,Adafruit 1905
+5,"notwendig, alternativ auch HM10 möglich",`Seeed Studio Bluetooth V4.0 HM-11 BLE Module <http://www.exp-tech.de/seeed-studio-bluetooth-v4-0-hm-11-ble-module>`__,EXP TECH,"12,28 €",EXP-R02-308,Seeed Studio 210005001
+6,optional,"`Handgehäuse Minitec El, 78x48x20, Lava/Grün <http://www.voelkner.de/products/213275/Minitec-El-78x48x20-Lava-Gruen.html>`__",Voelkner,"12,38 €",S23261,D9006178
+7,"optional, Alternative zu 6","`Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set <https://www.conrad.de/de/hand-gehaeuse-78-x-48-x-20-kunststoff-lava-gruen-okw-minitec-d9006178-1-set-535384.html?ref=searchDetail>`__",Conrad,"13,57 €",535384 - 62,D9006178
+8,"notwendig, oder ein anderer 3,7v LiPo-Akku","`Lipo Akku 1100 mAh 3,7V Einzelzelle <http://shop.lipopower.de/1100-mAh-37V-Einzelzelle-1C-34mm-breit>`__",Lipopower.de,"6,95 €",7.011.0-11_34,1C 603450
+9,optional (für Batterieanzeige bei xBridge-Schaltung),"Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k",,,,
+10,optional (für Batterieanzeige bei xDrip-Schaltung),"Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k <>",,,,
+11,notwendig,`flexible Leitungen (dünn) Beispiel <http://www.exp-tech.de/silicone-cover-stranded-core-wire-30awg-black>`__,exp-tech.de,"0,80 €",EXP-R15-686,Adafruit
+12,notwendig,"Lötzinn, Lötkolben",,,,
+13,"optional, aber empfehlenswert",Schrumpfschlauch,,,,
+14,"optional, aber empfehlenswert","`""dritte Hand"" ein Beispiel: Link <http://www.amazon.de/Silverline-633830-Dritte-Hand-Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand>`__",,,,
+15,optional,Epoxid Trennschicht,,,,
+16,notwendig,"`Kabel mit Mini-USB-Stecker, um das Wixel zu bespielen <http://www.amazon.de/dp/B00NH11N5A>`__",,,,

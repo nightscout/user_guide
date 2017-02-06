@@ -25,7 +25,7 @@ Berichte
 
 Mit dem Klick auf **Berichte** erhalten wir diese Ansicht:
 
-|nightscout\_reporting\_config|
+|nightscout_reporting_config|
 
 | Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks
   auf den Namen aufrufen.
@@ -36,12 +36,12 @@ Mit dem Klick auf **Berichte** erhalten wir diese Ansicht:
 
 Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:
 
-|nightscout\_reporting\_daily\_graph|
+|nightscout_reporting_daily_graph|
 
 Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf
 **Bearbeitung** zu **Korrigieren** oder zu **Löschen**:
 
-|nightscout\_change\_treatments|
+|nightscout_change_treatments|
 
 Profil - Editor
 ~~~~~~~~~~~~~~~
@@ -54,7 +54,7 @@ und Werte für Plugin iob, cob, bwp und Basalraten.
 verwendbaren Werte angezeigt. Seit Grilled Cheese, Version 0.9 ist das
 Anlegen eines Profils beim ersten Aufruf der Website erforderlich.
 
-|nightscout\_profile\_editor\_plugins|
+|nightscout_profile_editor_plugins|
 
 Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden
 **Erklärungstexte** in englischer Sprache angezeigt.
@@ -79,7 +79,7 @@ Plugin cob benötigt diese Eingaben.
 Nahrungsmittel Editor
 ^^^^^^^^^^^^^^^^^^^^^
 
-|nightscout\_nahrungsmittel\_editor|
+|nightscout_nahrungsmittel_editor|
 
 Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von
 Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus
@@ -92,7 +92,7 @@ Daten über csv- oder json - Format in die **mongodb** übertragen.
 Administrator Werkzeuge
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-|nightscout\_administrator\_werkzeuge|
+|nightscout_administrator_werkzeuge|
 
 Mit den Administrator - Werkzeugen können wir Berechtigungen zum Zugriff
 auf die Nightscout - Website verwalten und Datensätze aus der mongo DB
@@ -116,7 +116,7 @@ niedrigste ist **kein Zugriff**.
 
 Anlegen von Subjekten:
 
-|nightscout\_subjects|
+|nightscout_subjects|
 
 | Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend
   sind. Hinter den Rollen sind die Zugriffsrechte gelistet.
@@ -133,11 +133,11 @@ Jetzt geht es weiter mit dem
 `Behandlungsportal <../nightscout/care_portal.md>`__
 
 .. |Einstellungen| image:: ../images/nightscout/nightscout_config_menue.jpg
-.. |nightscout\_reporting\_config| image:: ../images/nightscout/nightscout_reporting_config.jpg
-.. |nightscout\_reporting\_daily\_graph| image:: ../images/nightscout/nightscout_reporting_daily_graph.jpg
-.. |nightscout\_change\_treatments| image:: ../images/nightscout/nightscout_change_treatments.jpg
-.. |nightscout\_profile\_editor\_plugins| image:: ../images/nightscout/nightscout_profile_editor_plugins.jpg
-.. |nightscout\_nahrungsmittel\_editor| image:: ../images/nightscout/nightscout_nahrungsmittel_editor.jpg
-.. |nightscout\_administrator\_werkzeuge| image:: ../images/nightscout/nightscout_administrator_werkzeuge.jpg
-.. |nightscout\_subjects| image:: ../images/nightscout/nightscout_admin_tools_subject.PNG
+.. |nightscout_reporting_config| image:: ../images/nightscout/nightscout_reporting_config.jpg
+.. |nightscout_reporting_daily_graph| image:: ../images/nightscout/nightscout_reporting_daily_graph.jpg
+.. |nightscout_change_treatments| image:: ../images/nightscout/nightscout_change_treatments.jpg
+.. |nightscout_profile_editor_plugins| image:: ../images/nightscout/nightscout_profile_editor_plugins.jpg
+.. |nightscout_nahrungsmittel_editor| image:: ../images/nightscout/nightscout_nahrungsmittel_editor.jpg
+.. |nightscout_administrator_werkzeuge| image:: ../images/nightscout/nightscout_administrator_werkzeuge.jpg
+.. |nightscout_subjects| image:: ../images/nightscout/nightscout_admin_tools_subject.PNG
 

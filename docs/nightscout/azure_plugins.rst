@@ -184,7 +184,7 @@ Nach Eingabe der Daten das **Speichern** nicht vergessen.
 
 Die Einstellungen sehen dann z.B. so aus:
 
-|azure\_app\_entries|
+|azure_app_entries|
 
 Plugins
 ~~~~~~~
@@ -782,5 +782,5 @@ Die Vagrant VM dient nur auf Ihrem Host-Computer mit Beispiel IP
 192.168.33.10, man kann auf das Web-Interface über
 http://192.168.33.10:1337 zugreifen.
 
-.. |azure\_app\_entries| image:: ../images/azure/azure_app_entries.jpg
+.. |azure_app_entries| image:: ../images/azure/azure_app_entries.jpg
 

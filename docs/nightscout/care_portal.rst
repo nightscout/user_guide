@@ -9,7 +9,7 @@ hinzuzufügen.
 
 **Ereignis-Typ:**
 
-|nightscout\_careportal|
+|nightscout_careportal|
 
 Die Auswahlfelder werden entsprechend der Auswahl angepasst.
 
@@ -26,7 +26,7 @@ Die Auswahlfelder werden entsprechend der Auswahl angepasst.
 
 Nun können wir uns alles grafisch ansehen:
 
-|nightscout\_cp\_entries|
+|nightscout_cp_entries|
 
 **Benachrichtigungen** über Therapie - Behandlungsdaten
 
@@ -41,6 +41,6 @@ Nun können wir uns alles grafisch ansehen:
 Weiter gehts mit der Verwendung des `Bolus
 Rechner <../nightscout/boluscalculator.md>`__.
 
-.. |nightscout\_careportal| image:: ../images/nightscout/nightscout_careportal.jpg
-.. |nightscout\_cp\_entries| image:: ../images/nightscout/nightscout_cp_entries.jpg
+.. |nightscout_careportal| image:: ../images/nightscout/nightscout_careportal.jpg
+.. |nightscout_cp_entries| image:: ../images/nightscout/nightscout_cp_entries.jpg
 

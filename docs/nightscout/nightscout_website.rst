@@ -30,10 +30,10 @@ Nightscout Website:
 
 **Kommunikation:**
 
-|nightscout\_principle|
+|nightscout_principle|
 
 Wir schauen uns zunächst die `Haupt Seite <nightscout/main_page.md>`__
 an.
 
-.. |nightscout\_principle| image:: ../images/nightscout/nightscout_principle.jpg
+.. |nightscout_principle| image:: ../images/nightscout/nightscout_principle.jpg
 

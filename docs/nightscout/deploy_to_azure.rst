@@ -7,7 +7,7 @@ Der **Deploy to Azure** Button
   Repository und den Branch, welchen wir installieren wollen.
 
 | Weiter Klicken auf das **Deploy to Azure** Symbol:
-| |azure\_unbeaufsichtigt|
+| |azure_unbeaufsichtigt|
 
 | Wir loggen uns bei Azure ein (folgt den angezeigten Anweisungen, um
   eingeloggt zu werden). (Wenn wir noch kein Azure-Konto haben, sollten
@@ -21,7 +21,7 @@ Der **Deploy to Azure** Button
 
 Es erscheint diese Web - Maske:
 
-|azure\_deploy\_param|
+|azure_deploy_param|
 
 | Wir stellen sicher, dass das Abonnement ``Pay-as-you-go zeigt``. (Wenn
   das Konto neu angelegt ist, kann es stattdessen die kostenlose
@@ -145,8 +145,8 @@ zu überprüfen, indem wir Folgendes überprüfen:
 
 |azure-new-reviewfree|
 
-.. |azure\_unbeaufsichtigt| image:: ../images/azure/azure_deploy.jpg
-.. |azure\_deploy\_param| image:: ../images/azure/grilledcheese-deploytoazure-panel-step1.png
+.. |azure_unbeaufsichtigt| image:: ../images/azure/azure_deploy.jpg
+.. |azure_deploy_param| image:: ../images/azure/grilledcheese-deploytoazure-panel-step1.png
 .. |grilledcheese-deploytoazure-panel-sitename| image:: ../images/azure/grilledcheese-deploytoazure-panel-sitename.png
 .. |grilledcheese-next.png| image:: ../images/azure/grilledcheese-next.png
 .. |grilledcheese-deploy| image:: ../images/azure/grilledcheese-deploy.png

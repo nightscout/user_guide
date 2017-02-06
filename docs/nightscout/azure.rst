@@ -14,7 +14,7 @@ Den Einstieg in deutscher Sprache findet man hier:
 Mit dem zweimaligen Klicken des Buttons **Kostenlos testen >** gelangen
 wir zur Registrierungsseite:
 
-|azure\_reg|
+|azure_reg|
 
 | Sollte man schon ein Konto haben, kann man sich einfach anmelden,
   ansonsten geht es mit der **Registrierung** weiter.
@@ -27,14 +27,14 @@ wir zur Registrierungsseite:
 
 **Azure Portal Startseite:**
 
-|azure\_portal|
+|azure_portal|
 
 Mit dem Button **+ Neu** richten wir eine neue **Resource** ein. Die
 Menüführung ist kaskadiert, alle gelb markierten Punkte sind
 auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen
 auswählen:
 
-|azure\_config\_app|
+|azure_config_app|
 
 | Mit dem Button **Erstellen** speichern wir die Einstellungen. Dieses
   kann einige Zeit
@@ -46,7 +46,7 @@ auch notieren.
 
 Wenn die Web-App erstellt wurde, erscheint diese Ansicht:
 
-|azure\_app\_created|
+|azure_app_created|
 
 Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der
 **Status**. Hier wird angezeigt, ob die App **Running** oder **Stopped**
@@ -56,7 +56,7 @@ Weiter geht es mit der Konfiguration der **Plugin** Module. Diese sind
 in Kapitel `Konfiguration der Nightscout
 Plugins <../nightscout/azure_plugins.md>`__
 
-|azure\_enable\_plugins|
+|azure_enable_plugins|
 
 Einbindung des GitHub Source Codes
 ==================================
@@ -65,22 +65,22 @@ Einbindung des GitHub Source Codes
   ``cgm-remote-monitor``, den wir über GitHub laden.
 | Wir steigen hier ein, um die Verbindung herzustellen:
 
-|azure\_choose\_github|
+|azure_choose_github|
 
 Jetzt folgt die **GitHub Autorisierung:**
 
-|github\_authorize|.
+|github_authorize|.
 
 Nachdem man gitHub Benutzernamen und Passwort eingegeben hat, erscheint
 diese Meldung:
 
-|azure\_authorize\_github|.
+|azure_authorize_github|.
 
 Mit **OK** bestätigen.
 
 Jetzt wählt man den ``cgm-remote-monitor`` aus:
 
-|azure\_crm|
+|azure_crm|
 
 Mit **OK** bestätigen. Die Web-app wird bereitgestellt. Dieses kann ein
 wenig dauern.
@@ -101,13 +101,13 @@ Kosten:
 Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure -
 Portal gibt es eine **Preisübersicht:**
 
-| |azure\_prices|
+| |azure_prices|
 | Mit dem Button Preisrechner können wir uns weitere Details ansehen.
   Wir wählen App Service aus und erhalten folgende Übersicht:
 
-|azure\_prices\_web|
+|azure_prices_web|
 
-**WICHTIG: **\ Die Tarife unterscheiden sich nach Region, es ist
+**WICHTIG:** Die Tarife unterscheiden sich nach Region, es ist
 wichtig, Nordeuropa oder die USA auszuwählen, für andere Regionen
 entstehen ansonsten Kosten, die nicht nötig sind.
 
@@ -115,15 +115,15 @@ Jetzt können wir uns unsere eigene `Nightscout
 Website <../nightscout/die_nightscout_website.md>`__ ansehen und
 konfigurieren.
 
-.. |azure\_reg| image:: ../images/azure/azure_reg.jpg
-.. |azure\_portal| image:: ../images/azure/azure_portal.jpg
-.. |azure\_config\_app| image:: ../images/azure/azure_config_app.jpg
-.. |azure\_app\_created| image:: ../images/azure/azure_app_created.jpg
-.. |azure\_enable\_plugins| image:: ../images/azure/azure_enable_plugins.jpg
-.. |azure\_choose\_github| image:: ../images/azure/azure_choose_github.jpg
-.. |github\_authorize| image:: ../images/azure/github_authorize.jpg
-.. |azure\_authorize\_github| image:: ../images/azure/azure_authorize_github.jpg
-.. |azure\_crm| image:: ../images/azure/azure_crm.jpg
-.. |azure\_prices| image:: ../images/azure/azure_prices.jpg
-.. |azure\_prices\_web| image:: ../images/azure/azure_prices_web.jpg
+.. |azure_reg| image:: ../images/azure/azure_reg.jpg
+.. |azure_portal| image:: ../images/azure/azure_portal.jpg
+.. |azure_config_app| image:: ../images/azure/azure_config_app.jpg
+.. |azure_app_created| image:: ../images/azure/azure_app_created.jpg
+.. |azure_enable_plugins| image:: ../images/azure/azure_enable_plugins.jpg
+.. |azure_choose_github| image:: ../images/azure/azure_choose_github.jpg
+.. |github_authorize| image:: ../images/azure/github_authorize.jpg
+.. |azure_authorize_github| image:: ../images/azure/azure_authorize_github.jpg
+.. |azure_crm| image:: ../images/azure/azure_crm.jpg
+.. |azure_prices| image:: ../images/azure/azure_prices.jpg
+.. |azure_prices_web| image:: ../images/azure/azure_prices_web.jpg
 

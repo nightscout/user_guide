@@ -48,19 +48,19 @@ einer Datenbank geleitet.
 
 Wir starten mit dem Klick auf "Create New":
 
-|create\_db|
+|create_db|
 
 Alle gelb markierten Punkte sind auszufüllen, der Datenbankname ist frei
 wählbar:
 
-|mongodb\_details|
+|mongodb_details|
 
 | Wichtig ist er Eintrag FREE, damit wird die Datenbank kostenlos
   betrieben.
 | Nachdem der Button **Create new MongoDB deployment** geklickt wurde,
   erscheint eine Erfolgsmeldung:
 
-|mongodb\_create\_success|
+|mongodb_create_success|
 
 | Durch Doppelklick auf den Namen, hier: **ds040888/nscgmdatabase** fügt
   man u.a. den Datenbankbenutzer ein. Das ist derjenige, welcher in
@@ -69,11 +69,11 @@ wählbar:
 
 **Datenbankbenutzer hinzufügen:**
 
-|mongodb\_create\_dbuser|
+|mongodb_create_dbuser|
 
 ..und die vorher notierten Daten eingeben:
 
-|mongodb\_dbuser\_details|
+|mongodb_dbuser_details|
 
 **WICHTIG:**
 
@@ -129,9 +129,9 @@ Ansonsten geht es jetzt weiter mit der Einrichtung von
 .. |mongodb signin up| image:: ../images/mongodb/mlab_sign_up.jpg
 .. |mongo db create account| image:: ../images/mongodb/mongo_db_create_account.jpg
 .. |verifyemail| image:: ../images/mongodb/verifyemail.jpg
-.. |create\_db| image:: ../images/mongodb/create_db.jpg
-.. |mongodb\_details| image:: ../images/mongodb/mongodb_details.jpg
-.. |mongodb\_create\_success| image:: ../images/mongodb/mongodb_create_success.jpg
-.. |mongodb\_create\_dbuser| image:: ../images/mongodb/mongodb_createdbuser.jpg
-.. |mongodb\_dbuser\_details| image:: ../images/mongodb/mongodb_dbuser_details.jpg
+.. |create_db| image:: ../images/mongodb/create_db.jpg
+.. |mongodb_details| image:: ../images/mongodb/mongodb_details.jpg
+.. |mongodb_create_success| image:: ../images/mongodb/mongodb_create_success.jpg
+.. |mongodb_create_dbuser| image:: ../images/mongodb/mongodb_createdbuser.jpg
+.. |mongodb_dbuser_details| image:: ../images/mongodb/mongodb_dbuser_details.jpg
 

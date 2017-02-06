@@ -20,7 +20,7 @@ sinnvoll.
 | Unter : http://3t.io/mongochef/download muss man sich registrieren und
   kann dann die Software für das jeweilige Betriebssystem herunterladen.
 
-**Mit dieser Admin GUI ist folgendes möglich:\* **
+**Mit dieser Admin GUI ist folgendes möglich:**
 
 -  **Kopieren von Datenbanken und Collections**
 
@@ -52,10 +52,10 @@ Kapitel.
 | **Connection:**
 | Klicke **Connect**, dann öffnet sich folgendes Fenster:
 
-|mongochef\_connect\_name\_port|
+|mongochef_connect_name_port|
 
-|mongochef\_connect\_user|
+|mongochef_connect_user|
 
-.. |mongochef\_connect\_name\_port| image:: ../images/mongodb/mongodb_connect_name_port.jpg
-.. |mongochef\_connect\_user| image:: ../images/mongodb/mongodb_connect_user.jpg
+.. |mongochef_connect_name_port| image:: ../images/mongodb/mongodb_connect_name_port.jpg
+.. |mongochef_connect_user| image:: ../images/mongodb/mongodb_connect_user.jpg
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-06 01:03+0100\n"
+"POT-Creation-Date: 2017-02-06 12:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Glossary"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:11
+#: ../../docs/GLOSSARY.rst:12
 msgid "#WeAreNotWaiting"
 msgstr ""
 
@@ -37,21 +37,21 @@ msgstr ""
 msgid "Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:14
+#: ../../docs/GLOSSARY.rst:15
 msgid "5,5"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:14
+#: ../../docs/GLOSSARY.rst:15
 msgid ""
 "5,5 mmol/l ist die Entsprechung von 100mg/dl (ein gerne gefeierter "
 "Zielwert)"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:20
+#: ../../docs/GLOSSARY.rst:21
 msgid "API SECRET"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:17
+#: ../../docs/GLOSSARY.rst:18
 msgid ""
 "Das API SECRET - Application Programming Interface - SECRECT ist ein "
 "Schlüssel zur sicheren Übertragung von Daten über das Internet. Es "
@@ -60,11 +60,11 @@ msgid ""
 "https://de.wikipedia.org/wiki/Programmierschnittstelle)"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:28
+#: ../../docs/GLOSSARY.rst:29
 msgid "APS"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:23
+#: ../../docs/GLOSSARY.rst:24
 msgid ""
 "(engl.: Artificial Pancreas System, APS) CGM ist ferner integraler "
 "Bestandteil einer dauerhaft funktionierenden künstlichen "
@@ -74,7 +74,7 @@ msgid ""
 "Insulinpumpe steuert."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:34
+#: ../../docs/GLOSSARY.rst:35
 msgid "AR2"
 msgstr ""
 
@@ -89,7 +89,7 @@ msgstr ""
 msgid "https://en.wikipedia.org/wiki/Autoregressive_model#AR.282.29"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:48
+#: ../../docs/GLOSSARY.rst:49
 msgid "bwp"
 msgstr ""
 
@@ -125,18 +125,18 @@ msgid ""
 "cake-0-8-features/bwp-bolus-wizard-preview"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:52
+#: ../../docs/GLOSSARY.rst:53
 msgid "cage"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:51
+#: ../../docs/GLOSSARY.rst:52
 msgid ""
 "Insulinpumpen Katheter Setzzeit ( engl.: Cannula Age, Cage) Zeigt die "
 "verstrichene Zeit an seit dem letzten Infusionsset - Setzen oder "
 "-Wechseln."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:65 ../../docs/grundlagen/cgm/index.rst:2
+#: ../../docs/GLOSSARY.rst:66 ../../docs/grundlagen/cgm/index.rst:2
 msgid "CGM"
 msgstr ""
 
@@ -158,11 +158,11 @@ msgid ""
 "dem Display angezeigt werden kann."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:73
+#: ../../docs/GLOSSARY.rst:74
 msgid "cob"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:68
+#: ../../docs/GLOSSARY.rst:69
 msgid ""
 "Kohlenhydrate an Bord (engl.: Carbs On Board, cob) ist die Menge an "
 "Kohlenhydraten aus vorangegangenen Mahlzeiten, Snacks und Kohlenhydrat - "
@@ -173,11 +173,11 @@ msgid ""
 "länger)."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:84
+#: ../../docs/GLOSSARY.rst:85
 msgid "DIY"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:76
+#: ../../docs/GLOSSARY.rst:77
 msgid ""
 "Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem "
 "Fall, dass es keine Firma gibt, von der man ein fertiges, "
@@ -190,11 +190,11 @@ msgid ""
 "System für alle besser wird."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:92
+#: ../../docs/GLOSSARY.rst:93
 msgid "iob"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:87
+#: ../../docs/GLOSSARY.rst:88
 msgid ""
 "Insulin an Bord (engl.: Insulin On Board, iob) ist das aktive, "
 "schnellwirksame Bolus Insulin , welches nach einer Injektion oder Abgabe "
@@ -204,11 +204,11 @@ msgid ""
 "Insulins ist den Herstellerangaben zu entnehmen."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:99
+#: ../../docs/GLOSSARY.rst:100
 msgid "json"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:95
+#: ../../docs/GLOSSARY.rst:96
 msgid ""
 "(engl.: = Java Script Object Notation) ist ein einfaches Datenformat zum "
 "Austausch und zur Speicherung von Daten. Das Datenformat wird u.a. bei "
@@ -217,11 +217,11 @@ msgid ""
 "https://de.wikipedia.org/wiki/JavaScript_Object_Notation"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:111 ../../docs/nightscout/index.rst:2
+#: ../../docs/GLOSSARY.rst:112 ../../docs/nightscout/index.rst:2
 msgid "Nightscout"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:102
+#: ../../docs/GLOSSARY.rst:103
 msgid ""
 "Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-"
 "DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website "
@@ -235,19 +235,19 @@ msgid ""
 "Smartphone, Tablets und auf Smartwatches."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:114
+#: ../../docs/GLOSSARY.rst:115
 msgid "NS"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:114
+#: ../../docs/GLOSSARY.rst:115
 msgid "Siehe Nightscout"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:121
+#: ../../docs/GLOSSARY.rst:122
 msgid "Open Source Software"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:117
+#: ../../docs/GLOSSARY.rst:118
 msgid ""
 "Open Source Software wird als Begriff für Software verwendet, deren "
 "Quelltext offenliegt und frei verfügbar ist. Die Open Source Bewegung "
@@ -256,11 +256,11 @@ msgid ""
 "https://de.wikipedia.org/wiki/Open_Source"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:126
+#: ../../docs/GLOSSARY.rst:127
 msgid "Plugin"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:124
+#: ../../docs/GLOSSARY.rst:125
 msgid ""
 "Plugins sind Software - Erweiterungen oder auch Software - Module, mit "
 "welchen man den Funktionsumfang einer Software - wie hier die Nightscout "
@@ -270,7 +270,7 @@ msgstr ""
 
 #: ../../docs/fehlerbehebung.rst:2
 #: ../../docs/grundlagen/enlite/fehlerbehebung.rst:2
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:553
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:431
 msgid "Fehlerbehebung"
 msgstr ""
 
@@ -632,7 +632,7 @@ msgid "Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter�
 msgstr ""
 
 #: ../../docs/grundlagen/640g/carelink.rst:76
-msgid "|Auswahl\\_Verbindung|"
+msgid "|AuswahlVerbindung|"
 msgstr ""
 
 #: ../../docs/grundlagen/640g/carelink.rst:78
@@ -663,7 +663,7 @@ msgid ""
 "Messgerät anzuschaffen, welches nur in Verbindung mit dem Android "
 "Smartphone steht und nicht für etwaiges manuelles Hochladen von "
 "Pumpendaten gebraucht wird (muss allerdings ebenfalls einmalig zum "
-"Auslesen der Pumpendaten gebraucht worden sein!). *"
+"Auslesen der Pumpendaten gebraucht worden sein!).*"
 msgstr ""
 
 #: ../../docs/grundlagen/640g/index.rst:2
@@ -1539,7 +1539,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:44
-msgid "|usb\\_otgklein|"
+msgid "|usb_otgklein|"
 msgstr ""
 
 #: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:46
@@ -1552,7 +1552,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:53
-msgid "|cc1111\\_dongle|"
+msgid "|cc1111_dongle|"
 msgstr ""
 
 #: ../../docs/grundlagen/enlite/mmc_bauanleitung.rst:55
@@ -1721,7 +1721,7 @@ msgid "Grundsätzliche Funktionsweise/Ausblick"
 msgstr ""
 
 #: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:4
-msgid "Man kann :term:Nightscout auf verschiedene Weise nutzen:"
+msgid "Man kann Nightscout auf verschiedene Weise nutzen:"
 msgstr ""
 
 #: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:6
@@ -2271,7 +2271,7 @@ msgid "Erklärung zur folgenden Tabelle:"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/bausatz.rst:170
-msgid "**Die Inhalte sind noch nicht abgesichert. **"
+msgid "**Die Inhalte sind noch nicht abgesichert.**"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/bausatz.rst:171
@@ -2285,530 +2285,480 @@ msgstr ""
 msgid "\"-\" bedeutet: Diese Anzeige sollte nicht vorkommen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:177
-msgid "Baut eil"
+#: ../../docs/grundlagen/xdrip/bausatz.rst:176
+msgid "**Bauteile**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:177
-msgid "Anze ige"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "Bauteil"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:177
-msgid "xDri p clas sic"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "Anzeige"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:177
-msgid "xDri p clas sic mit Span nung stei ler"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "xDrip classic"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:177
-msgid "xBri dge"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "xDrip classic mit Spannungsteiler"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:187
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "xBridge"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
 msgid "HM17"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:187
-msgid "--"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.rst:189
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
 msgid "HM11"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:189
-msgid "Klär ung nöti g"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "Klärung nötig"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:194
-#: ../../docs/grundlagen/xdrip/bausatz.rst:203
-#: ../../docs/grundlagen/xdrip/bausatz.rst:213
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
 msgid "HM10"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:194
-msgid "[STR IKEO UT:g rün] Daue rleu chte n"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "grün Dauerleuchten"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:194
-#: ../../docs/grundlagen/xdrip/bausatz.rst:213
-#: ../../docs/grundlagen/xdrip/bausatz.rst:253
-#: ../../docs/grundlagen/xdrip/bausatz.rst:262
-#: ../../docs/grundlagen/xdrip/bausatz.rst:276
-#: ../../docs/grundlagen/xdrip/bausatz.rst:313
-msgid "Rege lbet rieb"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "Regelbetrieb"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:203
-msgid "[STR IKEO UT:g rün] blin kend"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "grün blinkend"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:203
-msgid "kein e BT-V erbi ndun g zum Hand y"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "keine BT-Verbindung zum Handy"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:213
-msgid ""
-"[STR IKEO UT:g rün] aus, aber alle 5 Minu ten kurz es Blin ken, dann ca. "
-"30 Sek. an"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "grün aus, aber alle 5 Minuten kurzes Blinken, dann ca. 30 Sek. an"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:233
-#: ../../docs/grundlagen/xdrip/bausatz.rst:243
-#: ../../docs/grundlagen/xdrip/bausatz.rst:253
-#: ../../docs/grundlagen/xdrip/bausatz.rst:262
-#: ../../docs/grundlagen/xdrip/bausatz.rst:276
-msgid "Wixe l"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "Wixel"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:233
-msgid "oran ge Daue rbli nken"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "orange Dauerblinken"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:233
-#: ../../docs/grundlagen/xdrip/bausatz.rst:243
-msgid "kein e Verb indu ng zum Tran smit ter"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "keine Verbindung zum Transmitter"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:243
-msgid "oran ge Daue rleu chte n"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "orange Dauerleuchten"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:253
-msgid "oran ge alle 5 Minu ten blin kend"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "orange alle 5 Minuten blinkend"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:262
-msgid "oran ge alle 5 Minu ten ca. 30 Sek. Daue rleu chte n"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "orange alle 5 Minuten ca. 30 Sek. Dauerleuchten"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:276
-msgid "ab und zu oran ge und rot glei chze itig"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "ab und zu orange und rot gleichzeitig"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:276
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
 msgid "?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:287
-#: ../../docs/grundlagen/xdrip/bausatz.rst:296
-#: ../../docs/grundlagen/xdrip/bausatz.rst:313
-msgid "App Stat usan zeig e"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "App Statusanzeige"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:287
-msgid "\"not conn ecte d\" daue rhaf t"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "\"not connected\" dauerhaft"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:287
-msgid "kein e Verb indu ng zum BT-M odul"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "keine Verbindung zum BT-Modul"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:296
-msgid "\"not conn ecte d\", aber alle 5 Minu ten für ca. 30 Sek \"con nect ed\""
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "\"not connected\", aber alle 5 Minuten für ca. 30 Sek \"connected\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:296
-msgid "Rege lbet rieb (!)"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "Regelbetrieb (!)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:313
-msgid "\"con nect ed\" daue rhaf t"
+#: ../../docs/grundlagen/xdrip/bauteile.csv:1
+msgid "\"connected\" dauerhaft"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:321
-msgid "\\*\\* Stückliste \\*\\* ( Stand: September 2015 )"
+#: ../../docs/grundlagen/xdrip/bausatz.rst:182
+msgid "**Stückliste** ( Stand: September 2015 )"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:324
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "Nr."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:324
-msgid "Bemer kung"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Bemerkung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:324
-msgid "Baute il:"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Bauteil:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:324
-msgid "Vertr ieb:"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Vertrieb:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:324
-msgid "Verka ufspr eis:"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Verkaufspreis:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:324
-msgid "Artik elnum mer:"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Artikelnummer:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:324
-msgid "Herst eller -Nr.:"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Hersteller-Nr.:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:328
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "1"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:328
-#: ../../docs/grundlagen/xdrip/bausatz.rst:497
-#: ../../docs/grundlagen/xdrip/bausatz.rst:691
-msgid "optio nal"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "optional"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:328
-msgid "`IC Lithi um-Po lymer Akku- Schut zscha ltung"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.rst:336
-#: ../../docs/grundlagen/xdrip/bausatz.rst:662
-#: ../../docs/grundlagen/xdrip/bausatz.rst:700
-msgid "<htt"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.rst:337
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"p://w ww.vo elkne r.de/ produ cts/1 28243 /IC-L ithiu m-Pol ymer- Akku- "
-"Schut zscha ltung .html >`__"
+"`IC Lithium-Polymer Akku-Schutzschaltung "
+"<http://www.voelkner.de/products/128243/IC-Lithium-Polymer-Akku-"
+"Schutzschaltung.html>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:328
-#: ../../docs/grundlagen/xdrip/bausatz.rst:497
-msgid "Voelk ner"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Voelkner"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:328
-#: ../../docs/grundlagen/xdrip/bausatz.rst:355
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "2,96 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:328
-msgid "Q3393 9"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Q33939"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:328
-#: ../../docs/grundlagen/xdrip/bausatz.rst:355
-msgid "S-826 1ABJM D-G3J 2G"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "S-8261ABJMD-G3J2G"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:355
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "2"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:355
-msgid "optio nal (und Alter nativ e zu 1)"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "optional (und Alternative zu 1)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:355
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"`Schu tzmod ul für Lithi um-Po lymer -Akku mulat or S-826 1ABJM D-G3J 2G "
-"<h ttps: //www .conr ad.de /de/s chutz modul -fuer -lith ium-p olyme "
-"r-akk umula tor-s -8261 abjmd -g3j2 g-geh aeuse art-a ufgeb aute- plati "
-"ne-au sfueh rung- schut zmodu l-fue r-lit hium- polym er-ak kumul ator- "
-"15515 1.htm l?ref =sear chDet ail>` __"
+"`Schutzmodul für Lithium-Polymer-Akkumulator S-8261ABJMD-G3J2G "
+"<https://www.conrad.de/de/schutzmodul-fuer-lithium-polymer-akkumulator-s"
+"-8261abjmd-g3j2g-gehaeuseart-aufgebaute-platine-ausfuehrung-schutzmodul-"
+"fuer-lithium-polymer-akkumulator-155151.html?ref=searchDetail>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:355
-#: ../../docs/grundlagen/xdrip/bausatz.rst:524
-msgid "Conra d"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Conrad"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:355
-msgid "15515 1 - VQ"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "155151 - VQ"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:412
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "3"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:412
-#: ../../docs/grundlagen/xdrip/bausatz.rst:438
-#: ../../docs/grundlagen/xdrip/bausatz.rst:619
-#: ../../docs/grundlagen/xdrip/bausatz.rst:643
-#: ../../docs/grundlagen/xdrip/bausatz.rst:697
-msgid "notwe ndig"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "notwendig"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:412
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"`Polo lu Wixel Progr ammab le USB Wirel ess Modul e <ht tp:// www.e xp-te"
-" ch.de /polo lu-wi xel-p rogra mmabl e-usb -wire less- modul e>`__"
+"`Pololu Wixel Programmable USB Wireless Module <http://www.exp-tech.de"
+"/pololu-wixel-programmable-usb-wireless-module>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:412
-#: ../../docs/grundlagen/xdrip/bausatz.rst:438
-#: ../../docs/grundlagen/xdrip/bausatz.rst:471
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "EXP TECH"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:412
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "18,60 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:412
-msgid "EXP-R 25-07 0"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "EXP-R25-070"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:412
-msgid "Polol u 1337"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Pololu 1337"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:438
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "4"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:438
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"`Adaf ruit Mini Lipo w/Min i-B USB Jack - USB LiIon /LiPo ly charg er <h "
-"ttp:/ /www. exp-t ech.d e/ada fruit -mini -lipo -w-mi ni-b- usb-j ack-u "
-"sb-li ion-l ipoly -char ger>` __"
+"`Adafruit Mini Lipo w/Mini-B USB Jack - USB LiIon/LiPoly charger "
+"<http://www.exp-tech.de/adafruit-mini-lipo-w-mini-b-usb-jack-usb-liion-"
+"lipoly-charger>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:438
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "7,65 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:438
-msgid "EXP-R 15-44 6"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "EXP-R15-446"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:438
-msgid "Adafr uit 1905"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Adafruit 1905"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:471
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "5"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:471
-msgid "notwe ndig, alter nativ auch HM10 mögli ch"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "notwendig, alternativ auch HM10 möglich"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:471
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"`Seee d Studi o Bluet ooth V4.0 HM-11 BLE Modul e <ht tp:// www.e xp-te "
-"ch.de /seee d-stu dio-b lueto oth-v 4-0-h m-11- ble-m odule >`__"
+"`Seeed Studio Bluetooth V4.0 HM-11 BLE Module <http://www.exp-tech.de"
+"/seeed-studio-bluetooth-v4-0-hm-11-ble-module>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:471
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "12,28 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:471
-msgid "EXP-R 02-30 8"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "EXP-R02-308"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:471
-msgid "Seeed Studi o 21000 5001"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Seeed Studio 210005001"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:497
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "6"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:497
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"`Hand gehäu se Minit ec El, 78x48 x20, Lava/ Grün <http ://ww w.voe lkner"
-" .de/p roduc ts/21 3275/ Minit ec-El -78x4 8x20- Lava- Gruen .html >`__"
+"`Handgehäuse Minitec El, 78x48x20, Lava/Grün "
+"<http://www.voelkner.de/products/213275/Minitec-El-78x48x20-Lava-"
+"Gruen.html>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:497
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "12,38 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:497
-msgid "S2326 1"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "S23261"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:497
-#: ../../docs/grundlagen/xdrip/bausatz.rst:524
-msgid "D9006 178"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "D9006178"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:524
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "7"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:524
-msgid "optio nal, Alter nativ e zu 6"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "optional, Alternative zu 6"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:524
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"`Hand -Gehä use Kunst stoff Lava, Grün 78 x 48 x 20 OKW D9006 178 1 Set <"
-" https ://ww w.con rad.d e/de/ hand- gehae use-7 8-x-4 8-x-2 0-kun ststo "
-"ff-la va-gr uen-o kw-mi nitec -d900 6178- 1-set -5353 84.ht ml?re f=sea "
-"rchDe tail> `__"
+"`Hand-Gehäuse Kunststoff Lava, Grün 78 x 48 x 20 OKW D9006178 1 Set "
+"<https://www.conrad.de/de/hand-gehaeuse-78-x-48-x-20-kunststoff-lava-"
+"gruen-okw-minitec-d9006178-1-set-535384.html?ref=searchDetail>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:524
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "13,57 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:524
-msgid "53538 4 - 62"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "535384 - 62"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:567
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "8"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:567
-msgid "notwe ndig, oder ein ander er 3,7v LiPo- Akku"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "notwendig, oder ein anderer 3,7v LiPo-Akku"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:567
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"`Lipo Akku 1100 mAh 3,7V Einze lzell e <ht tp:// shop. lipop ower. de/11 "
-"00-mA h-37V -Einz elzel le-1C -34mm -brei t>`__"
+"`Lipo Akku 1100 mAh 3,7V Einzelzelle <http://shop.lipopower.de/1100-mAh-"
+"37V-Einzelzelle-1C-34mm-breit>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:567
-msgid "Lipop ower. de"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Lipopower.de"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:567
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "6,95 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:567
-msgid "7.011 .0-11 \\_34"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "7.011.0-11_34"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:567
-msgid "1C 60345 0"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "1C 603450"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:589
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "9"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:589
-msgid "optio nal (für Batte riean zeige bei **xBr idge* *-Sch altun g)"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "optional (für Batterieanzeige bei xBridge-Schaltung)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:589
-msgid "Metal lschi chtwi derst and 1%, 0,5 Watt je ein Stück 10k und 27k"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 27k"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:604
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "10"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:604
-msgid "optio nal (für Batte riean zeige bei **xDr ip**- Schal tung)"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "optional (für Batterieanzeige bei xDrip-Schaltung)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:604
-msgid "Metal lschi chtwi derst and 1%, 0,5 Watt je ein Stück 10k und 22k"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Metallschichtwiderstand 1%, 0,5 Watt je ein Stück 10k und 22k <>"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:619
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "11"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:619
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"flexi ble Leitu ngen (dünn ) `Beis piel <http ://ww w.exp -tech .de/s "
-"ilico ne-co ver-s trand ed-co re-wi re-30 awg-b lack> `__"
+"`flexible Leitungen (dünn) Beispiel <http://www.exp-tech.de/silicone-"
+"cover-stranded-core-wire-30awg-black>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:619
-msgid "exp-t ech.d e"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "exp-tech.de"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:619
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "0,80 €"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:619
-msgid "EXP-R 15-68 6"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "EXP-R15-686"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:619
-msgid "Adafr uit"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Adafruit"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:643
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "12"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:643
-msgid "Lötzi nn, Lötko lben"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Lötzinn, Lötkolben"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:648
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "13"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:648
-#: ../../docs/grundlagen/xdrip/bausatz.rst:655
-msgid "optio nal, aber empfe hlens wert"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "optional, aber empfehlenswert"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:648
-msgid "Schru mpfsc hlauc h"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Schrumpfschlauch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:655
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "14"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:655
-msgid "\"drit te Hand\" ein Beisp iel: `Link"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.rst:663
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid ""
-"p://w ww.am azon. de/Si lverl ine-6 33830 -Drit te-Ha nd-Lu pe/dp /B000 "
-"O3RJF C/ref =sr_1 _4?ie =UTF8 &qid= 14536 57700 &sr=8 -4&ke yword s=dri "
-"tte+h and>` __"
+"`\"dritte Hand\" ein Beispiel: Link "
+"<http://www.amazon.de/Silverline-633830-Dritte-Hand-"
+"Lupe/dp/B000O3RJFC/ref=sr_1_4?ie=UTF8&qid=1453657700&sr=8-4&keywords=dritte+hand>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:691
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "15"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:691
-msgid "Epoxi d Trenn schic ht"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid "Epoxid Trennschicht"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:697
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
 msgid "16"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:697
-msgid "Kabel mit Mini- USB-S tecke r, um das Wixel zu bespi elen"
+#: ../../docs/grundlagen/xdrip/stückliste.csv:1
+msgid ""
+"`Kabel mit Mini-USB-Stecker, um das Wixel zu bespielen "
+"<http://www.amazon.de/dp/B00NH11N5A>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:697
-msgid "Beisp iel: `Link"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.rst:701
-msgid "p://w ww.am azon. de/dp /B00N H11N5 A>`__"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/bausatz.rst:711
+#: ../../docs/grundlagen/xdrip/bausatz.rst:190
 msgid ""
 "Hinweis: Es gibt Erfahrungsberichte, die besagen, dass ein HM17 sich "
 "ebenso verwenden lässt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:717
+#: ../../docs/grundlagen/xdrip/bausatz.rst:196
 msgid "Weiterführende Infos / Schaltbilder für xBridge"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:720
+#: ../../docs/grundlagen/xdrip/bausatz.rst:199
 msgid ""
 "Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante "
 "\"xDrip-classic\" nicht gewünscht ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:725
+#: ../../docs/grundlagen/xdrip/bausatz.rst:204
 msgid ""
 "Es gibt verschiedene Bluetooth-Module: HM10, HM11 oder HM-17 für die es "
 "verschiedene Bauformen gibt. Deswegen hier mehrere Bilder zur "
@@ -2817,64 +2767,64 @@ msgid ""
 "Abbildungen auch die Bezeichnungen der Anschlüsse ablesen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:727
+#: ../../docs/grundlagen/xdrip/bausatz.rst:206
 msgid "**Schaltbild für xBridge mit HM-10**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:728
-msgid "|HM10\\_xbridge\\_Wiring\\_Diagram|"
+#: ../../docs/grundlagen/xdrip/bausatz.rst:207
+msgid "|HM10_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:730
+#: ../../docs/grundlagen/xdrip/bausatz.rst:209
 msgid "**Schaltbild für xBridge mit HM-10 auf Breakout Board**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:731
-msgid "|HM10 + Breakout Board\\_xbridge\\_Wiring\\_Diagram|"
+#: ../../docs/grundlagen/xdrip/bausatz.rst:210
+msgid "|HM10_Breakout Board_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:733
+#: ../../docs/grundlagen/xdrip/bausatz.rst:212
 msgid "**Schaltbild für xBridge mit HM-11**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:734
-msgid "|HM11\\_xbridge\\_Wiring\\_Diagram|"
+#: ../../docs/grundlagen/xdrip/bausatz.rst:213
+msgid "|HM11_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:736
+#: ../../docs/grundlagen/xdrip/bausatz.rst:215
 msgid "**Schaltbild für \"xDrip USB V3\"**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:737
+#: ../../docs/grundlagen/xdrip/bausatz.rst:216
 msgid "|xDrip V3usb Schaltbild|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:739
+#: ../../docs/grundlagen/xdrip/bausatz.rst:218
 msgid "\\*\\* Weitere Infos / empfohlene Links: \\*\\* (englische Seiten)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:741
+#: ../../docs/grundlagen/xdrip/bausatz.rst:220
 msgid ""
 "zu xBridge2: Ein `PDF <https://github.com/jstevensog/wixel-"
 "sdk/raw/master/apps/xBridge2/xBridge2.pdf>`__ Dokument findet sich in "
 "diesem `Repository <https://github.com/jstevensog/wixel-sdk>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:745
+#: ../../docs/grundlagen/xdrip/bausatz.rst:224
 msgid ""
 "Eine weitere Seite mit Anleitungen findet sich `hier <http://circles-of-"
 "blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-"
 "dexdrip-introduction/>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:747
+#: ../../docs/grundlagen/xdrip/bausatz.rst:226
 msgid ""
 "Eine sehr hübsche Anleitung zu Bau der xDrip-Box findet sich hier: "
 "http://www.hypodiabetic.co.uk/home/blog/hacking-diabetes/xdrip-and-"
 "xbridge-build-instructions"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/bausatz.rst:749
+#: ../../docs/grundlagen/xdrip/bausatz.rst:228
 msgid ""
 "Wichtige Quellen zu xDrip finden sich an diesen Stellen: `hier "
 "<https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip>`__ und `hier"
@@ -2920,7 +2870,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip.rst:19
-msgid "**Das System xDrip besteht aus zwei Komponenten: **"
+msgid "**Das System xDrip besteht aus zwei Komponenten:**"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip.rst:21
@@ -3193,165 +3143,160 @@ msgstr ""
 msgid "---> ist noch zu beschreiben!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:102
-msgid "Settings"
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:101
+msgid "**Settings**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:105
+#: ../../docs/grundlagen/xdrip/settings.csv:1
 msgid "Name"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:105
-msgid "Bede utun g"
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "Bedeutung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:105
-msgid "Empf ehlu ng für Eins teig er"
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "Empfehlung für Einsteiger"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:113
-msgid "Bg Unit s"
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "Bg Units"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:113
-msgid "\"mg/ dl\" oder \"mmo l\""
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "\"mg/dl\" oder \"mmol\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:119
-msgid "High Valu e"
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "High Value"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:119
+#: ../../docs/grundlagen/xdrip/settings.csv:1
 msgid ""
-"Gren ze, ab der ein Wert in der Anze ige und Stat isti k als \"zu hoch \""
-" gewe rtet wird ."
+"Grenze, ab der ein Wert in der Anzeige und Statistik als \"zu hoch\" "
+"gewertet wird."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:142
-msgid "Low Valu e"
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "Low Value"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:142
+#: ../../docs/grundlagen/xdrip/settings.csv:1
 msgid ""
-"Gren ze, ab der ein Wert in der Anze ige und Stat isti k als \"zu tief \""
-" gewe rtet wird ."
+"Grenze, ab der ein Wert in der Anzeige und Statistik als \"zu tief\" "
+"gewertet wird."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:165
-msgid "..."
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "Display Bridge Battery"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:167
-msgid "Disp lay Brid ge Batt ery"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:167
+#: ../../docs/grundlagen/xdrip/settings.csv:1
 msgid ""
-"Sofe rn ein Span nung stei ler eing ebau t wurd e, kann eine Batt erie "
-"-Anz eige gema cht werd en"
+"Sofern ein Spannungsteiler eingebaut wurde, kann eine Batterie-Anzeige "
+"gemacht werden"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:167
-msgid "Nur akti vier en, wenn ein Span nung stei ler verb aut wurd e."
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "Nur aktivieren, wenn ein Spannungsteiler verbaut wurde."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:190
-msgid "Run Coll ecti on Serv ice in fore grou nd"
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "Run Collection Service in foreground"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:190
+#: ../../docs/grundlagen/xdrip/settings.csv:1
 msgid ""
-"Klär ung nöti g: Kann das die BT-V erbi ndun g tats ächl ich verb esse "
-"rn? Zeig t in den Stat usme ldun gen und ggf. im Lock scre en den Wert "
-"mit Tend enz an."
+"Klärung nötig: Kann das die BT-Verbindung tatsächlich verbessern? Zeigt "
+"in den Statusmeldungen und ggf. im Lockscreen den Wert mit Tendenz an."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:190
-msgid "akti vier en"
+#: ../../docs/grundlagen/xdrip/settings.csv:1
+msgid "aktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:230
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:108
 msgid "Screenshot des Hauptbildschirms"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:232
-msgid "|xDrip\\_Screenshot\\_Hauptansicht|"
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:110
+msgid "|xDrip_Screenshot_Hauptansicht|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:234
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:112
 msgid "**oberer Bereich des Hauptbildschirms**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:236
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:114
 msgid "aktueller GZ mit Trendpfeil"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:237
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:115
 msgid "Zeit seit letzter Messung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:238
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:116
 msgid "Differenz zur vorletzten Messung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:239
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:117
 msgid "Batterie-Stand von xDrip/xBridge (optional)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:240
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:118
 msgid "dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:241
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:119
 msgid "dünne rote Gerade: Individuell definierte Grenze für „zu tief“"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:242
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:120
 msgid "Verlauf der letzten drei Stunden"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:243
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:121
 msgid "Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:245
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:123
 msgid "blau: im Zielbereich"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:246
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:124
 msgid "gelb: zu hoch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:247
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:125
 msgid "rot: zu tief"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:248
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:126
 msgid "rot/weiß: Kalibrierungen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:250
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:128
 msgid "**unterer Bereich des Hauptbildschirms**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:252
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:130
 msgid ""
 "Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand "
 "zeigt die letzten drei Stunden, die oben größer dargestellt sind."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:255
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:133
 msgid "Starten des Sensors"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:257
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:135
 msgid ""
 "Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut "
 "sitzt (prüfen, ob an der Seite alles gut eingerastet ist), geht man über "
 "das Hauptmenü zum Punkt \"Start Sensor\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:261
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:139
 msgid ""
 "Hier folgt neben einem Warnhinweis, frei übersetzt: Erst dann auf "
 "\"Sensor Start\" tippen, wenn der Sensor gelegt und der Transmitter "
@@ -3360,7 +3305,7 @@ msgid ""
 "dran, wie man sich noch erinnert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:267
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:145
 msgid ""
 "Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu "
 "notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf "
@@ -3370,32 +3315,32 @@ msgid ""
 "Gründen auch immer kurz abgenommen hatte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:274
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:152
 msgid "Zur Erklärung der 12-Stunden-Anzeige:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:276
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:154
 msgid ""
 "AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, "
 "Eselsbrücke: **A**\\ m **M**\\ orgen;"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:277
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:155
 msgid "PM = post meridiem, auf Deutsch: NACH dem Mittag"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:279
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:157
 msgid ""
 "Hat man den Sensor gestartet, erscheint auf dem Hauptbildschirm in roten "
 "Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten"
 " (rückwärtslaufend) eine Doppelkalibrierung benötigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:283
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:161
 msgid "**Alternativen beim Starten des Sensors**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:285
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:163
 msgid ""
 "Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn"
 " man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start "
@@ -3404,17 +3349,17 @@ msgid ""
 "dem neu gesetzten Sensor verwendet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:292
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:170
 msgid "Stoppen des Sensors"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:294
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:172
 msgid ""
 "Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt \"Start"
 " Sensor\" in der App durch den Menüpunkt \"**Stop Sensor**\" ersetzt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:297
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:175
 msgid ""
 "Wenn man hier antippt, erscheint ein Warnhinweis, man möge den Sensor nur"
 " dann stoppen, wenn man auch vorhat, ihn zu entfernen. Darunter befindet "
@@ -3422,15 +3367,15 @@ msgid ""
 "man, um den Sensor zu stoppen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:302
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:180
 msgid "Ab diesem Moment wechselt die Anzeige im Menü wieder zu \"Sensor Start\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:305
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:183
 msgid "Kalibrieren"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:307
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:185
 msgid ""
 "Zwei Stunden nach dem Sensor-Start (oder früher, s.o. unter Sensor "
 "starten) müssen die vom Sensor gemessenen Werte mit zwei von einem "
@@ -3446,7 +3391,7 @@ msgid ""
 "eingetragen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:320
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:198
 msgid ""
 "Für ein paar Minuten erscheint im Auswahlmenü die Möglichkeit "
 "**\"Override Calibration\"**, auf Deutsch: Kalibrierung überschreiben. "
@@ -3454,7 +3399,7 @@ msgid ""
 "werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:325
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:203
 msgid ""
 "Anschließend gibt es im Menü nicht mehr die Doppel-, sondern die einfache"
 " Kalibrierung **\"Add Calibration\"**, die wie die Doppelkalibrierung "
@@ -3473,15 +3418,15 @@ msgid ""
 "Blutzucker möglichst stabil ist*, also z.B. vor einer Mahlzeit."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:342
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:220
 msgid "Calibration Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:344
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:222
 msgid "Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:347
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:225
 msgid ""
 "Calibration Alerts - alert when a calibration is requested: *Hier kannst "
 "du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche "
@@ -3489,40 +3434,40 @@ msgid ""
 "Doppelkalibrierung an.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:352
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:230
 msgid ""
 "Calibration Request Sound: *Hier kannst du dir durch Antippen einen "
 "Signalton aus deinem Smartphonerepertoire auswählen.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:355
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:233
 msgid ""
 "Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen "
 "setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des "
-"Smartphones. *"
+"Smartphones.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:359
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:237
 msgid ""
 "Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton "
 "aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 "
 "Minuten.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:364
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:242
 #: ../../docs/nightscout/azure_plugins.rst:48
 msgid "Alarme"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:367
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:245
 msgid "BG-Level-Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:369
-msgid "|xDrip\\_Screenshot\\_alerts|"
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:247
+msgid "|xDrip_Screenshot_alerts|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:371
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:249
 msgid ""
 "Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich"
 " Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- "
@@ -3531,7 +3476,7 @@ msgid ""
 "verändert werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:388
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:266
 msgid ""
 "Drücke \"**create low alert**\", um einen Tiefalarm selbst zu definieren."
 " Unter \"***Alert Name***\" gibst du dem Alarm eine von dir ausgewählte "
@@ -3547,7 +3492,7 @@ msgid ""
 "Smartphonerepertoire aussuchen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:397
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:275
 msgid ""
 "Unter \"***select time for alert***\" ist \"all day\" bereits mit Häkchen"
 " versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch"
@@ -3560,44 +3505,44 @@ msgid ""
 "zusagt!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:399
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:277
 msgid ""
 "Entsprechend kannst du über \"**create high alert**\" eine Alarmkaskade "
 "nach oben schaffen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:402
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:280
 msgid ""
 "Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des "
 "gewünschten Alarmes in den Bearbeitungsmodus."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:406
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:284
 msgid "BG-Alert-Settings"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:409
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:287
 msgid "Profil: High, Ascending, ..."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:412
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:290
 msgid "Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:415
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:293
 msgid "Rise-Fall-Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:417
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:550
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:295
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:428
 msgid "----> ist noch zu beschreiben!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:420
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:298
 msgid "Werte vorlesen lassen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:422
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:300
 msgid ""
 "Beim Autofahren oder wenn man aus anderen Gründen die Hände gerade nicht "
 "frei hat (z.B. weil man mit den Händen im Spülwasser oder im Kuchenteig "
@@ -3605,7 +3550,7 @@ msgid ""
 " das Smartphone die sog. \"Text-to-speech\" Möglichkeit bietet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:427
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:305
 msgid ""
 "Dazu geht man zuerst im xDrip Menü auf Settings (Einstellungen) und "
 "verschiebt den Bildschirmtest so lange nach oben, bis man weit unten "
@@ -3618,7 +3563,7 @@ msgid ""
 "(Download Symbol antippen) kann."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:437
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:315
 msgid ""
 "Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man"
 " gleich noch ein Häkchen direkt unter Speak Readings bei \"**Speak "
@@ -3629,30 +3574,30 @@ msgid ""
 "deaktiviert werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:446
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:324
 msgid "Statistik"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:448
-msgid "|xDrip\\_Screenshot\\_statistic\\_1| |xDrip\\_Screenshot\\_statistic\\_2|"
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:326
+msgid "|xDrip_Screenshot_statistic_1| |xDrip_Screenshot_statistic_2|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:450
-msgid "|xDrip\\_Screenshot\\_statistic\\_3|"
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:328
+msgid "|xDrip_Screenshot_statistic_3|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:454
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:332
 msgid ""
 "Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den "
 "Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen "
 "auswählen kann."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:455
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:333
 msgid "TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = Tage"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:457
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:335
 msgid ""
 "Hierzu gibt es drei Seiten, die man durch Wischen nach links bzw. rechts "
 "aufrufen kann. Auf welcher der Seiten man sich befindet, erkennt man an "
@@ -3660,70 +3605,70 @@ msgid ""
 "Zeiträumen von ungefüllten zu gefüllten Kreisen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:462
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:340
 msgid "Die linke der drei Seiten enthält Informationstext."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:464
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:342
 msgid ""
 "Range, auf Deutsch: Spannweite, gibt die Verteilung der gemessenen Werte "
 "an, unterteilt nach in/high/low, auf Deutsch: innerhalb der "
 "Grenzwerte/höher/tiefer."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:468
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:346
 msgid ""
 "Absolute numbers: Dies sind die absoluten Zahlen der jeweils in den "
 "genannten Bereichen gemessenen Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:471
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:349
 msgid ""
 "Der Median BG ist der Wert in der Mitte der gemessenen Werte, damit "
 "werden Ausreißer nicht berücksichtigt (Bsp: 1,3,5,6,9=5)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:474
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:352
 msgid ""
 "Der Mean BG ist das arithmetische Mittel der gemessenen Werte (Bsp: "
 "1+3+5+5+9=23/5=4,6)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:477
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:355
 msgid ""
 "HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach "
 "angetipptem Zeitraum der HbA1c in mmol/mol und in mg/dl überschlägig "
 "berechnet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:481
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:359
 msgid ""
 "StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie"
 " ist ein Maß für die Streuung der Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:484
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:362
 msgid ""
 "Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in "
 "ihrer Verteilung als Tortengrafik dargestellt. Grün steht für innerhalb "
 "der Grenzwerte, gelb für hohe und rot für tiefe Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:488
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:366
 msgid ""
 "Auf der rechten Seite wird für jeden ausgewählten Zeitraum die "
 "Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:492
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:370
 msgid "Widget"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:494
-msgid "|xdrip\\_Screenshot\\_widget|"
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:372
+msgid "|xdrip_Screenshot_widget|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:496
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:374
 msgid ""
 "Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir "
 "auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget "
@@ -3734,7 +3679,7 @@ msgid ""
 "Wird das Widget angetippt, öffnet sich die xDrip App."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:504
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:382
 msgid ""
 "Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü "
 "gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern "
@@ -3745,11 +3690,11 @@ msgid ""
 "fertig!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:513
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:391
 msgid "BG History (nicht in der jetzigen Beta-Version verfügbar)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:515
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:393
 msgid ""
 "Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen "
 "Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen "
@@ -3757,7 +3702,7 @@ msgid ""
 "in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:521
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:399
 msgid ""
 "Für eine genauere Betrachtung lassen sich die Kurven mit einem "
 "Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend "
@@ -3768,15 +3713,15 @@ msgid ""
 "Verlaufskurve des Hauptbildschirmes möglich."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:530
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:408
 msgid "Weiteres"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:533
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:411
 msgid "Verbinden mit einer Smartwatch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:535
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:413
 msgid ""
 "An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu "
 "senden. Damit könnte man die Installationsschritte in \"Nightscout "
@@ -3785,21 +3730,21 @@ msgid ""
 "Tagebuch oder für das OpenAPS)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:542
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:420
 #: ../../docs/smartwatch/android_wear.rst:2
 msgid "Android Wear"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:545
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:423
 #: ../../docs/smartwatch/pebble.rst:2
 msgid "Pebble"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:548
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:426
 msgid "Upload zu NightScout"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:555
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:433
 msgid ""
 "**Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als \"hm-"
 "soft\", nicht als „xBridge“ oder „xDrip“. Was muss ich tun, damit das "
@@ -3811,11 +3756,11 @@ msgid ""
 " irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:567
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:445
 msgid "Verkabelung zwischen Wixel und Bluetooth-Modul prüfen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:568
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:446
 msgid ""
 "Baud-Rate prüfen. Bei einigen HM11-Modulen ist die Baudrate falsch "
 "gesetzt, ggf. also die Baudrate neu einstellen"
@@ -3852,7 +3797,7 @@ msgstr ""
 msgid "Nächster Antwort kommt hierher."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:585
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:463
 msgid "---> Erweiterbar!"
 msgstr ""
 
@@ -3884,7 +3829,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:17
-msgid "|azure\\_reg|"
+msgid "|azure_reg|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:20
@@ -3916,7 +3861,7 @@ msgid "**Azure Portal Startseite:**"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:30
-msgid "|azure\\_portal|"
+msgid "|azure_portal|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:32
@@ -3927,7 +3872,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:37
-msgid "|azure\\_config\\_app|"
+msgid "|azure_config_app|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:40
@@ -3952,7 +3897,7 @@ msgid "Wenn die Web-App erstellt wurde, erscheint diese Ansicht:"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:49
-msgid "|azure\\_app\\_created|"
+msgid "|azure_app_created|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:51
@@ -3970,7 +3915,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:59
-msgid "|azure\\_enable\\_plugins|"
+msgid "|azure_enable_plugins|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:62
@@ -3988,7 +3933,7 @@ msgid "Wir steigen hier ein, um die Verbindung herzustellen:"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:68
-msgid "|azure\\_choose\\_github|"
+msgid "|azure_choose_github|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:70
@@ -3996,7 +3941,7 @@ msgid "Jetzt folgt die **GitHub Autorisierung:**"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:72
-msgid "|github\\_authorize|."
+msgid "|github_authorize|."
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:74
@@ -4006,7 +3951,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:77
-msgid "|azure\\_authorize\\_github|."
+msgid "|azure_authorize_github|."
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:79
@@ -4018,7 +3963,7 @@ msgid "Jetzt wählt man den ``cgm-remote-monitor`` aus:"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:83
-msgid "|azure\\_crm|"
+msgid "|azure_crm|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:85
@@ -4062,7 +4007,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:104
-msgid "|azure\\_prices|"
+msgid "|azure_prices|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:106
@@ -4072,14 +4017,14 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:108
-msgid "|azure\\_prices\\_web|"
+msgid "|azure_prices_web|"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:110
 msgid ""
-"**WICHTIG: **\\ Die Tarife unterscheiden sich nach Region, es ist "
-"wichtig, Nordeuropa oder die USA auszuwählen, für andere Regionen "
-"entstehen ansonsten Kosten, die nicht nötig sind."
+"**WICHTIG:** Die Tarife unterscheiden sich nach Region, es ist wichtig, "
+"Nordeuropa oder die USA auszuwählen, für andere Regionen entstehen "
+"ansonsten Kosten, die nicht nötig sind."
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:114
@@ -4473,7 +4418,7 @@ msgid "Die Einstellungen sehen dann z.B. so aus:"
 msgstr ""
 
 #: ../../docs/nightscout/azure_plugins.rst:187
-msgid "|azure\\_app\\_entries|"
+msgid "|azure_app_entries|"
 msgstr ""
 
 #: ../../docs/nightscout/azure_plugins.rst:190
@@ -5645,7 +5590,7 @@ msgid "**Ereignis-Typ:**"
 msgstr ""
 
 #: ../../docs/nightscout/care_portal.rst:12
-msgid "|nightscout\\_careportal|"
+msgid "|nightscout_careportal|"
 msgstr ""
 
 #: ../../docs/nightscout/care_portal.rst:14
@@ -5681,7 +5626,7 @@ msgid "Nun können wir uns alles grafisch ansehen:"
 msgstr ""
 
 #: ../../docs/nightscout/care_portal.rst:29
-msgid "|nightscout\\_cp\\_entries|"
+msgid "|nightscout_cp_entries|"
 msgstr ""
 
 #: ../../docs/nightscout/care_portal.rst:31
@@ -5761,7 +5706,7 @@ msgid "Weiter Klicken auf das **Deploy to Azure** Symbol:"
 msgstr ""
 
 #: ../../docs/nightscout/deploy_to_azure.rst:10
-msgid "|azure\\_unbeaufsichtigt|"
+msgid "|azure_unbeaufsichtigt|"
 msgstr ""
 
 #: ../../docs/nightscout/deploy_to_azure.rst:15
@@ -5790,7 +5735,7 @@ msgid "Es erscheint diese Web - Maske:"
 msgstr ""
 
 #: ../../docs/nightscout/deploy_to_azure.rst:24
-msgid "|azure\\_deploy\\_param|"
+msgid "|azure_deploy_param|"
 msgstr ""
 
 #: ../../docs/nightscout/deploy_to_azure.rst:29
@@ -6057,7 +6002,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:34
-msgid "|github\\_billing|"
+msgid "|github_billing|"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:36
@@ -6079,7 +6024,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:45
-msgid "|github\\_branch\\_master|"
+msgid "|github_branch_master|"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:47
@@ -6087,7 +6032,7 @@ msgid "Das Ergebnis mit unserem eigenen Branch:"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:49
-msgid "|github\\_fork|"
+msgid "|github_fork|"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:51
@@ -6224,7 +6169,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/main_page.rst:40
-msgid "|nightscout\\_base\\_site|"
+msgid "|nightscout_base_site|"
 msgstr ""
 
 #: ../../docs/nightscout/main_page.rst:42
@@ -6428,7 +6373,7 @@ msgid "Wir starten mit dem Klick auf \"Create New\":"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:51
-msgid "|create\\_db|"
+msgid "|create_db|"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:53
@@ -6438,7 +6383,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:56
-msgid "|mongodb\\_details|"
+msgid "|mongodb_details|"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:59
@@ -6452,7 +6397,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:63
-msgid "|mongodb\\_create\\_success|"
+msgid "|mongodb_create_success|"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:67
@@ -6471,7 +6416,7 @@ msgid "**Datenbankbenutzer hinzufügen:**"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:72
-msgid "|mongodb\\_create\\_dbuser|"
+msgid "|mongodb_create_dbuser|"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:74
@@ -6479,7 +6424,7 @@ msgid "..und die vorher notierten Daten eingeben:"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:76
-msgid "|mongodb\\_dbuser\\_details|"
+msgid "|mongodb_dbuser_details|"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:78 ../../docs/nightscout/mongo_db.rst:89
@@ -6615,7 +6560,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db_administration.rst:23
-msgid "**Mit dieser Admin GUI ist folgendes möglich:\\* **"
+msgid "**Mit dieser Admin GUI ist folgendes möglich:**"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db_administration.rst:25
@@ -6673,11 +6618,11 @@ msgid "Klicke **Connect**, dann öffnet sich folgendes Fenster:"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db_administration.rst:55
-msgid "|mongochef\\_connect\\_name\\_port|"
+msgid "|mongochef_connect_name_port|"
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db_administration.rst:57
-msgid "|mongochef\\_connect\\_user|"
+msgid "|mongochef_connect_user|"
 msgstr ""
 
 #: ../../docs/nightscout/nightscout_einrichten.rst:2
@@ -6819,7 +6764,7 @@ msgid "**Kommunikation:**"
 msgstr ""
 
 #: ../../docs/nightscout/nightscout_website.rst:33
-msgid "|nightscout\\_principle|"
+msgid "|nightscout_principle|"
 msgstr ""
 
 #: ../../docs/nightscout/nightscout_website.rst:35
@@ -6833,7 +6778,7 @@ msgstr ""
 #: ../../docs/nightscout/nsfaqs.rst:5
 msgid ""
 "**Die Website reagiert sehr langsam, wenn sie längere Zeit nicht "
-"verwendet wurde: **"
+"verwendet wurde:**"
 msgstr ""
 
 #: ../../docs/nightscout/nsfaqs.rst:11
@@ -6878,7 +6823,7 @@ msgstr ""
 
 #: ../../docs/nightscout/profile_editor.rst:17
 #: ../../docs/nightscout/settings.rst:57
-msgid "|nightscout\\_profile\\_editor\\_plugins|"
+msgid "|nightscout_profile_editor_plugins|"
 msgstr ""
 
 #: ../../docs/nightscout/profile_editor.rst:19
@@ -6985,7 +6930,7 @@ msgid "**Nightscout API:**"
 msgstr ""
 
 #: ../../docs/nightscout/programmierbarkeit.rst:28
-msgid "|nightscout\\_swagger|"
+msgid "|nightscout_swagger|"
 msgstr ""
 
 #: ../../docs/nightscout/programmierbarkeit.rst:30
@@ -7050,7 +6995,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/reports.rst:7 ../../docs/nightscout/settings.rst:28
-msgid "|nightscout\\_reporting\\_config|"
+msgid "|nightscout_reporting_config|"
 msgstr ""
 
 #: ../../docs/nightscout/reports.rst:10 ../../docs/nightscout/settings.rst:31
@@ -7075,7 +7020,7 @@ msgid "Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:"
 msgstr ""
 
 #: ../../docs/nightscout/reports.rst:18 ../../docs/nightscout/settings.rst:39
-msgid "|nightscout\\_reporting\\_daily\\_graph|"
+msgid "|nightscout_reporting_daily_graph|"
 msgstr ""
 
 #: ../../docs/nightscout/reports.rst:20 ../../docs/nightscout/settings.rst:41
@@ -7085,7 +7030,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/reports.rst:23 ../../docs/nightscout/settings.rst:44
-msgid "|nightscout\\_change\\_treatments|"
+msgid "|nightscout_change_treatments|"
 msgstr ""
 
 #: ../../docs/nightscout/reports.rst:25
@@ -7200,7 +7145,7 @@ msgid "Nahrungsmittel Editor"
 msgstr ""
 
 #: ../../docs/nightscout/settings.rst:82
-msgid "|nightscout\\_nahrungsmittel\\_editor|"
+msgid "|nightscout_nahrungsmittel_editor|"
 msgstr ""
 
 #: ../../docs/nightscout/settings.rst:84
@@ -7224,7 +7169,7 @@ msgid "Administrator Werkzeuge"
 msgstr ""
 
 #: ../../docs/nightscout/settings.rst:95
-msgid "|nightscout\\_administrator\\_werkzeuge|"
+msgid "|nightscout_administrator_werkzeuge|"
 msgstr ""
 
 #: ../../docs/nightscout/settings.rst:97
@@ -7270,7 +7215,7 @@ msgid "Anlegen von Subjekten:"
 msgstr ""
 
 #: ../../docs/nightscout/settings.rst:119
-msgid "|nightscout\\_subjects|"
+msgid "|nightscout_subjects|"
 msgstr ""
 
 #: ../../docs/nightscout/settings.rst:122

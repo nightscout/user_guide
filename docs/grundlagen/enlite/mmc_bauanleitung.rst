@@ -41,7 +41,7 @@ kostengünstige Motorola Moto G entschieden zu haben.
    findet eine relativ große Auswahl bei Ebay oder Amazon. Die Kosten
    betragen etwa 5 €.
 
-|usb\_otgklein|
+|usb_otgklein|
 
 -  einen **CC1111 USB Dongle**, diesen Funk-Sender-Empfänger kann man
    z.B. für 67 € bei
@@ -50,7 +50,7 @@ kostengünstige Motorola Moto G entschieden zu haben.
    `Digi-Key <http://www.digikey.de/product-detail/de/CC1111EMK868-915/296-22732-ND/1739551>`__
    bestellen.
 
-|cc1111\_dongle|
+|cc1111_dongle|
 
 -  zumindest einmalig zum Programmieren des CC1111 USB Dongles einen
    **CC Debugger**. Dieser kann für rund 44 € z.B. ebenfalls bei
@@ -75,8 +75,8 @@ kostengünstige Motorola Moto G entschieden zu haben.
 
 |tictac|
 
-.. |usb\_otgklein| image:: ../../images/enlite/usb-otgklein.jpg
-.. |cc1111\_dongle| image:: ../../images/enlite/CC1111.jpg
+.. |usb_otgklein| image:: ../../images/enlite/usb-otgklein.jpg
+.. |cc1111_dongle| image:: ../../images/enlite/CC1111.jpg
 .. |ccdebugger| image:: ../../images/enlite/debugger.jpg
 .. |tictac| image:: ../../images/enlite/tictac.jpg
 

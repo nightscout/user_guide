@@ -16,7 +16,7 @@ Alternative xDrip und der xDrip App auf einem Android-Smartphone.
    gebauten Hardware (xDrip) empfangen und via Bluetooth an ein
    Android-Handy gesendet. Auf dem Handy wird die xDrip-App installiert.
 
-**Das System xDrip besteht aus zwei Komponenten: **
+**Das System xDrip besteht aus zwei Komponenten:**
 
 #. Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe
    `Bausatz <../bausatz.md>`__) miteinander verlötet.

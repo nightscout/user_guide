@@ -25,7 +25,7 @@ Initiative <https://openapis.org/>`__ aufbaut.
 
 **Nightscout API:**
 
-|nightscout\_swagger|
+|nightscout_swagger|
 
 Sollten die Details nicht automatisch dargestellt werden, so bitte den
 Wert
@@ -55,5 +55,5 @@ Behandlungsdaten sichern (im json- und csv Format). Es sind auch Uploads
 Weiter gehts mit der Anbindung von
 `Smartwatches <../smartwatch/smartwatch_integration.md>`__.
 
-.. |nightscout\_swagger| image:: ../images/nightscout/nightscout_swagger.jpg
+.. |nightscout_swagger| image:: ../images/nightscout/nightscout_swagger.jpg
 

@@ -37,7 +37,7 @@ oben. Wir können nun die Website öffnen.
 
 | Wir sehen uns nun die **Hauptseite:** an. Die Grafik wird alle 60
   Sekunden aktualisiert.
-| |nightscout\_base\_site|
+| |nightscout_base_site|
 
 Was sehen wir ?
 
@@ -81,6 +81,6 @@ Rechner**.
 Um die Website weiter anzupassen rufen wir jetzt das
 `Einstellungen <../nightscout/settings.md>`__ Menü auf.
 
-.. |nightscout\_base\_site| image:: ../images/nightscout/nightscout_base_site.jpg
+.. |nightscout_base_site| image:: ../images/nightscout/nightscout_base_site.jpg
 .. |Menüpunkte| image:: ../images/nightscout/grilledcheese-edit2.png
 
