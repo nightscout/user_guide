@@ -1,15 +1,22 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Nightscout Community
+# This file is distributed under the same license as the Nightscout User
+# Guide package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: :project_name 1\n"
+"Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-04 19:53+0100\n"
+"POT-Creation-Date: 2017-02-06 01:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #: ../../index.rst:7
 msgid "Welcome to Nightscout user guide's documentation!"
@@ -18,3 +25,4 @@ msgstr "Willkommen zum Nightscout Benutzerhandbuch!"
 #: ../../index.rst:9
 msgid "Contents:"
 msgstr "Inhalte:"
+

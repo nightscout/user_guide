@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-05 23:21+0100\n"
+"POT-Creation-Date: 2017-02-06 01:03+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,22 +18,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../docs/GLOSSARY.rst:2
+#: ../../docs/GLOSSARY.rst:4
 msgid "Glossary"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:5
+#: ../../docs/GLOSSARY.rst:11
 msgid "#WeAreNotWaiting"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:9
+#: ../../docs/GLOSSARY.rst
 msgid ""
 "Ausdruck der Empörung über die Medizintechnik, die aktuelle technische "
 "Möglichkeiten nicht ausschöpft, um betroffene Typ 1 Diabetiker zu "
 "unterstützen."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:11
+#: ../../docs/GLOSSARY.rst
 msgid "Wir warten nicht darauf, dass uns geholfen wird, wir helfen uns selbst."
 msgstr ""
 
@@ -41,7 +41,7 @@ msgstr ""
 msgid "5,5"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:16
+#: ../../docs/GLOSSARY.rst:14
 msgid ""
 "5,5 mmol/l ist die Entsprechung von 100mg/dl (ein gerne gefeierter "
 "Zielwert)"
@@ -51,7 +51,7 @@ msgstr ""
 msgid "API SECRET"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:22
+#: ../../docs/GLOSSARY.rst:17
 msgid ""
 "Das API SECRET - Application Programming Interface - SECRECT ist ein "
 "Schlüssel zur sicheren Übertragung von Daten über das Internet. Es "
@@ -60,11 +60,11 @@ msgid ""
 "https://de.wikipedia.org/wiki/Programmierschnittstelle)"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:29
+#: ../../docs/GLOSSARY.rst:28
 msgid "APS"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:31
+#: ../../docs/GLOSSARY.rst:23
 msgid ""
 "(engl.: Artificial Pancreas System, APS) CGM ist ferner integraler "
 "Bestandteil einer dauerhaft funktionierenden künstlichen "
@@ -74,26 +74,26 @@ msgid ""
 "Insulinpumpe steuert."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:39
+#: ../../docs/GLOSSARY.rst:34
 msgid "AR2"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:43
+#: ../../docs/GLOSSARY.rst
 msgid ""
 "(engl.: Auto Regression = AR2 ) ein mathematisches Modell zur "
 "Vorausberechnung von Werten unter Berücksichtigung des bisherigen "
 "Verlaufs. Näheres siehe:"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:44
+#: ../../docs/GLOSSARY.rst
 msgid "https://en.wikipedia.org/wiki/Autoregressive_model#AR.282.29"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:47
+#: ../../docs/GLOSSARY.rst:48
 msgid "bwp"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:53
+#: ../../docs/GLOSSARY.rst
 msgid ""
 "(engl.: Bolus Wizard Preview = Bolus Vorschau Assistent, bwp) Der Bolus "
 "Vorschau Assistent kann anhand von Wirkungszeit des Insulins (iob) und "
@@ -102,45 +102,45 @@ msgid ""
 "über mögliche Korrekturen zu erleichtern."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:55
+#: ../../docs/GLOSSARY.rst
 msgid ""
 "Dieses können Bolus - Korrekturen bei erhöhten BZ Werten oder "
 "Kohlenhydrat - Korrekturen bei zu niedrigen Werten sein."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:58
+#: ../../docs/GLOSSARY.rst
 msgid ""
 "Voraussetzung hierfür sind die genaue Dokumentation von "
 "Insulininjektionen und Wirkdauer - über Careportal und den Nightscout "
 "Profil Editor."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:59
+#: ../../docs/GLOSSARY.rst
 msgid "Weitere Erläuterungen in englischer Sprache findet man hier:"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:60
+#: ../../docs/GLOSSARY.rst
 msgid ""
 "http://www.nightscout.info/wiki/welcome/website-features/funnel-"
 "cake-0-8-features/bwp-bolus-wizard-preview"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:63
+#: ../../docs/GLOSSARY.rst:52
 msgid "cage"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:65
+#: ../../docs/GLOSSARY.rst:51
 msgid ""
 "Insulinpumpen Katheter Setzzeit ( engl.: Cannula Age, Cage) Zeigt die "
-"verstrichene Zeit an seit dem letzten Infusionsset - Setzen oder - "
-"Wechseln."
+"verstrichene Zeit an seit dem letzten Infusionsset - Setzen oder "
+"-Wechseln."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:70 ../../docs/grundlagen/cgm/index.rst:2
+#: ../../docs/GLOSSARY.rst:65 ../../docs/grundlagen/cgm/index.rst:2
 msgid "CGM"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:78
+#: ../../docs/GLOSSARY.rst
 msgid ""
 "Die Kontinuierliche Glucosemessung (engl.: Continuous Glucose Monitoring,"
 " CGM) wird in der Regel bei Menschen mit Diabetes mellitus eingesetzt, um"
@@ -150,7 +150,7 @@ msgid ""
 "treten dort meist mit einer kurzen zeitlichen Verzögerung auf."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:82
+#: ../../docs/GLOSSARY.rst
 msgid ""
 "Kommerzielle CGM-Systeme bestehen derzeit aus einem Nadelsensor, einem "
 "Transmitter (Übertragung) und einem Empfangsgerät, das alle Werte "
@@ -158,11 +158,11 @@ msgid ""
 "dem Display angezeigt werden kann."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:85
+#: ../../docs/GLOSSARY.rst:73
 msgid "cob"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:87
+#: ../../docs/GLOSSARY.rst:68
 msgid ""
 "Kohlenhydrate an Bord (engl.: Carbs On Board, cob) ist die Menge an "
 "Kohlenhydraten aus vorangegangenen Mahlzeiten, Snacks und Kohlenhydrat - "
@@ -173,11 +173,11 @@ msgid ""
 "länger)."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:96
+#: ../../docs/GLOSSARY.rst:84
 msgid "DIY"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:98
+#: ../../docs/GLOSSARY.rst:76
 msgid ""
 "Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem "
 "Fall, dass es keine Firma gibt, von der man ein fertiges, "
@@ -190,11 +190,11 @@ msgid ""
 "System für alle besser wird."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:109
+#: ../../docs/GLOSSARY.rst:92
 msgid "iob"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:111
+#: ../../docs/GLOSSARY.rst:87
 msgid ""
 "Insulin an Bord (engl.: Insulin On Board, iob) ist das aktive, "
 "schnellwirksame Bolus Insulin , welches nach einer Injektion oder Abgabe "
@@ -204,11 +204,11 @@ msgid ""
 "Insulins ist den Herstellerangaben zu entnehmen."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:119
+#: ../../docs/GLOSSARY.rst:99
 msgid "json"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:121
+#: ../../docs/GLOSSARY.rst:95
 msgid ""
 "(engl.: = Java Script Object Notation) ist ein einfaches Datenformat zum "
 "Austausch und zur Speicherung von Daten. Das Datenformat wird u.a. bei "
@@ -217,11 +217,11 @@ msgid ""
 "https://de.wikipedia.org/wiki/JavaScript_Object_Notation"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:128 ../../docs/nightscout/index.rst:2
+#: ../../docs/GLOSSARY.rst:111 ../../docs/nightscout/index.rst:2
 msgid "Nightscout"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:130
+#: ../../docs/GLOSSARY.rst:102
 msgid ""
 "Was ist das Nightscout Projekt? (NS in der Cloud) ist ein Open-Source-"
 "DIY-Projekt, das in Echtzeit einen Zugang zu einer persönlichen Website "
@@ -235,19 +235,19 @@ msgid ""
 "Smartphone, Tablets und auf Smartwatches."
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:142
+#: ../../docs/GLOSSARY.rst:114
 msgid "NS"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:144
+#: ../../docs/GLOSSARY.rst:114
 msgid "Siehe Nightscout"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:147
+#: ../../docs/GLOSSARY.rst:121
 msgid "Open Source Software"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:149
+#: ../../docs/GLOSSARY.rst:117
 msgid ""
 "Open Source Software wird als Begriff für Software verwendet, deren "
 "Quelltext offenliegt und frei verfügbar ist. Die Open Source Bewegung "
@@ -256,11 +256,11 @@ msgid ""
 "https://de.wikipedia.org/wiki/Open_Source"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:156
+#: ../../docs/GLOSSARY.rst:126
 msgid "Plugin"
 msgstr ""
 
-#: ../../docs/GLOSSARY.rst:158
+#: ../../docs/GLOSSARY.rst:124
 msgid ""
 "Plugins sind Software - Erweiterungen oder auch Software - Module, mit "
 "welchen man den Funktionsumfang einer Software - wie hier die Nightscout "
@@ -1721,7 +1721,7 @@ msgid "Grundsätzliche Funktionsweise/Ausblick"
 msgstr ""
 
 #: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:4
-msgid "Man kann Nightscout auf verschiedene Weise nutzen:"
+msgid "Man kann :term:Nightscout auf verschiedene Weise nutzen:"
 msgstr ""
 
 #: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:6
