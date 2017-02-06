@@ -146,10 +146,11 @@ umsetzen.
 
 |Einstellungen|
 
-Berichte
-~~~~~~~~
+Reports
+-------
 
-Mit dem Klick auf **Berichte** erhalten wir diese Ansicht:
+Wir starten das **Reporting** mit dem Klick auf **Berichte** und
+erhalten diese Ansicht:
 
 |nightscout_reporting_config|
 
@@ -171,12 +172,18 @@ Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf
 
 |nightscout_change_treatments|
 
+
 Profil - Editor
 ~~~~~~~~~~~~~~~
 
 Der Behandlungs Profil Editor speichert angepasste Werte für die
 persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten
 und Werte für Plugin iob, cob, bwp und Basalraten.
+
+Über einen eneuen Datenbankeintrag durch Klicken auf das + - Symbol
+können wir ein alternatives Profil erstellen. Der NS android Client
+zur Steuerung der Kommunikation zwischen Pumpe und CGM erfragt Werte
+aus den abgespeicherten Profilen.
 
 **Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine
 verwendbaren Werte angezeigt. Seit Grilled Cheese, Version 0.9 ist das
@@ -185,24 +192,30 @@ Anlegen eines Profils beim ersten Aufruf der Website erforderlich.
 |nightscout_profile_editor_plugins|
 
 Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden
-**Erklärungstexte** in englischer Sprache angezeigt.
+**Erklärungstexte** in deutscher Sprache angezeigt sofern Nightscout auf Deutsch eingestellt wurde.
 
-Bei **Timezone** bitte die gewünschte Zeitzone Einstellen.
+Bei **Zeitzone** bitte die entsprechende Zeitzone Einstellen.
 
-Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer
-des Bolus - Insulins. Die Plugins iob, bwp benötigen diese Eingaben.
+Mit **Dauer der Insulinaktivität (DIA) in Stunden** definieren wir die
+Wirkdauer des Bolus - Insulins. Die Plugins iob, bwp benötigen diese
+Eingaben.
 
-Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten
-für eine definierte Menge an KH verwendet werden müssen. Die Plugins iob
-und cob benötigen diese Eingaben.
+Mit **Insulin/Kohlenhydrate-Verhältnis (I:KH) in Gramm** wird angegeben,
+wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden
+müssen. Die Plugins iob und cob benötigen diese Eingaben.
 
-Mit dem **Insulin Sensitivity Factor (ISF)** können wir den
-Korrekturfaktor in mg/dl oder mmol/L angeben. Mit mehrfachen Eingaben
-können unterschiedliche Faktoren bestimmt werden.
+Mit dem **Insulinsensibilitätsfaktor (iSF) in mg/dl/U oder mmol/L/U**
+können wir den Korrekturfaktor in mg/dl oder mmol/L angeben. Mit
+mehrfachen Eingaben können unterschiedliche Faktoren bestimmt werden.
 
-Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen,
-wieviel Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das
-Plugin cob benötigt diese Eingaben.
+Mit **Kohlenhydrataktivität / Aufnahme Kohlenhydrate in Gramm/Stunde**
+können wir bestimmen, wieviel Gramm Kohlenhydrate pro Stunde
+verstoffwechselt werden. Das Plugin cob benötigt diese Eingaben.
+
+Mit **Basalraten in Einheiten/Stunde** können wir Basalraten für
+bestimmte Zeitbereiche eingeben.
+
+Am Ende das **Speichern** nicht vergessen.
 
 Nahrungsmittel Editor
 ~~~~~~~~~~~~~~~~~~~~~
@@ -258,89 +271,6 @@ der mongo db) mit diesem Menüpunkt zu löschen.
 Mit Punkt 4 kann man fälschlicherweise Behandlungen mit Datum in der
 Zukunft aus der Datenbank löschen.
 
-Jetzt geht es weiter mit dem
-`Behandlungsportal <../nightscout/care_portal.md>`__
-
-
-Reports
--------
-
-Wir starten das **Reporting** mit dem Klick auf **Berichte** und
-erhalten diese Ansicht:
-
-|nightscout_reporting_config|
-
-Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks
-auf den Namen aufrufen.
-
-Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang.
-Wir können vorgefertigte Zeiträume und individuelle Zeiträume
-auswählen. Weitere Filter sind möglich.
-
-Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**.
-
-Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:
-
-|nightscout_reporting_daily_graph|
-
-Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf
-**Bearbeitung** zu **Korrigieren** oder zu **Löschen**:
-
-|nightscout_change_treatments|
-
-Weiter gehts mit der
-`Programmierbarkeit <../nightscout/programmierbarkeit.md>`__.
-
-
-Profil - Editor
----------------
-
-Der Behandlungs Profil Editor speichert angepasste Werte für die
-persönliche Therapie.Mit dem Profil - Editor konfigurieren wir
-Einheiten und Werte für die Plugins iob, cob, bwp und Basalraten.
-
-Über einen eneuen Datenbankeintrag durch Klicken auf das + - Symbol
-können wir ein alternatives Profil erstellen. Der NS android Client
-zur Steuerung der Kommunikation zwischen Pumpe und CGM erfragt Werte
-aus den abgespeicherten Profilen.
-
-**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine
-verwendbaren Werte angezeigt.
-
-**Profil Editor:**
-
-|nightscout_profile_editor_plugins|
-
-Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden
-**Erklärungstexte** in Sprache angezeigt.
-
-Bei **Zeitzone** bitte die entsprechende Zeitzone Einstellen.
-
-Mit **Dauer der Insulinaktivität (DIA) in Stunden** definieren wir die
-Wirkdauer des Bolus - Insulins. Die Plugins iob, bwp benötigen diese
-Eingaben.
-
-Mit **Insulin/Kohlenhydrate-Verhältnis (I:KH) in Gramm** wird angegeben,
-wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden
-müssen. Die Plugins iob und cob benötigen diese Eingaben.
-
-Mit dem **Insulinsensibilitätsfaktor (iSF) in mg/dl/U oder mmol/L/U**
-können wir den Korrekturfaktor in mg/dl oder mmol/L angeben. Mit
-mehrfachen Eingaben können unterschiedliche Faktoren bestimmt werden.
-
-Mit **Kohlenhydrataktivität / Aufnahme Kohlenhydrate in Gramm/Stunde**
-können wir bestimmen, wieviel Gramm Kohlenhydrate pro Stunde
-verstoffwechselt werden. Das Plugin cob benötigt diese Eingaben.
-
-Mit **Basalraten in Einheiten/Stunde** können wir Basalraten für
-bestimmte Zeitbereiche eingeben.
-
-Am Ende das **Speichern** nicht vergessen.
-
-Weiter gehts mit der Eingabe von Daten über das
-`Careportal <../nightscout/care_portal.md>`__.
-
-
 Behandlungsportal
 -----------------
 
@@ -383,11 +313,6 @@ Azure App.-Einstellungen geändert werden, in dem man die
 TREATMENTNOTIFY\_SNOOZE\_MINS
 Variable ändert.
 
-Weiter gehts mit der Verwendung des `Bolus
-Rechner <../nightscout/boluscalculator.md>`__.
-
-
-
 Bolus Rechner
 -------------
 
@@ -404,10 +329,6 @@ Der Bolus Rechner greift auf Werte aus dem ``Profil Editor`` zu,
 genauer dem ``ISF`` und dem ....
 
 mit ``Formular absenden`` werden die Daten gespeichert.
-
-Weiter geht es mit der `Smartwatch Integration <../smartwatch/smartwatch_integration.md>`__
-
-
 
 .. |Bolus Rechner| image:: ../images/nightscout/nightscout_bolus_calculator.jpg
 .. |nightscout_careportal| image:: ../images/nightscout/nightscout_careportal.jpg
