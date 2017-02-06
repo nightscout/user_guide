@@ -12,13 +12,15 @@ Nightscout
    azure
    deploy_to_azure
    azure_plugins
-   boluscalculator
    nsfaqs
-   care_portal
-   reports
-   programmierbarkeit
    lokale_installationen
-   main_page
    nightscout_website
-   profile_editor
+   main_page
    settings
+   reports
+   profile_editor
+   care_portal
+   boluscalculator
+   programmierbarkeit
+   
+   
