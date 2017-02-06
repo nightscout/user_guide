@@ -72,9 +72,9 @@ dazu nötig:
    und lädt ab jetzt die mit der Glimp App gescannten Werte des Libre
    auf die Nightscout Seite.
 
-.. |image0| image:: ../images/libre/glimp1.png
-.. |image1| image:: ../images/libre/glimp2.png
-.. |image2| image:: ../images/libre/glimp3.png
-.. |image3| image:: ../images/libre/glimp4.png
-.. |image4| image:: ../images/libre/glimp5.png
+.. |image0| image:: ../../images/libre/glimp1.png
+.. |image1| image:: ../../images/libre/glimp2.png
+.. |image2| image:: ../../images/libre/glimp3.png
+.. |image3| image:: ../../images/libre/glimp4.png
+.. |image4| image:: ../../images/libre/glimp5.png
 
