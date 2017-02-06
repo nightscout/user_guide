@@ -50,17 +50,22 @@ dazu nötig:
 #. Glimp für die Zusammenarbeit mit Nightscout konfigurieren. Dazu auf
    die 3 Punkte in der rechten, oberen Ecke klicken und danach auf
    "**Optionen**" klicken.
+
    |image0|
 #. Jetzt "**entferntes Glucose-Monitoring**" wählen.
+
    |image1|
 #. Auf der "entferntes Glucose-Monitoring"-Seite, gibt man jetzt die
    vorher erstellte Nightscout URL ein.
+
    |image2|
 #. Jetzt das API SECRET eingeben (Anmerkung: das API SECRET *muss*
    identisch sein, mit das man bei der Konfiguration der Nightscout
    Seite bei Azure bzw. Heroku gesetzt hat.)
+
    |image3|
 #. Nun auf "**Test connection**" klicken.
+
    |image4|
 #. Wenn der Test erfolgreich war, dann ist Glimp nun fertig konfiguriert
    und lädt ab jetzt die mit der Glimp App gescannten Werte des Libre
