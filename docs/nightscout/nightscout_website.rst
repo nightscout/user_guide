@@ -3,24 +3,25 @@
 Die Nightscout Website
 ======================
 
-| Die Nightscout Website ist die zentrale Website zur Darstellung und
-  Speicherung von Diabetes - Daten. Sie kann als komplettes Tagebuch mit
-  Eingabe von Insulin, Kohlenhydraten, Bewegung uvm. verwendet werden.
-  Mit der Integration von **OpenAPS** wird der gesamte Verlauf der
-  Pumpensteuerung mit temporären Basalraten dargestellt. Der gesamte CGM
-  - Verlauf wird online dargestellt und zyklisch aktualisiert. Es gibt
-  umfangreiche
-  `Einstellungsmoeglichkeiten <../nightscout/settings.md>`__ für die
-  Website Das `Behandlungsportal <nightscout/care_portal.md>`__ bietet
-  eine umfängliche Auswahl an Behandlungsdaten. Über den `Bolus
-  Rechner <nightscout/boluscalculator.md>`__ können für Mahlzeiten
-  abzugebende Boluseinheiten berechnet werden.
-| Das `Reporting <../nightscout/settings.md>`__ bietet die Möglichkeit,
-  die Daten auszuwerten und für andere zur Analyse auszugeben. Mit dem
-  `Profileditor <../nightscout/settings.md>`__ hat man die Möglichkeit,
-  Parameter in unterschiedlichen Profilen abzuspeichern, die z.B. für
-  die Pumpensteuerung benötigt werden. Die Grafik wird standardmäßig
-  alle 60 Sekunden aktualisiert.
+Die Nightscout Website ist die zentrale Website zur Darstellung und
+Speicherung von Diabetes - Daten. Sie kann als komplettes Tagebuch mit
+Eingabe von Insulin, Kohlenhydraten, Bewegung uvm. verwendet werden.
+Mit der Integration von **OpenAPS** wird der gesamte Verlauf der
+Pumpensteuerung mit temporären Basalraten dargestellt. Der gesamte CGM
+- Verlauf wird online dargestellt und zyklisch aktualisiert. Es gibt
+umfangreiche
+`Einstellungsmoeglichkeiten <../nightscout/settings.md>`__ für die
+Website Das `Behandlungsportal <nightscout/care_portal.md>`__ bietet
+eine umfängliche Auswahl an Behandlungsdaten. Über den `Bolus
+Rechner <nightscout/boluscalculator.md>`__ können für Mahlzeiten
+abzugebende Boluseinheiten berechnet werden.
+
+Das `Reporting <../nightscout/settings.md>`__ bietet die Möglichkeit,
+die Daten auszuwerten und für andere zur Analyse auszugeben. Mit dem
+`Profileditor <../nightscout/settings.md>`__ hat man die Möglichkeit,
+Parameter in unterschiedlichen Profilen abzuspeichern, die z.B. für
+die Pumpensteuerung benötigt werden. Die Grafik wird standardmäßig
+alle 60 Sekunden aktualisiert.
 
 Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die
 Einstellungen zum Übertragen der Daten in der Uploader-App
@@ -45,10 +46,10 @@ Nightscout ist seit Oktober 2016 in der Version **0.9** - **Grilled
 Cheese** verfügbar. Wer Vorgängerversionen nutzt, muss Einstellungen für
 die Website in Azure oder Heroku überprüfen und ergänzen.
 
-| Variable unter den App - Einstellungen zum Hinzufügen:
-  ``AUTH_DEFAULT_ROLES`` mit ``readable``, ``status-only`` als mögliche
-  Werte.
-| evicestatus-Upload
+Variable unter den App - Einstellungen zum Hinzufügen:
+``AUTH_DEFAULT_ROLES`` mit ``readable``, ``status-only`` als mögliche
+Werte.
+devicestatus-Upload
 
 Wenn wir die Website aktualisieren und feststellen, dass Dinge, die wir
 aktiviert haben, nicht richtig angezeigt werden (wie boluscalc), bitte
@@ -75,9 +76,10 @@ sind, ändern wir das Profil und klicken dann auf **Speichern**. Wenn das
 Profil korrekt gespeichert ist, sehen wir **Erfolg** unten und rechts
 oben. Wir können nun die Website öffnen.
 
-| Wir sehen uns nun die **Hauptseite:** an. Die Grafik wird alle 60
-  Sekunden aktualisiert.
-| |nightscout_base_site|
+Wir sehen uns nun die **Hauptseite:** an. Die Grafik wird alle 60
+Sekunden aktualisiert.
+
+|nightscout_base_site|
 
 Was sehen wir ?
 
@@ -151,12 +153,14 @@ Mit dem Klick auf **Berichte** erhalten wir diese Ansicht:
 
 |nightscout_reporting_config|
 
-| Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks
-  auf den Namen aufrufen.
-| Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang.
-  Wir können vorgefertigte Zeiträume und individuelle Zeiträume
-  auswählen. Weitere Filter sind möglich.
-| Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**.
+Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks
+auf den Namen aufrufen.
+
+Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang.
+Wir können vorgefertigte Zeiträume und individuelle Zeiträume
+auswählen. Weitere Filter sind möglich.
+
+Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**.
 
 Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:
 
@@ -242,10 +246,11 @@ Anlegen von Subjekten:
 
 |nightscout_subjects|
 
-| Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend
-  sind. Hinter den Rollen sind die Zugriffsrechte gelistet.
-| Man kann eigene Rollen wie beim anlegen von Subjekten definieren und
-  speichern.
+Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend
+sind. Hinter den Rollen sind die Zugriffsrechte gelistet.
+
+Man kann eigene Rollen wie beim anlegen von Subjekten definieren und
+speichern.
 
 Es ist unter Punkt 3 möglich, die Gerätestatus - Sammlung (Collection in
 der mongo db) mit diesem Menüpunkt zu löschen.
@@ -265,12 +270,14 @@ erhalten diese Ansicht:
 
 |nightscout_reporting_config|
 
-| Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks
-  auf den Namen aufrufen.
-| Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang.
-  Wir können vorgefertigte Zeiträume und individuelle Zeiträume
-  auswählen. Weitere Filter sind möglich.
-| Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**.
+Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks
+auf den Namen aufrufen.
+
+Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang.
+Wir können vorgefertigte Zeiträume und individuelle Zeiträume
+auswählen. Weitere Filter sind möglich.
+
+Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**.
 
 Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:
 
@@ -288,13 +295,14 @@ Weiter gehts mit der
 Profil - Editor
 ---------------
 
-| Der Behandlungs Profil Editor speichert angepasste Werte für die
-  persönliche Therapie.Mit dem Profil - Editor konfigurieren wir
-  Einheiten und Werte für die Plugins iob, cob, bwp und Basalraten.
-| Über einen eneuen Datenbankeintrag durch Klicken auf das + - Symbol
-  können wir ein alternatives Profil erstellen. Der NS android Client
-  zur Steuerung der Kommunikation zwischen Pumpe und CGM erfragt Werte
-  aus den abgespeicherten Profilen.
+Der Behandlungs Profil Editor speichert angepasste Werte für die
+persönliche Therapie.Mit dem Profil - Editor konfigurieren wir
+Einheiten und Werte für die Plugins iob, cob, bwp und Basalraten.
+
+Über einen eneuen Datenbankeintrag durch Klicken auf das + - Symbol
+können wir ein alternatives Profil erstellen. Der NS android Client
+zur Steuerung der Kommunikation zwischen Pumpe und CGM erfragt Werte
+aus den abgespeicherten Profilen.
 
 **Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine
 verwendbaren Werte angezeigt.
@@ -348,16 +356,18 @@ hinzuzufügen.
 
 Die Auswahlfelder werden entsprechend der Auswahl angepasst.
 
-| Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch
-  noch die Eingabe der
-| korrekten **Zeit**, falls man Daten nicht online eingeben kann, da
-  diese zusammen mit den CGM - Werten grafisch dargestellt werden.
+Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch
+noch die Eingabe der
 
-| In dieser Maske können wir auch temporäre Basalraten mit
-  ``Temp Basal Start/End`` eingegeben. Diese werden anschließend
-  grafisch dargestellt.
-| Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die
-  eingaben zu bestätigen. Mit **OK** ist alles gespeichert.
+korrekten **Zeit**, falls man Daten nicht online eingeben kann, da
+diese zusammen mit den CGM - Werten grafisch dargestellt werden.
+
+In dieser Maske können wir auch temporäre Basalraten mit
+``Temp Basal Start/End`` eingegeben. Diese werden anschließend
+grafisch dargestellt.
+
+Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die
+eingaben zu bestätigen. Mit **OK** ist alles gespeichert.
 
 Nun können wir uns alles grafisch ansehen:
 
@@ -365,13 +375,13 @@ Nun können wir uns alles grafisch ansehen:
 
 **Benachrichtigungen** über Therapie - Behandlungsdaten
 
-| Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden
-  Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht
-  wurde. Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die
-  Standard - Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über
-  Azure App.-Einstellungen geändert werden, in dem man die
-  TREATMENTNOTIFY\_SNOOZE\_MINS
-| Variable ändert.
+Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden
+Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht
+wurde. Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die
+Standard - Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über
+Azure App.-Einstellungen geändert werden, in dem man die
+TREATMENTNOTIFY\_SNOOZE\_MINS
+Variable ändert.
 
 Weiter gehts mit der Verwendung des `Bolus
 Rechner <../nightscout/boluscalculator.md>`__.
@@ -387,14 +397,15 @@ ganz oben rechts:
 
 |Bolus Rechner|
 
-| Die KHs können entweder manuell oder über gespeicherte Mahlzeiten aus
-  der Nahrungsmittel - Tabelle eingegeben werden.
-| Der Bolus Rechner greift auf Werte aus dem ``Profil Editor`` zu,
-  genauer dem ``ISF`` und dem ....
-| mit ``Formular absenden`` werden die Daten gespeichert.
+Die KHs können entweder manuell oder über gespeicherte Mahlzeiten aus
+der Nahrungsmittel - Tabelle eingegeben werden.
 
-Weiter geht es mit der `Smartwatch
-Integration <../smartwatch/smartwatch_integration.md>`__
+Der Bolus Rechner greift auf Werte aus dem ``Profil Editor`` zu,
+genauer dem ``ISF`` und dem ....
+
+mit ``Formular absenden`` werden die Daten gespeichert.
+
+Weiter geht es mit der `Smartwatch Integration <../smartwatch/smartwatch_integration.md>`__
 
 
 
