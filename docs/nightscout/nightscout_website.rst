@@ -147,7 +147,7 @@ umsetzen.
 |Einstellungen|
 
 Reports
--------
+~~~~~~~
 
 Wir starten das **Reporting** mit dem Klick auf **Berichte** und
 erhalten diese Ansicht:
