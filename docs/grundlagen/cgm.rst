@@ -116,7 +116,7 @@ Auf diesem Smartphone wird dann der 640gAndroidUploader installiert und
 konfiguriert.
 
 Dazu sind die folgenden Einzelschritte erforderlich:
-Zunächst muss das Kapitel :ref:`Nightscout einrichten`
+Zunächst muss das Kapitel :ref:`Nightscout`
 durchgearbeitet und die Webseite entsprechend eingerichtet werden.
 Danach geht es weiter mit dem Kapitel :ref:`Anlegen eines Kontos auf https://carelink.minimed.eu`. Ist dies
 geschehen, wird noch das Android Smartphone mit dem Contour Next Link

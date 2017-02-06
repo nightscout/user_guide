@@ -2,7 +2,7 @@
 ------------
 
 Bevor man das Messgerät Countour Next Link 2.4 vorbereitet oder den 640gAndroidUploader installiert 
-sollte man zuerst das Kapitel :ref:`Nightscout einrichten`
+sollte man zuerst das Kapitel :ref:`Nightscout`
 durchgearbeitet und die Webseite entsprechend eingerichtet haben.
 
 .. _Konfiguration des Android Smartphones mit dem Contour Next Link Messgerät:

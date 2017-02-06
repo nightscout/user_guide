@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-06 16:38+0100\n"
+"POT-Creation-Date: 2017-02-06 21:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: ../../docs/fehlerbehebung.rst:2 ../../docs/grundlagen/mmcommander.rst:285
-#: ../../docs/grundlagen/xdrip.rst:719
+#: ../../docs/fehlerbehebung.rst:2 ../../docs/grundlagen/mmcommander.rst:286
+#: ../../docs/grundlagen/xdrip.rst:740
 msgid "Fehlerbehebung"
 msgstr ""
 
@@ -75,6 +75,22 @@ msgstr ""
 
 #: ../../docs/fehlerbehebung.rst:32
 msgid "Bitte unter Profil-Einstellungen die Zeitzone überprüfen und ggf. ändern."
+msgstr ""
+
+#: ../../docs/fehlerbehebung.rst:36
+msgid ""
+"Die Website reagiert sehr langsam, wenn sie längere Zeit nicht verwendet "
+"wurde:"
+msgstr ""
+
+#: ../../docs/fehlerbehebung.rst:38
+msgid ""
+"Wenn die Website längere Zeit nicht verwendet wird, z.B. wenn die Daten "
+"nachts direkt zur Mongo-Datenbank hochgeladen werden und keine Uhr Daten "
+"periodisch abfragt, baut Azure Verbindungen ab. Diese wieder "
+"herzustellen, braucht eine gewisse Zeit. Abhilfe schaffen Dienste, die "
+"die Website periodisch (z.B. alle 5 Minuten einmal) abrufen. Ein solcher "
+"Dienst ist https://uptimerobot.com/."
 msgstr ""
 
 #: ../../docs/glossary.rst:3
@@ -249,7 +265,7 @@ msgid ""
 "https://de.wikipedia.org/wiki/JavaScript_Object_Notation"
 msgstr ""
 
-#: ../../docs/glossary.rst:100 ../../docs/nightscout/index.rst:2
+#: ../../docs/glossary.rst:100 ../../docs/nightscout/index.rst:4
 msgid "Nightscout"
 msgstr ""
 
@@ -308,40 +324,29 @@ msgstr ""
 msgid ""
 "Bevor man das Messgerät Countour Next Link 2.4 vorbereitet oder den "
 "640gAndroidUploader installiert sollte man zuerst das Kapitel "
-":ref:`Nightscout einrichten` durchgearbeitet und die Webseite "
-"entsprechend eingerichtet haben."
+":ref:`Nightscout` durchgearbeitet und die Webseite entsprechend "
+"eingerichtet haben."
 msgstr ""
 
 #: ../../docs/grundlagen/640g.rst:11
 msgid "Konfiguration des Android Smartphones mit dem Contour Next Link Messgerät"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:14
-msgid "Lade die aktuellste Version der Nightscout Uploader App auf dein Android"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:16
+#: ../../docs/grundlagen/640g.rst:13
 msgid ""
+"Lade die aktuellste Version der Nightscout Uploader App auf dein Android "
 "Smartphone und installiere sie "
 "(https://github.com/pazaan/640gAndroidUploader/releases)."
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:20
+#: ../../docs/grundlagen/640g.rst:17
 msgid ""
 "Nachdem du die App installiert hast, verbinde dein Smartphone mit dem "
 "Contour Next Link 2.4 Messgerät über ein USB-OTG (On-The-Go) Kabel und "
-"starte die App:"
+"starte die App: |OTG| |Setup|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:21
-msgid "|OTG|"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:22
-msgid "|Setup|"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:27
+#: ../../docs/grundlagen/640g.rst:23
 msgid ""
 "Im ersten Schritt musst du die Nutzungsbedingungen lesen und akzeptieren."
 " Als nächstes musst du dein Contour Next Link Gerät registrieren. Dazu "
@@ -352,296 +357,271 @@ msgstr ""
 msgid "|Menu1|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:31
+#: ../../docs/grundlagen/640g.rst:30
 msgid ""
 "Solltest du keine drei Menü-Punkte sehen, musst du das Menü über deine "
 "Menü-Taste des Smartphones öffnen:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:32
+#: ../../docs/grundlagen/640g.rst:33
 msgid "|Menu2|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:34
+#: ../../docs/grundlagen/640g.rst:35
 msgid "Klicke nun auf „Register USB Stick“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:35
+#: ../../docs/grundlagen/640g.rst:37
 msgid "|USBStick|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:38
+#: ../../docs/grundlagen/640g.rst:39
 msgid ""
 "Gib nun deine Login Informationen von carelink.minimed.eu ein und drücke "
 "„RETRIEVE KEYS FOR USB“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:39
+#: ../../docs/grundlagen/640g.rst:42
 msgid "|Keys|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:42
+#: ../../docs/grundlagen/640g.rst:44
 msgid ""
 "Wenn die App den richtigen Schlüssel von CareLink bekommt, siehst du nun "
 "auf dem Bildschirm den ersten CGM-Wert: Gratuliere!"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:43
+#: ../../docs/grundlagen/640g.rst:47
 msgid "|CGM|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:47
+#: ../../docs/grundlagen/640g.rst:49
 msgid ""
 "Damit die CGM-Werte nun auch auf anderen mobilen Geräten abgelesen werden"
 " können, müssen wir noch einen Schritt machen. Gehe wiederum ins Menü der"
 " App und drücke auf „Preferences“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:48
+#: ../../docs/grundlagen/640g.rst:53
 msgid "|Preferences|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:51
+#: ../../docs/grundlagen/640g.rst:55
 msgid ""
 "Aktiviere nun „REST API Upload“. Je nach Version der App musst du noch "
-"deine API Base URL eingeben, die so aussieht:"
+"deine API Base URL eingeben, die so aussieht: "
+"``https://deinAPI_SECRET@deinewebsite.azurewebsites.net/api/v1/`` Es kann"
+" sein, dass dein API_SECRET Passwort und deine Nightscout Website "
+"(deinewebsite.azurewebsites.net) separat verlangt werden."
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:54
-msgid ""
-"``https://``\\ **deinAPI\\_SECRETPasswort**\\ ``@``\\ **deinewebsite**\\ "
-"``.azurewebsites.net/api/v1/`` Es kann sein, dass dein API\\_SECRET "
-"Passwort und deine Nightscout Website (deinewebsite.azurewebsites.net) "
-"separat verlangt werden."
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:55
+#: ../../docs/grundlagen/640g.rst:61
 msgid "|API|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:59
+#: ../../docs/grundlagen/640g.rst:63
 msgid ""
 "Nun kannst du auf deiner Website (deinewebsite.azurewebsites.net) die "
 "CGM-Werte ablesen (es kann einige Minuten in Anspruch nehmen, bis die "
 "Daten angezeigt werden):"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:60
+#: ../../docs/grundlagen/640g.rst:67
 msgid "|Nightscout|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:62
+#: ../../docs/grundlagen/640g.rst:69
 msgid ""
 "Als App zum Lesen der Kurve für Android empfehle ich „NightWatch“. Für "
 "iPhones empfehle ich die Apps „Nightscouter“ oder „Nightscout“."
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:65
-msgid "Sobald die Verbindung zwischen der Pumpe und der Android-Messgerät-"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:69
+#: ../../docs/grundlagen/640g.rst:72
 msgid ""
+"Sobald die Verbindung zwischen der Pumpe und der Android-Messgerät- "
 "Verbindung unterbrochen wird (Distanz, Wackelkontakt des USB-OTG Kabels),"
 " werden keine CGM-Werte mehr aufgezeichnet. Sie werden zum jetzigen "
 "Zeitpunkt auch nicht nachgetragen, sobald die Verbindung wieder steht."
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:71
+#: ../../docs/grundlagen/640g.rst:78
 msgid ""
 "Bei Problemen kannst du jederzeit die Community auf Facebook um Rat "
 "bitten (Gruppe für Deutschland heißt „Nightscout Deutschland (Germany)“)."
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:75
+#: ../../docs/grundlagen/640g.rst:82
 msgid "Nun viel Spaß mit Nightscout - #WeAreNotWaiting !"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:81
+#: ../../docs/grundlagen/640g.rst:88
 msgid "Anlegen eines Kontos auf https://carelink.minimed.eu"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:83
+#: ../../docs/grundlagen/640g.rst:90
 msgid ""
 "Wir benötigen ein Konto auf CareLink und müssen mindestens einmal die "
 "Pumpendaten über das Contour Next Link 2.4 Messgerät auf Carelink "
 "hochladen."
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:87
+#: ../../docs/grundlagen/640g.rst:94
 msgid "Gehe auf https://carelink.minimed.eu und klicke auf „Jetzt anmelden“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:89
+#: ../../docs/grundlagen/640g.rst:96
 msgid "|Anmeldung|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:91
+#: ../../docs/grundlagen/640g.rst:98
 msgid "Wähle dein Land und deine Sprache aus:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:93
+#: ../../docs/grundlagen/640g.rst:100
 msgid "|Sprache|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:96
+#: ../../docs/grundlagen/640g.rst:102
 msgid ""
 "Nach dem Durchlesen der Nutzungsbedingungen akzeptiere diese, indem du "
-"diese drei Checkboxen klickst und „Akzeptieren“ klickst:"
+"diese drei Checkboxen klickst und „Akzeptieren“ klickst: |Checkboxen|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:97
-msgid "|Checkboxen|"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:99
+#: ../../docs/grundlagen/640g.rst:106
 msgid ""
 "Fülle nun das Formular mit deinen Angaben aus. Bestätige, dass du kein "
 "Roboter bist, und klicke auf „Absenden“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:102
+#: ../../docs/grundlagen/640g.rst:109
 msgid "|Absenden|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:104
+#: ../../docs/grundlagen/640g.rst:111
 msgid "Nach dem „Absenden“ erscheint eine Bestätigungsseite:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:106
+#: ../../docs/grundlagen/640g.rst:113
 msgid "|Bestaetigung|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:109
+#: ../../docs/grundlagen/640g.rst:115
 msgid ""
 "Nachdem du auf „Fertig stellen“ klickst, kommst du auf die Startseite zum"
-" Login."
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:111
-msgid ""
-"Gib deine vorhin erstellten Benutzernamen und Passwort ein und klicke auf"
-" „Einloggen“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:113
-msgid "|Einloggen|"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:115
-msgid "Wechsle nun auf den Reiter „Hochladen“:"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:117
-msgid "|Hochladen|"
+" Login. Gib deine vorhin erstellten Benutzernamen und Passwort ein und "
+"klicke auf „Einloggen“:"
 msgstr ""
 
 #: ../../docs/grundlagen/640g.rst:120
+msgid "|Einloggen|"
+msgstr ""
+
+#: ../../docs/grundlagen/640g.rst:122
+msgid "Wechsle nun auf den Reiter „Hochladen“:"
+msgstr ""
+
+#: ../../docs/grundlagen/640g.rst:124
+msgid "|Hochladen|"
+msgstr ""
+
+#: ../../docs/grundlagen/640g.rst:126
 msgid ""
 "**Stecke** nun dein Contour Next Link 2.4 Messgerät in einen USB-Stecker "
-"deines Computers."
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:123
-msgid ""
-"**WICHTIG** ist, dass dieses Messgerät mit der Minimed 640G Pumpe bereits"
-" verbunden/gepaart wurde. (Eine Anleitung dazu findest du `hier "
+"deines Computers. **WICHTIG** ist, dass dieses Messgerät mit der Minimed "
+"640G Pumpe bereits verbunden/gepaart wurde. (Eine Anleitung dazu findest "
+"du `hier "
 "<http://diabetes.ascensia.de/datafiles/pdf/userguides/Contour_NEXT_Link_2_4_User_Guide_de_mgdl.pdf>`__.)"
-msgstr ""
-
-#: ../../docs/grundlagen/640g.rst:125
-msgid ""
-"**Die Pumpe** bzw. der/die Pumpenträger\\_in muss sich nun in der Nähe "
+" **Die Pumpe** bzw. der/die Pumpenträger\\_in muss sich nun in der Nähe "
 "des Computers bzw. des angeschlossenen Messgeräts befinden."
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:127
+#: ../../docs/grundlagen/640g.rst:134
 msgid ""
 "(Java muss auf dem Computer installiert sein und die Ausführung von Java "
 "erlaubt werden)."
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:130
+#: ../../docs/grundlagen/640g.rst:137
 msgid ""
 "**WICHTIG** ist, als Gerät „Minimed Insulinpumpe“ auszuwählen. Klicke nun"
 " auf „Weiter“"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:133
+#: ../../docs/grundlagen/640g.rst:140
 msgid "|Auswahl|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:135
+#: ../../docs/grundlagen/640g.rst:142
 msgid "Wähle nun „Minimed Serie 600“ und klicke auf „weiter“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:137
+#: ../../docs/grundlagen/640g.rst:144
 msgid "Du wirst nun gebeten"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:139
+#: ../../docs/grundlagen/640g.rst:146
 msgid "eine laufende Bolusabgabe abzuwarten/abzubrechen"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:140
+#: ../../docs/grundlagen/640g.rst:147
 msgid "eine laufende temporäre Basalrate abzuwarten/abzubrechen"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:141
+#: ../../docs/grundlagen/640g.rst:148
 msgid "zu kontrollieren, dass die Pumpenbatterie nicht schwach ist"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:142
+#: ../../docs/grundlagen/640g.rst:149
 msgid "etwaige Fehlermeldungen auf der Pumpe zu löschen"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:144
+#: ../../docs/grundlagen/640g.rst:151
 msgid "Sofern alles stimmt, klicke auf „Weiter“"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:146
+#: ../../docs/grundlagen/640g.rst:153
 msgid "|Pumpenstatus|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:148
+#: ../../docs/grundlagen/640g.rst:155
 msgid "Nun musst du die Seriennummer der Pumpe eingeben und auf „Weiter“ klicken:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:151
+#: ../../docs/grundlagen/640g.rst:158
 msgid "|Seriennummer|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:153
+#: ../../docs/grundlagen/640g.rst:160
 msgid "Wähle nun das Contour Next Link Messgerät aus und klicke auf „Weiter“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:155
+#: ../../docs/grundlagen/640g.rst:162
 msgid "|AuswahlVerbindung|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:157
+#: ../../docs/grundlagen/640g.rst:164
 msgid ""
 "Stelle sicher, dass alle aufgeführten Punkte zutreffen und klicke auf "
 "„Fertigstellen“:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:160
+#: ../../docs/grundlagen/640g.rst:167
 msgid "|Fertig|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:162
+#: ../../docs/grundlagen/640g.rst:169
 msgid "Die Pumpendaten werden nun ausgelesen:"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:164
+#: ../../docs/grundlagen/640g.rst:171
 msgid "|Auslesen|"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:166 ../../docs/grundlagen/mmcommander.rst:20
+#: ../../docs/grundlagen/640g.rst:173 ../../docs/grundlagen/mmcommander.rst:20
 msgid "**Wichtig:**"
 msgstr ""
 
-#: ../../docs/grundlagen/640g.rst:168
+#: ../../docs/grundlagen/640g.rst:175
 msgid ""
 "**Sollte die Verbindung zwischen Pumpe und Messgerät unterbrochen werden "
 "(z.B. durch das Auslesen der Pumpendaten in CareLink Pro bei einer "
@@ -879,12 +859,12 @@ msgstr ""
 #: ../../docs/grundlagen/cgm.rst:118
 msgid ""
 "Dazu sind die folgenden Einzelschritte erforderlich: Zunächst muss das "
-"Kapitel :ref:`Nightscout einrichten` durchgearbeitet und die Webseite "
-"entsprechend eingerichtet werden. Danach geht es weiter mit dem Kapitel "
-":ref:`Anlegen eines Kontos auf https://carelink.minimed.eu`. Ist dies "
-"geschehen, wird noch das Android Smartphone mit dem Contour Next Link "
-"Messgerät konfiguriert siehe :ref:`Konfiguration des Android Smartphones "
-"mit dem Contour Next Link Messgerät`."
+"Kapitel :ref:`Nightscout` durchgearbeitet und die Webseite entsprechend "
+"eingerichtet werden. Danach geht es weiter mit dem Kapitel :ref:`Anlegen "
+"eines Kontos auf https://carelink.minimed.eu`. Ist dies geschehen, wird "
+"noch das Android Smartphone mit dem Contour Next Link Messgerät "
+"konfiguriert siehe :ref:`Konfiguration des Android Smartphones mit dem "
+"Contour Next Link Messgerät`."
 msgstr ""
 
 #: ../../docs/grundlagen/cgm.rst:125
@@ -1264,46 +1244,66 @@ msgstr ""
 msgid ""
 "Glimp für die Zusammenarbeit mit Nightscout konfigurieren. Dazu auf die 3"
 " Punkte in der rechten, oberen Ecke klicken und danach auf "
-"\"**Optionen**\" klicken. |image0|"
+"\"**Optionen**\" klicken."
 msgstr ""
 
 #: ../../docs/grundlagen/libre.rst:54
-msgid "Jetzt \"**entferntes Glucose-Monitoring**\" wählen. |image1|"
+msgid "|image0|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:56
+#: ../../docs/grundlagen/libre.rst:55
+msgid "Jetzt \"**entferntes Glucose-Monitoring**\" wählen."
+msgstr ""
+
+#: ../../docs/grundlagen/libre.rst:57
+msgid "|image1|"
+msgstr ""
+
+#: ../../docs/grundlagen/libre.rst:58
 msgid ""
 "Auf der \"entferntes Glucose-Monitoring\"-Seite, gibt man jetzt die "
-"vorher erstellte Nightscout URL ein. |image2|"
+"vorher erstellte Nightscout URL ein."
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:59
+#: ../../docs/grundlagen/libre.rst:61
+msgid "|image2|"
+msgstr ""
+
+#: ../../docs/grundlagen/libre.rst:62
 msgid ""
 "Jetzt das API SECRET eingeben (Anmerkung: das API SECRET *muss* identisch"
 " sein, mit das man bei der Konfiguration der Nightscout Seite bei Azure "
-"bzw. Heroku gesetzt hat.) |image3|"
+"bzw. Heroku gesetzt hat.)"
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:63
-msgid "Nun auf \"**Test connection**\" klicken. |image4|"
+#: ../../docs/grundlagen/libre.rst:66
+msgid "|image3|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:65
+#: ../../docs/grundlagen/libre.rst:67
+msgid "Nun auf \"**Test connection**\" klicken."
+msgstr ""
+
+#: ../../docs/grundlagen/libre.rst:69
+msgid "|image4|"
+msgstr ""
+
+#: ../../docs/grundlagen/libre.rst:70
 msgid ""
 "Wenn der Test erfolgreich war, dann ist Glimp nun fertig konfiguriert und"
 " lädt ab jetzt die mit der Glimp App gescannten Werte des Libre auf die "
 "Nightscout Seite."
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:73
+#: ../../docs/grundlagen/libre.rst:78
 msgid "Libre als CGM"
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:75
+#: ../../docs/grundlagen/libre.rst:80
 msgid "**LimiTTer**"
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:78
+#: ../../docs/grundlagen/libre.rst:83
 msgid ""
 "Dank eines DIY Projektes ist es bereits heute möglich, den Libre Sensor "
 "mit einem selbst zu bastelnden Transmitter auszustatten, der dann "
@@ -1314,11 +1314,11 @@ msgid ""
 "Englisch."
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:86
+#: ../../docs/grundlagen/libre.rst:91
 msgid "**blueReader**"
 msgstr ""
 
-#: ../../docs/grundlagen/libre.rst:89
+#: ../../docs/grundlagen/libre.rst:94
 msgid ""
 "Mittlerweile gibt es auch ein Projekt, das sich an alle wendet, die nicht"
 " so gerne mit dem Lötkolben arbeiten und trotzdem den Libre mit dem "
@@ -1514,7 +1514,7 @@ msgstr ""
 msgid "Software"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:115
+#: ../../docs/grundlagen/mmcommander.rst:110
 msgid ""
 "Um den CC1111 USB Dongle mit der entsprechenden Software zu beschreiben, "
 "braucht man ein Windows Programm, welches `Smart RF Flash Programmer "
@@ -1524,7 +1524,7 @@ msgid ""
 "<https://github.com/jberian/mmcommander/releases/download/0.89/MMCommander_EUR_0.89_NoTx.hex>`__."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:120
+#: ../../docs/grundlagen/mmcommander.rst:117
 msgid ""
 "Am besten man installiert bereits jetzt SmartRF Flash Programmer, damit "
 "Windows später den CC Debugger erkennt. Es gibt alternativ auch die "
@@ -1533,7 +1533,7 @@ msgid ""
 "keine Lösung bekannt."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:122
+#: ../../docs/grundlagen/mmcommander.rst:123
 msgid ""
 "Später braucht man noch den Medtronic Uploader, der auf dem Android "
 "Smartphone die empfangenen Daten weitertransportiert. Dieser Link steht "
@@ -1546,11 +1546,11 @@ msgid ""
 "es eine aktuellere Version gibt."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:134
+#: ../../docs/grundlagen/mmcommander.rst:135
 msgid "CC1111 anschließen"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:136
+#: ../../docs/grundlagen/mmcommander.rst:137
 msgid ""
 "Beim Verbinden des CC1111 USB Dongle mit dem CC Debugger ist darauf zu "
 "achten, dass dieselbe Ader des Flachbandkabels am Pin 1 des CC Debuggers "
@@ -1560,39 +1560,39 @@ msgid ""
 "anzuschließen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:143
+#: ../../docs/grundlagen/mmcommander.rst:144
 msgid "|Kabelverbindung|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:145
+#: ../../docs/grundlagen/mmcommander.rst:146
 msgid ""
 "Nun müssen der CC1111 und der CC Debugger mit den USB Anschlüssen des "
 "Computers verbunden werden."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:148
+#: ../../docs/grundlagen/mmcommander.rst:149
 msgid "|Anschluss an den Computer|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:150
+#: ../../docs/grundlagen/mmcommander.rst:151
 msgid ""
 "Danach sollte der CC Debugger von Windows erkannt und der USB Treiber "
 "installiert werden (vorausgesetzt man hat die Software SmartRF Flash "
 "Programmer bereits installiert)."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:154
+#: ../../docs/grundlagen/mmcommander.rst:155
 msgid ""
 "Wenn alles richtig angeschlossen ist, leuchtet die LED am CC Debugger "
 "grün, wenn nicht, hilft eventuell ein Blick in das Unterkapitel "
 "`Fehlerbehebung <fehlerbehebung.md>`__."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:161
+#: ../../docs/grundlagen/mmcommander.rst:162
 msgid "CC1111 Programmierung"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:163
+#: ../../docs/grundlagen/mmcommander.rst:164
 msgid ""
 "Um den CC1111 USB Dongle zu programmieren, muss der SmartRF Flash "
 "Programmer entsprechend konfiguriert werden. Im \"System-on-Chip\" "
@@ -1602,25 +1602,25 @@ msgid ""
 "\"Actions\" wählt man den Punkt \"Erase, program and verify\" aus."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:170
+#: ../../docs/grundlagen/mmcommander.rst:171
 msgid "|Konfiguration|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:172
+#: ../../docs/grundlagen/mmcommander.rst:173
 msgid ""
 "Anschließend nur noch auf \"Perform actions\" klicken und kurz warten. "
 "Hat alles geklappt, sollte es so aussehen:"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:175
+#: ../../docs/grundlagen/mmcommander.rst:176
 msgid "|Ausgefuehrt|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:177
+#: ../../docs/grundlagen/mmcommander.rst:178
 msgid "Danach sollte Windows ein neues Gerät namens \"MMCommander\" finden."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:179
+#: ../../docs/grundlagen/mmcommander.rst:180
 msgid ""
 "Um zu prüfen, ob der MMCommander erfolgreich programmiert wurde, reicht "
 "es, diesen in einen USB Anschluss zu stecken und den Druckknopf auf dem "
@@ -1629,11 +1629,11 @@ msgid ""
 "wieder aus. Der Stick funktioniert."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:188
+#: ../../docs/grundlagen/mmcommander.rst:189
 msgid "Medtronic Uploader einrichten"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:190
+#: ../../docs/grundlagen/mmcommander.rst:191
 msgid ""
 "Bevor die Medtronic Uploader App auf dem Android Smartphone konfiguriert "
 "werden kann, muss man die Schritte des Kapitels `Nightscout einrichten "
@@ -1641,7 +1641,7 @@ msgid ""
 "Unterkapitels \"Care Portal\", vollzogen haben."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:195
+#: ../../docs/grundlagen/mmcommander.rst:196
 msgid ""
 "Nun installiert man die Datei \"NightScout.apk\" auf dem Smartphone. "
 "Eventuell muss man dazu unter Einstellungen - Sicherheit - Unbekannte "
@@ -1650,14 +1650,14 @@ msgid ""
 "für den Dexcom Empfänger gedachten \"Nightscout Uploader\"."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:201
+#: ../../docs/grundlagen/mmcommander.rst:202
 msgid ""
 "Die Account-Informationen, die man auf dem Arbeitsblatt aus Kapitel dem "
 "\"Account-Information\". eingetragen hat, werden nun zum Konfigurieren "
 "der Medtronic Uploader App benötigt."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:205
+#: ../../docs/grundlagen/mmcommander.rst:206
 msgid ""
 "Zuerst muss die Medtronic Uploader App geschlossen werden, falls diese "
 "bereits läuft. Nun den MMCommander über das USB OTG Kabel an das "
@@ -1666,7 +1666,7 @@ msgid ""
 "und diese sollte danach automatisch starten."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:211
+#: ../../docs/grundlagen/mmcommander.rst:212
 msgid ""
 "Wenn jetzt der Uploader läuft, klickt man rechts oben auf die drei Punkte"
 " oder, abhängig vom jeweiligen Android Smartphone, man benutzt die "
@@ -1675,65 +1675,65 @@ msgid ""
 "vorgenommen:"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:217
-#: ../../docs/nightscout/settings.rst:21
+#: ../../docs/grundlagen/mmcommander.rst:218
+#: ../../docs/nightscout/nightscout_website.rst:145
 msgid "|Einstellungen|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:219
+#: ../../docs/grundlagen/mmcommander.rst:220
 msgid ""
 "mmol/L -> hier kann man wählen, ob man lieber mit mmol/l oder mg/dl "
 "arbeitet."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:221
+#: ../../docs/grundlagen/mmcommander.rst:222
 msgid "Type -> \"Medtronic CGM\" auswählen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:222
+#: ../../docs/grundlagen/mmcommander.rst:223
 msgid ""
 "Pump ID -> die ID von der Pumpenrückseite eintragen. Dies sind die sechs "
 "Ziffern, die auf dem folgenden Bild im Bereich des roten Rechteckes "
 "liegen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:226
+#: ../../docs/grundlagen/mmcommander.rst:227
 msgid "|Pumpe|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:228
+#: ../../docs/grundlagen/mmcommander.rst:229
 msgid ""
 "Glucometer ID -> die ID des Blutzuckermessgerätes eintragen (rotes "
 "Rechteck)."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:231
+#: ../../docs/grundlagen/mmcommander.rst:232
 msgid "|Messgerät|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:233
+#: ../../docs/grundlagen/mmcommander.rst:234
 msgid ""
 "Sensor ID -> die ID von der Rückseite des Minimed Transmitters eintragen "
 "(rotes Rechteck)."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:236
+#: ../../docs/grundlagen/mmcommander.rst:237
 msgid "|Transmitter|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:238
+#: ../../docs/grundlagen/mmcommander.rst:239
 msgid "Calibration Type -> \"Manual\" auswählen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:239
+#: ../../docs/grundlagen/mmcommander.rst:240
 msgid "Glucose Value Source -> \"Medtronic Sensor\" auswählen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:240
+#: ../../docs/grundlagen/mmcommander.rst:241
 msgid "API Upload (REST) -> aktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:241
+#: ../../docs/grundlagen/mmcommander.rst:242
 msgid ""
 "API Base URL -> ``APISECRET``\\ @\\ https:// "
 "``WEBSEITENNAME``.azurewebsites.net/api/v1 eintragen. Sowohl das "
@@ -1744,23 +1744,23 @@ msgid ""
 "Y3KmrdFA12jmk@https://nscgm01.azurewebsites.net/api/v1."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:248
+#: ../../docs/grundlagen/mmcommander.rst:249
 msgid "MongoDB Upload -> deaktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:249
+#: ../../docs/grundlagen/mmcommander.rst:250
 msgid "MongoDB REST Upload -> deaktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:250
+#: ../../docs/grundlagen/mmcommander.rst:251
 msgid "Wifi Hack -> deaktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:251
+#: ../../docs/grundlagen/mmcommander.rst:252
 msgid "2 Days at Startup -> aktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:252
+#: ../../docs/grundlagen/mmcommander.rst:253
 msgid ""
 "I UNDERSTAND -> Hier steht ganz klar, dass Nightscout nicht genutzt "
 "werden darf, um medizinische Entscheidungen zu fällen. Es gibt weder "
@@ -1770,18 +1770,18 @@ msgid ""
 " aktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:258
+#: ../../docs/grundlagen/mmcommander.rst:259
 msgid "Logging Level -> Error"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:260
+#: ../../docs/grundlagen/mmcommander.rst:261
 msgid ""
 "Nun geht man raus aus den Einstellungen. Man sollte Striche sehen, einen "
 "grünen Text \"CGM Service Started\" und einen weiteren Text "
 "\"Uncalibrated\"."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:264
+#: ../../docs/grundlagen/mmcommander.rst:265
 msgid ""
 "Jedes Mal, wenn der Uploader Daten vom Sensor empfängt, erscheint "
 "folgender Text im unteren Teil des Bildschirms: \"Medtronic CGM Message: "
@@ -1792,11 +1792,11 @@ msgid ""
 " empfangen und diesen in die Mongo Datenbank hochladen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:272
+#: ../../docs/grundlagen/mmcommander.rst:273
 msgid "|Upload|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:274
+#: ../../docs/grundlagen/mmcommander.rst:275
 msgid ""
 "Damit wäre der Medtronic Uploader eingerichtet. Es dauert nun noch etwa "
 "eine Viertelstunde, bis die ersten Werte über die persönliche "
@@ -1804,14 +1804,14 @@ msgid ""
 "in das Unterkapitel `Fehlerbehebung <fehlerbehebung.md>`__."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:279
+#: ../../docs/grundlagen/mmcommander.rst:280
 msgid ""
 "Man sollte die Kalibrierung mittels \"Instant Calibration\" jedes Mal "
 "durchführen, wenn der MMCommander erneut mit dem Smartphone verbunden "
 "wird."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:287
+#: ../../docs/grundlagen/mmcommander.rst:288
 msgid ""
 "Da die meisten Informationen in diesem Handbuch zum Thema MMCommander und"
 " Medtronic Uploader frei aus der entsprechenden englischen "
@@ -1821,11 +1821,11 @@ msgid ""
 "INSTALL.pdf auch weitere Informationen finden."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:294
+#: ../../docs/grundlagen/mmcommander.rst:295
 msgid "**Probleme beim Verbinden des CC Debuggers mit dem CC1111**"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:296
+#: ../../docs/grundlagen/mmcommander.rst:297
 msgid ""
 "Wenn die Verbindung zwischen den beiden Geräten nicht funktioniert, "
 "versucht man am besten, das Kabel auf dem CC1111 andersherum zu stecken. "
@@ -1835,11 +1835,11 @@ msgid ""
 " einem Messer entfernen und auch den Stecker im CC Debugger drehen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:303
+#: ../../docs/grundlagen/mmcommander.rst:304
 msgid "**Probleme mit der Firmware des Debuggers**"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:306
+#: ../../docs/grundlagen/mmcommander.rst:307
 msgid ""
 "Normalerweise sollte es nicht nötig sein, diese Firmware zu "
 "aktualisieren, da es auch mit einer älteren Version der Firmware klappen "
@@ -1855,25 +1855,25 @@ msgid ""
 "Bootloader aktualisiert."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:320
+#: ../../docs/grundlagen/mmcommander.rst:321
 msgid "|Firmware-Update1|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:322
+#: ../../docs/grundlagen/mmcommander.rst:323
 msgid ""
 "Anschließend sollte man eine aktualisierte \"EB firmware rev\" und \"... "
 "update OK\" sehen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:325
+#: ../../docs/grundlagen/mmcommander.rst:326
 msgid "|Firmware-Update2|"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:327
+#: ../../docs/grundlagen/mmcommander.rst:328
 msgid "**Probleme mit dem CC Debugger**"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:330
+#: ../../docs/grundlagen/mmcommander.rst:331
 msgid ""
 "Wenn die CC Debugger LED rot leuchtet, dann sollte man die Verkabelung "
 "überprüfen und sicherstellen, dass sowohl der CC111 als auch der CC "
@@ -1881,18 +1881,18 @@ msgid ""
 "Reset Knopf des Debuggers drücken."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:335
+#: ../../docs/grundlagen/mmcommander.rst:336
 msgid ""
 "Wenn die LED des CC Debuggers rot blinkt, dann hat der Debugger selbst "
 "einen Fehler und man sollte im englischen `TI's CC Debugger User Guide "
 "<http://www.ti.com/lit/pdf/swru197>`__ nach Rat suchen."
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:339
+#: ../../docs/grundlagen/mmcommander.rst:340
 msgid "**Grundsätzlich**"
 msgstr ""
 
-#: ../../docs/grundlagen/mmcommander.rst:342
+#: ../../docs/grundlagen/mmcommander.rst:343
 msgid ""
 "Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann "
 "empfiehlt sich ein Blick in die bereits oben erwähnte englische "
@@ -2028,7 +2028,7 @@ msgstr ""
 msgid "Bausatz"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:60
+#: ../../docs/grundlagen/xdrip.rst:57
 msgid ""
 "Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die "
 "verwendete Hardware, die Art die Hardware zu verlöten und auch die "
@@ -2049,30 +2049,30 @@ msgid ""
 "Bluetooth-Handy zu übertragen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:67
+#: ../../docs/grundlagen/xdrip.rst:69
 msgid ""
 "Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung "
 "zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten "
 "Bauformen zu beschreiben."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:71
+#: ../../docs/grundlagen/xdrip.rst:73
 msgid ""
 "Hier werden drei verschiedene Bauformen vorgestellt. Eine \"Bauform\" "
 "meint eine Art, die Hardware-Komponenten miteinander zu verlöten."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:74
+#: ../../docs/grundlagen/xdrip.rst:76
 msgid "Bauform 1.): \"xDrip classic\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:76
+#: ../../docs/grundlagen/xdrip.rst:78
 msgid ""
 "Dies ist die einfachste Bauform. Es hat sich der Name der \"xDrip "
 "classic\" etabliert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:80
+#: ../../docs/grundlagen/xdrip.rst:81
 msgid ""
 "Vorteil: Weniger Lötstellen. Einfach und robust. (Was nicht dran ist, "
 "kann nicht kaputt gehen.) Im Regelbetrieb leuchtet immer eine LED. Das "
@@ -2080,38 +2080,38 @@ msgid ""
 " noch \"lebt\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:82
+#: ../../docs/grundlagen/xdrip.rst:86
 msgid ""
 "Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei "
 "xBridge-Bauform."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:84
+#: ../../docs/grundlagen/xdrip.rst:89
 msgid "Bauform 2.): \"xDrip classic mit Spannungsteiler\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:87
+#: ../../docs/grundlagen/xdrip.rst:91
 msgid ""
 "Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst geringem"
 " Aufwand ein \"xDrip classic\" um eine Anzeige der Akku-Ladung erweitert "
 "werden soll."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:89
+#: ../../docs/grundlagen/xdrip.rst:95
 msgid ""
 "Vorteil: Mit Anzeige der Akku-Ladung. Geringer Aufwand beim Umbau von "
 "\"xDrip classic\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:90
+#: ../../docs/grundlagen/xdrip.rst:98
 msgid "Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:92
+#: ../../docs/grundlagen/xdrip.rst:100
 msgid "Bauform 3.): \"xBridge\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:96
+#: ../../docs/grundlagen/xdrip.rst:102
 msgid ""
 "Die Stromversorgung des Bluetooth-Moduls läuft etwas anders, als beim "
 "\"xDrip classic\". Im Vergleich zum \"xDrip mit Spannungsteiler\" müssen "
@@ -2119,24 +2119,24 @@ msgid ""
 "die Anbindung an das Bluetooth-Modul etwas anders geschaltet werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:100
+#: ../../docs/grundlagen/xdrip.rst:107
 msgid ""
 "Vorteil: Von den hier vorgestellten Varianten die längste Akku-Laufzeit. "
 "Von der Anzeige der Akku-Ladung bitte keine Wunder erwarten - es ist nur "
 "eine grobe Orientierung. Der aangezeigte Prozentwert sinkt nicht linear."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:102
+#: ../../docs/grundlagen/xdrip.rst:112
 msgid ""
 "Nachteil: Ungeeignet, wenn sich die Bluetooth-Verbindung zum Handy sich "
 "schlecht oder langsam aufbaut."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:104
+#: ../../docs/grundlagen/xdrip.rst:115
 msgid "Tipps und Rat für Einsteiger:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:106
+#: ../../docs/grundlagen/xdrip.rst:117
 msgid ""
 "Baut zunächst einen xDrip in der \"klassischen Verschaltung\". Es "
 "entfallen die beiden Widerstände, dafür fehlt in der App die "
@@ -2145,13 +2145,13 @@ msgid ""
 "Modul ggf. ändern)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:111
+#: ../../docs/grundlagen/xdrip.rst:122
 msgid ""
 "Verwendet für das Wixel die \"xBridge2.wxl\"-Software. Für alle hier "
 "gezeigten Schaltkreise/Bauformen ist diese Software geeignet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:113
+#: ../../docs/grundlagen/xdrip.rst:124
 msgid ""
 "Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein,"
 " dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen "
@@ -2166,7 +2166,7 @@ msgid ""
 "nehmen.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:124
+#: ../../docs/grundlagen/xdrip.rst:135
 msgid ""
 "Die Brücke \"for faster charging with large batteries\" beeinflusst den "
 "Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen,"
@@ -2177,14 +2177,14 @@ msgid ""
 "bringen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:132
+#: ../../docs/grundlagen/xdrip.rst:143
 msgid ""
 "Die Kabel können sehr dünn sein - das erhöht die Flexibilität. "
 "Verschiedene Farben machen es leichter, die Übersicht zu behalten, "
 "solange der xDrip noch im Bau ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:135
+#: ../../docs/grundlagen/xdrip.rst:146
 msgid ""
 "Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat "
 "sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und "
@@ -2194,7 +2194,7 @@ msgid ""
 " auch ohne dieses Modul."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:141
+#: ../../docs/grundlagen/xdrip.rst:152
 msgid ""
 "In den Schaltbildern sind keine Schalter eingetragen. Ein Schalter kann "
 "sinnvoll sein, um einen zweiten (geladenen, aber abgeschalteten) xDrip "
@@ -2204,38 +2204,38 @@ msgid ""
 "Schwimmengehens,...)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:148
+#: ../../docs/grundlagen/xdrip.rst:159
 msgid ""
 "**Schaltbild für xDrip in der \"klassischen Verschaltung\" (Empfehlung "
 "für Einsteiger)**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:151
+#: ../../docs/grundlagen/xdrip.rst:162
 msgid "(ohne Widerstände für Batterieanzeige)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:152
+#: ../../docs/grundlagen/xdrip.rst:164
 msgid "|xDrip Schaltbild|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:154
+#: ../../docs/grundlagen/xdrip.rst:166
 msgid "\\*\\* Hinweise zum Löten: \\*\\*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:156
+#: ../../docs/grundlagen/xdrip.rst:168
 msgid ""
 "Wenn ihr ein anderes Bluetooth-Modul habt als in der Abbildung "
 "dargestellt, achtet auf die korrekte Verlötung vom Wixel zum Bluetooth-"
 "Modul. (Achtet auf die Beschriftung der Pins in der Abbildung)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:160
+#: ../../docs/grundlagen/xdrip.rst:172
 msgid ""
 "Anleitung zum Löten: `Film "
 "<https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:163
+#: ../../docs/grundlagen/xdrip.rst:175
 msgid "\\*\\* Zur Software auf dem Wixel: \\*\\*"
 msgstr ""
 
@@ -2270,13 +2270,13 @@ msgid ""
 "für mehrere Stunden aufgefüllt.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:178
+#: ../../docs/grundlagen/xdrip.rst:190
 msgid ""
 "Software zum Aufspielen der wxl-Datei auf das Wixel `Wixel Configuration "
 "Utility <https://www.pololu.com/product/1337/resources>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:182
+#: ../../docs/grundlagen/xdrip.rst:194
 msgid ""
 "Weitere Infos: siehe `hier <https://github.com/jstevensog/wixel-"
 "sdk/blob/master/apps/xBridge2/xBridge2.pdf>`__"
@@ -2298,28 +2298,28 @@ msgid ""
 "der Spannungsversorgung trennen und dann die Verbindung aufbauen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:194
+#: ../../docs/grundlagen/xdrip.rst:206
 msgid "\\*\\* Info zu den Widerständen: \\*\\* (wichtig für die Batterie-Anzeige)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:196
+#: ../../docs/grundlagen/xdrip.rst:208
 msgid "\"xDrip classic\" (ohne Spannungsteiler) Also keine Widerstände verbaut."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:198
+#: ../../docs/grundlagen/xdrip.rst:210
 msgid ""
 "\"xDrip classic zzgl. Spannungsteiler\". Dann muss der Spannungsteiler "
 "ein Verhältnis von 1:2,2 haben. Empfohlen werden 10k und 22k. (Aber die "
 "Kombination mit 1k und 2,2k geht auch.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:201
+#: ../../docs/grundlagen/xdrip.rst:213
 msgid ""
 "\"xBridge\" (incl. Spannungsteiler). Dann muss der Spannungsteiler ein "
 "Verhältnis von 1:2,7 haben. Empfohlen werden 10k und 27k."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:203
+#: ../../docs/grundlagen/xdrip.rst:215
 msgid ""
 "Wenn Widerstände neu eingebaut wurden, wenn die eingebauten Widerstände "
 "verändert wurden oder wenn der Akku getauscht wurde, muss anschließend "
@@ -2328,7 +2328,7 @@ msgid ""
 "in der xDrip-App sind falsch."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:208
+#: ../../docs/grundlagen/xdrip.rst:220
 msgid ""
 "Metallschicht-Widerstände sind etwas größer und damit leichter zu "
 "handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man "
@@ -2336,39 +2336,39 @@ msgid ""
 "Löten."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:216
+#: ../../docs/grundlagen/xdrip.rst:227
 msgid ""
 "Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl "
 "auf dem Wixel)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:219
+#: ../../docs/grundlagen/xdrip.rst:230
 msgid ""
 "Die Anzeigen sind von der Version der wxl-Datei und von der verbauten "
 "Hardware abhängig - in der folgenden Tabelle gibt es eine grobe "
 "Orientierung."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:221
+#: ../../docs/grundlagen/xdrip.rst:234
 msgid "Erklärung zur folgenden Tabelle:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:223
+#: ../../docs/grundlagen/xdrip.rst:236
 msgid "**Die Inhalte sind noch nicht abgesichert.**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:224
+#: ../../docs/grundlagen/xdrip.rst:237
 msgid ""
 "\"[STRIKEOUT:grün]\" bedeutet: Es gibt verschiedene Bauformen für die "
 "Bluetooth-Module (HM10 und HM11), die Farbe der LED kann eine andere "
 "sein."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:227
+#: ../../docs/grundlagen/xdrip.rst:240
 msgid "\"-\" bedeutet: Diese Anzeige sollte nicht vorkommen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:229
+#: ../../docs/grundlagen/xdrip.rst:242
 msgid "**Bauteile**"
 msgstr ""
 
@@ -2484,7 +2484,7 @@ msgstr ""
 msgid "\"connected\" dauerhaft"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:235
+#: ../../docs/grundlagen/xdrip.rst:248
 msgid "**Stückliste** ( Stand: September 2015 )"
 msgstr ""
 
@@ -2825,23 +2825,23 @@ msgid ""
 "<http://www.amazon.de/dp/B00NH11N5A>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:243
+#: ../../docs/grundlagen/xdrip.rst:256
 msgid ""
 "Hinweis: Es gibt Erfahrungsberichte, die besagen, dass ein HM17 sich "
 "ebenso verwenden lässt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:249
+#: ../../docs/grundlagen/xdrip.rst:262
 msgid "Weiterführende Infos / Schaltbilder für xBridge"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:252
+#: ../../docs/grundlagen/xdrip.rst:264
 msgid ""
 "Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante "
 "\"xDrip-classic\" nicht gewünscht ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:257
+#: ../../docs/grundlagen/xdrip.rst:267
 msgid ""
 "Es gibt verschiedene Bluetooth-Module: HM10, HM11 oder HM-17 für die es "
 "verschiedene Bauformen gibt. Deswegen hier mehrere Bilder zur "
@@ -2850,64 +2850,50 @@ msgid ""
 "Abbildungen auch die Bezeichnungen der Anschlüsse ablesen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:259
-msgid "**Schaltbild für xBridge mit HM-10**"
+#: ../../docs/grundlagen/xdrip.rst:273
+msgid "**Schaltbild für xBridge mit HM-10** |HM10_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:260
-msgid "|HM10_xbridge_Wiring_Diagram|"
+#: ../../docs/grundlagen/xdrip.rst:276
+msgid ""
+"**Schaltbild für xBridge mit HM-10 auf Breakout Board** |HM10_Breakout "
+"Board_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:262
-msgid "**Schaltbild für xBridge mit HM-10 auf Breakout Board**"
+#: ../../docs/grundlagen/xdrip.rst:279
+msgid "**Schaltbild für xBridge mit HM-11** |HM11_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:263
-msgid "|HM10_Breakout Board_xbridge_Wiring_Diagram|"
+#: ../../docs/grundlagen/xdrip.rst:282
+msgid "**Schaltbild für \"xDrip USB V3\"** |xDrip V3usb Schaltbild|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:265
-msgid "**Schaltbild für xBridge mit HM-11**"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip.rst:266
-msgid "|HM11_xbridge_Wiring_Diagram|"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip.rst:268
-msgid "**Schaltbild für \"xDrip USB V3\"**"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip.rst:269
-msgid "|xDrip V3usb Schaltbild|"
-msgstr ""
-
-#: ../../docs/grundlagen/xdrip.rst:271
+#: ../../docs/grundlagen/xdrip.rst:285
 msgid "\\*\\* Weitere Infos / empfohlene Links: \\*\\* (englische Seiten)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:273
+#: ../../docs/grundlagen/xdrip.rst:287
 msgid ""
 "zu xBridge2: Ein `PDF <https://github.com/jstevensog/wixel-"
 "sdk/raw/master/apps/xBridge2/xBridge2.pdf>`__ Dokument findet sich in "
 "diesem `Repository <https://github.com/jstevensog/wixel-sdk>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:277
+#: ../../docs/grundlagen/xdrip.rst:291
 msgid ""
 "Eine weitere Seite mit Anleitungen findet sich `hier <http://circles-of-"
 "blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-"
 "dexdrip-introduction/>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:279
+#: ../../docs/grundlagen/xdrip.rst:293
 msgid ""
 "Eine sehr hübsche Anleitung zu Bau der xDrip-Box findet sich hier: "
 "http://www.hypodiabetic.co.uk/home/blog/hacking-diabetes/xdrip-and-"
 "xbridge-build-instructions"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:281
+#: ../../docs/grundlagen/xdrip.rst:295
 msgid ""
 "Wichtige Quellen zu xDrip finden sich an diesen Stellen: `hier "
 "<https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip>`__ und `hier"
@@ -2916,11 +2902,11 @@ msgid ""
 "pages/hardware_setup.md>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:289
+#: ../../docs/grundlagen/xdrip.rst:303
 msgid "xDrip App"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:294
+#: ../../docs/grundlagen/xdrip.rst:305
 msgid ""
 "Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy "
 "läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und - optional - "
@@ -2928,41 +2914,41 @@ msgid ""
 "hochzuladen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:297
+#: ../../docs/grundlagen/xdrip.rst:310
 msgid ""
 "Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with "
 "Share* oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht "
 "erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:300
+#: ../../docs/grundlagen/xdrip.rst:315
 msgid "Voraussetzungen:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:302
+#: ../../docs/grundlagen/xdrip.rst:317
 msgid "Android-Telefon mit Betriebssystem-Version 4.3 (besser 4.4 oder höher)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:304
+#: ../../docs/grundlagen/xdrip.rst:319
 msgid ""
 "Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab "
 "Bluetooth 4.0 vorhanden und wird häufig mit \"Bluetooth Smart\" "
 "gekennzeichnet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:307
+#: ../../docs/grundlagen/xdrip.rst:322
 msgid "xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur USA)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:311
+#: ../../docs/grundlagen/xdrip.rst:326
 msgid "Grund-Funktionalität"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:314
+#: ../../docs/grundlagen/xdrip.rst:329
 msgid "Download & Installation"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:316
+#: ../../docs/grundlagen/xdrip.rst:331
 msgid ""
 "Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der "
 "Download für eine lauffähige Version (\\*.apk-File) findet sich hier: "
@@ -2970,24 +2956,24 @@ msgid ""
 "<https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:323
+#: ../../docs/grundlagen/xdrip.rst:336
 msgid ""
 "Die hier verlinkten Versionen sind so erstellt, dass man eine ältere "
 "Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte "
 "zu verlieren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:325
+#: ../../docs/grundlagen/xdrip.rst:340
 msgid ""
 "Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen"
 " Quellen selbst die apk zusammenstellen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:327
+#: ../../docs/grundlagen/xdrip.rst:343
 msgid "**\"xDrip\" oder \"xDrip+\"**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:332
+#: ../../docs/grundlagen/xdrip.rst:345
 msgid ""
 "Alternativ zur \"xDrip\"-App wird auch die Software \"xDrip+\" empfohlen."
 " xDrip+ ist eine Variante, bzw. eine Erweiterung der \"xDrip\"-App. In "
@@ -2996,31 +2982,31 @@ msgid ""
 "Möglichkeiten kann Einsteiger auch verwirren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:334
+#: ../../docs/grundlagen/xdrip.rst:351
 msgid ""
 "Die Beschreibungen dieser Seite wurden für xDrip geschrieben, sie gelten "
 "aber ebenso für xDrip+."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:336
+#: ../../docs/grundlagen/xdrip.rst:354
 msgid "Infos und Download zu xDrip+ finden sich hier: https://jamorham.github.io/"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:339
+#: ../../docs/grundlagen/xdrip.rst:358
 msgid "Verbinden mit dem Wixel"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:342
+#: ../../docs/grundlagen/xdrip.rst:361
 msgid "Bluetooth-Scan / Hardware data source"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:344
+#: ../../docs/grundlagen/xdrip.rst:363
 msgid ""
 "Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter "
 "empfangen und an die xDrip-App übergeben werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:347
+#: ../../docs/grundlagen/xdrip.rst:366
 msgid ""
 "Bluetooth Wixel xDrip in classic - xml. Selbst kompilierte wxl, in die "
 "die individuelle Transmitter-ID einkompiliert wurde. Erstellt gemäß "
@@ -3029,17 +3015,17 @@ msgid ""
 "xDrip"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:353
+#: ../../docs/grundlagen/xdrip.rst:372
 msgid ""
 "xBridge Wixel xDrip in xBridge2 wxl. Aus dieser `Quelle "
 "<https://github.com/jstevensog/wixel-sdk>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:356
+#: ../../docs/grundlagen/xdrip.rst:375
 msgid "Wifi Wixel Weitere Infos, siehe: ?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:358
+#: ../../docs/grundlagen/xdrip.rst:377
 msgid ""
 "Wifi Wixel + BT Wixel Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu "
 "Hause mehrere Wixel im WLAN, die im ganzen Haus den Empfang "
@@ -3048,59 +3034,59 @@ msgid ""
 "xdrip"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:363
+#: ../../docs/grundlagen/xdrip.rst:382
 msgid ""
 "DexcomShare DexcomShare ist zZt. in Europa nicht verfügbar. Weitere "
 "Infos: http://www.dexcom.com/dexcom-g4-platinum-share"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:368
+#: ../../docs/grundlagen/xdrip.rst:387
 msgid "System Status"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:370
+#: ../../docs/grundlagen/xdrip.rst:389
 msgid "Hier findet man Informationen über das System:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:372
+#: ../../docs/grundlagen/xdrip.rst:391
 msgid "welche Hardware benutzt wird"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:373
+#: ../../docs/grundlagen/xdrip.rst:392
 msgid "welchen Ladezustand die Batterie des Transmitters hat"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:374
+#: ../../docs/grundlagen/xdrip.rst:393
 msgid "wann der Sensor gestartet worden ist"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:375
+#: ../../docs/grundlagen/xdrip.rst:394
 msgid "wie viele Tage und Stunden er bereits liegt"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:376
+#: ../../docs/grundlagen/xdrip.rst:395
 msgid "Connection Status: Ist die Hardware xDrip mit der App verbunden?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:377
+#: ../../docs/grundlagen/xdrip.rst:396
 msgid ""
 "Über Antippen von \"Forget Device\" kann man die Verbindung unterbrechen "
 "und über \"Restart Collector\" neu in Gang setzen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:381
+#: ../../docs/grundlagen/xdrip.rst:400
 msgid "Transmitter Battery Info"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:384
+#: ../../docs/grundlagen/xdrip.rst:403
 msgid "xDrip Battery Info"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:386
+#: ../../docs/grundlagen/xdrip.rst:405
 msgid "---> ist noch zu beschreiben!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:388
+#: ../../docs/grundlagen/xdrip.rst:407
 msgid "**Settings**"
 msgstr ""
 
@@ -3172,88 +3158,88 @@ msgstr ""
 msgid "aktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:395
+#: ../../docs/grundlagen/xdrip.rst:414
 msgid "Screenshot des Hauptbildschirms"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:397
+#: ../../docs/grundlagen/xdrip.rst:416
 msgid "|xDrip_Screenshot_Hauptansicht|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:399
+#: ../../docs/grundlagen/xdrip.rst:418
 msgid "**oberer Bereich des Hauptbildschirms**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:401
+#: ../../docs/grundlagen/xdrip.rst:420
 msgid "aktueller GZ mit Trendpfeil"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:402
+#: ../../docs/grundlagen/xdrip.rst:421
 msgid "Zeit seit letzter Messung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:403
+#: ../../docs/grundlagen/xdrip.rst:422
 msgid "Differenz zur vorletzten Messung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:404
+#: ../../docs/grundlagen/xdrip.rst:423
 msgid "Batterie-Stand von xDrip/xBridge (optional)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:405
+#: ../../docs/grundlagen/xdrip.rst:424
 msgid "dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:406
+#: ../../docs/grundlagen/xdrip.rst:425
 msgid "dünne rote Gerade: Individuell definierte Grenze für „zu tief“"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:407
+#: ../../docs/grundlagen/xdrip.rst:426
 msgid "Verlauf der letzten drei Stunden"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:408
+#: ../../docs/grundlagen/xdrip.rst:427
 msgid "Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:410
+#: ../../docs/grundlagen/xdrip.rst:429
 msgid "blau: im Zielbereich"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:411
+#: ../../docs/grundlagen/xdrip.rst:430
 msgid "gelb: zu hoch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:412
+#: ../../docs/grundlagen/xdrip.rst:431
 msgid "rot: zu tief"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:413
+#: ../../docs/grundlagen/xdrip.rst:432
 msgid "rot/weiß: Kalibrierungen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:415
+#: ../../docs/grundlagen/xdrip.rst:434
 msgid "**unterer Bereich des Hauptbildschirms**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:417
+#: ../../docs/grundlagen/xdrip.rst:436
 msgid ""
 "Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand "
 "zeigt die letzten drei Stunden, die oben größer dargestellt sind."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:420
+#: ../../docs/grundlagen/xdrip.rst:440
 msgid "Starten des Sensors"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:422
+#: ../../docs/grundlagen/xdrip.rst:442
 msgid ""
 "Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut "
 "sitzt (prüfen, ob an der Seite alles gut eingerastet ist), geht man über "
 "das Hauptmenü zum Punkt \"Start Sensor\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:426
+#: ../../docs/grundlagen/xdrip.rst:446
 msgid ""
 "Hier folgt neben einem Warnhinweis, frei übersetzt: Erst dann auf "
 "\"Sensor Start\" tippen, wenn der Sensor gelegt und der Transmitter "
@@ -3262,7 +3248,7 @@ msgid ""
 "dran, wie man sich noch erinnert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:432
+#: ../../docs/grundlagen/xdrip.rst:452
 msgid ""
 "Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu "
 "notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf "
@@ -3272,32 +3258,32 @@ msgid ""
 "Gründen auch immer kurz abgenommen hatte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:439
+#: ../../docs/grundlagen/xdrip.rst:459
 msgid "Zur Erklärung der 12-Stunden-Anzeige:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:441
+#: ../../docs/grundlagen/xdrip.rst:461
 msgid ""
 "AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, "
 "Eselsbrücke: **A**\\ m **M**\\ orgen;"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:442
+#: ../../docs/grundlagen/xdrip.rst:462
 msgid "PM = post meridiem, auf Deutsch: NACH dem Mittag"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:444
+#: ../../docs/grundlagen/xdrip.rst:464
 msgid ""
 "Hat man den Sensor gestartet, erscheint auf dem Hauptbildschirm in roten "
 "Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten"
 " (rückwärtslaufend) eine Doppelkalibrierung benötigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:448
+#: ../../docs/grundlagen/xdrip.rst:468
 msgid "**Alternativen beim Starten des Sensors**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:450
+#: ../../docs/grundlagen/xdrip.rst:470
 msgid ""
 "Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn"
 " man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start "
@@ -3306,17 +3292,17 @@ msgid ""
 "dem neu gesetzten Sensor verwendet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:457
+#: ../../docs/grundlagen/xdrip.rst:477
 msgid "Stoppen des Sensors"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:459
+#: ../../docs/grundlagen/xdrip.rst:479
 msgid ""
 "Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt \"Start"
 " Sensor\" in der App durch den Menüpunkt \"**Stop Sensor**\" ersetzt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:462
+#: ../../docs/grundlagen/xdrip.rst:482
 msgid ""
 "Wenn man hier antippt, erscheint ein Warnhinweis, man möge den Sensor nur"
 " dann stoppen, wenn man auch vorhat, ihn zu entfernen. Darunter befindet "
@@ -3324,15 +3310,15 @@ msgid ""
 "man, um den Sensor zu stoppen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:467
+#: ../../docs/grundlagen/xdrip.rst:487
 msgid "Ab diesem Moment wechselt die Anzeige im Menü wieder zu \"Sensor Start\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:470
+#: ../../docs/grundlagen/xdrip.rst:490
 msgid "Kalibrieren"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:472
+#: ../../docs/grundlagen/xdrip.rst:492
 msgid ""
 "Zwei Stunden nach dem Sensor-Start (oder früher, s.o. unter Sensor "
 "starten) müssen die vom Sensor gemessenen Werte mit zwei von einem "
@@ -3348,7 +3334,7 @@ msgid ""
 "eingetragen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:485
+#: ../../docs/grundlagen/xdrip.rst:505
 msgid ""
 "Für ein paar Minuten erscheint im Auswahlmenü die Möglichkeit "
 "**\"Override Calibration\"**, auf Deutsch: Kalibrierung überschreiben. "
@@ -3356,7 +3342,7 @@ msgid ""
 "werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:490
+#: ../../docs/grundlagen/xdrip.rst:510
 msgid ""
 "Anschließend gibt es im Menü nicht mehr die Doppel-, sondern die einfache"
 " Kalibrierung **\"Add Calibration\"**, die wie die Doppelkalibrierung "
@@ -3375,15 +3361,15 @@ msgid ""
 "Blutzucker möglichst stabil ist*, also z.B. vor einer Mahlzeit."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:507
+#: ../../docs/grundlagen/xdrip.rst:527
 msgid "Calibration Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:509
+#: ../../docs/grundlagen/xdrip.rst:529
 msgid "Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:512
+#: ../../docs/grundlagen/xdrip.rst:532
 msgid ""
 "Calibration Alerts - alert when a calibration is requested: *Hier kannst "
 "du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche "
@@ -3391,40 +3377,40 @@ msgid ""
 "Doppelkalibrierung an.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:517
+#: ../../docs/grundlagen/xdrip.rst:537
 msgid ""
 "Calibration Request Sound: *Hier kannst du dir durch Antippen einen "
 "Signalton aus deinem Smartphonerepertoire auswählen.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:520
+#: ../../docs/grundlagen/xdrip.rst:540
 msgid ""
 "Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen "
 "setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des "
 "Smartphones.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:524
+#: ../../docs/grundlagen/xdrip.rst:544
 msgid ""
 "Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton "
 "aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 "
 "Minuten.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:529
+#: ../../docs/grundlagen/xdrip.rst:549
 #: ../../docs/nightscout/azure_plugins.rst:48
 msgid "Alarme"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:532
+#: ../../docs/grundlagen/xdrip.rst:552
 msgid "BG-Level-Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:534
+#: ../../docs/grundlagen/xdrip.rst:554
 msgid "|xDrip_Screenshot_alerts|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:536
+#: ../../docs/grundlagen/xdrip.rst:556
 msgid ""
 "Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich"
 " Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- "
@@ -3433,7 +3419,7 @@ msgid ""
 "verändert werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:553
+#: ../../docs/grundlagen/xdrip.rst:562
 msgid ""
 "Drücke \"**create low alert**\", um einen Tiefalarm selbst zu definieren."
 " Unter \"***Alert Name***\" gibst du dem Alarm eine von dir ausgewählte "
@@ -3449,7 +3435,7 @@ msgid ""
 "Smartphonerepertoire aussuchen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:562
+#: ../../docs/grundlagen/xdrip.rst:575
 msgid ""
 "Unter \"***select time for alert***\" ist \"all day\" bereits mit Häkchen"
 " versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch"
@@ -3462,43 +3448,43 @@ msgid ""
 "zusagt!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:564
+#: ../../docs/grundlagen/xdrip.rst:585
 msgid ""
 "Entsprechend kannst du über \"**create high alert**\" eine Alarmkaskade "
 "nach oben schaffen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:567
+#: ../../docs/grundlagen/xdrip.rst:588
 msgid ""
 "Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des "
 "gewünschten Alarmes in den Bearbeitungsmodus."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:571
+#: ../../docs/grundlagen/xdrip.rst:592
 msgid "BG-Alert-Settings"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:574
+#: ../../docs/grundlagen/xdrip.rst:595
 msgid "Profil: High, Ascending, ..."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:577
+#: ../../docs/grundlagen/xdrip.rst:598
 msgid "Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:580
+#: ../../docs/grundlagen/xdrip.rst:601
 msgid "Rise-Fall-Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:582 ../../docs/grundlagen/xdrip.rst:716
+#: ../../docs/grundlagen/xdrip.rst:603 ../../docs/grundlagen/xdrip.rst:737
 msgid "----> ist noch zu beschreiben!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:585
+#: ../../docs/grundlagen/xdrip.rst:606
 msgid "Werte vorlesen lassen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:587
+#: ../../docs/grundlagen/xdrip.rst:608
 msgid ""
 "Beim Autofahren oder wenn man aus anderen Gründen die Hände gerade nicht "
 "frei hat (z.B. weil man mit den Händen im Spülwasser oder im Kuchenteig "
@@ -3506,7 +3492,7 @@ msgid ""
 " das Smartphone die sog. \"Text-to-speech\" Möglichkeit bietet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:592
+#: ../../docs/grundlagen/xdrip.rst:613
 msgid ""
 "Dazu geht man zuerst im xDrip Menü auf Settings (Einstellungen) und "
 "verschiebt den Bildschirmtest so lange nach oben, bis man weit unten "
@@ -3519,7 +3505,7 @@ msgid ""
 "(Download Symbol antippen) kann."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:602
+#: ../../docs/grundlagen/xdrip.rst:623
 msgid ""
 "Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man"
 " gleich noch ein Häkchen direkt unter Speak Readings bei \"**Speak "
@@ -3530,30 +3516,30 @@ msgid ""
 "deaktiviert werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:611
+#: ../../docs/grundlagen/xdrip.rst:632
 msgid "Statistik"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:613
+#: ../../docs/grundlagen/xdrip.rst:634
 msgid "|xDrip_Screenshot_statistic_1| |xDrip_Screenshot_statistic_2|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:615
+#: ../../docs/grundlagen/xdrip.rst:636
 msgid "|xDrip_Screenshot_statistic_3|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:619
+#: ../../docs/grundlagen/xdrip.rst:640
 msgid ""
 "Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den "
 "Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen "
 "auswählen kann."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:620
+#: ../../docs/grundlagen/xdrip.rst:641
 msgid "TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = Tage"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:622
+#: ../../docs/grundlagen/xdrip.rst:643
 msgid ""
 "Hierzu gibt es drei Seiten, die man durch Wischen nach links bzw. rechts "
 "aufrufen kann. Auf welcher der Seiten man sich befindet, erkennt man an "
@@ -3561,70 +3547,70 @@ msgid ""
 "Zeiträumen von ungefüllten zu gefüllten Kreisen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:627
+#: ../../docs/grundlagen/xdrip.rst:648
 msgid "Die linke der drei Seiten enthält Informationstext."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:629
+#: ../../docs/grundlagen/xdrip.rst:650
 msgid ""
 "Range, auf Deutsch: Spannweite, gibt die Verteilung der gemessenen Werte "
 "an, unterteilt nach in/high/low, auf Deutsch: innerhalb der "
 "Grenzwerte/höher/tiefer."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:633
+#: ../../docs/grundlagen/xdrip.rst:654
 msgid ""
 "Absolute numbers: Dies sind die absoluten Zahlen der jeweils in den "
 "genannten Bereichen gemessenen Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:636
+#: ../../docs/grundlagen/xdrip.rst:657
 msgid ""
 "Der Median BG ist der Wert in der Mitte der gemessenen Werte, damit "
 "werden Ausreißer nicht berücksichtigt (Bsp: 1,3,5,6,9=5)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:639
+#: ../../docs/grundlagen/xdrip.rst:660
 msgid ""
 "Der Mean BG ist das arithmetische Mittel der gemessenen Werte (Bsp: "
 "1+3+5+5+9=23/5=4,6)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:642
+#: ../../docs/grundlagen/xdrip.rst:663
 msgid ""
 "HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach "
 "angetipptem Zeitraum der HbA1c in mmol/mol und in mg/dl überschlägig "
 "berechnet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:646
+#: ../../docs/grundlagen/xdrip.rst:667
 msgid ""
 "StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie"
 " ist ein Maß für die Streuung der Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:649
+#: ../../docs/grundlagen/xdrip.rst:670
 msgid ""
 "Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in "
 "ihrer Verteilung als Tortengrafik dargestellt. Grün steht für innerhalb "
 "der Grenzwerte, gelb für hohe und rot für tiefe Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:653
+#: ../../docs/grundlagen/xdrip.rst:674
 msgid ""
 "Auf der rechten Seite wird für jeden ausgewählten Zeitraum die "
 "Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:657
+#: ../../docs/grundlagen/xdrip.rst:678
 msgid "Widget"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:659
+#: ../../docs/grundlagen/xdrip.rst:680
 msgid "|xdrip_Screenshot_widget|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:661
+#: ../../docs/grundlagen/xdrip.rst:682
 msgid ""
 "Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir "
 "auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget "
@@ -3635,7 +3621,7 @@ msgid ""
 "Wird das Widget angetippt, öffnet sich die xDrip App."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:669
+#: ../../docs/grundlagen/xdrip.rst:690
 msgid ""
 "Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü "
 "gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern "
@@ -3646,15 +3632,15 @@ msgid ""
 "fertig!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:678
+#: ../../docs/grundlagen/xdrip.rst:699
 msgid "BG History"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:679
+#: ../../docs/grundlagen/xdrip.rst:700
 msgid "**(nicht in der jetzigen Beta-Version verfügbar)**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:681
+#: ../../docs/grundlagen/xdrip.rst:702
 msgid ""
 "Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen "
 "Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen "
@@ -3662,7 +3648,7 @@ msgid ""
 "in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:687
+#: ../../docs/grundlagen/xdrip.rst:708
 msgid ""
 "Für eine genauere Betrachtung lassen sich die Kurven mit einem "
 "Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend "
@@ -3673,15 +3659,15 @@ msgid ""
 "Verlaufskurve des Hauptbildschirmes möglich."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:696
+#: ../../docs/grundlagen/xdrip.rst:717
 msgid "Weiteres"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:699
+#: ../../docs/grundlagen/xdrip.rst:720
 msgid "Verbinden mit einer Smartwatch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:701
+#: ../../docs/grundlagen/xdrip.rst:722
 msgid ""
 "An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu "
 "senden. Damit könnte man die Installationsschritte in \"Nightscout "
@@ -3690,19 +3676,19 @@ msgid ""
 "Tagebuch oder für das OpenAPS)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:708 ../../docs/smartwatch.rst:5
+#: ../../docs/grundlagen/xdrip.rst:729 ../../docs/smartwatch.rst:5
 msgid "Android Wear"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:711 ../../docs/smartwatch.rst:9
+#: ../../docs/grundlagen/xdrip.rst:732 ../../docs/smartwatch.rst:9
 msgid "Pebble"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:714
+#: ../../docs/grundlagen/xdrip.rst:735
 msgid "Upload zu NightScout"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:721
+#: ../../docs/grundlagen/xdrip.rst:742
 msgid ""
 "**Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als \"hm-"
 "soft\", nicht als „xBridge“ oder „xDrip“. Was muss ich tun, damit das "
@@ -3714,11 +3700,11 @@ msgid ""
 " irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:733
+#: ../../docs/grundlagen/xdrip.rst:754
 msgid "Verkabelung zwischen Wixel und Bluetooth-Modul prüfen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:734
+#: ../../docs/grundlagen/xdrip.rst:755
 msgid ""
 "Baud-Rate prüfen. Bei einigen HM11-Modulen ist die Baudrate falsch "
 "gesetzt, ggf. also die Baudrate neu einstellen"
@@ -3755,8 +3741,37 @@ msgstr ""
 msgid "Nächster Antwort kommt hierher."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:751
+#: ../../docs/grundlagen/xdrip.rst:772
 msgid "---> Erweiterbar!"
+msgstr ""
+
+#: ../../docs/nightscout/account_sheet.rst:2
+msgid "Account-Information (Arbeitsblatt)"
+msgstr ""
+
+#: ../../docs/nightscout/account_sheet.rst:4
+msgid ""
+"Bevor wir mit der Einrichtung von Nightscout beginnen, ist es sinnvoll, "
+"das Arbeitsblatt auszudrucken. Wir notieren alle wichtigen Benutzernamen,"
+" Passwörter und Zugangsdaten, die bei der ersten Einrichtung festgelegt "
+"werden. Am besten füllt man es direkt während der Einrichtung "
+"gewissenhaft aus und heftet es ab, um später darauf zugreifen zu können."
+msgstr ""
+
+#: ../../docs/nightscout/account_sheet.rst:11
+msgid ":download:`Download Arbeitsblatt (deutsch) <../files/arbeitsblatt.doc>`"
+msgstr ""
+
+#: ../../docs/nightscout/account_sheet.rst:13
+msgid ""
+":download:`Download Original Arbeitsblatt (english) <../files/Mongo-and-"
+"Azure-Account-Information-4-16-15.pdf>`"
+msgstr ""
+
+#: ../../docs/nightscout/account_sheet.rst:15
+msgid ""
+"Wir starten mit dem Einrichten der `Mongo Datenbank "
+"<../nightscout/mongo_db.md>`__."
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:2
@@ -3771,7 +3786,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:9
-msgid "Einstieg:"
+msgid "Einstieg"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:11
@@ -3790,7 +3805,7 @@ msgstr ""
 msgid "|azure_reg|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:20
+#: ../../docs/nightscout/azure.rst:19
 msgid ""
 "Sollte man schon ein Konto haben, kann man sich einfach anmelden, "
 "ansonsten geht es mit der **Registrierung** weiter."
@@ -3802,193 +3817,442 @@ msgid ""
 " nicht belastet."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:24
+#: ../../docs/nightscout/azure.rst:25
 msgid ""
 "Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im "
 "Azure Portal anmelden."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:26
+#: ../../docs/nightscout/azure.rst:28
 msgid ""
 "Über den Klick auf **Portal** befinden wir uns jetzt im Azure Portal und "
 "können die Web - Applikation konfigurieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:28
+#: ../../docs/nightscout/azure.rst:31
 msgid "**Azure Portal Startseite:**"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:30
+#: ../../docs/nightscout/azure.rst:33
 msgid "|azure_portal|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:32
+#: ../../docs/nightscout/azure.rst:35
 msgid ""
 "Mit dem Button **+ Neu** richten wir eine neue **Resource** ein. Die "
 "Menüführung ist kaskadiert, alle gelb markierten Punkte sind auszuwählen."
 " Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:37
+#: ../../docs/nightscout/azure.rst:40
 msgid "|azure_config_app|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:40
+#: ../../docs/nightscout/azure.rst:42
 msgid ""
 "Mit dem Button **Erstellen** speichern wir die Einstellungen. Dieses kann"
-" einige Zeit"
+" einige Zeit in Anspruch nehmen."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:41
-msgid "in Anspruch nehmen."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:43
+#: ../../docs/nightscout/azure.rst:45
 msgid ""
 "Der Name der Nightscout - Website ist jetzt .azurewebsites.net, hier im "
 "Beispiel: **nscgmq01.azurewebsites.net**. Diesen Website - Namen bitte "
 "auch notieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:47
+#: ../../docs/nightscout/azure.rst:49
 msgid "Wenn die Web-App erstellt wurde, erscheint diese Ansicht:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:49
+#: ../../docs/nightscout/azure.rst:51
 msgid "|azure_app_created|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:51
+#: ../../docs/nightscout/azure.rst:53
 msgid ""
 "Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der "
 "**Status**. Hier wird angezeigt, ob die App **Running** oder **Stopped** "
 "ist."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:55
+#: ../../docs/nightscout/azure.rst:57
 msgid ""
 "Weiter geht es mit der Konfiguration der **Plugin** Module. Diese sind in"
 " Kapitel `Konfiguration der Nightscout Plugins "
 "<../nightscout/azure_plugins.md>`__"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:59
+#: ../../docs/nightscout/azure.rst:61
 msgid "|azure_enable_plugins|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:62
+#: ../../docs/nightscout/azure.rst:64
 msgid "Einbindung des GitHub Source Codes"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:65
+#: ../../docs/nightscout/azure.rst:66
 msgid ""
 "Zu Bereitstellung der Nightscout-Website fehlt uns noch der ``cgm-remote-"
 "monitor``, den wir über GitHub laden."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:66
+#: ../../docs/nightscout/azure.rst:69
 msgid "Wir steigen hier ein, um die Verbindung herzustellen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:68
+#: ../../docs/nightscout/azure.rst:71
 msgid "|azure_choose_github|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:70
+#: ../../docs/nightscout/azure.rst:73
 msgid "Jetzt folgt die **GitHub Autorisierung:**"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:72
+#: ../../docs/nightscout/azure.rst:75
 msgid "|github_authorize|."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:74
+#: ../../docs/nightscout/azure.rst:77
 msgid ""
 "Nachdem man gitHub Benutzernamen und Passwort eingegeben hat, erscheint "
 "diese Meldung:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:77
+#: ../../docs/nightscout/azure.rst:80
 msgid "|azure_authorize_github|."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:79
+#: ../../docs/nightscout/azure.rst:82
 msgid "Mit **OK** bestätigen."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:81
+#: ../../docs/nightscout/azure.rst:84
 msgid "Jetzt wählt man den ``cgm-remote-monitor`` aus:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:83
+#: ../../docs/nightscout/azure.rst:86
 msgid "|azure_crm|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:85
+#: ../../docs/nightscout/azure.rst:88
 msgid ""
 "Mit **OK** bestätigen. Die Web-app wird bereitgestellt. Dieses kann ein "
 "wenig dauern."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:88
+#: ../../docs/nightscout/azure.rst:91
 msgid "Am Ende erscheint in der Zusammenfassung die Einbindung von GitHub hier:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:90
+#: ../../docs/nightscout/azure.rst:93
 msgid ""
 "Sollte es zu einer Fehlermeldung kommen, bitte die Bereitstellung noch "
 "einmal starten."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:94
+#: ../../docs/nightscout/azure.rst:96
 msgid ""
 "Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann "
-"über einen Browser"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:95
-msgid "mit dem Aufruf http://\\ .azurewebsites.net aufgerufen werden."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:96
-msgid "Die Einrichtung ist fertig."
+"über einen Browser mit dem Aufruf http://\\ .azurewebsites.net aufgerufen"
+" werden."
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:99
-msgid "Kosten:"
+msgid "Die Einrichtung ist fertig."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:101
+#: ../../docs/nightscout/azure.rst:102
+msgid "Kosten"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:104
 msgid ""
 "Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure - "
 "Portal gibt es eine **Preisübersicht:**"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:104
+#: ../../docs/nightscout/azure.rst:107
 msgid "|azure_prices|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:106
+#: ../../docs/nightscout/azure.rst:109
 msgid ""
 "Mit dem Button Preisrechner können wir uns weitere Details ansehen. Wir "
 "wählen App Service aus und erhalten folgende Übersicht:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:108
+#: ../../docs/nightscout/azure.rst:112
 msgid "|azure_prices_web|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:110
+#: ../../docs/nightscout/azure.rst:114
 msgid ""
 "**WICHTIG:** Die Tarife unterscheiden sich nach Region, es ist wichtig, "
 "Nordeuropa oder die USA auszuwählen, für andere Regionen entstehen "
 "ansonsten Kosten, die nicht nötig sind."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:114
+#: ../../docs/nightscout/azure.rst:118
 msgid ""
 "Jetzt können wir uns unsere eigene `Nightscout Website "
 "<../nightscout/die_nightscout_website.md>`__ ansehen und konfigurieren."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:123
+msgid "Der Deploy to Azure Button"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:125
+msgid ""
+"Die Nightscout Website lässt sich mit vielen Standardeinstellungen "
+"beschleunigt installieren."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:128
+msgid ""
+"Wir Starten mit der Anmeldung in in Github an, navigieren in unserer "
+"Repository und den Branch, welchen wir installieren wollen."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:131
+msgid "Weiter Klicken auf das **Deploy to Azure** Symbol:"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:133
+msgid "|azure_unbeaufsichtigt|"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:135
+msgid ""
+"Wir loggen uns bei Azure ein (folgt den angezeigten Anweisungen, um "
+"eingeloggt zu werden). (Wenn wir noch kein Azure-Konto haben, sollten wir"
+" das Azure-Konto zunächst separat hinzufügen und dann wieder in diese "
+"Sequenz von Schritten zurückkehren."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:140
+msgid ""
+"Es ist möglich, das Konto an dieser Stelle einzurichten, aber es kann "
+"weniger verwirrend sein, wenn wir das Konto vorher erstellen.)"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:143
+msgid ""
+"Der Bildschirm **eploy to Azure** wird mit allen Optionen geladen, die "
+"wir (am Anfang) für unsere Website konfigurieren können. (Wir können "
+"dieses später bei Bedarf ändern.)"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:147
+msgid "Es erscheint diese Web - Maske:"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:149
+msgid "|azure_deploy_param|"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:151
+msgid ""
+"Wir stellen sicher, dass das Abonnement ``Pay-as-you-go zeigt``. (Wenn "
+"das Konto neu angelegt ist, kann es stattdessen die kostenlose "
+"Testversion zeigen, und wir müssen dieses ändern, bevor der Testphase "
+"endet.)"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:156
+msgid ""
+"Wenn eine Ressourcengruppe im Dropdown-Menü aufgelistet ist, wählen wir "
+"sie aus. Ansonsten wählen wir ``Create New`` und akzeptieren oder "
+"ersetzen den \"neuen\" Ressourcengruppennamen im Feld ``Resource Group "
+"Name``."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:161
+msgid ""
+"Wir wählen unseren Site-Namen. Ein Standardname wird bereits im Feld "
+"angezeigt. Wir können ihn mit dem gewünschten Namen ersetzen. Was wir "
+"hier eingeben, wird der \"Name\" unserer Nightscout-Website (und wird der"
+" Schlüsselteil Ihrer Nightscout-URL) sein. Der Name unserer Website kann "
+"nicht geändert werden. Wenn wir später einen anderen Namen verwenden "
+"möchten, müssen wir eine neue Website erstellen."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:168
+msgid ""
+"**Api Secret:** API Secret Wert, bleibt der Wert unter 12 Zeichen, bricht"
+" die Installation ab."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:171
+msgid "**Language:** Standart Wert ist **en**, bitte in **de** wechseln."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:173
+msgid "|grilledcheese-deploytoazure-panel-sitename|"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:175
+msgid ""
+"Wir wählen im Dropdown-Menü den Standort aus. (Dieser Standort muss nicht"
+" mit unserem tatsächlichen geografischen Standort übereinstimmen. ``North"
+" Europe``\\ ist für Deutschland zu empfehlen.)"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:179
+msgid ""
+"Wir stellen sicher, dass ``Free`` im Sku-Dropdown-Menü ausgewählt ist. "
+"(Dies ist die \"kostenlose Variante\" von Azure.)"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:182
+msgid "Wir geben jetzt die mongo (mLab) URI in das Feld ``Mongo-Connection`` ein."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:185
+msgid ""
+"Die mLab URI verwendet die Syntax, die in diesem Beispiel gezeigt wird, "
+"wir müssen unsere \"EIGEN-Informationen\" ausfüllen, \"nicht\" die "
+"Beispielwerte, die hier gezeigt werden:"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:189
+msgid ""
+"Mongodb: // databaseUserName: databaseUserPassword@ds012345.mlab.com: "
+"12345 / databaseName"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:192
+msgid "Beispielsweise:"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:194
+msgid "Mongodb: // sallyuser: sallypassword@ds012345.mlab.com: 12345 / mycgm"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:196
+msgid ""
+"\"!: Seit März 2016 wechselte mongolab zu mlab. Die angezeigte Syntax "
+"enthält das mlab Format.\""
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:199
+msgid "Wir wählen mg / dl oder mmol aus dem Dropdown-Menü Display Units."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:201
+msgid ""
+"In das Api Secret-Feld geben wir das minimales ``API-SECRET`` mit "
+"\"mindestens 12 Zeichen\" ein. Zeichen sind frei wählbar, aber es muss "
+"mindestens 12 Zeichen lang sein."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:205
+msgid ""
+"Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind "
+"optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir "
+"im Kapitel **Azure Plugins** Hilfe finden."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:209
+msgid ""
+"Die ENABLE-Variable wird auf dieser einstufigen Implementierung mit "
+"vielen häufig verwendeten Features vorbelegt. Wenn wir der Werte-"
+"Zeichenfolge etwas hinzufügen möchten, setzen wir ein Leerzeichen nach "
+"dem letzten Zeichen im String und geben einen neuen Wert ein (z. B. "
+"Bridge für Benutzer von Dexcom G4 Share / G5-Bridge-Sites oder Pushover "
+"für Pushover-Benachrichtigungen)."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:216
+msgid ""
+"Im Feld Show\\_plugins wird \"careportal\" vorgefüllt. In diesem Feld "
+"aufgelistete Plugins sind immer auf der Website sichtbar, nn sie müssten "
+"ansonsten innerhalb des Einstellungsbereichs des einzelnen Browsers "
+"aktiviert werden. Wenn wir möchten, dass iage, cage, sage, bwp und rawbg "
+"\"immer sichtbar\" sind, dann listen wir sie in diesem Feld in einer "
+"durch Leerzeichen getrennten Liste auf. (Hier können auch andere Werte "
+"eingegeben werden, ua bwp, boluscalc usw.)"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:224
+msgid "Wir klicken auf die Schaltfläche ``Next``:"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:226
+msgid "|grilledcheese-next.png|"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:228
+msgid ""
+"Der nächste Bildschirm bestätigt, dass eine \"Website\" bereitgestellt "
+"wird. Wir klicken Sie auf ``Deploy``. (Wenn wir zum vorherigen Bildschirm"
+" zurückkehren müssen, klicken wir auf \"Setup\".)"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:232
+msgid "|grilledcheese-deploy|"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:234
+msgid "Beim nächsten Schritt sehen wir den Fortschritt. **Sei geduldig :)**."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:236
+msgid "|grilledcheese-deployment|"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:238
+msgid ""
+"Wenn die Bereitstellung abgeschlossen ist (und erfolgreich), sehen wir "
+"eine abschließende Zeile, die über Links verfügt, die uns erlauben, "
+"unsere Website zu verwalten oder nach yoursiteURL zu browsen. Unsere "
+"Nightscout-URL verwendet dieses Format: "
+"http://YOURWEBSITENAME.azurewebsites.net."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:244
+msgid "|grilledcheese-success|"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:246
+msgid ""
+"Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die "
+"Bereitstellung erfolgreich war und unsere **Mlab-Informationen** korrekt "
+"eingegeben wurden, sollten wir eine schwarze Nightscout-Website sehen. "
+"(Wenn unsere Website noch keine Daten enthält, wird es eine schwarze "
+"Website mit Zeit und Bindestrichen oder Zeit und das Wort "
+"**undefiniert**."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:253
+msgid ""
+"Wenn wir unsere Uploader-App noch nicht installiert und konfiguriert "
+"haben, können wir dieses jetzt tun. (Wenn wir ein kabelgebundenes Rig "
+"verwenden, bedeutet dies, dass wir die Nightscout App installieren "
+"müssen. Wenn wir einen anderen Uploader verwenden oder die Bridge "
+"konfigurieren, kehren wir zu den Grundeinstellungen für unser spezielles "
+"Setup zurück und fahren mit dem nächsten Schritt fort.) Wir werden keine "
+"Daten sehen Auf der Nightscout-Website, bis die Uploader-App (oder "
+"Bridge) konfiguriert ist."
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:262
+msgid ""
+"**Wir bestätigen, das unsere Website ist als kostenlose Website "
+"konfiguriert ist.**"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:265
+msgid ""
+"Wenn unser Azure Konto neu ist und wir während des Setups keine Pay-As-"
+"You-Go gewählt haben, haben wir 30 Tage Zeit, die Site in Pay-As-You-Go "
+"zu konvertieren. Wir empfehlen, die Website-Einstellungen zu überprüfen, "
+"indem wir Folgendes überprüfen:"
+msgstr ""
+
+#: ../../docs/nightscout/azure.rst:275
+msgid "|azure-new-reviewfree|"
 msgstr ""
 
 #: ../../docs/nightscout/azure_plugins.rst:2
@@ -5494,416 +5758,11 @@ msgid ""
 "http://192.168.33.10:1337 zugreifen."
 msgstr ""
 
-#: ../../docs/nightscout/boluscalculator.rst:2
-msgid "Bolus Rechner"
-msgstr ""
-
-#: ../../docs/nightscout/boluscalculator.rst:4
-msgid ""
-"Der Bolus Rechner berechnet die abzugebende Insulinmenge für eine "
-"Mahlzeit. Wir erreichen das Menü durch Klick auf das Rechner - Sysmbol "
-"ganz oben rechts:"
-msgstr ""
-
-#: ../../docs/nightscout/boluscalculator.rst:8
-msgid "|Bolus Rechner|"
-msgstr ""
-
-#: ../../docs/nightscout/boluscalculator.rst:11
-msgid ""
-"Die KHs können entweder manuell oder über gespeicherte Mahlzeiten aus der"
-" Nahrungsmittel - Tabelle eingegeben werden."
-msgstr ""
-
-#: ../../docs/nightscout/boluscalculator.rst:13
-msgid ""
-"Der Bolus Rechner greift auf Werte aus dem ``Profil Editor`` zu, genauer "
-"dem ``ISF`` und dem ...."
-msgstr ""
-
-#: ../../docs/nightscout/boluscalculator.rst:14
-msgid "mit ``Formular absenden`` werden die Daten gespeichert."
-msgstr ""
-
-#: ../../docs/nightscout/boluscalculator.rst:16
-msgid ""
-"Weiter geht es mit der `Smartwatch Integration "
-"<../smartwatch/smartwatch_integration.md>`__"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:2
-msgid "Behandlungsportal"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:4
-msgid ""
-"Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit "
-"dem Klick auf das ``+`` - Symbol. Der Ereignis-Typ ist ein DropDown - "
-"Menü mit Auswahlwerten. Bespielhaft wählen wir jetzt einen ``Mahlzeiten "
-"Bolus`` aus, um Insulinmenge und Kohlenhydrate (KH) hinzuzufügen."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:10
-msgid "**Ereignis-Typ:**"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:12
-msgid "|nightscout_careportal|"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:14
-msgid "Die Auswahlfelder werden entsprechend der Auswahl angepasst."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:17
-msgid ""
-"Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch"
-" die Eingabe der"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:19
-msgid ""
-"korrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese "
-"zusammen mit den CGM - Werten grafisch dargestellt werden."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:23
-msgid ""
-"In dieser Maske können wir auch temporäre Basalraten mit ``Temp Basal "
-"Start/End`` eingegeben. Diese werden anschließend grafisch dargestellt."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:25
-msgid ""
-"Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die "
-"eingaben zu bestätigen. Mit **OK** ist alles gespeichert."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:27
-msgid "Nun können wir uns alles grafisch ansehen:"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:29
-msgid "|nightscout_cp_entries|"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:31
-msgid "**Benachrichtigungen** über Therapie - Behandlungsdaten"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:38
-msgid ""
-"Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden "
-"Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht "
-"wurde. Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die "
-"Standard - Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über Azure"
-" App.-Einstellungen geändert werden, in dem man die "
-"TREATMENTNOTIFY\\_SNOOZE\\_MINS"
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:39
-msgid "Variable ändert."
-msgstr ""
-
-#: ../../docs/nightscout/care_portal.rst:41
-msgid ""
-"Weiter gehts mit der Verwendung des `Bolus Rechner "
-"<../nightscout/boluscalculator.md>`__."
-msgstr ""
-
-#: ../../docs/nightscout/datenblatt.rst:2
-msgid "Account-Information (Arbeitsblatt)"
-msgstr ""
-
-#: ../../docs/nightscout/datenblatt.rst:4
-msgid ""
-"Bevor wir mit der Einrichtung von Nightscout beginnen, ist es sinnvoll, "
-"das Arbeitsblatt auszudrucken. Wir notieren alle wichtigen Benutzernamen,"
-" Passwörter und Zugangsdaten, die bei der ersten Einrichtung festgelegt "
-"werden. Am besten füllt man es direkt während der Einrichtung "
-"gewissenhaft aus und heftet es ab, um später darauf zugreifen zu können."
-msgstr ""
-
-#: ../../docs/nightscout/datenblatt.rst:11
-msgid ""
-"`Link zum übersetzten Arbeitsblatt "
-"<https://github.com/nightscout/user_guide/blob/master/de/dokumente/arbeitsblatt.doc?raw=true>`__"
-msgstr ""
-
-#: ../../docs/nightscout/datenblatt.rst:14
-msgid ""
-"`Link zum englischen Original Arbeitsblatt <http://www.nightscout.info"
-"/wp-content/uploads/2015/04/Mongo-and-Azure-Account-"
-"Information-4-16-15.pdf>`__"
-msgstr ""
-
-#: ../../docs/nightscout/datenblatt.rst:17
-msgid ""
-"Wir starten mit dem Einrichten der `Mongo Datenbank "
-"<../nightscout/mongo_db.md>`__."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:2
-msgid "Der **Deploy to Azure** Button"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:5
-msgid ""
-"Die Nightscout Website lässt sich mit vielen Standardeinstellungen "
-"beschleunigt installieren."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:7
-msgid ""
-"Wir Starten mit der Anmeldung in in Github an, navigieren in unserer "
-"Repository und den Branch, welchen wir installieren wollen."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:9
-msgid "Weiter Klicken auf das **Deploy to Azure** Symbol:"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:10
-msgid "|azure_unbeaufsichtigt|"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:15
-msgid ""
-"Wir loggen uns bei Azure ein (folgt den angezeigten Anweisungen, um "
-"eingeloggt zu werden). (Wenn wir noch kein Azure-Konto haben, sollten wir"
-" das Azure-Konto zunächst separat hinzufügen und dann wieder in diese "
-"Sequenz von Schritten zurückkehren."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:17
-msgid ""
-"Es ist möglich, das Konto an dieser Stelle einzurichten, aber es kann "
-"weniger verwirrend sein, wenn wir das Konto vorher erstellen.)"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:20
-msgid ""
-"Der Bildschirm **eploy to Azure** wird mit allen Optionen geladen, die "
-"wir (am Anfang) für unsere Website konfigurieren können. (Wir können "
-"dieses später bei Bedarf ändern.)"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:22
-msgid "Es erscheint diese Web - Maske:"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:24
-msgid "|azure_deploy_param|"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:29
-msgid ""
-"Wir stellen sicher, dass das Abonnement ``Pay-as-you-go zeigt``. (Wenn "
-"das Konto neu angelegt ist, kann es stattdessen die kostenlose "
-"Testversion zeigen, und wir müssen dieses ändern, bevor der Testphase "
-"endet.)"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:33
-msgid ""
-"Wenn eine Ressourcengruppe im Dropdown-Menü aufgelistet ist, wählen wir "
-"sie aus. Ansonsten wählen wir ``Create New`` und akzeptieren oder "
-"ersetzen den \"neuen\" Ressourcengruppennamen im Feld ``Resource Group "
-"Name``."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:39
-msgid ""
-"Wir wählen unseren Site-Namen. Ein Standardname wird bereits im Feld "
-"angezeigt. Wir können ihn mit dem gewünschten Namen ersetzen. Was wir "
-"hier eingeben, wird der \"Name\" unserer Nightscout-Website (und wird der"
-" Schlüsselteil Ihrer Nightscout-URL) sein. Der Name unserer Website kann "
-"nicht geändert werden. Wenn wir später einen anderen Namen verwenden "
-"möchten, müssen wir eine neue Website erstellen."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:41
-msgid ""
-"**Api Secret:** API Secret Wert, bleibt der Wert unter 12 Zeichen, bricht"
-" die Installation ab."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:44
-msgid "**Language:** Standart Wert ist **en**, bitte in **de** wechseln."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:46
-msgid "|grilledcheese-deploytoazure-panel-sitename|"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:50
-msgid ""
-"Wir wählen im Dropdown-Menü den Standort aus. (Dieser Standort muss nicht"
-" mit unserem tatsächlichen geografischen Standort übereinstimmen. ``North"
-" Europe``\\ ist für Deutschland zu empfehlen.)"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:52
-msgid ""
-"Wir stellen sicher, dass ``Free`` im Sku-Dropdown-Menü ausgewählt ist. "
-"(Dies ist die \"kostenlose Variante\" von Azure.)"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:54
-msgid "Wir geben jetzt die mongo (mLab) URI in das Feld ``Mongo-Connection`` ein."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:57
-msgid ""
-"Die mLab URI verwendet die Syntax, die in diesem Beispiel gezeigt wird, "
-"wir müssen unsere \"EIGEN-Informationen\" ausfüllen, \"nicht\" die "
-"Beispielwerte, die hier gezeigt werden:"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:61
-msgid ""
-"Mongodb: // databaseUserName: databaseUserPassword@ds012345.mlab.com: "
-"12345 / databaseName"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:64
-msgid "Beispielsweise:"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:65
-msgid "Mongodb: // sallyuser: sallypassword@ds012345.mlab.com: 12345 / mycgm"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:67
-msgid ""
-"\"!: Seit März 2016 wechselte mongolab zu mlab. Die angezeigte Syntax "
-"enthält das mlab Format.\""
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:70
-msgid "Wir wählen mg / dl oder mmol aus dem Dropdown-Menü Display Units."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:72
-msgid ""
-"In das Api Secret-Feld geben wir das minimales ``API-SECRET`` mit "
-"\"mindestens 12 Zeichen\" ein. Zeichen sind frei wählbar, aber es muss "
-"mindestens 12 Zeichen lang sein."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:76
-msgid ""
-"Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind "
-"optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir "
-"im Kapitel **Azure Plugins** Hilfe finden."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:80
-msgid ""
-"Die ENABLE-Variable wird auf dieser einstufigen Implementierung mit "
-"vielen häufig verwendeten Features vorbelegt. Wenn wir der Werte-"
-"Zeichenfolge etwas hinzufügen möchten, setzen wir ein Leerzeichen nach "
-"dem letzten Zeichen im String und geben einen neuen Wert ein (z. B. "
-"Bridge für Benutzer von Dexcom G4 Share / G5-Bridge-Sites oder Pushover "
-"für Pushover-Benachrichtigungen)."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:87
-msgid ""
-"Im Feld Show\\_plugins wird \"careportal\" vorgefüllt. In diesem Feld "
-"aufgelistete Plugins sind immer auf der Website sichtbar, nn sie müssten "
-"ansonsten innerhalb des Einstellungsbereichs des einzelnen Browsers "
-"aktiviert werden. Wenn wir möchten, dass iage, cage, sage, bwp und rawbg "
-"\"immer sichtbar\" sind, dann listen wir sie in diesem Feld in einer "
-"durch Leerzeichen getrennten Liste auf. (Hier können auch andere Werte "
-"eingegeben werden, ua bwp, boluscalc usw.)"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:95
-msgid "Wir klicken auf die Schaltfläche ``Next``:"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:97
-msgid "|grilledcheese-next.png|"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:99
-msgid ""
-"Der nächste Bildschirm bestätigt, dass eine \"Website\" bereitgestellt "
-"wird. Wir klicken Sie auf ``Deploy``. (Wenn wir zum vorherigen Bildschirm"
-" zurückkehren müssen, klicken wir auf \"Setup\".)"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:103
-msgid "|grilledcheese-deploy|"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:105
-msgid "Beim nächsten Schritt sehen wir den Fortschritt. **Sei geduldig :)**."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:107
-msgid "|grilledcheese-deployment|"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:109
-msgid ""
-"Wenn die Bereitstellung abgeschlossen ist (und erfolgreich), sehen wir "
-"eine abschließende Zeile, die über Links verfügt, die uns erlauben, "
-"unsere Website zu verwalten oder nach yoursiteURL zu browsen. Unsere "
-"Nightscout-URL verwendet dieses Format: "
-"http://YOURWEBSITENAME.azurewebsites.net."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:115
-msgid "|grilledcheese-success|"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:117
-msgid ""
-"Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die "
-"Bereitstellung erfolgreich war und unsere **Mlab-Informationen** korrekt "
-"eingegeben wurden, sollten wir eine schwarze Nightscout-Website sehen. "
-"(Wenn unsere Website noch keine Daten enthält, wird es eine schwarze "
-"Website mit Zeit und Bindestrichen oder Zeit und das Wort "
-"**undefiniert**."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:124
-msgid ""
-"Wenn wir unsere Uploader-App noch nicht installiert und konfiguriert "
-"haben, können wir dieses jetzt tun. (Wenn wir ein kabelgebundenes Rig "
-"verwenden, bedeutet dies, dass wir die Nightscout App installieren "
-"müssen. Wenn wir einen anderen Uploader verwenden oder die Bridge "
-"konfigurieren, kehren wir zu den Grundeinstellungen für unser spezielles "
-"Setup zurück und fahren mit dem nächsten Schritt fort.) Wir werden keine "
-"Daten sehen Auf der Nightscout-Website, bis die Uploader-App (oder "
-"Bridge) konfiguriert ist."
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:133
-msgid ""
-"**Wir bestätigen, das unsere Website ist als kostenlose Website "
-"konfiguriert ist.**"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:136
-msgid ""
-"Wenn unser Azure Konto neu ist und wir während des Setups keine Pay-As-"
-"You-Go gewählt haben, haben wir 30 Tage Zeit, die Site in Pay-As-You-Go "
-"zu konvertieren. Wir empfehlen, die Website-Einstellungen zu überprüfen, "
-"indem wir Folgendes überprüfen:"
-msgstr ""
-
-#: ../../docs/nightscout/deploy_to_azure.rst:146
-msgid "|azure-new-reviewfree|"
-msgstr ""
-
 #: ../../docs/nightscout/github.rst:2
 msgid "GitHub"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:8
+#: ../../docs/nightscout/github.rst:4
 msgid ""
 "`GitHub <https://de.wikipedia.org/wiki/GitHub>`__ ist ein webbasierter "
 "Filehosting-Dienst für Software-Entwicklungsprojekte. Software besteht "
@@ -5912,7 +5771,7 @@ msgid ""
 "repository enthält den Programmcode zum Aufbau der Nightscout Website."
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:15
+#: ../../docs/nightscout/github.rst:10
 msgid ""
 "Stellt ein Software - Entwickler etwas zur Verfügung, legt er die files "
 "in einem **branch** ab. Der **branch** kennzeichnet Umgebungen. Im **dev "
@@ -5923,81 +5782,81 @@ msgid ""
 "Software managen."
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:17
+#: ../../docs/nightscout/github.rst:18
 msgid ""
 "Die Files eines branches kopieren wir uns in unser eigenes Verzeichnis "
 "(Fork)."
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:19
+#: ../../docs/nightscout/github.rst:21
 msgid ""
 "Wir starten mit dem **Sign Up** auf der `GitHub Site "
 "<https://github.com/>`__:"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:22
+#: ../../docs/nightscout/github.rst:24
 msgid "|github sign up|"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:24
+#: ../../docs/nightscout/github.rst:26
 msgid ""
 "**Wichtig** ist auch hier, Benutzername und Passwort in das Datenblatt "
 "einzutragen."
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:27
+#: ../../docs/nightscout/github.rst:29
 msgid "Mit **Edit Profile** können wir uns unsere Einstellungen ansehen."
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:29
+#: ../../docs/nightscout/github.rst:31
 msgid "**Billing:**"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:31
+#: ../../docs/nightscout/github.rst:33
 msgid ""
 "Unter diesem Menüpunkt sind die Kosten aufgelistet, wichtig ist hier, das"
 " hier **Free** angezeigt wird:"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:34
+#: ../../docs/nightscout/github.rst:36
 msgid "|github_billing|"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:36
+#: ../../docs/nightscout/github.rst:38
 msgid "Wir suchen jetzt den **Programmcode**:"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:38
+#: ../../docs/nightscout/github.rst:40
 msgid "Über die Suchfunktion jetzt ``cgm-remote-monitor`` eingeben:"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:40
+#: ../../docs/nightscout/github.rst:42
 msgid "|github\\_search|"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:42
+#: ../../docs/nightscout/github.rst:44
 msgid ""
 "Den \\*\\* branch \\*\\* wie master oder dev auswählen und mit **Fork** "
 "kopieren wir den Code in unser eigenes Verzeichnis:"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:45
+#: ../../docs/nightscout/github.rst:47
 msgid "|github_branch_master|"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:47
+#: ../../docs/nightscout/github.rst:49
 msgid "Das Ergebnis mit unserem eigenen Branch:"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:49
+#: ../../docs/nightscout/github.rst:51
 msgid "|github_fork|"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:51
+#: ../../docs/nightscout/github.rst:53
 msgid "**Aktualisierung des eigenen ``cgm-remote-monitor`` repositories**"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:54
+#: ../../docs/nightscout/github.rst:55
 msgid ""
 "In den vergangenen Monaten sind Beta Versionen (0.9-betax) erschienen. "
 "Für die Versionen gibt es ein Web - Updatetool."
@@ -6011,7 +5870,7 @@ msgid ""
 "mongodb - Namens wird die Datenquelle mitgenommen."
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:62
+#: ../../docs/nightscout/github.rst:63
 msgid ""
 "Beim Aufruf des Update-Links geben wir den GitHub Account - Namen ein und"
 " Klicken **I'm Ready**. Anschließend werden wir nach dem **github** "
@@ -6019,22 +5878,109 @@ msgid ""
 "eine neuere Version vor, dann erscheint der Button"
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:64
+#: ../../docs/nightscout/github.rst:68
 msgid ""
 "**Create Pull Request** jetzt erfolgt der Vergleich mit den file - "
 "Versionen und es wird angezeigt, was aktualisiert wurde."
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:66
+#: ../../docs/nightscout/github.rst:71
 msgid ""
 "Mit **Confirm Merge** bestätigen wir die ermittelten Änderungen und "
 "bringen dmit den cgm-remote-monitor auf den aktuellen Stand."
 msgstr ""
 
-#: ../../docs/nightscout/github.rst:68
+#: ../../docs/nightscout/github.rst:74
 msgid ""
 "Jetzt instsallieren wir die Nightscout Website `Deploy to Azure "
 "<../nightscout/deploy_to_azure.md>`__."
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:6
+msgid "Nightscout besteht aus **3 Komponenten**:"
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:8
+msgid ""
+"Einer Dokumentations-Datenbank (MongoDB) zur Speicherung von Blutglukose,"
+" Kohlenhydraten, Insulin, Aktivitäten usw. MongoDB ist eine "
+"Cloudanwendung und kann über das Internet erreicht werden."
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:12
+msgid ""
+"Einer **Web-Applikation**, welche über einen beliebigen Browser oder eine"
+" App aufgerufen werden kann. Die Anwendung wird in einem Verzeichnis "
+"aktualisiert, welches über einen webbasierten Filehosting Dienst "
+"`**GitHub** <https://github.com/>`__ verwaltet wird. Dieser Dienst ist "
+"grob vergleichbar mit Webdiensten wie z.B. Google Docs. Die Grundidee "
+"dabei ist, anderen ein Verzeichnis mit Dateien zur Verfügung zu stellen, "
+"damit man gemeinsam daran arbeiten kann. Nightscout besteht aus vielen "
+"Plugins zur individuellen Konfiguration. Die Plugins mit Parametern sind "
+"im Kapitel `Konfiguration der Nightscout Plugins "
+"<../nightscout/azure_plugins.md>`__ beschrieben."
+msgstr ""
+
+#: ../../docs/nightscout/index.rst
+msgid ""
+"Einem Cloud-Service Anbieter, welcher die Web-Applikation über Webserver "
+"zur Verfügung stellt. Microsoft `**Azure** <https://azure.microsoft.com"
+"/de-de/pricing/free-trial/>`__ oder `**Heroku** "
+"<https://www.heroku.com/>`__ können hierfür verwendet werden. Cloud-"
+"Service Anbieter betreiben weltweit Rechenzentren, man konfiguriert "
+"webbasiert wie hier Nightscout"
+msgstr ""
+
+#: ../../docs/nightscout/index.rst
+msgid ""
+"diese Dienste. Das Hosting ist hier nicht zwingend notwendig, eigene "
+"standalone - Lösungen bei einem entspr. Provider sind auch möglich."
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:34
+msgid "Wir können Azure auf verschiedene Weisen einrichten:"
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:36
+msgid "**Geführte Installation:**"
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:40
+msgid ""
+"Die Nightscout Website lässt sich fast vollkommen automatisiert "
+"einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als "
+"Provider. Dieses ist in Kapitel `Der Deploy to Azure Button "
+"<../nightscout/deploy_to_azure.md>`__ beschrieben."
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:42
+msgid "**Lokale Installation:**"
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:49
+msgid ""
+"Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI "
+"installieren. Dieses hat den Vorteil, das keine Internetverbindung zum "
+"Auslesen von Daten erforderlich ist. Die mongodb, ein Webservice und die "
+"Website müssen dazu installiert und konfiguriert werden. Dieses ist in "
+"Kapitel `Lokale Installationen "
+"<../nightscout/lokale_installationen.md>`__ beschrieben. Es steht am "
+"Anfang und wird weiter bearbeitet."
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:51
+msgid ""
+"**Klassisch :** Die klassische Einrichtung erfordert das manuelle Anlegen"
+" der Azure Website mit allen Einstellungen. Dieses ist in Kapitel `Azure "
+"<../nightscout/azure.md>`__ beschrieben."
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:55
+msgid "Ein Schaubild verdeutlicht die Zusammmenhänge:"
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:57
+msgid "|nightscout scheme|"
 msgstr ""
 
 #: ../../docs/nightscout/lokale_installationen.rst:2
@@ -6061,177 +6007,6 @@ msgstr ""
 msgid ""
 "`Nightscout on Windows Server <https://github.com/jaylagorio/Nightscout-"
 "on-Windows-Server>`__"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:2
-msgid "Haupt Seite"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:4
-msgid ""
-"Nightscout ist seit Oktober 2016 in der Version **0.9** - **Grilled "
-"Cheese** verfügbar. Wer Vorgängerversionen nutzt, muss Einstellungen für "
-"die Website in Azure oder Heroku überprüfen und ergänzen."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:10
-msgid ""
-"Variable unter den App - Einstellungen zum Hinzufügen: "
-"``AUTH_DEFAULT_ROLES`` mit ``readable``, ``status-only`` als mögliche "
-"Werte."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:11
-msgid "evicestatus-Upload"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:13
-msgid ""
-"Wenn wir die Website aktualisieren und feststellen, dass Dinge, die wir "
-"aktiviert haben, nicht richtig angezeigt werden (wie boluscalc), bitte "
-"folgendes überprüfen:"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:17
-msgid ""
-"**Bitte Sicherstellen, dass es nur eine die ENABLE - Zeile in den "
-"gesamten Einstellungen der Website gibt. (Das bedeutet nur ein einziges "
-"Mal in den Gesamteinstellungen, einschließlich App-Einstellungen und "
-"Verbindungszeichenfolgen.) Wenn ENABLE in Connection Strings auftaucht , "
-"bitte in die App Settings verschieben. Speichern nicht vergessen und "
-"anschließend die Website Stoppen und Starten.**"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:25
-msgid "**Grilled Cheese** benötigt ein **Profil**"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:27
-msgid ""
-"Wenn wir zuvor kein Profil auf der Website eingerichtet haben, werden wir"
-" beim ersten Aufruf der Website aufgefordert,ein Profil zu erstellen. Wir"
-" können alle Informationen eingeben, oder nur die Zeitzone (und das "
-"Profil später bearbeiten). Wir müssen die Website authentifizieren, bevor"
-" wir die Profiländerungen speichern können. Um sich zu authentifizieren, "
-"verwenden wir den Link am unteren Rand des Profils Bildschirms und geben "
-"das **API SECRET** ein. Sobald wir authentifiziert sind, ändern wir das "
-"Profil und klicken dann auf **Speichern**. Wenn das Profil korrekt "
-"gespeichert ist, sehen wir **Erfolg** unten und rechts oben. Wir können "
-"nun die Website öffnen."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:39
-msgid ""
-"Wir sehen uns nun die **Hauptseite:** an. Die Grafik wird alle 60 "
-"Sekunden aktualisiert."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:40
-msgid "|nightscout_base_site|"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:42
-msgid "Was sehen wir ?"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:44
-msgid "Zeit seit der Letzten CGM Sensor - Daten - Übertragung"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:45
-msgid "Batterie - Ladezustand des Smartphones"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:46
-msgid "Plugins für die Pumpensteuerung"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:47
-msgid "Zeitrahmen der Darstellung von Behandlungsdaten"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:48
-msgid "aktueller BZ - Wert"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:49
-msgid "Trendpfeilangabe"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:50
-msgid "Zunahme/Abnahme des BZ innerhalb von 2 Messpunkten"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:51
-msgid ""
-"Plugins mit Anzeige von Werten wie ``Sensor - Alter`` , ``Insulin on "
-"Board``"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:53
-msgid "Basalratenverlauf"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:54
-msgid "CGM - Meßwerte"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:55
-msgid "Behandlungsdaten Kohenhydrate - und Insulineinheiten"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:56
-msgid "BZ - Trend - Voraussage"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:57
-msgid "Zeitfenster der Darstellung im oberen Bereich"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:59
-msgid "In der rechten oberen Ecke finden wir **Menü - Auswahlfelder**."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:61
-msgid "|Menüpunkte|"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:63
-msgid "**Bearbeitungsmodus**"
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:65
-msgid ""
-"``EDIT_MODE`` (``on``) - mögliche Werte ``on`` oder ``off``. Wenn diese "
-"Option aktiviert ist (rot) , kann man z.B. Behandlungsdaten grafisch mit "
-"der Maus bearbeiten, indem man eingegebene Werte auf der Zeitachse "
-"verschiebt."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:70
-msgid "Mit dem **Lautsprecher** - Symbol kann man eingestellte Alarme testen."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:72
-msgid ""
-"Das Symbol mit den **3 Strichen** ist das Einstellungsmodul mit "
-"umfangreichen Möglichkeiten."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:75
-msgid ""
-"Mit dem Klick auf das **+** - Symbol rufen wir das **Behandlungsportal** "
-"auf."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:78
-msgid "Mit dem **Taschenrechner** - Symbol gelangen wir zum **Bolus - Rechner**."
-msgstr ""
-
-#: ../../docs/nightscout/main_page.rst:81
-msgid ""
-"Um die Website weiter anzupassen rufen wir jetzt das `Einstellungen "
-"<../nightscout/settings.md>`__ Menü auf."
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:2
@@ -6478,15 +6253,15 @@ msgid ""
 "<../nightscout/github.md>`__"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:2
+#: ../../docs/nightscout/mongo_db.rst:131
 msgid "Mongo DB Administration"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:4
-msgid "Optional"
+#: ../../docs/nightscout/mongo_db.rst:133
+msgid "*Dieser Teil ist optional*"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:6
+#: ../../docs/nightscout/mongo_db.rst:135
 msgid ""
 "Mongo DB ist eine Dokumentations - Datenbank, welche aus Collections "
 "(Sammlungen von Dokumenten) und Dokumenten besteht. Mongo DB ist eine "
@@ -6499,55 +6274,55 @@ msgid ""
 "sinnvoll."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:17
+#: ../../docs/nightscout/mongo_db.rst:146
 msgid ""
 "Ein Anbieter ist z.B. `3T Software Labs <http://3t.io/about-us>`__ aus "
 "Berlin."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:19
+#: ../../docs/nightscout/mongo_db.rst:148
 msgid ""
 "Der 3T MongoChef :http://3t.io/mongochef ist für den Privatgebrauch "
 "kostenlos."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:21
+#: ../../docs/nightscout/mongo_db.rst:150
 msgid ""
 "Unter : http://3t.io/mongochef/download muss man sich registrieren und "
 "kann dann die Software für das jeweilige Betriebssystem herunterladen."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:23
+#: ../../docs/nightscout/mongo_db.rst:152
 msgid "**Mit dieser Admin GUI ist folgendes möglich:**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:25
+#: ../../docs/nightscout/mongo_db.rst:154
 msgid "**Kopieren von Datenbanken und Collections**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:27
+#: ../../docs/nightscout/mongo_db.rst:156
 msgid ""
 "Dieses ist hilfreich, wenn man die mongodb umziehen möchte, z.B. von "
 "einem Standort aus den USA zu einem Standort nach Europa. Man kann es "
 "auch als Backup Möglichkeit nutzen"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:31
+#: ../../docs/nightscout/mongo_db.rst:160
 msgid "**Im- und Export von Dokumenten**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:33
+#: ../../docs/nightscout/mongo_db.rst:162
 msgid ""
 "Man kann sowohl csv-, als auch json - Dokumente im- bzw. exportieren. Die"
 " Daten aus der Cloud können lokal auf einen Rechner gespeichert werden, "
 "als Backup - Möglichkeit, oder zur Weiterverarbeitung im csv - Format"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:38
+#: ../../docs/nightscout/mongo_db.rst:167
 msgid "**Erstellung von JSON Queries um BZ und andere Daten auszuwerten**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:40
+#: ../../docs/nightscout/mongo_db.rst:169
 msgid ""
 "Für weitergehende Reporting Abfragen, welche nicht über die Nightscout - "
 "Reporting Seite zur Verfügung gestellt werden, können JSON - queries "
@@ -6555,123 +6330,32 @@ msgid ""
 "abgespeicht werden, um sie z.B. dem Doktor zukommen zu lassen."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:45
+#: ../../docs/nightscout/mongo_db.rst:174
 msgid ""
 "Die **Installation** z.B. unter Windows ist eine Standard - Installation "
 "ohne speziell benötigte Parameter."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:48
+#: ../../docs/nightscout/mongo_db.rst:177
 msgid ""
 "Beim Aufruf wird man aufgefordert, eine **Connection** = Verbindung zur "
 "Mongo DB zu konfigurieren. Dieses ist die URI aus vorhergehendem Kapitel."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:52
+#: ../../docs/nightscout/mongo_db.rst:181
 msgid "**Connection:**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:53
+#: ../../docs/nightscout/mongo_db.rst:182
 msgid "Klicke **Connect**, dann öffnet sich folgendes Fenster:"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:55
+#: ../../docs/nightscout/mongo_db.rst:184
 msgid "|mongochef_connect_name_port|"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db_administration.rst:57
+#: ../../docs/nightscout/mongo_db.rst:186
 msgid "|mongochef_connect_user|"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:5
-msgid "Nightscout einrichten"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:7
-msgid "Nightscout besteht aus **3 Komponenten**:"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:9
-msgid ""
-"Einer Dokumentations-Datenbank (MongoDB) zur Speicherung von Blutglukose,"
-" Kohlenhydraten, Insulin, Aktivitäten usw. MongoDB ist eine "
-"Cloudanwendung und kann über das Internet erreicht werden."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:13
-msgid ""
-"Einer **Web-Applikation**, welche über einen beliebigen Browser oder eine"
-" App aufgerufen werden kann. Die Anwendung wird in einem Verzeichnis "
-"aktualisiert, welches über einen webbasierten Filehosting Dienst "
-"`**GitHub** <https://github.com/>`__ verwaltet wird. Dieser Dienst ist "
-"grob vergleichbar mit Webdiensten wie z.B. Google Docs. Die Grundidee "
-"dabei ist, anderen ein Verzeichnis mit Dateien zur Verfügung zu stellen, "
-"damit man gemeinsam daran arbeiten kann. Nightscout besteht aus vielen "
-"Plugins zur individuellen Konfiguration. Die Plugins mit Parametern sind "
-"im Kapitel `Konfiguration der Nightscout Plugins "
-"<../nightscout/azure_plugins.md>`__ beschrieben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst
-msgid ""
-"Einem Cloud-Service Anbieter, welcher die Web-Applikation über Webserver "
-"zur Verfügung stellt. Microsoft `**Azure** <https://azure.microsoft.com"
-"/de-de/pricing/free-trial/>`__ oder `**Heroku** "
-"<https://www.heroku.com/>`__ können hierfür verwendet werden. Cloud-"
-"Service Anbieter betreiben weltweit Rechenzentren, man konfiguriert "
-"webbasiert wie hier Nightscout"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst
-msgid ""
-"diese Dienste. Das Hosting ist hier nicht zwingend notwendig, eigene "
-"standalone - Lösungen bei einem entspr. Provider sind auch möglich."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:35
-msgid "Wir können Azure auf verschiedene Weisen einrichten:"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:37
-msgid "**Geführte Installation:**"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:41
-msgid ""
-"Die Nightscout Website lässt sich fast vollkommen automatisiert "
-"einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als "
-"Provider. Dieses ist in Kapitel `Der Deploy to Azure Button "
-"<../nightscout/deploy_to_azure.md>`__ beschrieben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:43
-msgid "**Lokale Installation:**"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:50
-msgid ""
-"Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI "
-"installieren. Dieses hat den Vorteil, das keine Internetverbindung zum "
-"Auslesen von Daten erforderlich ist. Die mongodb, ein Webservice und die "
-"Website müssen dazu installiert und konfiguriert werden. Dieses ist in "
-"Kapitel `Lokale Installationen "
-"<../nightscout/lokale_installationen.md>`__ beschrieben. Es steht am "
-"Anfang und wird weiter bearbeitet."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:52
-msgid ""
-"**Klassisch :** Die klassische Einrichtung erfordert das manuelle Anlegen"
-" der Azure Website mit allen Einstellungen. Dieses ist in Kapitel `Azure "
-"<../nightscout/azure.md>`__ beschrieben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:56
-msgid "Ein Schaubild verdeutlicht die Zusammmenhänge:"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_einrichten.rst:58
-msgid "|nightscout scheme|"
 msgstr ""
 
 #: ../../docs/nightscout/nightscout_website.rst:4
@@ -6729,39 +6413,467 @@ msgstr ""
 msgid "Wir schauen uns zunächst die `Haupt Seite <nightscout/main_page.md>`__ an."
 msgstr ""
 
-#: ../../docs/nightscout/nsfaqs.rst:2
-msgid "Nightscout FAQs"
+#: ../../docs/nightscout/nightscout_website.rst:42
+msgid "Haupt Seite"
 msgstr ""
 
-#: ../../docs/nightscout/nsfaqs.rst:5
+#: ../../docs/nightscout/nightscout_website.rst:44
 msgid ""
-"**Die Website reagiert sehr langsam, wenn sie längere Zeit nicht "
-"verwendet wurde:**"
+"Nightscout ist seit Oktober 2016 in der Version **0.9** - **Grilled "
+"Cheese** verfügbar. Wer Vorgängerversionen nutzt, muss Einstellungen für "
+"die Website in Azure oder Heroku überprüfen und ergänzen."
 msgstr ""
 
-#: ../../docs/nightscout/nsfaqs.rst:11
+#: ../../docs/nightscout/nightscout_website.rst:50
 msgid ""
-"Wenn die Website längere Zeit nicht verwendet wird, z.B. wenn die Daten "
-"nachts direkt zur Mongo-Datenbank hochgeladen werden und keine Uhr Daten "
-"periodisch abfragt, baut Azure Verbindungen ab. Diese wieder "
-"herzustellen, braucht eine gewisse Zeit. Abhilfe schaffen Dienste, die "
-"die Website periodisch (z.B. alle 5 Minuten einmal) abrufen. Ein solcher "
-"Dienst ist https://uptimerobot.com/."
+"Variable unter den App - Einstellungen zum Hinzufügen: "
+"``AUTH_DEFAULT_ROLES`` mit ``readable``, ``status-only`` als mögliche "
+"Werte."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:2
-#: ../../docs/nightscout/settings.rst:47
+#: ../../docs/nightscout/nightscout_website.rst:51
+msgid "evicestatus-Upload"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:53
+msgid ""
+"Wenn wir die Website aktualisieren und feststellen, dass Dinge, die wir "
+"aktiviert haben, nicht richtig angezeigt werden (wie boluscalc), bitte "
+"folgendes überprüfen:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:57
+msgid ""
+"**Bitte Sicherstellen, dass es nur eine die ENABLE - Zeile in den "
+"gesamten Einstellungen der Website gibt. (Das bedeutet nur ein einziges "
+"Mal in den Gesamteinstellungen, einschließlich App-Einstellungen und "
+"Verbindungszeichenfolgen.) Wenn ENABLE in Connection Strings auftaucht , "
+"bitte in die App Settings verschieben. Speichern nicht vergessen und "
+"anschließend die Website Stoppen und Starten.**"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:65
+msgid "**Grilled Cheese** benötigt ein **Profil**"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:67
+msgid ""
+"Wenn wir zuvor kein Profil auf der Website eingerichtet haben, werden wir"
+" beim ersten Aufruf der Website aufgefordert,ein Profil zu erstellen. Wir"
+" können alle Informationen eingeben, oder nur die Zeitzone (und das "
+"Profil später bearbeiten). Wir müssen die Website authentifizieren, bevor"
+" wir die Profiländerungen speichern können. Um sich zu authentifizieren, "
+"verwenden wir den Link am unteren Rand des Profils Bildschirms und geben "
+"das **API SECRET** ein. Sobald wir authentifiziert sind, ändern wir das "
+"Profil und klicken dann auf **Speichern**. Wenn das Profil korrekt "
+"gespeichert ist, sehen wir **Erfolg** unten und rechts oben. Wir können "
+"nun die Website öffnen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:79
+msgid ""
+"Wir sehen uns nun die **Hauptseite:** an. Die Grafik wird alle 60 "
+"Sekunden aktualisiert."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:80
+msgid "|nightscout_base_site|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:82
+msgid "Was sehen wir ?"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:84
+msgid "Zeit seit der Letzten CGM Sensor - Daten - Übertragung"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:85
+msgid "Batterie - Ladezustand des Smartphones"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:86
+msgid "Plugins für die Pumpensteuerung"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:87
+msgid "Zeitrahmen der Darstellung von Behandlungsdaten"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:88
+msgid "aktueller BZ - Wert"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:89
+msgid "Trendpfeilangabe"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:90
+msgid "Zunahme/Abnahme des BZ innerhalb von 2 Messpunkten"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:91
+msgid ""
+"Plugins mit Anzeige von Werten wie ``Sensor - Alter`` , ``Insulin on "
+"Board``"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:93
+msgid "Basalratenverlauf"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:94
+msgid "CGM - Meßwerte"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:95
+msgid "Behandlungsdaten Kohenhydrate - und Insulineinheiten"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:96
+msgid "BZ - Trend - Voraussage"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:97
+msgid "Zeitfenster der Darstellung im oberen Bereich"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:99
+msgid "In der rechten oberen Ecke finden wir **Menü - Auswahlfelder**."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:101
+msgid "|Menüpunkte|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:103
+msgid "**Bearbeitungsmodus**"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:105
+msgid ""
+"``EDIT_MODE`` (``on``) - mögliche Werte ``on`` oder ``off``. Wenn diese "
+"Option aktiviert ist (rot) , kann man z.B. Behandlungsdaten grafisch mit "
+"der Maus bearbeiten, indem man eingegebene Werte auf der Zeitachse "
+"verschiebt."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:110
+msgid "Mit dem **Lautsprecher** - Symbol kann man eingestellte Alarme testen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:112
+msgid ""
+"Das Symbol mit den **3 Strichen** ist das Einstellungsmodul mit "
+"umfangreichen Möglichkeiten."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:115
+msgid ""
+"Mit dem Klick auf das **+** - Symbol rufen wir das **Behandlungsportal** "
+"auf."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:118
+msgid "Mit dem **Taschenrechner** - Symbol gelangen wir zum **Bolus - Rechner**."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:121
+msgid ""
+"Um die Website weiter anzupassen rufen wir jetzt das `Einstellungen "
+"<../nightscout/settings.md>`__ Menü auf."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:126
+msgid "Einstellungen"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:128
+msgid ""
+"Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das"
+" mit dem **roten** Pfeil markierte Symbol:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:131
+msgid "**Oben** haben wir die Wahl von 4 Menüpunkten:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:133
+msgid "`Berichte <../nightscout/settings.md#berichte>`__"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:134
+msgid "`Profil - Editor <../nightscout/settings.md#profil---editor>`__"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:135
+msgid ""
+"`Nahrungsmittel Editor <../nightscout/settings.md#nahrungsmittel-"
+"editor>`__"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:137
+msgid ""
+"`Administrator Werkzeuge <../nightscout/settings.md#administrator-"
+"werkzeuge>`__"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:140
+msgid ""
+"**Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral "
+"für alle Browser gleich halten wollen, können wor dieses wie in Kapitel "
+"`Nightscout Plugins <../nightscout/azure_plugins.md>`__ beschrieben, "
+"umsetzen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:148
+msgid "Berichte"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:150
+msgid "Mit dem Klick auf **Berichte** erhalten wir diese Ansicht:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:152
+#: ../../docs/nightscout/nightscout_website.rst:266
+msgid "|nightscout_reporting_config|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:155
+#: ../../docs/nightscout/nightscout_website.rst:269
+msgid ""
+"Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks "
+"auf den Namen aufrufen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:158
+#: ../../docs/nightscout/nightscout_website.rst:272
+msgid ""
+"Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang. Wir "
+"können vorgefertigte Zeiträume und individuelle Zeiträume auswählen. "
+"Weitere Filter sind möglich."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:159
+#: ../../docs/nightscout/nightscout_website.rst:273
+msgid "Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:161
+#: ../../docs/nightscout/nightscout_website.rst:275
+msgid "Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:163
+#: ../../docs/nightscout/nightscout_website.rst:277
+msgid "|nightscout_reporting_daily_graph|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:165
+#: ../../docs/nightscout/nightscout_website.rst:279
+msgid ""
+"Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf "
+"**Bearbeitung** zu **Korrigieren** oder zu **Löschen**:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:168
+#: ../../docs/nightscout/nightscout_website.rst:282
+msgid "|nightscout_change_treatments|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:171
+#: ../../docs/nightscout/nightscout_website.rst:289
 msgid "Profil - Editor"
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:6
+#: ../../docs/nightscout/nightscout_website.rst:173
+msgid ""
+"Der Behandlungs Profil Editor speichert angepasste Werte für die "
+"persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten "
+"und Werte für Plugin iob, cob, bwp und Basalraten."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:177
+msgid ""
+"**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine "
+"verwendbaren Werte angezeigt. Seit Grilled Cheese, Version 0.9 ist das "
+"Anlegen eines Profils beim ersten Aufruf der Website erforderlich."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:181
+#: ../../docs/nightscout/nightscout_website.rst:304
+msgid "|nightscout_profile_editor_plugins|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:183
+msgid ""
+"Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden "
+"**Erklärungstexte** in englischer Sprache angezeigt."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:186
+msgid "Bei **Timezone** bitte die gewünschte Zeitzone Einstellen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:188
+msgid ""
+"Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer "
+"des Bolus - Insulins. Die Plugins iob, bwp benötigen diese Eingaben."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:191
+msgid ""
+"Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für"
+" eine definierte Menge an KH verwendet werden müssen. Die Plugins iob und"
+" cob benötigen diese Eingaben."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:195
+msgid ""
+"Mit dem **Insulin Sensitivity Factor (ISF)** können wir den "
+"Korrekturfaktor in mg/dl oder mmol/L angeben. Mit mehrfachen Eingaben "
+"können unterschiedliche Faktoren bestimmt werden."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:199
+msgid ""
+"Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, "
+"wieviel Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das "
+"Plugin cob benötigt diese Eingaben."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:204
+msgid "Nahrungsmittel Editor"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:206
+msgid "|nightscout_nahrungsmittel_editor|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:208
+msgid ""
+"Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von "
+"Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus "
+"Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die "
+"Daten über csv- oder json - Format in die **mongodb** übertragen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:213
+msgid "Eingabe von Nahrungsmittel - Daten"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:214
+msgid "Ändern, Löschen von Datensätzen"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:217
+msgid "Administrator Werkzeuge"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:219
+msgid "|nightscout_administrator_werkzeuge|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:221
+msgid ""
+"Mit den Administrator - Werkzeugen können wir Berechtigungen zum Zugriff "
+"auf die Nightscout - Website verwalten und Datensätze aus der mongo DB "
+"löschen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:226
+msgid "Verwalten von Berechtigungen"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:228
+msgid ""
+"Für Berechtigungen benötigt man **Subjekte** (Menschen, Institutionen, "
+"etc.), denen man eine Rolle zuweist. Für jedes Subjekt wird ein "
+"**Zugriffstoken** generiert, mit dem der Betrachter Zugriff auf die "
+"Website bekommt. Dieses Token muss man dem Betrachter mitteilen. "
+"Innerhalb der Rolle werden Zugriffsberechtigungen verteilt, das höchste "
+"Recht ist Vollzugriff, symbolisiert durch ein ``*``- Symbol, das "
+"niedrigste ist **kein Zugriff**."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:236
+msgid "Anlegen von Subjekten"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:237
+msgid "Anlegen von Rollen"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:238
+msgid "Löschen von Dokumenten"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:239
+msgid "Behandlungsdaten in der Zukunft"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:241
+msgid "Anlegen von Subjekten:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:243
+msgid "|nightscout_subjects|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:246
+msgid ""
+"Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend "
+"sind. Hinter den Rollen sind die Zugriffsrechte gelistet."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:248
+msgid ""
+"Man kann eigene Rollen wie beim anlegen von Subjekten definieren und "
+"speichern."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:250
+msgid ""
+"Es ist unter Punkt 3 möglich, die Gerätestatus - Sammlung (Collection in "
+"der mongo db) mit diesem Menüpunkt zu löschen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:253
+msgid ""
+"Mit Punkt 4 kann man fälschlicherweise Behandlungen mit Datum in der "
+"Zukunft aus der Datenbank löschen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:256
+msgid ""
+"Jetzt geht es weiter mit dem `Behandlungsportal "
+"<../nightscout/care_portal.md>`__"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:261
+msgid "Reports"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:263
+msgid ""
+"Wir starten das **Reporting** mit dem Klick auf **Berichte** und erhalten"
+" diese Ansicht:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:284
+msgid ""
+"Weiter gehts mit der `Programmierbarkeit "
+"<../nightscout/programmierbarkeit.md>`__."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:293
 msgid ""
 "Der Behandlungs Profil Editor speichert angepasste Werte für die "
 "persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten "
 "und Werte für die Plugins iob, cob, bwp und Basalraten."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:10
+#: ../../docs/nightscout/nightscout_website.rst:297
 msgid ""
 "Über einen eneuen Datenbankeintrag durch Klicken auf das + - Symbol "
 "können wir ein alternatives Profil erstellen. Der NS android Client zur "
@@ -6769,73 +6881,185 @@ msgid ""
 "abgespeicherten Profilen."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:12
+#: ../../docs/nightscout/nightscout_website.rst:299
 msgid ""
 "**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine "
 "verwendbaren Werte angezeigt."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:15
+#: ../../docs/nightscout/nightscout_website.rst:302
 msgid "**Profil Editor:**"
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:17
-#: ../../docs/nightscout/settings.rst:57
-msgid "|nightscout_profile_editor_plugins|"
-msgstr ""
-
-#: ../../docs/nightscout/profile_editor.rst:19
+#: ../../docs/nightscout/nightscout_website.rst:306
 msgid ""
 "Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden "
 "**Erklärungstexte** in Sprache angezeigt."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:22
+#: ../../docs/nightscout/nightscout_website.rst:309
 msgid "Bei **Zeitzone** bitte die entsprechende Zeitzone Einstellen."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:24
+#: ../../docs/nightscout/nightscout_website.rst:311
 msgid ""
 "Mit **Dauer der Insulinaktivität (DIA) in Stunden** definieren wir die "
 "Wirkdauer des Bolus - Insulins. Die Plugins iob, bwp benötigen diese "
 "Eingaben."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:28
+#: ../../docs/nightscout/nightscout_website.rst:315
 msgid ""
 "Mit **Insulin/Kohlenhydrate-Verhältnis (I:KH) in Gramm** wird angegeben, "
 "wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden "
 "müssen. Die Plugins iob und cob benötigen diese Eingaben."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:32
+#: ../../docs/nightscout/nightscout_website.rst:319
 msgid ""
 "Mit dem **Insulinsensibilitätsfaktor (iSF) in mg/dl/U oder mmol/L/U** "
 "können wir den Korrekturfaktor in mg/dl oder mmol/L angeben. Mit "
 "mehrfachen Eingaben können unterschiedliche Faktoren bestimmt werden."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:36
+#: ../../docs/nightscout/nightscout_website.rst:323
 msgid ""
 "Mit **Kohlenhydrataktivität / Aufnahme Kohlenhydrate in Gramm/Stunde** "
 "können wir bestimmen, wieviel Gramm Kohlenhydrate pro Stunde "
 "verstoffwechselt werden. Das Plugin cob benötigt diese Eingaben."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:40
+#: ../../docs/nightscout/nightscout_website.rst:327
 msgid ""
 "Mit **Basalraten in Einheiten/Stunde** können wir Basalraten für "
 "bestimmte Zeitbereiche eingeben."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:43
+#: ../../docs/nightscout/nightscout_website.rst:330
 msgid "Am Ende das **Speichern** nicht vergessen."
 msgstr ""
 
-#: ../../docs/nightscout/profile_editor.rst:45
+#: ../../docs/nightscout/nightscout_website.rst:332
 msgid ""
 "Weiter gehts mit der Eingabe von Daten über das `Careportal "
 "<../nightscout/care_portal.md>`__."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:337
+msgid "Behandlungsportal"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:339
+msgid ""
+"Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit "
+"dem Klick auf das ``+`` - Symbol. Der Ereignis-Typ ist ein DropDown - "
+"Menü mit Auswahlwerten. Bespielhaft wählen wir jetzt einen ``Mahlzeiten "
+"Bolus`` aus, um Insulinmenge und Kohlenhydrate (KH) hinzuzufügen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:345
+msgid "**Ereignis-Typ:**"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:347
+msgid "|nightscout_careportal|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:349
+msgid "Die Auswahlfelder werden entsprechend der Auswahl angepasst."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:352
+msgid ""
+"Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch"
+" die Eingabe der"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:354
+msgid ""
+"korrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese "
+"zusammen mit den CGM - Werten grafisch dargestellt werden."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:358
+msgid ""
+"In dieser Maske können wir auch temporäre Basalraten mit ``Temp Basal "
+"Start/End`` eingegeben. Diese werden anschließend grafisch dargestellt."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:360
+msgid ""
+"Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die "
+"eingaben zu bestätigen. Mit **OK** ist alles gespeichert."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:362
+msgid "Nun können wir uns alles grafisch ansehen:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:364
+msgid "|nightscout_cp_entries|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:366
+msgid "**Benachrichtigungen** über Therapie - Behandlungsdaten"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:373
+msgid ""
+"Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden "
+"Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht "
+"wurde. Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die "
+"Standard - Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über Azure"
+" App.-Einstellungen geändert werden, in dem man die "
+"TREATMENTNOTIFY\\_SNOOZE\\_MINS"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:374
+msgid "Variable ändert."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:376
+msgid ""
+"Weiter gehts mit der Verwendung des `Bolus Rechner "
+"<../nightscout/boluscalculator.md>`__."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:382
+msgid "Bolus Rechner"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:384
+msgid ""
+"Der Bolus Rechner berechnet die abzugebende Insulinmenge für eine "
+"Mahlzeit. Wir erreichen das Menü durch Klick auf das Rechner - Sysmbol "
+"ganz oben rechts:"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:388
+msgid "|Bolus Rechner|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:391
+msgid ""
+"Die KHs können entweder manuell oder über gespeicherte Mahlzeiten aus der"
+" Nahrungsmittel - Tabelle eingegeben werden."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:393
+msgid ""
+"Der Bolus Rechner greift auf Werte aus dem ``Profil Editor`` zu, genauer "
+"dem ``ISF`` und dem ...."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:394
+msgid "mit ``Formular absenden`` werden die Daten gespeichert."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:396
+msgid ""
+"Weiter geht es mit der `Smartwatch Integration "
+"<../smartwatch/smartwatch_integration.md>`__"
 msgstr ""
 
 #: ../../docs/nightscout/programmierbarkeit.rst:2
@@ -6940,270 +7164,6 @@ msgstr ""
 msgid ""
 "Weiter gehts mit der Anbindung von `Smartwatches "
 "<../smartwatch/smartwatch_integration.md>`__."
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:2
-msgid "Reports"
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:4
-msgid ""
-"Wir starten das **Reporting** mit dem Klick auf **Berichte** und erhalten"
-" diese Ansicht:"
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:7 ../../docs/nightscout/settings.rst:28
-msgid "|nightscout_reporting_config|"
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:10 ../../docs/nightscout/settings.rst:31
-msgid ""
-"Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks "
-"auf den Namen aufrufen."
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:13 ../../docs/nightscout/settings.rst:34
-msgid ""
-"Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang. Wir "
-"können vorgefertigte Zeiträume und individuelle Zeiträume auswählen. "
-"Weitere Filter sind möglich."
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:14 ../../docs/nightscout/settings.rst:35
-msgid "Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**."
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:16 ../../docs/nightscout/settings.rst:37
-msgid "Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:"
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:18 ../../docs/nightscout/settings.rst:39
-msgid "|nightscout_reporting_daily_graph|"
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:20 ../../docs/nightscout/settings.rst:41
-msgid ""
-"Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf "
-"**Bearbeitung** zu **Korrigieren** oder zu **Löschen**:"
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:23 ../../docs/nightscout/settings.rst:44
-msgid "|nightscout_change_treatments|"
-msgstr ""
-
-#: ../../docs/nightscout/reports.rst:25
-msgid ""
-"Weiter gehts mit der `Programmierbarkeit "
-"<../nightscout/programmierbarkeit.md>`__."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:2
-msgid "Einstellungen"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:4
-msgid ""
-"Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das"
-" mit dem **roten** Pfeil markierte Symbol:"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:7
-msgid "**Oben** haben wir die Wahl von 4 Menüpunkten:"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:9
-msgid "`Berichte <../nightscout/settings.md#berichte>`__"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:10
-msgid "`Profil - Editor <../nightscout/settings.md#profil---editor>`__"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:11
-msgid ""
-"`Nahrungsmittel Editor <../nightscout/settings.md#nahrungsmittel-"
-"editor>`__"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:13
-msgid ""
-"`Administrator Werkzeuge <../nightscout/settings.md#administrator-"
-"werkzeuge>`__"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:16
-msgid ""
-"**Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral "
-"für alle Browser gleich halten wollen, können wor dieses wie in Kapitel "
-"`Nightscout Plugins <../nightscout/azure_plugins.md>`__ beschrieben, "
-"umsetzen."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:24
-msgid "Berichte"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:26
-msgid "Mit dem Klick auf **Berichte** erhalten wir diese Ansicht:"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:49
-msgid ""
-"Der Behandlungs Profil Editor speichert angepasste Werte für die "
-"persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten "
-"und Werte für Plugin iob, cob, bwp und Basalraten."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:53
-msgid ""
-"**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine "
-"verwendbaren Werte angezeigt. Seit Grilled Cheese, Version 0.9 ist das "
-"Anlegen eines Profils beim ersten Aufruf der Website erforderlich."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:59
-msgid ""
-"Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden "
-"**Erklärungstexte** in englischer Sprache angezeigt."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:62
-msgid "Bei **Timezone** bitte die gewünschte Zeitzone Einstellen."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:64
-msgid ""
-"Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer "
-"des Bolus - Insulins. Die Plugins iob, bwp benötigen diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:67
-msgid ""
-"Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für"
-" eine definierte Menge an KH verwendet werden müssen. Die Plugins iob und"
-" cob benötigen diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:71
-msgid ""
-"Mit dem **Insulin Sensitivity Factor (ISF)** können wir den "
-"Korrekturfaktor in mg/dl oder mmol/L angeben. Mit mehrfachen Eingaben "
-"können unterschiedliche Faktoren bestimmt werden."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:75
-msgid ""
-"Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, "
-"wieviel Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das "
-"Plugin cob benötigt diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:80
-msgid "Nahrungsmittel Editor"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:82
-msgid "|nightscout_nahrungsmittel_editor|"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:84
-msgid ""
-"Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von "
-"Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus "
-"Kalkulator** optional wählbar. Über Ernährungsprogramme lassen sich die "
-"Daten über csv- oder json - Format in die **mongodb** übertragen."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:89
-msgid "Eingabe von Nahrungsmittel - Daten"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:90
-msgid "Ändern, Löschen von Datensätzen"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:93
-msgid "Administrator Werkzeuge"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:95
-msgid "|nightscout_administrator_werkzeuge|"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:97
-msgid ""
-"Mit den Administrator - Werkzeugen können wir Berechtigungen zum Zugriff "
-"auf die Nightscout - Website verwalten und Datensätze aus der mongo DB "
-"löschen."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:102
-msgid "Verwalten von Berechtigungen"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:104
-msgid ""
-"Für Berechtigungen benötigt man **Subjekte** (Menschen, Institutionen, "
-"etc.), denen man eine Rolle zuweist. Für jedes Subjekt wird ein "
-"**Zugriffstoken** generiert, mit dem der Betrachter Zugriff auf die "
-"Website bekommt. Dieses Token muss man dem Betrachter mitteilen. "
-"Innerhalb der Rolle werden Zugriffsberechtigungen verteilt, das höchste "
-"Recht ist Vollzugriff, symbolisiert durch ein ``*``- Symbol, das "
-"niedrigste ist **kein Zugriff**."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:112
-msgid "Anlegen von Subjekten"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:113
-msgid "Anlegen von Rollen"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:114
-msgid "Löschen von Dokumenten"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:115
-msgid "Behandlungsdaten in der Zukunft"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:117
-msgid "Anlegen von Subjekten:"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:119
-msgid "|nightscout_subjects|"
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:122
-msgid ""
-"Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend "
-"sind. Hinter den Rollen sind die Zugriffsrechte gelistet."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:124
-msgid ""
-"Man kann eigene Rollen wie beim anlegen von Subjekten definieren und "
-"speichern."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:126
-msgid ""
-"Es ist unter Punkt 3 möglich, die Gerätestatus - Sammlung (Collection in "
-"der mongo db) mit diesem Menüpunkt zu löschen."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:129
-msgid ""
-"Mit Punkt 4 kann man fälschlicherweise Behandlungen mit Datum in der "
-"Zukunft aus der Datenbank löschen."
-msgstr ""
-
-#: ../../docs/nightscout/settings.rst:132
-msgid ""
-"Jetzt geht es weiter mit dem `Behandlungsportal "
-"<../nightscout/care_portal.md>`__"
 msgstr ""
 
 #: ../../docs/smartwatch.rst:2
@@ -7317,7 +7277,7 @@ msgstr ""
 
 #: ../../docs/sonstiges.rst:20
 msgid ""
-":download:`Download Verlängerung der Tragezeit des Sensors <documents"
+":download:`Download Verlängerung der Tragezeit des Sensors <files"
 "/Verlaengerung-der-Tragezeit.pdf>`"
 msgstr ""
 

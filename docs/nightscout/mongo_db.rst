@@ -126,6 +126,67 @@ Kapitel, diese sind nicht Bestandteil der Implementierung.
 Ansonsten geht es jetzt weiter mit der Einrichtung von
 `GitHub <../nightscout/github.md>`__
 
+
+Mongo DB Administration
+-----------------------
+
+*Dieser Teil ist optional*
+
+Mongo DB ist eine Dokumentations - Datenbank, welche aus Collections
+(Sammlungen von Dokumenten) und Dokumenten besteht. Mongo DB ist eine
+`NoSQLDB <https://de.wikipedia.org/wiki/NoSQL>`__ und schemafrei. Die
+Dokumente werden u.a. im JSON Format abgespeichert.
+` <http://www.json.org/json-de.html.>`__ Die Dokumente können direkt in
+die DB geladen werden. Um eine Dokumenten DB zu administrieren, ist eine
+Admin - GUI :
+` <https://de.wikipedia.org/wiki/Grafische_Benutzeroberfl%C3%A4che>`__
+sinnvoll.
+
+| Ein Anbieter ist z.B. `3T Software Labs <http://3t.io/about-us>`__ aus
+  Berlin.
+| Der 3T MongoChef :http://3t.io/mongochef ist für den Privatgebrauch
+  kostenlos.
+| Unter : http://3t.io/mongochef/download muss man sich registrieren und
+  kann dann die Software für das jeweilige Betriebssystem herunterladen.
+
+**Mit dieser Admin GUI ist folgendes möglich:**
+
+-  **Kopieren von Datenbanken und Collections**
+
+Dieses ist hilfreich, wenn man die mongodb umziehen möchte, z.B. von
+einem Standort aus den USA zu einem Standort nach Europa. Man kann es
+auch als Backup Möglichkeit nutzen
+
+-  **Im- und Export von Dokumenten**
+
+Man kann sowohl csv-, als auch json - Dokumente im- bzw. exportieren.
+Die Daten aus der Cloud können lokal auf einen Rechner gespeichert
+werden, als Backup - Möglichkeit, oder zur Weiterverarbeitung im csv -
+Format
+
+-  **Erstellung von JSON Queries um BZ und andere Daten auszuwerten**
+
+Für weitergehende Reporting Abfragen, welche nicht über die Nightscout -
+Reporting Seite zur Verfügung gestellt werden, können JSON - queries
+gebildet werden. Die Ergbnisse können wiederum im json- oder csv Format
+abgespeicht werden, um sie z.B. dem Doktor zukommen zu lassen.
+
+Die **Installation** z.B. unter Windows ist eine Standard - Installation
+ohne speziell benötigte Parameter.
+
+Beim Aufruf wird man aufgefordert, eine **Connection** = Verbindung zur
+Mongo DB zu konfigurieren. Dieses ist die URI aus vorhergehendem
+Kapitel.
+
+| **Connection:**
+| Klicke **Connect**, dann öffnet sich folgendes Fenster:
+
+|mongochef_connect_name_port|
+
+|mongochef_connect_user|
+
+.. |mongochef_connect_name_port| image:: ../images/mongodb/mongodb_connect_name_port.jpg
+.. |mongochef_connect_user| image:: ../images/mongodb/mongodb_connect_user.jpg
 .. |mongodb signin up| image:: ../images/mongodb/mlab_sign_up.jpg
 .. |mongo db create account| image:: ../images/mongodb/mongo_db_create_account.jpg
 .. |verifyemail| image:: ../images/mongodb/verifyemail.jpg
