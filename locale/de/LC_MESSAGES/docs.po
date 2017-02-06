@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-06 12:17+0100\n"
+"POT-Creation-Date: 2017-02-06 14:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -270,7 +270,7 @@ msgstr ""
 
 #: ../../docs/fehlerbehebung.rst:2
 #: ../../docs/grundlagen/enlite/fehlerbehebung.rst:2
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:431
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:432
 msgid "Fehlerbehebung"
 msgstr ""
 
@@ -929,21 +929,21 @@ msgid ""
 " zur Nutzung mit dem FreeStyle Libre zugelassen ist und das Auslesen "
 "direkt mit einem Smartphone ermöglicht. Auch bei Nutzung des FreeStyle "
 "Libre als FGM ist eine Einbindung in Nightscout möglich. Wie das "
-"funktioniert ist `hier <../libre.md>`__ beschrieben."
+"funktioniert ist hier :ref:`HIER <libre>` beschrieben."
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/freestyle_libre.rst:20
-#: ../../docs/grundlagen/libre/libre_als_cgm.rst:2
-msgid "Libre als CGM"
+#: ../../docs/grundlagen/cgm/freestyle_libre.rst:19
+msgid "**Libre als CGM**"
 msgstr ""
 
-#: ../../docs/grundlagen/cgm/freestyle_libre.rst:22
+#: ../../docs/grundlagen/cgm/freestyle_libre.rst:21
 msgid ""
 "Mittlerweile gibt es es ein DIY Projekt, welches die Herstellung eines "
 "Transmitters für dieses System ermöglicht und die Firma BlueToolz UG "
 "arbeitet derzeit an einer Lösung, die für den Benutzer ohne "
 "Bastelkenntnisse eine CGM auf FreeStyle Libre Basis ermöglichen soll. "
-"Details zu den Projekten finden sich `hier <../libre_als_cgm.md>`__."
+"Details zu den Projekten finden sich unter :ref:`Libre als CGM <Libre als"
+" CGM>`."
 msgstr ""
 
 #: ../../docs/grundlagen/cgm/index.rst:4
@@ -978,110 +978,6 @@ msgstr ""
 msgid ""
 "Auf den folgenden Seiten wird die Vorgehensweise von drei bisher "
 "erprobten verschiedenen Systemen vorgestellt. ---"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:2
-msgid "DIY/Disclaimer"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:4
-msgid ""
-"**Verwende die Informationen aus Nightscout oder den Programmcode "
-"niemals, um medizinische Entscheidungen zu treffen.**"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:7
-msgid "**HINWEIS:**"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:9
-msgid ""
-"*Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und "
-"unterstützt wird.*"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:12
-msgid ""
-"*Es gibt in diesem Projekt keine Gewährleistung oder garantierte "
-"Unterstützung in irgendeiner Art. Wenn Du dich entscheidest es zu nutzen,"
-" hängt die Qualität und Leistungsfähigkeit dieses Projektes von dir "
-"selbst ab.*"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:19
-msgid ""
-"Alle Informationen und Gedanken der hier beschriebenen Programmcodes sind"
-" ausschließlich zu Informationszwecken und für pädagogische Zwecke "
-"bestimmt. Die Verwendung von Programmcodes der Homepage "
-"**www.github.com** ist ohne jede Garantie oder Unterstützung jeglicher "
-"Art."
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:25
-msgid ""
-"Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System"
-" unbrauchbar werden kann!"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:28
-msgid ""
-"Es gibt keine Passwort geschützte Privatsphäre oder irgendeine Sicherheit"
-" der Tools, die hier zur Verfügung gestellt werden. Alle Daten, die du "
-"hochlädst, sind für jeden im Internet zu lesen, wenn du die spezifische "
-"URL (Internetadresse) freigibst oder weitergibst."
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:36
-msgid ""
-"Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat keine "
-"Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen, "
-"Dienstleistungen oder Produkten, die im Rahmen dieser Internetpräsenz "
-"erwähnt werden."
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:38
-msgid ""
-"Alle hier erwähnten Produkt- und Firmennamen sind Marken der jeweiligen "
-"Eigentümer bzw. Hersteller."
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:43
-msgid "Inhalt des Onlineangebotes"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:45
-msgid ""
-"Die Übersetzer/Autoren übernehmen keinerlei Gewähr für die Aktualität, "
-"Richtigkeit und Vollständigkeit der bereitgestellten Informationen auf "
-"dieser Internetpräsenz und denen der aufgeführten Links. "
-"Haftungsansprüche gegen die Übersetzer/Autoren, welche sich insbesondere "
-"auf Schäden körperlicher, materieller oder ideeller Art beziehen, die "
-"durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. "
-"durch die Nutzung fehlerhafter und unvollständiger Informationen "
-"verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens der "
-"Übersetzer/Autoren kein nachweislich vorsätzliches oder grob fahrlässiges"
-" Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich."
-" Die Übersetzer/Autoren behalten es sich ausdrücklich vor, Teile der "
-"Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern,"
-" zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder "
-"endgültig einzustellen."
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:61
-msgid "DIY - Eigenbau und Eigenverantwortung"
-msgstr ""
-
-#: ../../docs/grundlagen/diydisclaimer.rst:63
-msgid ""
-"Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem "
-"Fall, dass es keine Firma gibt, von der man ein fertiges, "
-"funktionierendes System kaufen kann. Die Elemente des Systems sind von "
-"Teilnehmern des Projektes entwickelt und zusammengesetzt. Sie werden dir "
-"kostenlos zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen "
-"Teil dazu beitragen musst, damit das System für dich funktioniert. Wir "
-"hoffen, dass DIY dich so sehr begeistern wird wie uns - sodass du "
-"wiederum irgendwann einen kleinen Teil dazu beitragen kannst, dass das "
-"System für alle besser wird."
 msgstr ""
 
 #: ../../docs/grundlagen/enlite/cc1111_anschliessen.rst:2
@@ -1177,11 +1073,11 @@ msgid ""
 "INSTALL.pdf auch weitere Informationen finden."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:12
-msgid "Probleme beim Verbinden des CC Debuggers mit dem CC1111"
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:11
+msgid "**Probleme beim Verbinden des CC Debuggers mit dem CC1111**"
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:14
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:13
 msgid ""
 "Wenn die Verbindung zwischen den beiden Geräten nicht funktioniert, "
 "versucht man am besten, das Kabel auf dem CC1111 andersherum zu stecken. "
@@ -1191,49 +1087,45 @@ msgid ""
 " einem Messer entfernen und auch den Stecker im CC Debugger drehen."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:22
-msgid "Probleme mit der Firmware des Debuggers"
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:20
+msgid "**Probleme mit der Firmware des Debuggers**"
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:28
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:23
 msgid ""
 "Normalerweise sollte es nicht nötig sein, diese Firmware zu "
 "aktualisieren, da es auch mit einer älteren Version der Firmware klappen "
 "sollte. Wenn es doch nötig sein sollte, weil man zum Beispiel Probleme "
 "beim Programmieren des CC1111 hat, dann trennt man zuerst den CC1111 vom "
-"CC Debugger."
+"CC Debugger. Im Pull-Down Menü des SmartRF Flash Programmers wählt man "
+"nun den Punkt \"Program Evaluation Board\" und klickt danach auf \"Update"
+" EB Firmware\" - dies geht übrigens nur, falls der Debugger eine ältere "
+"Version der Software hat. Danach sucht man die Datei mit der neuen "
+"Firmware aus z. B. C:\\\\Programme\\\\Texas Instruments\\\\SmartRF "
+"Tools\\\\Firmware\\\\CC Debugger\\\\cebal\\_fw\\_srf05dbg.hex (Version "
+"kann abweichen). Dabei solltet ihr darauf achten, dass ihr nicht den "
+"Bootloader aktualisiert."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:36
-msgid ""
-"Im Pull-Down Menü des SmartRF Flash Programmers wählt man nun den Punkt "
-"\"Program Evaluation Board\" und klickt danach auf \"Update EB Firmware\""
-" - dies geht übrigens nur, falls der Debugger eine ältere Version der "
-"Software hat. Danach sucht man die Datei mit der neuen Firmware aus z. B."
-" C:\\\\Programme\\\\Texas Instruments\\\\SmartRF Tools\\\\Firmware\\\\CC "
-"Debugger\\\\cebal\\_fw\\_srf05dbg.hex (Version kann abweichen). Dabei "
-"solltet ihr darauf achten, dass ihr nicht den Bootloader aktualisiert."
-msgstr ""
-
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:38
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:37
 msgid "|Firmware-Update1|"
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:40
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:39
 msgid ""
 "Anschließend sollte man eine aktualisierte \"EB firmware rev\" und \"... "
 "update OK\" sehen."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:43
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:42
 msgid "|Firmware-Update2|"
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:46
-msgid "Probleme mit dem CC Debugger"
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:44
+msgid "**Probleme mit dem CC Debugger**"
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:48
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:47
 msgid ""
 "Wenn die CC Debugger LED rot leuchtet, dann sollte man die Verkabelung "
 "überprüfen und sicherstellen, dass sowohl der CC111 als auch der CC "
@@ -1241,18 +1133,18 @@ msgid ""
 "Reset Knopf des Debuggers drücken."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:53
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:52
 msgid ""
 "Wenn die LED des CC Debuggers rot blinkt, dann hat der Debugger selbst "
 "einen Fehler und man sollte im englischen `TI's CC Debugger User Guide "
 "<http://www.ti.com/lit/pdf/swru197>`__ nach Rat suchen."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:58
-msgid "Grundsätzlich"
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:56
+msgid "**Grundsätzlich**"
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:60
+#: ../../docs/grundlagen/enlite/fehlerbehebung.rst:59
 msgid ""
 "Falls es immer noch Fehler gibt, die hier noch nicht gelöst wurden, dann "
 "empfiehlt sich ein Blick in die bereits oben erwähnte englische "
@@ -1612,11 +1504,11 @@ msgid ""
 "Transmitter des Kapitels `Enlite <../cgm/enlite.md>`__)."
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/mmcommander.rst:20
-msgid "Wichtig:"
+#: ../../docs/grundlagen/enlite/mmcommander.rst:19
+msgid "**Wichtig:**"
 msgstr ""
 
-#: ../../docs/grundlagen/enlite/mmcommander.rst:22
+#: ../../docs/grundlagen/enlite/mmcommander.rst:21
 msgid ""
 "Der Hersteller Medtronic hat mit dem hier beschriebenen Projekt nichts zu"
 " tun und alle Informationen, die sich hier befinden, werden auf eigenes "
@@ -1661,93 +1553,6 @@ msgid ""
 "es eine aktuellere Version gibt."
 msgstr ""
 
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:2
-msgid "finanzielle / technische Voraussetzungen"
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:4
-msgid "CGM, durch die Krankenkasse oder privat finanziert"
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:5
-msgid "Dexcom G4 Platinum funktioniert sehr gut,"
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:6
-msgid "langsam kommt aber auch das Enlite dazu."
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:8
-msgid ""
-"Ein Stück Hardware, um die CGM-Daten hochzuladen, z.B. `xDrip "
-"<https://nightscout.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html>`__"
-" (ca. 50 bis 60€) oder den MMCommander oder .."
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:12
-msgid "Smartphone (Android-Telefon)"
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:13
-msgid "mit Betriebssystem-Version 4.3 (besser 4.4 oder höher) und"
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:14
-msgid ""
-"Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab "
-"Bluetooth 4.0 vorhanden."
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:17
-msgid ""
-"Datenvertrag (z.B. 0 € bei Netzclub mit 100mb Freivolumen, danach "
-"gedrosseltes Internet.)"
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:20
-msgid "eine Kreditkarte (wird nicht belastet)"
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:22
-msgid "*Nicht notwendig, aber:*"
-msgstr ""
-
-#: ../../docs/grundlagen/finanzielles__technische_voraussetzungen.rst:24
-msgid "Du wirst sehr bald eine Smartwatch haben wollen! (Android / Pebble)"
-msgstr ""
-
-#: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:2
-msgid "Grundsätzliche Funktionsweise/Ausblick"
-msgstr ""
-
-#: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:4
-msgid "Man kann Nightscout auf verschiedene Weise nutzen:"
-msgstr ""
-
-#: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:6
-msgid ""
-"als Kontroll- und Alarmsystem für Angehörige von Diabetikern, "
-"insbesondere wenn Kinder oder ältere Menschen vom Diabetes betroffen sind"
-msgstr ""
-
-#: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:10
-msgid "als Visualisierung deiner eigenen CGM-Daten direkt am Handgelenk"
-msgstr ""
-
-#: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:12
-msgid "als Blutzucker Tagebuch mit umfangreichen Auswertungsmöglichkeiten"
-msgstr ""
-
-#: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:14
-msgid ""
-"als Monitoring System für ein APS (Artificial Pancreas System - der "
-"sogenannte \"Closed Loop\" oder auch \"Künstliche Bauchspeicheldrüse\")"
-msgstr ""
-
-#: ../../docs/grundlagen/grundsatzliche_funktionsweiseausblick.rst:17
-msgid "als Schnittstelle, um diese Daten weiterzuverwerten"
-msgstr ""
-
 #: ../../docs/grundlagen/grundvoraussetzungen.rst:2
 msgid "Grundvoraussetzungen"
 msgstr ""
@@ -1774,59 +1579,245 @@ msgstr ""
 msgid "ein bisschen Zeit und Geduld"
 msgstr ""
 
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:14
+msgid "Grundsätzliche Funktionsweise/Ausblick"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:16
+msgid "Man kann Nightscout auf verschiedene Weise nutzen:"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:18
+msgid ""
+"als Kontroll- und Alarmsystem für Angehörige von Diabetikern, "
+"insbesondere wenn Kinder oder ältere Menschen vom Diabetes betroffen sind"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:22
+msgid "als Visualisierung deiner eigenen CGM-Daten direkt am Handgelenk"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:24
+msgid "als Blutzucker Tagebuch mit umfangreichen Auswertungsmöglichkeiten"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:26
+msgid ""
+"als Monitoring System für ein APS (Artificial Pancreas System - der "
+"sogenannte \"Closed Loop\" oder auch \"Künstliche Bauchspeicheldrüse\")"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:29
+msgid "als Schnittstelle, um diese Daten weiterzuverwerten"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:33
+msgid "finanzielle / technische Voraussetzungen"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:35
+msgid "CGM, durch die Krankenkasse oder privat finanziert"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:36
+msgid "Dexcom G4 Platinum funktioniert sehr gut,"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:37
+msgid "langsam kommt aber auch das Enlite dazu."
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:39
+msgid ""
+"Ein Stück Hardware, um die CGM-Daten hochzuladen, z.B. `xDrip "
+"<https://nightscout.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html>`__"
+" (ca. 50 bis 60€) oder den MMCommander oder .."
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:43
+msgid "Smartphone (Android-Telefon)"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:44
+msgid "mit Betriebssystem-Version 4.3 (besser 4.4 oder höher) und"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:45
+msgid ""
+"Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab "
+"Bluetooth 4.0 vorhanden."
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:48
+msgid ""
+"Datenvertrag (z.B. 0 € bei Netzclub mit 100mb Freivolumen, danach "
+"gedrosseltes Internet.)"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:51
+msgid "eine Kreditkarte (wird nicht belastet)"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:53
+msgid "*Nicht notwendig, aber:*"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:55
+msgid "Du wirst sehr bald eine Smartwatch haben wollen! (Android / Pebble)"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:58
+msgid "DIY/Disclaimer"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:60
+msgid ""
+"**Verwende die Informationen aus Nightscout oder den Programmcode "
+"niemals, um medizinische Entscheidungen zu treffen.**"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:63
+msgid "**HINWEIS:**"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:65
+msgid ""
+"*Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und "
+"unterstützt wird.*"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:68
+msgid ""
+"*Es gibt in diesem Projekt keine Gewährleistung oder garantierte "
+"Unterstützung in irgendeiner Art. Wenn Du dich entscheidest es zu nutzen,"
+" hängt die Qualität und Leistungsfähigkeit dieses Projektes von dir "
+"selbst ab.*"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:75
+msgid ""
+"Alle Informationen und Gedanken der hier beschriebenen Programmcodes sind"
+" ausschließlich zu Informationszwecken und für pädagogische Zwecke "
+"bestimmt. Die Verwendung von Programmcodes der Homepage "
+"**www.github.com** ist ohne jede Garantie oder Unterstützung jeglicher "
+"Art."
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:81
+msgid ""
+"Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System"
+" unbrauchbar werden kann!"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:84
+msgid ""
+"Es gibt keine Passwort geschützte Privatsphäre oder irgendeine Sicherheit"
+" der Tools, die hier zur Verfügung gestellt werden. Alle Daten, die du "
+"hochlädst, sind für jeden im Internet zu lesen, wenn du die spezifische "
+"URL (Internetadresse) freigibst oder weitergibst."
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:92
+msgid ""
+"Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat keine "
+"Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen, "
+"Dienstleistungen oder Produkten, die im Rahmen dieser Internetpräsenz "
+"erwähnt werden."
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:94
+msgid ""
+"Alle hier erwähnten Produkt- und Firmennamen sind Marken der jeweiligen "
+"Eigentümer bzw. Hersteller."
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:98
+msgid "**Inhalt des Onlineangebotes**"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:100
+msgid ""
+"Die Übersetzer/Autoren übernehmen keinerlei Gewähr für die Aktualität, "
+"Richtigkeit und Vollständigkeit der bereitgestellten Informationen auf "
+"dieser Internetpräsenz und denen der aufgeführten Links. "
+"Haftungsansprüche gegen die Übersetzer/Autoren, welche sich insbesondere "
+"auf Schäden körperlicher, materieller oder ideeller Art beziehen, die "
+"durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. "
+"durch die Nutzung fehlerhafter und unvollständiger Informationen "
+"verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens der "
+"Übersetzer/Autoren kein nachweislich vorsätzliches oder grob fahrlässiges"
+" Verschulden vorliegt. Alle Angebote sind freibleibend und unverbindlich."
+" Die Übersetzer/Autoren behalten es sich ausdrücklich vor, Teile der "
+"Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern,"
+" zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder "
+"endgültig einzustellen."
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:115
+msgid "**DIY - Eigenbau und Eigenverantwortung**"
+msgstr ""
+
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:117
+msgid ""
+"Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem "
+"Fall, dass es keine Firma gibt, von der man ein fertiges, "
+"funktionierendes System kaufen kann. Die Elemente des Systems sind von "
+"Teilnehmern des Projektes entwickelt und zusammengesetzt. Sie werden dir "
+"kostenlos zur Verfügung gestellt. DIY bedeutet für dich, dass du deinen "
+"Teil dazu beitragen musst, damit das System für dich funktioniert. Wir "
+"hoffen, dass DIY dich so sehr begeistern wird wie uns - sodass du "
+"wiederum irgendwann einen kleinen Teil dazu beitragen kannst, dass das "
+"System für alle besser wird."
+msgstr ""
+
 #: ../../docs/grundlagen/index.rst:2
 msgid "Grundlagen"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/index.rst:2
-#: ../../docs/grundlagen/libre/libre.rst:2
+#: ../../docs/grundlagen/libre/index.rst:4
 msgid "Libre"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:9
+#: ../../docs/grundlagen/libre/index.rst:6
 msgid ""
 "Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch die "
 "`Android-App Glimp "
 "<https://play.google.com/store/apps/details?id=it.ct.glicemia>`__, die "
 "auch Sensoren auch auslesen kann. Dadurch ist eine Fernüberwachung "
 "möglich - z.B. durch die Eltern, die dann auf dem selben Stand wie das "
-"Kind sind und sehen ob und was gemessen wurde."
+"Kind sind und sehen ob und was gemessen wurde. Mit der Android-App werden"
+" allerdings z.T. leicht andere Werte ausgelesen als vom Lesegerät, da "
+"diese einen eigenen Algorithmus verwendet."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:12
-msgid ""
-"Mit der Android-App werden allerdings z.T. leicht andere Werte ausgelesen"
-" als vom Lesegerät, da diese einen eigenen Algorithmus verwendet."
-msgstr ""
-
-#: ../../docs/grundlagen/libre/libre.rst:15
+#: ../../docs/grundlagen/libre/libre.rst:3
 msgid "Nightscout mit FreeStyle Libre"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:17
+#: ../../docs/grundlagen/libre/libre.rst:5
 msgid "Um Nightscout mit dem FreeStyle Libre nutzen zu können, braucht man:"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:19
+#: ../../docs/grundlagen/libre/libre.rst:7
 msgid "ein funktionierendes FreeStyle Libre System"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:20
+#: ../../docs/grundlagen/libre/libre.rst:8
 msgid "eine eingerichtete Nightscout Seite"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:21
+#: ../../docs/grundlagen/libre/libre.rst:9
 msgid "ein Android Smartphone, das NFC (Nahfeldkommunikation) unterstützt"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:22
+#: ../../docs/grundlagen/libre/libre.rst:10
 msgid ""
 "die `Glimp App "
 "<https://play.google.com/store/apps/details?id=it.ct.glicemia>`__ aus dem"
 " Google Play Store"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:26
+#: ../../docs/grundlagen/libre/libre.rst:14
 msgid ""
 "Falls man bisher noch keine Nightscout Seite eingerichtet hat, findet man"
 " alle erforderlichen Schritte im Kapitel `Nightscout einrichten "
@@ -1838,18 +1829,18 @@ msgid ""
 "besten Schritt für Schritt der Anleitung folgen ;-)"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:35
+#: ../../docs/grundlagen/libre/libre.rst:23
 msgid ""
 "Viele aktuelle Android Smartphones unterstützen die NFC Technologie. Eine"
 " sehr gute, englischsprachige Liste findet man `hier "
 "<http://www.nfcworld.com/nfc-phones-list/>`__."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:40
+#: ../../docs/grundlagen/libre/libre.rst:28
 msgid "Daten des FreeStyle Libre mit Glimp hochladen"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:42
+#: ../../docs/grundlagen/libre/libre.rst:30
 msgid ""
 "Um die Daten auf der Nightscout Seite angezeigt zu bekommen, müssen diese"
 " mit der Glimp App über das Smartphone vom Sensor gelesen werden und die "
@@ -1857,14 +1848,14 @@ msgid ""
 "nötig:"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:47
+#: ../../docs/grundlagen/libre/libre.rst:35
 msgid ""
 "die `Glimp App "
 "<https://play.google.com/store/apps/details?id=it.ct.glicemia>`__ aus dem"
 " Google Play Store laden"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:50
+#: ../../docs/grundlagen/libre/libre.rst:38
 msgid ""
 "Glimp konfigurieren damit es mit dem FreeStyle Libre zusammen arbeitet - "
 "das bedeutet am Telefon NFC einschalten und mit dem Smartphone den "
@@ -1874,46 +1865,50 @@ msgid ""
 "wiederholen)."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:56
+#: ../../docs/grundlagen/libre/libre.rst:44
 msgid ""
 "Glimp für die Zusammenarbeit mit Nightscout konfigurieren. Dazu auf die 3"
 " Punkte in der rechten, oberen Ecke klicken und danach auf "
 "\"**Optionen**\" klicken. |image0|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:60
+#: ../../docs/grundlagen/libre/libre.rst:48
 msgid "Jetzt \"**entferntes Glucose-Monitoring**\" wählen. |image1|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:62
+#: ../../docs/grundlagen/libre/libre.rst:50
 msgid ""
 "Auf der \"entferntes Glucose-Monitoring\"-Seite, gibt man jetzt die "
 "vorher erstellte Nightscout URL ein. |image2|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:65
+#: ../../docs/grundlagen/libre/libre.rst:53
 msgid ""
 "Jetzt das API SECRET eingeben (Anmerkung: das API SECRET *muss* identisch"
 " sein, mit das man bei der Konfiguration der Nightscout Seite bei Azure "
 "bzw. Heroku gesetzt hat.) |image3|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:69
+#: ../../docs/grundlagen/libre/libre.rst:57
 msgid "Nun auf \"**Test connection**\" klicken. |image4|"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre.rst:71
+#: ../../docs/grundlagen/libre/libre.rst:59
 msgid ""
 "Wenn der Test erfolgreich war, dann ist Glimp nun fertig konfiguriert und"
 " lädt ab jetzt die mit der Glimp App gescannten Werte des Libre auf die "
 "Nightscout Seite."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre_als_cgm.rst:5
-msgid "LimiTTer"
+#: ../../docs/grundlagen/libre/libre.rst:67
+msgid "Libre als CGM"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre_als_cgm.rst:7
+#: ../../docs/grundlagen/libre/libre.rst:69
+msgid "**LimiTTer**"
+msgstr ""
+
+#: ../../docs/grundlagen/libre/libre.rst:72
 msgid ""
 "Dank eines DIY Projektes ist es bereits heute möglich, den Libre Sensor "
 "mit einem selbst zu bastelnden Transmitter auszustatten, der dann "
@@ -1924,11 +1919,11 @@ msgid ""
 "Englisch."
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre_als_cgm.rst:16
-msgid "blueReader"
+#: ../../docs/grundlagen/libre/libre.rst:80
+msgid "**blueReader**"
 msgstr ""
 
-#: ../../docs/grundlagen/libre/libre_als_cgm.rst:18
+#: ../../docs/grundlagen/libre/libre.rst:83
 msgid ""
 "Mittlerweile gibt es auch ein Projekt, das sich an alle wendet, die nicht"
 " so gerne mit dem Lötkolben arbeiten und trotzdem den Libre mit dem "
@@ -3534,7 +3529,7 @@ msgid "Rise-Fall-Alerts"
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip_app.rst:295
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:428
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:429
 msgid "----> ist noch zu beschreiben!"
 msgstr ""
 
@@ -3691,10 +3686,14 @@ msgid ""
 msgstr ""
 
 #: ../../docs/grundlagen/xdrip/xdrip_app.rst:391
-msgid "BG History (nicht in der jetzigen Beta-Version verfügbar)"
+msgid "BG History"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:393
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:392
+msgid "**(nicht in der jetzigen Beta-Version verfügbar)**"
+msgstr ""
+
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:394
 msgid ""
 "Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen "
 "Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen "
@@ -3702,7 +3701,7 @@ msgid ""
 "in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:399
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:400
 msgid ""
 "Für eine genauere Betrachtung lassen sich die Kurven mit einem "
 "Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend "
@@ -3713,15 +3712,15 @@ msgid ""
 "Verlaufskurve des Hauptbildschirmes möglich."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:408
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:409
 msgid "Weiteres"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:411
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:412
 msgid "Verbinden mit einer Smartwatch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:413
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:414
 msgid ""
 "An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu "
 "senden. Damit könnte man die Installationsschritte in \"Nightscout "
@@ -3730,21 +3729,21 @@ msgid ""
 "Tagebuch oder für das OpenAPS)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:420
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:421
 #: ../../docs/smartwatch/android_wear.rst:2
 msgid "Android Wear"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:423
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:424
 #: ../../docs/smartwatch/pebble.rst:2
 msgid "Pebble"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:426
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:427
 msgid "Upload zu NightScout"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:433
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:434
 msgid ""
 "**Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als \"hm-"
 "soft\", nicht als „xBridge“ oder „xDrip“. Was muss ich tun, damit das "
@@ -3756,11 +3755,11 @@ msgid ""
 " irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:445
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:446
 msgid "Verkabelung zwischen Wixel und Bluetooth-Modul prüfen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:446
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:447
 msgid ""
 "Baud-Rate prüfen. Bei einigen HM11-Modulen ist die Baudrate falsch "
 "gesetzt, ggf. also die Baudrate neu einstellen"
@@ -3797,7 +3796,7 @@ msgstr ""
 msgid "Nächster Antwort kommt hierher."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip/xdrip_app.rst:463
+#: ../../docs/grundlagen/xdrip/xdrip_app.rst:464
 msgid "---> Erweiterbar!"
 msgstr ""
 
@@ -7335,55 +7334,55 @@ msgstr ""
 msgid "Sonstiges"
 msgstr ""
 
-#: ../../docs/sonstiges.rst:5
-msgid "Links"
+#: ../../docs/sonstiges.rst:4
+msgid "**Links:**"
 msgstr ""
 
-#: ../../docs/sonstiges.rst:7
+#: ../../docs/sonstiges.rst:6
 msgid ""
-"**`deutsche Gitter Chat Gruppe zu OpenAPS, DIY, Nightscout, xDrip, CGM, "
-"Closed Loop <https://gitter.im/LadyViktoria/germanLOOP>`__**"
+"`deutsche Gitter Chat Gruppe zu OpenAPS, DIY, Nightscout, xDrip, CGM, "
+"Closed Loop <https://gitter.im/LadyViktoria/germanLOOP>`__"
 msgstr ""
 
-#: ../../docs/sonstiges.rst:10
+#: ../../docs/sonstiges.rst:8
 msgid ""
-"**`Nightscout Deutschland Facebook-Gruppe "
-"<https://www.facebook.com/groups/nightscoutDE/>`__**"
+"`Nightscout Deutschland Facebook-Gruppe "
+"<https://www.facebook.com/groups/nightscoutDE/>`__"
 msgstr ""
 
-#: ../../docs/sonstiges.rst:14
-msgid "Flyer"
+#: ../../docs/sonstiges.rst:11
+msgid "**Flyer:**"
 msgstr ""
 
-#: ../../docs/sonstiges.rst:16
-#, python-format
+#: ../../docs/sonstiges.rst:13
+msgid ":download:`Flyer Vorderseite <images/sonstiges/Folie1.jpg>`"
+msgstr ""
+
+#: ../../docs/sonstiges.rst:15
+msgid ":download:`Flyer Rückseite <images/sonstiges/Folie2.jpg>`"
+msgstr ""
+
+#: ../../docs/sonstiges.rst:18
+msgid "**Verlängerung der Tragezeit:**"
+msgstr ""
+
+#: ../../docs/sonstiges.rst:20
 msgid ""
-"`Verlängerung der Tragezeit des Sensors (PDF) "
-"<https://github.com/nightscout/nightscout_handbuch/raw/master/dokumente/Verlängerung%20der%20Tragezeit.pdf>`__"
+":download:`Verlängerung der Tragezeit des Sensors <documents"
+"/Verlaengerung-der-Tragezeit.pdf>`"
 msgstr ""
 
-#: ../../docs/sonstiges.rst:19
-#, python-format
-msgid "` <verlängerung%20der%20tragezeit>`__"
+#: ../../docs/sonstiges.rst:23
+msgid "**Schablonen:**"
 msgstr ""
 
-#: ../../docs/sonstiges.rst:22
-msgid "Schablonen"
-msgstr ""
-
-#: ../../docs/sonstiges.rst:24
+#: ../../docs/sonstiges.rst:25
 msgid ""
-"`Dexcom Pflaster Schablone "
-"<https://raw.githubusercontent.com/nightscout/nightscout_handbuch/master/images/sonstiges/Pflasterschablone2.jpg>`__"
+":download:`Dexcom Pflaster Schablone "
+"<images/sonstiges/Pflasterschablone2.jpg>`"
 msgstr ""
 
 #: ../../docs/sonstiges.rst:27
 msgid "`xDrip 1-Platinen Layout <https://oshpark.com/shared_projects/IuYnoGB9>`__"
-msgstr ""
-
-#: ../../docs/sonstiges.rst:30
-msgid ""
-"`azure deployment template file "
-"<https://github.com/nightscout/user_guide/blob/master/de/dokumente/azuredeploy.json>`__"
 msgstr ""
 

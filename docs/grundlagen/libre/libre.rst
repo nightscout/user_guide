@@ -1,18 +1,6 @@
-Libre
-=====
-
-| Das Freestyle-Lesegerät selbst ist nicht Nightscout-fähig, jedoch die
-  `Android-App
-  Glimp <https://play.google.com/store/apps/details?id=it.ct.glicemia>`__,
-  die auch Sensoren auch auslesen kann. Dadurch ist eine Fernüberwachung
-  möglich - z.B. durch die Eltern, die dann auf dem selben Stand wie das
-  Kind sind und sehen ob und was gemessen wurde.
-| Mit der Android-App werden allerdings z.T. leicht andere Werte
-  ausgelesen als vom Lesegerät, da diese einen eigenen Algorithmus
-  verwendet.
 
 Nightscout mit FreeStyle Libre
-------------------------------
+==============================
 
 Um Nightscout mit dem FreeStyle Libre nutzen zu können, braucht man:
 
@@ -37,7 +25,7 @@ Eine sehr gute, englischsprachige Liste findet man
 `hier <http://www.nfcworld.com/nfc-phones-list/>`__.
 
 Daten des FreeStyle Libre mit Glimp hochladen
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=============================================
 
 Um die Daten auf der Nightscout Seite angezeigt zu bekommen, müssen
 diese mit der Glimp App über das Smartphone vom Sensor gelesen werden
@@ -71,6 +59,36 @@ dazu nötig:
 #. Wenn der Test erfolgreich war, dann ist Glimp nun fertig konfiguriert
    und lädt ab jetzt die mit der Glimp App gescannten Werte des Libre
    auf die Nightscout Seite.
+
+
+.. _Libre als CGM:
+
+Libre als CGM
+=============
+
+**LimiTTer**
+
+
+Dank eines DIY Projektes ist es bereits heute möglich, den Libre Sensor
+mit einem selbst zu bastelnden Transmitter auszustatten, der dann
+automatisch alle 5 Minuten Werte scannt und an ein Android Smartphone
+überträgt. Auf diesem muss die XDrip App installiert sein, die die Daten
+sowohl anzeigen kann, als auch an Nightscout oder eine Smartwatch
+senden. Wie das geht steht `hier <https://joernl.github.io/LimiTTer/>`__
+auf Englisch.
+
+**blueReader**
+
+
+Mittlerweile gibt es auch ein Projekt, das sich an alle wendet, die
+nicht so gerne mit dem Lötkolben arbeiten und trotzdem den Libre mit dem
+Funktionsumfang eines CGM-Systems nutzen möchten. Der blueReader soll
+wasserdicht und klein sein. Wer sich über den aktuellen Stand
+informieren möchte, kann dies in dem Blog `Sandras
+Place <http://unendlichkeit.net/wordpress/>`__ machen. Damit dieses
+Projekt allerdings realisiert werden kann, wurde ein `crowdfunding
+Projekt <https://www.startnext.com/bluereader>`__ ins Leben gerufen,
+welches auf finanzielle Unterstützung angewiesen ist.
 
 .. |image0| image:: ../../images/libre/glimp1.png
 .. |image1| image:: ../../images/libre/glimp2.png

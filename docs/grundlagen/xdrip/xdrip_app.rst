@@ -387,8 +387,9 @@ und ggf. durch Ziehen an den äußeren Ecken und/oder Seiten die Größe des
 Widgets noch verändern, den Bildschirm außerhalb des Widgets antippen,
 fertig!
 
-BG History (nicht in der jetzigen Beta-Version verfügbar)
----------------------------------------------------------
+BG History
+----------
+**(nicht in der jetzigen Beta-Version verfügbar)**
 
 Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen
 Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen

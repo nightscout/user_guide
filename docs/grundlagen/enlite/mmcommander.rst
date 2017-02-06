@@ -16,8 +16,7 @@ Android App entweder per Wi-Fi oder mobilem Telefon Netzwerk an
 Nightscout überträgt (vgl. Übersichtsgrafik im Unterpunkt MiniLink
 Transmitter des Kapitels `Enlite <../cgm/enlite.md>`__).
 
-Wichtig:
---------
+**Wichtig:**
 
 Der Hersteller Medtronic hat mit dem hier beschriebenen Projekt nichts
 zu tun und alle Informationen, die sich hier befinden, werden auf
