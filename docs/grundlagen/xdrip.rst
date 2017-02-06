@@ -54,15 +54,17 @@ Alternative xDrip und der xDrip App auf einem Android-Smartphone.
 Bausatz
 -------
 
-| Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft
-  die verwendete Hardware, die Art die Hardware zu verlöten und auch die
-  Software. (Auf eines der Bauteile - das Wixel - wird eine Software
-  aufgespielt.)
-| Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene
-  Namen für ähnliche Dinge.
-| Die Varianten haben unterschiedliche Eigenschaften, letztlich aber
-  dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und an ein
-  Bluetooth-Handy zu übertragen.
+Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft
+die verwendete Hardware, die Art die Hardware zu verlöten und auch die
+Software. (Auf eines der Bauteile - das Wixel - wird eine Software
+aufgespielt.)
+
+Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene
+Namen für ähnliche Dinge.
+
+Die Varianten haben unterschiedliche Eigenschaften, letztlich aber
+dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und an ein
+Bluetooth-Handy zu übertragen.
 
 Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung
 zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten
@@ -71,35 +73,44 @@ Bauformen zu beschreiben.
 Hier werden drei verschiedene Bauformen vorgestellt. Eine "Bauform"
 meint eine Art, die Hardware-Komponenten miteinander zu verlöten.
 
-| Bauform 1.): "xDrip classic"
-| Dies ist die einfachste Bauform. Es hat sich der Name der "xDrip
-  classic" etabliert.
-| Vorteil: Weniger Lötstellen. Einfach und robust. (Was nicht dran ist,
-  kann nicht kaputt gehen.) Im Regelbetrieb leuchtet immer eine LED. Das
-  verbraucht etwas Strom, aber man sieht auf den ersten Blick, ob der
-  xDrip noch "lebt".
-| Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei
-  xBridge-Bauform.
+Bauform 1.): "xDrip classic"
 
-| Bauform 2.): "xDrip classic mit Spannungsteiler"
-| Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst
-  geringem Aufwand ein "xDrip classic" um eine Anzeige der Akku-Ladung
-  erweitert werden soll.
-| Vorteil: Mit Anzeige der Akku-Ladung. Geringer Aufwand beim Umbau von
-  "xDrip classic".
-| Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform.
+Dies ist die einfachste Bauform. Es hat sich der Name der "xDrip
+classic" etabliert.
 
-| Bauform 3.): "xBridge"
-| Die Stromversorgung des Bluetooth-Moduls läuft etwas anders, als beim
-  "xDrip classic". Im Vergleich zum "xDrip mit Spannungsteiler" müssen
-  zwei Lötstellen mehr gelötet werden. Insbesondere müssen die Kabel für
-  die Anbindung an das Bluetooth-Modul etwas anders geschaltet werden.
-| Vorteil: Von den hier vorgestellten Varianten die längste
-  Akku-Laufzeit. Von der Anzeige der Akku-Ladung bitte keine Wunder
-  erwarten - es ist nur eine grobe Orientierung. Der aangezeigte
-  Prozentwert sinkt nicht linear.
-| Nachteil: Ungeeignet, wenn sich die Bluetooth-Verbindung zum Handy
-  sich schlecht oder langsam aufbaut.
+Vorteil: Weniger Lötstellen. Einfach und robust. (Was nicht dran ist,
+kann nicht kaputt gehen.) Im Regelbetrieb leuchtet immer eine LED. Das
+verbraucht etwas Strom, aber man sieht auf den ersten Blick, ob der
+xDrip noch "lebt".
+
+Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei
+xBridge-Bauform.
+
+Bauform 2.): "xDrip classic mit Spannungsteiler"
+
+Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst
+geringem Aufwand ein "xDrip classic" um eine Anzeige der Akku-Ladung
+erweitert werden soll.
+
+Vorteil: Mit Anzeige der Akku-Ladung. Geringer Aufwand beim Umbau von
+"xDrip classic".
+
+Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform.
+
+Bauform 3.): "xBridge"
+
+Die Stromversorgung des Bluetooth-Moduls läuft etwas anders, als beim
+"xDrip classic". Im Vergleich zum "xDrip mit Spannungsteiler" müssen
+zwei Lötstellen mehr gelötet werden. Insbesondere müssen die Kabel für
+die Anbindung an das Bluetooth-Modul etwas anders geschaltet werden.
+
+Vorteil: Von den hier vorgestellten Varianten die längste
+Akku-Laufzeit. Von der Anzeige der Akku-Ladung bitte keine Wunder
+erwarten - es ist nur eine grobe Orientierung. Der aangezeigte
+Prozentwert sinkt nicht linear.
+
+Nachteil: Ungeeignet, wenn sich die Bluetooth-Verbindung zum Handy
+sich schlecht oder langsam aufbaut.
 
 Tipps und Rat für Einsteiger:
 
@@ -148,8 +159,9 @@ Tipps und Rat für Einsteiger:
 **Schaltbild für xDrip in der "klassischen Verschaltung" (Empfehlung für
 Einsteiger)**
 
-| (ohne Widerstände für Batterieanzeige)
-| |xDrip Schaltbild|
+(ohne Widerstände für Batterieanzeige)
+
+|xDrip Schaltbild|
 
 \*\* Hinweise zum Löten: \*\*
 
@@ -212,11 +224,12 @@ Einsteiger)**
 
 --------------
 
-| Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl
-  auf dem Wixel).
-| Die Anzeigen sind von der Version der wxl-Datei und von der verbauten
-  Hardware abhängig - in der folgenden Tabelle gibt es eine grobe
-  Orientierung.
+Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl
+auf dem Wixel).
+
+Die Anzeigen sind von der Version der wxl-Datei und von der verbauten
+Hardware abhängig - in der folgenden Tabelle gibt es eine grobe
+Orientierung.
 
 Erklärung zur folgenden Tabelle:
 
@@ -248,25 +261,26 @@ ebenso verwenden lässt.
 Weiterführende Infos / Schaltbilder für xBridge
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante
-  "xDrip-classic" nicht gewünscht ist.
-| Es gibt verschiedene Bluetooth-Module: HM10, HM11 oder HM-17 für die
-  es verschiedene Bauformen gibt. Deswegen hier mehrere Bilder zur
-  Verschaltung. Sucht euch das Bild raus, das zu eurem konkreten HM
-  Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus den
-  folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen.
+Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante
+"xDrip-classic" nicht gewünscht ist.
 
-| **Schaltbild für xBridge mit HM-10**
-| |HM10_xbridge_Wiring_Diagram|
+Es gibt verschiedene Bluetooth-Module: HM10, HM11 oder HM-17 für die
+es verschiedene Bauformen gibt. Deswegen hier mehrere Bilder zur
+Verschaltung. Sucht euch das Bild raus, das zu eurem konkreten HM
+Modul passt. Falls ihr eine xDrip-Schaltung baut, könnt ihr aus den
+folgenden Abbildungen auch die Bezeichnungen der Anschlüsse ablesen.
 
-| **Schaltbild für xBridge mit HM-10 auf Breakout Board**
-| |HM10_Breakout Board_xbridge_Wiring_Diagram|
+**Schaltbild für xBridge mit HM-10**
+|HM10_xbridge_Wiring_Diagram|
 
-| **Schaltbild für xBridge mit HM-11**
-| |HM11_xbridge_Wiring_Diagram|
+**Schaltbild für xBridge mit HM-10 auf Breakout Board**
+|HM10_Breakout Board_xbridge_Wiring_Diagram|
 
-| **Schaltbild für "xDrip USB V3"**
-| |xDrip V3usb Schaltbild|
+**Schaltbild für xBridge mit HM-11**
+|HM11_xbridge_Wiring_Diagram|
+
+**Schaltbild für "xDrip USB V3"**
+|xDrip V3usb Schaltbild|
 
 \*\* Weitere Infos / empfohlene Links: \*\* (englische Seiten)
 
@@ -288,13 +302,14 @@ Weiterführende Infos / Schaltbilder für xBridge
 xDrip App
 ---------
 
-| Die xDrip-App ist eine Anwendung (eine App), die auf einem
-  Android-Handy läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon
-  und - optional - einer Smart-Watch anzuzeigen, auszuwerten und bei
-  Bedarf zu NightScout hochzuladen.
-| Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with
-  Share* oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht
-  erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz.
+Die xDrip-App ist eine Anwendung (eine App), die auf einem
+Android-Handy läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon
+und - optional - einer Smart-Watch anzuzeigen, auszuwerten und bei
+Bedarf zu NightScout hochzuladen.
+
+Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with
+Share* oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht
+erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz.
 
 Voraussetzungen:
 ~~~~~~~~~~~~~~~~
@@ -318,22 +333,26 @@ Download für eine lauffähige Version (\*.apk-File) findet sich hier:
 `Link zur
 Beta-Version <https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta>`__
 
-| Die hier verlinkten Versionen sind so erstellt, dass man eine ältere
-  Version mit einer neueren updaten kann, ohne Einstellungen und
-  Messwerte zu verlieren.
-| Wer hinreichende technische Kenntnisse hat, kann sich aus den
-  vorhandenen Quellen selbst die apk zusammenstellen.
+Die hier verlinkten Versionen sind so erstellt, dass man eine ältere
+Version mit einer neueren updaten kann, ohne Einstellungen und
+Messwerte zu verlieren.
 
-| **"xDrip" oder "xDrip+"**
-| Alternativ zur "xDrip"-App wird auch die Software "xDrip+" empfohlen.
-  xDrip+ ist eine Variante, bzw. eine Erweiterung der "xDrip"-App. In
-  "xDrip+" sind (erheblich) mehr Möglichkeiten zur Konfiguration
-  enthalten. Das kann wunderbar hilfreich sein, aber die Fülle der
-  Möglichkeiten kann Einsteiger auch verwirren.
-| Die Beschreibungen dieser Seite wurden für xDrip geschrieben, sie
-  gelten aber ebenso für xDrip+.
-| Infos und Download zu xDrip+ finden sich hier:
-  https://jamorham.github.io/
+Wer hinreichende technische Kenntnisse hat, kann sich aus den
+vorhandenen Quellen selbst die apk zusammenstellen.
+
+**"xDrip" oder "xDrip+"**
+
+Alternativ zur "xDrip"-App wird auch die Software "xDrip+" empfohlen.
+xDrip+ ist eine Variante, bzw. eine Erweiterung der "xDrip"-App. In
+"xDrip+" sind (erheblich) mehr Möglichkeiten zur Konfiguration
+enthalten. Das kann wunderbar hilfreich sein, aber die Fülle der
+Möglichkeiten kann Einsteiger auch verwirren.
+
+Die Beschreibungen dieser Seite wurden für xDrip geschrieben, sie
+gelten aber ebenso für xDrip+.
+
+Infos und Download zu xDrip+ finden sich hier:
+https://jamorham.github.io/
 
 Verbinden mit dem Wixel
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -412,9 +431,10 @@ Screenshot des Hauptbildschirms
 -  rot: zu tief
 -  rot/weiß: Kalibrierungen
 
-| **unterer Bereich des Hauptbildschirms**
-| Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte
-  Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind.
+**unterer Bereich des Hauptbildschirms**
+
+Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte
+Rand zeigt die letzten drei Stunden, die oben größer dargestellt sind.
 
 Starten des Sensors
 ~~~~~~~~~~~~~~~~~~~
@@ -539,27 +559,28 @@ sich Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert
 Werte unter 55mg/dl ist vom System bereits voreingestellt und kann nicht
 verändert werden.
 
-| Drücke "**create low alert**", um einen Tiefalarm selbst zu
-  definieren. Unter "***Alert Name***" gibst du dem Alarm eine von dir
-  ausgewählte Bezeichnung, z.B. für mg/dl zu niedrig 80. Bei
-  "***Threshold***" tippst du den entsprechenden Wert (hier z.B. 80)
-  ein. Unter "***Default Snooze***" gibst du die Minuten ein, nach denen
-  sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der Wert
-  aber nach wie vor zu tief ist; unter "***Re-raise***" die Minuten,
-  nach denen sich der Alarm erneut melden soll, wenn du ihn ignoriert
-  hast, der Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich
-  bei Tiefalarmen einen kürzeren Zeitraum auszuwählen. Unter "***Alert
-  Tone***" kannst du dir einen entsprechenden Alarmton bestimmen bzw.
-  mit "choose file" aus deinem Smartphonerepertoire aussuchen.
-| Unter "***select time for alert***" ist "all day" bereits mit Häkchen
-  versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber
-  auch auf "all day" tippen, um dann mit "tap to change" einen gewissen
-  Zeitraum (z.B. die Nacht) festzulegen. Du kannst den Alarm über
-  "***override phone silent mode***" auch im Ruhemodus klingen lassen
-  und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an
-  "***vibrate on alert***". Zuletzt kannst du den Alarm noch
-  ***testen*** und vergiss nicht, ihn zu speichern ("***save alert***"),
-  wenn er dir zusagt!
+Drücke "**create low alert**", um einen Tiefalarm selbst zu
+definieren. Unter "***Alert Name***" gibst du dem Alarm eine von dir
+ausgewählte Bezeichnung, z.B. für mg/dl zu niedrig 80. Bei
+"***Threshold***" tippst du den entsprechenden Wert (hier z.B. 80)
+ein. Unter "***Default Snooze***" gibst du die Minuten ein, nach denen
+sich der Alarm erneut melden soll, wenn du ihn gestoppt hast, der Wert
+aber nach wie vor zu tief ist; unter "***Re-raise***" die Minuten,
+nach denen sich der Alarm erneut melden soll, wenn du ihn ignoriert
+hast, der Wert aber nach wie vor zu tief ist. Hier empfiehlt es sich
+bei Tiefalarmen einen kürzeren Zeitraum auszuwählen. Unter "***Alert
+Tone***" kannst du dir einen entsprechenden Alarmton bestimmen bzw.
+mit "choose file" aus deinem Smartphonerepertoire aussuchen.
+
+Unter "***select time for alert***" ist "all day" bereits mit Häkchen
+versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber
+auch auf "all day" tippen, um dann mit "tap to change" einen gewissen
+Zeitraum (z.B. die Nacht) festzulegen. Du kannst den Alarm über
+"***override phone silent mode***" auch im Ruhemodus klingen lassen
+und das Telefon beim Alarm außerdem vibrieren lassen mit Häkchen an
+"***vibrate on alert***". Zuletzt kannst du den Alarm noch
+***testen*** und vergiss nicht, ihn zu speichern ("***save alert***"),
+wenn er dir zusagt!
 
 Entsprechend kannst du über "**create high alert**" eine Alarmkaskade
 nach oben schaffen.

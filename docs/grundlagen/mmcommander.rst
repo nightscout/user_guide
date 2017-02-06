@@ -107,17 +107,18 @@ kostengünstige Motorola Moto G entschieden zu haben.
 Software
 --------
 
-| Um den CC1111 USB Dongle mit der entsprechenden Software zu
-  beschreiben, braucht man ein Windows Programm, welches `Smart RF Flash
-  Programmer <http://www.ti.com/tool/flash-programmer>`__ heißt
-  (Achtung: nicht den SmartRF Flash Programmer 2 runterladen!) und
-  natürlich die aufzuspielende Software. Diese befindet sich
-  `hier <https://github.com/jberian/mmcommander/releases/download/0.89/MMCommander_EUR_0.89_NoTx.hex>`__.
-| Am besten man installiert bereits jetzt SmartRF Flash Programmer,
-  damit Windows später den CC Debugger erkennt. Es gibt alternativ auch
-  die Möglichkeit, den TI Stick unter Linux mit Hilfe des cc-tool's zu
-  beschreiben, einfacher ist es aber unter Windows. Für Mac ist derzeit
-  keine Lösung bekannt.
+Um den CC1111 USB Dongle mit der entsprechenden Software zu
+beschreiben, braucht man ein Windows Programm, welches `Smart RF Flash
+Programmer <http://www.ti.com/tool/flash-programmer>`__ heißt
+(Achtung: nicht den SmartRF Flash Programmer 2 runterladen!) und
+natürlich die aufzuspielende Software. Diese befindet sich
+`hier <https://github.com/jberian/mmcommander/releases/download/0.89/MMCommander_EUR_0.89_NoTx.hex>`__.
+
+Am besten man installiert bereits jetzt SmartRF Flash Programmer,
+damit Windows später den CC Debugger erkennt. Es gibt alternativ auch
+die Möglichkeit, den TI Stick unter Linux mit Hilfe des cc-tool's zu
+beschreiben, einfacher ist es aber unter Windows. Für Mac ist derzeit
+keine Lösung bekannt.
 
 Später braucht man noch den Medtronic Uploader, der auf dem Android
 Smartphone die empfangenen Daten weitertransportiert. Dieser Link steht
