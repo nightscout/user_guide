@@ -62,7 +62,9 @@ Ein Schaubild verdeutlicht die Zusammmenhänge:
 
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 6
+
+
    
    account_sheet
    mongo_db

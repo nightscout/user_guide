@@ -49,42 +49,20 @@ finanzielle / technische Voraussetzungen
 DIY/Disclaimer
 ==============
 
-**Verwende die Informationen aus Nightscout oder den Programmcode
-niemals, um medizinische Entscheidungen zu treffen.**
 
-**HINWEIS:**
+.. warning:: **Verwende die Informationen aus Nightscout oder den Programmcode niemals, um medizinische Entscheidungen zu treffen.**
 
-**Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und
-unterstützt wird.**
+.. warning:: **Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und unterstützt wird.**
 
-**Es gibt in diesem Projekt keine Gewährleistung oder garantierte
-Unterstützung in irgendeiner Art. Wenn Du dich entscheidest es zu
-nutzen, hängt die Qualität und Leistungsfähigkeit dieses Projektes von
-dir selbst ab.**
+.. warning:: **Es gibt in diesem Projekt keine Gewährleistung oder garantierte Unterstützung in irgendeiner Art. Wenn Du dich entscheidest es zu nutzen, hängt die Qualität und Leistungsfähigkeit dieses Projektes von dir selbst ab.**
 
+.. note::  Alle Informationen und Gedanken der hier beschriebenen Programmcodes sind ausschließlich zu Informationszwecken und für pädagogische Zwecke bestimmt. Die Verwendung von Programmcodes der Homepage **www.github.com** ist ohne jede Garantie oder Unterstützung jeglicher Art. Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System unbrauchbar werden kann! 
 
+.. note::  Es gibt keine Passwort geschützte Privatsphäre oder irgendeine Sicherheit der Tools, die hier zur Verfügung gestellt werden. Alle Daten, die du hochlädst, sind für jeden im Internet zu lesen, wenn du die spezifische URL (Internetadresse) freigibst oder weitergibst.
 
-Alle Informationen und Gedanken der hier beschriebenen Programmcodes
-sind ausschließlich zu Informationszwecken und für pädagogische Zwecke
-bestimmt. Die Verwendung von Programmcodes der Homepage
-**www.github.com** ist ohne jede Garantie oder Unterstützung jeglicher
-Art.
+.. note::  Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat keine Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen, Dienstleistungen oder Produkten, die im Rahmen dieser Internetpräsenz erwähnt werden.
 
-Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das
-System unbrauchbar werden kann!
-
-Es gibt keine Passwort geschützte Privatsphäre oder irgendeine
-Sicherheit der Tools, die hier zur Verfügung gestellt werden. Alle
-Daten, die du hochlädst, sind für jeden im Internet zu lesen, wenn du
-die spezifische URL (Internetadresse) freigibst oder weitergibst.
-
-Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat
-keine Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen,
-Dienstleistungen oder Produkten, die im Rahmen dieser Internetpräsenz
-erwähnt werden.
-
-Alle hier erwähnten Produkt- und Firmennamen sind Marken der
-jeweiligen Eigentümer bzw. Hersteller.
+.. note::  Alle hier erwähnten Produkt- und Firmennamen sind Marken der jeweiligen Eigentümer bzw. Hersteller.
 
 
 

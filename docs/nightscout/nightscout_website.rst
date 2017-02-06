@@ -205,7 +205,7 @@ wieviel Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das
 Plugin cob benötigt diese Eingaben.
 
 Nahrungsmittel Editor
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~
 
 |nightscout_nahrungsmittel_editor|
 
@@ -218,7 +218,7 @@ Daten über csv- oder json - Format in die **mongodb** übertragen.
 #. Ändern, Löschen von Datensätzen
 
 Administrator Werkzeuge
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
 |nightscout_administrator_werkzeuge|
 
@@ -227,7 +227,7 @@ auf die Nightscout - Website verwalten und Datensätze aus der mongo DB
 löschen.
 
 Verwalten von Berechtigungen
-''''''''''''''''''''''''''''
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Für Berechtigungen benötigt man **Subjekte** (Menschen, Institutionen,
 etc.), denen man eine Rolle zuweist. Für jedes Subjekt wird ein
