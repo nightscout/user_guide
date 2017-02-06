@@ -17,7 +17,7 @@ Sonstiges
 
 **Verlängerung der Tragezeit:**
 
-:download:`Download Verlängerung der Tragezeit des Sensors <documents/Verlaengerung-der-Tragezeit.pdf>`
+:download:`Download Verlängerung der Tragezeit des Sensors <files/Verlaengerung-der-Tragezeit.pdf>`
 
 
 **Schablonen:**
