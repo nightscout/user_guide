@@ -115,8 +115,9 @@ Wir wählen App Service aus und erhalten folgende Übersicht:
 wichtig, Nordeuropa oder die USA auszuwählen, für andere Regionen
 entstehen ansonsten Kosten, die nicht nötig sind.
 
+.. _Der_Deploy_to_Azure_Button:
 Der Deploy to Azure Button
-------------------------------
+==========================
 
 Die Nightscout Website lässt sich mit vielen Standardeinstellungen
 beschleunigt installieren.
