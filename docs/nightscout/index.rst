@@ -1,4 +1,4 @@
-.. _Nightscout:
+Nightscout
 
 
 .. toctree::
