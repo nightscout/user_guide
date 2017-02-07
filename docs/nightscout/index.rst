@@ -17,8 +17,7 @@ Nightscout besteht aus **3 Komponenten**:
    Die Grundidee dabei ist, anderen ein Verzeichnis mit Dateien zur
    Verfügung zu stellen, damit man gemeinsam daran arbeiten kann.
    Nightscout besteht aus vielen Plugins zur individuellen
-   Konfiguration. Die Plugins mit Parametern sind im Kapitel
-  :ref:`Nightscout_Plugins` beschrieben.
+   Konfiguration. Die Plugins mit Parametern sind im Kapitel:ref:`Nightscout_Plugins` beschrieben.
 
 -  Einem Cloud-Service Anbieter, welcher die Web-Applikation über
    Webserver zur Verfügung stellt. Microsoft
@@ -36,8 +35,7 @@ Wir können Azure auf verschiedene Weisen einrichten:
 
 Die Nightscout Website lässt sich fast vollkommen automatisiert
 einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als
-Provider. Dieses ist in Kapitel *Der Deploy to Azure
-Button* beschrieben.
+Provider. Dieses ist in Kapitel :ref:`Der_Deploy_to_Azure_Button`  beschrieben.
 
 **Lokale Installation:**
 
