@@ -6,7 +6,7 @@
 Welcome to Nightscout user guide's documentation!
 =================================================
 
-Contents:
+**Contents:**
 
 .. toctree::
    :maxdepth: 6

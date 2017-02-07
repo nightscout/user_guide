@@ -1,6 +1,8 @@
 Grundlagen
 ------------
 
+**Contents:**
+
 .. toctree::
    :maxdepth: 5
 
