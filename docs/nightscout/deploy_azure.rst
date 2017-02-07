@@ -1,4 +1,4 @@
-.. _Deploy_Azure:
+.. _deploy-azure:
 Der Deploy Azure Button
 ==========================
 
