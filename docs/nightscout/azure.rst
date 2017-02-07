@@ -11,7 +11,7 @@ Einstieg
 Den Einstieg in deutscher Sprache findet man hier:
 `Azure <https://azure.microsoft.com/de-de/>`__
 
-Mit dem zweimaligen Klicken des Buttons **Kostenlos testen >** gelangen
+Mit dem zweimaligen Klicken des Buttons **Kostenlos testen** gelangen
 wir zur Registrierungsseite:
 
 |azure_reg|
@@ -32,7 +32,7 @@ und können die Web - Applikation konfigurieren.
 
 |azure_portal|
 
-Mit dem Button **+ Neu** richten wir eine neue **Resource** ein. Die
+Mit dem Button **"+ Neu"** richten wir eine neue **Resource** ein. Die
 Menüführung ist kaskadiert, alle gelb markierten Punkte sind
 auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen
 auswählen:
@@ -94,7 +94,7 @@ Sollte es zu einer Fehlermeldung kommen, bitte die Bereitstellung noch
 einmal starten.
 
 Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann
-über einen Browser mit dem Aufruf http://\ .azurewebsites.net aufgerufen werden.
+über einen Browser mit dem Aufruf http://YOURWEBSITENAME.azurewebsites.net aufgerufen werden.
 
 Die Einrichtung ist fertig.
 
@@ -114,10 +114,6 @@ Wir wählen App Service aus und erhalten folgende Übersicht:
 **WICHTIG:** Die Tarife unterscheiden sich nach Region, es ist
 wichtig, Nordeuropa oder die USA auszuwählen, für andere Regionen
 entstehen ansonsten Kosten, die nicht nötig sind.
-
-Jetzt können wir uns unsere eigene `Nightscout
-Website <../nightscout/die_nightscout_website.md>`__ ansehen und
-konfigurieren.
 
 Der Deploy to Azure Button
 ------------------------------
@@ -140,7 +136,7 @@ diese Sequenz von Schritten zurückkehren.
 Es ist möglich, das Konto an dieser Stelle einzurichten, aber es kann
 weniger verwirrend sein, wenn wir das Konto vorher erstellen.)
 
-Der Bildschirm **eploy to Azure** wird mit allen Optionen geladen, die
+Der Bildschirm **Deploy to Azure** wird mit allen Optionen geladen, die
 wir (am Anfang) für unsere Website konfigurieren können. (Wir können
 dieses später bei Bedarf ändern.)
 
@@ -174,7 +170,7 @@ bricht die Installation ab.
 
 Wir wählen im Dropdown-Menü den Standort aus. (Dieser Standort muss
 nicht mit unserem tatsächlichen geografischen Standort übereinstimmen.
-``North Europe``\ ist für Deutschland zu empfehlen.)
+``North Europe`` ist für Deutschland zu empfehlen.)
 
 Wir stellen sicher, dass ``Free`` im Sku-Dropdown-Menü ausgewählt ist.
 (Dies ist die "kostenlose Variante" von Azure.)
@@ -186,15 +182,11 @@ Die mLab URI verwendet die Syntax, die in diesem Beispiel gezeigt wird,
 wir müssen unsere "EIGEN-Informationen" ausfüllen, "nicht" die
 Beispielwerte, die hier gezeigt werden:
 
-Mongodb: // databaseUserName: databaseUserPassword@ds012345.mlab.com:
-12345 / databaseName
+``Mongodb://databaseUserName:databaseUserPassword@ds012345.mlab.com:12345/databaseName``
 
 Beispielsweise:
 
-Mongodb: // sallyuser: sallypassword@ds012345.mlab.com: 12345 / mycgm
-
-"!: Seit März 2016 wechselte mongolab zu mlab. Die angezeigte Syntax
-enthält das mlab Format."
+``Mongodb://sallyuser:sallypassword@ds012345.mlab.com:12345/mycgm``
 
 Wir wählen mg / dl oder mmol aus dem Dropdown-Menü Display Units.
 
@@ -213,7 +205,7 @@ nach dem letzten Zeichen im String und geben einen neuen Wert ein (z. B.
 Bridge für Benutzer von Dexcom G4 Share / G5-Bridge-Sites oder Pushover
 für Pushover-Benachrichtigungen).
 
-Im Feld Show\_plugins wird "careportal" vorgefüllt. In diesem Feld
+Im Feld Show_plugins wird "careportal" vorgefüllt. In diesem Feld
 aufgelistete Plugins sind immer auf der Website sichtbar, nn sie müssten
 ansonsten innerhalb des Einstellungsbereichs des einzelnen Browsers
 aktiviert werden. Wenn wir möchten, dass iage, cage, sage, bwp und rawbg

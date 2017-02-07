@@ -39,9 +39,9 @@ Wir suchen jetzt den **Programmcode**:
 
 Über die Suchfunktion jetzt ``cgm-remote-monitor`` eingeben:
 
-|github\_search|
+|github_search|
 
-Den \*\* branch \*\* wie master oder dev auswählen und mit **Fork**
+Den **branch** wie master oder dev auswählen und mit **Fork**
 kopieren wir den Code in unser eigenes Verzeichnis:
 
 |github_branch_master|
@@ -50,7 +50,7 @@ Das Ergebnis mit unserem eigenen Branch:
 
 |github_fork|
 
-**Aktualisierung des eigenen ``cgm-remote-monitor`` repositories**
+**Aktualisierung des eigenen** ``cgm-remote-monitor`` **repositories**
 
 In den vergangenen Monaten sind Beta Versionen (0.9-betax) erschienen.
 Für die Versionen gibt es ein Web - Updatetool.
