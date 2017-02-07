@@ -1,4 +1,4 @@
-Nightscout Plugins
+.._Nightscout_Plugins:
 ==================
 
 Wir befassen uns hier mit der Beschreibung der Programm - Module, den
