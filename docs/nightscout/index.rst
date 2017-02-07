@@ -18,7 +18,7 @@ Nightscout besteht aus **3 Komponenten**:
    Verfügung zu stellen, damit man gemeinsam daran arbeiten kann.
    Nightscout besteht aus vielen Plugins zur individuellen
    Konfiguration. Die Plugins mit Parametern sind im Kapitel
-   `Nightscout Plugins`_ beschrieben.
+  :ref:`Nightscout_Plugins` beschrieben.
 
 -  Einem Cloud-Service Anbieter, welcher die Web-Applikation über
    Webserver zur Verfügung stellt. Microsoft
