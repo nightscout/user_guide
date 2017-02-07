@@ -116,7 +116,7 @@ wichtig, Nordeuropa oder die USA auszuwählen, für andere Regionen
 entstehen ansonsten Kosten, die nicht nötig sind.
 
 .. _Azure_Deploy:
-Der Deploy to Azure Button
+Azure_Deploy
 ==========================
 
 Die Nightscout Website lässt sich mit vielen Standardeinstellungen
