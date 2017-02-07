@@ -72,6 +72,7 @@ Ein Schaubild verdeutlicht die Zusammmenhänge:
    mongo_db
    github
    azure
+   azure/azure_deploy
    azure_plugins
    nightscout_website
    lokale_installationen
