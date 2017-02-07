@@ -41,6 +41,7 @@ Provider. Dieses ist in Kapitel
 :ref:`Deploy_Azure`
 beschrieben.
 
+
 **Lokale Installation:**
 
 Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI
