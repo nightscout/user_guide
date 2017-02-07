@@ -61,7 +61,7 @@ Ein Schaubild verdeutlicht die Zusammmenhänge:
 
 .. |nightscout scheme| image:: ../images/nightscout_scheme.jpg
 
-**Inhaltsübersicht:**
+**Contents:**
 
 .. toctree::
    :maxdepth: 6

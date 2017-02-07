@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-06 21:29+0100\n"
+"POT-Creation-Date: 2017-02-07 12:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1045,23 +1045,19 @@ msgstr ""
 msgid "DIY/Disclaimer"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:52
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:53
 msgid ""
 "**Verwende die Informationen aus Nightscout oder den Programmcode "
 "niemals, um medizinische Entscheidungen zu treffen.**"
 msgstr ""
 
 #: ../../docs/grundlagen/grundvoraussetzungen.rst:55
-msgid "**HINWEIS:**"
-msgstr ""
-
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:57
 msgid ""
 "**Dies ist ein Projekt, das ausschließlich von Freiwilligen erstellt und "
 "unterstützt wird.**"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:60
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:57
 msgid ""
 "**Es gibt in diesem Projekt keine Gewährleistung oder garantierte "
 "Unterstützung in irgendeiner Art. Wenn Du dich entscheidest es zu nutzen,"
@@ -1069,22 +1065,17 @@ msgid ""
 "selbst ab.**"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:67
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:59
 msgid ""
 "Alle Informationen und Gedanken der hier beschriebenen Programmcodes sind"
 " ausschließlich zu Informationszwecken und für pädagogische Zwecke "
 "bestimmt. Die Verwendung von Programmcodes der Homepage "
 "**www.github.com** ist ohne jede Garantie oder Unterstützung jeglicher "
-"Art."
+"Art. Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das "
+"System unbrauchbar werden kann!"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:73
-msgid ""
-"Jedes Element dieses Systems kann jederzeit ausfallen, wodurch das System"
-" unbrauchbar werden kann!"
-msgstr ""
-
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:76
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:61
 msgid ""
 "Es gibt keine Passwort geschützte Privatsphäre oder irgendeine Sicherheit"
 " der Tools, die hier zur Verfügung gestellt werden. Alle Daten, die du "
@@ -1092,7 +1083,7 @@ msgid ""
 "URL (Internetadresse) freigibst oder weitergibst."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:81
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:63
 msgid ""
 "Dies ist kein Projekt des **Dexcom Unternehmens**. Nightscout hat keine "
 "Verbindung mit der Firma **Dexcom** oder zu anderen Unternehmen, "
@@ -1100,17 +1091,17 @@ msgid ""
 "erwähnt werden."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:86
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:65
 msgid ""
 "Alle hier erwähnten Produkt- und Firmennamen sind Marken der jeweiligen "
 "Eigentümer bzw. Hersteller."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:92
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:70
 msgid "Inhalt des Onlineangebotes"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:94
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:72
 msgid ""
 "Die Übersetzer/Autoren übernehmen keinerlei Gewähr für die Aktualität, "
 "Richtigkeit und Vollständigkeit der bereitgestellten Informationen auf "
@@ -1128,11 +1119,11 @@ msgid ""
 "endgültig einzustellen."
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:110
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:88
 msgid "DIY - Eigenbau und Eigenverantwortung"
 msgstr ""
 
-#: ../../docs/grundlagen/grundvoraussetzungen.rst:112
+#: ../../docs/grundlagen/grundvoraussetzungen.rst:90
 msgid ""
 "Do-It-Yourself (engl.) selbstgemacht. DIY-Projekt bedeutet in unserem "
 "Fall, dass es keine Firma gibt, von der man ein fertiges, "
@@ -1676,7 +1667,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/grundlagen/mmcommander.rst:218
-#: ../../docs/nightscout/nightscout_website.rst:145
+#: ../../docs/nightscout/nightscout_website.rst:147
 msgid "|Einstellungen|"
 msgstr ""
 
@@ -3759,13 +3750,15 @@ msgid ""
 msgstr ""
 
 #: ../../docs/nightscout/account_sheet.rst:11
-msgid ":download:`Download Arbeitsblatt (deutsch) <../files/arbeitsblatt.doc>`"
+msgid ""
+":download:`Download Arbeitsblatt (deutsch) "
+"<../downloads/arbeitsblatt.doc>`"
 msgstr ""
 
 #: ../../docs/nightscout/account_sheet.rst:13
 msgid ""
-":download:`Download Original Arbeitsblatt (english) <../files/Mongo-and-"
-"Azure-Account-Information-4-16-15.pdf>`"
+":download:`Download Original Arbeitsblatt (english) <../downloads/Mongo-"
+"and-Azure-Account-Information-4-16-15.pdf>`"
 msgstr ""
 
 #: ../../docs/nightscout/account_sheet.rst:15
@@ -3797,8 +3790,8 @@ msgstr ""
 
 #: ../../docs/nightscout/azure.rst:14
 msgid ""
-"Mit dem zweimaligen Klicken des Buttons **Kostenlos testen >** gelangen "
-"wir zur Registrierungsseite:"
+"Mit dem zweimaligen Klicken des Buttons **Kostenlos testen** gelangen wir"
+" zur Registrierungsseite:"
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:17
@@ -3839,7 +3832,7 @@ msgstr ""
 
 #: ../../docs/nightscout/azure.rst:35
 msgid ""
-"Mit dem Button **+ Neu** richten wir eine neue **Resource** ein. Die "
+"Mit dem Button **\"+ Neu\"** richten wir eine neue **Resource** ein. Die "
 "Menüführung ist kaskadiert, alle gelb markierten Punkte sind auszuwählen."
 " Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:"
 msgstr ""
@@ -3954,8 +3947,8 @@ msgstr ""
 #: ../../docs/nightscout/azure.rst:96
 msgid ""
 "Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann "
-"über einen Browser mit dem Aufruf http://\\ .azurewebsites.net aufgerufen"
-" werden."
+"über einen Browser mit dem Aufruf "
+"http://YOURWEBSITENAME.azurewebsites.net aufgerufen werden."
 msgstr ""
 
 #: ../../docs/nightscout/azure.rst:99
@@ -3993,37 +3986,31 @@ msgid ""
 "ansonsten Kosten, die nicht nötig sind."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:118
-msgid ""
-"Jetzt können wir uns unsere eigene `Nightscout Website "
-"<../nightscout/die_nightscout_website.md>`__ ansehen und konfigurieren."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:123
+#: ../../docs/nightscout/azure.rst:119
 msgid "Der Deploy to Azure Button"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:125
+#: ../../docs/nightscout/azure.rst:121
 msgid ""
 "Die Nightscout Website lässt sich mit vielen Standardeinstellungen "
 "beschleunigt installieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:128
+#: ../../docs/nightscout/azure.rst:124
 msgid ""
 "Wir Starten mit der Anmeldung in in Github an, navigieren in unserer "
 "Repository und den Branch, welchen wir installieren wollen."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:131
+#: ../../docs/nightscout/azure.rst:127
 msgid "Weiter Klicken auf das **Deploy to Azure** Symbol:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:133
+#: ../../docs/nightscout/azure.rst:129
 msgid "|azure_unbeaufsichtigt|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:135
+#: ../../docs/nightscout/azure.rst:131
 msgid ""
 "Wir loggen uns bei Azure ein (folgt den angezeigten Anweisungen, um "
 "eingeloggt zu werden). (Wenn wir noch kein Azure-Konto haben, sollten wir"
@@ -4031,28 +4018,28 @@ msgid ""
 "Sequenz von Schritten zurückkehren."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:140
+#: ../../docs/nightscout/azure.rst:136
 msgid ""
 "Es ist möglich, das Konto an dieser Stelle einzurichten, aber es kann "
 "weniger verwirrend sein, wenn wir das Konto vorher erstellen.)"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:143
+#: ../../docs/nightscout/azure.rst:139
 msgid ""
-"Der Bildschirm **eploy to Azure** wird mit allen Optionen geladen, die "
+"Der Bildschirm **Deploy to Azure** wird mit allen Optionen geladen, die "
 "wir (am Anfang) für unsere Website konfigurieren können. (Wir können "
 "dieses später bei Bedarf ändern.)"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:147
+#: ../../docs/nightscout/azure.rst:143
 msgid "Es erscheint diese Web - Maske:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:149
+#: ../../docs/nightscout/azure.rst:145
 msgid "|azure_deploy_param|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:151
+#: ../../docs/nightscout/azure.rst:147
 msgid ""
 "Wir stellen sicher, dass das Abonnement ``Pay-as-you-go zeigt``. (Wenn "
 "das Konto neu angelegt ist, kann es stattdessen die kostenlose "
@@ -4060,7 +4047,7 @@ msgid ""
 "endet.)"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:156
+#: ../../docs/nightscout/azure.rst:152
 msgid ""
 "Wenn eine Ressourcengruppe im Dropdown-Menü aufgelistet ist, wählen wir "
 "sie aus. Ansonsten wählen wir ``Create New`` und akzeptieren oder "
@@ -4068,7 +4055,7 @@ msgid ""
 "Name``."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:161
+#: ../../docs/nightscout/azure.rst:157
 msgid ""
 "Wir wählen unseren Site-Namen. Ein Standardname wird bereits im Feld "
 "angezeigt. Wir können ihn mit dem gewünschten Namen ersetzen. Was wir "
@@ -4078,83 +4065,75 @@ msgid ""
 "möchten, müssen wir eine neue Website erstellen."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:168
+#: ../../docs/nightscout/azure.rst:164
 msgid ""
 "**Api Secret:** API Secret Wert, bleibt der Wert unter 12 Zeichen, bricht"
 " die Installation ab."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:171
+#: ../../docs/nightscout/azure.rst:167
 msgid "**Language:** Standart Wert ist **en**, bitte in **de** wechseln."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:173
+#: ../../docs/nightscout/azure.rst:169
 msgid "|grilledcheese-deploytoazure-panel-sitename|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:175
+#: ../../docs/nightscout/azure.rst:171
 msgid ""
 "Wir wählen im Dropdown-Menü den Standort aus. (Dieser Standort muss nicht"
 " mit unserem tatsächlichen geografischen Standort übereinstimmen. ``North"
-" Europe``\\ ist für Deutschland zu empfehlen.)"
+" Europe`` ist für Deutschland zu empfehlen.)"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:179
+#: ../../docs/nightscout/azure.rst:175
 msgid ""
 "Wir stellen sicher, dass ``Free`` im Sku-Dropdown-Menü ausgewählt ist. "
 "(Dies ist die \"kostenlose Variante\" von Azure.)"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:182
+#: ../../docs/nightscout/azure.rst:178
 msgid "Wir geben jetzt die mongo (mLab) URI in das Feld ``Mongo-Connection`` ein."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:185
+#: ../../docs/nightscout/azure.rst:181
 msgid ""
 "Die mLab URI verwendet die Syntax, die in diesem Beispiel gezeigt wird, "
 "wir müssen unsere \"EIGEN-Informationen\" ausfüllen, \"nicht\" die "
 "Beispielwerte, die hier gezeigt werden:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:189
-msgid ""
-"Mongodb: // databaseUserName: databaseUserPassword@ds012345.mlab.com: "
-"12345 / databaseName"
+#: ../../docs/nightscout/azure.rst:185
+msgid "``Mongodb://databaseUserName:databaseUserPassword@ds012345.mlab.com:12345/databaseName``"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:192
+#: ../../docs/nightscout/azure.rst:187
 msgid "Beispielsweise:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:194
-msgid "Mongodb: // sallyuser: sallypassword@ds012345.mlab.com: 12345 / mycgm"
+#: ../../docs/nightscout/azure.rst:189
+msgid "``Mongodb://sallyuser:sallypassword@ds012345.mlab.com:12345/mycgm``"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:196
-msgid ""
-"\"!: Seit März 2016 wechselte mongolab zu mlab. Die angezeigte Syntax "
-"enthält das mlab Format.\""
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:199
+#: ../../docs/nightscout/azure.rst:191
 msgid "Wir wählen mg / dl oder mmol aus dem Dropdown-Menü Display Units."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:201
+#: ../../docs/nightscout/azure.rst:193
 msgid ""
 "In das Api Secret-Feld geben wir das minimales ``API-SECRET`` mit "
 "\"mindestens 12 Zeichen\" ein. Zeichen sind frei wählbar, aber es muss "
 "mindestens 12 Zeichen lang sein."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:205
+#: ../../docs/nightscout/azure.rst:197
 msgid ""
 "Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind "
 "optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir "
 "im Kapitel **Azure Plugins** Hilfe finden."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:209
+#: ../../docs/nightscout/azure.rst:201
 msgid ""
 "Die ENABLE-Variable wird auf dieser einstufigen Implementierung mit "
 "vielen häufig verwendeten Features vorbelegt. Wenn wir der Werte-"
@@ -4164,9 +4143,9 @@ msgid ""
 "für Pushover-Benachrichtigungen)."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:216
+#: ../../docs/nightscout/azure.rst:208
 msgid ""
-"Im Feld Show\\_plugins wird \"careportal\" vorgefüllt. In diesem Feld "
+"Im Feld Show_plugins wird \"careportal\" vorgefüllt. In diesem Feld "
 "aufgelistete Plugins sind immer auf der Website sichtbar, nn sie müssten "
 "ansonsten innerhalb des Einstellungsbereichs des einzelnen Browsers "
 "aktiviert werden. Wenn wir möchten, dass iage, cage, sage, bwp und rawbg "
@@ -4175,34 +4154,34 @@ msgid ""
 "eingegeben werden, ua bwp, boluscalc usw.)"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:224
+#: ../../docs/nightscout/azure.rst:216
 msgid "Wir klicken auf die Schaltfläche ``Next``:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:226
+#: ../../docs/nightscout/azure.rst:218
 msgid "|grilledcheese-next.png|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:228
+#: ../../docs/nightscout/azure.rst:220
 msgid ""
 "Der nächste Bildschirm bestätigt, dass eine \"Website\" bereitgestellt "
 "wird. Wir klicken Sie auf ``Deploy``. (Wenn wir zum vorherigen Bildschirm"
 " zurückkehren müssen, klicken wir auf \"Setup\".)"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:232
+#: ../../docs/nightscout/azure.rst:224
 msgid "|grilledcheese-deploy|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:234
+#: ../../docs/nightscout/azure.rst:226
 msgid "Beim nächsten Schritt sehen wir den Fortschritt. **Sei geduldig :)**."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:236
+#: ../../docs/nightscout/azure.rst:228
 msgid "|grilledcheese-deployment|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:238
+#: ../../docs/nightscout/azure.rst:230
 msgid ""
 "Wenn die Bereitstellung abgeschlossen ist (und erfolgreich), sehen wir "
 "eine abschließende Zeile, die über Links verfügt, die uns erlauben, "
@@ -4211,11 +4190,11 @@ msgid ""
 "http://YOURWEBSITENAME.azurewebsites.net."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:244
+#: ../../docs/nightscout/azure.rst:236
 msgid "|grilledcheese-success|"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:246
+#: ../../docs/nightscout/azure.rst:238
 msgid ""
 "Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die "
 "Bereitstellung erfolgreich war und unsere **Mlab-Informationen** korrekt "
@@ -4225,7 +4204,7 @@ msgid ""
 "**undefiniert**."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:253
+#: ../../docs/nightscout/azure.rst:245
 msgid ""
 "Wenn wir unsere Uploader-App noch nicht installiert und konfiguriert "
 "haben, können wir dieses jetzt tun. (Wenn wir ein kabelgebundenes Rig "
@@ -4237,13 +4216,13 @@ msgid ""
 "Bridge) konfiguriert ist."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:262
+#: ../../docs/nightscout/azure.rst:254
 msgid ""
 "**Wir bestätigen, das unsere Website ist als kostenlose Website "
 "konfiguriert ist.**"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:265
+#: ../../docs/nightscout/azure.rst:257
 msgid ""
 "Wenn unser Azure Konto neu ist und wir während des Setups keine Pay-As-"
 "You-Go gewählt haben, haben wir 30 Tage Zeit, die Site in Pay-As-You-Go "
@@ -4251,7 +4230,7 @@ msgid ""
 "indem wir Folgendes überprüfen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:275
+#: ../../docs/nightscout/azure.rst:267
 msgid "|azure-new-reviewfree|"
 msgstr ""
 
@@ -5831,13 +5810,13 @@ msgid "Über die Suchfunktion jetzt ``cgm-remote-monitor`` eingeben:"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:42
-msgid "|github\\_search|"
+msgid "|github_search|"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:44
 msgid ""
-"Den \\*\\* branch \\*\\* wie master oder dev auswählen und mit **Fork** "
-"kopieren wir den Code in unser eigenes Verzeichnis:"
+"Den **branch** wie master oder dev auswählen und mit **Fork** kopieren "
+"wir den Code in unser eigenes Verzeichnis:"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:47
@@ -5853,7 +5832,7 @@ msgid "|github_fork|"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:53
-msgid "**Aktualisierung des eigenen ``cgm-remote-monitor`` repositories**"
+msgid "**Aktualisierung des eigenen** ``cgm-remote-monitor`` **repositories**"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:55
@@ -5911,28 +5890,23 @@ msgstr ""
 msgid ""
 "Einer **Web-Applikation**, welche über einen beliebigen Browser oder eine"
 " App aufgerufen werden kann. Die Anwendung wird in einem Verzeichnis "
-"aktualisiert, welches über einen webbasierten Filehosting Dienst "
-"`**GitHub** <https://github.com/>`__ verwaltet wird. Dieser Dienst ist "
-"grob vergleichbar mit Webdiensten wie z.B. Google Docs. Die Grundidee "
-"dabei ist, anderen ein Verzeichnis mit Dateien zur Verfügung zu stellen, "
-"damit man gemeinsam daran arbeiten kann. Nightscout besteht aus vielen "
-"Plugins zur individuellen Konfiguration. Die Plugins mit Parametern sind "
-"im Kapitel `Konfiguration der Nightscout Plugins "
+"aktualisiert, welches über einen webbasierten Filehosting Dienst `GitHub "
+"<https://github.com/>`__ verwaltet wird. Dieser Dienst ist grob "
+"vergleichbar mit Webdiensten wie z.B. Google Docs. Die Grundidee dabei "
+"ist, anderen ein Verzeichnis mit Dateien zur Verfügung zu stellen, damit "
+"man gemeinsam daran arbeiten kann. Nightscout besteht aus vielen Plugins "
+"zur individuellen Konfiguration. Die Plugins mit Parametern sind im "
+"Kapitel `Konfiguration der Nightscout Plugins "
 "<../nightscout/azure_plugins.md>`__ beschrieben."
 msgstr ""
 
-#: ../../docs/nightscout/index.rst
+#: ../../docs/nightscout/index.rst:24
 msgid ""
 "Einem Cloud-Service Anbieter, welcher die Web-Applikation über Webserver "
-"zur Verfügung stellt. Microsoft `**Azure** <https://azure.microsoft.com"
-"/de-de/pricing/free-trial/>`__ oder `**Heroku** "
-"<https://www.heroku.com/>`__ können hierfür verwendet werden. Cloud-"
-"Service Anbieter betreiben weltweit Rechenzentren, man konfiguriert "
-"webbasiert wie hier Nightscout"
-msgstr ""
-
-#: ../../docs/nightscout/index.rst
-msgid ""
+"zur Verfügung stellt. Microsoft `Azure <https://azure.microsoft.com/de-"
+"de/pricing/free-trial/>`__ oder `Heroku <https://www.heroku.com/>`__ "
+"können hierfür verwendet werden. Cloud-Service Anbieter betreiben "
+"weltweit Rechenzentren, man konfiguriert webbasiert wie hier Nightscout "
 "diese Dienste. Das Hosting ist hier nicht zwingend notwendig, eigene "
 "standalone - Lösungen bei einem entspr. Provider sind auch möglich."
 msgstr ""
@@ -5945,7 +5919,7 @@ msgstr ""
 msgid "**Geführte Installation:**"
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:40
+#: ../../docs/nightscout/index.rst:38
 msgid ""
 "Die Nightscout Website lässt sich fast vollkommen automatisiert "
 "einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als "
@@ -5953,11 +5927,11 @@ msgid ""
 "<../nightscout/deploy_to_azure.md>`__ beschrieben."
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:42
+#: ../../docs/nightscout/index.rst:43
 msgid "**Lokale Installation:**"
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:49
+#: ../../docs/nightscout/index.rst:45
 msgid ""
 "Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI "
 "installieren. Dieses hat den Vorteil, das keine Internetverbindung zum "
@@ -5968,20 +5942,24 @@ msgid ""
 "Anfang und wird weiter bearbeitet."
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:51
+#: ../../docs/nightscout/index.rst:53
 msgid ""
-"**Klassisch :** Die klassische Einrichtung erfordert das manuelle Anlegen"
-" der Azure Website mit allen Einstellungen. Dieses ist in Kapitel `Azure "
+"**Klassisch:** Die klassische Einrichtung erfordert das manuelle Anlegen "
+"der Azure Website mit allen Einstellungen. Dieses ist in Kapitel `Azure "
 "<../nightscout/azure.md>`__ beschrieben."
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:55
+#: ../../docs/nightscout/index.rst:57
 msgid "Ein Schaubild verdeutlicht die Zusammmenhänge:"
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:57
+#: ../../docs/nightscout/index.rst:59
 msgid "|nightscout scheme|"
 msgstr ""
+
+#: ../../docs/nightscout/index.rst:64
+msgid "**Contents:**"
+msgstr "**Inhaltsverzeichnis:**"
 
 #: ../../docs/nightscout/lokale_installationen.rst:2
 msgid "Installation ohne Cloud Service Provider"
@@ -6266,63 +6244,61 @@ msgid ""
 "Mongo DB ist eine Dokumentations - Datenbank, welche aus Collections "
 "(Sammlungen von Dokumenten) und Dokumenten besteht. Mongo DB ist eine "
 "`NoSQLDB <https://de.wikipedia.org/wiki/NoSQL>`__ und schemafrei. Die "
-"Dokumente werden u.a. im JSON Format abgespeichert. ` "
-"<http://www.json.org/json-de.html.>`__ Die Dokumente können direkt in die"
-" DB geladen werden. Um eine Dokumenten DB zu administrieren, ist eine "
-"Admin - GUI : ` "
-"<https://de.wikipedia.org/wiki/Grafische_Benutzeroberfl%C3%A4che>`__ "
-"sinnvoll."
+"Dokumente werden u.a. im JSON Format abgespeichert. http://www.json.org"
+"/json-de.html Die Dokumente können direkt in die DB geladen werden. Um "
+"eine Dokumenten DB zu administrieren, ist eine Admin - GUI: "
+"https://de.wikipedia.org/wiki/Grafische_Benutzeroberfl%C3%A4che sinnvoll."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:146
+#: ../../docs/nightscout/mongo_db.rst:144
 msgid ""
 "Ein Anbieter ist z.B. `3T Software Labs <http://3t.io/about-us>`__ aus "
 "Berlin."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:148
+#: ../../docs/nightscout/mongo_db.rst:147
 msgid ""
-"Der 3T MongoChef :http://3t.io/mongochef ist für den Privatgebrauch "
+"Der 3T MongoChef http://3t.io/mongochef ist für den Privatgebrauch "
 "kostenlos."
 msgstr ""
 
 #: ../../docs/nightscout/mongo_db.rst:150
 msgid ""
-"Unter : http://3t.io/mongochef/download muss man sich registrieren und "
+"Unter: http://3t.io/mongochef/download muss man sich registrieren und "
 "kann dann die Software für das jeweilige Betriebssystem herunterladen."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:152
+#: ../../docs/nightscout/mongo_db.rst:153
 msgid "**Mit dieser Admin GUI ist folgendes möglich:**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:154
+#: ../../docs/nightscout/mongo_db.rst:155
 msgid "**Kopieren von Datenbanken und Collections**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:156
+#: ../../docs/nightscout/mongo_db.rst:157
 msgid ""
 "Dieses ist hilfreich, wenn man die mongodb umziehen möchte, z.B. von "
 "einem Standort aus den USA zu einem Standort nach Europa. Man kann es "
 "auch als Backup Möglichkeit nutzen"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:160
+#: ../../docs/nightscout/mongo_db.rst:161
 msgid "**Im- und Export von Dokumenten**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:162
+#: ../../docs/nightscout/mongo_db.rst:163
 msgid ""
 "Man kann sowohl csv-, als auch json - Dokumente im- bzw. exportieren. Die"
 " Daten aus der Cloud können lokal auf einen Rechner gespeichert werden, "
 "als Backup - Möglichkeit, oder zur Weiterverarbeitung im csv - Format"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:167
+#: ../../docs/nightscout/mongo_db.rst:168
 msgid "**Erstellung von JSON Queries um BZ und andere Daten auszuwerten**"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:169
+#: ../../docs/nightscout/mongo_db.rst:170
 msgid ""
 "Für weitergehende Reporting Abfragen, welche nicht über die Nightscout - "
 "Reporting Seite zur Verfügung gestellt werden, können JSON - queries "
@@ -6330,31 +6306,27 @@ msgid ""
 "abgespeicht werden, um sie z.B. dem Doktor zukommen zu lassen."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:174
+#: ../../docs/nightscout/mongo_db.rst:175
 msgid ""
 "Die **Installation** z.B. unter Windows ist eine Standard - Installation "
 "ohne speziell benötigte Parameter."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:177
+#: ../../docs/nightscout/mongo_db.rst:178
 msgid ""
 "Beim Aufruf wird man aufgefordert, eine **Connection** = Verbindung zur "
 "Mongo DB zu konfigurieren. Dieses ist die URI aus vorhergehendem Kapitel."
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:181
-msgid "**Connection:**"
-msgstr ""
-
 #: ../../docs/nightscout/mongo_db.rst:182
-msgid "Klicke **Connect**, dann öffnet sich folgendes Fenster:"
+msgid "**Connection:** Klicke **Connect**, dann öffnet sich folgendes Fenster:"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:184
+#: ../../docs/nightscout/mongo_db.rst:185
 msgid "|mongochef_connect_name_port|"
 msgstr ""
 
-#: ../../docs/nightscout/mongo_db.rst:186
+#: ../../docs/nightscout/mongo_db.rst:187
 msgid "|mongochef_connect_user|"
 msgstr ""
 
@@ -6362,7 +6334,7 @@ msgstr ""
 msgid "Die Nightscout Website"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:17
+#: ../../docs/nightscout/nightscout_website.rst:6
 msgid ""
 "Die Nightscout Website ist die zentrale Website zur Darstellung und "
 "Speicherung von Diabetes - Daten. Sie kann als komplettes Tagebuch mit "
@@ -6377,7 +6349,7 @@ msgid ""
 "abzugebende Boluseinheiten berechnet werden."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:23
+#: ../../docs/nightscout/nightscout_website.rst:19
 msgid ""
 "Das `Reporting <../nightscout/settings.md>`__ bietet die Möglichkeit, die"
 " Daten auszuwerten und für andere zur Analyse auszugeben. Mit dem "
@@ -6387,7 +6359,7 @@ msgid ""
 "Sekunden aktualisiert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:25
+#: ../../docs/nightscout/nightscout_website.rst:26
 msgid ""
 "Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die "
 "Einstellungen zum Übertragen der Daten in der Uploader-App (`Xdrip "
@@ -6395,54 +6367,50 @@ msgid ""
 "erforderlich."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:30
+#: ../../docs/nightscout/nightscout_website.rst:31
 msgid ""
 "Ein Beispiel für eine mögliche Anbindung eines CGM Systems an die "
 "Nightscout Website:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:33
+#: ../../docs/nightscout/nightscout_website.rst:34
 msgid "**Kommunikation:**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:35
+#: ../../docs/nightscout/nightscout_website.rst:36
 msgid "|nightscout_principle|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:37
+#: ../../docs/nightscout/nightscout_website.rst:38
 msgid "Wir schauen uns zunächst die `Haupt Seite <nightscout/main_page.md>`__ an."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:42
+#: ../../docs/nightscout/nightscout_website.rst:43
 msgid "Haupt Seite"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:44
+#: ../../docs/nightscout/nightscout_website.rst:45
 msgid ""
 "Nightscout ist seit Oktober 2016 in der Version **0.9** - **Grilled "
 "Cheese** verfügbar. Wer Vorgängerversionen nutzt, muss Einstellungen für "
 "die Website in Azure oder Heroku überprüfen und ergänzen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:50
+#: ../../docs/nightscout/nightscout_website.rst:49
 msgid ""
 "Variable unter den App - Einstellungen zum Hinzufügen: "
 "``AUTH_DEFAULT_ROLES`` mit ``readable``, ``status-only`` als mögliche "
-"Werte."
+"Werte. devicestatus-Upload"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:51
-msgid "evicestatus-Upload"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:53
+#: ../../docs/nightscout/nightscout_website.rst:54
 msgid ""
 "Wenn wir die Website aktualisieren und feststellen, dass Dinge, die wir "
 "aktiviert haben, nicht richtig angezeigt werden (wie boluscalc), bitte "
 "folgendes überprüfen:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:57
+#: ../../docs/nightscout/nightscout_website.rst:58
 msgid ""
 "**Bitte Sicherstellen, dass es nur eine die ENABLE - Zeile in den "
 "gesamten Einstellungen der Website gibt. (Das bedeutet nur ein einziges "
@@ -6452,11 +6420,11 @@ msgid ""
 "anschließend die Website Stoppen und Starten.**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:65
+#: ../../docs/nightscout/nightscout_website.rst:66
 msgid "**Grilled Cheese** benötigt ein **Profil**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:67
+#: ../../docs/nightscout/nightscout_website.rst:68
 msgid ""
 "Wenn wir zuvor kein Profil auf der Website eingerichtet haben, werden wir"
 " beim ersten Aufruf der Website aufgefordert,ein Profil zu erstellen. Wir"
@@ -6476,81 +6444,81 @@ msgid ""
 "Sekunden aktualisiert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:80
+#: ../../docs/nightscout/nightscout_website.rst:82
 msgid "|nightscout_base_site|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:82
+#: ../../docs/nightscout/nightscout_website.rst:84
 msgid "Was sehen wir ?"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:84
+#: ../../docs/nightscout/nightscout_website.rst:86
 msgid "Zeit seit der Letzten CGM Sensor - Daten - Übertragung"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:85
+#: ../../docs/nightscout/nightscout_website.rst:87
 msgid "Batterie - Ladezustand des Smartphones"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:86
+#: ../../docs/nightscout/nightscout_website.rst:88
 msgid "Plugins für die Pumpensteuerung"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:87
+#: ../../docs/nightscout/nightscout_website.rst:89
 msgid "Zeitrahmen der Darstellung von Behandlungsdaten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:88
+#: ../../docs/nightscout/nightscout_website.rst:90
 msgid "aktueller BZ - Wert"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:89
+#: ../../docs/nightscout/nightscout_website.rst:91
 msgid "Trendpfeilangabe"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:90
+#: ../../docs/nightscout/nightscout_website.rst:92
 msgid "Zunahme/Abnahme des BZ innerhalb von 2 Messpunkten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:91
+#: ../../docs/nightscout/nightscout_website.rst:93
 msgid ""
 "Plugins mit Anzeige von Werten wie ``Sensor - Alter`` , ``Insulin on "
 "Board``"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:93
+#: ../../docs/nightscout/nightscout_website.rst:95
 msgid "Basalratenverlauf"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:94
+#: ../../docs/nightscout/nightscout_website.rst:96
 msgid "CGM - Meßwerte"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:95
+#: ../../docs/nightscout/nightscout_website.rst:97
 msgid "Behandlungsdaten Kohenhydrate - und Insulineinheiten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:96
+#: ../../docs/nightscout/nightscout_website.rst:98
 msgid "BZ - Trend - Voraussage"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:97
+#: ../../docs/nightscout/nightscout_website.rst:99
 msgid "Zeitfenster der Darstellung im oberen Bereich"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:99
+#: ../../docs/nightscout/nightscout_website.rst:101
 msgid "In der rechten oberen Ecke finden wir **Menü - Auswahlfelder**."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:101
+#: ../../docs/nightscout/nightscout_website.rst:103
 msgid "|Menüpunkte|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:103
+#: ../../docs/nightscout/nightscout_website.rst:105
 msgid "**Bearbeitungsmodus**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:105
+#: ../../docs/nightscout/nightscout_website.rst:107
 msgid ""
 "``EDIT_MODE`` (``on``) - mögliche Werte ``on`` oder ``off``. Wenn diese "
 "Option aktiviert ist (rot) , kann man z.B. Behandlungsdaten grafisch mit "
@@ -6558,67 +6526,67 @@ msgid ""
 "verschiebt."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:110
+#: ../../docs/nightscout/nightscout_website.rst:112
 msgid "Mit dem **Lautsprecher** - Symbol kann man eingestellte Alarme testen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:112
+#: ../../docs/nightscout/nightscout_website.rst:114
 msgid ""
 "Das Symbol mit den **3 Strichen** ist das Einstellungsmodul mit "
 "umfangreichen Möglichkeiten."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:115
+#: ../../docs/nightscout/nightscout_website.rst:117
 msgid ""
 "Mit dem Klick auf das **+** - Symbol rufen wir das **Behandlungsportal** "
 "auf."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:118
+#: ../../docs/nightscout/nightscout_website.rst:120
 msgid "Mit dem **Taschenrechner** - Symbol gelangen wir zum **Bolus - Rechner**."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:121
+#: ../../docs/nightscout/nightscout_website.rst:123
 msgid ""
 "Um die Website weiter anzupassen rufen wir jetzt das `Einstellungen "
 "<../nightscout/settings.md>`__ Menü auf."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:126
+#: ../../docs/nightscout/nightscout_website.rst:128
 msgid "Einstellungen"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:128
+#: ../../docs/nightscout/nightscout_website.rst:130
 msgid ""
 "Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das"
 " mit dem **roten** Pfeil markierte Symbol:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:131
+#: ../../docs/nightscout/nightscout_website.rst:133
 msgid "**Oben** haben wir die Wahl von 4 Menüpunkten:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:133
+#: ../../docs/nightscout/nightscout_website.rst:135
 msgid "`Berichte <../nightscout/settings.md#berichte>`__"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:134
+#: ../../docs/nightscout/nightscout_website.rst:136
 msgid "`Profil - Editor <../nightscout/settings.md#profil---editor>`__"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:135
+#: ../../docs/nightscout/nightscout_website.rst:137
 msgid ""
 "`Nahrungsmittel Editor <../nightscout/settings.md#nahrungsmittel-"
 "editor>`__"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:137
+#: ../../docs/nightscout/nightscout_website.rst:139
 msgid ""
 "`Administrator Werkzeuge <../nightscout/settings.md#administrator-"
 "werkzeuge>`__"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:140
+#: ../../docs/nightscout/nightscout_website.rst:142
 msgid ""
 "**Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral "
 "für alle Browser gleich halten wollen, können wor dieses wie in Kapitel "
@@ -6626,131 +6594,143 @@ msgid ""
 "umsetzen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:148
-msgid "Berichte"
-msgstr ""
-
 #: ../../docs/nightscout/nightscout_website.rst:150
-msgid "Mit dem Klick auf **Berichte** erhalten wir diese Ansicht:"
+msgid "Reports"
 msgstr ""
 
 #: ../../docs/nightscout/nightscout_website.rst:152
-#: ../../docs/nightscout/nightscout_website.rst:266
-msgid "|nightscout_reporting_config|"
+msgid ""
+"Wir starten das **Reporting** mit dem Klick auf **Berichte** und erhalten"
+" diese Ansicht:"
 msgstr ""
 
 #: ../../docs/nightscout/nightscout_website.rst:155
-#: ../../docs/nightscout/nightscout_website.rst:269
+msgid "|nightscout_reporting_config|"
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:157
 msgid ""
 "Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks "
 "auf den Namen aufrufen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:158
-#: ../../docs/nightscout/nightscout_website.rst:272
+#: ../../docs/nightscout/nightscout_website.rst:160
 msgid ""
 "Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang. Wir "
 "können vorgefertigte Zeiträume und individuelle Zeiträume auswählen. "
 "Weitere Filter sind möglich."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:159
-#: ../../docs/nightscout/nightscout_website.rst:273
+#: ../../docs/nightscout/nightscout_website.rst:164
 msgid "Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:161
-#: ../../docs/nightscout/nightscout_website.rst:275
+#: ../../docs/nightscout/nightscout_website.rst:166
 msgid "Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:163
-#: ../../docs/nightscout/nightscout_website.rst:277
+#: ../../docs/nightscout/nightscout_website.rst:168
 msgid "|nightscout_reporting_daily_graph|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:165
-#: ../../docs/nightscout/nightscout_website.rst:279
+#: ../../docs/nightscout/nightscout_website.rst:170
 msgid ""
 "Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf "
 "**Bearbeitung** zu **Korrigieren** oder zu **Löschen**:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:168
-#: ../../docs/nightscout/nightscout_website.rst:282
+#: ../../docs/nightscout/nightscout_website.rst:173
 msgid "|nightscout_change_treatments|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:171
-#: ../../docs/nightscout/nightscout_website.rst:289
+#: ../../docs/nightscout/nightscout_website.rst:177
 msgid "Profil - Editor"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:173
+#: ../../docs/nightscout/nightscout_website.rst:179
 msgid ""
 "Der Behandlungs Profil Editor speichert angepasste Werte für die "
 "persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten "
 "und Werte für Plugin iob, cob, bwp und Basalraten."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:177
+#: ../../docs/nightscout/nightscout_website.rst:183
+msgid ""
+"Über einen eneuen Datenbankeintrag durch Klicken auf das + - Symbol "
+"können wir ein alternatives Profil erstellen. Der NS android Client zur "
+"Steuerung der Kommunikation zwischen Pumpe und CGM erfragt Werte aus den "
+"abgespeicherten Profilen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:188
 msgid ""
 "**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine "
 "verwendbaren Werte angezeigt. Seit Grilled Cheese, Version 0.9 ist das "
 "Anlegen eines Profils beim ersten Aufruf der Website erforderlich."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:181
-#: ../../docs/nightscout/nightscout_website.rst:304
+#: ../../docs/nightscout/nightscout_website.rst:192
 msgid "|nightscout_profile_editor_plugins|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:183
+#: ../../docs/nightscout/nightscout_website.rst:194
 msgid ""
 "Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden "
-"**Erklärungstexte** in englischer Sprache angezeigt."
+"**Erklärungstexte** in deutscher Sprache angezeigt sofern Nightscout auf "
+"Deutsch eingestellt wurde."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:186
-msgid "Bei **Timezone** bitte die gewünschte Zeitzone Einstellen."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:188
-msgid ""
-"Mit **Duration of Insulin Activity (DIA)** definieren wir die Wirkdauer "
-"des Bolus - Insulins. Die Plugins iob, bwp benötigen diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:191
-msgid ""
-"Mit Insulin to carb ratio (IC) wird angegeben, wieviel Boluseinheiten für"
-" eine definierte Menge an KH verwendet werden müssen. Die Plugins iob und"
-" cob benötigen diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:195
-msgid ""
-"Mit dem **Insulin Sensitivity Factor (ISF)** können wir den "
-"Korrekturfaktor in mg/dl oder mmol/L angeben. Mit mehrfachen Eingaben "
-"können unterschiedliche Faktoren bestimmt werden."
+#: ../../docs/nightscout/nightscout_website.rst:197
+msgid "Bei **Zeitzone** bitte die entsprechende Zeitzone Einstellen."
 msgstr ""
 
 #: ../../docs/nightscout/nightscout_website.rst:199
 msgid ""
-"Mit **Carbs activity /absorbtion rate (g/hour)** können wir bestimmen, "
-"wieviel Gramm Kohlenhydrate pro Stunde verstoffwechselt werden. Das "
-"Plugin cob benötigt diese Eingaben."
+"Mit **Dauer der Insulinaktivität (DIA) in Stunden** definieren wir die "
+"Wirkdauer des Bolus - Insulins. Die Plugins iob, bwp benötigen diese "
+"Eingaben."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:204
+#: ../../docs/nightscout/nightscout_website.rst:203
+msgid ""
+"Mit **Insulin/Kohlenhydrate-Verhältnis (I:KH) in Gramm** wird angegeben, "
+"wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden "
+"müssen. Die Plugins iob und cob benötigen diese Eingaben."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:207
+msgid ""
+"Mit dem **Insulinsensibilitätsfaktor (iSF) in mg/dl/U oder mmol/L/U** "
+"können wir den Korrekturfaktor in mg/dl oder mmol/L angeben. Mit "
+"mehrfachen Eingaben können unterschiedliche Faktoren bestimmt werden."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:211
+msgid ""
+"Mit **Kohlenhydrataktivität / Aufnahme Kohlenhydrate in Gramm/Stunde** "
+"können wir bestimmen, wieviel Gramm Kohlenhydrate pro Stunde "
+"verstoffwechselt werden. Das Plugin cob benötigt diese Eingaben."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:215
+msgid ""
+"Mit **Basalraten in Einheiten/Stunde** können wir Basalraten für "
+"bestimmte Zeitbereiche eingeben."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:218
+msgid "Am Ende das **Speichern** nicht vergessen."
+msgstr ""
+
+#: ../../docs/nightscout/nightscout_website.rst:221
 msgid "Nahrungsmittel Editor"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:206
+#: ../../docs/nightscout/nightscout_website.rst:223
 msgid "|nightscout_nahrungsmittel_editor|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:208
+#: ../../docs/nightscout/nightscout_website.rst:225
 msgid ""
 "Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von "
 "Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus "
@@ -6758,34 +6738,34 @@ msgid ""
 "Daten über csv- oder json - Format in die **mongodb** übertragen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:213
+#: ../../docs/nightscout/nightscout_website.rst:230
 msgid "Eingabe von Nahrungsmittel - Daten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:214
+#: ../../docs/nightscout/nightscout_website.rst:231
 msgid "Ändern, Löschen von Datensätzen"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:217
+#: ../../docs/nightscout/nightscout_website.rst:234
 msgid "Administrator Werkzeuge"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:219
+#: ../../docs/nightscout/nightscout_website.rst:236
 msgid "|nightscout_administrator_werkzeuge|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:221
+#: ../../docs/nightscout/nightscout_website.rst:238
 msgid ""
 "Mit den Administrator - Werkzeugen können wir Berechtigungen zum Zugriff "
 "auf die Nightscout - Website verwalten und Datensätze aus der mongo DB "
 "löschen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:226
+#: ../../docs/nightscout/nightscout_website.rst:243
 msgid "Verwalten von Berechtigungen"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:228
+#: ../../docs/nightscout/nightscout_website.rst:245
 msgid ""
 "Für Berechtigungen benötigt man **Subjekte** (Menschen, Institutionen, "
 "etc.), denen man eine Rolle zuweist. Für jedes Subjekt wird ein "
@@ -6796,160 +6776,59 @@ msgid ""
 "niedrigste ist **kein Zugriff**."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:236
+#: ../../docs/nightscout/nightscout_website.rst:253
 msgid "Anlegen von Subjekten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:237
+#: ../../docs/nightscout/nightscout_website.rst:254
 msgid "Anlegen von Rollen"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:238
+#: ../../docs/nightscout/nightscout_website.rst:255
 msgid "Löschen von Dokumenten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:239
+#: ../../docs/nightscout/nightscout_website.rst:256
 msgid "Behandlungsdaten in der Zukunft"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:241
+#: ../../docs/nightscout/nightscout_website.rst:258
 msgid "Anlegen von Subjekten:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:243
+#: ../../docs/nightscout/nightscout_website.rst:260
 msgid "|nightscout_subjects|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:246
+#: ../../docs/nightscout/nightscout_website.rst:262
 msgid ""
 "Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend "
 "sind. Hinter den Rollen sind die Zugriffsrechte gelistet."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:248
+#: ../../docs/nightscout/nightscout_website.rst:265
 msgid ""
 "Man kann eigene Rollen wie beim anlegen von Subjekten definieren und "
 "speichern."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:250
+#: ../../docs/nightscout/nightscout_website.rst:268
 msgid ""
 "Es ist unter Punkt 3 möglich, die Gerätestatus - Sammlung (Collection in "
 "der mongo db) mit diesem Menüpunkt zu löschen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:253
+#: ../../docs/nightscout/nightscout_website.rst:271
 msgid ""
 "Mit Punkt 4 kann man fälschlicherweise Behandlungen mit Datum in der "
 "Zukunft aus der Datenbank löschen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:256
-msgid ""
-"Jetzt geht es weiter mit dem `Behandlungsportal "
-"<../nightscout/care_portal.md>`__"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:261
-msgid "Reports"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:263
-msgid ""
-"Wir starten das **Reporting** mit dem Klick auf **Berichte** und erhalten"
-" diese Ansicht:"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:284
-msgid ""
-"Weiter gehts mit der `Programmierbarkeit "
-"<../nightscout/programmierbarkeit.md>`__."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:293
-msgid ""
-"Der Behandlungs Profil Editor speichert angepasste Werte für die "
-"persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten "
-"und Werte für die Plugins iob, cob, bwp und Basalraten."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:297
-msgid ""
-"Über einen eneuen Datenbankeintrag durch Klicken auf das + - Symbol "
-"können wir ein alternatives Profil erstellen. Der NS android Client zur "
-"Steuerung der Kommunikation zwischen Pumpe und CGM erfragt Werte aus den "
-"abgespeicherten Profilen."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:299
-msgid ""
-"**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine "
-"verwendbaren Werte angezeigt."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:302
-msgid "**Profil Editor:**"
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:306
-msgid ""
-"Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden "
-"**Erklärungstexte** in Sprache angezeigt."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:309
-msgid "Bei **Zeitzone** bitte die entsprechende Zeitzone Einstellen."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:311
-msgid ""
-"Mit **Dauer der Insulinaktivität (DIA) in Stunden** definieren wir die "
-"Wirkdauer des Bolus - Insulins. Die Plugins iob, bwp benötigen diese "
-"Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:315
-msgid ""
-"Mit **Insulin/Kohlenhydrate-Verhältnis (I:KH) in Gramm** wird angegeben, "
-"wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden "
-"müssen. Die Plugins iob und cob benötigen diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:319
-msgid ""
-"Mit dem **Insulinsensibilitätsfaktor (iSF) in mg/dl/U oder mmol/L/U** "
-"können wir den Korrekturfaktor in mg/dl oder mmol/L angeben. Mit "
-"mehrfachen Eingaben können unterschiedliche Faktoren bestimmt werden."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:323
-msgid ""
-"Mit **Kohlenhydrataktivität / Aufnahme Kohlenhydrate in Gramm/Stunde** "
-"können wir bestimmen, wieviel Gramm Kohlenhydrate pro Stunde "
-"verstoffwechselt werden. Das Plugin cob benötigt diese Eingaben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:327
-msgid ""
-"Mit **Basalraten in Einheiten/Stunde** können wir Basalraten für "
-"bestimmte Zeitbereiche eingeben."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:330
-msgid "Am Ende das **Speichern** nicht vergessen."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:332
-msgid ""
-"Weiter gehts mit der Eingabe von Daten über das `Careportal "
-"<../nightscout/care_portal.md>`__."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:337
+#: ../../docs/nightscout/nightscout_website.rst:275
 msgid "Behandlungsportal"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:339
+#: ../../docs/nightscout/nightscout_website.rst:277
 msgid ""
 "Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit "
 "dem Klick auf das ``+`` - Symbol. Der Ereignis-Typ ist ein DropDown - "
@@ -6957,109 +6836,93 @@ msgid ""
 "Bolus`` aus, um Insulinmenge und Kohlenhydrate (KH) hinzuzufügen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:345
+#: ../../docs/nightscout/nightscout_website.rst:283
 msgid "**Ereignis-Typ:**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:347
+#: ../../docs/nightscout/nightscout_website.rst:285
 msgid "|nightscout_careportal|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:349
+#: ../../docs/nightscout/nightscout_website.rst:287
 msgid "Die Auswahlfelder werden entsprechend der Auswahl angepasst."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:352
+#: ../../docs/nightscout/nightscout_website.rst:289
 msgid ""
 "Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch"
 " die Eingabe der"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:354
+#: ../../docs/nightscout/nightscout_website.rst:292
 msgid ""
 "korrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese "
 "zusammen mit den CGM - Werten grafisch dargestellt werden."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:358
+#: ../../docs/nightscout/nightscout_website.rst:295
 msgid ""
 "In dieser Maske können wir auch temporäre Basalraten mit ``Temp Basal "
 "Start/End`` eingegeben. Diese werden anschließend grafisch dargestellt."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:360
+#: ../../docs/nightscout/nightscout_website.rst:299
 msgid ""
 "Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die "
 "eingaben zu bestätigen. Mit **OK** ist alles gespeichert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:362
+#: ../../docs/nightscout/nightscout_website.rst:302
 msgid "Nun können wir uns alles grafisch ansehen:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:364
+#: ../../docs/nightscout/nightscout_website.rst:304
 msgid "|nightscout_cp_entries|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:366
+#: ../../docs/nightscout/nightscout_website.rst:306
 msgid "**Benachrichtigungen** über Therapie - Behandlungsdaten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:373
+#: ../../docs/nightscout/nightscout_website.rst:308
 msgid ""
 "Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden "
 "Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht "
 "wurde. Mögliche Alarmeinstellungen werden kurz danach unterdrückt. Die "
 "Standard - Unterdrückungsdauer beträgt 10 Minuten. Dieses kann über Azure"
 " App.-Einstellungen geändert werden, in dem man die "
-"TREATMENTNOTIFY\\_SNOOZE\\_MINS"
+"TREATMENTNOTIFY\\_SNOOZE\\_MINS Variable ändert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:374
-msgid "Variable ändert."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:376
-msgid ""
-"Weiter gehts mit der Verwendung des `Bolus Rechner "
-"<../nightscout/boluscalculator.md>`__."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:382
+#: ../../docs/nightscout/nightscout_website.rst:317
 msgid "Bolus Rechner"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:384
+#: ../../docs/nightscout/nightscout_website.rst:319
 msgid ""
 "Der Bolus Rechner berechnet die abzugebende Insulinmenge für eine "
 "Mahlzeit. Wir erreichen das Menü durch Klick auf das Rechner - Sysmbol "
 "ganz oben rechts:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:388
+#: ../../docs/nightscout/nightscout_website.rst:323
 msgid "|Bolus Rechner|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:391
+#: ../../docs/nightscout/nightscout_website.rst:325
 msgid ""
 "Die KHs können entweder manuell oder über gespeicherte Mahlzeiten aus der"
 " Nahrungsmittel - Tabelle eingegeben werden."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:393
+#: ../../docs/nightscout/nightscout_website.rst:328
 msgid ""
 "Der Bolus Rechner greift auf Werte aus dem ``Profil Editor`` zu, genauer "
 "dem ``ISF`` und dem ...."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:394
+#: ../../docs/nightscout/nightscout_website.rst:331
 msgid "mit ``Formular absenden`` werden die Daten gespeichert."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:396
-msgid ""
-"Weiter geht es mit der `Smartwatch Integration "
-"<../smartwatch/smartwatch_integration.md>`__"
 msgstr ""
 
 #: ../../docs/nightscout/programmierbarkeit.rst:2
@@ -7277,7 +7140,7 @@ msgstr ""
 
 #: ../../docs/sonstiges.rst:20
 msgid ""
-":download:`Download Verlängerung der Tragezeit des Sensors <files"
+":download:`Download Verlängerung der Tragezeit des Sensors <downloads"
 "/Verlaengerung-der-Tragezeit.pdf>`"
 msgstr ""
 
