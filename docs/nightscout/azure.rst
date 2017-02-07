@@ -1,4 +1,4 @@
-.. _Azure_Deploy:
+
 
 Azure
 =====
@@ -117,7 +117,7 @@ Wir wählen App Service aus und erhalten folgende Übersicht:
 wichtig, Nordeuropa oder die USA auszuwählen, für andere Regionen
 entstehen ansonsten Kosten, die nicht nötig sind.
 
-
+.. _Azure_Deploy:
 Azure_Deploy
 ==========================
 
