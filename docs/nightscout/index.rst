@@ -37,8 +37,8 @@ Wir können Azure auf verschiedene Weisen einrichten:
 
 Die Nightscout Website lässt sich fast vollkommen automatisiert
 einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als
-Provider. Dieses ist in Kapitel `Der Deploy to Azure
-Button <../nightscout/deploy_to_azure.md>`__ beschrieben.
+Provider. Dieses ist in Kapitel ::Der Deploy to Azure
+Button::_ .._::Der Deploy to Azure Button:: beschrieben.
 
 **Lokale Installation:**
 
