@@ -48,7 +48,9 @@ Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI
 installieren. Dieses hat den Vorteil, das keine Internetverbindung zum
 Auslesen von Daten erforderlich ist. Die mongodb, ein Webservice und
 die Website müssen dazu installiert und konfiguriert werden. Dieses
-ist in Kapitel *Lokale Installationen* beschrieben. Es steht am Anfang 
+ist in Kapitel 
+:ref:`local_installations`
+beschrieben. Es steht am Anfang 
 und wird weiter bearbeitet.
 
 **Klassisch:** Die klassische Einrichtung erfordert das manuelle
