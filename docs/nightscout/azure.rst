@@ -16,7 +16,7 @@ Den Einstieg in deutscher Sprache findet man hier:
 Mit dem zweimaligen Klicken des Buttons **Kostenlos testen** gelangen
 wir zur Registrierungsseite:
 
-
+|azure registration| 
 .. |azure registration| image:: ../images/azure/azure_reg.jpg
 
 Sollte man schon ein Konto haben, kann man sich einfach anmelden,
