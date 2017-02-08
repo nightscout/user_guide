@@ -17,8 +17,7 @@ Mit dem zweimaligen Klicken des Buttons **Kostenlos testen** gelangen
 wir zur Registrierungsseite:
 
 .. image:: ../images/azure/azure_reg.jpg
-|azure registration| 
-.. |azure registration| image:: ../images/azure_reg.jpg
+
 
 Sollte man schon ein Konto haben, kann man sich einfach anmelden,
 ansonsten geht es mit der **Registrierung** weiter.
@@ -34,14 +33,16 @@ und können die Web - Applikation konfigurieren.
 
 **Azure Portal Startseite:**
 
-|azure_portal|
+.. image:: ../images/azure/azure_portal.jpg
+
 
 Mit dem Button **"+ Neu"** richten wir eine neue **Resource** ein. Die
 Menüführung ist kaskadiert, alle gelb markierten Punkte sind
 auszuwählen. Bei Auswahlpunkten mit **>** kann man weitere Einstellungen
 auswählen:
 
-|azure_config_app|
+
+.. image:: ../images/azure/azure_config_app.jpg
 
 Mit dem Button **Erstellen** speichern wir die Einstellungen. Dieses
 kann einige Zeit in Anspruch nehmen.
