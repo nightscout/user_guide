@@ -1,4 +1,4 @@
-
+.. _azure_classic:
 
 Azure
 =====
