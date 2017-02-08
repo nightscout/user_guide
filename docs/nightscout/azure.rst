@@ -17,7 +17,7 @@ Mit dem zweimaligen Klicken des Buttons **Kostenlos testen** gelangen
 wir zur Registrierungsseite:
 
 
-|azure registration| image:: ../images/azure/azure_reg.jpg
+.. |azure registration| image:: ../images/azure/azure_reg.jpg
 
 Sollte man schon ein Konto haben, kann man sich einfach anmelden,
 ansonsten geht es mit der **Registrierung** weiter.
