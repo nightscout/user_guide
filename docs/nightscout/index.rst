@@ -50,12 +50,12 @@ Auslesen von Daten erforderlich ist. Die mongodb, ein Webservice und
 die Website müssen dazu installiert und konfiguriert werden. Dieses
 ist in Kapitel 
 :ref:`local_installations`
-beschrieben. Es steht am Anfang 
-und wird weiter bearbeitet.
+beschrieben. Es steht am Anfang und wird weiter bearbeitet.
 
 **Klassisch:** Die klassische Einrichtung erfordert das manuelle
 Anlegen der Azure Website mit allen Einstellungen. Dieses ist in Kapitel
-*Azure* beschrieben.
+:ref:`azure_classic`
+beschrieben.
 
 Ein Schaubild verdeutlicht die Zusammmenhänge:
 
