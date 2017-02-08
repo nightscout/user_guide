@@ -20,8 +20,8 @@ alle 60 Sekunden aktualisiert.
 
 Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die
 Einstellungen zum Übertragen der Daten in der Uploader-App
-(`Xdrip <../grundlagen/xdrip/xdrip_app.md>`__, NightScout-Uploader oder
-Glimp) erforderlich.
+:ref:`xDrip`,
+NightScout-Uploader oder Glimp) erforderlich.
 
 Ein Beispiel für eine mögliche Anbindung eines CGM Systems an die
 Nightscout Website:
@@ -113,9 +113,6 @@ auf.
 Mit dem **Taschenrechner** - Symbol gelangen wir zum **Bolus -
 Rechner**.
 
-Um die Website weiter anzupassen rufen wir jetzt das
-`Einstellungen <../nightscout/settings.md>`__ Menü auf.
-
 
 Einstellungen
 -------------
@@ -125,21 +122,19 @@ das mit dem **roten** Pfeil markierte Symbol:
 
 **Oben** haben wir die Wahl von 4 Menüpunkten:
 
--  `Berichte <../nightscout/settings.md#berichte>`__
--  `Profil - Editor <../nightscout/settings.md#profil---editor>`__
--  `Nahrungsmittel
-   Editor <../nightscout/settings.md#nahrungsmittel-editor>`__
--  `Administrator
-   Werkzeuge <../nightscout/settings.md#administrator-werkzeuge>`__
+-  **Berichte**
+-  **Profil - Editor**
+-  **Nahrungsmittel - Editor**
+-  **Administrator Werkzeuge**
 
 **Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral
 für alle Browser gleich halten wollen, können wor dieses wie in Kapitel
-`Nightscout Plugins <../nightscout/azure_plugins.md>`__ beschrieben,
-umsetzen.
+:ref:`Nightscout_Plugins`
+beschrieben, umsetzen.
 
 |Einstellungen|
 
-Reports
+Berichte
 ~~~~~~~
 
 Wir starten das **Reporting** mit dem Klick auf **Berichte** und
@@ -210,7 +205,7 @@ bestimmte Zeitbereiche eingeben.
 
 Am Ende das **Speichern** nicht vergessen.
 
-Nahrungsmittel Editor
+Nahrungsmittel -  Editor
 ~~~~~~~~~~~~~~~~~~~~~
 
 |nightscout_nahrungsmittel_editor|
