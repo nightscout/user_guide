@@ -9,16 +9,11 @@ Eingabe von Insulin, Kohlenhydraten, Bewegung uvm. verwendet werden.
 Mit der Integration von **OpenAPS** wird der gesamte Verlauf der
 Pumpensteuerung mit temporären Basalraten dargestellt. Der gesamte CGM
 - Verlauf wird online dargestellt und zyklisch aktualisiert. Es gibt
-umfangreiche
-`Einstellungsmoeglichkeiten <../nightscout/settings.md>`__ für die
-Website Das `Behandlungsportal <nightscout/care_portal.md>`__ bietet
-eine umfängliche Auswahl an Behandlungsdaten. Über den `Bolus
-Rechner <nightscout/boluscalculator.md>`__ können für Mahlzeiten
-abzugebende Boluseinheiten berechnet werden.
-
-Das `Reporting <../nightscout/settings.md>`__ bietet die Möglichkeit,
-die Daten auszuwerten und für andere zur Analyse auszugeben. Mit dem
-`Profileditor <../nightscout/settings.md>`__ hat man die Möglichkeit,
+umfangreiche **Einstellungsmoeglichkeiten** für dieWebsite. 
+Das **Behandlungsportal**  bietet eine umfängliche Auswahl an Behandlungsdaten. 
+Über den **Bolus Rechner**  können für Mahlzeiten abzugebende Boluseinheiten berechnet werden.
+Das **Reporting**  bietet die Möglichkeit,die Daten auszuwerten und für andere
+zur Analyse auszugeben. Mit dem **Profileditor** hat man die Möglichkeit,
 Parameter in unterschiedlichen Profilen abzuspeichern, die z.B. für
 die Pumpensteuerung benötigt werden. Die Grafik wird standardmäßig
 alle 60 Sekunden aktualisiert.
@@ -35,8 +30,6 @@ Nightscout Website:
 
 |nightscout_principle|
 
-Wir schauen uns zunächst die `Haupt Seite <nightscout/main_page.md>`__
-an.
 
 
 Haupt Seite
