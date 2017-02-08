@@ -53,7 +53,7 @@ auch notieren.
 
 Wenn die Web-App erstellt wurde, erscheint diese Ansicht:
 
-|azure_app_created|
+.. image:: ../images/azure/azure_app_created.jpg
 
 Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der
 **Status**. Hier wird angezeigt, ob die App **Running** oder **Stopped**
@@ -63,7 +63,7 @@ Weiter geht es mit der Konfiguration der **Plugin** Module. Diese sind
 in Kapitel `Konfiguration der Nightscout
 Plugins <../nightscout/azure_plugins.md>`__
 
-|azure_enable_plugins|
+.. image:: ../images/azure/azure_enable_plugins.jpg
 
 Einbindung des GitHub Source Codes
 ----------------------------------
@@ -73,11 +73,13 @@ Zu Bereitstellung der Nightscout-Website fehlt uns noch der
 
 Wir steigen hier ein, um die Verbindung herzustellen:
 
-|azure_choose_github|
+
+.. image:: ../images/azure/azure_choose_github.jpg
 
 Jetzt folgt die **GitHub Autorisierung:**
 
-|github_authorize|.
+.. image:: ../images/azure/github_authorize.jpg
+
 
 Nachdem man gitHub Benutzernamen und Passwort eingegeben hat, erscheint
 diese Meldung:
