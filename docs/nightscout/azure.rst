@@ -84,16 +84,17 @@ Jetzt folgt die **GitHub Autorisierung:**
 Nachdem man gitHub Benutzernamen und Passwort eingegeben hat, erscheint
 diese Meldung:
 
-|azure_authorize_github|.
+
+.. image:: ../images/azure/azure_authorize_github.jpg
 
 Mit **OK** bestätigen.
 
 Jetzt wählt man den ``cgm-remote-monitor`` aus:
 
-|azure_crm|
 
-Mit **OK** bestätigen. Die Web-app wird bereitgestellt. Dieses kann ein
-wenig dauern.
+.. image:: ../images/azure/azure_crm.jpg
+
+Mit **OK** bestätigen. Die Web-app wird bereitgestellt. Dieses kann ein wenig dauern.
 
 Am Ende erscheint in der Zusammenfassung die Einbindung von GitHub hier:
 
@@ -111,12 +112,14 @@ Kosten
 Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure -
 Portal gibt es eine **Preisübersicht:**
 
-|azure_prices|
+
+.. image:: ../images/azure/azure_prices.jpg
 
 Mit dem Button Preisrechner können wir uns weitere Details ansehen.
 Wir wählen App Service aus und erhalten folgende Übersicht:
 
-|azure_prices_web|
+
+.. image:: ../images/azure/azure_prices_web.jpg
 
 **WICHTIG:** Die Tarife unterscheiden sich nach Region, es ist
 wichtig, Nordeuropa oder die USA auszuwählen, für andere Regionen
