@@ -20,8 +20,7 @@ alle 60 Sekunden aktualisiert.
 
 Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die
 Einstellungen zum Übertragen der Daten in der Uploader-App
-:ref:`xDrip`,
-NightScout-Uploader oder Glimp) erforderlich.
+:ref:`xDrip`, NightScout-Uploader oder Glimp) erforderlich.
 
 Ein Beispiel für eine mögliche Anbindung eines CGM Systems an die
 Nightscout Website:
@@ -135,7 +134,7 @@ beschrieben, umsetzen.
 |Einstellungen|
 
 Berichte
-~~~~~~~
+~~~~~~~~
 
 Wir starten das **Reporting** mit dem Klick auf **Berichte** und
 erhalten diese Ansicht:
@@ -206,7 +205,7 @@ bestimmte Zeitbereiche eingeben.
 Am Ende das **Speichern** nicht vergessen.
 
 Nahrungsmittel -  Editor
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 |nightscout_nahrungsmittel_editor|
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Nightscout User Guide 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-07 13:20+0100\n"
+"POT-Creation-Date: 2017-02-08 21:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 
 #: ../../docs/fehlerbehebung.rst:2 ../../docs/grundlagen/mmcommander.rst:286
-#: ../../docs/grundlagen/xdrip.rst:740
+#: ../../docs/grundlagen/xdrip.rst:741
 msgid "Fehlerbehebung"
 msgstr ""
 
@@ -1140,6 +1140,10 @@ msgstr ""
 msgid "Grundlagen"
 msgstr ""
 
+#: ../../docs/grundlagen/index.rst:4 ../../docs/nightscout/index.rst:67
+msgid "**Contents:**"
+msgstr "**Inhaltsverzeichnis:**"
+
 #: ../../docs/grundlagen/libre.rst:4
 msgid "Libre"
 msgstr ""
@@ -1667,7 +1671,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/grundlagen/mmcommander.rst:218
-#: ../../docs/nightscout/nightscout_website.rst:147
+#: ../../docs/nightscout/nightscout_website.rst:135
 msgid "|Einstellungen|"
 msgstr ""
 
@@ -1890,34 +1894,34 @@ msgid ""
 "Originaldatei INSTALL.pdf, die der Autor geschrieben hat."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:2
+#: ../../docs/grundlagen/xdrip.rst:3
 msgid "xDrip"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:4
+#: ../../docs/grundlagen/xdrip.rst:5
 msgid ""
 "Eine Möglichkeit, das Dexcom G4-CGM-System zu nutzen, besteht mit der "
 "Alternative xDrip und der xDrip App auf einem Android-Smartphone."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:7
+#: ../../docs/grundlagen/xdrip.rst:8
 msgid "**Eine kurze Beschreibung zum Prozessablauf:**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:9
+#: ../../docs/grundlagen/xdrip.rst:10
 msgid ""
 "Ein Dexcom-Sensor liegt auf/unter der Haut und misst den Glucosegehalt im"
 " Gewebe."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:11
+#: ../../docs/grundlagen/xdrip.rst:12
 msgid ""
 "Ein Dexcom G4 Transmitter ist auf dem Sensor eingeklinkt und sendet die "
 "Glucose-Werte über ein Funk-Protokoll und würde im regulären Fall vom "
 "Dexcom-Receiver empfangen und angezeigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:14
+#: ../../docs/grundlagen/xdrip.rst:15
 msgid ""
 "Durch den Einsatz von xDrip kann der Dexcom-Receiver entfallen. Die vom "
 "Transmitter gesendeten Werte werden dann von einer selbst gebauten "
@@ -1925,101 +1929,101 @@ msgid ""
 "gesendet. Auf dem Handy wird die xDrip-App installiert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:19
+#: ../../docs/grundlagen/xdrip.rst:20
 msgid "**Das System xDrip besteht aus zwei Komponenten:**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:21
+#: ../../docs/grundlagen/xdrip.rst:22
 msgid ""
 "Die Do-it-yourself-Hardware. Es werden einige HW-Komponenten (siehe "
 "`Bausatz <../bausatz.md>`__) miteinander verlötet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:24
+#: ../../docs/grundlagen/xdrip.rst:25
 msgid ""
 "Die `xDrip App <../xdrip_app.md>`__ wird auf ein Android-Handy "
 "aufgespielt und mit einigen Handgriffen individuell konfiguriert. Sie hat"
 " folgende Funktionen:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:28
+#: ../../docs/grundlagen/xdrip.rst:29
 msgid "Empfang von Gewebezucker-Messwerten"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:29
+#: ../../docs/grundlagen/xdrip.rst:30
 msgid "Anzeige (und ggf. Ansage) von GZ-Werten"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:30
+#: ../../docs/grundlagen/xdrip.rst:31
 msgid ""
 "Weiterleiten der Werte an nachgelagerte Systeme (Pebble/Android-Watch, "
 "Nightscout)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:32
+#: ../../docs/grundlagen/xdrip.rst:33
 msgid ""
 "Alarm bei (zuvor individuell definierten) meldewürdigen GZ-Werten / GZ-"
 "Verlauf"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:34
+#: ../../docs/grundlagen/xdrip.rst:35
 msgid "Export der GZ-Werte zur Auswertung in andere Systeme (zB. SiDiary, Excel)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:37
+#: ../../docs/grundlagen/xdrip.rst:38
 msgid "**Abgrenzung**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:39
+#: ../../docs/grundlagen/xdrip.rst:40
 msgid "xDrip hat keine Freigabe als medizinisches Produkt,"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:40
+#: ../../docs/grundlagen/xdrip.rst:41
 msgid "xDrip hat keine Garantie, keine Gewährleistung."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:41
+#: ../../docs/grundlagen/xdrip.rst:42
 msgid "xDrip ist kein käufliches Produkt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:42
+#: ../../docs/grundlagen/xdrip.rst:43
 #, python-format
 msgid "xDrip wird zu 100% in eigener Verantwortung genutzt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:43
+#: ../../docs/grundlagen/xdrip.rst:44
 msgid ""
 "xDrip kann die Messung des Blutzuckers nicht vollständig ersetzen. "
 "(Kontrollen und Kalibrierungen sind nötig.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:45
+#: ../../docs/grundlagen/xdrip.rst:46
 msgid "xDrip steuert nicht die Abgabe einer Insulinpumpe."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:46
+#: ../../docs/grundlagen/xdrip.rst:47
 msgid ""
 "xDrip wird ausschließlich von Freiwilligen und ohne jede Bezahlung "
 "entwickelt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:48
+#: ../../docs/grundlagen/xdrip.rst:49
 msgid ""
 "xDrip hat keinen zentralen Ansprechpartner, keine Hotline, keinen "
 "Verantwortlichen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:50
+#: ../../docs/grundlagen/xdrip.rst:51
 msgid ""
 "xDrip arbeitet mit dem Transmitter „Dexcom G4“. Es funktioniert nicht mit"
 " \"Dexcom G5\" (Stand 03/2016)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:55
+#: ../../docs/grundlagen/xdrip.rst:56
 msgid "Bausatz"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:57
+#: ../../docs/grundlagen/xdrip.rst:58
 msgid ""
 "Es gibt verschiedene Varianten, um ein xDrip zu bauen. Das betrifft die "
 "verwendete Hardware, die Art die Hardware zu verlöten und auch die "
@@ -2027,43 +2031,43 @@ msgid ""
 "aufgespielt.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:62
+#: ../../docs/grundlagen/xdrip.rst:63
 msgid ""
 "Daher gibt es im Netz unterschiedliche Anleitungen und verschiedene Namen"
 " für ähnliche Dinge."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:65
+#: ../../docs/grundlagen/xdrip.rst:66
 msgid ""
 "Die Varianten haben unterschiedliche Eigenschaften, letztlich aber "
 "dieselbe Aufgabe: CGM-Daten vom Transmitter zu empfangen und an ein "
 "Bluetooth-Handy zu übertragen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:69
+#: ../../docs/grundlagen/xdrip.rst:70
 msgid ""
 "Hier soll zunächst der Schwerpunkt darauf liegen, eine leichte Anleitung "
 "zum Nachbauen zu haben. Es ist nicht der Anspruch, alle bekannten "
 "Bauformen zu beschreiben."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:73
+#: ../../docs/grundlagen/xdrip.rst:74
 msgid ""
 "Hier werden drei verschiedene Bauformen vorgestellt. Eine \"Bauform\" "
 "meint eine Art, die Hardware-Komponenten miteinander zu verlöten."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:76
+#: ../../docs/grundlagen/xdrip.rst:77
 msgid "Bauform 1.): \"xDrip classic\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:78
+#: ../../docs/grundlagen/xdrip.rst:79
 msgid ""
 "Dies ist die einfachste Bauform. Es hat sich der Name der \"xDrip "
 "classic\" etabliert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:81
+#: ../../docs/grundlagen/xdrip.rst:82
 msgid ""
 "Vorteil: Weniger Lötstellen. Einfach und robust. (Was nicht dran ist, "
 "kann nicht kaputt gehen.) Im Regelbetrieb leuchtet immer eine LED. Das "
@@ -2071,38 +2075,38 @@ msgid ""
 " noch \"lebt\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:86
+#: ../../docs/grundlagen/xdrip.rst:87
 msgid ""
 "Nachteil: Keine Anzeige der Akku-Ladung. Kürzere Laufzeit, als bei "
 "xBridge-Bauform."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:89
+#: ../../docs/grundlagen/xdrip.rst:90
 msgid "Bauform 2.): \"xDrip classic mit Spannungsteiler\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:91
+#: ../../docs/grundlagen/xdrip.rst:92
 msgid ""
 "Diese Bauform lohnt sich eigentlich nur dann, wenn mit möglichst geringem"
 " Aufwand ein \"xDrip classic\" um eine Anzeige der Akku-Ladung erweitert "
 "werden soll."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:95
+#: ../../docs/grundlagen/xdrip.rst:96
 msgid ""
 "Vorteil: Mit Anzeige der Akku-Ladung. Geringer Aufwand beim Umbau von "
 "\"xDrip classic\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:98
+#: ../../docs/grundlagen/xdrip.rst:99
 msgid "Nachteil: Kürzere Laufzeit, als bei xBridge-Bauform."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:100
+#: ../../docs/grundlagen/xdrip.rst:101
 msgid "Bauform 3.): \"xBridge\""
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:102
+#: ../../docs/grundlagen/xdrip.rst:103
 msgid ""
 "Die Stromversorgung des Bluetooth-Moduls läuft etwas anders, als beim "
 "\"xDrip classic\". Im Vergleich zum \"xDrip mit Spannungsteiler\" müssen "
@@ -2110,24 +2114,24 @@ msgid ""
 "die Anbindung an das Bluetooth-Modul etwas anders geschaltet werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:107
+#: ../../docs/grundlagen/xdrip.rst:108
 msgid ""
 "Vorteil: Von den hier vorgestellten Varianten die längste Akku-Laufzeit. "
 "Von der Anzeige der Akku-Ladung bitte keine Wunder erwarten - es ist nur "
 "eine grobe Orientierung. Der aangezeigte Prozentwert sinkt nicht linear."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:112
+#: ../../docs/grundlagen/xdrip.rst:113
 msgid ""
 "Nachteil: Ungeeignet, wenn sich die Bluetooth-Verbindung zum Handy sich "
 "schlecht oder langsam aufbaut."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:115
+#: ../../docs/grundlagen/xdrip.rst:116
 msgid "Tipps und Rat für Einsteiger:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:117
+#: ../../docs/grundlagen/xdrip.rst:118
 msgid ""
 "Baut zunächst einen xDrip in der \"klassischen Verschaltung\". Es "
 "entfallen die beiden Widerstände, dafür fehlt in der App die "
@@ -2136,13 +2140,13 @@ msgid ""
 "Modul ggf. ändern)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:122
+#: ../../docs/grundlagen/xdrip.rst:123
 msgid ""
 "Verwendet für das Wixel die \"xBridge2.wxl\"-Software. Für alle hier "
 "gezeigten Schaltkreise/Bauformen ist diese Software geeignet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:124
+#: ../../docs/grundlagen/xdrip.rst:125
 msgid ""
 "Große Akkus bringen (natürlich) eine längere Laufzeit. Es kann aber sein,"
 " dass ein großer Akku den Empfang der Antennen verschlechtert. Es kommen "
@@ -2157,7 +2161,7 @@ msgid ""
 "nehmen.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:135
+#: ../../docs/grundlagen/xdrip.rst:136
 msgid ""
 "Die Brücke \"for faster charging with large batteries\" beeinflusst den "
 "Ladestrom. Ist die Brücke geöffnet, fließen 100 mA. Wird sie geschlossen,"
@@ -2168,14 +2172,14 @@ msgid ""
 "bringen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:143
+#: ../../docs/grundlagen/xdrip.rst:144
 msgid ""
 "Die Kabel können sehr dünn sein - das erhöht die Flexibilität. "
 "Verschiedene Farben machen es leichter, die Übersicht zu behalten, "
 "solange der xDrip noch im Bau ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:146
+#: ../../docs/grundlagen/xdrip.rst:147
 msgid ""
 "Das Schutzmodul für Lipo-Akkus (unten in der Stückliste mit Nr. 2) hat "
 "sich in einem Fall nicht bewährt: Es gab fortwährendes Ein- und "
@@ -2185,7 +2189,7 @@ msgid ""
 " auch ohne dieses Modul."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:152
+#: ../../docs/grundlagen/xdrip.rst:153
 msgid ""
 "In den Schaltbildern sind keine Schalter eingetragen. Ein Schalter kann "
 "sinnvoll sein, um einen zweiten (geladenen, aber abgeschalteten) xDrip "
@@ -2195,38 +2199,38 @@ msgid ""
 "Schwimmengehens,...)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:159
+#: ../../docs/grundlagen/xdrip.rst:160
 msgid ""
 "**Schaltbild für xDrip in der \"klassischen Verschaltung\" (Empfehlung "
 "für Einsteiger)**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:162
+#: ../../docs/grundlagen/xdrip.rst:163
 msgid "(ohne Widerstände für Batterieanzeige)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:164
+#: ../../docs/grundlagen/xdrip.rst:165
 msgid "|xDrip Schaltbild|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:166
+#: ../../docs/grundlagen/xdrip.rst:167
 msgid "\\*\\* Hinweise zum Löten: \\*\\*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:168
+#: ../../docs/grundlagen/xdrip.rst:169
 msgid ""
 "Wenn ihr ein anderes Bluetooth-Modul habt als in der Abbildung "
 "dargestellt, achtet auf die korrekte Verlötung vom Wixel zum Bluetooth-"
 "Modul. (Achtet auf die Beschriftung der Pins in der Abbildung)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:172
+#: ../../docs/grundlagen/xdrip.rst:173
 msgid ""
 "Anleitung zum Löten: `Film "
 "<https://www.youtube.com/watch?v=YuxCUeJ9xAU&feature=youtu.be>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:175
+#: ../../docs/grundlagen/xdrip.rst:176
 msgid "\\*\\* Zur Software auf dem Wixel: \\*\\*"
 msgstr ""
 
@@ -2261,13 +2265,13 @@ msgid ""
 "für mehrere Stunden aufgefüllt.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:190
+#: ../../docs/grundlagen/xdrip.rst:191
 msgid ""
 "Software zum Aufspielen der wxl-Datei auf das Wixel `Wixel Configuration "
 "Utility <https://www.pololu.com/product/1337/resources>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:194
+#: ../../docs/grundlagen/xdrip.rst:195
 msgid ""
 "Weitere Infos: siehe `hier <https://github.com/jstevensog/wixel-"
 "sdk/blob/master/apps/xBridge2/xBridge2.pdf>`__"
@@ -2289,28 +2293,28 @@ msgid ""
 "der Spannungsversorgung trennen und dann die Verbindung aufbauen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:206
+#: ../../docs/grundlagen/xdrip.rst:207
 msgid "\\*\\* Info zu den Widerständen: \\*\\* (wichtig für die Batterie-Anzeige)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:208
+#: ../../docs/grundlagen/xdrip.rst:209
 msgid "\"xDrip classic\" (ohne Spannungsteiler) Also keine Widerstände verbaut."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:210
+#: ../../docs/grundlagen/xdrip.rst:211
 msgid ""
 "\"xDrip classic zzgl. Spannungsteiler\". Dann muss der Spannungsteiler "
 "ein Verhältnis von 1:2,2 haben. Empfohlen werden 10k und 22k. (Aber die "
 "Kombination mit 1k und 2,2k geht auch.)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:213
+#: ../../docs/grundlagen/xdrip.rst:214
 msgid ""
 "\"xBridge\" (incl. Spannungsteiler). Dann muss der Spannungsteiler ein "
 "Verhältnis von 1:2,7 haben. Empfohlen werden 10k und 27k."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:215
+#: ../../docs/grundlagen/xdrip.rst:216
 msgid ""
 "Wenn Widerstände neu eingebaut wurden, wenn die eingebauten Widerstände "
 "verändert wurden oder wenn der Akku getauscht wurde, muss anschließend "
@@ -2319,7 +2323,7 @@ msgid ""
 "in der xDrip-App sind falsch."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:220
+#: ../../docs/grundlagen/xdrip.rst:221
 msgid ""
 "Metallschicht-Widerstände sind etwas größer und damit leichter zu "
 "handhaben. Es können auch CMD-Widerstände genutzt werden. Damit kann man "
@@ -2327,39 +2331,39 @@ msgid ""
 "Löten."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:227
+#: ../../docs/grundlagen/xdrip.rst:228
 msgid ""
 "Anzeigen der LED (bzw. in der App) und die Bedeutung (mit xBridge2.wxl "
 "auf dem Wixel)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:230
+#: ../../docs/grundlagen/xdrip.rst:231
 msgid ""
 "Die Anzeigen sind von der Version der wxl-Datei und von der verbauten "
 "Hardware abhängig - in der folgenden Tabelle gibt es eine grobe "
 "Orientierung."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:234
+#: ../../docs/grundlagen/xdrip.rst:235
 msgid "Erklärung zur folgenden Tabelle:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:236
+#: ../../docs/grundlagen/xdrip.rst:237
 msgid "**Die Inhalte sind noch nicht abgesichert.**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:237
+#: ../../docs/grundlagen/xdrip.rst:238
 msgid ""
 "\"[STRIKEOUT:grün]\" bedeutet: Es gibt verschiedene Bauformen für die "
 "Bluetooth-Module (HM10 und HM11), die Farbe der LED kann eine andere "
 "sein."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:240
+#: ../../docs/grundlagen/xdrip.rst:241
 msgid "\"-\" bedeutet: Diese Anzeige sollte nicht vorkommen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:242
+#: ../../docs/grundlagen/xdrip.rst:243
 msgid "**Bauteile**"
 msgstr ""
 
@@ -2475,7 +2479,7 @@ msgstr ""
 msgid "\"connected\" dauerhaft"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:248
+#: ../../docs/grundlagen/xdrip.rst:249
 msgid "**Stückliste** ( Stand: September 2015 )"
 msgstr ""
 
@@ -2816,23 +2820,23 @@ msgid ""
 "<http://www.amazon.de/dp/B00NH11N5A>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:256
+#: ../../docs/grundlagen/xdrip.rst:257
 msgid ""
 "Hinweis: Es gibt Erfahrungsberichte, die besagen, dass ein HM17 sich "
 "ebenso verwenden lässt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:262
+#: ../../docs/grundlagen/xdrip.rst:263
 msgid "Weiterführende Infos / Schaltbilder für xBridge"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:264
+#: ../../docs/grundlagen/xdrip.rst:265
 msgid ""
 "Alternative Schaltbilder / Varianten; wenn die Einsteiger-Variante "
 "\"xDrip-classic\" nicht gewünscht ist."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:267
+#: ../../docs/grundlagen/xdrip.rst:268
 msgid ""
 "Es gibt verschiedene Bluetooth-Module: HM10, HM11 oder HM-17 für die es "
 "verschiedene Bauformen gibt. Deswegen hier mehrere Bilder zur "
@@ -2841,50 +2845,50 @@ msgid ""
 "Abbildungen auch die Bezeichnungen der Anschlüsse ablesen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:273
+#: ../../docs/grundlagen/xdrip.rst:274
 msgid "**Schaltbild für xBridge mit HM-10** |HM10_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:276
+#: ../../docs/grundlagen/xdrip.rst:277
 msgid ""
 "**Schaltbild für xBridge mit HM-10 auf Breakout Board** |HM10_Breakout "
 "Board_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:279
+#: ../../docs/grundlagen/xdrip.rst:280
 msgid "**Schaltbild für xBridge mit HM-11** |HM11_xbridge_Wiring_Diagram|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:282
+#: ../../docs/grundlagen/xdrip.rst:283
 msgid "**Schaltbild für \"xDrip USB V3\"** |xDrip V3usb Schaltbild|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:285
+#: ../../docs/grundlagen/xdrip.rst:286
 msgid "\\*\\* Weitere Infos / empfohlene Links: \\*\\* (englische Seiten)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:287
+#: ../../docs/grundlagen/xdrip.rst:288
 msgid ""
 "zu xBridge2: Ein `PDF <https://github.com/jstevensog/wixel-"
 "sdk/raw/master/apps/xBridge2/xBridge2.pdf>`__ Dokument findet sich in "
 "diesem `Repository <https://github.com/jstevensog/wixel-sdk>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:291
+#: ../../docs/grundlagen/xdrip.rst:292
 msgid ""
 "Eine weitere Seite mit Anleitungen findet sich `hier <http://circles-of-"
 "blue.winchcombe.org/index.php/2015/01/11/wearenotwaiting-thanks-to-"
 "dexdrip-introduction/>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:293
+#: ../../docs/grundlagen/xdrip.rst:294
 msgid ""
 "Eine sehr hübsche Anleitung zu Bau der xDrip-Box findet sich hier: "
 "http://www.hypodiabetic.co.uk/home/blog/hacking-diabetes/xdrip-and-"
 "xbridge-build-instructions"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:295
+#: ../../docs/grundlagen/xdrip.rst:296
 msgid ""
 "Wichtige Quellen zu xDrip finden sich an diesen Stellen: `hier "
 "<https://github.com/StephenBlackWasAlreadyTaken/wixel-xDrip>`__ und `hier"
@@ -2893,11 +2897,11 @@ msgid ""
 "pages/hardware_setup.md>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:303
+#: ../../docs/grundlagen/xdrip.rst:304
 msgid "xDrip App"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:305
+#: ../../docs/grundlagen/xdrip.rst:306
 msgid ""
 "Die xDrip-App ist eine Anwendung (eine App), die auf einem Android-Handy "
 "läuft. Sie dient dazu, CGM-Werte auf dem Mobiltelefon und - optional - "
@@ -2905,41 +2909,41 @@ msgid ""
 "hochzuladen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:310
+#: ../../docs/grundlagen/xdrip.rst:311
 msgid ""
 "Um die Werte zu erhalten, benötigt man entweder ein Dexcom G4 *with "
 "Share* oder einen selbstgebauten Bausatz. Da *Share* in Europa nicht "
 "erhätlich ist, beschränkt sich dieses Handbuch auf den Bausatz."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:315
+#: ../../docs/grundlagen/xdrip.rst:316
 msgid "Voraussetzungen:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:317
+#: ../../docs/grundlagen/xdrip.rst:318
 msgid "Android-Telefon mit Betriebssystem-Version 4.3 (besser 4.4 oder höher)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:319
+#: ../../docs/grundlagen/xdrip.rst:320
 msgid ""
 "Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab "
 "Bluetooth 4.0 vorhanden und wird häufig mit \"Bluetooth Smart\" "
 "gekennzeichnet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:322
+#: ../../docs/grundlagen/xdrip.rst:323
 msgid "xDrip-Bausatz (s. Kapitel Bausatz) oder Dexcom-Share-Receiver (nur USA)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:326
+#: ../../docs/grundlagen/xdrip.rst:327
 msgid "Grund-Funktionalität"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:329
+#: ../../docs/grundlagen/xdrip.rst:330
 msgid "Download & Installation"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:331
+#: ../../docs/grundlagen/xdrip.rst:332
 msgid ""
 "Die xDrip-App wird derzeit (Stand 01/2016) noch häufig angepasst. Der "
 "Download für eine lauffähige Version (\\*.apk-File) findet sich hier: "
@@ -2947,24 +2951,24 @@ msgid ""
 "<https://github.com/StephenBlackWasAlreadyTaken/xDrip/wiki/xdrip-beta>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:336
+#: ../../docs/grundlagen/xdrip.rst:337
 msgid ""
 "Die hier verlinkten Versionen sind so erstellt, dass man eine ältere "
 "Version mit einer neueren updaten kann, ohne Einstellungen und Messwerte "
 "zu verlieren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:340
+#: ../../docs/grundlagen/xdrip.rst:341
 msgid ""
 "Wer hinreichende technische Kenntnisse hat, kann sich aus den vorhandenen"
 " Quellen selbst die apk zusammenstellen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:343
+#: ../../docs/grundlagen/xdrip.rst:344
 msgid "**\"xDrip\" oder \"xDrip+\"**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:345
+#: ../../docs/grundlagen/xdrip.rst:346
 msgid ""
 "Alternativ zur \"xDrip\"-App wird auch die Software \"xDrip+\" empfohlen."
 " xDrip+ ist eine Variante, bzw. eine Erweiterung der \"xDrip\"-App. In "
@@ -2973,31 +2977,31 @@ msgid ""
 "Möglichkeiten kann Einsteiger auch verwirren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:351
+#: ../../docs/grundlagen/xdrip.rst:352
 msgid ""
 "Die Beschreibungen dieser Seite wurden für xDrip geschrieben, sie gelten "
 "aber ebenso für xDrip+."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:354
+#: ../../docs/grundlagen/xdrip.rst:355
 msgid "Infos und Download zu xDrip+ finden sich hier: https://jamorham.github.io/"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:358
+#: ../../docs/grundlagen/xdrip.rst:359
 msgid "Verbinden mit dem Wixel"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:361
+#: ../../docs/grundlagen/xdrip.rst:362
 msgid "Bluetooth-Scan / Hardware data source"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:363
+#: ../../docs/grundlagen/xdrip.rst:364
 msgid ""
 "Hier wird eingestellt, mit welcher Hardware die Daten vom Transmitter "
 "empfangen und an die xDrip-App übergeben werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:366
+#: ../../docs/grundlagen/xdrip.rst:367
 msgid ""
 "Bluetooth Wixel xDrip in classic - xml. Selbst kompilierte wxl, in die "
 "die individuelle Transmitter-ID einkompiliert wurde. Erstellt gemäß "
@@ -3006,17 +3010,17 @@ msgid ""
 "xDrip"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:372
+#: ../../docs/grundlagen/xdrip.rst:373
 msgid ""
 "xBridge Wixel xDrip in xBridge2 wxl. Aus dieser `Quelle "
 "<https://github.com/jstevensog/wixel-sdk>`__"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:375
+#: ../../docs/grundlagen/xdrip.rst:376
 msgid "Wifi Wixel Weitere Infos, siehe: ?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:377
+#: ../../docs/grundlagen/xdrip.rst:378
 msgid ""
 "Wifi Wixel + BT Wixel Kombination aus Wifi-Wixel und BT-Wixel. Bsp: Zu "
 "Hause mehrere Wixel im WLAN, die im ganzen Haus den Empfang "
@@ -3025,59 +3029,59 @@ msgid ""
 "xdrip"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:382
+#: ../../docs/grundlagen/xdrip.rst:383
 msgid ""
 "DexcomShare DexcomShare ist zZt. in Europa nicht verfügbar. Weitere "
 "Infos: http://www.dexcom.com/dexcom-g4-platinum-share"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:387
+#: ../../docs/grundlagen/xdrip.rst:388
 msgid "System Status"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:389
+#: ../../docs/grundlagen/xdrip.rst:390
 msgid "Hier findet man Informationen über das System:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:391
+#: ../../docs/grundlagen/xdrip.rst:392
 msgid "welche Hardware benutzt wird"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:392
+#: ../../docs/grundlagen/xdrip.rst:393
 msgid "welchen Ladezustand die Batterie des Transmitters hat"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:393
+#: ../../docs/grundlagen/xdrip.rst:394
 msgid "wann der Sensor gestartet worden ist"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:394
+#: ../../docs/grundlagen/xdrip.rst:395
 msgid "wie viele Tage und Stunden er bereits liegt"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:395
+#: ../../docs/grundlagen/xdrip.rst:396
 msgid "Connection Status: Ist die Hardware xDrip mit der App verbunden?"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:396
+#: ../../docs/grundlagen/xdrip.rst:397
 msgid ""
 "Über Antippen von \"Forget Device\" kann man die Verbindung unterbrechen "
 "und über \"Restart Collector\" neu in Gang setzen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:400
+#: ../../docs/grundlagen/xdrip.rst:401
 msgid "Transmitter Battery Info"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:403
+#: ../../docs/grundlagen/xdrip.rst:404
 msgid "xDrip Battery Info"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:405
+#: ../../docs/grundlagen/xdrip.rst:406
 msgid "---> ist noch zu beschreiben!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:407
+#: ../../docs/grundlagen/xdrip.rst:408
 msgid "**Settings**"
 msgstr ""
 
@@ -3149,88 +3153,88 @@ msgstr ""
 msgid "aktivieren"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:414
+#: ../../docs/grundlagen/xdrip.rst:415
 msgid "Screenshot des Hauptbildschirms"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:416
+#: ../../docs/grundlagen/xdrip.rst:417
 msgid "|xDrip_Screenshot_Hauptansicht|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:418
+#: ../../docs/grundlagen/xdrip.rst:419
 msgid "**oberer Bereich des Hauptbildschirms**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:420
+#: ../../docs/grundlagen/xdrip.rst:421
 msgid "aktueller GZ mit Trendpfeil"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:421
+#: ../../docs/grundlagen/xdrip.rst:422
 msgid "Zeit seit letzter Messung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:422
+#: ../../docs/grundlagen/xdrip.rst:423
 msgid "Differenz zur vorletzten Messung"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:423
+#: ../../docs/grundlagen/xdrip.rst:424
 msgid "Batterie-Stand von xDrip/xBridge (optional)"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:424
+#: ../../docs/grundlagen/xdrip.rst:425
 msgid "dünne gelbe Gerade: Individuell definierte Grenze für „zu hoch“"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:425
+#: ../../docs/grundlagen/xdrip.rst:426
 msgid "dünne rote Gerade: Individuell definierte Grenze für „zu tief“"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:426
+#: ../../docs/grundlagen/xdrip.rst:427
 msgid "Verlauf der letzten drei Stunden"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:427
+#: ../../docs/grundlagen/xdrip.rst:428
 msgid "Jeder Punkt entspricht einer Messung. Alle 5 Minuten erscheint ein Wert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:429
+#: ../../docs/grundlagen/xdrip.rst:430
 msgid "blau: im Zielbereich"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:430
+#: ../../docs/grundlagen/xdrip.rst:431
 msgid "gelb: zu hoch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:431
+#: ../../docs/grundlagen/xdrip.rst:432
 msgid "rot: zu tief"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:432
+#: ../../docs/grundlagen/xdrip.rst:433
 msgid "rot/weiß: Kalibrierungen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:434
+#: ../../docs/grundlagen/xdrip.rst:435
 msgid "**unterer Bereich des Hauptbildschirms**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:436
+#: ../../docs/grundlagen/xdrip.rst:437
 msgid ""
 "Der Verlauf der letzten 24 Stunden. Der unten rechts weiß markierte Rand "
 "zeigt die letzten drei Stunden, die oben größer dargestellt sind."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:440
+#: ../../docs/grundlagen/xdrip.rst:441
 msgid "Starten des Sensors"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:442
+#: ../../docs/grundlagen/xdrip.rst:443
 msgid ""
 "Wenn sichergestellt ist, dass der Sensor liegt und der Transmitter gut "
 "sitzt (prüfen, ob an der Seite alles gut eingerastet ist), geht man über "
 "das Hauptmenü zum Punkt \"Start Sensor\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:446
+#: ../../docs/grundlagen/xdrip.rst:447
 msgid ""
 "Hier folgt neben einem Warnhinweis, frei übersetzt: Erst dann auf "
 "\"Sensor Start\" tippen, wenn der Sensor gelegt und der Transmitter "
@@ -3239,7 +3243,7 @@ msgid ""
 "dran, wie man sich noch erinnert."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:452
+#: ../../docs/grundlagen/xdrip.rst:453
 msgid ""
 "Es empfiehlt sich, dieses Datum samt Uhrzeit -inklusive AM oder PM - zu "
 "notieren oder einen entsprechenden Screenshot (Foto vom Bildschirm) auf "
@@ -3249,32 +3253,32 @@ msgid ""
 "Gründen auch immer kurz abgenommen hatte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:459
+#: ../../docs/grundlagen/xdrip.rst:460
 msgid "Zur Erklärung der 12-Stunden-Anzeige:"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:461
+#: ../../docs/grundlagen/xdrip.rst:462
 msgid ""
 "AM = ante meridiem (lateinisch), auf Deutsch: VOR dem Mittag, "
 "Eselsbrücke: **A**\\ m **M**\\ orgen;"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:462
+#: ../../docs/grundlagen/xdrip.rst:463
 msgid "PM = post meridiem, auf Deutsch: NACH dem Mittag"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:464
+#: ../../docs/grundlagen/xdrip.rst:465
 msgid ""
 "Hat man den Sensor gestartet, erscheint auf dem Hauptbildschirm in roten "
 "Buchstaben der Hinweis, dass sich der Sensor warmläuft und in 120 Minuten"
 " (rückwärtslaufend) eine Doppelkalibrierung benötigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:468
+#: ../../docs/grundlagen/xdrip.rst:469
 msgid "**Alternativen beim Starten des Sensors**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:470
+#: ../../docs/grundlagen/xdrip.rst:471
 msgid ""
 "Einige haben die Erfahrung gemacht, dass die CGM-Werte genauer sind, wenn"
 " man sich einen neuen Sensor 1 bis 2 Tage vor dem eigentlichen Start "
@@ -3283,17 +3287,17 @@ msgid ""
 "dem neu gesetzten Sensor verwendet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:477
+#: ../../docs/grundlagen/xdrip.rst:478
 msgid "Stoppen des Sensors"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:479
+#: ../../docs/grundlagen/xdrip.rst:480
 msgid ""
 "Sobald der Sensor einmal gestartet worden ist, wird der Menüpunkt \"Start"
 " Sensor\" in der App durch den Menüpunkt \"**Stop Sensor**\" ersetzt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:482
+#: ../../docs/grundlagen/xdrip.rst:483
 msgid ""
 "Wenn man hier antippt, erscheint ein Warnhinweis, man möge den Sensor nur"
 " dann stoppen, wenn man auch vorhat, ihn zu entfernen. Darunter befindet "
@@ -3301,15 +3305,15 @@ msgid ""
 "man, um den Sensor zu stoppen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:487
+#: ../../docs/grundlagen/xdrip.rst:488
 msgid "Ab diesem Moment wechselt die Anzeige im Menü wieder zu \"Sensor Start\"."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:490
+#: ../../docs/grundlagen/xdrip.rst:491
 msgid "Kalibrieren"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:492
+#: ../../docs/grundlagen/xdrip.rst:493
 msgid ""
 "Zwei Stunden nach dem Sensor-Start (oder früher, s.o. unter Sensor "
 "starten) müssen die vom Sensor gemessenen Werte mit zwei von einem "
@@ -3325,7 +3329,7 @@ msgid ""
 "eingetragen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:505
+#: ../../docs/grundlagen/xdrip.rst:506
 msgid ""
 "Für ein paar Minuten erscheint im Auswahlmenü die Möglichkeit "
 "**\"Override Calibration\"**, auf Deutsch: Kalibrierung überschreiben. "
@@ -3333,7 +3337,7 @@ msgid ""
 "werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:510
+#: ../../docs/grundlagen/xdrip.rst:511
 msgid ""
 "Anschließend gibt es im Menü nicht mehr die Doppel-, sondern die einfache"
 " Kalibrierung **\"Add Calibration\"**, die wie die Doppelkalibrierung "
@@ -3352,15 +3356,15 @@ msgid ""
 "Blutzucker möglichst stabil ist*, also z.B. vor einer Mahlzeit."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:527
+#: ../../docs/grundlagen/xdrip.rst:528
 msgid "Calibration Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:529
+#: ../../docs/grundlagen/xdrip.rst:530
 msgid "Dieser Menüpunkt beschäftigt sich mit dem Kalibrierungserinnerungssignal."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:532
+#: ../../docs/grundlagen/xdrip.rst:533
 msgid ""
 "Calibration Alerts - alert when a calibration is requested: *Hier kannst "
 "du durch Antippen ein Häkchen setzen, wenn du an eine erforderliche "
@@ -3368,40 +3372,40 @@ msgid ""
 "Doppelkalibrierung an.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:537
+#: ../../docs/grundlagen/xdrip.rst:538
 msgid ""
 "Calibration Request Sound: *Hier kannst du dir durch Antippen einen "
 "Signalton aus deinem Smartphonerepertoire auswählen.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:540
+#: ../../docs/grundlagen/xdrip.rst:541
 msgid ""
 "Override Silent Mode on Calibration Alerts: *Wenn du hier ein Häkchen "
 "setzt, ertönt das Erinnerungssignal auch im lautlosen Modus des "
 "Smartphones.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:544
+#: ../../docs/grundlagen/xdrip.rst:545
 msgid ""
 "Calibration Request Snooze: *Voreingestellt. Wenn du den Signalton "
 "aktiviert hast, wiederholt er sich bei fehlender Kalibrierung alle 20 "
 "Minuten.*"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:549
-#: ../../docs/nightscout/azure_plugins.rst:48
+#: ../../docs/grundlagen/xdrip.rst:550
+#: ../../docs/nightscout/azure_plugins.rst:50
 msgid "Alarme"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:552
+#: ../../docs/grundlagen/xdrip.rst:553
 msgid "BG-Level-Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:554
+#: ../../docs/grundlagen/xdrip.rst:555
 msgid "|xDrip_Screenshot_alerts|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:556
+#: ../../docs/grundlagen/xdrip.rst:557
 msgid ""
 "Unter Settings - Alerts and Notifications - BG Level Alerts kann man sich"
 " Alarme einstellen für den Fall, dass der BZ einen bestimmten Wert über- "
@@ -3410,7 +3414,7 @@ msgid ""
 "verändert werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:562
+#: ../../docs/grundlagen/xdrip.rst:563
 msgid ""
 "Drücke \"**create low alert**\", um einen Tiefalarm selbst zu definieren."
 " Unter \"***Alert Name***\" gibst du dem Alarm eine von dir ausgewählte "
@@ -3426,7 +3430,7 @@ msgid ""
 "Smartphonerepertoire aussuchen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:575
+#: ../../docs/grundlagen/xdrip.rst:576
 msgid ""
 "Unter \"***select time for alert***\" ist \"all day\" bereits mit Häkchen"
 " versehen, so dass dein Alarm ganztägig funktioniert. Du kannst aber auch"
@@ -3439,43 +3443,43 @@ msgid ""
 "zusagt!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:585
+#: ../../docs/grundlagen/xdrip.rst:586
 msgid ""
 "Entsprechend kannst du über \"**create high alert**\" eine Alarmkaskade "
 "nach oben schaffen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:588
+#: ../../docs/grundlagen/xdrip.rst:589
 msgid ""
 "Bei einmal gespeicherten Alarmen kommst du durch längeres Antippen des "
 "gewünschten Alarmes in den Bearbeitungsmodus."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:592
+#: ../../docs/grundlagen/xdrip.rst:593
 msgid "BG-Alert-Settings"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:595
+#: ../../docs/grundlagen/xdrip.rst:596
 msgid "Profil: High, Ascending, ..."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:598
+#: ../../docs/grundlagen/xdrip.rst:599
 msgid "Smart snoozing/alerting: Empfehlung am Anfang diese zu deaktivieren."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:601
+#: ../../docs/grundlagen/xdrip.rst:602
 msgid "Rise-Fall-Alerts"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:603 ../../docs/grundlagen/xdrip.rst:737
+#: ../../docs/grundlagen/xdrip.rst:604 ../../docs/grundlagen/xdrip.rst:738
 msgid "----> ist noch zu beschreiben!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:606
+#: ../../docs/grundlagen/xdrip.rst:607
 msgid "Werte vorlesen lassen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:608
+#: ../../docs/grundlagen/xdrip.rst:609
 msgid ""
 "Beim Autofahren oder wenn man aus anderen Gründen die Hände gerade nicht "
 "frei hat (z.B. weil man mit den Händen im Spülwasser oder im Kuchenteig "
@@ -3483,7 +3487,7 @@ msgid ""
 " das Smartphone die sog. \"Text-to-speech\" Möglichkeit bietet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:613
+#: ../../docs/grundlagen/xdrip.rst:614
 msgid ""
 "Dazu geht man zuerst im xDrip Menü auf Settings (Einstellungen) und "
 "verschiebt den Bildschirmtest so lange nach oben, bis man weit unten "
@@ -3496,7 +3500,7 @@ msgid ""
 "(Download Symbol antippen) kann."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:623
+#: ../../docs/grundlagen/xdrip.rst:624
 msgid ""
 "Wenn man nicht jedes Mal diesen etwas längeren Weg gehen möchte, kann man"
 " gleich noch ein Häkchen direkt unter Speak Readings bei \"**Speak "
@@ -3507,30 +3511,30 @@ msgid ""
 "deaktiviert werden."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:632
+#: ../../docs/grundlagen/xdrip.rst:633
 msgid "Statistik"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:634
+#: ../../docs/grundlagen/xdrip.rst:635
 msgid "|xDrip_Screenshot_statistic_1| |xDrip_Screenshot_statistic_2|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:636
+#: ../../docs/grundlagen/xdrip.rst:637
 msgid "|xDrip_Screenshot_statistic_3|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:640
+#: ../../docs/grundlagen/xdrip.rst:641
 msgid ""
 "Wenn man im xDrip Menü den Punkt Statistics antippt, gelangt man zu den "
 "Statistiken für verschiedene Zeiträume, die man wiederum durch Antippen "
 "auswählen kann."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:641
+#: ../../docs/grundlagen/xdrip.rst:642
 msgid "TD = today, heute; YTD = yesterday, gestern; 7/30/90d d = Tage"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:643
+#: ../../docs/grundlagen/xdrip.rst:644
 msgid ""
 "Hierzu gibt es drei Seiten, die man durch Wischen nach links bzw. rechts "
 "aufrufen kann. Auf welcher der Seiten man sich befindet, erkennt man an "
@@ -3538,70 +3542,70 @@ msgid ""
 "Zeiträumen von ungefüllten zu gefüllten Kreisen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:648
+#: ../../docs/grundlagen/xdrip.rst:649
 msgid "Die linke der drei Seiten enthält Informationstext."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:650
+#: ../../docs/grundlagen/xdrip.rst:651
 msgid ""
 "Range, auf Deutsch: Spannweite, gibt die Verteilung der gemessenen Werte "
 "an, unterteilt nach in/high/low, auf Deutsch: innerhalb der "
 "Grenzwerte/höher/tiefer."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:654
+#: ../../docs/grundlagen/xdrip.rst:655
 msgid ""
 "Absolute numbers: Dies sind die absoluten Zahlen der jeweils in den "
 "genannten Bereichen gemessenen Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:657
+#: ../../docs/grundlagen/xdrip.rst:658
 msgid ""
 "Der Median BG ist der Wert in der Mitte der gemessenen Werte, damit "
 "werden Ausreißer nicht berücksichtigt (Bsp: 1,3,5,6,9=5)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:660
+#: ../../docs/grundlagen/xdrip.rst:661
 msgid ""
 "Der Mean BG ist das arithmetische Mittel der gemessenen Werte (Bsp: "
 "1+3+5+5+9=23/5=4,6)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:663
+#: ../../docs/grundlagen/xdrip.rst:664
 msgid ""
 "HbA1c est. (estimated, auf Deutsch: geschätzt) Hier wird je nach "
 "angetipptem Zeitraum der HbA1c in mmol/mol und in mg/dl überschlägig "
 "berechnet."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:667
+#: ../../docs/grundlagen/xdrip.rst:668
 msgid ""
 "StdDev steht für standard deviation, auf Deutsch: Standardabweichung. Sie"
 " ist ein Maß für die Streuung der Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:670
+#: ../../docs/grundlagen/xdrip.rst:671
 msgid ""
 "Auf der mittleren Seite sind die Werte je nach ausgewähltem Zeitraum in "
 "ihrer Verteilung als Tortengrafik dargestellt. Grün steht für innerhalb "
 "der Grenzwerte, gelb für hohe und rot für tiefe Werte."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:674
+#: ../../docs/grundlagen/xdrip.rst:675
 msgid ""
 "Auf der rechten Seite wird für jeden ausgewählten Zeitraum die "
 "Werteverteilung in einer Verlaufskurve im Tagesablauf gezeigt."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:678
+#: ../../docs/grundlagen/xdrip.rst:679
 msgid "Widget"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:680
+#: ../../docs/grundlagen/xdrip.rst:681
 msgid "|xdrip_Screenshot_widget|"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:682
+#: ../../docs/grundlagen/xdrip.rst:683
 msgid ""
 "Die xDrip App kommt nicht allein, sie bringt ein Widget mit, das du dir "
 "auf dem üblichen Weg auf deinem Smartphone einrichten kannst. Das Widget "
@@ -3612,7 +3616,7 @@ msgid ""
 "Wird das Widget angetippt, öffnet sich die xDrip App."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:690
+#: ../../docs/grundlagen/xdrip.rst:691
 msgid ""
 "Bsp. Samsung S4 mini: links unten durch Antippen der Fläche ins Menü "
 "gehen und jeweils antippen - Apps und Widgets - Widgets, dann blättern "
@@ -3623,15 +3627,15 @@ msgid ""
 "fertig!"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:699
+#: ../../docs/grundlagen/xdrip.rst:700
 msgid "BG History"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:700
+#: ../../docs/grundlagen/xdrip.rst:701
 msgid "**(nicht in der jetzigen Beta-Version verfügbar)**"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:702
+#: ../../docs/grundlagen/xdrip.rst:703
 msgid ""
 "Hinter diesem Menüpunkt verbergen sich sämtliche bisherigen "
 "Verlaufskurven, die man Tag für Tag über die Doppelpfeiltasten aufrufen "
@@ -3639,7 +3643,7 @@ msgid ""
 "in einer einzigen Anzeige über das Feld direkt rechts vom Datum aufrufen."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:708
+#: ../../docs/grundlagen/xdrip.rst:709
 msgid ""
 "Für eine genauere Betrachtung lassen sich die Kurven mit einem "
 "Doppelantippen oder mit einer auseinanderlaufenden, nicht zwingend "
@@ -3650,15 +3654,15 @@ msgid ""
 "Verlaufskurve des Hauptbildschirmes möglich."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:717
+#: ../../docs/grundlagen/xdrip.rst:718
 msgid "Weiteres"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:720
+#: ../../docs/grundlagen/xdrip.rst:721
 msgid "Verbinden mit einer Smartwatch"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:722
+#: ../../docs/grundlagen/xdrip.rst:723
 msgid ""
 "An dieser Stelle wäre es möglich, die Daten direkt an die Smartwatch zu "
 "senden. Damit könnte man die Installationsschritte in \"Nightscout "
@@ -3667,19 +3671,19 @@ msgid ""
 "Tagebuch oder für das OpenAPS)."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:729 ../../docs/smartwatch.rst:5
+#: ../../docs/grundlagen/xdrip.rst:730 ../../docs/smartwatch.rst:5
 msgid "Android Wear"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:732 ../../docs/smartwatch.rst:9
+#: ../../docs/grundlagen/xdrip.rst:733 ../../docs/smartwatch.rst:9
 msgid "Pebble"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:735
+#: ../../docs/grundlagen/xdrip.rst:736
 msgid "Upload zu NightScout"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:742
+#: ../../docs/grundlagen/xdrip.rst:743
 msgid ""
 "**Frage:** In der xDrip-App wird das Bluetooth-Modul gefunden als \"hm-"
 "soft\", nicht als „xBridge“ oder „xDrip“. Was muss ich tun, damit das "
@@ -3691,11 +3695,11 @@ msgid ""
 " irgendetwas mit der Kommunikation vom Wixel zum BT-Chip nicht."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:754
+#: ../../docs/grundlagen/xdrip.rst:755
 msgid "Verkabelung zwischen Wixel und Bluetooth-Modul prüfen"
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:755
+#: ../../docs/grundlagen/xdrip.rst:756
 msgid ""
 "Baud-Rate prüfen. Bei einigen HM11-Modulen ist die Baudrate falsch "
 "gesetzt, ggf. also die Baudrate neu einstellen"
@@ -3732,7 +3736,7 @@ msgstr ""
 msgid "Nächster Antwort kommt hierher."
 msgstr ""
 
-#: ../../docs/grundlagen/xdrip.rst:772
+#: ../../docs/grundlagen/xdrip.rst:773
 msgid "---> Erweiterbar!"
 msgstr ""
 
@@ -3767,478 +3771,186 @@ msgid ""
 "<../nightscout/mongo_db.md>`__."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:2
+#: ../../docs/nightscout/azure.rst:4
 msgid "Azure"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:4
+#: ../../docs/nightscout/azure.rst:6
 msgid ""
 "`Azure <https://de.wikipedia.org/wiki/Microsoft_Azure>`__ ist ein Cloud -"
 " Computing Dienst, welcher umfangreiche Services für Anwender zur "
 "Verfügung stellt."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:9
+#: ../../docs/nightscout/azure.rst:11
 msgid "Einstieg"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:11
+#: ../../docs/nightscout/azure.rst:13
 msgid ""
 "Den Einstieg in deutscher Sprache findet man hier: `Azure "
 "<https://azure.microsoft.com/de-de/>`__"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:14
+#: ../../docs/nightscout/azure.rst:16
 msgid ""
 "Mit dem zweimaligen Klicken des Buttons **Kostenlos testen** gelangen wir"
 " zur Registrierungsseite:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:17
-msgid "|azure_reg|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:19
+#: ../../docs/nightscout/azure.rst:22
 msgid ""
 "Sollte man schon ein Konto haben, kann man sich einfach anmelden, "
 "ansonsten geht es mit der **Registrierung** weiter."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:22
+#: ../../docs/nightscout/azure.rst:25
 msgid ""
 "Wir werden aufgefordert, die Kreditkartendaten einzugeben, die Karte wird"
 " nicht belastet."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:25
+#: ../../docs/nightscout/azure.rst:28
 msgid ""
 "Nachdem alles abgeschlossen und gespeichert wurde, können wir uns im "
 "Azure Portal anmelden."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:28
+#: ../../docs/nightscout/azure.rst:31
 msgid ""
 "Über den Klick auf **Portal** befinden wir uns jetzt im Azure Portal und "
 "können die Web - Applikation konfigurieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:31
+#: ../../docs/nightscout/azure.rst:34
 msgid "**Azure Portal Startseite:**"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:33
-msgid "|azure_portal|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:35
+#: ../../docs/nightscout/azure.rst:39
 msgid ""
 "Mit dem Button **\"+ Neu\"** richten wir eine neue **Resource** ein. Die "
 "Menüführung ist kaskadiert, alle gelb markierten Punkte sind auszuwählen."
 " Bei Auswahlpunkten mit **>** kann man weitere Einstellungen auswählen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:40
-msgid "|azure_config_app|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:42
+#: ../../docs/nightscout/azure.rst:47
 msgid ""
 "Mit dem Button **Erstellen** speichern wir die Einstellungen. Dieses kann"
 " einige Zeit in Anspruch nehmen."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:45
+#: ../../docs/nightscout/azure.rst:50
 msgid ""
 "Der Name der Nightscout - Website ist jetzt .azurewebsites.net, hier im "
 "Beispiel: **nscgmq01.azurewebsites.net**. Diesen Website - Namen bitte "
 "auch notieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:49
+#: ../../docs/nightscout/azure.rst:54
 msgid "Wenn die Web-App erstellt wurde, erscheint diese Ansicht:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:51
-msgid "|azure_app_created|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:53
+#: ../../docs/nightscout/azure.rst:58
 msgid ""
 "Die Web-App wird jetzt in Nordeuropa/Irland gehostet. Wichtig ist der "
 "**Status**. Hier wird angezeigt, ob die App **Running** oder **Stopped** "
 "ist."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:57
+#: ../../docs/nightscout/azure.rst:62
 msgid ""
 "Weiter geht es mit der Konfiguration der **Plugin** Module. Diese sind in"
 " Kapitel `Konfiguration der Nightscout Plugins "
 "<../nightscout/azure_plugins.md>`__"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:61
-msgid "|azure_enable_plugins|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:64
+#: ../../docs/nightscout/azure.rst:69
 msgid "Einbindung des GitHub Source Codes"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:66
+#: ../../docs/nightscout/azure.rst:71
 msgid ""
 "Zu Bereitstellung der Nightscout-Website fehlt uns noch der ``cgm-remote-"
 "monitor``, den wir über GitHub laden."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:69
+#: ../../docs/nightscout/azure.rst:74
 msgid "Wir steigen hier ein, um die Verbindung herzustellen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:71
-msgid "|azure_choose_github|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:73
+#: ../../docs/nightscout/azure.rst:79
 msgid "Jetzt folgt die **GitHub Autorisierung:**"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:75
-msgid "|github_authorize|."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:77
+#: ../../docs/nightscout/azure.rst:84
 msgid ""
 "Nachdem man gitHub Benutzernamen und Passwort eingegeben hat, erscheint "
 "diese Meldung:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:80
-msgid "|azure_authorize_github|."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:82
+#: ../../docs/nightscout/azure.rst:90
 msgid "Mit **OK** bestätigen."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:84
+#: ../../docs/nightscout/azure.rst:92
 msgid "Jetzt wählt man den ``cgm-remote-monitor`` aus:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:86
-msgid "|azure_crm|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:88
+#: ../../docs/nightscout/azure.rst:97
 msgid ""
 "Mit **OK** bestätigen. Die Web-app wird bereitgestellt. Dieses kann ein "
 "wenig dauern."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:91
+#: ../../docs/nightscout/azure.rst:99
 msgid "Am Ende erscheint in der Zusammenfassung die Einbindung von GitHub hier:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:93
+#: ../../docs/nightscout/azure.rst:101
 msgid ""
 "Sollte es zu einer Fehlermeldung kommen, bitte die Bereitstellung noch "
 "einmal starten."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:96
+#: ../../docs/nightscout/azure.rst:104
 msgid ""
 "Die Nightscout Webseite steht jetzt im Internet zur Verfügung und kann "
 "über einen Browser mit dem Aufruf "
 "http://YOURWEBSITENAME.azurewebsites.net aufgerufen werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:99
+#: ../../docs/nightscout/azure.rst:107
 msgid "Die Einrichtung ist fertig."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:102
+#: ../../docs/nightscout/azure.rst:110
 msgid "Kosten"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:104
+#: ../../docs/nightscout/azure.rst:112
 msgid ""
 "Web-Applikationen sind grundsätzlich **kostenfrei**. Auf dem Azure - "
 "Portal gibt es eine **Preisübersicht:**"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:107
-msgid "|azure_prices|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:109
+#: ../../docs/nightscout/azure.rst:118
 msgid ""
 "Mit dem Button Preisrechner können wir uns weitere Details ansehen. Wir "
 "wählen App Service aus und erhalten folgende Übersicht:"
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:112
-msgid "|azure_prices_web|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:114
+#: ../../docs/nightscout/azure.rst:124
 msgid ""
 "**WICHTIG:** Die Tarife unterscheiden sich nach Region, es ist wichtig, "
 "Nordeuropa oder die USA auszuwählen, für andere Regionen entstehen "
 "ansonsten Kosten, die nicht nötig sind."
 msgstr ""
 
-#: ../../docs/nightscout/azure.rst:119
-msgid "Der Deploy to Azure Button"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:121
-msgid ""
-"Die Nightscout Website lässt sich mit vielen Standardeinstellungen "
-"beschleunigt installieren."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:124
-msgid ""
-"Wir Starten mit der Anmeldung in in Github an, navigieren in unserer "
-"Repository und den Branch, welchen wir installieren wollen."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:127
-msgid "Weiter Klicken auf das **Deploy to Azure** Symbol:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:129
-msgid "|azure_unbeaufsichtigt|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:131
-msgid ""
-"Wir loggen uns bei Azure ein (folgt den angezeigten Anweisungen, um "
-"eingeloggt zu werden). (Wenn wir noch kein Azure-Konto haben, sollten wir"
-" das Azure-Konto zunächst separat hinzufügen und dann wieder in diese "
-"Sequenz von Schritten zurückkehren."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:136
-msgid ""
-"Es ist möglich, das Konto an dieser Stelle einzurichten, aber es kann "
-"weniger verwirrend sein, wenn wir das Konto vorher erstellen.)"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:139
-msgid ""
-"Der Bildschirm **Deploy to Azure** wird mit allen Optionen geladen, die "
-"wir (am Anfang) für unsere Website konfigurieren können. (Wir können "
-"dieses später bei Bedarf ändern.)"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:143
-msgid "Es erscheint diese Web - Maske:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:145
-msgid "|azure_deploy_param|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:147
-msgid ""
-"Wir stellen sicher, dass das Abonnement ``Pay-as-you-go zeigt``. (Wenn "
-"das Konto neu angelegt ist, kann es stattdessen die kostenlose "
-"Testversion zeigen, und wir müssen dieses ändern, bevor der Testphase "
-"endet.)"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:152
-msgid ""
-"Wenn eine Ressourcengruppe im Dropdown-Menü aufgelistet ist, wählen wir "
-"sie aus. Ansonsten wählen wir ``Create New`` und akzeptieren oder "
-"ersetzen den \"neuen\" Ressourcengruppennamen im Feld ``Resource Group "
-"Name``."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:157
-msgid ""
-"Wir wählen unseren Site-Namen. Ein Standardname wird bereits im Feld "
-"angezeigt. Wir können ihn mit dem gewünschten Namen ersetzen. Was wir "
-"hier eingeben, wird der \"Name\" unserer Nightscout-Website (und wird der"
-" Schlüsselteil Ihrer Nightscout-URL) sein. Der Name unserer Website kann "
-"nicht geändert werden. Wenn wir später einen anderen Namen verwenden "
-"möchten, müssen wir eine neue Website erstellen."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:164
-msgid ""
-"**Api Secret:** API Secret Wert, bleibt der Wert unter 12 Zeichen, bricht"
-" die Installation ab."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:167
-msgid "**Language:** Standart Wert ist **en**, bitte in **de** wechseln."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:169
-msgid "|grilledcheese-deploytoazure-panel-sitename|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:171
-msgid ""
-"Wir wählen im Dropdown-Menü den Standort aus. (Dieser Standort muss nicht"
-" mit unserem tatsächlichen geografischen Standort übereinstimmen. ``North"
-" Europe`` ist für Deutschland zu empfehlen.)"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:175
-msgid ""
-"Wir stellen sicher, dass ``Free`` im Sku-Dropdown-Menü ausgewählt ist. "
-"(Dies ist die \"kostenlose Variante\" von Azure.)"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:178
-msgid "Wir geben jetzt die mongo (mLab) URI in das Feld ``Mongo-Connection`` ein."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:181
-msgid ""
-"Die mLab URI verwendet die Syntax, die in diesem Beispiel gezeigt wird, "
-"wir müssen unsere \"EIGEN-Informationen\" ausfüllen, \"nicht\" die "
-"Beispielwerte, die hier gezeigt werden:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:185
-msgid "``Mongodb://databaseUserName:databaseUserPassword@ds012345.mlab.com:12345/databaseName``"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:187
-msgid "Beispielsweise:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:189
-msgid "``Mongodb://sallyuser:sallypassword@ds012345.mlab.com:12345/mycgm``"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:191
-msgid "Wir wählen mg / dl oder mmol aus dem Dropdown-Menü Display Units."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:193
-msgid ""
-"In das Api Secret-Feld geben wir das minimales ``API-SECRET`` mit "
-"\"mindestens 12 Zeichen\" ein. Zeichen sind frei wählbar, aber es muss "
-"mindestens 12 Zeichen lang sein."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:197
-msgid ""
-"Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind "
-"optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir "
-"im Kapitel **Azure Plugins** Hilfe finden."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:201
-msgid ""
-"Die ENABLE-Variable wird auf dieser einstufigen Implementierung mit "
-"vielen häufig verwendeten Features vorbelegt. Wenn wir der Werte-"
-"Zeichenfolge etwas hinzufügen möchten, setzen wir ein Leerzeichen nach "
-"dem letzten Zeichen im String und geben einen neuen Wert ein (z. B. "
-"Bridge für Benutzer von Dexcom G4 Share / G5-Bridge-Sites oder Pushover "
-"für Pushover-Benachrichtigungen)."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:208
-msgid ""
-"Im Feld Show_plugins wird \"careportal\" vorgefüllt. In diesem Feld "
-"aufgelistete Plugins sind immer auf der Website sichtbar, nn sie müssten "
-"ansonsten innerhalb des Einstellungsbereichs des einzelnen Browsers "
-"aktiviert werden. Wenn wir möchten, dass iage, cage, sage, bwp und rawbg "
-"\"immer sichtbar\" sind, dann listen wir sie in diesem Feld in einer "
-"durch Leerzeichen getrennten Liste auf. (Hier können auch andere Werte "
-"eingegeben werden, ua bwp, boluscalc usw.)"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:216
-msgid "Wir klicken auf die Schaltfläche ``Next``:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:218
-msgid "|grilledcheese-next.png|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:220
-msgid ""
-"Der nächste Bildschirm bestätigt, dass eine \"Website\" bereitgestellt "
-"wird. Wir klicken Sie auf ``Deploy``. (Wenn wir zum vorherigen Bildschirm"
-" zurückkehren müssen, klicken wir auf \"Setup\".)"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:224
-msgid "|grilledcheese-deploy|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:226
-msgid "Beim nächsten Schritt sehen wir den Fortschritt. **Sei geduldig :)**."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:228
-msgid "|grilledcheese-deployment|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:230
-msgid ""
-"Wenn die Bereitstellung abgeschlossen ist (und erfolgreich), sehen wir "
-"eine abschließende Zeile, die über Links verfügt, die uns erlauben, "
-"unsere Website zu verwalten oder nach yoursiteURL zu browsen. Unsere "
-"Nightscout-URL verwendet dieses Format: "
-"http://YOURWEBSITENAME.azurewebsites.net."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:236
-msgid "|grilledcheese-success|"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:238
-msgid ""
-"Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die "
-"Bereitstellung erfolgreich war und unsere **Mlab-Informationen** korrekt "
-"eingegeben wurden, sollten wir eine schwarze Nightscout-Website sehen. "
-"(Wenn unsere Website noch keine Daten enthält, wird es eine schwarze "
-"Website mit Zeit und Bindestrichen oder Zeit und das Wort "
-"**undefiniert**."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:245
-msgid ""
-"Wenn wir unsere Uploader-App noch nicht installiert und konfiguriert "
-"haben, können wir dieses jetzt tun. (Wenn wir ein kabelgebundenes Rig "
-"verwenden, bedeutet dies, dass wir die Nightscout App installieren "
-"müssen. Wenn wir einen anderen Uploader verwenden oder die Bridge "
-"konfigurieren, kehren wir zu den Grundeinstellungen für unser spezielles "
-"Setup zurück und fahren mit dem nächsten Schritt fort.) Wir werden keine "
-"Daten sehen Auf der Nightscout-Website, bis die Uploader-App (oder "
-"Bridge) konfiguriert ist."
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:254
-msgid ""
-"**Wir bestätigen, das unsere Website ist als kostenlose Website "
-"konfiguriert ist.**"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:257
-msgid ""
-"Wenn unser Azure Konto neu ist und wir während des Setups keine Pay-As-"
-"You-Go gewählt haben, haben wir 30 Tage Zeit, die Site in Pay-As-You-Go "
-"zu konvertieren. Wir empfehlen, die Website-Einstellungen zu überprüfen, "
-"indem wir Folgendes überprüfen:"
-msgstr ""
-
-#: ../../docs/nightscout/azure.rst:267
-msgid "|azure-new-reviewfree|"
-msgstr ""
-
-#: ../../docs/nightscout/azure_plugins.rst:2
+#: ../../docs/nightscout/azure_plugins.rst:4
 msgid "Nightscout Plugins"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:4
+#: ../../docs/nightscout/azure_plugins.rst:6
 msgid ""
 "Wir befassen uns hier mit der Beschreibung der Programm - Module, den "
 "sogenannten **Plugins**. Die Nightscout Website besteht aus vielen "
@@ -4247,24 +3959,24 @@ msgid ""
 "Anwendungseinstellungen speichern."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:11
+#: ../../docs/nightscout/azure_plugins.rst:13
 msgid "Pflichtwerte"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:13
+#: ../../docs/nightscout/azure_plugins.rst:15
 msgid ""
 "``MONGO_CONNECTION`` - Deine Mongo uri, zum Beispiel:\\ ``mongodb: // "
 "sally: sallypass@ds099999.mongolab.com: 99999 / nightscout``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:15
+#: ../../docs/nightscout/azure_plugins.rst:17
 msgid ""
 "``DISPLAY_UNITS`` (``mg / dl``) - Auswahl: ``mg / dl`` und\\ ``mmol``. "
 "Die Einstellung auf ``mmol`` setzt den gesamten Server auf ``mmol`` Modus"
 " als Standard, weitere Einstellungen sind nicht erforderlich."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:18
+#: ../../docs/nightscout/azure_plugins.rst:20
 msgid ""
 "``BASE_URL`` - Wird verwendet für den Aufbau von Verbindungen zu deinem "
 "Websiten api, dh pushover callbacks, in der Regel die URL deiner "
@@ -4272,24 +3984,24 @@ msgid ""
 "verwenden"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:24
+#: ../../docs/nightscout/azure_plugins.rst:26
 msgid "Eigenschaften"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:26
+#: ../../docs/nightscout/azure_plugins.rst:28
 msgid ""
 "``ENABLE`` - Wird verwendet, um optionale Funktionen zu aktivieren, "
 "erwartet eine durch Leerzeichen getrennte Liste, wie zum Beispiel:\\ "
 "``careportal rawbg iob``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:29
+#: ../../docs/nightscout/azure_plugins.rst:31
 msgid ""
 "``DISABLE`` wird genutzt, um Standardfunktionen zu deaktivieren, erwartet"
 " eine durch Leerzeichen getrennte Liste"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:31
+#: ../../docs/nightscout/azure_plugins.rst:33
 msgid ""
 "``API_SECRET`` - Ein geheimes Passwort zur Authentifizierung. Es muss "
 "mindestens **12 Zeichen** lang sein und ist frei wählbar. Das "
@@ -4297,7 +4009,7 @@ msgid ""
 "REST API Upload benötigt."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:35
+#: ../../docs/nightscout/azure_plugins.rst:37
 msgid ""
 "``AUTH_DEFAULT_ROLES (readable)`` - mögliche Werte ``readable``, "
 "``denied``, oder ein beliebiger Rollenname. Wenn **lesend** gesetzt, kann"
@@ -4308,21 +4020,21 @@ msgid ""
 "ist, wird die Careportal Rolle zu ``AUTH_DEFAULT_ROLES`` hinzugefügt."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:43
+#: ../../docs/nightscout/azure_plugins.rst:45
 msgid ""
 "``TREATMENTS_AUTH`` (``off``) - mögliche Werte ``on`` oder ``off``. Bei "
 "Einstellung auf ``on`` muss man sich bei Eingaben auf dem jeweiligen "
 "Gerät mit dem ``API_SECRET`` authentisieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:50
+#: ../../docs/nightscout/azure_plugins.rst:52
 msgid ""
 "Diese Alarmeinstellungen wirken sich auf alle Benachrichtigungsmethoden "
 "aus (Browser, Pushover, IFTTT Maker, etc.), einige Einstellungen können "
 "durch Browsereinstellungen außer Kraft gesetzt werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:54
+#: ../../docs/nightscout/azure_plugins.rst:56
 msgid ""
 "``ALARM_TYPES`` (``simple`` falls ``BG_`` \\* ENV gesetzt sind, sonst "
 "``predict``) - derzeit werden zwei Alarmtypen unterstützt und können "
@@ -4333,38 +4045,38 @@ msgid ""
 "``Predict`` \\*\\* NICHT \\*\\* eines der\\ ``BG_`` \\* ENV."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:61
+#: ../../docs/nightscout/azure_plugins.rst:63
 msgid ""
 "``BG_HIGH`` (``260``) - muss auf mg / dl Einheiten eingestellt werden; "
 "das ist eine hohe BG außerhalb des Zielbereichs, die als dringlich "
 "erachtet wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:64
+#: ../../docs/nightscout/azure_plugins.rst:66
 msgid ""
 "``BG_TARGET_TOP`` (``180``) - muss auf mg / dl Einheiten eingestellt "
 "werden; das obere Ende des Zielbereichs, wird auch verwendet, um die "
 "obere Linie in der Grafik zu zeichnen"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:67
+#: ../../docs/nightscout/azure_plugins.rst:69
 msgid ""
 "``BG_TARGET_BOTTOM`` (``80``) - muss auf mg / dl Einheiten eingestellt "
 "werden; das untere Ende des Zielbereichs, wird als untere Linie in der "
 "Grafik verwendet"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:70
+#: ../../docs/nightscout/azure_plugins.rst:72
 msgid ""
 "``BG_LOW`` (``55``) - muss auf mg / dl Einheiten eingestellt werden; eine"
 " niedrige BG außerhalb des Zielbereichs, die als dringlich erachtet wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:73
+#: ../../docs/nightscout/azure_plugins.rst:75
 msgid "``ALARM_URGENT_HIGH`` (``on``) - mögliche Werte ``on`` oder\\ ``off``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:74
+#: ../../docs/nightscout/azure_plugins.rst:76
 msgid ""
 "``ALARM_URGENT_HIGH_MINS`` (``30 60 90 120``) - Anzahl der Minuten, in "
 "denen ein dringender Hochalarm schlafen gelegt wird, bevor er erneut "
@@ -4372,11 +4084,11 @@ msgid ""
 "getrennt, die erste Zahl wird für pushover verwendet"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:78
+#: ../../docs/nightscout/azure_plugins.rst:80
 msgid "``ALARM_HIGH`` (``on``) - mögliche Werte ``on`` oder\\ ``off``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:79
+#: ../../docs/nightscout/azure_plugins.rst:81
 msgid ""
 "``ALARM_HIGH_MINS`` (``30 60 90 120``) - Anzahl der Minuten, in denen ein"
 " (einfacher) Hochalarm schlafen gelegt wird, bevor er erneut ertönt; die "
@@ -4384,11 +4096,11 @@ msgid ""
 "erste Zahl wird für pushover verwendet"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:83
+#: ../../docs/nightscout/azure_plugins.rst:85
 msgid "``ALARM_LOW`` (``on``) - mögliche Werte ``on`` oder\\ ``off``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:84
+#: ../../docs/nightscout/azure_plugins.rst:86
 msgid ""
 "``ALARM_LOW_MINS`` (``15 30 45 60``) - Anzahl der Minuten, in denen ein "
 "(einfacher) Tiefalarm schlafen gelegt wird, bevor er erneut ertönt; die "
@@ -4396,11 +4108,11 @@ msgid ""
 "erste Zahl wird für pushover verwendet"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:88
+#: ../../docs/nightscout/azure_plugins.rst:90
 msgid "``ALARM_URGENT_LOW`` (``on``) - mögliche Werte ``on`` oder\\ ``off``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:89
+#: ../../docs/nightscout/azure_plugins.rst:91
 msgid ""
 "``ALARM_URGENT_LOW_MINS`` (``15 30 45``) - Anzahl der Minuten, in denen "
 "ein dringender Tiefalarm schlafen gelegt wird, bevor er erneut ertönt; "
@@ -4408,7 +4120,7 @@ msgid ""
 "erste Zahl wird für pushover verwendet"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:93
+#: ../../docs/nightscout/azure_plugins.rst:95
 msgid ""
 "``ALARM_URGENT_MINS`` (``30 60 90 120``) - Anzahl der Minuten, in denen "
 "ein dringender Alarm (der nicht als hoch oder niedrig markiert ist) "
@@ -4417,7 +4129,7 @@ msgid ""
 "pushover verwendet"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:98
+#: ../../docs/nightscout/azure_plugins.rst:100
 msgid ""
 "``ALARM_WARN_MINS`` (``30 60 90 120``) - Anzahl der Minuten, in denen ein"
 " Alarm (der nicht als hoch oder niedrig markiert ist) schlafen gelegt "
@@ -4426,23 +4138,23 @@ msgid ""
 "verwendet"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:105
+#: ../../docs/nightscout/azure_plugins.rst:107
 msgid "Basiseinstellungen"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:107
+#: ../../docs/nightscout/azure_plugins.rst:109
 msgid ""
 "Die Basiseinstellungen sind Standardwerte, die beim Implementieren einer "
 "Nightscout Website gesetzt werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:110
+#: ../../docs/nightscout/azure_plugins.rst:112
 msgid ""
 "``MONGO_COLLECTION`` (``entries``) - Diese Sammlung speichert SGV, MBG "
 "und CAL Aufzeichnungen von deinem CGM-Gerät"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:112
+#: ../../docs/nightscout/azure_plugins.rst:114
 msgid ""
 "``MONGO_TREATMENTS_COLLECTION`` (``treatments``) - Diese Sammlung "
 "speichert sog. treatments (eingegebene Therapiemaßnahmen oder kurz: "
@@ -4450,64 +4162,64 @@ msgid ""
 "``ENABLE`` env var"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:116
+#: ../../docs/nightscout/azure_plugins.rst:118
 msgid ""
 "``MONGO_DEVICESTATUS_COLLECTION`` (``devicestatus``) - Diese Sammlung "
 "speichert Gerätestatusinformationen wie z.B. die Uploader Batterie"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:118
+#: ../../docs/nightscout/azure_plugins.rst:120
 msgid ""
 "``MONGO_PROFILE_COLLECTION`` (``Profile``) - Diese Sammlung speichert "
 "deine Profile"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:120
+#: ../../docs/nightscout/azure_plugins.rst:122
 msgid ""
 "``MONGO_FOOD_COLLECTION`` (``food``) - Die Sammlung speichert deine "
 "Lebensmittel-Datenbank"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:122
+#: ../../docs/nightscout/azure_plugins.rst:124
 msgid "``PORT`` (``1337``) - Der Port, auf den die node.js Anwendung zugreift"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:124
+#: ../../docs/nightscout/azure_plugins.rst:126
 msgid ""
 "``Hostname`` - Der Hostname, den die node.js-Anwendung verwendet, "
 "standardmäßig null für jeden Hostnamen, für IPv6 evtl. :: nicht "
 "vergessen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:127
+#: ../../docs/nightscout/azure_plugins.rst:129
 msgid ""
 "``SSL_KEY`` - Pfad zu deiner SSL-Schlüsseldatei, so dass ssl (https) "
 "direkt in node.js aktiviert werden kann"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:129
+#: ../../docs/nightscout/azure_plugins.rst:131
 msgid ""
 "``SSL_CERT`` - Pfad zu deiner SSL-Zertifikat-Datei, so dass ssl (https) "
 "direkt in node.js aktiviert werden kann"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:131
+#: ../../docs/nightscout/azure_plugins.rst:133
 msgid ""
 "``SSL_CA`` - Pfad zur ssl CA-Datei, so dass ssl (https) direkt in node.js"
 " aktiviert werden kann"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:133
+#: ../../docs/nightscout/azure_plugins.rst:135
 msgid ""
 "``HEARTBEAT`` (``60``) - Anzahl der Sekunden zwischen den einzelnen "
 "Datenbanküberprüfungen"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:137
+#: ../../docs/nightscout/azure_plugins.rst:139
 msgid "Vordefinierte Werte für Browser-Einstellungen (optional)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:139
+#: ../../docs/nightscout/azure_plugins.rst:141
 msgid ""
 "Wir können **Browsereinstellungen** zentral in den Azure App. "
 "Einstellungen speichern. Das hat den Vorteil, dass man egal von welchem "
@@ -4517,123 +4229,123 @@ msgid ""
 "Parameter mit Wert steht in einer extra Zeile."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:146
+#: ../../docs/nightscout/azure_plugins.rst:148
 msgid "``TIME_FORMAT`` (``12``) - mögliche Werte ``12`` oder\\ ``24``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:147
+#: ../../docs/nightscout/azure_plugins.rst:149
 msgid "``NIGHT_MODE`` (``off``) - mögliche Werte ``on`` oder\\ ``off``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:148
+#: ../../docs/nightscout/azure_plugins.rst:150
 msgid ""
 "``SHOW_RAWBG`` (``never``) - mögliche Werte ``always``,\\ ``never`` oder "
 "``noise``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:150
+#: ../../docs/nightscout/azure_plugins.rst:152
 msgid "``CUSTOM_TITLE`` (``Nightscout``) - angepasste/r Titel/Überschrift"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:151
+#: ../../docs/nightscout/azure_plugins.rst:153
 msgid "``THEME`` (``default``) - mögliche Werte ``default`` oder\\ ``colors``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:152
+#: ../../docs/nightscout/azure_plugins.rst:154
 msgid "``ALARM_TIMEAGO_WARN`` (``on``) - mögliche Werte ``on`` oder\\ ``off``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:153
+#: ../../docs/nightscout/azure_plugins.rst:155
 msgid ""
 "``ALARM_TIMEAGO_WARN_MINS`` (``15``) - Minuten seit dem letzten Messwert,"
 " um eine Warnung auszulösen"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:155
+#: ../../docs/nightscout/azure_plugins.rst:157
 msgid "``ALARM_TIMEAGO_URGENT`` (``on``) - mögliche Werte ``on`` oder\\ ``off``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:157
+#: ../../docs/nightscout/azure_plugins.rst:159
 msgid ""
 "``ALARM_TIMEAGO_URGENT_MINS`` (``30``) - Minuten seit dem letzten Wert, "
 "um einen dringenden Alarm auszulösen"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:159
+#: ../../docs/nightscout/azure_plugins.rst:161
 msgid ""
 "``SHOW_PLUGINS`` - Anzeige der Plugins in der Website, Standardwerte für "
 "alle freigegeben"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:161
+#: ../../docs/nightscout/azure_plugins.rst:163
 msgid ""
 "``SHOW_FORECAST`` (``ar2``) - Plugin Prognosen, die standardmäßig "
 "angezeigt werden sollen, unterstützt räumlich begrenzte Werte wie ``\" "
 "ar2 openaps \"``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:164
+#: ../../docs/nightscout/azure_plugins.rst:166
 msgid ""
 "``LANGUAGE`` (``de``) - Sprache der Website. Falls nicht verfügbar, wird "
 "Englisch verwendet,"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:166
+#: ../../docs/nightscout/azure_plugins.rst:168
 msgid ""
 "``SCALE_Y`` (``log``) - Die Art der Skalierung , welche für die Y-Achse "
 "des Charts System verwendet wird."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:169
+#: ../../docs/nightscout/azure_plugins.rst:171
 msgid ""
 "Die Standard ``log`` (logarithmisch) Option lässt mehr Details im unteren"
 " Bereich zu , während immer noch der volle CGM Bereich angezeigt wird."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:172
+#: ../../docs/nightscout/azure_plugins.rst:174
 msgid ""
 "Die ``linear`` Option hat im gleichen Abstand Markierungen , der "
 "verwendete Bereich ist dynamisch, so dass kein Platz an der Spitze des "
 "Diagramms verschwendet wird."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:175
+#: ../../docs/nightscout/azure_plugins.rst:177
 msgid ""
 "Die ``log-dynamic`` ist der Standard\\ ``log`` Option ähnlich und "
 "verwendet den gleichen dynamischen Bereich, aber die ``linear`` Skala."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:179
+#: ../../docs/nightscout/azure_plugins.rst:181
 msgid ""
 "``EDIT_MODE`` (``on``) - mögliche Werte ``on`` oder\\ ``off``. Aktivieren"
 " oder deaktivieren des Symbols, das den Bearbeitungsmodus der treatments "
 "(Behandlungsmaßnahmen) ermöglicht."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:183
+#: ../../docs/nightscout/azure_plugins.rst:185
 msgid "Nach Eingabe der Daten das **Speichern** nicht vergessen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:185
+#: ../../docs/nightscout/azure_plugins.rst:187
 msgid "Die Einstellungen sehen dann z.B. so aus:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:187
+#: ../../docs/nightscout/azure_plugins.rst:189
 msgid "|azure_app_entries|"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:190
+#: ../../docs/nightscout/azure_plugins.rst:192
 msgid "Plugins"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:192
+#: ../../docs/nightscout/azure_plugins.rst:194
 msgid ""
 "Plugins werden verwendet, um die Art und Weise Informationen anzuzeigen, "
 "wie Benachrichtigungen gesendet werden, Alarme ausgelöst werden, und "
 "vieles mehr."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:196
+#: ../../docs/nightscout/azure_plugins.rst:198
 msgid ""
 "Die eingebauten / Beispiel-Plugins, die standardmäßig verfügbar sind, "
 "sind nachfolgend aufgelistet. Die Plugins müssen möglicherweise noch "
@@ -4641,45 +4353,45 @@ msgid ""
 "werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:202
+#: ../../docs/nightscout/azure_plugins.rst:204
 msgid "Standard Plugins"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:204
+#: ../../docs/nightscout/azure_plugins.rst:206
 msgid ""
 "Diese können durch Einstellen der ``DISABLE`` env var deaktiviert werden,"
 " zum Beispiel\\ ``disable=\"Direction upbat\"``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:208
+#: ../../docs/nightscout/azure_plugins.rst:210
 msgid "``Delta`` (BG Delta)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:210
+#: ../../docs/nightscout/azure_plugins.rst:212
 msgid "Berechnet und zeigt die Veränderung zwischen den letzten 2 BG-Werten."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:213
+#: ../../docs/nightscout/azure_plugins.rst:215
 msgid "``Direction`` (BG Direction)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:215
+#: ../../docs/nightscout/azure_plugins.rst:217
 msgid "Zeigt die Trendrichtung an."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:218
+#: ../../docs/nightscout/azure_plugins.rst:220
 msgid "``Upbat`` (Uploader Batterie)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:220
+#: ../../docs/nightscout/azure_plugins.rst:222
 msgid "Zeigt den aktuellsten Batteriestatus vom Uploader Telefon."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:223
+#: ../../docs/nightscout/azure_plugins.rst:225
 msgid "``Timeago`` (Time Ago)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:225
+#: ../../docs/nightscout/azure_plugins.rst:227
 msgid ""
 "Zeigt die Zeit seit dem letzten CGM-Eintrag an. Unterstützt die "
 "``TIMEAGO_ENABLE_ALERTS`` [Erweiterte Einstellung] (# extended-"
@@ -4687,11 +4399,11 @@ msgid ""
 " Pushover und IFTTT."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:231
+#: ../../docs/nightscout/azure_plugins.rst:233
 msgid "``Devicestatus`` (Gerätestatus)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:233
+#: ../../docs/nightscout/azure_plugins.rst:235
 msgid ""
 "Wird von ``upbat`` und anderen Plugins verwendet, um "
 "Gerätestatusinformationen anzuzeigen. Unterstützt die "
@@ -4700,21 +4412,21 @@ msgid ""
 "retrospektive Anwendung zu senden und um andere Plugins zu unterstützen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:240
+#: ../../docs/nightscout/azure_plugins.rst:242
 msgid "``Errorcodes`` (CGM-Fehlercodes)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:242
+#: ../../docs/nightscout/azure_plugins.rst:244
 msgid "Erzeugt Alarme für CGM-Codes ``9`` (Sanduhr) und\\ ``10`` (???)."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:244
+#: ../../docs/nightscout/azure_plugins.rst:246
 msgid ""
 "Verwende [erweiterte Einstellungen] (# extended-Einstellungen) um zu "
 "sehen, welche Fehlercodes Benachrichtigungen und Alarme auslösen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:247
+#: ../../docs/nightscout/azure_plugins.rst:249
 msgid ""
 "``ERRORCODES_INFO`` (``1 2 3 4 5 6 7 8``) - Standardmäßig erzeugen die "
 "\"Needs Calibration\" (Blutstropfen) und andere Fehlercodes unter 9 eine "
@@ -4723,7 +4435,7 @@ msgid ""
 " auszuschalten"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:252
+#: ../../docs/nightscout/azure_plugins.rst:254
 msgid ""
 "``ERRORCODES_WARN`` (``off``) - Standardmäßig ist keine Warnung "
 "konfiguriert, die Auswahlmöglichkeiten sind eine durch Leerzeichen "
@@ -4731,7 +4443,7 @@ msgid ""
 "auszuschalten"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:256
+#: ../../docs/nightscout/azure_plugins.rst:258
 msgid ""
 "``ERRORCODES_URGENT`` (``9 10``) - standardmäßig generieren die Sanduhr "
 "und ??? einen dringenden Alarm, die Auswahlmöglichkeiten sind eine durch "
@@ -4739,128 +4451,128 @@ msgid ""
 " auszuschalten"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:262
+#: ../../docs/nightscout/azure_plugins.rst:264
 msgid "``Ar2`` (AR2 Forecasting)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:264
+#: ../../docs/nightscout/azure_plugins.rst:266
 msgid ""
 "Erzeugt Alarme auf Basis von prognostizierten Werten. Siehe [Forecasting "
 "mit AR2 Algorithmus] "
 "(https://github.com/nightscout/nightscout.github.io/wiki/Forecasting)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:268
+#: ../../docs/nightscout/azure_plugins.rst:270
 msgid ""
 "Standardmäßig aktiviert, wenn keine Schwellenwerte festgelegt werden "
 "\\*\\* OR \\*\\* ``ALARM_TYPES`` umfasst\\ ``predict``."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:270
+#: ../../docs/nightscout/azure_plugins.rst:272
 msgid ""
 "Verwende [erweiterte Einstellungen] (# extended-Einstellungen), um das "
 "AR2 Verhalten anzupassen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:273
+#: ../../docs/nightscout/azure_plugins.rst:275
 msgid ""
 "``AR2_USE_RAW`` (``false``) - um für Prognosen ``rawbg`` Werte zu "
 "verwenden, wenn Standardwerte keinen Alarm auslösen"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:275
+#: ../../docs/nightscout/azure_plugins.rst:277
 msgid ""
 "``AR2_CONE_FACTOR`` ( '2') - um die Größe der Kegel anzupassen, benutze "
 "'0' für eine einzelne Zeile"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:279
+#: ../../docs/nightscout/azure_plugins.rst:281
 msgid "``Simplealarms`` (Simple BG Alarme)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:283
+#: ../../docs/nightscout/azure_plugins.rst:285
 msgid ""
 "Verwendet ``BG_HIGH``,\\ ``BG_TARGET_TOP``, ``BG_TARGET_BOTTOM``,\\ "
 "``BG_LOW`` -Schwellenwerte, um Alarme abzugeben."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:285
+#: ../../docs/nightscout/azure_plugins.rst:287
 msgid ""
 "Ist standardmäßig aktiviert, wenn einer dieser Schwellenwerte gesetzt ist"
 " \\*\\* OR \\*\\* ``ALARM_TYPES`` umfasst\\ ``simple``."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:288
+#: ../../docs/nightscout/azure_plugins.rst:290
 msgid "``profile`` (Treatment Profile)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:290
+#: ../../docs/nightscout/azure_plugins.rst:292
 msgid ""
 "Fügen Sie Link zum Profil-Editor hinzu, und geben Sie die Einstellungen "
 "für das Behandlungsprofil ein. Verwendet auch die erweiterte Einstellung:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:294
+#: ../../docs/nightscout/azure_plugins.rst:296
 msgid ""
 "``PROFILE_HISTORY`` (``off``) - mögliche Werte ``on`` oder ``off``. "
 "Aktivieren / Deaktivieren der NS-Fähigkeit zur Protokollierung Ihrer "
 "Profile (noch experimentell)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:297
+#: ../../docs/nightscout/azure_plugins.rst:299
 msgid ""
 "``PROFILE_MULTIPLE`` (``off``) - mögliche Werte ``on`` oder ``off``. "
 "Aktivieren / Deaktivieren der NS-Fähigkeit zum Handhaben und Umschalten "
 "zwischen mehreren Behandlungsprofilen"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:302
+#: ../../docs/nightscout/azure_plugins.rst:304
 msgid "Erweiterte Plugins:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:305
+#: ../../docs/nightscout/azure_plugins.rst:307
 msgid "``Careportal`` (Careportal)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:307
+#: ../../docs/nightscout/azure_plugins.rst:309
 msgid "Eine optionale Form, Therapiemaßnahmen einzugeben."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:310
+#: ../../docs/nightscout/azure_plugins.rst:312
 msgid "``Boluscalc`` (de: Bolus Rechner)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:312
+#: ../../docs/nightscout/azure_plugins.rst:314
 msgid ""
 "Nightscout berechnet anhand bestimmter Vorgaben die zu verabreichende "
 "Bolusmenge."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:316
+#: ../../docs/nightscout/azure_plugins.rst:318
 msgid "``Food`` (de: Nahrungsmittel)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:318
+#: ../../docs/nightscout/azure_plugins.rst:320
 msgid ""
 "Wir können über den ``Nahrungsmittel - Editor`` siehe () Mahlzeiten mit "
 "Angabe von Kohlenhydraten eingeben"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:322
+#: ../../docs/nightscout/azure_plugins.rst:324
 msgid "``rawbg`` (Roh Blutzuckerwerte)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:324
+#: ../../docs/nightscout/azure_plugins.rst:326
 msgid ""
 "Berechnet Roh Blutzuckerwerte mit Sensor und Kalibrierungsaufzeichnungen "
 "und zeigt alternative Werte mit Verzerrungspegel an."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:328
+#: ../../docs/nightscout/azure_plugins.rst:330
 msgid "``Iob`` (en: Insulin-on-Board, de: Wirksames Insulin)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:330
+#: ../../docs/nightscout/azure_plugins.rst:332
 msgid ""
 "Fügt die IOB Pillbox Visualisierung im Browser ein und berechnet das noch"
 " wirksame Bolus Insulin, welches von anderen Plugins verwendet werden "
@@ -4868,11 +4580,11 @@ msgid ""
 "Felder aus dem [Behandlungsprofil] (# behandlungs Profil)."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:336
+#: ../../docs/nightscout/azure_plugins.rst:338
 msgid "``Cob`` (Carbs-on-Board)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:338
+#: ../../docs/nightscout/azure_plugins.rst:340
 msgid ""
 "Fügt die COB Pillbox Visualisierung im Browser ein und berechnet Werte, "
 "die von anderen Plugins verwendet werden können. Verwendet Eingaben "
@@ -4880,11 +4592,11 @@ msgid ""
 "``sens`` Felder aus dem [Behandlungsprofil] (# Behandlungs Profil)."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:344
+#: ../../docs/nightscout/azure_plugins.rst:346
 msgid "``Bwp`` (BolusExpert Vorschau)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:346
+#: ../../docs/nightscout/azure_plugins.rst:348
 msgid ""
 "Dieses Plugin hat erstens den Zweck, Alarme automatisch schlafen zu "
 "legen, wenn das CGM zwar hohe Blutzuckerwerte anzeigt, es aber noch "
@@ -4905,49 +4617,49 @@ msgid ""
 "[erweiterte Einstellung] (# extended-Einstellungen)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:364
+#: ../../docs/nightscout/azure_plugins.rst:366
 msgid ""
 "``BWP_WARN`` (``0.50``) - Wenn ``BWP`` größer ist als der ``BWP_WARN`` "
 "wird ein Warnalarm ausgelöst."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:366
+#: ../../docs/nightscout/azure_plugins.rst:368
 msgid ""
 "``BWP_URGENT`` (``1.00``) - Wenn ``BWP`` größer als dieser Wert ist, "
 "wird\\ ``ein dringender Alarm BWP_URGENT`` ausgelöst."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:368
+#: ../../docs/nightscout/azure_plugins.rst:370
 msgid ""
 "``BWP_SNOOZE_MINS`` (``10``) - Die Anzahl der Minuten, in der kein Alarm "
 "ausgelöst wird, wenn noch genügend IOB vorhanden ist, um eine hohe BG "
 "abzudecken."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:371
+#: ../../docs/nightscout/azure_plugins.rst:373
 msgid ""
 "``BWP_SNOOZE`` - (``0.10``) Wenn BG höher als die ``target_high`` und\\ "
 "``BWP`` < ``BWP_SNOOZE`` Alarme für\\ ``BWP_SNOOZE_MINS`` werden snoozed "
 "ist."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:377
+#: ../../docs/nightscout/azure_plugins.rst:379
 msgid "``Cage`` (en: Cannula Age, de: Pumpenkatheter Setz-Alter)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:379
+#: ../../docs/nightscout/azure_plugins.rst:381
 msgid ""
 "Berechnet die Anzahl der Stunden seit der letzten ``Site Change`` "
 "Eingabe/Bearbeitung, die aufgezeichnet wurde."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:382
+#: ../../docs/nightscout/azure_plugins.rst:384
 msgid ""
 "``CAGE_ENABLE_ALERTS`` (``false``) - Wenn du stattdessen auf ``true`` "
 "einstellst, kannst du dich an einen Katheterwechsel erinnern lassen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:384
+#: ../../docs/nightscout/azure_plugins.rst:386
 msgid ""
 "``CAGE_INFO`` (``44``) - Wenn die hinter ``CAGE_INFO`` eingestellte "
 "Stundenanzahl mit der Zahl seit dem letzten ``Website Change`` "
@@ -4955,14 +4667,14 @@ msgid ""
 "erinnert."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:388
+#: ../../docs/nightscout/azure_plugins.rst:390
 msgid ""
 "``CAGE_WARN`` (``48``) - Wenn die hinter ``CAGE_WARN`` eingestellte "
 "Stundenanzahl mit der Zeit seit dem letzten ``Website Change`` "
 "übereinstimmt, wirst du an den nun fälligen Katheterwechsel erinnert."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:391
+#: ../../docs/nightscout/azure_plugins.rst:393
 msgid ""
 "``CAGE_URGENT`` (``72``) - Wenn die hinter ``CAGE_URGENT`` eingestellte "
 "Stundenanzahl die Zeit seit dem letzten ``Website Change`` erreicht, wird"
@@ -4970,31 +4682,31 @@ msgid ""
 "überfällig ist."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:395
+#: ../../docs/nightscout/azure_plugins.rst:397
 msgid ""
 "``CAGE_DISPLAY`` (``hours``) - Mögliche Werte sind \"Stunden\" oder "
 "\"Tage\". Wenn \"Tage\" ausgewählt ist und das Alter des Katheters größer"
 " ist als 24-Stunden, wird in Tagen und Stunden angezeigt."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:400
+#: ../../docs/nightscout/azure_plugins.rst:402
 msgid "``Sage`` (Sensor-Alter)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:402
+#: ../../docs/nightscout/azure_plugins.rst:404
 msgid ""
 "Berechnet die Anzahl der Tage und Stunden seit der letzten ``Sensor "
 "Starten`` und\\ ``Sensor Change`` Eingabe/Bearbeitung, die aufgezeichnet "
 "wurde."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:406
+#: ../../docs/nightscout/azure_plugins.rst:408
 msgid ""
 "``SAGE_ENABLE_ALERTS`` (``false``) - Stattdessen auf ``true`` "
 "eingestellt, kannst du dich an einen Sensorwechsel erinnern lassen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:408
+#: ../../docs/nightscout/azure_plugins.rst:410
 msgid ""
 "``SAGE_INFO`` (``144``) - Wenn die hinter ``SAGE_INFO`` eingestellte "
 "Stundenanzahl mit der Zeit seit dem letzten dokumentierten Sensorwechsel "
@@ -5002,7 +4714,7 @@ msgid ""
 "Sensorwechsel erinnert."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:412
+#: ../../docs/nightscout/azure_plugins.rst:414
 msgid ""
 "``SAGE_WARN`` (``164``) - Wenn die hinter ``SAGE_WARN`` eingestellte "
 "Stundenanzahl mit der Zeit seit dem letzten Sensorwechsel bzw. -start "
@@ -5010,31 +4722,31 @@ msgid ""
 "erinnert."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:416
+#: ../../docs/nightscout/azure_plugins.rst:418
 msgid ""
 "``SAGE_URGENT`` (``166``) - Wenn die hinter ``SAGE_URGENT`` eingestellte "
 "Stundenanzahl erreicht ist, wird der Benutzer dauerhaft an einen "
 "überfälligen Wechsel/Neustart erinnert."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:421
+#: ../../docs/nightscout/azure_plugins.rst:423
 msgid "``Iage`` (Insulin-Alter)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:423
+#: ../../docs/nightscout/azure_plugins.rst:425
 msgid ""
 "Berechnet die Anzahl der Tage und Stunden seit der letzten ``Insulin "
 "Change`` Eingabe, die aufgezeichnet wurde."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:426
+#: ../../docs/nightscout/azure_plugins.rst:428
 msgid ""
 "``IAGE_ENABLE_ALERTS`` (``false``) - Stattdessen auf ``true`` "
 "eingestellt, kannst du dich an einen Insulinreservoirwechsel erinnern "
 "lassen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:429
+#: ../../docs/nightscout/azure_plugins.rst:431
 msgid ""
 "``IAGE_INFO`` (``44``) - Wenn die hinter ``IAGE_INFO`` eingestellte "
 "Stundenanzahl mit der Zeit seit dem letzten dokumentierten ``Insulin "
@@ -5042,14 +4754,14 @@ msgid ""
 "Reservoirwechsel erinnert."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:433
+#: ../../docs/nightscout/azure_plugins.rst:435
 msgid ""
 "``IAGE_WARN`` (``48``) - Wenn die hinter ``IAGE_WARN`` eingestellte "
 "Stundenanzahl mit der Zeit seit dem letzten ``Insulin Change`` "
 "übereinstimmt, wirst du an den nun fälligen Reservoirwechsel erinnert."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:437
+#: ../../docs/nightscout/azure_plugins.rst:439
 msgid ""
 "``IAGE_URGENT`` (``72``) - Wenn die hinter ``IAGE_URGENT`` eingestellte "
 "Stundenanzahl mit der dokumentierten ``Insulin Change`` Stundenanzahl "
@@ -5057,11 +4769,11 @@ msgid ""
 "erinnert."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:443
+#: ../../docs/nightscout/azure_plugins.rst:445
 msgid "``Treatmentnotify`` (Behandlung Benachrichtigungen)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:445
+#: ../../docs/nightscout/azure_plugins.rst:447
 msgid ""
 "Erzeugt Benachrichtigungen, wenn eine Therapiemaßnahme eingegeben wurde, "
 "und legt Alarme für bestimmte Minuten nach einer Eingabe schlafen. Die "
@@ -5070,11 +4782,11 @@ msgid ""
 "Einstellungen) verändert werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:452
+#: ../../docs/nightscout/azure_plugins.rst:454
 msgid "``Basal`` (Basal-Profil)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:454
+#: ../../docs/nightscout/azure_plugins.rst:456
 msgid ""
 "Fügt ein Textfeld, eine sog. Pillbox, für das Basalinsulin ein, in dem du"
 " die aktuelle Basalrate ablesen kannst. Außerdem ermöglicht es dem "
@@ -5083,17 +4795,17 @@ msgid ""
 "behandlungs Profil). Es nutzt auch die erweiterte Einstellung:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:460
+#: ../../docs/nightscout/azure_plugins.rst:462
 msgid ""
 "``BASAL_RENDER`` (``none``) - Mögliche Werte sind ``none``,\\ ``default``"
 " oder ``icicle`` (invertiert, auf den Kopf gestellt)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:465
+#: ../../docs/nightscout/azure_plugins.rst:467
 msgid "``Bridge`` (Share2Nightscout Brücke)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:467
+#: ../../docs/nightscout/azure_plugins.rst:469
 msgid ""
 "Die Share2Nightscout Bridge Funktionalität ist derzeit nur für Dexcom "
 "Share Benutzer interessant. Die Verbindung zum Dexcom G5 System wird über"
@@ -5102,190 +4814,190 @@ msgid ""
 "Einstellungen erfolgen über die ``Connection Strings``."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:473
+#: ../../docs/nightscout/azure_plugins.rst:475
 msgid "``BRIDGE_USER_NAME`` - Dein Benutzername für den Share-Dienst"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:474
+#: ../../docs/nightscout/azure_plugins.rst:476
 msgid "``BRIDGE_PASSWORD`` - Dein Passwort für den Share-Dienst"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:475
+#: ../../docs/nightscout/azure_plugins.rst:477
 msgid ""
 "``BRIDGE_INTERVAL`` (``150000`` \\* 2,5 Minuten \\*) - Die Wartezeit "
 "zwischen den Updates"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:477
+#: ../../docs/nightscout/azure_plugins.rst:479
 msgid ""
 "``BRIDGE_MAX_COUNT`` ( '1') - Die maximale Anzahl der Datensätze pro "
 "Update"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:479
+#: ../../docs/nightscout/azure_plugins.rst:481
 msgid ""
 "``BRIDGE_FIRST_FETCH_COUNT`` (``3``) - Ändert Brigde\\_Max\\_Count nur "
 "während des ersten Updates"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:481
+#: ../../docs/nightscout/azure_plugins.rst:483
 msgid ""
 "``BRIDGE_MAX_FAILURES`` (``3``) - Die Anzahl der Fehlversuche, bevor "
 "aufgegeben wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:483
+#: ../../docs/nightscout/azure_plugins.rst:485
 msgid ""
 "``BRIDGE_MINUTES`` (``1400``) - Das Zeitfenster für die Suche nach neuen "
 "Updates (Standard ist ein Tag in Minuten)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:487
+#: ../../docs/nightscout/azure_plugins.rst:489
 msgid "``Mmconnect`` (MiniMed Connect-Brücke)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:489
+#: ../../docs/nightscout/azure_plugins.rst:491
 msgid ""
 "Überträgt Echtzeit MiniMed Connect Daten vom Medtronic Carelink-Server an"
 " Nightscout ([mehr lesen] (https://github.com/mddub/minimed-connect-to-"
 "nightscout))"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:493
+#: ../../docs/nightscout/azure_plugins.rst:495
 msgid "``MMCONNECT_USER_NAME`` - Dein Benutzername für CareLink® Connect"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:494
+#: ../../docs/nightscout/azure_plugins.rst:496
 msgid "``MMCONNECT_PASSWORD`` - Dein Passwort für CareLink® Connect"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:495
+#: ../../docs/nightscout/azure_plugins.rst:497
 msgid ""
 "``MMCONNECT_INTERVAL`` (``60000`` \\* 1 Minute \\*) - Anzahl der "
 "Millisekunden zwischen den einzelnen Anfragen an den CareLink® Server"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:497
+#: ../../docs/nightscout/azure_plugins.rst:499
 msgid ""
 "``MMCONNECT_MAX_RETRY_DURATION`` (``32``) - Maximale Gesamtanzahl der "
 "Sekunden, nach denen bei fehlgeschlagenen Anfragen aufgegeben wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:499
+#: ../../docs/nightscout/azure_plugins.rst:501
 msgid ""
 "``MMCONNECT_SGV_LIMIT`` (``24``) - Maximale Anzahl der letzten "
 "Sensorwerte, die bei jeder Anfrage gesendet werden"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:501
+#: ../../docs/nightscout/azure_plugins.rst:503
 msgid ""
 "``MMCONNECT_VERBOSE`` - Setze dies auf\" true \", um Informationen über "
 "CareLink® Anfragen auf der Konsole wiederzugeben."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:503
+#: ../../docs/nightscout/azure_plugins.rst:505
 msgid ""
 "``MMCONNECT_STORE_RAW_DATA`` - Setze dies auf\" true \", um Rohdaten zu "
 "speichern, die von CareLink® als\\ ``Typ: \"carelink_raw\"``\\ "
 "Datenbankeinträge zurück kommen (nützlich für die Entwicklung)."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:509
+#: ../../docs/nightscout/azure_plugins.rst:511
 msgid "``Pump`` (Pumpenüberwachung)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:511
+#: ../../docs/nightscout/azure_plugins.rst:513
 msgid ""
 "Allgemeingültige Pumpenüberwachung für OpenAPS, MiniMed Connect, "
 "RileyLink, t:slim, mit mehr auf dem Weg"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:514
+#: ../../docs/nightscout/azure_plugins.rst:516
 msgid "Erfordert ``DEVICESTATUS_ADVANCED =\" true \"``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:515
+#: ../../docs/nightscout/azure_plugins.rst:517
 msgid ""
 "``PUMP_ENABLE_ALERTS`` (``false``) - Auf ``true`` werden Anzeigen über "
 "die Pumpenbatterie und das -reservoir bereitgestellt."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:517
+#: ../../docs/nightscout/azure_plugins.rst:519
 msgid ""
 "``PUMP_FIELDS`` (``reservoir battery``) - Diese Felder werden "
 "standardmäßig angezeigt. Wähle aus: ``reservoir``,\\ ``battery``, "
 "``clock``,\\ ``status`` und ``device``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:520
+#: ../../docs/nightscout/azure_plugins.rst:522
 msgid ""
 "``PUMP_RETRO_FIELDS`` (``reservoir battery clock``) - Die Textfelder, die"
 " im Retro-Modus angezeigt werden. Jede der oben genannten Möglichkeiten."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:523
+#: ../../docs/nightscout/azure_plugins.rst:525
 msgid ""
 "``PUMP_WARN_CLOCK`` (``30``) - Die Anzahl der Minuten, die verstrichen "
 "sein müssen, bevor ein Alarm ausgelöst wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:525
+#: ../../docs/nightscout/azure_plugins.rst:527
 msgid ""
 "``PUMP_URGENT_CLOCK`` (``60``) - Die Anzahl der Minuten, die verstrichen "
 "sein müssen, bevor ein dringender Alarm ausgelöst wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:527
+#: ../../docs/nightscout/azure_plugins.rst:529
 msgid ""
 "``PUMP_WARN_RES`` (``10``) - Bei Unterschreiten der ausgewählten "
 "Insulinrestmenge im Reservoir wird eine Warnung ausgelöst."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:529
+#: ../../docs/nightscout/azure_plugins.rst:531
 msgid ""
 "``PUMP_URGENT_RES`` ( '5') - Bei Unterschreiten der ausgewählten "
 "Insulinrestmenge wird ein dringender Alarm ausgelöst."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:531
+#: ../../docs/nightscout/azure_plugins.rst:533
 msgid ""
 "``PUMP_WARN_BATT_P`` (``30``) - Bei Unterschreiten der ausgewählten "
 "Restleistung der Pumpenbatterie in % wird eine Warnung ausgelöst."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:533
+#: ../../docs/nightscout/azure_plugins.rst:535
 msgid ""
 "``PUMP_URGENT_BATT_P`` (``20``) - Bei Unterschreiten der ausgewählten "
 "Restleistung der Batterie in % wird ein dringender Alarm ausgelöst."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:535
+#: ../../docs/nightscout/azure_plugins.rst:537
 msgid ""
 "``PUMP_WARN_BATT_V`` (``1.35``) - Bei Unterschreiten der ausgewählten "
 "Restleistung der Pumpenbatterie in Voltzahl (falls Prozent nicht "
 "verfügbar ist) wird eine Warnung ausgelöst."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:538
+#: ../../docs/nightscout/azure_plugins.rst:540
 msgid ""
 "``PUMP_URGENT_BATT_V`` (``1.30``) - Bei Unterschreiten der ausgewählten "
 "Restleistung der Batterie in Voltzahl (falls Prozent nicht verfügbar ist)"
 " wird ein dringender Alarm ausgelöst."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:543
+#: ../../docs/nightscout/azure_plugins.rst:545
 msgid "``Openaps`` (OpenAPS)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:545
+#: ../../docs/nightscout/azure_plugins.rst:547
 msgid "Integrierte OpenAPS Loopüberwachung nutzt diese erweiterten Einstellungen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:548
+#: ../../docs/nightscout/azure_plugins.rst:550
 msgid "``DEVICESTATUS_ADVANCED =\" true \"`` muss gesetzt werden"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:549
+#: ../../docs/nightscout/azure_plugins.rst:551
 msgid ""
 "``OPENAPS_ENABLE_ALERTS`` (``false``) - Auf ``true`` setzen, um "
 "benachrichtigt zu werden, wenn OpenAPS nicht loopt. Wenn du mit OpenAPS "
@@ -5298,7 +5010,7 @@ msgid ""
 "dringender Alarm ausgelöst wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:559
+#: ../../docs/nightscout/azure_plugins.rst:561
 msgid ""
 "``OPENAPS_FIELDS`` (``status-symbol status-label iob meal-assist rssi``) "
 "- Die standardmäßig angezeigten Textfelder. Jedes der folgenden Felder "
@@ -5306,55 +5018,55 @@ msgid ""
 "assist``, ``freq`` und\\ ``rssi``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:564
+#: ../../docs/nightscout/azure_plugins.rst:566
 msgid ""
 "``OPENAPS_RETRO_FIELDS`` (``status-symbol status-label iob meal-assist "
 "rssi``) - Die Felder, die im Retro-Modus angezeigt werden sollen. Jede "
 "der oben genannten Möglichkeiten."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:570
+#: ../../docs/nightscout/azure_plugins.rst:572
 msgid "``loop`` (Loop)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:572
+#: ../../docs/nightscout/azure_plugins.rst:574
 msgid "IOS Loop App-Überwachung, verwendet diese erweiterten Einstellungen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:573
+#: ../../docs/nightscout/azure_plugins.rst:575
 msgid "\\* ``DEVICESTATUS_ADVANCED``\\ (``true``) - als gesetzten Wert"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:575
+#: ../../docs/nightscout/azure_plugins.rst:577
 msgid ""
 "\\* ``LOOP_ENABLE_ALERTS`` (``false``) - Auf ``true`` setzen, um "
 "Benachrichtigungen zu aktivieren, wenn der Loop keine Werte liefert"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:577
+#: ../../docs/nightscout/azure_plugins.rst:579
 msgid ""
 "\\* ``LOOP_WARN`` (``30``) - Die Anzahl der Minuten seit des letzten "
 "Loops, die überschritten werden muss, bevor ein Alarm ausgelöst wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:580
+#: ../../docs/nightscout/azure_plugins.rst:582
 msgid ""
 "\\* ``LOOP_URGENT`` (``60``) - Die Anzahl der Minuten seit des letzten "
 "Loops, die überschritten werden muss, bevor ein dringender Alarm "
 "ausgelöst wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:582
+#: ../../docs/nightscout/azure_plugins.rst:584
 msgid ""
 "\\* Füge ``loop`` zu ``SHOW_FORECAST`` hinzu, um prognostizierten BZ "
 "anzuzeigen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:585
+#: ../../docs/nightscout/azure_plugins.rst:587
 msgid "Extended Settings"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:591
+#: ../../docs/nightscout/azure_plugins.rst:593
 msgid ""
 "Einige Plugins unterstützen zusätzliche Konfigurationen mit zusätzlichen "
 "Umgebungsvariablen. Diese werden mit dem Namen des Plugins und einem "
@@ -5363,37 +5075,37 @@ msgid ""
 "``extendedSettings.exampleValue`` zur Verfügung stellen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:594
+#: ../../docs/nightscout/azure_plugins.rst:596
 msgid ""
 "Plugins haben nur Zugriff auf ihre eigenen erweiterten Einstellungen, "
 "alle erweiterten Einstellungen von Client-Plugins werden an den Browser "
 "gesendet."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:597
+#: ../../docs/nightscout/azure_plugins.rst:599
 msgid "Pushover"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:600
+#: ../../docs/nightscout/azure_plugins.rst:602
 msgid ""
 "Zusätzlich zu den normalen web-basierten Alarmen können auch [Pushover] "
 "Alarme (https://pushover.net/) eingerichtet werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:602
+#: ../../docs/nightscout/azure_plugins.rst:604
 msgid ""
 "Zuerst installierst du die Pushover-Anwendung auf deinem iOS oder "
 "Android-Gerät und erstellst ein Konto ."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:604
+#: ../../docs/nightscout/azure_plugins.rst:606
 msgid ""
 "Beim Konto Login in [Pushover] (https://pushover.net/) findest du oben "
 "links deinen User Key, du benötigst diesen Key und einen Anwendungs API "
 "Token / Schlüssel, um dieses Setup abzuschließen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:608
+#: ../../docs/nightscout/azure_plugins.rst:610
 msgid ""
 "Gehe auf [Erstellen eines Pushover Application] "
 "(https://pushover.net/apps/build). Du benötigst nur einen Namen für die "
@@ -5401,17 +5113,17 @@ msgid ""
 "ignorieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:613
+#: ../../docs/nightscout/azure_plugins.rst:615
 msgid "Pushover ist mit folgenden Umgebungsvariablen konfiguriert:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:615
+#: ../../docs/nightscout/azure_plugins.rst:617
 msgid ""
 "``ENABLE`` -``pushover`` sollte zu der Liste der Plugins hinzugefügt "
 "werden, zum Beispiel: ``ENABLE =\" Pushover \"``."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:617
+#: ../../docs/nightscout/azure_plugins.rst:619
 msgid ""
 "``PUSHOVER_API_TOKEN`` - Um Pushover Benachrichtigungen zu ermöglichen, "
 "ist dieses Token speziell für deine erstellte Anwendung [Pushover] "
@@ -5419,7 +5131,7 @@ msgid ""
 " Pushover) \\*\\* \\* unten."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:621
+#: ../../docs/nightscout/azure_plugins.rst:623
 msgid ""
 "``PUSHOVER_USER_KEY`` - Deinen Pushover Benutzerschlüssel findest du in "
 "der oberen linken Ecke der [Pushover] (https://pushover.net/) Seite. Es "
@@ -5429,7 +5141,7 @@ msgid ""
 "Um ``INFO`` Level pushes zu deaktivieren, stelle dies auf\\ ``off``."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:628
+#: ../../docs/nightscout/azure_plugins.rst:630
 msgid ""
 "``PUSHOVER_ALARM_KEY`` - Ein optionaler Pushover Benutzer- / "
 "Gruppenschlüssel wird für systemweite Alarme (level>``WARN``) verwendet. "
@@ -5441,7 +5153,7 @@ msgid ""
 "Alarmpushes setze dies auf ``off``."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:636
+#: ../../docs/nightscout/azure_plugins.rst:638
 msgid ""
 "``PUSHOVER_ANNOUNCEMENT_KEY`` - Ein optionaler Pushover Benutzer- / "
 "Gruppenschlüssel wird für systemweite vom Benutzer erzeugte Ankündigungen"
@@ -5451,58 +5163,58 @@ msgid ""
 "Schlüsseln. Zum Deaktivieren setzt du dies auf ``off``."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:642
+#: ../../docs/nightscout/azure_plugins.rst:644
 msgid ""
 "``BASE_URL`` - Wird für Pushover Rückrufe genutzt, in der Regel die URL "
 "deiner Nightscout Website, verwende dafür möglichst https."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:644
+#: ../../docs/nightscout/azure_plugins.rst:646
 msgid ""
 "``API_SECRET`` - wird für die Pushover Rückrufanfrage als Bestätigungen "
 "verwendet für deine Identifizierung."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:649
+#: ../../docs/nightscout/azure_plugins.rst:651
 msgid ""
 "Wenn du keine Infolevel Benachrichtigungen (treatments, "
 "Therapiemaßnahmen) erhalten möchtest, verwende ``PUSHOVER_USER_KEY =\" "
 "off \"``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:651
+#: ../../docs/nightscout/azure_plugins.rst:653
 msgid ""
 "Wenn du keinen Alarm über Pushover erhalten möchtest, verwende "
 "``PUSHOVER_ALARM_KEY =\" off \"``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:653
+#: ../../docs/nightscout/azure_plugins.rst:655
 msgid ""
 "Wenn du keine Mitteilung über Pushover erhalten möchtest, verwende "
 "``PUSHOVER_ANNOUNCEMENT_KEY =\" off \"``"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:655
+#: ../../docs/nightscout/azure_plugins.rst:657
 msgid ""
 "Wenn nur ``PUSHOVER_USER_KEY`` gesetzt ist, wird es für alle Info-"
 "Benachrichtigungen, Alarme und Mitteilungen verwendet werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:658
+#: ../../docs/nightscout/azure_plugins.rst:660
 msgid "Für Test / Entwicklung versuche [localtunnel] (http://localtunnel.me/)."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:660
+#: ../../docs/nightscout/azure_plugins.rst:662
 msgid "#### IFTTT Maker"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:662
+#: ../../docs/nightscout/azure_plugins.rst:664
 msgid ""
 "Zusätzlich zu den normalen web-basierten Alarmen und zu Pushover, gibt es"
 " auch die Integration für [IFTTT Maker] (https://ifttt.com/maker)."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:664
+#: ../../docs/nightscout/azure_plugins.rst:666
 msgid ""
 "Mit Maker kannst du dich mit allen anderen [IFTTT Kanälen] "
 "(https://ifttt.com/channels) verknüpfen. Zum Beispiel kannst du einen "
@@ -5510,29 +5222,29 @@ msgid ""
 " eine E-Mail oder eine SMS senden und vieles mehr."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:669
+#: ../../docs/nightscout/azure_plugins.rst:671
 msgid ""
 "Setup-IFTTT Konto: [Anmelden] (https://ifttt.com/login) oder [ein Konto "
 "erstellen] (https://ifttt.com/join)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:671
+#: ../../docs/nightscout/azure_plugins.rst:673
 msgid ""
 "Finde deinen Geheimschlüssel auf der [Hersteller Seite] "
 "(https://ifttt.com/maker)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:673
+#: ../../docs/nightscout/azure_plugins.rst:675
 msgid "Konfiguriere Nightscout mithilfe dieser Umgebungsvariablen:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:675
+#: ../../docs/nightscout/azure_plugins.rst:677
 msgid ""
 "``ENABLE`` -``maker`` sollte zu der Liste der Plugins hinzugefügt werden,"
 " zum Beispiel: ``ENABLE =\" maker \"``."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:677
+#: ../../docs/nightscout/azure_plugins.rst:679
 msgid ""
 "``MAKER_KEY`` - Setze diesen auf deinen Geheimschlüssel, siehe Schritt 2,"
 " zum Beispiel:\\ ``MAKER_KEY = \"abcMyExampleabc123defjt1DeNSiftttmak-"
@@ -5540,7 +5252,7 @@ msgid ""
 " von Schlüsseln."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:682
+#: ../../docs/nightscout/azure_plugins.rst:684
 msgid ""
 "``MAKER_ANNOUNCEMENT_KEY`` - Ein optionaler Maker Schlüssel wird für "
 "systemweite Benutzer erzeugt Ankündigungen verwendet werden. Wenn nicht "
@@ -5550,28 +5262,28 @@ msgid ""
 "eine durch Leerzeichen getrennte Liste von Schlüsseln unterstützen."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:690
+#: ../../docs/nightscout/azure_plugins.rst:692
 msgid ""
 "[Erstellen Sie ein Rezept] (https://ifttt.com/myrecipes/personal/new) "
 "oder siehe [ausführliche Anleitung] (lib / plugins / maker-setup.md # "
 "create-a-Rezept)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:694
+#: ../../docs/nightscout/azure_plugins.rst:696
 msgid ""
 "Plugins können benutzerdefinierte Ereignisse erstellen, aber alle "
 "Ereignisse an Hersteller gesendet werden mit ``ns-`` vorangestellt "
 "werden. Die Kern Ereignisse sind:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:698
+#: ../../docs/nightscout/azure_plugins.rst:700
 msgid ""
 "``Ns-event`` - Dieses Ereignis wird für alle Alarme und "
 "Benachrichtigungen an den Hersteller-Service gesendet. Das ist gut, "
 "fangen alle Ereignis für die allgemeine Protokollierung."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:701
+#: ../../docs/nightscout/azure_plugins.rst:703
 msgid ""
 "``Ns-allclear`` - Dieses Ereignis wird an den Hersteller-Service gesendet"
 " wird, wenn ein Alarm ack'd wurde oder wenn der Server startet ohne "
@@ -5579,65 +5291,65 @@ msgid ""
 "grün."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:705
+#: ../../docs/nightscout/azure_plugins.rst:707
 msgid ""
 "``Ns-info`` - Plugins, die Benachrichtigungen auf der Infoebene "
 "generieren wird dieses Ereignis dazu führen, auch ausgelöst werden. Es "
 "wird zusätzlich zu ``ns-event`` gesendet werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:708
+#: ../../docs/nightscout/azure_plugins.rst:710
 msgid ""
 "``Ns-warning`` - Alarme auf der Warnstufe mit Ursache dieses Ereignis "
 "auch ausgelöst werden. Es wird zusätzlich zu ``ns-event`` gesendet "
 "werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:711
+#: ../../docs/nightscout/azure_plugins.rst:713
 msgid ""
 "``Ns-urgent`` - Alarme auf dringendes Ebene mit Ursache dieses Ereignis "
 "auch ausgelöst werden. Es wird zusätzlich zu ``ns-event`` gesendet "
 "werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:714
+#: ../../docs/nightscout/azure_plugins.rst:716
 msgid ""
 "siehe die [vollständige Liste der Veranstaltungen] (lib / plugins / "
 "maker-setup.md # events)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:718
+#: ../../docs/nightscout/azure_plugins.rst:720
 msgid "Behandlungsprofil"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:720
+#: ../../docs/nightscout/azure_plugins.rst:722
 msgid ""
 "Einige der Plugins verwenden ein Behandlungsprofil, das mit dem "
 "***Profileditor*** bearbeitet werden kann"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:723
+#: ../../docs/nightscout/azure_plugins.rst:725
 msgid "Behandlungsprofil - Attribute:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:725
+#: ../../docs/nightscout/azure_plugins.rst:727
 msgid "\\* ``timezone`` (Zeitzone) - lokale Zeitzone. Sollte eingestellt werden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:727
+#: ../../docs/nightscout/azure_plugins.rst:729
 msgid ""
 "\\* ``units`` (Profil - Einheiten) - Blutglukoseeinheiten, die im Profil "
 "verwendet werden, entweder \"mgdl\" oder \"mmol\""
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:730
+#: ../../docs/nightscout/azure_plugins.rst:732
 msgid ""
 "\\* ``dia`` (Insulinwirkzeit) - Wert sollte die Dauer der Insulinwirkung "
 "bei der Berechnung, wie viel Insulin aktiv bleibt, sein. Die "
 "Voreinstellung beträgt 3 Stunden."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:733
+#: ../../docs/nightscout/azure_plugins.rst:735
 msgid ""
 "\\* ``carbs_hr`` (KH pro Stunde) - Die Anzahl der Kohlenhydrate, die pro "
 "Stunde verarbeitet werden, näheres siehe [#DIYPS] "
@@ -5645,96 +5357,344 @@ msgid ""
 "rate-diyps-lessons-learned/)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:735
+#: ../../docs/nightscout/azure_plugins.rst:737
 msgid "``carbratio`` (KH Faktor) - Gramm pro einheit Insulin"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:736
+#: ../../docs/nightscout/azure_plugins.rst:738
 msgid ""
 "``sens`` (Insulin Sensitivität) - Um wieviel eine Einheit Insulin den BZ "
 "senkt"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:738
+#: ../../docs/nightscout/azure_plugins.rst:740
 msgid "``basal`` Die Basalrate, welche zur Pumpe gesendet wird"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:739
+#: ../../docs/nightscout/azure_plugins.rst:741
 msgid "``target_high`` - Oberes Ziel für Korrekturbolus."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:740
+#: ../../docs/nightscout/azure_plugins.rst:742
 msgid "``target_low`` - Unteres Ziel für Korrekturbolus."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:742
+#: ../../docs/nightscout/azure_plugins.rst:744
 msgid ""
 "Einige Beispiele findet man [hier] (https://github.com/nightscout/cgm-"
 "remote-monitor/blob/master/example-profiles.md)"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:746
+#: ../../docs/nightscout/azure_plugins.rst:748
 msgid "Setting environment variables"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:748
+#: ../../docs/nightscout/azure_plugins.rst:750
 msgid "Einfach zu emulieren auf der Kommandozeile:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:755
+#: ../../docs/nightscout/azure_plugins.rst:757
 msgid "Von nun an kann der Befehl ausgeführt werden:"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:761
+#: ../../docs/nightscout/azure_plugins.rst:763
 msgid "Ein Hosting Provider bietet evtl. ein GUI zur Eingabe an."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:764
+#: ../../docs/nightscout/azure_plugins.rst:766
 msgid "Vagrant installieren"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:767
+#: ../../docs/nightscout/azure_plugins.rst:769
 msgid ""
 "Optionally, use Vagrant with the included Vagrantfile and setup.sh to "
 "install OS and node packages to a virtual machine."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:770
+#: ../../docs/nightscout/azure_plugins.rst:772
 msgid ""
 "Optional können Sie [Vagrant] (https://www.vagrantup.com/) mit der "
 "mitgelieferten ``Vagrantfile`` und ``setup.sh`` verwenden, um OS- und "
 "Knotenpakete auf einer virtuellen Maschine zu installieren."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:772
+#: ../../docs/nightscout/azure_plugins.rst:774
 msgid "host$ vagrant up"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:773
+#: ../../docs/nightscout/azure_plugins.rst:775
 msgid "host$ vagrant ssh"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:774
+#: ../../docs/nightscout/azure_plugins.rst:776
 msgid "vm$ setup.sh"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:777
+#: ../../docs/nightscout/azure_plugins.rst:779
 msgid ""
 "Das Setup-Skript installiert die Betriebssystempakete und führt dann die "
 "Installation von npm durch."
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:779
+#: ../../docs/nightscout/azure_plugins.rst:781
 msgid ""
 "The Vagrant VM serves to your host machine only on 192.168.33.10, you can"
 " access the web interface on http://192.168.33.10:1337"
 msgstr ""
 
-#: ../../docs/nightscout/azure_plugins.rst:781
+#: ../../docs/nightscout/azure_plugins.rst:783
 msgid ""
 "Die Vagrant VM dient nur auf Ihrem Host-Computer mit Beispiel IP "
 "192.168.33.10, man kann auf das Web-Interface über "
 "http://192.168.33.10:1337 zugreifen."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:4
+msgid "Der Deploy Azure Button"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:6
+msgid ""
+"Die Nightscout Website lässt sich mit vielen Standardeinstellungen "
+"beschleunigt installieren."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:9
+msgid ""
+"Wir Starten mit der Anmeldung in in Github an, navigieren in unserer "
+"Repository und den Branch, welchen wir installieren wollen."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:12
+msgid "Weiter Klicken auf das **Deploy to Azure** Symbol:"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:14
+msgid "|azure_unbeaufsichtigt|"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:16
+msgid ""
+"Wir loggen uns bei Azure ein (folgt den angezeigten Anweisungen, um "
+"eingeloggt zu werden). (Wenn wir noch kein Azure-Konto haben, sollten wir"
+" das Azure-Konto zunächst separat hinzufügen und dann wieder in diese "
+"Sequenz von Schritten zurückkehren."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:21
+msgid ""
+"Es ist möglich, das Konto an dieser Stelle einzurichten, aber es kann "
+"weniger verwirrend sein, wenn wir das Konto vorher erstellen.)"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:24
+msgid ""
+"Der Bildschirm **Deploy to Azure** wird mit allen Optionen geladen, die "
+"wir (am Anfang) für unsere Website konfigurieren können. (Wir können "
+"dieses später bei Bedarf ändern.)"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:28
+msgid "Es erscheint diese Web - Maske:"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:30
+msgid "|azure_deploy_param|"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:32
+msgid ""
+"Wir stellen sicher, dass das Abonnement ``Pay-as-you-go zeigt``. (Wenn "
+"das Konto neu angelegt ist, kann es stattdessen die kostenlose "
+"Testversion zeigen, und wir müssen dieses ändern, bevor der Testphase "
+"endet.)"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:37
+msgid ""
+"Wenn eine Ressourcengruppe im Dropdown-Menü aufgelistet ist, wählen wir "
+"sie aus. Ansonsten wählen wir ``Create New`` und akzeptieren oder "
+"ersetzen den \"neuen\" Ressourcengruppennamen im Feld ``Resource Group "
+"Name``."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:42
+msgid ""
+"Wir wählen unseren Site-Namen. Ein Standardname wird bereits im Feld "
+"angezeigt. Wir können ihn mit dem gewünschten Namen ersetzen. Was wir "
+"hier eingeben, wird der \"Name\" unserer Nightscout-Website (und wird der"
+" Schlüsselteil Ihrer Nightscout-URL) sein. Der Name unserer Website kann "
+"nicht geändert werden. Wenn wir später einen anderen Namen verwenden "
+"möchten, müssen wir eine neue Website erstellen."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:49
+msgid ""
+"**Api Secret:** API Secret Wert, bleibt der Wert unter 12 Zeichen, bricht"
+" die Installation ab."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:52
+msgid "**Language:** Standart Wert ist **en**, bitte in **de** wechseln."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:54
+msgid "|grilledcheese-deploytoazure-panel-sitename|"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:56
+msgid ""
+"Wir wählen im Dropdown-Menü den Standort aus. (Dieser Standort muss nicht"
+" mit unserem tatsächlichen geografischen Standort übereinstimmen. ``North"
+" Europe`` ist für Deutschland zu empfehlen.)"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:60
+msgid ""
+"Wir stellen sicher, dass ``Free`` im Sku-Dropdown-Menü ausgewählt ist. "
+"(Dies ist die \"kostenlose Variante\" von Azure.)"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:63
+msgid "Wir geben jetzt die mongo (mLab) URI in das Feld ``Mongo-Connection`` ein."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:66
+msgid ""
+"Die mLab URI verwendet die Syntax, die in diesem Beispiel gezeigt wird, "
+"wir müssen unsere \"EIGEN-Informationen\" ausfüllen, \"nicht\" die "
+"Beispielwerte, die hier gezeigt werden:"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:70
+msgid "``Mongodb://databaseUserName:databaseUserPassword@ds012345.mlab.com:12345/databaseName``"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:72
+msgid "Beispielsweise:"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:74
+msgid "``Mongodb://sallyuser:sallypassword@ds012345.mlab.com:12345/mycgm``"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:76
+msgid "Wir wählen mg / dl oder mmol aus dem Dropdown-Menü Display Units."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:78
+msgid ""
+"In das Api Secret-Feld geben wir das minimales ``API-SECRET`` mit "
+"\"mindestens 12 Zeichen\" ein. Zeichen sind frei wählbar, aber es muss "
+"mindestens 12 Zeichen lang sein."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:82
+msgid ""
+"Viele der anderen Variablen auf dem Bereitstellungsbildschirm sind "
+"optional. Wenn wir nicht wissen, was eine Variable bedeutet, können wir "
+"im Kapitel **Azure Plugins** Hilfe finden."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:86
+msgid ""
+"Die ENABLE-Variable wird auf dieser einstufigen Implementierung mit "
+"vielen häufig verwendeten Features vorbelegt. Wenn wir der Werte-"
+"Zeichenfolge etwas hinzufügen möchten, setzen wir ein Leerzeichen nach "
+"dem letzten Zeichen im String und geben einen neuen Wert ein (z. B. "
+"Bridge für Benutzer von Dexcom G4 Share / G5-Bridge-Sites oder Pushover "
+"für Pushover-Benachrichtigungen)."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:93
+msgid ""
+"Im Feld Show_plugins wird \"careportal\" vorgefüllt. In diesem Feld "
+"aufgelistete Plugins sind immer auf der Website sichtbar, nn sie müssten "
+"ansonsten innerhalb des Einstellungsbereichs des einzelnen Browsers "
+"aktiviert werden. Wenn wir möchten, dass iage, cage, sage, bwp und rawbg "
+"\"immer sichtbar\" sind, dann listen wir sie in diesem Feld in einer "
+"durch Leerzeichen getrennten Liste auf. (Hier können auch andere Werte "
+"eingegeben werden, ua bwp, boluscalc usw.)"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:101
+msgid "Wir klicken auf die Schaltfläche ``Next``:"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:103
+msgid "|grilledcheese-next.png|"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:105
+msgid ""
+"Der nächste Bildschirm bestätigt, dass eine \"Website\" bereitgestellt "
+"wird. Wir klicken Sie auf ``Deploy``. (Wenn wir zum vorherigen Bildschirm"
+" zurückkehren müssen, klicken wir auf \"Setup\".)"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:109
+msgid "|grilledcheese-deploy|"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:111
+msgid "Beim nächsten Schritt sehen wir den Fortschritt. **Sei geduldig :)**."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:113
+msgid "|grilledcheese-deployment|"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:115
+msgid ""
+"Wenn die Bereitstellung abgeschlossen ist (und erfolgreich), sehen wir "
+"eine abschließende Zeile, die über Links verfügt, die uns erlauben, "
+"unsere Website zu verwalten oder nach yoursiteURL zu browsen. Unsere "
+"Nightscout-URL verwendet dieses Format: "
+"http://YOURWEBSITENAME.azurewebsites.net."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:121
+msgid "|grilledcheese-success|"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:123
+msgid ""
+"Wir Klicken auf unsere Website-URL, um die Website zu öffnen. Wenn die "
+"Bereitstellung erfolgreich war und unsere **Mlab-Informationen** korrekt "
+"eingegeben wurden, sollten wir eine schwarze Nightscout-Website sehen. "
+"(Wenn unsere Website noch keine Daten enthält, wird es eine schwarze "
+"Website mit Zeit und Bindestrichen oder Zeit und das Wort "
+"**undefiniert**."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:130
+msgid ""
+"Wenn wir unsere Uploader-App noch nicht installiert und konfiguriert "
+"haben, können wir dieses jetzt tun. (Wenn wir ein kabelgebundenes Rig "
+"verwenden, bedeutet dies, dass wir die Nightscout App installieren "
+"müssen. Wenn wir einen anderen Uploader verwenden oder die Bridge "
+"konfigurieren, kehren wir zu den Grundeinstellungen für unser spezielles "
+"Setup zurück und fahren mit dem nächsten Schritt fort.) Wir werden keine "
+"Daten sehen Auf der Nightscout-Website, bis die Uploader-App (oder "
+"Bridge) konfiguriert ist."
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:139
+msgid ""
+"**Wir bestätigen, das unsere Website ist als kostenlose Website "
+"konfiguriert ist.**"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:142
+msgid ""
+"Wenn unser Azure Konto neu ist und wir während des Setups keine Pay-As-"
+"You-Go gewählt haben, haben wir 30 Tage Zeit, die Site in Pay-As-You-Go "
+"zu konvertieren. Wir empfehlen, die Website-Einstellungen zu überprüfen, "
+"indem wir Folgendes überprüfen:"
+msgstr ""
+
+#: ../../docs/nightscout/deploy_azure.rst:152
+msgid "|azure-new-reviewfree|"
 msgstr ""
 
 #: ../../docs/nightscout/github.rst:2
@@ -5896,8 +5856,7 @@ msgid ""
 "ist, anderen ein Verzeichnis mit Dateien zur Verfügung zu stellen, damit "
 "man gemeinsam daran arbeiten kann. Nightscout besteht aus vielen Plugins "
 "zur individuellen Konfiguration. Die Plugins mit Parametern sind im "
-"Kapitel `Konfiguration der Nightscout Plugins "
-"<../nightscout/azure_plugins.md>`__ beschrieben."
+"Kapitel :ref:`Nightscout_Plugins` beschrieben."
 msgstr ""
 
 #: ../../docs/nightscout/index.rst:24
@@ -5923,65 +5882,60 @@ msgstr ""
 msgid ""
 "Die Nightscout Website lässt sich fast vollkommen automatisiert "
 "einrichten. Dieses sowohl mit **Azure** als auch mit **Heroku** als "
-"Provider. Dieses ist in Kapitel ::Der Deploy to Azure Button::_ .._::Der "
-"Deploy to Azure Button:: beschrieben."
-msgstr ""
-
-#: ../../docs/nightscout/index.rst:43
-msgid "**Lokale Installation:**"
+"Provider. Dieses ist in Kapitel :ref:`Der_Deploy_Azure_Button` "
+"beschrieben."
 msgstr ""
 
 #: ../../docs/nightscout/index.rst:45
+msgid "**Lokale Installation:**"
+msgstr ""
+
+#: ../../docs/nightscout/index.rst:47
 msgid ""
 "Nightscout lässt sich auch lokal, z.B. auf einem Rasberry PI "
 "installieren. Dieses hat den Vorteil, das keine Internetverbindung zum "
 "Auslesen von Daten erforderlich ist. Die mongodb, ein Webservice und die "
 "Website müssen dazu installiert und konfiguriert werden. Dieses ist in "
-"Kapitel `Lokale Installationen "
-"<../nightscout/lokale_installationen.md>`__ beschrieben. Es steht am "
-"Anfang und wird weiter bearbeitet."
+"Kapitel :ref:`local_installations` beschrieben. Es steht am Anfang und "
+"wird weiter bearbeitet."
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:53
+#: ../../docs/nightscout/index.rst:55
 msgid ""
 "**Klassisch:** Die klassische Einrichtung erfordert das manuelle Anlegen "
-"der Azure Website mit allen Einstellungen. Dieses ist in Kapitel `Azure "
-"<../nightscout/azure.md>`__ beschrieben."
+"der Azure Website mit allen Einstellungen. Dieses ist in Kapitel "
+":ref:`azure_classic` beschrieben."
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:57
+#: ../../docs/nightscout/index.rst:60
 msgid "Ein Schaubild verdeutlicht die Zusammmenhänge:"
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:59
+#: ../../docs/nightscout/index.rst:62
 msgid "|nightscout scheme|"
 msgstr ""
 
-#: ../../docs/nightscout/index.rst:64
-msgid "**Contents:**"
-msgstr "**Inhaltsverzeichnis:**"
-
-#: ../../docs/nightscout/lokale_installationen.rst:2
+#: ../../docs/nightscout/lokale_installationen.rst:4
 msgid "Installation ohne Cloud Service Provider"
 msgstr ""
 
-#: ../../docs/nightscout/lokale_installationen.rst:4
+#: ../../docs/nightscout/lokale_installationen.rst:6
 msgid ""
 "Nightscout lässt sich lokal installieren, das beteutet die Website liegt "
 "auf einem eigenen Server. Z.B. auf einem Rasberry PI."
 msgstr ""
 
-#: ../../docs/nightscout/lokale_installationen.rst:7
+#: ../../docs/nightscout/lokale_installationen.rst:9
 msgid "**Windows**"
 msgstr ""
 
-#: ../../docs/nightscout/lokale_installationen.rst:9
+#: ../../docs/nightscout/lokale_installationen.rst:11
 msgid ""
 "Folgender Link beschrreibt die Installation und Konfiguration eines "
 "windows server 2012, IIS und Nightscout Website (englische Version):"
 msgstr ""
 
-#: ../../docs/nightscout/lokale_installationen.rst:12
+#: ../../docs/nightscout/lokale_installationen.rst:14
 msgid ""
 "`Nightscout on Windows Server <https://github.com/jaylagorio/Nightscout-"
 "on-Windows-Server>`__"
@@ -6342,75 +6296,64 @@ msgid ""
 "der Integration von **OpenAPS** wird der gesamte Verlauf der "
 "Pumpensteuerung mit temporären Basalraten dargestellt. Der gesamte CGM - "
 "Verlauf wird online dargestellt und zyklisch aktualisiert. Es gibt "
-"umfangreiche `Einstellungsmoeglichkeiten <../nightscout/settings.md>`__ "
-"für die Website Das `Behandlungsportal <nightscout/care_portal.md>`__ "
-"bietet eine umfängliche Auswahl an Behandlungsdaten. Über den `Bolus "
-"Rechner <nightscout/boluscalculator.md>`__ können für Mahlzeiten "
-"abzugebende Boluseinheiten berechnet werden."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:19
-msgid ""
-"Das `Reporting <../nightscout/settings.md>`__ bietet die Möglichkeit, die"
-" Daten auszuwerten und für andere zur Analyse auszugeben. Mit dem "
-"`Profileditor <../nightscout/settings.md>`__ hat man die Möglichkeit, "
-"Parameter in unterschiedlichen Profilen abzuspeichern, die z.B. für die "
+"umfangreiche **Einstellungsmoeglichkeiten** für dieWebsite. Das "
+"**Behandlungsportal**  bietet eine umfängliche Auswahl an "
+"Behandlungsdaten. Über den **Bolus Rechner**  können für Mahlzeiten "
+"abzugebende Boluseinheiten berechnet werden. Das **Reporting**  bietet "
+"die Möglichkeit,die Daten auszuwerten und für andere zur Analyse "
+"auszugeben. Mit dem **Profileditor** hat man die Möglichkeit, Parameter "
+"in unterschiedlichen Profilen abzuspeichern, die z.B. für die "
 "Pumpensteuerung benötigt werden. Die Grafik wird standardmäßig alle 60 "
 "Sekunden aktualisiert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:26
+#: ../../docs/nightscout/nightscout_website.rst:21
 msgid ""
 "Möchte man sich die FGM/CGM - Werte anzeigen lassen, so sind die "
-"Einstellungen zum Übertragen der Daten in der Uploader-App (`Xdrip "
-"<../grundlagen/xdrip/xdrip_app.md>`__, NightScout-Uploader oder Glimp) "
-"erforderlich."
+"Einstellungen zum Übertragen der Daten in der Uploader-App :ref:`xDrip`, "
+"NightScout-Uploader oder Glimp) erforderlich."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:31
+#: ../../docs/nightscout/nightscout_website.rst:26
 msgid ""
 "Ein Beispiel für eine mögliche Anbindung eines CGM Systems an die "
 "Nightscout Website:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:34
+#: ../../docs/nightscout/nightscout_website.rst:29
 msgid "**Kommunikation:**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:36
+#: ../../docs/nightscout/nightscout_website.rst:31
 msgid "|nightscout_principle|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:38
-msgid "Wir schauen uns zunächst die `Haupt Seite <nightscout/main_page.md>`__ an."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:43
+#: ../../docs/nightscout/nightscout_website.rst:36
 msgid "Haupt Seite"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:45
+#: ../../docs/nightscout/nightscout_website.rst:38
 msgid ""
 "Nightscout ist seit Oktober 2016 in der Version **0.9** - **Grilled "
 "Cheese** verfügbar. Wer Vorgängerversionen nutzt, muss Einstellungen für "
 "die Website in Azure oder Heroku überprüfen und ergänzen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:49
+#: ../../docs/nightscout/nightscout_website.rst:42
 msgid ""
 "Variable unter den App - Einstellungen zum Hinzufügen: "
 "``AUTH_DEFAULT_ROLES`` mit ``readable``, ``status-only`` als mögliche "
 "Werte. devicestatus-Upload"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:54
+#: ../../docs/nightscout/nightscout_website.rst:47
 msgid ""
 "Wenn wir die Website aktualisieren und feststellen, dass Dinge, die wir "
 "aktiviert haben, nicht richtig angezeigt werden (wie boluscalc), bitte "
 "folgendes überprüfen:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:58
+#: ../../docs/nightscout/nightscout_website.rst:51
 msgid ""
 "**Bitte Sicherstellen, dass es nur eine die ENABLE - Zeile in den "
 "gesamten Einstellungen der Website gibt. (Das bedeutet nur ein einziges "
@@ -6420,11 +6363,11 @@ msgid ""
 "anschließend die Website Stoppen und Starten.**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:66
+#: ../../docs/nightscout/nightscout_website.rst:59
 msgid "**Grilled Cheese** benötigt ein **Profil**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:68
+#: ../../docs/nightscout/nightscout_website.rst:61
 msgid ""
 "Wenn wir zuvor kein Profil auf der Website eingerichtet haben, werden wir"
 " beim ersten Aufruf der Website aufgefordert,ein Profil zu erstellen. Wir"
@@ -6438,87 +6381,87 @@ msgid ""
 "nun die Website öffnen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:79
+#: ../../docs/nightscout/nightscout_website.rst:72
 msgid ""
 "Wir sehen uns nun die **Hauptseite:** an. Die Grafik wird alle 60 "
 "Sekunden aktualisiert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:82
+#: ../../docs/nightscout/nightscout_website.rst:75
 msgid "|nightscout_base_site|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:84
+#: ../../docs/nightscout/nightscout_website.rst:77
 msgid "Was sehen wir ?"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:86
+#: ../../docs/nightscout/nightscout_website.rst:79
 msgid "Zeit seit der Letzten CGM Sensor - Daten - Übertragung"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:87
+#: ../../docs/nightscout/nightscout_website.rst:80
 msgid "Batterie - Ladezustand des Smartphones"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:88
+#: ../../docs/nightscout/nightscout_website.rst:81
 msgid "Plugins für die Pumpensteuerung"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:89
+#: ../../docs/nightscout/nightscout_website.rst:82
 msgid "Zeitrahmen der Darstellung von Behandlungsdaten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:90
+#: ../../docs/nightscout/nightscout_website.rst:83
 msgid "aktueller BZ - Wert"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:91
+#: ../../docs/nightscout/nightscout_website.rst:84
 msgid "Trendpfeilangabe"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:92
+#: ../../docs/nightscout/nightscout_website.rst:85
 msgid "Zunahme/Abnahme des BZ innerhalb von 2 Messpunkten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:93
+#: ../../docs/nightscout/nightscout_website.rst:86
 msgid ""
 "Plugins mit Anzeige von Werten wie ``Sensor - Alter`` , ``Insulin on "
 "Board``"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:95
+#: ../../docs/nightscout/nightscout_website.rst:88
 msgid "Basalratenverlauf"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:96
+#: ../../docs/nightscout/nightscout_website.rst:89
 msgid "CGM - Meßwerte"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:97
+#: ../../docs/nightscout/nightscout_website.rst:90
 msgid "Behandlungsdaten Kohenhydrate - und Insulineinheiten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:98
+#: ../../docs/nightscout/nightscout_website.rst:91
 msgid "BZ - Trend - Voraussage"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:99
+#: ../../docs/nightscout/nightscout_website.rst:92
 msgid "Zeitfenster der Darstellung im oberen Bereich"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:101
+#: ../../docs/nightscout/nightscout_website.rst:94
 msgid "In der rechten oberen Ecke finden wir **Menü - Auswahlfelder**."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:103
+#: ../../docs/nightscout/nightscout_website.rst:96
 msgid "|Menüpunkte|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:105
+#: ../../docs/nightscout/nightscout_website.rst:98
 msgid "**Bearbeitungsmodus**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:107
+#: ../../docs/nightscout/nightscout_website.rst:100
 msgid ""
 "``EDIT_MODE`` (``on``) - mögliche Werte ``on`` oder ``off``. Wenn diese "
 "Option aktiviert ist (rot) , kann man z.B. Behandlungsdaten grafisch mit "
@@ -6526,135 +6469,124 @@ msgid ""
 "verschiebt."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:112
+#: ../../docs/nightscout/nightscout_website.rst:105
 msgid "Mit dem **Lautsprecher** - Symbol kann man eingestellte Alarme testen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:114
+#: ../../docs/nightscout/nightscout_website.rst:107
 msgid ""
 "Das Symbol mit den **3 Strichen** ist das Einstellungsmodul mit "
 "umfangreichen Möglichkeiten."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:117
+#: ../../docs/nightscout/nightscout_website.rst:110
 msgid ""
 "Mit dem Klick auf das **+** - Symbol rufen wir das **Behandlungsportal** "
 "auf."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:120
+#: ../../docs/nightscout/nightscout_website.rst:113
 msgid "Mit dem **Taschenrechner** - Symbol gelangen wir zum **Bolus - Rechner**."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:123
-msgid ""
-"Um die Website weiter anzupassen rufen wir jetzt das `Einstellungen "
-"<../nightscout/settings.md>`__ Menü auf."
-msgstr ""
-
-#: ../../docs/nightscout/nightscout_website.rst:128
+#: ../../docs/nightscout/nightscout_website.rst:118
 msgid "Einstellungen"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:130
+#: ../../docs/nightscout/nightscout_website.rst:120
 msgid ""
 "Die **Einstellungen** für die Website erreichen wir mit dem Klick auf das"
 " mit dem **roten** Pfeil markierte Symbol:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:133
+#: ../../docs/nightscout/nightscout_website.rst:123
 msgid "**Oben** haben wir die Wahl von 4 Menüpunkten:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:135
-msgid "`Berichte <../nightscout/settings.md#berichte>`__"
+#: ../../docs/nightscout/nightscout_website.rst:125
+msgid "**Berichte**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:136
-msgid "`Profil - Editor <../nightscout/settings.md#profil---editor>`__"
+#: ../../docs/nightscout/nightscout_website.rst:126
+msgid "**Profil - Editor**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:137
-msgid ""
-"`Nahrungsmittel Editor <../nightscout/settings.md#nahrungsmittel-"
-"editor>`__"
+#: ../../docs/nightscout/nightscout_website.rst:127
+msgid "**Nahrungsmittel - Editor**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:139
-msgid ""
-"`Administrator Werkzeuge <../nightscout/settings.md#administrator-"
-"werkzeuge>`__"
+#: ../../docs/nightscout/nightscout_website.rst:128
+msgid "**Administrator Werkzeuge**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:142
+#: ../../docs/nightscout/nightscout_website.rst:130
 msgid ""
 "**Unten** sind die Browsereinstellungen gelistet. Wenn wir diese zentral "
 "für alle Browser gleich halten wollen, können wor dieses wie in Kapitel "
-"`Nightscout Plugins <../nightscout/azure_plugins.md>`__ beschrieben, "
-"umsetzen."
+":ref:`Nightscout_Plugins` beschrieben, umsetzen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:150
-msgid "Reports"
+#: ../../docs/nightscout/nightscout_website.rst:138
+msgid "Berichte"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:152
+#: ../../docs/nightscout/nightscout_website.rst:140
 msgid ""
 "Wir starten das **Reporting** mit dem Klick auf **Berichte** und erhalten"
 " diese Ansicht:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:155
+#: ../../docs/nightscout/nightscout_website.rst:143
 msgid "|nightscout_reporting_config|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:157
+#: ../../docs/nightscout/nightscout_website.rst:145
 msgid ""
 "Die **Report - Arten** sind umfangreich. Wir können sie uns mit Klicks "
 "auf den Namen aufrufen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:160
+#: ../../docs/nightscout/nightscout_website.rst:148
 msgid ""
 "Mit der Eingabe der **Zeiträume** bestimmt man den Report - Umfang. Wir "
 "können vorgefertigte Zeiträume und individuelle Zeiträume auswählen. "
 "Weitere Filter sind möglich."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:164
+#: ../../docs/nightscout/nightscout_website.rst:152
 msgid "Wir starten die Ausgabe des Reports mit dem Klick auf **Zeigen**."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:166
+#: ../../docs/nightscout/nightscout_website.rst:154
 msgid "Mit dem Report **Von Tag zu Tag** gibt es alle Daten auf einen Blick:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:168
+#: ../../docs/nightscout/nightscout_website.rst:156
 msgid "|nightscout_reporting_daily_graph|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:170
+#: ../../docs/nightscout/nightscout_website.rst:158
 msgid ""
 "Wir haben auch die Möglichkeit, eingegebene Werte mit dem Klick auf "
 "**Bearbeitung** zu **Korrigieren** oder zu **Löschen**:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:173
+#: ../../docs/nightscout/nightscout_website.rst:161
 msgid "|nightscout_change_treatments|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:177
+#: ../../docs/nightscout/nightscout_website.rst:165
 msgid "Profil - Editor"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:179
+#: ../../docs/nightscout/nightscout_website.rst:167
 msgid ""
 "Der Behandlungs Profil Editor speichert angepasste Werte für die "
 "persönliche Therapie.Mit dem Profil - Editor konfigurieren wir Einheiten "
 "und Werte für Plugin iob, cob, bwp und Basalraten."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:183
+#: ../../docs/nightscout/nightscout_website.rst:171
 msgid ""
 "Über einen eneuen Datenbankeintrag durch Klicken auf das + - Symbol "
 "können wir ein alternatives Profil erstellen. Der NS android Client zur "
@@ -6662,75 +6594,75 @@ msgid ""
 "abgespeicherten Profilen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:188
+#: ../../docs/nightscout/nightscout_website.rst:176
 msgid ""
 "**Wichtig:** Ohne Änderugen im Editor werden für die Plugins keine "
 "verwendbaren Werte angezeigt. Seit Grilled Cheese, Version 0.9 ist das "
 "Anlegen eines Profils beim ersten Aufruf der Website erforderlich."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:192
+#: ../../docs/nightscout/nightscout_website.rst:180
 msgid "|nightscout_profile_editor_plugins|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:194
+#: ../../docs/nightscout/nightscout_website.rst:182
 msgid ""
 "Wenn wir die Maus oder den Finger über Fachbegriffe bewegen, werden "
 "**Erklärungstexte** in deutscher Sprache angezeigt sofern Nightscout auf "
 "Deutsch eingestellt wurde."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:197
+#: ../../docs/nightscout/nightscout_website.rst:185
 msgid "Bei **Zeitzone** bitte die entsprechende Zeitzone Einstellen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:199
+#: ../../docs/nightscout/nightscout_website.rst:187
 msgid ""
 "Mit **Dauer der Insulinaktivität (DIA) in Stunden** definieren wir die "
 "Wirkdauer des Bolus - Insulins. Die Plugins iob, bwp benötigen diese "
 "Eingaben."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:203
+#: ../../docs/nightscout/nightscout_website.rst:191
 msgid ""
 "Mit **Insulin/Kohlenhydrate-Verhältnis (I:KH) in Gramm** wird angegeben, "
 "wieviel Boluseinheiten für eine definierte Menge an KH verwendet werden "
 "müssen. Die Plugins iob und cob benötigen diese Eingaben."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:207
+#: ../../docs/nightscout/nightscout_website.rst:195
 msgid ""
 "Mit dem **Insulinsensibilitätsfaktor (iSF) in mg/dl/U oder mmol/L/U** "
 "können wir den Korrekturfaktor in mg/dl oder mmol/L angeben. Mit "
 "mehrfachen Eingaben können unterschiedliche Faktoren bestimmt werden."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:211
+#: ../../docs/nightscout/nightscout_website.rst:199
 msgid ""
 "Mit **Kohlenhydrataktivität / Aufnahme Kohlenhydrate in Gramm/Stunde** "
 "können wir bestimmen, wieviel Gramm Kohlenhydrate pro Stunde "
 "verstoffwechselt werden. Das Plugin cob benötigt diese Eingaben."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:215
+#: ../../docs/nightscout/nightscout_website.rst:203
 msgid ""
 "Mit **Basalraten in Einheiten/Stunde** können wir Basalraten für "
 "bestimmte Zeitbereiche eingeben."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:218
+#: ../../docs/nightscout/nightscout_website.rst:206
 msgid "Am Ende das **Speichern** nicht vergessen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:221
-msgid "Nahrungsmittel Editor"
+#: ../../docs/nightscout/nightscout_website.rst:209
+msgid "Nahrungsmittel -  Editor"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:223
+#: ../../docs/nightscout/nightscout_website.rst:211
 msgid "|nightscout_nahrungsmittel_editor|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:225
+#: ../../docs/nightscout/nightscout_website.rst:213
 msgid ""
 "Im Nahrungsmittel - Editor können wir Mahlzeiten Mit Angabe von "
 "Bezeichnung , Kategorie und Kohlenhydraten. Daten sind für den **Bolus "
@@ -6738,34 +6670,34 @@ msgid ""
 "Daten über csv- oder json - Format in die **mongodb** übertragen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:230
+#: ../../docs/nightscout/nightscout_website.rst:218
 msgid "Eingabe von Nahrungsmittel - Daten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:231
+#: ../../docs/nightscout/nightscout_website.rst:219
 msgid "Ändern, Löschen von Datensätzen"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:234
+#: ../../docs/nightscout/nightscout_website.rst:222
 msgid "Administrator Werkzeuge"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:236
+#: ../../docs/nightscout/nightscout_website.rst:224
 msgid "|nightscout_administrator_werkzeuge|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:238
+#: ../../docs/nightscout/nightscout_website.rst:226
 msgid ""
 "Mit den Administrator - Werkzeugen können wir Berechtigungen zum Zugriff "
 "auf die Nightscout - Website verwalten und Datensätze aus der mongo DB "
 "löschen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:243
+#: ../../docs/nightscout/nightscout_website.rst:231
 msgid "Verwalten von Berechtigungen"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:245
+#: ../../docs/nightscout/nightscout_website.rst:233
 msgid ""
 "Für Berechtigungen benötigt man **Subjekte** (Menschen, Institutionen, "
 "etc.), denen man eine Rolle zuweist. Für jedes Subjekt wird ein "
@@ -6776,59 +6708,59 @@ msgid ""
 "niedrigste ist **kein Zugriff**."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:253
+#: ../../docs/nightscout/nightscout_website.rst:241
 msgid "Anlegen von Subjekten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:254
+#: ../../docs/nightscout/nightscout_website.rst:242
 msgid "Anlegen von Rollen"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:255
+#: ../../docs/nightscout/nightscout_website.rst:243
 msgid "Löschen von Dokumenten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:256
+#: ../../docs/nightscout/nightscout_website.rst:244
 msgid "Behandlungsdaten in der Zukunft"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:258
+#: ../../docs/nightscout/nightscout_website.rst:246
 msgid "Anlegen von Subjekten:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:260
+#: ../../docs/nightscout/nightscout_website.rst:248
 msgid "|nightscout_subjects|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:262
+#: ../../docs/nightscout/nightscout_website.rst:250
 msgid ""
 "Es gibt standardmäßig 6 Rollen, die in den meisten Fällen ausreichend "
 "sind. Hinter den Rollen sind die Zugriffsrechte gelistet."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:265
+#: ../../docs/nightscout/nightscout_website.rst:253
 msgid ""
 "Man kann eigene Rollen wie beim anlegen von Subjekten definieren und "
 "speichern."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:268
+#: ../../docs/nightscout/nightscout_website.rst:256
 msgid ""
 "Es ist unter Punkt 3 möglich, die Gerätestatus - Sammlung (Collection in "
 "der mongo db) mit diesem Menüpunkt zu löschen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:271
+#: ../../docs/nightscout/nightscout_website.rst:259
 msgid ""
 "Mit Punkt 4 kann man fälschlicherweise Behandlungen mit Datum in der "
 "Zukunft aus der Datenbank löschen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:275
+#: ../../docs/nightscout/nightscout_website.rst:263
 msgid "Behandlungsportal"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:277
+#: ../../docs/nightscout/nightscout_website.rst:265
 msgid ""
 "Wir beschäftigen uns hier genauer mit der Dateneingabe und starten mit "
 "dem Klick auf das ``+`` - Symbol. Der Ereignis-Typ ist ein DropDown - "
@@ -6836,55 +6768,55 @@ msgid ""
 "Bolus`` aus, um Insulinmenge und Kohlenhydrate (KH) hinzuzufügen."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:283
+#: ../../docs/nightscout/nightscout_website.rst:271
 msgid "**Ereignis-Typ:**"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:285
+#: ../../docs/nightscout/nightscout_website.rst:273
 msgid "|nightscout_careportal|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:287
+#: ../../docs/nightscout/nightscout_website.rst:275
 msgid "Die Auswahlfelder werden entsprechend der Auswahl angepasst."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:289
+#: ../../docs/nightscout/nightscout_website.rst:277
 msgid ""
 "Eingabe von KH und Insulineinheiten erfolgen jetzt. Wichtig ist auch noch"
 " die Eingabe der"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:292
+#: ../../docs/nightscout/nightscout_website.rst:280
 msgid ""
 "korrekten **Zeit**, falls man Daten nicht online eingeben kann, da diese "
 "zusammen mit den CGM - Werten grafisch dargestellt werden."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:295
+#: ../../docs/nightscout/nightscout_website.rst:283
 msgid ""
 "In dieser Maske können wir auch temporäre Basalraten mit ``Temp Basal "
 "Start/End`` eingegeben. Diese werden anschließend grafisch dargestellt."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:299
+#: ../../docs/nightscout/nightscout_website.rst:287
 msgid ""
 "Nach dem Klick auf **Eingabe Senden** wird man noch aufgefordert, die "
 "eingaben zu bestätigen. Mit **OK** ist alles gespeichert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:302
+#: ../../docs/nightscout/nightscout_website.rst:290
 msgid "Nun können wir uns alles grafisch ansehen:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:304
+#: ../../docs/nightscout/nightscout_website.rst:292
 msgid "|nightscout_cp_entries|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:306
+#: ../../docs/nightscout/nightscout_website.rst:294
 msgid "**Benachrichtigungen** über Therapie - Behandlungsdaten"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:308
+#: ../../docs/nightscout/nightscout_website.rst:296
 msgid ""
 "Wenn Benachrichtigungen über Behandlungsdaten aktiviert sind, werden "
 "Benachrichtigungen generiert wenn eine Eingabe im Careportal gemacht "
@@ -6894,34 +6826,34 @@ msgid ""
 "TREATMENTNOTIFY\\_SNOOZE\\_MINS Variable ändert."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:317
+#: ../../docs/nightscout/nightscout_website.rst:305
 msgid "Bolus Rechner"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:319
+#: ../../docs/nightscout/nightscout_website.rst:307
 msgid ""
 "Der Bolus Rechner berechnet die abzugebende Insulinmenge für eine "
 "Mahlzeit. Wir erreichen das Menü durch Klick auf das Rechner - Sysmbol "
 "ganz oben rechts:"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:323
+#: ../../docs/nightscout/nightscout_website.rst:311
 msgid "|Bolus Rechner|"
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:325
+#: ../../docs/nightscout/nightscout_website.rst:313
 msgid ""
 "Die KHs können entweder manuell oder über gespeicherte Mahlzeiten aus der"
 " Nahrungsmittel - Tabelle eingegeben werden."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:328
+#: ../../docs/nightscout/nightscout_website.rst:316
 msgid ""
 "Der Bolus Rechner greift auf Werte aus dem ``Profil Editor`` zu, genauer "
 "dem ``ISF`` und dem ...."
 msgstr ""
 
-#: ../../docs/nightscout/nightscout_website.rst:331
+#: ../../docs/nightscout/nightscout_website.rst:319
 msgid "mit ``Formular absenden`` werden die Daten gespeichert."
 msgstr ""
 
@@ -7159,11 +7091,61 @@ msgid "`xDrip 1-Platinen Layout <https://oshpark.com/shared_projects/IuYnoGB9>`_
 msgstr ""
 
 #~ msgid ""
-#~ "Die Nightscout Website lässt sich fast"
-#~ " vollkommen automatisiert einrichten. Dieses "
-#~ "sowohl mit **Azure** als auch mit "
-#~ "**Heroku** als Provider. Dieses ist in"
-#~ " Kapitel `Der Deploy to Azure Button"
-#~ " <../nightscout/deploy_to_azure.md>`__ beschrieben."
+#~ msgstr ""
+
+#~ msgid "|azure_reg|"
+#~ msgstr ""
+
+#~ msgid "|azure_portal|"
+#~ msgstr ""
+
+#~ msgid "|azure_config_app|"
+#~ msgstr ""
+
+#~ msgid "|azure_app_created|"
+#~ msgstr ""
+
+#~ msgid "|azure_enable_plugins|"
+#~ msgstr ""
+
+#~ msgid "|azure_choose_github|"
+#~ msgstr ""
+
+#~ msgid "|github_authorize|."
+#~ msgstr ""
+
+#~ msgid "|azure_authorize_github|."
+#~ msgstr ""
+
+#~ msgid "|azure_crm|"
+#~ msgstr ""
+
+#~ msgid "|azure_prices|"
+#~ msgstr ""
+
+#~ msgid "|azure_prices_web|"
+#~ msgstr ""
+
+#~ msgid "Der Deploy to Azure Button"
+#~ msgstr ""
+
+#~ msgid "`Berichte <../nightscout/settings.md#berichte>`__"
+#~ msgstr ""
+
+#~ msgid "`Profil - Editor <../nightscout/settings.md#profil---editor>`__"
+#~ msgstr ""
+
+#~ msgid "Reports"
+#~ msgstr ""
+
+#~ msgid "Nahrungsmittel Editor"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Möchte man sich die FGM/CGM - "
+#~ "Werte anzeigen lassen, so sind die "
+#~ "Einstellungen zum Übertragen der Daten "
+#~ "in der Uploader-App :ref:`xDrip` , "
+#~ "NightScout-Uploader oder Glimp) erforderlich."
 #~ msgstr ""
 
