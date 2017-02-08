@@ -1,4 +1,4 @@
-.. _local_iinstallations:
+.. _local_installations:
 
 Installation ohne Cloud Service Provider
 ========================================
