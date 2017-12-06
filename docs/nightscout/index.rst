@@ -31,7 +31,7 @@ Nightscout besteht aus **3 Komponenten**:
    eigene standalone - Lösungen bei einem entspr. Provider sind auch
    möglich.
 
-WIR EMPFEHLEN MITTLERWEILE DIE EINRICHTUNG ÜBER HEROKU. An der deutschen Anleitung dafür wird noch gearbeitet.
+WIR EMPFEHLEN MITTLERWEILE DIE EINRICHTUNG ÜBER HEROKU. An der deutschen Anleitung dafür wird noch gearbeitet. Bis dahin:  https://loopkit.github.io/loopdocs/nightscout/new_user/
 
 Wir können Azure auf verschiedene Weisen einrichten:
 
