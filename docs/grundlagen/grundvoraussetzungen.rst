@@ -18,9 +18,9 @@ Man kann :term:`Nightscout` auf verschiedene Weise nutzen:
 -  als Kontroll- und Alarmsystem für Angehörige von Diabetikern,
    insbesondere wenn Kinder oder ältere Menschen vom Diabetes betroffen
    sind
--  als Visualisierung deiner eigenen CGM-Daten direkt am Handgelenk
+-  als Visualisierung deiner eigenen CGM-Daten direkt am Handgelenk, auf dem Smartphone oder nur am PC
 -  als Blutzucker Tagebuch mit umfangreichen Auswertungsmöglichkeiten
--  als Monitoring System für ein APS (Artificial Pancreas System - der
+-  als Monitoring System für ein DIY-APS (Artificial Pancreas System - der
    sogenannte "Closed Loop" oder auch "Künstliche Bauchspeicheldrüse")
 -  als Schnittstelle, um diese Daten weiterzuverwerten
 
@@ -29,11 +29,12 @@ finanzielle / technische Voraussetzungen
 ----------------------------------------
 
 -  CGM, durch die Krankenkasse oder privat finanziert
--  Dexcom G4 Platinum funktioniert sehr gut,
--  langsam kommt aber auch das Enlite dazu.
+-  Dexcom G4 Platinum, G5 und G6 funktionieren sehr gut,
+-  aber auch Medtrum A6 oder gar der Libre 1 mit Bluetooth-Kappe ist möglich,
+-  langsam kommt auch das Enlite dazu.
 -  Ein Stück Hardware, um die CGM-Daten hochzuladen, z.B.
    `xDrip <https://nightscout.gitbooks.io/nightscout_handbuch/content/grundlagen/xdrip/xdrip.html>`__
-   (ca. 50 bis 60€) oder den MMCommander oder ..
+   (ca. 50 bis 60€) für den Dexcom G4 oder den MMCommander oder ..
 -  Smartphone (Android-Telefon)
 -  mit Betriebssystem-Version 4.3 (besser 4.4 oder höher) und
 -  Bluetooth-Low-Energy (BLE)-Funktionalität. Diese ist in der Regel ab
