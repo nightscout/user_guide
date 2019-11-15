@@ -21,7 +21,7 @@ Dokumentationswerkzeug, welches auf die `Open API
 Initiative <https://openapis.org/>`__ aufbaut.
 
 | Wir können das Nightscout API mit der Adresse:
-| https://meinwebsitename.azurewebsites.net/api-docs.html#/ aufrufen:
+| https://meinwebsitename.azurewebsites.net/api-docs/#/ aufrufen:
 
 **Nightscout API:**
 
