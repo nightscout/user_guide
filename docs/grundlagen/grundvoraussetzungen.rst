@@ -20,8 +20,7 @@ Man kann :term:`Nightscout` auf verschiedene Weise nutzen:
    sind
 -  als Visualisierung deiner eigenen CGM-Daten direkt am Handgelenk, auf dem Smartphone oder nur am PC
 -  als Blutzucker Tagebuch mit umfangreichen Auswertungsmöglichkeiten
--  als Monitoring System für ein DIY-APS (Artificial Pancreas System - der
-   sogenannte "Closed Loop" oder auch "Künstliche Bauchspeicheldrüse")
+-  als Monitoring System für ein DIYAPS (Do-It-Yourself Artificial Pancreas System - oder "Closed Loop", "Automated Insulin Delivery" oder "Künstliche  Bauchspeicheldrüse")
 -  als Schnittstelle, um diese Daten weiterzuverwerten
 
 
@@ -29,7 +28,7 @@ finanzielle / technische Voraussetzungen
 ----------------------------------------
 
 -  CGM, durch die Krankenkasse oder privat finanziert
--  Dexcom G4 Platinum, G5 und G6 funktionieren sehr gut,
+-  Dexcom G4, G5 und G6 funktionieren sehr gut,
 -  aber auch Medtrum A6 oder gar der Libre 1 mit Bluetooth-Kappe ist möglich,
 -  langsam kommt auch das Enlite dazu.
 -  Ein Stück Hardware, um die CGM-Daten hochzuladen, z.B.
